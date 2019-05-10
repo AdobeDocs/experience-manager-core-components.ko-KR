@@ -10,7 +10,7 @@ topic-tags: 소개
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: C 44 BB 0 D 7-5 D 91-4659-878 E-A 0658 FE 29 AA 2
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -116,11 +116,3 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 Foundation 구성 요소는 많은 버전에 대한 많은 프로젝트 개발을 기반으로 했으므로 향후 계속 지원될 것입니다.
 
 그러나 Adobe의 개발 강조는 핵심 구성 요소로 전환되었으며 새로운 기능이 추가되더라도 기본 구성 요소에는 버그 수정만 적용됩니다.
-
-<!-- 
-Comment Type: annotation
-Last Modified By: pid90611
-Last Modified Date: 2018-03-27T09:06:05.428-0400
-
-Same comment as above, need to check with Gabriel if this needs some note about what will happen with the deprecated components after the next cycle.
--->
