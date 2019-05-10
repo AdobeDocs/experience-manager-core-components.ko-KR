@@ -10,7 +10,7 @@ topic-tags: 저작
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: F 093 F 58 E -9755-4 A 4 F -803 A-AB 93 A 50 E 6870
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 ## 기술 세부 정보 {#technical-details}
 
-컨텐츠 조각 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)에서 찾을 수 있습니다.
+컨텐츠 조각 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)에서 찾을 수 있습니다.
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를](developing.md)참조하십시오.
 
