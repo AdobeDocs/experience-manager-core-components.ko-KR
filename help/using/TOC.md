@@ -4,7 +4,7 @@ product: Adobe Experience Manager 코어 구성 요소
 archtype: 관리자
 user-guide-title: AEM 코어 구성 요소
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -55,6 +55,6 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
          + [양식 옵션(v1)](form-options-v1.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing.md)
-   + [WKND 개발자 자습서](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
+   + [WKND 개발자 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [핵심 구성 요소 맞춤화](customizing.md)
    + [구성 요소 지침](guidelines.md)
