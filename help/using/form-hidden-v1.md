@@ -9,7 +9,7 @@ products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: D 35 F 4 E 71-EC 7 F -4128-9123-B 997 DBB 5 F 0 CF
 index: n
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 

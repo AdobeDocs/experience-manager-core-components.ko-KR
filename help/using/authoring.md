@@ -8,7 +8,7 @@ content-type: 참조
 topic-tags: 저작
 discoiquuid: 8751 E 490-D 427-44 F 2-B 767-51935 AFDA 988
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ---
 

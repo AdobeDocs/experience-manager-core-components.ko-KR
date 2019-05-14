@@ -11,7 +11,7 @@ products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: ECD 237 DF -08 B 8-4 DEB -9881-66 A 1 F 0 D 65 EF 3
 modalsize: 426x240
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 

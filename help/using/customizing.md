@@ -10,7 +10,7 @@ topic-tags: developing
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: 3 C 9 E 0 ADE -1 CE 0-4 E 34-AE 04-8 DA 63 F 9 B 6 C 4 F
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 

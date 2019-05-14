@@ -9,7 +9,7 @@ topic-tags: 핵심 구성 요소
 discoiquuid: B 3 F 1775 D -743 D -4 F 72-A 1 E 5-198303007 A 8 E
 index: n
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 

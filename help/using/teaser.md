@@ -9,7 +9,7 @@ content-type: 참조
 topic-tags: 핵심 구성 요소
 discoiquuid: E 597 C 18 E -3643-41 BE -9878-4 A 7872 F 1 AB 90
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 

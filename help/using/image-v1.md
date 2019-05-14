@@ -9,7 +9,7 @@ products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: AB 9041 AB-E 29 E -4277-B 326-85 AB 37 DF 8413
 index: n
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 

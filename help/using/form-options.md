@@ -10,7 +10,7 @@ topic-tags: 저작
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: 42289 C 2 B -1671-463 A-AC 1 D -457 AA 9 AEFA 2 A
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
