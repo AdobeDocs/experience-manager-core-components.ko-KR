@@ -10,7 +10,7 @@ topic-tags: 저작
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: F 093 F 58 E -9755-4 A 4 F -803 A-AB 93 A 50 E 6870
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 ---
 
@@ -40,6 +40,18 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+
+>[!NOTE]
+>
+>릴리스 2.4.0 이전에는 컨텐츠 조각 구성 요소가 Extensions 폴더에 있었습니다.
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>2.4.0에서 다음 위치로 이동되었습니다.
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>둘 다 v 1 이지만 Extensions 폴더에서 사용된 모든 컨텐츠 조각 구성 요소는 2.4.0 이상의 핵심 구성 요소로 업그레이드할 때 새 리소스 유형을 사용하기 위해 관련 프록시 구성 요소의 마이그레이션이 필요합니다.
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [코어 구성 요소 버전을 참조하십시오](versions.md).
 
