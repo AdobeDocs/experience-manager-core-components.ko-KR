@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -135,13 +135,13 @@ Load the Core Client Libraries sounds way better
 
 ## 구성 요소 허용 {#allow-the-components}
 
-다음 단계는 일반적으로 기존 설정을 위해 [템플릿 편집기에서](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)수행됩니다. 하지만 이 작업은 디자인 모드에서 수행할 수 있습니다.
+다음 단계는 [템플릿 편집기에서 수행합니다](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. 템플릿 편집기 (또는 디자인 모드) 에서 레이아웃 컨테이너 (또는 parsys) 를 선택하고 해당 정책 (또는 디자인 구성) 를 엽니다.
+1. 템플릿 편집기에서 레이아웃 컨테이너를 선택하고 해당 정책을 엽니다.
 1. 허용된 구성 요소 목록에서 이전에 만든 프록시 구성 요소를 선택하고 여기에 지정된 구성 요소 그룹 아래에 나타나야 합니다. 완료되면 변경 사항을 적용합니다.
 1. 디자인 대화 상자가 있는 구성 요소의 경우 미리 구성할 수 있습니다.
 
-즉, 편집된 템플릿으로 만든 페이지에서 새로 만든 구성 요소를 사용할 수 있습니다.
+이상입니다! 편집된 템플릿에서 만든 페이지에서 새로 만든 구성 요소를 사용할 수 있습니다.
 
 **다음을 참조하십시오.**
 
