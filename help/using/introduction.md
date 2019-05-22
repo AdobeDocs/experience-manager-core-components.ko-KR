@@ -10,7 +10,7 @@ topic-tags: 소개
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: C 44 BB 0 D 7-5 D 91-4659-878 E-A 0658 FE 29 AA 2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 
 ## WKND 개발자 자습서 {#wknd-developer-tutorial}
 
-[이 단계별 자습서를 따라 핵심 구성 요소를 사용하여 AEM Sites 개발을 시작하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+이 단계별 자습서를 따라 [핵심 구성 요소를 사용하여 AEM Sites 개발을 시작하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 핵심 구성 요소 지원 {#core-components-support}
 
@@ -115,4 +115,4 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 
 Foundation 구성 요소는 많은 버전에 대한 많은 프로젝트 개발을 기반으로 했으므로 향후 계속 지원될 것입니다.
 
-그러나 Adobe의 개발 강조는 핵심 구성 요소로 전환되었으며 새로운 기능이 추가되더라도 기본 구성 요소에는 버그 수정만 적용됩니다.
+그러나 Adobe의 개발 강조는 핵심 구성 요소로 옮겨졌고 새로운 기능은 추가되지만 [거의 모든 기본 구성 요소는 AEM 6.5에서 더 이상 사용되지](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 않으며 앞으로 기본 구성 요소에서만 버그 수정이 수행됩니다.
