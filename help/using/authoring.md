@@ -8,7 +8,7 @@ content-type: 참조
 topic-tags: 저작
 discoiquuid: 8751 E 490-D 427-44 F 2-B 767-51935 AFDA 988
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -19,25 +19,25 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 
 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다. [We. Retail 참조 사이트는](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 핵심 구성 요소를 사용할 수 있는 방법을 보여줍니다.
 
+핵심 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+
 >[!NOTE]
 >
->작성자는 핵심 구성 요소를 즉시 사용할 수 없으며 [, 개발 팀은 먼저 이러한 구성 요소를 환경에 통합해야](using.md)합니다. 통합된 후에는 [템플릿 편집기](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 또는 [디자인 모드를 통해 사용 및 미리 구성할](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)수 있습니다.
+>작성자는 핵심 구성 요소를 즉시 사용할 수 없으며 [, 개발 팀은 먼저 이러한 구성 요소를 환경에 통합해야](using.md)합니다. 통합되면 [템플릿 편집기를 통해 사용 가능하고 미리 구성할](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)수 있습니다.
 
 >[!CAUTION]
 >
->핵심 구성 요소는 [AEM 6.3 이상을 필요로 하며](versions.md) 클래식 UI 에서는 작동하지 않습니다.
+>핵심 구성 요소는 [AEM 6.3 이상을 필요로 하며](versions.md) [편집 가능한 템플릿을 사용해야](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)합니다. 클래식 UI와 정적 템플릿에서는 작동하지 않습니다.
 
 ## 핵심 구성 요소로 작성 {#authoring-with-core-components}
-
-핵심 구성 요소를 이해하려면 핵심 구성 요소를 소개하고 사용 방법의 예를 제공하는 [구성 요소 라이브러리를](http://opensource.adobe.com/aem-core-wcm-components/library.html)확인하십시오.
 
 작성자는 다음과 같은 핵심 구성 요소의 몇 가지 이점을 알 수 있습니다.
 
 * 페이지 편집기와 간편하게 통합 [및 통합](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* We. Retail에 소개된 [다양한 활용 사례를 수용하기 위한 기능이 풍부한 기능](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [페이지 작성자가 사용할 수 있는 기능을 정의하기](#pre-configuring-core-components) 위한 사전 구성 가능
-   * 템플릿 [편집기를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 통해 [편집 가능한 템플릿 제작](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-   * 정적 템플릿을 [위한 디자인](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) [모드](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* We. Retail와 구성 요소 라이브러리에서와 같이 [다양한 사용 사례를 수용할 수](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 있는 [기능이 풍부한 기능](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [템플릿 편집기를](#pre-configuring-core-components) 통해 페이지 작성자가 사용할 수 있는 기능을 정의하는 [사전 구성 가능](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * 접근성 가이드라인을 중심으로 [구축](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
@@ -55,7 +55,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 
 ## 핵심 구성 요소 사전 구성 {#pre-configuring-core-components}
 
-기본 구성 요소 구성은 개발자의 작업이었습니다. 그러나 핵심 구성 요소로 템플릿 작성자는 이제 템플릿 편집기 또는 디자인 모드에서 다양한 기능을 구성할 수 있습니다.
+기본 구성 요소 구성은 개발자의 작업이었습니다. 그러나 템플릿 작성자는 코어 구성 요소를 사용하여 템플릿 편집기를 통해 다양한 기능을 구성할 수 있습니다.
 
 예를 들어 이미지 구성 요소가 파일 시스템에서 이미지 업로드를 허용하지 않거나 텍스트 구성 요소가 특정 단락 포맷만 허용해야 하는 경우 간단한 클릭으로 이러한 기능을 활성화하거나 비활성화할 수 있습니다.
 
