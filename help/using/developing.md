@@ -10,7 +10,7 @@ topic-tags: developing
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: 157 A 2 EC 3-9 FCA -4 FAD -977 A-D 93013 EEB 218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 >[!CAUTION]
 >
->핵심 구성 요소에는 AEM 6.3 이상과 Java 8 이 필요합니다.
+>핵심 구성 요소는 AEM 6.3 이상과 Java 8를 필요로 하며 [편집 가능한 템플릿을 사용해야 합니다.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->핵심 구성 요소는 클래식 UI에서 작동하지 않습니다.
+>핵심 구성 요소는 클래식 UI 또는 정적 템플릿과 함께 작동하지 않습니다.
 
 ## Gems 세션 개요 {#gems-session-overview}
 
@@ -57,7 +57,7 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ## WKND 개발자 자습서 {#wknd-developer-tutorial}
 
-[이 단계별 자습서를 따라 핵심 구성 요소를 사용하여 AEM Sites 개발을 시작하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+이 단계별 튜토리얼을 따라 [핵심 구성 요소를 사용하여 AEM 사이트를 개발하는 방법을 살펴보십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Github를 통해 제공 {#delivered-over-github}
 
@@ -172,7 +172,22 @@ We. Retail 참조 사이트에서 해당 [컨텐츠를](https://helpx.adobe.com/
 요소가 예상대로 작동하면 그대로 유지합니다.\
    그렇지 않은 경우 위의 &quot;새로운 사용자 지정 구성 요소&quot; 를 참조하십시오.
 
-### 핵심 구성 요소 지원 {#core-component-support}
+## 핵심 구성 요소로 마이그레이션
+
+모든 새 프로젝트는 핵심 구성 요소로 구현해야 합니다. 그러나 기존 프로젝트에는 일반적으로 기본 구성 요소가 광범위하게 구현되어 있습니다.
+
+기존 프로젝트 (예: 리브랜딩 또는 전체 리팩토링) 에 대한 큰 노력은 종종 핵심 구성 요소로 마이그레이션할 기회를 제공합니다. Adobe는 이 마이그레이션을 용이하게 하기 위해 핵심 구성 요소 및 최신 AEM 기술의 채택을 장려하기 위한 다양한 마이그레이션 도구를 제공했습니다.
+
+[AEM Modernify Tools Suite](https://github.com/adobe/aem-modernize-tools) 에서는 다음 사항을 쉽게 변환할 수 있습니다.
+
+* 편집 툴이다. 이제는 실시간 미리보기를 통해 더
+* 정책에 대한 디자인 구성
+* 핵심 구성 요소에 대한 기본 구성 요소
+* 터치 활성화 UI에 대한 클래식 UI
+
+이러한 도구의 사용에 대한 자세한 내용은 해당 [설명서를](https://www.adobe.com/go/aem_modernize_tools_en)참조하십시오.
+
+## 핵심 구성 요소 지원 {#core-component-support}
 
 핵심 구성 요소는 AEM의 핵심적인 부분으로, Quickstart의 일부로 제공된 것과 동일한 조건에서 동일한 조건에서 지원됩니다.
 
@@ -182,11 +197,11 @@ We. Retail 참조 사이트에서 해당 [컨텐츠를](https://helpx.adobe.com/
 
 구성 요소 사용자 정의 지원에 대한 자세한 내용은 핵심 구성 요소 [페이지 사용자 지정을](customizing.md) 참조하십시오.
 
-### 기본 구성 요소 지원 {#foundation-component-support}
+## 기본 구성 요소 지원 {#foundation-component-support}
 
-Foundation 구성 요소는 많은 버전에 대한 많은 프로젝트 개발을 기반으로 했으므로 향후 계속 지원될 것입니다.
+Foundation 구성 요소는 많은 AEM 버전에 대한 많은 프로젝트 개발의 기초로 제공되기 때문에 향후 계속 지원될 것입니다.
 
-그러나 Adobe의 개발 강조는 핵심 구성 요소로 전환되었으며 새로운 기능이 추가되더라도 기본 구성 요소에는 버그 수정만 적용됩니다.
+그러나 Adobe의 개발 강조는 핵심 구성 요소로 옮겨졌고 새로운 기능은 추가되지만 [거의 모든 기본 구성 요소는 AEM 6.5에서 더 이상 사용되지](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 않으며 앞으로 기본 구성 요소에서만 버그 수정이 수행됩니다.
 
 **다음을 참조하십시오.**
 
