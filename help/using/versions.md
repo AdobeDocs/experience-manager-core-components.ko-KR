@@ -10,20 +10,20 @@ topic-tags: 소개
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: A 3 A 98 B 2 F -65 BF -4493-82 AD -01717938 FDBC
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
 
 ---
 
 
-# 핵심 구성 요소 버전{#core-components-versions}
+# Core Components Versions{#core-components-versions}
 
 핵심 구성 요소의 현재 릴리스는 2.4.0 이며 AEM 6.5와 호환됩니다. 2019 년 5 월 릴리스 2.0.0에 대한 경미한 업데이트로 출시되었습니다. 릴리스 2.0.0는 기존 구성 요소의 v 2 업데이트와 함께 새 구성 요소를 도입했습니다.
 
-자세한 내용은 이 문서의 섹션 [릴리스 내역 및 호환성을](#versions-and-releases) 참조하십시오.
+See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
-핵심 구성 요소의 현재 릴리스를 표시하고 사용 예를 제공하는 [구성 요소 라이브러리를](http://opensource.adobe.com/aem-core-wcm-components/library.html)확인할 수도 있습니다.
+You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
 
-## 버전 및 릴리스 {#versions-and-releases}
+## Versions and Releases {#versions-and-releases}
 
 핵심 구성 요소는 Github를 통해 배포됩니다. 이를 통해 Adobe는 구성 요소에 기능을 보다 신속하게 추가할 수 있으며 AEM 릴리스 주기의 외부에 커뮤니티 의견을 입력할 수 있습니다.
 
@@ -31,15 +31,15 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 
 ### 버전 {#versions}
 
-핵심 구성 요소의 주요 반복은 **버전입니다**. 각 구성 요소에는 버전이 있습니다. 버전은 **v 1 및 v 2와 같이 0 이 아닌 양의 정수를 가진 v** 로 표시됩니다. 버전은 역호환이 아닌 변경 사항에만 증가하며, 이는 일반적으로 새로운 특징의 도입에 대한 대소문자입니다.
+The major iteration of the Core Components are the **versions**. 각 구성 요소에는 버전이 있습니다. Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. 버전은 역호환이 아닌 변경 사항에만 증가하며, 이는 일반적으로 새로운 특징의 도입에 대한 대소문자입니다.
 
-개발자와 관리자는 핵심 구성 요소 버전을 리소스 유형 경로 및 구현의 정규화된 Java 클래스 이름에서 숫자로 인식할 수 있습니다. 이 버전 번호는 Semantic 버전 관리 가이드라인에 의해 [정의된 주요 버전을 나타냅니다](https://semver.org/).
+개발자와 관리자는 핵심 구성 요소 버전을 리소스 유형 경로 및 구현의 정규화된 Java 클래스 이름에서 숫자로 인식할 수 있습니다. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
 
-핵심 구성 요소 버전에 대한 자세한 내용은 핵심 구성 요소의 [개발자 설명서를 참조하십시오](guidelines.md).
+For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
 
-### 릴리스 {#releases}
+### Releases {#releases}
 
-핵심 구성 요소는 **릴리스를 통해** 사용할 수 있으며 Github에서 사용할 수 있는 실제 게시된 결함을 [나타냅니다](https://github.com/adobe/aem-core-wcm-components/releases). 릴리스는 x. y. z 형식의 십진수 형식으로 표시되고 모든 핵심 구성 요소를 배달 패키지로 취합합니다.
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). 릴리스는 x. y. z 형식의 십진수 형식으로 표시되고 모든 핵심 구성 요소를 배달 패키지로 취합합니다.
 
 * **주요 릴리스는** 새로운 버전의 기존 구성 요소와 완전히 새로운 구성 요소 및 표준 버그 수정을 제공합니다. 이것은 릴리스 번호의 x 구성 요소에서 증분으로 표시됩니다.
 
@@ -53,15 +53,15 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 >
 >동일한 버전의 구성 요소가 여러 릴리스에서 나타날 수 있습니다.
 
-## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
+## Release History and Compatibility {#release-history-and-compatibility}
 
 핵심 구성 요소는 AEM 6.3에서 처음 릴리스되었으며, 지원되는 모든 AEM 버전과 호환되고 호환되도록 설계되었습니다. 이 때문에 구성 요소 릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 있습니다.
 
 다음 표에서는 릴리스 버전과 함께 핵심 구성 요소 버전과 함께 핵심 구성 요소 버전과 호환성을 보여줍니다.
 
-### 릴리스 내역 및 지원되는 AEM 버전 {#release-history-supported-aem-versions}
+### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
 
-전체 릴리스 세부 사항과 함께 Github에서 사용할 [수 있는 다음 표는](https://github.com/adobe/aem-core-wcm-components/releases)핵심 구성 요소의 릴리스 및 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요를 제공합니다.
+The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
 
 | 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
@@ -83,9 +83,9 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 
 >[!NOTE]
 >
->AEM와 마찬가지로, Adobe 에서는 개발자가 최신 수정 [버전과 기능을 사용할](https://github.com/adobe/aem-core-wcm-components/releases/latest) 수 있도록 AEM 버전과 호환되는 최신 버전의 핵심 구성 요소를 사용할 것을 권장합니다. 이 구성 요소는 최신 수정 사항 및 기능을 활용할 수 있습니다.
+>As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
 
-### 구성 요소 버전 및 릴리스 {component-versions-and-release}
+### Component Versions &amp; Releases {#component-versions-and-releases}
 
 다음 표에서는 핵심 구성 요소의 릴리스에서 어떤 구성 요소가 포함되어 있는지 자세히 설명합니다.
 
@@ -102,14 +102,14 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | **[양식 옵션](form-options.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
 | **[숨겨진 양식](form-hidden.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
 | **[양식 단추](form-button.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
-| **[컨텐츠 조각](content-fragment-component.md)** | 샌드박스 | v1 | v1 | v1 | v1 |
-| **[탐색](navigation.md)** | v1 | v1 | v1 | v1 |
-| **[언어 탐색](language-navigation.md)** | v1 | v1 | v1 | v1 |
-| **[빠른 검색](quick-search.md)** | v1 | v1 | v1 | v1 |
-| **[티저](teaser.md)** | v1 | v1 | v1 |
-| **[탭](tabs.md)** | v1 | v1 |
-| **[회전판](carousel.md)** | v1 | v1 |
-| **[separator](separator.md)** | v1 |
+| **[컨텐츠 조각](content-fragment-component.md)** |  | 샌드박스 | v1 | v1 | v1 | v1 |
+| **[탐색](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[언어 탐색](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[빠른 검색](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[티저](teaser.md)** |  |  |  | v1 | v1 | v1 |
+| **[탭](tabs.md)** |  |  |  |  | v1 | v1 |
+| **[회전판](carousel.md)** |  |  |  |  | v1 | v1 |
+| **[separator](separator.md)** |  |  |  |  |  | v1 |
 
 ## 설명서 {#documentation}
 
