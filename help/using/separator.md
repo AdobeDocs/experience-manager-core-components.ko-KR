@@ -7,7 +7,7 @@ contentOwner: Bohnert
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 컨텐츠 작성자는 separator 구성 요소를 사용하여 컨텐츠 간의 틈로 수평 규칙을 쉽게 만들어 페이지에 대한 정보를 더 잘 구성할 수 있습니다.
 
-## 버전 및 호환성 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 현재 버전의 Separator 구성 요소는 2019 년 2 월에 출시된 핵심 구성 요소의 릴리스 2.3.0에서 소개된 v 1 이며, 이 문서에는 설명되어 있습니다.
 
@@ -30,32 +30,24 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 |---|---|---|---|
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
-## 샘플 구성 요소 출력 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-[다음은 We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)에서 가져온 샘플입니다.
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
-### 스크린샷 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screen_shot_2019-02-07at09.38.58.png)
+The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
-### 구성 요소 라이브러리
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-분리 기호 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
-
-### 기술 세부 정보 {#technical-details}
-
-separator 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)에서 찾을 수 있습니다.
-
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를](developing.md)참조하십시오.
-
-## 구성 대화 상자 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
 구분 구성 요소에는 구성 대화 상자가 없습니다.
 
-## 디자인 대화 상자 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 템플릿 작성자는 디자인 대화 상자를 사용하여 분리 구성 요소에 적용된 스타일을 정의할 수 있습니다.
 
-### 스타일 탭 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-separator 구성 요소는 AEM [스타일 시스템을 지원합니다](authoring.md#component-styling).
+The Separator Component supports the AEM [Style System](authoring.md#component-styling).
