@@ -19,7 +19,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -30,9 +30,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ## 사용량 {#usage}
 
-목록 구성 요소는 하위 페이지의 동적 목록 또는 임의 정의된 임의 항목의 정적 목록을 만드는 데 사용할 수 있습니다. 사용 가능한 목록 유형 및 서식 옵션은 [디자인 대화 상자의 템플릿 작성자가 정의할](#design-dialog)수 있습니다. 컨텐츠 편집기에서는 사용 가능한 목록 유형과 [편집 대화 상자에서 목록 요소의 형식을 지정하는 방법을](#edit-dialog)선택할 수 있습니다.
+목록 구성 요소는 하위 페이지의 동적 목록 또는 임의 정의된 임의 항목의 정적 목록을 만드는 데 사용할 수 있습니다. The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
 
-## 버전 및 호환성 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 목록 구성 요소의 현재 버전은 2018 년 1 월에 핵심 구성 요소의 릴리스 2.0.0에 도입된 v 2 이며, 이 문서에서는 설명합니다.
 
@@ -43,31 +43,23 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 | v2 | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](list-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [코어 구성 요소 버전을 참조하십시오](versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## 샘플 구성 요소 출력 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-[다음은 We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)에서 가져온 샘플입니다.
+To experience the List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/list.html).
 
-### 스크린샷 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screen_shot_2018-01-12at105924.png)
+The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
 
-### 구성 요소 라이브러리
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-목록 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/list.html).
-
-### 기술 세부 정보 {#technical-details}
-
-목록 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)에서 찾을 수 있습니다.
-
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를](developing.md)참조하십시오.
-
-## 편집 대화 상자 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 컨텐츠 작성자는 편집 대화 상자를 사용하여 목록 및 목록 항목을 구성할 수 있습니다.
 
-### 목록 설정 탭 {#list-settings-tab}
+### List Settings Tab {#list-settings-tab}
 
 목록은 다른 방식으로 빌드할 수 있습니다.
 
@@ -76,7 +68,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 * [검색](#search-options)
 * [태그](#tags)
 
-목록이 구성되는 방식에 관계없이 항상 구성할 수 있는 [정렬 옵션이](#sort-options) 있습니다.
+Regardless of how the list is built, there are [Sort Options](#sort-options) that can always be configured.
 
 ![](assets/chlimage_1-38.png)
 
@@ -92,9 +84,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
    * 하위 페이지가 목록을 만들어야 하는 페이지
    * 현재 페이지를 사용하려면 비워 두십시오.
 
-* **하위 깊이**계층 구조에서 아래쪽으로 얼마나 많이 사용해야 합니까?
+* **하위 깊이** 계층 구조에서 아래쪽으로 얼마나 많이 사용해야 합니까?
 
-#### 고정 목록 {#fixed-list}
+#### Fixed List {#fixed-list}
 
 목록은 고정된 항목 목록을 사용하여 작성할 수 있습니다.
 
@@ -102,7 +94,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 **추가** 단추를 탭하거나 클릭하여 목록에 새 항목을 삽입합니다.
 
-* 목록에 있는 항목에 대한 텍스트를 입력하거나 **선택 대화 상자를** 사용하여 AEM에서 항목을 선택합니다.
+* Enter text for the item in the list or use the **Selection Dialog** to choose an item from AEM.
 * 드래그 핸들을 사용하여 목록의 항목을 다시 정렬합니다.
 * 휴지통 아이콘을 사용하여 목록에서 항목을 삭제합니다.
 
@@ -114,7 +106,7 @@ AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다
 
 * **검색 쿼리를**
 사용하여 전체 텍스트 검색이 실행될 문자열을 검색합니다.
-* **검색을 실행해야**하는 위치 검색
+* **검색을 실행해야** 하는 위치 검색
    * **선택 대화 상자를** 사용하여 AEM에서 위치를 선택합니다.
    * 비워 두면 현재 페이지 사용
 
@@ -124,23 +116,23 @@ AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다
 
 ![](assets/chlimage_1-42.png)
 
-* **태그 일치를**시작해야 하는 상위 페이지
+* **태그 일치를** 시작해야 하는 상위 페이지
    * **선택 대화 상자를** 사용하여 AEM에서 위치를 선택합니다.
    * 비워 두면 현재 페이지 사용
-* **태그가**일치해야 하는 태그
+* **태그가** 일치해야 하는 태그
    * **탐색** 대화 상자를 사용하여 태그를 선택합니다.
 * **일치 -**
 목록에 포함할 페이지 자격이 있는 일치 항목을 정의합니다.
    * **임의의 태그**
    * **모든 태그**
 
-#### 정렬 옵션 {#sort-options}
+#### Sort Options {#sort-options}
 
 목록을 작성하는 방법에 관계없이 항상 정의할 수 있는 특정 정렬 옵션이 있습니다.
 
 ![](assets/chlimage_1-43.png)
 
-* **요소의 순서 지정**방법
+* **요소의 순서 지정** 방법
    * **제목**
    * **마지막으로 수정한 날짜**
 * **정렬 순서**
@@ -151,7 +143,7 @@ AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다
 목록에 표시되는 최대 항목 수입니다.
    * 모든 항목을 반환하려면 비워 둡니다.
 
-### 항목 설정 탭 {#item-settings-tab}
+### Item Settings Tab {#item-settings-tab}
 
 항목 설정 탭을 사용하여 목록 요소의 서식을 구성할 수 있습니다.
 
@@ -164,7 +156,7 @@ AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다
 * **날짜**항목의 수정 날짜 표시 날짜
 표시
 
-## 디자인 대화 상자 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 템플릿 작성자는 디자인 대화 상자를 사용하여 컨텐츠 작성자가 사용할 수 있는 목록과 사용 가능한 항목 설정을 정의할 수 있습니다.
 
@@ -195,9 +187,9 @@ AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다
 연결 [편집 대화 상자에서 항목 연결 옵션](#edit-dialog)
 * **설명**
 표시 편집 대화 상자에 설명 표시 [옵션](#edit-dialog)
-* **편집 대화 상자에서 날짜**표시 활성화 [날짜
+* **편집 대화 상자에서 날짜** 표시 활성화 [날짜
 표시](#edit-dialog)
 
-### 스타일 탭 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-이미지 구성 요소는 AEM [스타일 시스템을 지원합니다](authoring.md#component-styling).
+The Image Component supports the AEM [Style System](authoring.md#component-styling).
