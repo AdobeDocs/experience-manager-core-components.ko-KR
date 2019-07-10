@@ -10,7 +10,7 @@ topic-tags: developing
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: 157 A 2 EC 3-9 FCA -4 FAD -977 A-D 93013 EEB 218
 translation-type: tm+mt
-source-git-commit: bea783936100abe899f9b60e4a09522514755db2
+source-git-commit: f30a6a9f4d41c672472beb60767f3766479d9c16
 
 ---
 
@@ -143,12 +143,9 @@ For details about their authoring capabilities and options to pre-configurable t
 | [단추](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 페이지에 단추 만들기 | `-` |
 | [다운로드](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 페이지에 다운로드 가능한 에셋 추가 | `-` |
 
-### Upcoming components {#upcoming-components}
+### Upcoming Components {#upcoming-components}
 
-다음 핵심 구성 요소가 활발히 작동되고 있습니다. They haven&#39;t been released yet, but can be previewed in the [development branch](https://github.com/adobe/aem-core-wcm-components/tree/development):
-
-* 포함
-* 양식
+For an overview of the upcoming Core Componente roadmap see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Upgrade of Core Components {#upgrade-of-core-components}
 
