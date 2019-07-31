@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
 translation-type: tm+mt
 
 ---
@@ -31,15 +31,15 @@ AEM 설명서는 표준 사용 사례, 버그, 버그로 인한 효과 및 버�
 
 ### 문서 헌금은 기술적인 질문에 답변하는 것이 아닙니다.
 
-AEM 설명서를 개선해야 하는 모든 아이디어는 기여로 환영할 수 있습니다. 그러나 AEM를 사용하거나 기술적 문제를 해결하는 방법에 대한 질문에 대답하는 데 기여를 사용할 수는 없습니다.
+AEM 설명서를 개선해야 하는 모든 아이디어는 기여로 환영할 수 있습니다. However comments, issues, and pull requests are intended for *contributions* only. AEM를 사용하거나 기술적 문제를 해결하는 방법에 대한 질문에 대답하기 위해 사용되지 않습니다.
 
-AEM 또는 기술적 오류 사용에 대한 질문이 있는 경우 일반 지원 절차를 통해 보고하거나 AEM 사용자 포럼에서 논의해야 합니다.
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***AEM 문서 헌금은 Adobe 지원을*** 대체할 수 없으며 이러한 증여는 거부됩니다.
+***AEM 문서 헌금은 Adobe 지원을*** 대체할 수 없으며 지원 관련 질문에 대한 답변을 요구하는 이러한 증여는 거부됩니다.
 
 ### 기여도는 영향을 받는 설명서 페이지를 명확하게 참조해야 한다.
 
-문서에 대한 개선 사항을 제안할 발행물을 만드는 경우 영향을 받는 페이지에 대한 링크 포함을 포함해야 합니다. 문서 페이지에서 이 페이지 **편집** 링크를 사용하여 발행물을 만들면 페이지에 대한 링크가 있는 문제가 자동으로 생성됩니다.
+문서에 대한 개선 사항을 제안할 발행물을 만드는 경우 영향을 받는 페이지에 대한 링크 포함을 포함해야 합니다. If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
 
 풀 요청에는 영향을 받는 페이지가 정의되므로 요청이 풀링에는 적용되지 않습니다.
 
@@ -83,6 +83,6 @@ AEM 설명서의 독자는 전 세계에 있으며 영어를 전공하거나 영
 
 ### 요일, AEM, CQ, CRX 사용
 
-제품은 항상 아티클에서 **Adobe Experience Manager** 정식 이름으로 항상 참조되어야 하며 그 이후에 AEM 이라고 ****합니다.
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
 
 클래스 이름과 같이 불가피한 경우를 제외하고는 Day, Day Software, CQ 및 CRX를 사용해서는 안 됩니다.
