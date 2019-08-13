@@ -10,7 +10,7 @@ topic-tags: 저작
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: D 4684 F 33-2 FB 5-4 F 32-866 F -7136 CF 1800 D 7
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ---
 
@@ -21,11 +21,17 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ## 사용량 {#usage}
 
-이미지 구성 요소를 사용하면 이미지 에셋을 손쉽게 배치할 수 있고 즉석 편집을 할 수 있습니다. 컨텐츠 작성자에 대한 자르기 작업은 물론 지연 로딩과 함께 적응형 이미지 선택 기능을 제공합니다.
+이미지 구성 요소는 페이지 방문자에 대한 지연 로딩과 컨텐츠 작성자에 대한 간편한 이미지 배치 및 자르기를 포함한 적응형 이미지 선택 및 응답형 비헤이비어를 제공합니다.
 
-The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). 편의를 위해 이미지를 간단하게 수정할 수도 있습니다.
+디자인 대화 상자의 템플릿 작성자는 이미지 너비와 자르기 및 추가 설정을 정의할 [](#design-dialog)수 있습니다. 컨텐츠 편집기에서는 [구성 대화 상자에서](#configure-dialog) 자산을 업로드 또는 선택하고 [편집 대화 상자에서 이미지를 자를](#edit-dialog)수 있습니다. 편의를 위해 이미지를 간단하게 수정할 수도 있습니다.
 
-## Version and Compatibility {#version-and-compatibility}
+## 반응형 기능 {#responsive-features}
+
+이미지 구성 요소에는 즉시 사용할 수 있는 강력한 반응형 기능이 포함되어 있습니다. 페이지 템플릿 수준에서 [디자인 대화 상자를](#design-dialog) 사용하여 이미지 자산의 기본 너비를 정의할 수 있습니다. 그러면 이미지 구성 요소가 브라우저 창의 크기에 따라 올바른 너비를 자동으로 로드합니다. 창 크기가 조정되면 Imaage 구성 요소는 정확한 이미지 크기를 즉시 로드합니다. 이미지 구성 요소가 이미 컨텐츠를 로드하도록 최적화된 것이므로 구성 요소 개발자는 사용자 지정 미디어 쿼리를 정의하는 것에 대해 걱정할 필요가 없습니다.
+
+또한 이미지 구성 요소는 지연 로드를 지원하여 실제 이미지 에셋이 브라우저에 표시될 때까지 로딩이 지연되도록 함으로써 페이지의 응답성을 높입니다.
+
+## 버전 및 호환성 {#version-and-compatibility}
 
 현재 버전의 이미지 구성 요소는 2018 년 1 월에 출시된 핵심 구성 요소의 릴리스 2.0.0에 도입된 v 2 이며, 이 문서에서는 설명합니다.
 
@@ -36,43 +42,43 @@ The image widths as well as cropping and additional settings can be defined by t
 | v2 | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](image-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [코어 구성 요소 버전을 참조하십시오](versions.md).
 
-## SVG Support {#svg-support}
+## SVG 지원 {#svg-support}
 
 SVG (Scalable Vector Graphics) 는 이미지 구성 요소에서 지원합니다.
 
 * DAM에서 SVG 에셋을 드래그하여 놓고 로컬 파일 시스템에서 SVG 파일 업로드를 업로드합니다.
 * 응용 이미지 servlet 스트림이 원본 SVG 파일을 스트리밍합니다 (변형을 건너뜀).
-* SVG 이미지의 경우 &quot;스마트 이미지&quot; 와 &quot;스마트 크기&quot; 가 이미지 모델에서 빈 배열로 설정됩니다.
+* SVG 이미지의 경우 "스마트 이미지" 와 "스마트 크기" 가 이미지 모델에서 빈 배열로 설정됩니다.
 
 ### 보안 {#security}
 
-보안상의 이유로 원본 SVG는 이미지 편집기에서 직접 호출되지 않습니다. It is called through `<img src=“path-to-component”>`. 이러한 브라우저에서는 SVG 파일에 임베드된 스크립트가 실행되지 않습니다.
+보안상의 이유로 원본 SVG는 이미지 편집기에서 직접 호출되지 않습니다. 을 통해 `<img src=“path-to-component”>`호출됩니다. 이렇게 하면 브라우저가 SVG 파일에 포함된 스크립트를 실행하지 못합니다.
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>SVG 지원을 받으려면 AEM에서 새로운 이미지 편집기 기능을 지원하기 [위해 AEM](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 6.3 또는 그 이상의 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 에 대한 서비스 팩 2 [의 릴리스 2.1.0 이](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 필요합니다.
 
-## Sample Component Output {#sample-component-output}
+## 샘플 구성 요소 출력 {#sample-component-output}
 
-To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
+이미지 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
 
-### Technical Details {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+이미지 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)에서 찾을 수 있습니다.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를](developing.md)참조하십시오.
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Image Component supports [schema.org microdata](https://schema.org).
+>핵심 구성 요소 릴리스 2.1.0 부터는 이미지 구성 요소가 [schema.org Microdata](https://schema.org)를 지원합니다.
 
-## Configure Dialog {#configure-dialog}
+## 구성 대화 상자 {#configure-dialog}
 
-In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#design-dialog), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
+표준 [편집 대화](#edit-dialog) 상자와 [디자인 대화 상자](#design-dialog)이외에도 이미지 구성 요소는 이미지 자체가 설명 및 기본 속성과 함께 정의되는 구성 대화 상자를 제공합니다.
 
-### Asset Tab {#asset-tab}
+### 자산 탭 {#asset-tab}
 
 ![](assets/screen_shot_2018-01-08at114245.png)
 
@@ -81,20 +87,20 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
    * **지우기를** 탭하거나 클릭하여 현재 선택한 이미지를 제거합니다.
    * **편집을** 탭하거나 [클릭하여 자산 편집기에서 자산의](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 표현물을 관리합니다.
 
-### Metadata Tab {#metadata-tab}
+### 메타데이터 탭 {#metadata-tab}
 
 ![](assets/screen_shot_2018-01-08at114527.png)
 
-* **이미지가 보조** 기술로 무시되어야 하고 대체 텍스트가 필요하지 않은 경우에 이미지가 장식용입니다. 이것은 장식 이미지에만 적용됩니다.
+* **이미지가 보조**&#x200B;기술로 무시되어야 하고 대체 텍스트가 필요하지 않은 경우에 이미지가 장식용입니다. 이것은 장식 이미지에만 적용됩니다.
 * **시각 장애가 있는 독자를 위한 이미지 의미나 기능의 대체 텍스트**
 대체 대체 요소
-   * Get alternative text from DAM - When checked the image&#39;s alternative text will be populated with the value of the `dc:description` metadata in DAM.
+   * DAM에서 대체 텍스트 가져오기 - 이 확인란을 선택하면 이미지의 대체 텍스트가 DAM의 `dc:description` 메타데이터로 채워집니다.
 
 * **캡션**
 기본적으로 이미지 아래에 표시되는 이미지에 대한 추가 정보입니다.
    * **DAM**
 에서 캡션 가져오기 이미지의 캡션 텍스트를 선택하면 DAM에서 `dc:title` 메타데이터 값으로 채워집니다.
-   * **[캡션] 로 캡션을** 선택하면 캡션이 이미지 아래에 표시되지 않지만 이미지 위로 마우스를 가져가면 일부 브라우저에 표시되는 팝업으로 표시됩니다.
+   * **[캡션] 로 캡션을**&#x200B;선택하면 캡션이 이미지 아래에 표시되지 않지만 이미지 위로 마우스를 가져가면 일부 브라우저에 표시되는 팝업으로 표시됩니다.
 
 * **링크**
    * 이미지를 다른 리소스에 연결합니다.
@@ -113,8 +119,8 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    이 옵션을 선택하면 미리 정의된 자르기 비율에 대한 드롭다운이 열립니다.
 
-   * Choose the option **Free Hand** to define your own crop.
-   * Choose the option **Remove Crop** to display the original asset.
+   * 자유롭게 옵션을 **선택하여** 나만의 자르기를 정의할 수 있습니다.
+   * [자르기 제거] 옵션을 **선택하여** 원래 자산을 표시합니다.
    자르기 옵션을 선택한 후에는 파란색 핸들을 사용하여 이미지의 자르기 크기를 조정합니다.
 
    ![](assets/chlimage_1-10.png)
@@ -141,7 +147,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    >[!CAUTION]
    >
-   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+   >시작 맵 기능을 사용하려면 AEM 6.3 또는 그 이상의 서비스 팩 3에 대한 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 의 릴리스 2.1.0 이 필요하며 AEM [내의 새로운](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 이미지 편집기 기능을 지원하기 [위해 AEM](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 6.3 이상 버전이 필요합니다.
 
    ![](assets/chlimage_1-12.png)
 
@@ -193,13 +199,13 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 >
 >이미지 편집 작업 (자르기, 뒤집기, 회전) 는 GIF 이미지에 지원되지 않습니다. 편집 모드에서 GIFS로 변경한 모든 내용은 지속되지 않습니다.
 
-## Design Dialog {#design-dialog}
+## 디자인 대화 상자 {#design-dialog}
 
 템플릿 작성자는 디자인 대화 상자를 사용하여 컨텐츠 작성자가 이 구성 요소를 사용할 때 자르기, 업로드 및 회전 및 업로드 옵션을 정의할 수 있습니다.
 
-### Main Tab {#main-tab}
+### 기본 탭 {#main-tab}
 
-**메인** 탭에서 이미지의 폭 목록을 정의하여 목록에서 가장 적절한 너비를 자동으로 불러올 수 있습니다.
+**메인** 탭에서 이미지의 폭 (픽셀) 를 픽셀 단위로 정의할 수 있으며 구성 요소는 브라우저 크기에 따라 가장 적절한 너비를 자동으로 로드합니다. 이미지 구성 요소의 [응답형 기능에서](#responsive-features) 중요한 부분입니다.
 
 또한 작성자가 페이지에 구성 요소를 추가할 때 자동으로 또는 비활성화되어 있는 일반 구성 요소 옵션을 정의할 수 있습니다.
 
@@ -213,18 +219,18 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 에서 대체 텍스트 가져오기 이미지 구성 요소를 페이지에 추가할 때 DAM에서 대체 텍스트를 검색하는 옵션이 자동으로 활성화되어 있는 경우 DAM에서 대체 텍스트를 가져옵니다.
 * **DAM**
 에서 캡션 가져오기 이미지 구성 요소를 페이지에 추가할 때 DAM에서 캡션을 검색하는 옵션이 자동으로 활성화되어 있는지 확인합니다.
-* **캡션을 팝업으로 표시 이미지 구성 요소를 페이지에 추가할 때 팝업 이미지로 이미지 캡션을 자동으로 표시할 수 있는 옵션을** 정의합니다.
+* **캡션을 팝업으로 표시 이미지 구성 요소를 페이지에 추가할 때 팝업 이미지로 이미지 캡션을 자동으로 표시할 수 있는 옵션을**&#x200B;정의합니다.
 * **UUID 추적**
 확인을 비활성화하여 이미지 자산의 UUID 추적을 비활성화합니다.
 
-* **너비목록에서**
-가장 적절한 너비를 자동으로 로드하기 위해 이미지의 너비 목록을 정의합니다.
+* **너비는**
+이미지의 폭 목록을 정의하고 구성 요소는 브라우저 크기를 기반으로 가장 적절한 너비를 자동으로 로드합니다.
    * **추가** 단추를 탭하거나 클릭하여 다른 크기를 추가합니다.
       * 잡기 핸들을 사용하여 크기 순서를 다시 정렬합니다.
       * **삭제** 아이콘을 사용하여 너비를 제거합니다.
    * 기본적으로 이미지가 로드될 때까지 Ddeferredred. 가 표시됩니다.
-      * Select the option **Disable lazy loading** to load the images upon page load.
-* **JPEG 품질** 변형된 (예: 비율 조정되거나 잘린) JPEG 이미지에 대한 품질 계수 (0 및 100) 입니다.
+      * 페이지 로드 시 **이미지를 로드하려면 Lazy Loading** 비활성화 옵션을 선택합니다.
+* **JPEG 품질**&#x200B;변형된 (예: 비율 조정되거나 잘린) JPEG 이미지에 대한 품질 계수 (0 및 100) 입니다.
 
 >[!CAUTION]
 >
@@ -232,9 +238,9 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 >[!NOTE]
 >
->As of release 2.2.0 of the Core Components, the Image Component adds the unique UUID attribute `data-asset-id` to the image asset to allow tracking and analysis of the number of views that individual assets receive.
+>핵심 구성 요소의 릴리스 2.2.0 부터는 이미지 구성 요소가 이미지 자산에 고유한 UUID 속성을 `data-asset-id` 추가하여 개별 자산이 받는 보기 수의 추적 및 분석을 허용합니다.
 
-### Features Tab {#features-tab}
+### 기능 탭 {#features-tab}
 
 **기능** 탭에서 업로드 옵션, 방향 및 자르기 옵션을 포함한 구성 요소를 사용할 때 컨텐츠 작성자가 사용할 수 있는 옵션을 정의할 수 있습니다.
 
@@ -242,7 +248,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    ![](assets/chlimage_1-19.png)
 
-   Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. 컨텐츠 작성자가 AEM에서 에셋만 선택하도록 하려면 이 옵션을 선택 해제합니다.
+   컨텐츠 작성자가 자신의 로컬 컴퓨터에서 이미지를 업로드할 수 있도록 하려면 파일 **시스템에서** 자산 업로드 허용 옵션을 선택합니다. 컨텐츠 작성자가 AEM에서 에셋만 선택하도록 하려면 이 옵션을 선택 해제합니다.
 
 * 방향
 
@@ -255,7 +261,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    >[!CAUTION]
    >
-   >**[뒤집기** ] 옵션은 기본적으로 비활성화되어 있습니다. Enabling it will display the **Flip Vertically** and **Flip Horizontally** buttons in the edit dialog of the image component, however the feature is not currently supported by AEM and any changes made using these options will not be persisted.
+   >**[뒤집기** ] 옵션은 기본적으로 비활성화되어 있습니다. 이 옵션을 활성화하면 **이미지 구성 요소의 편집 대화 상자에서 세로로** 뒤집기 및 **가로로 뒤집기** 단추가 표시되지만 AEM에서 현재 지원되지 않으며 이러한 옵션을 사용한 변경 사항은 지속되지 않습니다.
 
 <!-- 
 Comment Type: remark
@@ -269,9 +275,9 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
    ![](assets/chlimage_1-21.png)
 
-   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
+   컨텐츠 작성자가 편집 대화 상자에서 구성 요소의 이미지를 자르도록 **허용하려면 [자르기 허용** ] 옵션을 선택합니다.
    * **사전** 정의된 자르기 종횡비를 추가하려면 추가를 클릭합니다.
-   * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
+   * [잘라내기 **시작] 드롭다운에 표시되는 설명형 이름을 입력합니다** .
    * 종횡비의 숫자 비율을 입력합니다.
    * 드래그 핸들을 사용하여 종횡비 순서 다시 정렬
    * 휴지통 아이콘을 사용하여 종횡비를 삭제합니다.
@@ -279,6 +285,6 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
    >
    >Note that in AEM, crop aspect ratios are defined as **height/width**. 이는 기존의 폭/높이 정의와 다르며 이전 호환성 때문에 수행됩니다. 이름이 UI에 표시되고 비율 자체가 아닌 이름 이름을 제공하는 한 컨텐츠 작성자는 차이를 알지 못합니다.
 
-### Styles Tab {#styles-tab-1}
+### 스타일 탭 {#styles-tab-1}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+이미지 구성 요소는 AEM [스타일 시스템을 지원합니다](authoring.md#component-styling).
