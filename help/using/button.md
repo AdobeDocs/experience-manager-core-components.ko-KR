@@ -10,12 +10,12 @@ topic-tags: 저작
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: F 093 F 58 E -9755-4 A 4 F -803 A-AB 93 A 50 E 6870
 translation-type: tm+mt
-source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
 
-# Button Component{#button-component}
+# 단추 구성 요소{#button-component}
 
 핵심 구성 요소 단추 구성 요소를 사용하면 페이지에 단추 항목을 구성하고 표시할 수 있습니다.
 
@@ -23,10 +23,10 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 핵심 구성 요소 단추 구성 요소를 사용하면 페이지에 단추를 포함할 수 있습니다.
 
-* The button&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
+* 구성 대화 상자에서 단추의 속성을 선택할 [](#configure-dialog)수 있습니다.
+* 단추 구성 요소에 대한 스타일은 [디자인 대화 상자에서 정의할](#design-dialog)수 있습니다.
 
-## Version and Compatibility {#version-and-compatibility}
+## 버전 및 호환성 {#version-and-compatibility}
 
 버튼 구성 요소의 현재 버전은 2019 년 6 월에 핵심 구성 요소의 릴리스 2.5.0에서 처음 소개된 v 1 이며, 이 문서에서는 설명합니다.
 
@@ -36,31 +36,41 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 |--- |--- |--- |---|
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [코어 구성 요소 버전을 참조하십시오](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## 샘플 구성 요소 출력 {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+단추 구성 요소를 경험하고 HTML 및 JSON 출력을 비롯하여 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
 
-## Technical Details {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+단추 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)에서 찾을 수 있습니다.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를](developing.md)참조하십시오.
 
-## Configure Dialog {#configure-dialog}
+## 구성 대화 상자 {#configure-dialog}
 
 구성 대화 상자에서 컨텐츠 작성자가 단추를 정의할 수 있으며 방문자가 페이지에 대해 어떻게 행동하고 나타날지 지정할 수 있습니다.
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### 속성 탭 {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **텍스트** - 단추에 표시할 텍스트입니다.
 * **링크** - AEM 내의 컨텐츠 페이지, 외부 리소스 또는 앵커에 연결
    * **선택 대화 상자를** 사용하여 AEM 내의 경로를 선택합니다.
 * **아이콘** - 단추에 아이콘을 표시하기 위한 식별자
 
-## Design Dialog {#design-dialog}
+### 액세스 가능성 탭 {#accessibility-tab}
 
-### Styles Tab {#styles-tab}
+![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+**액세서빌러티** 탭에서 구성 요소의 [ARIA 액세서빌러티](https://www.w3.org/WAI/standards-guidelines/aria/) 레이블에 대해 값을 설정할 수 있습니다.
+
+* **label** - 구성 요소에 대한 aria 레이블 속성의 값
+
+## 디자인 대화 상자 {#design-dialog}
+
+### 스타일 탭 {#styles-tab}
+
+이미지 구성 요소는 AEM [스타일 시스템을 지원합니다](authoring.md#component-styling).
