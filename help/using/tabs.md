@@ -8,7 +8,7 @@ content-type: 참조
 topic-tags: 핵심 구성 요소
 discoiquuid: 966 d 47 FB-D 35 D -4103-B 29 D -4 EF 0 AA 739 F 24
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 컨텐츠 작성자는 탭 구성 요소를 사용하여 여러 탭 내에서 페이지 컨텐츠를 구성할 수 있습니다.
 
-The [edit dialog](#edit-dialog) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](#design-dialog), the template author can define which components can be added to tabs and customize the styles.
+컨텐츠 작성자는 [편집 대화 상자를](#edit-dialog) 사용하여 활성 탭을 설정할 수 있을 뿐만 아니라 여러 탭을 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자를](#design-dialog)사용하여 탭에 추가할 수 있는 구성 요소를 정의하고 스타일을 사용자 지정할 수 있습니다.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ The [edit dialog](#edit-dialog) allows the content author to define multiple tab
 >
 >[컨텐츠 트리를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)사용하여 간단한 (중첩되지 않은) 탭 구성 요소를 배치/선택할 수 있지만 중첩된 탭은 사용할 수 없습니다.
 
-## Version and Compatibility {#version-and-compatibility}
+## 버전 및 호환성 {#version-and-compatibility}
 
 탭 구성 요소의 현재 버전은 2018 년 10 월에 핵심 구성 요소의 릴리스 2.2.0에서 처음 소개된 v 1 이며, 이 문서에서는 설명합니다.
 
@@ -39,25 +39,25 @@ The [edit dialog](#edit-dialog) allows the content author to define multiple tab
 |--- |--- |--- |--- |
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [코어 구성 요소 버전을 참조하십시오](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## 샘플 구성 요소 출력 {#sample-component-output}
 
-To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
+탭 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
 
-### Technical Details {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
-The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+탭 구성 요소에 [대한 최신 기술 설명서는 Github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)에서 찾을 수 있습니다.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를](developing.md)참조하십시오.
 
 ## Edit Dialog {#edit-dialog}
 
 컨텐츠 작성자는 편집 대화 상자를 사용하여 탭을 만들고, 이름을 변경하고, 재정렬하고 활성 탭을 정의할 수 있습니다.
 
-### Items Tab {#items-tab}
+### 항목 탭 {#items-tab}
 
-![](assets/screenshot_2018-10-11at153557.png)
+![](assets/screen-shot-2019-08-29-12.28.16.png)
 
 **추가** 단추를 사용하여 구성 요소 선택기를 열어 탭으로 추가할 구성 요소를 선택합니다. 추가된 항목이 목록에 추가되면 다음 열이 포함됩니다.
 
@@ -66,19 +66,27 @@ Further details about developing Core Components can be found in the [Core Compo
 * **삭제** - 탭 구성 요소에서 탭을 탭하려면 탭하거나 클릭합니다.
 * **재배치** - 탭 순서를 탭하거나 클릭하고 드래그하여 탭합니다.
 
-### Properties Tab {#properties-tab}
+### 속성 탭 {#properties-tab}
 
-![](assets/screenshot_2018-10-19at140646.png)
+![](assets/screen-shot-2019-08-29-12.28.32.png)
 
 **속성** 탭에서 컨텐츠 작성자는 페이지를 로드할 때 활성 상태인 탭을 정의할 수 있습니다. **기본** 옵션을 사용하면 첫 번째 탭이 선택됩니다.
 
+### 액세스 가능성 탭 {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.28.40.png)
+
+**액세서빌러티** 탭에서 구성 요소의 [ARIA 액세서빌러티](https://www.w3.org/WAI/standards-guidelines/aria/) 레이블에 대해 값을 설정할 수 있습니다.
+
+* **label** - 구성 요소에 대한 aria 레이블 속성의 값
+
 ## Select Panel {#select-panel}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the tabs.
+컨텐츠 작성자는 구성 요소 도구 모음의 패널 **선택** 옵션을 사용하여 편집을 위해 다른 패널로 변경할 수 있으며 탭 순서를 손쉽게 재정렬할 수 있습니다.
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
+구성 요소 **도구 모음에서 선택 패널** 옵션을 선택하면 구성된 탭이 드롭다운으로 표시됩니다.
 
 * 목록은 탭의 지정된 배열로 순서가 지정되며 번호 매기기에 반영됩니다.
 * 먼저 탭의 구성 요소 유형이 표시되고, 그 다음에 더 밝은 글꼴의 탭 설명이 표시됩니다.
@@ -90,18 +98,18 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 
 >[!NOTE]
 >
->Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the tabs as a reader of the published content would.
+>편집 모드에서 작성자가 탭을 **선택할** 수 없습니다. 게시된 컨텐츠의 판독기로 탭과 상호 작용하려면 [**미리 보기** 모드](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) **[또는 게시됨으로](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 보기를 사용합니다.
 
-## Design Dialog {#design-dialog}
+## 디자인 대화 상자 {#design-dialog}
 
 템플릿 작성자는 디자인 대화 상자를 사용하여 탭 구성 요소에 항목으로 추가할 수 있는 구성 요소를 정의할 수 있을 뿐만 아니라 컨텐츠 작성자가 사용할 수 있는 사용자 지정 스타일을 정의할 수 있습니다.
 
-### Allowed Components Tab {#allowed-components-tab}
+### 허용된 구성 요소 탭 {#allowed-components-tab}
 
 **허용된 구성 요소** 탭은 컨텐츠 작성자가 탭 구성 요소에 항목으로 추가할 수 있는 구성 요소를 정의하는 데 사용됩니다.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+허용된 구성 요소 탭은 템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Styles Tab {#styles-tab}
+### 스타일 탭 {#styles-tab}
 
-The Tabs Component supports the AEM [Style System](authoring.md#component-styling).
+탭 구성 요소는 AEM [스타일 시스템을 지원합니다](authoring.md#component-styling).
