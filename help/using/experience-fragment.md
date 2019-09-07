@@ -5,12 +5,11 @@ description: 경험 조각 구성 요소를 사용하면 컨텐츠 작성자가 
 seo-description: 경험 조각 구성 요소를 사용하면 컨텐츠 작성자가 페이지에 경험 조각 변형을 추가할 수 있습니다.
 content-type: 참조
 topic-tags: 핵심 구성 요소
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: c0827595a594779f48ba5e8770b804e574346647
+source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 
 ---
+
 
 # 경험 조각 구성 요소{#experience-fragment-component}
 
