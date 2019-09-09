@@ -10,7 +10,7 @@ topic-tags: 소개
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: A 3 A 98 B 2 F -65 BF -4493-82 AD -01717938 FDBC
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 | 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이번 릴리스에서는 새로운 경험 조각 구성 요소를 도입했습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019 년 9 월 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이번 릴리스에서는 새로운 경험 조각 구성 요소를 도입했습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019 년 9 월 6 일 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 이번 릴리스에서는 새로운 아코디언, 단추, 컨테이너 및 다운로드 구성 요소를 도입했습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019 년 6 월 25 일 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 이 릴리스에서는 컨텐츠 조각 목록 구성 요소를 도입했습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019 년 5 월 7 일 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 이 릴리스는 구성 요소 라이브러리에 대한 세부 사항에 중점을 두지만, separator 구성 요소에 대한 기능 개선 사항도 포함합니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 2019 년 3 월 14 일 |
