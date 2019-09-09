@@ -8,22 +8,24 @@ content-type: 참조
 topic-tags: 저작
 discoiquuid: 8751 E 490-D 427-44 F 2-B 767-51935 AFDA 988
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
 
 # 핵심 구성 요소를 사용한 저작
 
-Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 이 섹션에서는 페이지를 만들 때 반드시 필요한 컨텐츠 유형을 제공하는 핵심 구성 요소를 다룹니다.
+Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다.
 
 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다. [We. Retail 참조 사이트는](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 핵심 구성 요소를 사용할 수 있는 방법을 보여줍니다.
 
 핵심 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
+AEM 프로젝트에서 핵심 구성 요소 구현에 대한 자세한 개발자 중심의 소개를 보려면 WKND 자습서를 참조하십시오 [.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
 >[!NOTE]
 >
->작성자는 핵심 구성 요소를 즉시 사용할 수 없으며 [, 개발 팀은 먼저 이러한 구성 요소를 환경에 통합해야](using.md)합니다. 통합되면 [템플릿 편집기를 통해 사용 가능하고 미리 구성할](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)수 있습니다.
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!CAUTION]
 >
@@ -33,17 +35,19 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 
 작성자는 다음과 같은 핵심 구성 요소의 몇 가지 이점을 알 수 있습니다.
 
-* 페이지 편집기와 간편하게 통합 [및 통합](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
 * We. Retail와 구성 요소 라이브러리에서와 같이 [다양한 사용 사례를 수용할 수](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 있는 [기능이 풍부한 기능](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
 * [템플릿 편집기를](#pre-configuring-core-components) 통해 페이지 작성자가 사용할 수 있는 기능을 정의하는 [사전 구성 가능](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-* 접근성 가이드라인을 중심으로 [구축](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 * [반응형 레이아웃을 지원하도록 구축](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-구성 요소는 페이지를 편집할 때 페이지 편집기의 사이드 패널의 **구성 요소** 탭에서 사용할 수 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)있습니다.
+* 간편한 로컬라이제이션을 [지원하도록 구축](localization.md)
+
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
 구성 요소는 구성 요소 그룹이라는 카테고리에 따라 그룹화되어 구성 요소를 쉽게 구성하고 필터링합니다. 구성 요소 그룹 이름은 [구성 요소 브라우저에서](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 구성 요소와 함께 표시되며 그룹별로 필터링하여 올바른 구성 요소를 쉽게 찾을 수도 있습니다.
 
@@ -89,12 +93,17 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 
 핵심 구성 요소의 최신 버전은 다음 구성 요소를 제공합니다.
 
+* [어코디언](accordion.md)
 * [탐색 표시](breadcrumb.md)
-* [양식 단추](form-button.md)
+* [단추](button.md)
+* [컨테이너](container.md)
 * [회전판](carousel.md)
-* [양식 컨테이너](form-container.md)
 * [컨텐츠 조각](content-fragment-component.md)
 * [컨텐츠 조각 목록](content-fragment-list.md)
+* [다운로드](download.md)
+* [경험 조각](experience-fragment.md)
+* [양식 단추](form-button.md)
+* [양식 컨테이너](form-container.md)
 * [숨겨진 양식](form-hidden.md)
 * [양식 옵션](form-options.md)
 * [양식 텍스트](form-text.md)
@@ -106,7 +115,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 * [빠른 검색](quick-search.md)
 * [분리자](separator.md)
 * [소셜 미디어 공유](sharing.md)
-* [티저](teaser.md)
+* [탭](tabs.md)
 * [텍스트](text.md)
 * [제목](title.md)
 
