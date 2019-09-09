@@ -10,7 +10,7 @@ topic-tags: 소개
 products: sg_ Experiencemanager/Corecomponents-new
 discoiquuid: C 44 BB 0 D 7-5 D 91-4659-878 E-A 0658 FE 29 AA 2
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
@@ -44,6 +44,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨�
 | 확장 가능 | 사용자 요구에 맞게 구성할 수 있지만 처음부터 다시 시작할 필요가 없습니다. |
 | 오픈 소스 | 그렇지 않을 경우 Github (Apache 라이센스) 에 대한 향상된 Contribute를 제공합니다. |
 | 버전 | 핵심 구성 요소는 사용자에게 영향을 줄 수 있는 것을 개선할 때 사이트를 분열시키지 않습니다. |
+| [로컬라이제이션](localization.md) | 고급 참조 Resoltuion를 사용하면 특정 구성 요소를 통해 해당 현지화된 컨텐츠를 자동으로 찾아 렌더링할 수 있습니다. |
 
 ## 사용 가능한 구성 요소 {#available-components}
 
