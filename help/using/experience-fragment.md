@@ -6,7 +6,7 @@ seo-description: 경험 조각 구성 요소를 사용하면 컨텐츠 작성자
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-경험 조각 구성 요소의 현재 버전은 2019 년 8 월에 핵심 구성 요소의 릴리스 2.6.0에 도입된 v 1 이며, 이 문서에서는 설명합니다.
+경험 조각 구성 요소의 현재 버전은 2019 년 9 월에 핵심 구성 요소의 릴리스 2.6.0에 도입된 v 1 이며, 이 문서에서는 설명합니다.
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서에 대한 링크를 제공합니다.
 
