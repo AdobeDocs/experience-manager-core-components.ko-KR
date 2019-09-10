@@ -6,7 +6,7 @@ seo-description: 경험 조각 구성 요소를 사용하면 컨텐츠 작성자
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -33,6 +33,9 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 이 경우 현재 페이지와 동일한 현지화 (언어, 블루프린트 또는 Live Copy) 를 갖는 조각은 템플릿의 일부로 렌더링됩니다.
 
 이 동작은 템플릿에 추가된 경험 조각 구성 요소로 제한됩니다. 개별 컨텐츠 페이지에 추가된 경험 조각 구성 요소는 구성 요소 내에 구성된 정확한 경험 조각 표현물을 렌더링합니다.
+
+* 경험 조각 구성 요소의 현지화 기능이 작동하는 방법의 예를 보려면 아래 섹션을 참조하십시오 [](#example).
+* 핵심 구성 요소의 현지화 기능이 함께 작동하는 방법에 대한 예를 보려면 핵심 구성 요소 페이지의 [현지화 기능을 참조하십시오](localization.md).
 
 ### 예 {#example}
 
