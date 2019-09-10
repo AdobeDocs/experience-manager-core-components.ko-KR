@@ -8,7 +8,7 @@ topic-tags: 핵심 구성 요소
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 마찬가지로 일반적으로 탐색 구성 요소는 모든 페이지에 표시되어야 합니다. 하지만 현지화된 페이지의 컨텐츠를 반영해야 합니다.
 
-AEM의 편집 가능한 템플릿과 [함께 탐색 핵심 구성 요소](navigation.md) 및 [경험 조각 핵심 구성 요소의](experience-fragment.md) 로컬라이제이션 [기능을 사용하면 웃는 작업이 됩니다](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html).
+AEM의 편집 가능한 템플릿과 [함께 탐색 핵심 구성 요소](navigation.md) 및 [경험 조각 핵심 구성 요소의](experience-fragment.md) 로컬라이제이션 [기능을 사용하면 웃는 작업이 됩니다](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html). [언어 탐색 구성 요소를](language-navigation.md) 사용할 수도 있습니다.
 
 ## 컨텐츠 구조 {#content-structure}
 
