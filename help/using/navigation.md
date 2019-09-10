@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 ## 현지화된 사이트 구조 지원 {#localized-site-structure}
 
 웹 사이트는 지역마다 여러 언어로 제공됩니다. 일반적으로 현지화된 각 페이지에는 페이지 템플릿의 일부로 포함된 navagation 요소가 포함됩니다. 탐색 구성 요소를 사용하면 사이트의 모든 페이지에 대한 템플릿에 한 번 배치하면 글로벌라이제이션된 사이트 구조를 기반으로 로컬라이제이션된 개별 페이지에 맞게 자동으로 조정됩니다.
+
+* 탐색 구성 요소의 현지화 기능이 작동하는 방식에 대한 예를 보려면 아래 섹션을 [](#example-localiatzion)참조하십시오.
+* 핵심 구성 요소의 현지화 기능이 함께 작동하는 방법에 대한 예를 보려면 핵심 구성 요소 페이지의 [현지화 기능을 참조하십시오](localization.md).
 
 ### 예 {#example-localization}
 
