@@ -3,19 +3,19 @@ title: 소셜 공유 구성 요소
 seo-title: 소셜 공유 구성 요소
 description: 핵심 구성 요소 소셜 공유 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
 seo-description: 핵심 구성 요소 소셜 공유 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
-uuid: A 75 AECA 9-F 055-429 B-A 128-7 D 4 A 1 E 5 AB 21 E
+uuid: a75aeca9-f055-429b-a128-7d4a1e5ab21e
 contentOwner: 사용자
 content-type: 참조
-topic-tags: 저작
-products: sg_ Experiencemanager/Corecomponents-new
-discoiquuid: A 4 A 31261-01 E 9-4 FDA -8 D 1 B -7 CEC 90 BB 6574
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
+discoiquuid: a4a31261-01e9-4fda-8d1b-7cec90bb6574
 translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Social Sharing Component{#social-sharing-component}
+# 소셜 공유 구성 요소{#social-sharing-component}
 
 핵심 구성 요소 소셜 공유 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
 
@@ -23,35 +23,35 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 소셜 공유 구성 요소는 페이지에 Facebook 및 Pinterest 공유 링크를 추가합니다. 페이지 머리글이나 바닥글에 종종 포함됩니다.
 
-Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+다른 구성 요소와 달리 소셜 공유 구성 요소의 설정은 초기 페이지 속성을 [통해 템플릿 작성자와 페이지 속성을 통해 컨텐츠](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 작성자가 [수행합니다](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
 
-## Version and Compatibility {#version-and-compatibility}
+## 버전 및 호환성 {#version-and-compatibility}
 
-소셜 공유 구성 요소의 현재 버전은 AEM 6.3 이 있는 핵심 구성 요소의 릴리스 1.0.0에 도입된 v 1 이며, 이 문서에서는 설명합니다.
+소셜 공유 구성 요소의 현재 버전은 v1이며, AEM 6.3의 핵심 구성 요소 릴리스 1.0.0에서 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 버전과 호환되는 AEM 버전과 구성 요소의 지원되는 모든 버전을 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전과 구성 요소의 버전이 호환되는 AEM 버전에 대해 자세히 설명합니다.
 
 | 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## 샘플 구성 요소 출력 {#sample-component-output}
 
-To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
+소셜 미디어 공유 구성 요소와 구성 옵션의 예 및 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
 
-### Technical Details {#technical-details}
+### 기술 정보 {#technical-details}
 
-The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
+공유 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
 ## Edit Dialog {#edit-dialog}
 
-공유하려면 특별한 페이지 헤더가 필요하므로 페이지 수준에서 공유를 활성화해야 합니다. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+공유에는 특수 페이지 머리글이 필요하므로 페이지 수준에서 모든 공유를 활성화해야 합니다. 따라서 컨텐츠 작성자의 경우 공유 구성 요소에 대한 편집 옵션은 [페이지 속성의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)공유 탭을 통해 사용할 수 있습니다.
 
-## Design Dialog {#design-dialog}
+## 디자인 대화 상자 {#design-dialog}
 
-공유하려면 특별한 페이지 헤더가 필요하므로 페이지 수준에서 공유를 활성화해야 합니다. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+공유에는 특수 페이지 머리글이 필요하므로 페이지 수준에서 모든 공유를 활성화해야 합니다. 따라서 템플릿 작성자의 경우 공유 구성 요소에 대한 디자인 옵션은 [초기 페이지 속성을](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)통해 사용할 수 있습니다.
