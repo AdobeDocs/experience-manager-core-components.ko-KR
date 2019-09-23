@@ -1,27 +1,27 @@
 ---
 title: 핵심 구성 요소로 작성
 seo-title: 핵심 구성 요소로 작성
-description: AEM에서 구성 요소는 작성되는 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다.
-seo-description: AEM에서 구성 요소는 작성되는 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다.
-uuid: 4 A 54 CD 4 C -3 D 89-4683-8301-BF 1 E 634736 E 3
+description: AEM에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다.
+seo-description: AEM에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다.
+uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
 content-type: 참조
-topic-tags: 저작
-discoiquuid: 8751 E 490-D 427-44 F 2-B 767-51935 AFDA 988
+topic-tags: authoring
+discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
 source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
 
-# 핵심 구성 요소를 사용한 저작
+# 핵심 구성 요소로 작성
 
 Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다.
 
-핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다. [We. Retail 참조 사이트는](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 핵심 구성 요소를 사용할 수 있는 방법을 보여줍니다.
+핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
-핵심 구성 요소를 경험하고 HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+핵심 구성 요소를 살펴보고 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
-AEM 프로젝트에서 핵심 구성 요소 구현에 대한 자세한 개발자 중심의 소개를 보려면 WKND 자습서를 참조하십시오 [.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+AEM 프로젝트에서 핵심 구성 요소를 구현하는 개발자 중심의 심층 소개를 살펴보려면 WKND [자습서를 참조하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -29,69 +29,69 @@ AEM 프로젝트에서 핵심 구성 요소 구현에 대한 자세한 개발자
 
 >[!CAUTION]
 >
->핵심 구성 요소는 [AEM 6.3 이상을 필요로 하며](versions.md) [편집 가능한 템플릿을 사용해야](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)합니다. 클래식 UI와 정적 템플릿에서는 작동하지 않습니다.
+>핵심 구성 요소는 [AEM 6.3 이상을](versions.md) 필요로 하며 [편집 가능한 템플릿을](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)사용해야 합니다. 클래식 UI와 정적 템플릿에서는 작동하지 않습니다.
 
 ## 핵심 구성 요소로 작성 {#authoring-with-core-components}
 
-작성자는 다음과 같은 핵심 구성 요소의 몇 가지 이점을 알 수 있습니다.
+작성자는 핵심 구성 요소의 다음과 같은 몇 가지 이점을 알 수 있습니다.
 
 * Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
-* We. Retail와 구성 요소 라이브러리에서와 같이 [다양한 사용 사례를 수용할 수](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 있는 [기능이 풍부한 기능](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* We.Retail뿐만 아니라 구성 요소 라이브러리에서 [설명한 많은 사용 사례를](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 수용할 수 있는 다양한 [기능](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
-* [템플릿 편집기를](#pre-configuring-core-components) 통해 페이지 작성자가 사용할 수 있는 기능을 정의하는 [사전 구성 가능](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [페이지 작성자가](#pre-configuring-core-components) [템플릿 편집기를 통해 사용할 수 있는 기능을 정의하기 위한 사전 구성 가능](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
-* [반응형 레이아웃을 지원하도록 구축](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-* 간편한 로컬라이제이션을 [지원하도록 구축](localization.md)
+* 간편한 [로컬라이제이션 지원](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
-구성 요소는 구성 요소 그룹이라는 카테고리에 따라 그룹화되어 구성 요소를 쉽게 구성하고 필터링합니다. 구성 요소 그룹 이름은 [구성 요소 브라우저에서](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 구성 요소와 함께 표시되며 그룹별로 필터링하여 올바른 구성 요소를 쉽게 찾을 수도 있습니다.
+구성 요소는 구성 요소를 쉽게 구성하고 필터링하기 위해 구성 요소 그룹이라는 범주에 따라 그룹화됩니다. 구성 요소 그룹 이름은 [구성 요소 브라우저의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 구성 요소와 함께 표시되며, 올바른 구성 요소를 쉽게 찾기 위해 그룹별로 필터링할 수도 있습니다.
 
 >[!NOTE]
 >
 >핵심 구성 요소는 기본적으로 숨겨진 그룹의 일부이며 구성 요소 브라우저 내에 표시되지 않습니다.
 >
->표시되는 그룹에 필요한 구성 요소를 추가하거나 작성자가 사용할 수 있도록 사용자 정의할 수 있습니다.
+>보이는 그룹에 필요한 구성 요소를 추가하거나 작성자가 사용할 수 있도록 구성 요소를 사용자 정의합니다.
 
-## 핵심 구성 요소 사전 구성 {#pre-configuring-core-components}
+## 코어 구성 요소 사전 구성 {#pre-configuring-core-components}
 
-기본 구성 요소 구성은 개발자의 작업이었습니다. 그러나 템플릿 작성자는 코어 구성 요소를 사용하여 템플릿 편집기를 통해 다양한 기능을 구성할 수 있습니다.
+기본 구성 요소 구성은 개발자의 작업이었습니다. 하지만 핵심 구성 요소를 사용하면 템플릿 작성자가 템플릿 편집기를 통해 다양한 기능을 구성할 수 있습니다.
 
-예를 들어 이미지 구성 요소가 파일 시스템에서 이미지 업로드를 허용하지 않거나 텍스트 구성 요소가 특정 단락 포맷만 허용해야 하는 경우 간단한 클릭으로 이러한 기능을 활성화하거나 비활성화할 수 있습니다.
+예를 들어 이미지 구성 요소가 파일 시스템에서 이미지 업로드를 허용하지 않아야 하거나 텍스트 구성 요소가 특정 단락 서식만 허용해야 하는 경우 간단한 클릭으로 이러한 기능을 활성화하거나 비활성화할 수 있습니다.
 
-자세한 내용은 [페이지 템플릿](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 만들기를 참조하십시오.
+자세한 [내용은 페이지 템플릿](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 만들기를 참조하십시오.
 
 ### 편집 및 디자인 대화 상자 {#edit-and-design-dialogs}
 
-템플릿 작성자는 핵심 구성 요소를 미리 구성하여 템플릿의 일부로 허용된 옵션을 정의하고, 페이지 작성자가 실제 페이지 컨텐츠를 정의하기 위해 추가로 구성할 수 있으므로, 각 구성 요소는 두 개의 서로 다른 대화 상자에서 옵션을 가질 수 있습니다.
+템플릿 작성자가 핵심 구성 요소를 미리 구성하여 템플릿의 일부로 허용되는 옵션을 정의한 다음 페이지 작성자가 실제 페이지 컨텐츠를 정의하도록 추가로 구성할 수 있으므로 각 구성 요소에는 서로 다른 두 대화 상자에 옵션이 있을 수 있습니다.
 
-|  | 설명 | 컨트롤 기능 | examples |
+|  | 설명 | 컨트롤 | 예 |
 |--- |--- |--- |--- |
-| **편집 대화 상자** | **페이지 작성자가** 배치된 구성 요소에 대한 일반적인 페이지 편집 중에 수정할 수 있는 옵션 | 구성 요소에 의해 표시되는 컨텐츠 및 궁극적으로 페이지에 표시되는 방법. | 컨텐츠 텍스트 서식 지정, 페이지에서 이미지 회전 |
-| **디자인 대화 상자** | 템플릿 **작성자가** 페이지 템플릿을 구성할 때 수정할 수 있는 옵션. | 구성 요소를 편집할 때 페이지 작성자가 사용할 수 있는 옵션 | 사용 가능한 텍스트 서식 옵션을 사용할 수 있으며, 어떤 이미지를 즉석 옵션을 사용할 수 있습니다. |
+| **편집 대화 상자** | 배치된 구성 요소에 대한 일반 페이지 편집 중에 **페이지 작성자가** 수정할 수 있는 옵션 | 구성 요소에 의해 표시되는 컨텐츠와 페이지가 페이지에 표시되는 방식. | 컨텐츠 텍스트의 서식을 지정하고 페이지에서 이미지를 회전할 수 있습니다. |
+| **디자인 대화 상자** | 페이지 템플릿을 구성할 때 **템플릿 작성자가** 수정할 수 있는 옵션입니다. | 구성 요소를 편집할 때 페이지 작성자가 사용할 수 있는 옵션 | 사용할 수 있는 텍스트 서식 옵션, 사용할 수 있는 이미지 즉석 옵션 |
 
 ### 구성 요소 스타일 {#component-styling}
 
 대부분의 핵심 구성 요소의 스타일은 AEM 스타일 시스템을 사용하여 정의할 수 있습니다.
 
 * 템플릿 작성자는 해당 구성 요소의 디자인 대화 상자에서 특정 구성 요소에 사용할 수 있는 스타일을 정의할 수 있습니다.
-* 컨텐츠 작성자는 구성 요소를 추가하고 컨텐츠를 만들 때 적용할 스타일을 선택할 수 있습니다.
+* 그런 다음 컨텐츠 작성자는 구성 요소를 추가하고 컨텐츠를 만들 때 적용할 스타일을 선택할 수 있습니다.
 
-자세한 내용은 [스타일 시스템](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) 설명서를 참조하십시오.
+자세한 내용은 스타일 시스템 [설명서를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) 참조하십시오.
 
 >[!NOTE]
 >
->스타일 시스템 기능을 활성화하려면 AEM 6.3, 서비스 팩 2 (6.3.2.0) 이상 버전이 필요합니다.
+>스타일 시스템 기능을 활성화하려면 AEM 6.3에서 서비스 팩 2(6.3.2.0) 이상이 필요합니다.
 
 ## 사용 가능한 핵심 구성 요소 목록 {#list-of-core-components-available}
 
 다음은 편집 및 디자인 대화 상자 기능을 자세히 설명하는 페이지에 연결된 사용 가능한 핵심 구성 요소 목록입니다.
 
-핵심 구성 요소의 최신 버전은 다음 구성 요소를 제공합니다.
+핵심 구성 요소의 현재 버전은 다음 구성 요소를 포함합니다.
 
 * [어코디언](accordion.md)
 * [탐색 표시](breadcrumb.md)
@@ -121,15 +121,15 @@ Components are available on the **Components** tab of the side panel of the page
 
 >[!CAUTION]
 >
->일부 버전의 개별 핵심 구성 요소는 특정 버전의 AEM 와만 호환할 수 있습니다.
+>개별 코어 구성 요소의 일부 버전은 특정 버전의 AEM과 호환될 수 있습니다.
 >
->자세한 내용은 호환성 정보에 대한 개별 도움말 페이지 (이전 목록에 연결) 를 참조하거나 [핵심 구성 요소 버전](versions.md) 문서를 참조해 보십시오.
+>호환성 정보를 보려면 이전 목록에 연결된 개별 도움말 페이지를 참조하거나 핵심 구성 요소 버전 [문서를](versions.md) 참조하십시오.
 
 >[!NOTE]
 >
 >사용자 인스턴스에 따라 사용자 요구 사항에 맞게 명시적으로 개발된 구성 요소를 사용자 지정했을 수 있습니다. 이러한 구성 요소는 여기서 설명한 구성 요소 중 일부와 이름이 같을 수도 있습니다.
->양식 코어 구성 요소는 AEM Forms와 관련이 없습니다.
+>양식 핵심 구성 요소는 AEM Forms와 관련이 없습니다.
 
 ## 개발자 리소스 {#developer-resources}
 
-핵심 [구성 요소에 대한 기술 정보는 핵심 구성 요소](developing.md) 개발자 개발 설명서를 참조하십시오.
+핵심 구성 [요소에 대한](developing.md) 기술 정보는 핵심 구성 요소 개발 개발자 설명서를 참조하십시오.
