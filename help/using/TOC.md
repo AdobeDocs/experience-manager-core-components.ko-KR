@@ -1,7 +1,7 @@
 ---
-cloud: Experience-Cloud
-product: Adobe Experience Manager
-sub-product: Adobe Experience Manager 코어 구성 요소
+cloud: experience Cloud
+product: adobe experience manager
+sub-product: adobe experience manager 핵심 구성 요소
 archetype: 관리자
 user-guide-title: AEM 코어 구성 요소
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 ---
 
 
-# AEM 핵심 구성 요소 도움말 {#using}
+# AEM 코어 구성 요소 도움말 {#using}
 
 + [핵심 구성 요소 소개](introduction.md)
 + [구성 요소 라이브러리](http://opensource.adobe.com/aem-core-wcm-components/library.html)
@@ -18,8 +18,8 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + Get Started {#get-started}
    + [핵심 구성 요소로 작성](authoring.md)
    + [핵심 구성 요소 사용](using.md)
-   + [로컬라이제이션 기능](localization.md)
-+ The components {#components}
+   + [현지화 기능](localization.md)
++ 구성 요소 {#components}
    + [어코디언](accordion.md)
    + [탐색 표시](breadcrumb.md)
    + [단추](button.md)
@@ -47,14 +47,14 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
       + [숨겨진 양식](form-hidden.md)
       + [양식 옵션](form-options.md)
       + [양식 텍스트](form-text.md)
-   + v 1 구성 요소 {#v1-components}
+   + v1 구성 요소 {#v1-components}
       + [탐색 표시(v1)](breadcrumb-v1.md)
       + [이미지(v1)](image-v1.md)
       + [목록(v1)](list-v1.md)
       + [페이지(v1)](page-v1.md)
       + [텍스트(v1)](text-v1.md)
       + [제목(v1)](title-v1.md)
-      + v 1 양식 구성 요소 {#v1-forms}
+      + v1 양식 구성 요소 {#v1-forms}
          + [양식 단추(v1)](form-button-v1.md)
          + [양식 컨테이너(v1)](form-container-v1.md)
          + [숨겨진 양식(v1)](form-hidden-v1.md)
@@ -63,5 +63,5 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing.md)
    + [WKND 개발자 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
-   + [핵심 구성 요소 맞춤화](customizing.md)
+   + [핵심 구성 요소 사용자 정의](customizing.md)
    + [구성 요소 지침](guidelines.md)
