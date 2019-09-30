@@ -10,7 +10,7 @@ topic-tags: 개발
 products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -143,6 +143,7 @@ GitHub에 핵심 구성 요소를 추가하면 자주 업데이트되고 AEM 개
 | [단추](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 페이지에서 단추 만들기 | `-` |
 | [다운로드](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 페이지에 다운로드 가능한 자산 추가 | `-` |
 | [경험 조각](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | 페이지에 경험 조각 추가 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [포함](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | 페이지 내에 외부 리소스 포함 | - |
 
 ### 예정된 구성 요소 {#upcoming-components}
 
