@@ -10,7 +10,7 @@ topic-tags: 소개
 products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -34,7 +34,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 |  |  |
 |--- |--- |
 | 사전 구성 가능 | 템플릿은 페이지 작성자가 사용할 수 있는 방법을 정의할 수 있습니다. |
-| 다양한 기능 | 작성자는 대부분의 유형의 컨텐츠를 만들 수 있습니다. |
+| 다양한 기능 | Authors can create most kind of content with them. |
 | 사용이 간편한 | 작성자는 컨텐츠를 효율적으로 제작 및 관리할 수 있습니다. |
 | 바로 사용 | 간편하게 사용할 수 있습니다! 그들은 튼튼하고, 잘 테스트되었으며, 잘 수행된다. |
 | 액세스 가능 | WCAG 2.0 표준을 준수하고 ARIA 레이블을 제공하고 키보드 탐색을 지원합니다. |
@@ -58,6 +58,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 * [컨텐츠 조각](content-fragment-component.md)
 * [컨텐츠 조각 목록](content-fragment-list.md)
 * [다운로드](download.md)
+* [포함](embed.md)
 * [경험 조각](experience-fragment.md)
 * [양식 단추](form-button.md)
 * [양식 컨테이너](form-container.md)
@@ -90,7 +91,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 핵심 구성 요소는 완전히 새로워진 제품으로 여러 이점을 제공하므로 새 AEM 프로젝트에서 이를 사용하는 것이 좋습니다. 기존 프로젝트의 경우, 마이그레이션은 리브랜딩 또는 전체 리팩토링 등 대규모 프로젝트 작업의 일부여야 합니다.
 
-특정 사용 권장 사항에 대해서는 핵심 [구성 요소 사용 시기를 참조하십시오.](developing.md) 를 [클릭합니다](developing.md) .
+For specific use recommendations, see When to Use the Core Components?[](developing.md) 를 [클릭합니다](developing.md) .
 
 ## Gems 세션 개요 {#gems-session-overview}
 
