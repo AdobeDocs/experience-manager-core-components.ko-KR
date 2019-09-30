@@ -10,14 +10,14 @@ topic-tags: 소개
 products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
 
 # 핵심 구성 요소 버전{#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.6.0이며 AEM 6.5와 호환됩니다.릴리스 2.0.0에 대한 중요 업데이트로 2019년 9월에 릴리스되었습니다.릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
+핵심 구성 요소의 현재 릴리스는 2.7.0이며 AEM 6.5와 호환됩니다.릴리스 2.0.0에 대한 중요 업데이트로 2019년 9월에 릴리스되었습니다.릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
 
 자세한 내용은 [이 문서의 릴리스](#versions-and-releases) 내역 및 호환성 섹션을 참조하십시오.
 
@@ -63,6 +63,7 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 | 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 이 릴리스에서는 새로운 포함 구성 요소가 도입되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019년 9월 25일 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이 릴리스에서는 새로운 경험 조각 구성 요소가 소개되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019년 9월 6일 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 이 릴리스에서는 새로운 아코디언, 단추, 컨테이너 및 다운로드 구성 요소가 소개되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019년 6월 25일 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 이 릴리스에서는 컨텐츠 조각 목록 구성 요소가 소개되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019년 5월 7일 |
@@ -89,27 +90,34 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 다음 표에서는 핵심 구성 요소의 릴리스에 포함된 구성 요소 버전을 자세히 설명합니다.
 
-|  | 릴리스 1.0.0 - 1.0.6 | 릴리스 1.1.0 | 릴리스 2.0.0 - 2.0.8 | 릴리스 2.1.0 | 릴리스 2.2.-2.2.0 | 2.3.0 |
-|---|---|---|---|---|---|---|
-| **[페이지](page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[제목](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[이미지](image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[목록](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[탐색 표시](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[소셜 미디어 공유](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[양식 컨테이너](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[양식 텍스트](form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[양식 옵션](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[숨겨진 양식](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[양식 단추](form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[컨텐츠 조각](content-fragment-component.md)** |  | 샌드박스 | v1 | v1 | v1 | v1 |
-| **[탐색](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[언어 탐색](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[빠른 검색](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[티저](teaser.md)** |  |  |  | v1 | v1 | v1 |
-| **[탭](tabs.md)** |  |  |  |  | v1 | v1 |
-| **[회전판](carousel.md)** |  |  |  |  | v1 | v1 |
-| **[구분 문자](separator.md)** |  |  |  |  |  | v1 |
+|  | 릴리스 1.0.0 - 1.0.6 | 릴리스 1.1.0 | 릴리스 2.0.0 - 2.0.8 | 릴리스 2.1.0 | 릴리스 2.2.0-2.2.0 | 릴리스 2.3.0-2.3.2 | 릴리스 2.4.0 | 릴리스 2.5.0 | 릴리스 2.6.0 | 릴리스 2.7.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **[페이지](page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[제목](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[이미지](image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[목록](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[탐색 표시](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[소셜 미디어 공유](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[양식 컨테이너](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[양식 텍스트](form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[양식 옵션](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[숨겨진 양식](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[양식 단추](form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[컨텐츠 조각](content-fragment-component.md)** |  | 샌드박스 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[탐색](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[언어 탐색](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[빠른 검색](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[티저](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[탭](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[회전판](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[구분 문자](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[컨텐츠 조각 목록](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[아코디언](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[단추](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[컨테이너](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[다운로드](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[경험 조각](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[포함](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 설명서 {#documentation}
 
@@ -120,3 +128,5 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 [핵심 구성 요소](developing.md) 개발에서는 핵심 구성 요소의 기술 기능, 프로젝트에서 이러한 구성 요소를 사용하는 방법, 사용자 정의 방법 및 우수 사례에 대해 설명합니다.
 
 [핵심 구성 요소 소개에서는](introduction.md) 버전, 사용 사례 및 지원 간에 핵심 구성 요소 호환성에 대한 개요를 제공합니다.
+
+[WKND 자습서는](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 핵심 구성 요소 사용을 포함하여 AEM용 개발을 위한 유용한 단계별 소개입니다.
