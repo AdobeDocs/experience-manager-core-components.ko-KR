@@ -8,7 +8,7 @@ content-type: 참조
 topic-tags: authoring
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -71,27 +71,27 @@ Components are available on the **Components** tab of the side panel of the page
 
 |  | 설명 | 컨트롤 | 예 |
 |--- |--- |--- |--- |
-| **편집 대화 상자** | 배치된 구성 요소에 대한 일반 페이지 편집 중에 **페이지 작성자가** 수정할 수 있는 옵션 | 구성 요소에 의해 표시되는 컨텐츠와 페이지가 페이지에 표시되는 방식. | 컨텐츠 텍스트의 서식을 지정하고 페이지에서 이미지를 회전할 수 있습니다. |
-| **디자인 대화 상자** | 페이지 템플릿을 구성할 때 **템플릿 작성자가** 수정할 수 있는 옵션입니다. | 구성 요소를 편집할 때 페이지 작성자가 사용할 수 있는 옵션 | 사용할 수 있는 텍스트 서식 옵션, 사용할 수 있는 이미지 즉석 옵션 |
+| **Edit Dialog** | 배치된 구성 요소에 대한 일반 페이지 편집 중에 **페이지 작성자가** 수정할 수 있는 옵션 | 구성 요소에 의해 표시되는 컨텐츠와 페이지가 페이지에 표시되는 방식. | 컨텐츠 텍스트의 서식을 지정하고 페이지에서 이미지를 회전할 수 있습니다. |
+| **디자인 대화 상자** | 페이지 템플릿을 구성할 때 **템플릿 작성자가** 수정할 수 있는 옵션입니다. | What options the page author has available when editing the component | Which text formatting options are available, which image in-place options are available |
 
-### 구성 요소 스타일 {#component-styling}
+### Component Styling {#component-styling}
 
-대부분의 핵심 구성 요소의 스타일은 AEM 스타일 시스템을 사용하여 정의할 수 있습니다.
+The styles of most Core Components can be defined using the AEM style system.
 
-* 템플릿 작성자는 해당 구성 요소의 디자인 대화 상자에서 특정 구성 요소에 사용할 수 있는 스타일을 정의할 수 있습니다.
-* 그런 다음 컨텐츠 작성자는 구성 요소를 추가하고 컨텐츠를 만들 때 적용할 스타일을 선택할 수 있습니다.
+* A template author can define which styles are available for a particular component in the Design Dialog of that component.
+* The content author can then choose which styles to apply when adding the component and creating content.
 
-자세한 내용은 스타일 시스템 [설명서를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) 참조하십시오.
+For further details see the Style System documentation.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html)
 
 >[!NOTE]
 >
->스타일 시스템 기능을 활성화하려면 AEM 6.3에서 서비스 팩 2(6.3.2.0) 이상이 필요합니다.
+>In AEM 6.3, service pack 2 (6.3.2.0) or newer is required to enable the style system feature.
 
 ## 사용 가능한 핵심 구성 요소 목록 {#list-of-core-components-available}
 
-다음은 편집 및 디자인 대화 상자 기능을 자세히 설명하는 페이지에 연결된 사용 가능한 핵심 구성 요소 목록입니다.
+The following is a list of the available Core Components linked to pages describing their edit and design dialog capabilities in detail.
 
-핵심 구성 요소의 현재 버전은 다음 구성 요소를 포함합니다.
+The current version of the Core Components features the following components.
 
 * [어코디언](accordion.md)
 * [탐색 표시](breadcrumb.md)
@@ -99,8 +99,9 @@ Components are available on the **Components** tab of the side panel of the page
 * [컨테이너](container.md)
 * [회전판](carousel.md)
 * [컨텐츠 조각](content-fragment-component.md)
-* [컨텐츠 조각 목록](content-fragment-list.md)
+* [Content Fragment List](content-fragment-list.md)
 * [다운로드](download.md)
+* [포함](embed.md)
 * [경험 조각](experience-fragment.md)
 * [양식 단추](form-button.md)
 * [양식 컨테이너](form-container.md)
@@ -121,15 +122,15 @@ Components are available on the **Components** tab of the side panel of the page
 
 >[!CAUTION]
 >
->개별 코어 구성 요소의 일부 버전은 특정 버전의 AEM과 호환될 수 있습니다.
+>Some versions of individual Core Components may only be compatible with certain versions of AEM.
 >
->호환성 정보를 보려면 이전 목록에 연결된 개별 도움말 페이지를 참조하거나 핵심 구성 요소 버전 [문서를](versions.md) 참조하십시오.
+>See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the Core Components Versions document for more information.[](versions.md)
 
 >[!NOTE]
 >
 >사용자 인스턴스에 따라 사용자 요구 사항에 맞게 명시적으로 개발된 구성 요소를 사용자 지정했을 수 있습니다. 이러한 구성 요소는 여기서 설명한 구성 요소 중 일부와 이름이 같을 수도 있습니다.
->양식 핵심 구성 요소는 AEM Forms와 관련이 없습니다.
+>The form core components are not related to AEM Forms.
 
 ## 개발자 리소스 {#developer-resources}
 
-핵심 구성 [요소에 대한](developing.md) 기술 정보는 핵심 구성 요소 개발 개발자 설명서를 참조하십시오.
+See the Developing Core Components developer documentation for technical information regarding core components.[](developing.md)
