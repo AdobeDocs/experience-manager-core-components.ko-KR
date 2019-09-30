@@ -5,7 +5,7 @@ sub-product: adobe experience manager 핵심 구성 요소
 archetype: 관리자
 user-guide-title: AEM 코어 구성 요소
 translation-type: tm+mt
-source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -28,6 +28,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
    + [컨텐츠 조각](content-fragment-component.md)
    + [컨텐츠 조각 목록](content-fragment-list.md)
    + [다운로드](download.md)
+   + [포함](embed.md)
    + [경험 조각](experience-fragment.md)
    + [이미지](image.md)
    + [언어 탐색](language-navigation.md)
