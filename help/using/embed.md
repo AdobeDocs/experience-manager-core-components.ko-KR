@@ -1,12 +1,12 @@
 ---
 title: 구성 요소 포함
-seo-title: 구성 요소 포함
+seo-title: Embed Component
 description: 포함 구성 요소를 사용하면 AEM 컨텐츠 페이지에 외부 컨텐츠를 포함할 수 있습니다.
 seo-description: 포함 구성 요소를 사용하면 AEM 컨텐츠 페이지에 외부 컨텐츠를 포함할 수 있습니다.
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
@@ -50,9 +50,9 @@ source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ### URL {#url}
 
-가장 간단한 임베드란 URL입니다. URL 필드에 포함할 리소스의 URL을 **붙여넣으면** 됩니다. 구성 요소는 리소스에 액세스하려고 하며, 프로세서 중 하나에서 렌더링할 수 있는 경우 URL 필드 아래에 확인 메시지가 **표시됩니다** . 그렇지 않으면 필드가 오류로 표시됩니다.
+The simplest embed is the URL. URL 필드에 포함할 리소스의 URL을 **붙여넣으면** 됩니다. The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. **** If not, the field will be marked in error.
 
-포함 구성 요소는 다음과 같은 유형의 리소스에 대해 프로세서와 함께 제공됩니다.
+The Embed Component ships with processors for the following types of resources:
 
 * Resources that comply with the oEmbed standard including Facebook Post, Instagram, SoundCloud, Twitter, and YouTube[](https://oembed.com/)
 * Pinterest
@@ -63,20 +63,20 @@ source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ### 포함 가능 {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+임베드 변수를 사용하면 임베드된 리소스를 보다 맞춤화하여 매개 변수화할 수 있으며 추가 정보를 포함할 수 있습니다. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
 
-The Embeddable field defines the type of processor you want to use. **** In the case of the YouTube embeddable you can then define:
+임베드 **가능한** 필드는 사용할 프로세서 유형을 정의합니다. YouTube 임베드 가능한 경우 다음을 정의할 수 있습니다.
 
 * **Video ID - The unique video ID from YouTube of the resource you want to embed**
 * **Width - The width of the embedded video**
-* **Height - The height of the embedded video**
+* **높이** - 포함된 비디오의 높이
 
-Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Other embeddables would offer similar fields and can be defined by a developer by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
+>Embeddables must be enabled at the template level via the Design Dialog to be available to the page author.[](#design-dialog)
 
 ### HTML {#html}
 
@@ -85,15 +85,15 @@ You can add free-form HTML to your page using the Embed Component.
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
+>스크립트와 같은 안전하지 않은 태그는 입력한 HTML에서 필터링되며 결과 페이지에서 렌더링되지 않습니다.
 
-## Design Dialog {#design-dialog}
+## 디자인 대화 상자 {#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
+템플릿 작성자는 디자인 대화 상자를 사용하여 포함 구성 요소를 사용하는 컨텐츠 작성자에게 사용 가능한 옵션과 포함 구성 요소를 배치할 때 설정된 기본값을 정의할 수 있습니다.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
 * **URL 비활성화** - **선택 시 컨텐츠 작성자에** 대한 URL 옵션을 비활성화합니다.
-* **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected, regardless of which embeddable processors are allowed.
+* **포함 가능** 비활성화 - 임베드 가능한 **프로세서에 상관없이** 선택한 경우 컨텐츠 작성자에 대한 포함 가능 옵션을 비활성화합니다.
 * **HTML 비활성화** - **선택 시 컨텐츠 작성자에** 대한 HTML 옵션을 비활성화합니다.
 * **임베드 가능** - 임베드 가능한 프로세서가 활성 상태인 경우 컨텐츠 작성자가 사용할 수 있는 임베드 가능한 프로세서를 정의하는 **다중** 세그먼트입니다.
