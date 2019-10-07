@@ -6,7 +6,7 @@ seo-description: 포함 구성 요소를 사용하면 AEM 컨텐츠 페이지에
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 작성자가 입력할 수 있는 HTML 마크업은 작성자가 관리 권한을 얻을 수 있는 크로스 사이트 스크립팅 공격을 방지하기 위해 보안 목적으로 필터링됩니다.
 
-일반적으로 모든 스크립트 및 `style` 요소뿐만 아니라 모든 `on*` 및 `style` 속성이 출력에서 제거됩니다.
+*일반적으로* 모든 스크립트 및 `style` 요소뿐만 아니라 모든 `on*` 및 `style` 속성이 출력에서 제거됩니다.
 
-하지만 포함 구성 요소가 AEM의 전역 HTML AntiSami 필터링 규칙 세트를 따르므로 규칙은 이보다 더 복잡합니다. 이 규칙은 에 `/libs/cq/xssprotection/config.xml`있습니다. 필요한 경우 개발자가 프로젝트별 구성에 대해 오버레이할 수 있습니다.
+하지만 포함 구성 요소는 에 나와 있는 AEM의 전역 HTML AntiSamy Fishing 프레임워크 필터링 규칙 세트를 따르기 때문에 규칙이 더 복잡해졌습니다. `/libs/cq/xssprotection/config.xml` 필요한 경우 개발자가 프로젝트별 구성에 대해 오버레이할 수 있습니다.
+
+추가 보안 정보는 AEM 개발자 [문서에서 찾을 수 있습니다.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->AntiSamy 규칙은 오버레이로 구성할 수 있지만 이러한 변경 사항은 내장 코어 구성 요소뿐만 아니라 모든 HTL 및 JSP 동작에 영향을 `/libs/cq/xssprotection/config.xml`줍니다.
+>AntiSamy 위생 프레임워크 규칙은 오버레이로 구성할 수 있지만 이러한 `/libs/cq/xssprotection/config.xml`변경 사항은 내장 코어 구성 요소뿐만 아니라 모든 HTL 및 JSP 동작에 영향을 줍니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
