@@ -7,7 +7,7 @@ contentOwner: 보허트
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 0a61f4e6d1ad8b4d5e3778018838dc70d496e1fc
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 0a61f4e6d1ad8b4d5e3778018838dc70d496e1fc
 
 에 정의된 Maven 번들 플러그인은 AEM의 OSGi 컨테이너에서 인식할 수 있는 OSGi 번들로 Java 코드를 컴파일할 책임이 `<src-directory>/<project>/core/pom.xml` 있습니다. Sling Models의 위치는 여기에서 정의됩니다.
 
-코어 번들을 상위 수준 환경에서 ui.apps 모듈과 독립적으로 배포해야 하는 것은 드문 일이지만, 핵심 번들을 직접 배포하는 것은 로컬 개발/테스트 중에 유용합니다. Maven Sling 플러그인을 사용하면 핵심 번들을 `autoInstallBundle` 상위 POM에 정의된 대로 프로파일을 직접 활용하여 AEM에 배포할 수 있습니다 [](archetype.md#parent-pom).
+코어 번들을 상위 수준 환경에서 ui.apps 모듈과 독립적으로 배포해야 하는 것은 드문 일이지만, 핵심 번들을 직접 배포하는 것은 로컬 개발/테스트 중에 유용합니다. Maven Sling 플러그인을 사용하면 핵심 번들을 `autoInstallBundle` 상위 POM에 정의된 대로 프로파일을 직접 활용하여 AEM에 배포할 수 있습니다 [](overview.md#parent-pom).
 
 ```
 mvn -PautoInstallBundle clean install
