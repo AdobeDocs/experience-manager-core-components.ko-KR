@@ -5,7 +5,7 @@ sub-product: Adobe Experience Manager 핵심 구성 요소
 archetype: 관리자
 user-guide-title: AEM 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
    + [WKND 개발자 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [핵심 구성 요소 사용자 정의](customizing.md)
    + [구성 요소 지침](guidelines.md)
-   + [AEM 프로젝트 원형]{#archetype}
+   + AEM 프로젝트 원형 {#archetype}
       + [원형 개요](overview.md)
       + [핵심 모듈](core.md)
       + [ui.apps 모듈](uiapps.md)
