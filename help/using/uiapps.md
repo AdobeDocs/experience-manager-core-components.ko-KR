@@ -7,7 +7,7 @@ contentOwner: 보허트
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -20,7 +20,7 @@ Apache Jackrabbit FileVault 패키지 플러그인은 ui.apps 모듈의 콘텐�
 
 ## 상위 POM {#parent-pom}
 
-[상위 POM](archetype.md#parent-pom) (`<src>/<project>/pom.xml`)에는 프로젝트에 사용된 플러그인의 다양한 구성을 정의하는 `<plugin>` 섹션이 포함되어 있습니다. 여기에는 Jackrabbit FileVault 패키지 플러그인에 `filterSource` 대한 구성이 포함됩니다. 패키지에 포함된 jcr 경로를 정의하는 데 사용되는 `filterSource` `filter.xml` 파일의 위치를 가리킵니다.
+[상위 POM](overview.md#parent-pom) (`<src>/<project>/pom.xml`)에는 프로젝트에 사용된 플러그인의 다양한 구성을 정의하는 `<plugin>` 섹션이 포함되어 있습니다. 여기에는 Jackrabbit FileVault 패키지 플러그인에 `filterSource` 대한 구성이 포함됩니다. 패키지에 포함된 jcr 경로를 정의하는 데 사용되는 `filterSource` `filter.xml` 파일의 위치를 가리킵니다.
 
 Jackrabbit FileVault 패키지 플러그인 외에도 패키지를 AEM에 푸시하는 데 사용되는 컨텐츠 패키지 플러그인의 정의입니다. 동일한 상위 POM에 정의된 전역 속성에 해당하는 `aem.host`, `aem.port`, `vault.user`및 `vault.password` 에 대한 변수가 사용됩니다.
 
@@ -30,7 +30,7 @@ ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)은 에 대한 `embedded` 태그�
 
 core.wcm.components.all 및 core.wcm.components.examples 패키지가 하위 패키지로 포함되어 있습니다. 이렇게 하면 매번 WKND 코드와 함께 코어 구성 요소 패키지가 배포됩니다.
 
-core.wcm.components.all 및 core.wcm.components.examples는 종속성 목록에 종속성으로 포함됩니다. 그러나 종속성 버전은 여기에서 생략되고 [상위 양식 파일에서](archetype.md#core-components)관리됩니다.
+core.wcm.components.all 및 core.wcm.components.examples는 종속성 목록에 종속성으로 포함됩니다. 그러나 종속성 버전은 여기에서 생략되고 [상위 양식 파일에서](overview.md#core-components)관리됩니다.
 
 ## filter.xml {#filter}
 
