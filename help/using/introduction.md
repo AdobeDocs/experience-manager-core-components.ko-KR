@@ -10,7 +10,7 @@ topic-tags: 소개
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -105,7 +105,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 [이 단계별 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-AEM Project Tranype을 활용하는 자체 AEM 프로젝트를 [시작하는](archetype.md) 것을 잊지 마십시오.
+AEM Project Tranype을 활용하는 자체 AEM 프로젝트를 [시작하는](overview.md) 것을 잊지 마십시오.
 
 ## 핵심 구성 요소 지원 {#core-components-support}
 
