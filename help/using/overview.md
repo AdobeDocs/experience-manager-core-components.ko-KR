@@ -7,7 +7,7 @@ contentOwner: 보허트
 content-type: 참조
 topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
 
 ---
 
@@ -53,7 +53,7 @@ AEM Tranype은 다음 모듈로 구성됩니다.
 * **[ui.content](uicontent.md)**:에는 ui.apps 모듈의 구성 요소를 사용하는 샘플 컨텐츠가 포함되어 있습니다.
 * **ui.tests**:는 서버측에서 실행되는 JUnit 테스트가 들어 있는 Java 번들입니다. 이 번들은 프로덕션에 배포되지 않습니다.
 * **ui.launcher**:에는 ui.tests 번들(및 종속 번들)을 서버에 배포하고 원격 JUnit 실행을 트리거하는 접착제가 포함되어 있습니다.
-* **[ui.frontend](front-end-build.md)**: [선택] 사항에는 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
+* **[ui.frontend](front-end-build.md)**:(선택 사항) **** 에는 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
 
 ![](assets/project-pom.png)
 
