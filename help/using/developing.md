@@ -7,10 +7,10 @@ uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: 사용자
 content-type: 참조
 topic-tags: 개발
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -51,13 +51,17 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ## Gems 세션 개요 {#gems-session-overview}
 
-핵심 구성 요소, 구성 요소가 제공하는 기능 및 AEM에서 이러한 구성 요소를 활용하는 방법에 대한 소개는 AEM Gems Session AEM 코어 [구성 요소를 참조하십시오.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+핵심 구성 요소, 구성 요소가 제공하는 기능 및 AEM에서 이러한 구성 요소를 활용하는 방법에 대한 소개는 AEM Gems 세션 [AEM 핵심 구성 요소](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Adobe Experience Manager의](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) Gems는 Adobe 전문가가 전달하는 일련의 기술 심층 정보입니다. 이 시리즈는 제품 설명서 및 기타 모든 기술 채널을 보완하여 개발자는 특정 주제에 대해 자세히 알아볼 수 있습니다.
+[Adobe Experience Manager의](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) Gems는 Adobe 전문가가 전달하는 일련의 기술 심층 정보입니다. 이 시리즈는 제품 설명서 및 기타 모든 기술 채널을 보완했기 때문에 개발자가 특정 주제를 선택하여 자세히 알아볼 수 있습니다.
 
 ## WKND 개발자 자습서 {#wknd-developer-tutorial}
 
-이 단계별 튜토리얼을 따라 핵심 구성 요소를 사용하여 AEM 사이트 개발을 [시작해 보십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+## AEM 프로젝트 원형 {#aem-project-archetype}
+
+[AEM Project Tranype](archetype.md) 은 권장 프록시 패턴을 사용하는 핵심 구성 요소의 로직과 적절한 구현을 위해 SlingModels가 포함된 사용자 지정 HTL 구성 요소의 도움말 예제를 비롯하여 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
 
 ## GitHub를 통해 제공 {#delivered-over-github}
 
@@ -157,9 +161,9 @@ GitHub에 핵심 구성 요소를 추가하면 자주 업데이트되고 AEM 개
 
 핵심 구성 요소의 새 버전으로 마이그레이션해도 구성 요소의 작동 방식에는 영향을 주지 않지만, 기본 동작을 원하지 않는 경우 템플릿 편집기의 일부 구성이 필요할 수 있는 새로운 기능이 페이지 작성자에게 소개될 수 있습니다. 하지만 사용자 지정을 수정해야 할 수도 있습니다. 자세한 내용은 핵심 구성 요소 [사용자 지정 페이지를 참조하십시오](customizing.md#upgrade-compatibility-of-customizations) .
 
-## 핵심 구성 요소를 언제 사용해야 합니까? {#when-to-use-the-core-components}
+## When to Use the Core Components? {#when-to-use-the-core-components}
 
-핵심 구성 요소는 완전히 새로워진 제품으로 여러 이점을 제공하므로 새 AEM 프로젝트에서 이를 사용하는 것이 좋습니다. 기존 프로젝트의 경우, 마이그레이션은 리브랜딩 또는 전체 리팩토링 등 대규모 프로젝트 작업의 일부여야 합니다.
+핵심 구성 요소가 새로워졌고 여러 이점을 제공하므로 새 AEM 프로젝트에서 이러한 구성 요소를 사용하는 것이 좋습니다. 기존 프로젝트의 경우 마이그레이션은 리브랜딩 또는 전체 리팩터링 등 대규모 프로젝트 작업에 포함되었습니다.
 
 따라서 Adobe는 다음과 같은 권장 사항을 제공합니다.
 
@@ -192,21 +196,21 @@ GitHub에 핵심 구성 요소를 추가하면 자주 업데이트되고 AEM 개
 
 ## 핵심 구성 요소 지원 {#core-component-support}
 
-핵심 구성 요소는 AEM의 필수 구성 요소로서 Quickstart의 일부로 제공된 것과 동일한 약관에 따라 그대로 지원됩니다.
+핵심 구성 요소는 AEM의 필수적인 부분으로, 빠른 시작의 일부로 전달된 것처럼 동일한 이용 약관에 따라 지원됩니다.
 
 다른 AEM 제품 기능과 마찬가지로 일반 규칙은 다음과 같습니다.구성 요소는 먼저 더 이상 사용되지 않는다고 발표되고 다음 AEM 릴리스에 대해 가장 빨리 제거됩니다. 따라서 고객이 지원을 중단하기 전에 하나 이상의 릴리스 주기를 구성 요소의 새 버전으로 전환할 수 있습니다.
 
-각 구성 요소의 버전은 지원되는 AEM 버전을 명확히 나타냅니다. AEM 버전에 대한 지원이 중단되면 해당 버전의 AEM에 대한 핵심 구성 요소에 대한 지원도 중단됩니다.
+각 구성 요소의 버전은 지원되는 AEM 버전을 명확하게 설명합니다. AEM 버전에 대한 지원이 중단되면 해당 버전의 AEM에 대한 핵심 구성 요소에 대한 지원도 중단됩니다.
 
 구성 요소 사용자 지정 지원에 대한 자세한 내용은 핵심 구성 요소 [사용자 지정 페이지를](customizing.md) 참조하십시오.
 
-## 기본 구성 요소 지원 {#foundation-component-support}
+## 기초 구성 요소 지원 {#foundation-component-support}
 
 기본 구성 요소는 많은 AEM 버전에 걸쳐 많은 프로젝트 개발의 기반으로 사용되기 때문에 앞으로도 계속 지원될 것입니다.
 
-그러나 Adobe의 개발 강조가 핵심 구성 요소로 변경되었으며 새로운 기능이 추가되지만 [거의 모든 기본 구성 요소는 AEM 6.5에서 더 이상 사용되지 않으며](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 앞으로 Foundation 구성 요소에는 버그 수정만 적용됩니다.
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
-**다음 보기:**
+**다음 참조:**
 
 * [핵심 구성 요소](using.md) 사용 - 프로젝트에서 핵심 구성 요소를 사용하여 바로 시작할 수 있습니다.
 * [구성 요소](guidelines.md) 지침 - 핵심 구성 요소의 구현 패턴을 학습합니다.
