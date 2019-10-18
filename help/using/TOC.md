@@ -1,32 +1,32 @@
 ---
-cloud: experience Cloud
-product: adobe experience manager
-sub-product: adobe experience manager 핵심 구성 요소
+cloud: experience-cloud
+product: Adobe Experience Manager
+sub-product: Adobe Experience Manager 핵심 구성 요소
 archetype: 관리자
-user-guide-title: AEM 코어 구성 요소
+user-guide-title: AEM 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
 
 ---
 
 
-# AEM 코어 구성 요소 도움말 {#using}
+# AEM 핵심 구성 요소 도움말 {#using}
 
 + [핵심 구성 요소 소개](introduction.md)
 + [구성 요소 라이브러리](http://opensource.adobe.com/aem-core-wcm-components/library.html)
-+ [핵심 구성 요소 버전](versions.md)
-+ Get Started {#get-started}
++ [구성 요소 버전](versions.md)
++ 시작하기 {#get-started}
    + [핵심 구성 요소로 작성](authoring.md)
    + [핵심 구성 요소 사용](using.md)
-   + [현지화 기능](localization.md)
+   + [지역화 기능](localization.md)
 + 구성 요소 {#components}
    + [어코디언](accordion.md)
    + [탐색 표시](breadcrumb.md)
    + [단추](button.md)
    + [회전판](carousel.md)
    + [컨테이너](container.md)
-   + [컨텐츠 조각](content-fragment-component.md)
-   + [컨텐츠 조각 목록](content-fragment-list.md)
+   + [콘텐츠 조각](content-fragment-component.md)
+   + [콘텐츠 조각 목록](content-fragment-list.md)
    + [다운로드](download.md)
    + [포함](embed.md)
    + [경험 조각](experience-fragment.md)
@@ -66,3 +66,9 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
    + [WKND 개발자 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [핵심 구성 요소 사용자 정의](customizing.md)
    + [구성 요소 지침](guidelines.md)
+   + [AEM 프로젝트 원형]{#archetype}
+      + [원형 개요](archetype.md)
+      + [핵심 모듈](core.md)
+      + [ui.apps 모듈](uiapps.md)
+      + [ui.content 모듈](uicontent.md)
+      + [프런트 엔드 빌드 프로세스](front-end-build.md)
