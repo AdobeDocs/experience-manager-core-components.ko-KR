@@ -7,10 +7,10 @@ uuid: b1daera89-da3c-454f-8ab5-d75a19412954
 contentOwner: 사용자
 content-type: 참조
 topic-tags: 개발
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -110,7 +110,11 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 ![템플릿 및 정책 개요](assets/screen_shot_2018-12-07at093102.png)
 
-**다음 보기:**
+## AEM 프로젝트 원형 {#aem-project-archetype}
+
+[AEM Project Tranype](archetype.md) 은 권장 프록시 패턴을 사용하는 핵심 구성 요소의 로직과 적절한 구현을 위해 SlingModels가 포함된 사용자 지정 HTL 구성 요소의 도움말 예제를 비롯하여 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
+
+**다음 참조:**
 
 * [핵심 구성 요소](using.md) 사용 - 프로젝트에서 핵심 구성 요소를 사용하여 바로 시작할 수 있습니다.
 * [핵심 구성 요소 사용자](customizing.md) 지정 - 핵심 구성 요소의 스타일을 지정하고 사용자 지정하는 방법을 알아봅니다.
