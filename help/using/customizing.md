@@ -7,10 +7,10 @@ uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
 contentOwner: 사용자
 content-type: 참조
 topic-tags: 개발
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -34,6 +34,10 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 모든 핵심 구성 요소는 스타일 시스템을 [구현합니다](customizing.md).
 
+## AEM 프로젝트 원형 {#aem-project-archetype}
+
+[AEM Project Tranype](archetype.md) 은 권장 프록시 패턴을 사용하는 핵심 구성 요소의 로직과 적절한 구현을 위해 SlingModels가 포함된 사용자 지정 HTL 구성 요소의 도움말 예제를 비롯하여 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
+
 ## 사용자 정의 패턴 {#customization-patterns}
 
 ### 대화 상자 사용자 지정 {#customizing-dialogs}
@@ -45,25 +49,6 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 현재 버전에서 대화 상자가 변경된 내용과 완전히 호환하려면 탭 항목 수준 아래의 구조를 손대지 않는 것이 중요합니다(숨김, 추가, 교체, 순서 변경 등). 대신 상위의 탭 항목은 `sling:hideResource` 속성을 통해 숨겨져야 합니다(리소스 [통합 속성 참조). 맞춤 구성 필드가 포함된 새 탭](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)항목이 추가되었습니다. `sling:orderBefore` 필요한 경우 탭 항목의 순서를 변경하는 데 사용할 수 있습니다.
 
 아래 대화 상자에서는 위에서 설명한 대로 권장되는 대화 상자 구조와 상속된 탭을 숨기거나 교체하는 방법을 보여 줍니다.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -128,25 +113,6 @@ public class PageHeadline implements Title {
 
 코어 탐색 표시 구성 요소의 예를 다시 들어, 마크업 출력을 사용자 정의하려면 `breadcrumb.html` 파일이 코어 탐색 표시 구성 요소를 가리키는 사이트 특정 구성 요소에 복사되어야 `sling:resourceSuperTypes` 합니다.
 
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
-
 ### 구성 요소 스타일 지정 {#styling-the-components}
 
 사용자 지정의 첫 번째 형식은 CSS 스타일을 적용하는 것입니다.
@@ -195,7 +161,7 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 핵심 구성 요소 [지원 섹션을](developing.md#core-component-support) 참조하십시오.
 
-**다음 보기:**
+**다음 참조:**
 
 * [핵심 구성 요소](using.md) 사용 - 프로젝트에서 핵심 구성 요소를 사용하여 바로 시작할 수 있습니다.
 * [구성 요소](guidelines.md) 지침 - 핵심 구성 요소의 구현 패턴을 학습합니다.
