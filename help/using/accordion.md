@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
 
@@ -64,6 +64,10 @@ Accordion 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 �
 * **삭제** - 아코디언 구성 요소에서 패널을 삭제하려면 탭하거나 클릭합니다.
 * **재배치** - 탭하거나 클릭하고 드래그하여 패널 순서를 재정렬합니다.
 
+>[!TIP]
+>
+>페이지의 뷰포트가 축소되어 편집 대화 상자가 전체 화면이 되면 추가 **단추가** 숨겨집니다. 구성 요소 브라우저에서 구성 요소를 [드래그하고 페이지 편집기의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)아코디언 구성 요소에 드롭하여 구성 요소를 아코디언 구성 요소에 추가할 수 있습니다.
+
 ### 속성 탭 {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -72,10 +76,6 @@ Accordion 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 �
 * **확장된 항목** - 이 옵션은 페이지를 로드할 때 기본적으로 확장되는 항목을 정의합니다.
    * 단일 **항목 확장을** 선택한 경우 하나의 패널을 선택해야 합니다. 기본적으로 첫 번째 패널이 선택됩니다.
    * 단일 **항목 확장을** 선택하지 않으면 이 옵션은 다중 선택이며 선택 사항입니다.
-
->[!TIP]
->
->페이지의 뷰포트가 축소되어 편집 대화 상자가 전체 화면이 되면 추가 **단추가** 숨겨집니다. 구성 요소 브라우저에서 구성 요소를 [드래그하고 페이지 편집기의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)아코디언 구성 요소에 드롭하여 구성 요소를 아코디언 구성 요소에 추가할 수 있습니다.
 
 ## 패널 팝업 선택 {#seelct-panel-popover}
 
