@@ -8,7 +8,7 @@ content-type: 참조
 topic-tags: 핵심 구성 요소
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -65,6 +65,10 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 * **설명** - 탭의 텍스트로 사용된 설명으로서, 탭에 대해 선택한 구성 요소의 이름이 기본값으로 설정됩니다.
 * **삭제** - 탭 구성 요소에서 탭을 삭제하려면 탭하거나 클릭합니다.
 * **재배치** - 탭 순서를 다시 정렬하려면 탭하거나 클릭하고 드래그합니다.
+
+>[!TIP]
+>
+>페이지의 뷰포트가 축소되어 편집 대화 상자가 전체 화면이 되면 추가 **단추가** 숨겨집니다. 구성 요소 브라우저에서 [드래그하고 페이지 편집기의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)탭 구성 요소를 놓아 탭 구성 요소를 추가할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
