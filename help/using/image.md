@@ -7,10 +7,10 @@ uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
 contentOwner: 사용자
 content-type: 참조
 topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -276,3 +276,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### 스타일 탭 {#styles-tab-1}
 
 이미지 구성 요소는 AEM 스타일 [시스템을 지원합니다](authoring.md#component-styling).
+
+## 응용 이미지 서블릿 {#adaptive-image-servlet}
+
+이미지 구성 요소는 핵심 구성 요소의 응용 이미지 서블릿을 사용합니다. [응용 이미지 서블릿은](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 이미지 처리 및 스트리밍을 담당하고 개발자가 핵심 구성 요소의 [사용자 정의에 활용할 수 있습니다](customizing.md).
+
+>[!NOTE]
+>
+>헤더를 통한 조건부 `Last-Modified` 요청은 응용 이미지 서블릿에서 지원되지만 `Last-Modified` 헤더의 캐싱은 디스패처에서 활성화해야 [합니다](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>
+>[AEM Project Tranype의](overview.md)샘플 발송자 구성에는 이미 이 구성이 포함되어 있습니다.
