@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -50,7 +50,7 @@ Carousel 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력
 
 ### 기술 정보 {#technical-details}
 
-회전판 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+Carousel 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -68,6 +68,10 @@ Carousel 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력
 * **설명** - 탭의 텍스트로 사용된 설명으로서, 탭에 대해 선택한 구성 요소의 이름이 기본값으로 설정됩니다.
 * **삭제** - 탭 구성 요소에서 탭을 삭제하려면 탭하거나 클릭합니다.
 * **순서 바꾸기** - 탭을 탭하거나 클릭하고 드래그하여 정렬합니다.
+
+>[!TIP]
+>
+>페이지의 뷰포트가 축소되어 편집 대화 상자가 전체 화면이 되면 추가 **단추가** 숨겨집니다. 구성 요소 브라우저에서 구성 요소를 [드래그하고 페이지 편집기의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)회전판 구성 요소에 드롭하여 여전히 회전판 구성 요소에 구성 요소를 추가할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
