@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 5f905b0231b5f07924a55dd3d79d347e019f76f4
+source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 
 ---
 
@@ -88,6 +88,10 @@ AEM 프로젝트 전형(선택 사항)에는 다음 기능이 포함된 웹팩�
    * 공급업체(종속성 js/css)
 * 전체 Sass/Scss 지원(Sass는 Webpack을 통해 CSS로 컴파일됨)
 * AEM의 로컬 인스턴스에 내장 프록시가 있는 정적 웹 팩 개발 서버
+
+>[!NOTE]
+>
+>ui.frontend 모듈에 대한 자세한 기술 정보는 GitHub에 대한 [설명서를 참조하십시오](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
 
 ## 설치 {#installation}
 
