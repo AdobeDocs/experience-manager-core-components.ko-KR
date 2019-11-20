@@ -3,11 +3,11 @@ title: AEM 프로젝트 원형
 seo-title: AEM 프로젝트 원형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 seo-description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-contentOwner: 보허트
-content-type: 참조
-topic-tags: 핵심 구성 요소
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -22,7 +22,7 @@ AEM Project Tranype은 AEM 프로젝트의 시작점으로 최소한으로 우�
 
 >[!NOTE]
 >
->간단한 [프로젝트를 구현하기 위해](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 아카이브 유형을 사용하는 방법을 단계별로 안내하는 실용적인 예는 AEM 설명서의 AEM 사이트 시작하기 - WKND 자습서를 참조하십시오.
+>AEM [설명서에서 AEM 사이트 시작하기](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) - WKND 자습서를 참조하십시오. 기본 유형을 사용하여 간단한 프로젝트를 구현하는 방법을 안내합니다.
 
 ## 기능 {#features}
 
@@ -53,11 +53,11 @@ AEM Tranype은 다음 모듈로 구성됩니다.
 * **[ui.content](uicontent.md)**:에는 ui.apps 모듈의 구성 요소를 사용하는 샘플 컨텐츠가 포함되어 있습니다.
 * **ui.tests**:는 서버측에서 실행되는 JUnit 테스트가 들어 있는 Java 번들입니다. 이 번들은 프로덕션에 배포되지 않습니다.
 * **ui.launcher**:에는 ui.tests 번들(및 종속 번들)을 서버에 배포하고 원격 JUnit 실행을 트리거하는 접착제가 포함되어 있습니다.
-* **[ui.frontend](front-end-build.md)**:(선택 사항) **** 에는 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
+* **[ui.frontend](uifrontend.md)**:(선택 사항) **** 에는 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
 
 ![](assets/project-pom.png)
 
-Maven에 표현된 AEM Candpee 모듈은 애플리케이션, 컨텐츠 및 필요한 OSGi 번들을 나타내는 컨텐츠 페이지로 AEM에 배포됩니다.
+Maven에 표시되는 AEM Tranype 모듈은 애플리케이션, 컨텐츠 및 필요한 OSGi 번들을 나타내는 컨텐츠 패키지로 AEM에 배포됩니다.
 
 ## 요구 사항 {#requirements}
 
@@ -117,7 +117,7 @@ mvn archetype:generate \
 | `optionAemVersion` | 6.5.0 | Target AEM 버전 |
 | `optionIncludeExamples` | y | 구성 요소 [라이브러리](http://opensource.adobe.com/aem-core-wcm-components/library.html) 예제 사이트 포함 |
 | `optionIncludeErrorHandler` | n | 사용자 지정 404 응답 페이지 포함 |
-| `optionIncludeFrontendModule` | n | [전용 프런트 엔드 모듈 포함](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [전용 프런트 엔드 모듈 포함](uifrontend.md) |
 
 >[!NOTE]
 > 원형형이 처음 대화형 모드에서 실행되는 경우 기본값을 갖는 속성을 변경할 수 없습니다(자세한 내용은 [RCEYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 끝 부분의 속성 확인이 거부되고 질문서가 반복되거나 명령줄의 매개 변수(예: `-DoptionIncludeExamples=n`).
@@ -207,7 +207,7 @@ AEM 프로젝트 원형에서는 물론 핵심 구성 요소를 활용합니다.
 
 >[!NOTE]
 >
->핵심 구성 요소의 각 릴리스에는 일반적으로 AEM 프로젝트 아카이브 유형이 릴리스되어 최신 버전의 핵심 구성 요소가 사용됩니다.
+>코어 구성 요소의 각 릴리스에는 일반적으로 AEM 프로젝트 원형형이 릴리스되어 최신 버전의 핵심 구성 요소가 사용됩니다.
 >
 >그러나 새 버전의 원형 구성 요소는 새 버전의 핵심 구성 요소를 직접 따르지 않을 수 있으므로 핵심 구성 요소에 대한 종속성을 최신 버전으로 업데이트할 수 있습니다.
 
@@ -231,9 +231,9 @@ AEM 프로젝트 원형에서는 물론 핵심 구성 요소를 활용합니다.
 
 ## 다음 단계 {#next-steps}
 
-AEM Project Architype을 빌드하고 설치했습니다. 지금 뭐? 전형은 작지만 권장 우수 사례에 따라 구성된 강력한 AEM 기능의 많은 예제로 구성되어 있습니다. 이러한 기능은 프로젝트에서 이러한 기능을 활용할 수 있는 방법을 보여 줍니다. 모든 프로젝트의 경우 다음을 수행해야 합니다.
+AEM 프로젝트 원형형을 만들고 설치했습니다. 지금 뭐? 전형은 작지만 권장 우수 사례에 따라 구성된 강력한 AEM 기능의 많은 예제로 구성되어 있습니다. 이러한 기능은 프로젝트에서 이러한 기능을 활용할 수 있는 방법을 보여 줍니다. 모든 프로젝트의 경우 다음을 수행해야 합니다.
 
-* [기존 핵심 구성 요소를 확장할 구성 요소 사용자 정의](customizing.md)
+* [기존 핵심 구성 요소를 확장하여 구성 요소 사용자 정의](customizing.md)
 * [추가 템플릿 추가](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [현지화 구조 조정](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [프런트 엔드 빌드 모듈에 대한 자세한 내용](front-end-build.md)
+* [프런트 엔드 빌드 모듈에 대한 자세한 내용](uifrontend.md)
