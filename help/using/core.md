@@ -3,11 +3,11 @@ title: AEM 프로젝트 원형형의 핵심 모듈
 seo-title: AEM 프로젝트 원형형의 핵심 모듈
 description: AEM 프로젝트 원형형의 핵심 모듈
 seo-description: AEM 프로젝트 원형형의 핵심 모듈
-contentOwner: 보허트
-content-type: 참조
-topic-tags: 핵심 구성 요소
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 mvn -PautoInstallBundle clean install
 ```
 
-성공적으로 실행되면 에서 Bundels 콘솔을 볼 수 있습니다 `http://<host>:<port>/system/console/bundles`.
+성공적으로 실행되면, 에서 번들 콘솔을 볼 수 있습니다 `http://<host>:<port>/system/console/bundles`.
