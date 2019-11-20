@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
-sub-product: Adobe Experience Manager 핵심 구성 요소
-archetype: 관리자
-user-guide-title: AEM 핵심 구성 요소
+product: adobe experience manager
+sub-product: adobe experience manager core components
+archetype: Administrator
+user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
+source-git-commit: f1db87b0a1fce494041c229f9cd3a125a174150e
 
 ---
 
@@ -71,4 +71,4 @@ source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
       + [핵심 모듈](core.md)
       + [ui.apps 모듈](uiapps.md)
       + [ui.content 모듈](uicontent.md)
-      + [프런트 엔드 빌드 프로세스](front-end-build.md)
+      + [ui.frontend](uifrontend.md)
