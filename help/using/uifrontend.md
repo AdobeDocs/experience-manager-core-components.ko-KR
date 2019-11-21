@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
 
 ---
 
@@ -25,13 +25,13 @@ AEM Project Tranype에는 Webpack을 기반으로 하는 선택적 전용 프런
 
 이러한 두 개발 프로세스는 프로젝트의 서로 다른 부분에 중점을 두므로 백엔드 및 프런트엔드 개발이 동시에 발생할 수 있습니다.
 
-![](assets/front-end-flow.png)
+![프런트 엔드 워크플로우 다이어그램](assets/front-end-flow.png)
 
 그러나 결과로 발생하는 모든 프로젝트는 백엔드 및 프런트엔드 등 두 개발 노력의 결과물을 사용해야 합니다.
 
 실행을 `npm run dev` 하면 ui.frontend 모듈에 저장된 JavaScript 및 CSS 파일을 수집하는 프런트 엔드 빌드 프로세스가 시작되고, 호출된 축소 클라이언트 라이브러리 또는 클라이언트 라이브러리 두 개를 만들어 ui.apps 모듈에 `clientlib-site` 예치하게 `clientlib-dependencies` 됩니다. clientlibs는 AEM 파섹
 
-clientlibs를 포함한 `mvn clean install -pautoinstallPackage` 모든 프로젝트 아티팩트를 사용하여 전체 AEM 프로젝트 전형 실행이 실행되면 AEM 인스턴스로 푸시됩니다.
+clientlibs를 포함한 `mvn clean install -PautoInstallPackage` 모든 프로젝트 아티팩트를 사용하여 전체 AEM 프로젝트 전형 실행이 실행되면 AEM 인스턴스로 푸시됩니다.
 
 >[!TIP]
 >AEM 개발 설명서의 [clientlibs와](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) ui.frontend 모듈에서 [](#clientlib-generation)클라이언트 사용 방법에 대해 자세히 알아보십시오.
