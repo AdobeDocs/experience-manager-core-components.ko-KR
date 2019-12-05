@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -207,7 +207,7 @@ AEM 프로젝트 원형에서는 물론 핵심 구성 요소를 활용합니다.
 
 >[!NOTE]
 >
->코어 구성 요소의 각 릴리스에는 일반적으로 AEM 프로젝트 원형형이 릴리스되어 최신 버전의 핵심 구성 요소가 사용됩니다.
+>핵심 구성 요소의 각 릴리스에는 일반적으로 AEM 프로젝트 원형형이 릴리스되어 최신 버전의 핵심 구성 요소가 사용됩니다.
 >
 >그러나 새 버전의 원형 구성 요소는 새 버전의 핵심 구성 요소를 직접 따르지 않을 수 있으므로 핵심 구성 요소에 대한 종속성을 최신 버전으로 업데이트할 수 있습니다.
 
