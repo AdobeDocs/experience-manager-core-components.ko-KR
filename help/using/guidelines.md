@@ -3,14 +3,14 @@ title: 구성 요소 지침
 seo-title: 구성 요소 지침
 description: 핵심 구성 요소는 기본 구성 요소와 매우 다른 최신 구현 패턴을 따릅니다.
 seo-description: 핵심 구성 요소는 기본 구성 요소와 매우 다른 최신 구현 패턴을 따릅니다.
-uuid: b1daera89-da3c-454f-8ab5-d75a19412954
-contentOwner: 사용자
-content-type: 참조
-topic-tags: 개발
+uuid: b1daea89-da3c-454f-8ab5-d75a19412954
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 로직(또는 모델)을 구분하는 것이 좋습니다. 이를 위해 몇 가지 방법이 있지만, 핵심 구성 요소처럼 [로직용](https://sling.apache.org/documentation/bundles/models.html) Sling Models와 마크업에 HTML [템플릿 언어](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)를 사용하는 것이 좋습니다.
 
-Sling Models는 POJO에서 필요한 변수에 쉽게 액세스할 수 있는 Java 주석 집합이므로 구성 요소에 대한 Java 로직을 구현하는 간단하고 강력한 성능을 제공합니다.
+Sling Models는 POJO에서 필요한 변수에 쉽게 액세스할 수 있는 Java 주석 집합이므로 구성 요소에 대한 Java 로직을 구현하는 간단하고 강력하고 효율적인 방법을 제공합니다.
 
 HTL은 AEM에 맞게 고안된 안전하고 간단한 템플릿 언어입니다. 그것은 많은 형태의 로직이라고 부를 수 있는데, 그것은 그것을 매우 유연하게 한다.
 
@@ -50,16 +50,6 @@ HTL은 AEM에 맞게 고안된 안전하고 간단한 템플릿 언어입니다.
 페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 템플릿 작성자가 미리 구성할 수 있는 디자인 대화 상자가 있을 수 있습니다. 템플릿 [편집기를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 사용하면 "정책"이라고 하는 모든 사전 구성을 설정할 수 있습니다.
 
 구성 요소를 가능한 한 다시 사용할 수 있도록 하려면 구성 요소를 미리 구성할 수 있는 의미 있는 옵션을 제공해야 합니다. 이렇게 하면 다른 사이트의 특정 요구 사항에 맞게 구성 요소의 기능을 활성화하거나 비활성화할 수 있습니다.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### 프록시 구성 요소 패턴 {#proxy-component-pattern}
 
@@ -104,9 +94,9 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 이 `cq:allowedTemplates` `cq:template` 속성은 사이트에 사용할 수 있는 템플릿을 알려주고 각 페이지에 대해 연관된 템플릿이 무엇인지 알려줍니다. 모든 템플릿은 다음 세 부분으로 구성됩니다.
 
-* **구조각**&#x200B;페이지에서 강제로 사용할 리소스가 포함되어 있으며 페이지 머리글과 바닥글 구성 요소와 같이 페이지 작성자가 삭제할 수 없습니다.
-* **초기값페이지에**&#x200B;복제될 초기 컨텐츠를 포함합니다.
-* **정책구성**&#x200B;요소의 사전 구성인 정책에 대한 매핑을 각 구성 요소에 대해 포함합니다. 이 매핑을 사용하면 템플릿 간에 정책을 다시 사용할 수 있으므로 중앙에서 관리할 수 있습니다.
+* **구조** - 각 페이지에 강제로 표시될 리소스가 포함되어 있으며 페이지 머리글 및 바닥글 구성 요소와 같이 페이지 작성자가 삭제할 수 없습니다.
+* **초기** - 페이지를 만들 때 페이지에 중복될 초기 컨텐츠를 포함합니다.
+* **정책** - 구성 요소의 사전 구성인 정책에 대한 매핑을 각 구성 요소에 대해 포함합니다. 이 매핑을 사용하면 템플릿 간에 정책을 다시 사용할 수 있으므로 중앙에서 관리할 수 있습니다.
 
 ![템플릿 및 정책 개요](assets/screen_shot_2018-12-07at093102.png)
 
