@@ -3,19 +3,19 @@ title: 핵심 구성 요소의 현지화 기능
 seo-title: 핵심 구성 요소의 현지화 기능
 description: 핵심 구성 요소의 현지화 기능
 seo-description: 핵심 구성 요소의 현지화 기능
-content-type: 참조
-topic-tags: 핵심 구성 요소
+content-type: reference
+topic-tags: core-components
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
 
 # 핵심 구성 요소의 현지화 기능 {#localization-features-of-the-core-components}
 
-많은 웹 사이트에서는 다양한 언어 및 지역에서 지역화된 형식으로 컨텐츠를 전달해야 합니다. 선택한 핵심 구성 요소에는 지능적인 참조 리소스가 포함되어 있으므로 로컬라이즈된 사이트 구조에 따라 자동으로 적용되는 모든 로컬라이즈된 컨텐츠에 대해 통합된 템플릿을 간편하게 만들 수 있습니다.
+많은 웹 사이트에서는 다양한 언어 및 지역에서 지역화된 형식으로 컨텐츠를 전달해야 합니다. 선택한 핵심 구성 요소는 지능적인 참조 해상도를 제공하므로 로컬라이즈된 사이트 구조에 따라 자동으로 적용되는 모든 로컬라이즈된 컨텐츠에 대한 통합 템플릿을 간편하게 만들 수 있습니다.
 
 ## 예 - 탐색 및 바닥글이 있는 현지화된 페이지 {#example}
 
@@ -23,7 +23,7 @@ source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 마찬가지로 탐색 구성 요소는 일반적으로 모든 페이지에 표시되어야 합니다. 하지만 현지화된 페이지의 컨텐츠도 반영해야 합니다.
 
-AEM의 [편집 가능한 템플릿과](navigation.md) 함께 내비게이션 코어 구성 요소 [및](experience-fragment.md) 경험 [조각 코어 구성 요소의](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)현지화 기능을 사용하면간단한 작업이 됩니다. 이 예는 언어 탐색 구성 요소도 사용하도록 [확장될 수](language-navigation.md) 있습니다.
+AEM의 [편집 가능한 템플릿과](navigation.md) 함께 탐색 코어 구성 요소 [및](experience-fragment.md) 경험 [조각 코어 구성 요소의](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)현지화 기능을 사용하면간단한 작업이 됩니다. 이 예는 언어 탐색 구성 요소도 사용하도록 [확장될 수](language-navigation.md) 있습니다.
 
 ## 컨텐츠 구조 {#content-structure}
 
