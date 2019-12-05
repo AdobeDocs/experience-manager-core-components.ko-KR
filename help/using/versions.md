@@ -1,23 +1,23 @@
 ---
-title: 핵심 구성 요소 버전
-seo-title: 핵심 구성 요소 버전
+title: 구성 요소 버전
+seo-title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전이 무엇이며 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법에 대해 설명합니다.
 seo-description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전이 무엇이며 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법에 대해 설명합니다.
-uuid: a916a923-8c5e-456a-84b5-b5228e21434
-contentOwner: 보허트
-content-type: 참조
-topic-tags: 소개
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS
+uuid: a916a923-8c5e-456a-84b5-b52228e21434
+contentOwner: bohnert
+content-type: reference
+topic-tags: introduction
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# 핵심 구성 요소 버전{#core-components-versions}
+# 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.7.0이며 AEM 6.5와 호환됩니다.릴리스 2.0.0에 대한 중요 업데이트로 2019년 9월에 릴리스되었습니다.릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
+핵심 구성 요소의 현재 릴리스는 2.8.0이며 AEM 6.5와 호환됩니다.릴리스 2.0.0에 대한 중요 업데이트로 2019년 12월에 릴리스되었습니다.릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
 
 자세한 내용은 [이 문서의 릴리스](#versions-and-releases) 내역 및 호환성 섹션을 참조하십시오.
 
@@ -63,6 +63,7 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 
 | 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 이 릴리스는 탐색 구성 요소에 대한 작은 개선 사항이 있는 수정 사항에 중점을 두었습니다 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019년 12월 5일 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 이 릴리스에서는 새로운 포함 구성 요소가 도입되었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019년 9월 25일 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이 릴리스에서는 새로운 경험 조각 구성 요소가 소개되었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019년 9월 6일 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 이 릴리스에서는 새로운 아코디언, 단추, 컨테이너 및 다운로드 구성 요소가 소개되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019년 6월 25일 |
@@ -103,16 +104,16 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 | **[양식 옵션](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[숨겨진 양식](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[양식 단추](form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[컨텐츠 조각](content-fragment-component.md)** |  | 샌드박스 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[콘텐츠 조각](content-fragment-component.md)** |  | 샌드박스 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[탐색](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[언어 탐색](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[빠른 검색](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[티저](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[탭](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[회전판](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[구분 문자](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[분리자](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[콘텐츠 조각 목록](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[아코디언](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[어코디언](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[단추](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[컨테이너](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[다운로드](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
