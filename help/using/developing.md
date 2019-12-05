@@ -4,13 +4,13 @@ seo-title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 풍부한 기능, 지속적인 전달, 구성 요소 버전 관리, 최신 구현, 강력한 마크업 및 컨텐츠 JSON 내보내기를 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
 seo-description: 핵심 구성 요소는 풍부한 기능, 지속적인 전달, 구성 요소 버전 관리, 최신 구현, 강력한 마크업 및 컨텐츠 JSON 내보내기를 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
-contentOwner: 사용자
-content-type: 참조
-topic-tags: 개발
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -139,8 +139,8 @@ GitHub에 핵심 구성 요소를 추가하면 자주 업데이트되고 AEM 개
 | [티저](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | 컨텐츠 작성자는 이미지, 제목 또는 리치 텍스트를 사용하여 추가 컨텐츠에 Teaser를 쉽게 만들고 추가 컨텐츠 또는 기타 작업에 연결할 수 있습니다 | `-` |
 | [탭](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | 컨텐츠 작성자가 여러 탭 내에서 페이지 컨텐츠를 구성할 수 있도록 허용 | `-` |
 | [회전판](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | 컨텐츠 작성자가 슬라이드 회전 슬라이드로 컨텐츠를 구성할 수 있습니다. | `/libs/foundation/components/carousel` |
-| [컨텐츠 관리](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 컨텐츠 조각을 표시할 수 있습니다. | `-` |
-| [콘텐츠 관리 목록](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | 컨텐츠 조각 목록을 표시할 수 있습니다. | `-` |
+| [콘텐츠 조각](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 컨텐츠 조각을 표시할 수 있습니다. | `-` |
+| [콘텐츠 조각 목록](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | 컨텐츠 조각 목록을 표시할 수 있습니다. | `-` |
 | [분리자](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | 페이지에서 컨텐츠 분리 | `-` |
 | [어코디언](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 콘텐츠 패널을 축소 가능한 아코디언 구성 | `-` |
 | [컨테이너](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | 컨테이너 내 구성 요소 구성 | `-` |
@@ -151,7 +151,7 @@ GitHub에 핵심 구성 요소를 추가하면 자주 업데이트되고 AEM 개
 
 ### 예정된 구성 요소 {#upcoming-components}
 
-예정된 핵심 구성 요소 로드맵에 대한 개요는 GitHub의 [프로젝트 위키를 참조하십시오](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+예정된 핵심 구성 요소 로드맵에 대한 개요는 GitHub의 [프로젝트 Wiki를 참조하십시오](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## 핵심 구성 요소 업그레이드 {#upgrade-of-core-components}
 
