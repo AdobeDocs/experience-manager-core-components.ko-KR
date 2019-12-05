@@ -4,13 +4,13 @@ seo-title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
 seo-description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: 사용자
-content-type: 참조
-topic-tags: 소개
+contentOwner: User
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -44,7 +44,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 | 확장 가능 | 사용자 지정 요구 사항을 다루지만 처음부터 시작하지 않도록 모든 것을 확장할 수 있습니다. |
 | 공개 소스 | 필요한 어떤 기능이 없다면 GitHub(Apache 라이센스)에서 개선해 주십시오. |
 | 버전이 지정됨 | 핵심 구성 요소는 영향을 줄 수 있는 요소를 개선할 때 사이트를 손상시키지 않습니다. |
-| [지역화됨](localization.md) | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 지역화된 해당 콘텐츠를 자동으로 찾아 렌더링할 수 있습니다. |
+| [지역화됨](localization.md) | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 해당 지역화된 컨텐츠를 자동으로 찾아 렌더링할 수 있습니다 |
 
 ## 사용 가능한 구성 요소 {#available-components}
 
