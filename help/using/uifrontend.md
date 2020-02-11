@@ -1,13 +1,8 @@
 ---
 title: AEM 프로젝트 원형 프런트 엔드 빌드
-seo-title: AEM 프로젝트 원형 프런트 엔드 빌드
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-seo-description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
+source-git-commit: 0e1f26e1032812a36ea6a30532ce40dafa903536
 
 ---
 
@@ -29,12 +24,12 @@ AEM Project Tranype에는 Webpack을 기반으로 하는 선택적 전용 프런
 
 그러나 결과로 발생하는 모든 프로젝트는 백엔드 및 프런트엔드 등 두 개발 노력의 결과물을 사용해야 합니다.
 
-실행을 `npm run dev` 하면 ui.frontend 모듈에 저장된 JavaScript 및 CSS 파일을 수집하는 프런트 엔드 빌드 프로세스가 시작되고, 호출된 축소 클라이언트 라이브러리 또는 클라이언트 라이브러리 두 개를 만들어 ui.apps 모듈에 `clientlib-site` 예치하게 `clientlib-dependencies` 됩니다. clientlibs는 AEM 파섹
+실행을 `npm run dev` 하면 ui.frontend 모듈에 저장된 JavaScript 및 CSS 파일을 수집하는 프런트 엔드 빌드 프로세스가 시작되고 두 개의 미니화된 클라이언트 라이브러리 또는 clientlibs가 호출되어 `clientlib-site` 이를 ui.apps 모듈에 `clientlib-dependencies` 저장합니다. clientlibs는 AEM 파섹
 
 clientlibs를 포함한 `mvn clean install -PautoInstallPackage` 모든 프로젝트 아티팩트를 사용하여 전체 AEM 프로젝트 전형 실행이 실행되면 AEM 인스턴스로 푸시됩니다.
 
 >[!TIP]
->AEM 개발 설명서의 [clientlibs와](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) ui.frontend 모듈에서 [](#clientlib-generation)클라이언트 사용 방법에 대해 자세히 알아보십시오.
+>AEM 개발 설명서의 [clientlibs와](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) ui.frontend 모듈에서 [](#clientlib-generation)클라이언트 사용 방법에 대해 자세히 알아보십시오.
 
 ## 가능한 프런트 엔드 개발 워크플로우 {#possible-workflows}
 
@@ -53,7 +48,7 @@ Webpack을 사용하면 ui.frontend 모듈 내의 AEM 웹 페이지의 정적 �
 
 >[!TIP]
 >
->또한 구성 요소 라이브러리를 [활용하여](https://opensource.adobe.com/aem-core-wcm-components/library.html) 각 구성 요소의 마크업 출력 샘플을 캡처하여 페이지 수준이 아닌 구성 요소 수준에서 작업할 수 있습니다.
+>또한 구성 요소 라이브러리를 [활용하여](https://adobe.com/go/aem_cmp_library) 각 구성 요소의 마크업 출력 샘플을 캡처하여 페이지 수준이 아닌 구성 요소 수준에서 작업할 수 있습니다.
 
 ### 스토리북 사용 {#using-storybook}
 
@@ -65,7 +60,7 @@ Storybook [을](https://storybook.js.org) 사용하면 보다 원자적인 프�
 
 ### 마크업 결정 {#determining-markup}
 
-프로젝트에 맞게 구현하려는 프런트 엔드 개발 워크플로우에서 백엔드 개발자와 프런트 엔드 개발자는 마크업에 먼저 동의해야 합니다. 일반적으로 AEM은 주요 구성 요소에서 제공하는 마크업을 정의합니다. [하지만 필요한](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup)경우 이 항목을 사용자 지정할 수 있습니다.
+프로젝트에 맞게 구현하려는 프런트 엔드 개발 워크플로우에서 백엔드 개발자와 프런트 엔드 개발자는 마크업에 먼저 동의해야 합니다. 일반적으로 AEM은 주요 구성 요소에서 제공하는 마크업을 정의합니다. [하지만 필요한](customizing.md#customizing-the-markup)경우 이 항목을 사용자 지정할 수 있습니다.
 
 ## ui.frontend 모듈 {#ui-frontend-module}
 
@@ -91,7 +86,7 @@ AEM 프로젝트 전형(선택 사항)에는 다음 기능이 포함된 웹팩�
 
 >[!NOTE]
 >
->ui.frontend 모듈에 대한 자세한 기술 정보는 GitHub에 대한 [설명서를 참조하십시오](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+>ui.frontend 모듈에 대한 자세한 기술 정보는 GitHub에 대한 [설명서를 참조하십시오](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## 설치 {#installation}
 
@@ -149,7 +144,7 @@ ui.frontend 모듈 빌드 프로세스는 [aem-clientlib-generator](https://www.
 
 ### 페이지에 클라이언트 라이브러리 포함 {#clientlib-inclusion}
 
-`clientlib-site` 및 `clientlib-dependencies` 카테고리는 페이지 정책 구성을 [통해](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) 기본 템플릿의 일부로 페이지에 포함됩니다. 정책을 보려면 컨텐츠 페이지 템플릿 &gt; 페이지 **정보 &gt; 페이지 정책을 편집합니다**.
+`clientlib-site` 및 `clientlib-dependencies` 카테고리는 페이지 정책 구성을 [통해](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) 기본 템플릿의 일부로 페이지에 포함됩니다. 정책을 보려면 컨텐츠 페이지 템플릿 > 페이지 **정보 > 페이지 정책을 편집합니다**.
 
 사이트 페이지에 클라이언트 라이브러리를 최종 포함시키는 방법은 다음과 같습니다.
 
