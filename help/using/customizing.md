@@ -1,16 +1,8 @@
 ---
 title: 핵심 구성 요소 사용자 정의
-seo-title: 핵심 구성 요소 사용자 정의
 description: 핵심 구성 요소는 간단한 스타일링에서 고급 기능 재사용에 이르기까지 사용자 정의가 용이한 여러 패턴을 구현합니다.
-seo-description: AEM 코어 구성 요소는 간단한 스타일링에서 고급 기능 재사용에 이르기까지 간편한 사용자 지정이 가능한 여러 패턴을 구현합니다.
-uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: 사용자
-content-type: 참조
-topic-tags: 개발
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -34,9 +26,9 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 모든 핵심 구성 요소는 스타일 시스템을 [구현합니다](customizing.md).
 
-## AEM 프로젝트 원형 {#aem-project-archetype}
+## AEM 프로젝트 전형 {#aem-project-archetype}
 
-[AEM Project Tranype](overview.md) 은 권장 프록시 패턴을 사용하는 핵심 구성 요소의 로직과 적절한 구현을 위해 SlingModels가 포함된 사용자 지정 HTL 구성 요소의 도움말 예제를 비롯하여 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
+[AEM Project Tranype은](overview.md) SlingModels가 포함된 사용자 지정 HTL 구성 요소의 예를 비롯하여 권장 프록시 패턴을 사용하는 핵심 구성 요소의 올바른 구현을 위한 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
 
 ## 사용자 정의 패턴 {#customization-patterns}
 
@@ -117,7 +109,7 @@ public class PageHeadline implements Title {
 
 사용자 지정의 첫 번째 형식은 CSS 스타일을 적용하는 것입니다.
 
-이를 쉽게 하기 위해 핵심 구성 요소는 의미 체계 마크업을 렌더링하고 Bootstrap에서 영감을 얻은 표준화된 명명 규칙을 [따릅니다](https://getbootstrap.com/). 또한 개별 구성 요소에 대한 스타일을 쉽게 타깃팅하고 네임스페이스로 지정하려면 각 핵심 구성 요소가 " `cmp`" 및 " `cmp-<name>`" 클래스를 사용하여 DIV 요소로 래핑됩니다.
+이를 쉽게 하기 위해 핵심 구성 요소는 의미 체계 마크업을 렌더링하고 Bootstrap에서 영감을 얻은 표준화된 명명 규칙을 [따릅니다](https://getbootstrap.com/). 또한 개별 구성 요소에 대한 스타일을 쉽게 타깃팅하고 네임스페이스로 지정하려면 각 핵심 구성 요소가 &quot; `cmp`&quot; 및 &quot; `cmp-<name>`&quot; 클래스를 사용하여 DIV 요소로 래핑됩니다.
 
 예를 들어, v1 코어 탐색 표시 구성 요소의 HTL 파일을 봅니다.breadcrumb.html [은](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)요소 출력의 계층이 `ol.breadcrumb > li.breadcrumb-item > a`있음을 보여줍니다. 따라서 CSS 규칙이 해당 구성 요소의 탐색 표시 클래스에만 영향을 주도록 하기 위해 모든 규칙은 아래와 같이 이름을 지정해야 합니다.
 
@@ -127,7 +119,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-또한 각 핵심 구성 요소는 템플릿 작성자가 페이지 작성자가 구성 [요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있도록 해주는 AEM Style System 기능을](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) 활용합니다. 이렇게 하면 각 템플릿에 허용된 구성 요소 스타일 목록과 이러한 스타일 중 하나가 기본적으로 해당 유형의 모든 구성 요소에 적용되어야 하는지 여부를 정의할 수 있습니다.
+또한 각 핵심 구성 요소는 템플릿 작성자가 페이지 작성자가 구성 [요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있도록 해주는 AEM Style System 기능을](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) 활용합니다. 이렇게 하면 각 템플릿에 허용된 구성 요소 스타일 목록과 이러한 스타일 중 하나가 기본적으로 해당 유형의 모든 구성 요소에 적용되어야 하는지 여부를 정의할 수 있습니다.
 
 ## 사용자 정의 업그레이드 호환성 {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +129,7 @@ public class PageHeadline implements Title {
 * 핵심 구성 요소를 새로운 부 버전으로 업그레이드
 * 핵심 구성 요소를 주 버전으로 업그레이드
 
-일반적으로, AEM을 새 버전으로 업그레이드하는 것은 코어 구성 요소나 사용자 지정에 영향을 주지 않습니다. 단, 구성 요소의 버전은 마이그레이션되는 새 AEM 버전도 지원하고 사용자 지정 버전은 [더 이상 사용되지 않거나 제거된](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)API를 사용하지 않습니다.
+일반적으로, AEM을 새 버전으로 업그레이드하는 것은 코어 구성 요소나 사용자 지정에 영향을 주지 않습니다. 단, 구성 요소의 버전은 마이그레이션되는 새 AEM 버전도 지원하고 사용자 지정 버전은 [더 이상 사용되지 않거나 제거된](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)API를 사용하지 않습니다.
 
 이 페이지에 설명된 사용자 지정 패턴을 사용하는 한, 최신 주 버전으로 전환하지 않고 핵심 구성 요소를 업그레이드하면 사용자 정의에 영향을 주지 않습니다.
 
@@ -157,7 +149,7 @@ public class PageHeadline implements Title {
 
 1. **사용 중단되거나 제거된 기능을 봅니다.**
 
-   업그레이드되는 각 새로운 AEM 버전이 있으면, 사용된 모든 API가 더 이상 사용되지 않는 기능 및 제거된 기능 [페이지를 계속 볼 수](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) 있습니다.
+   업그레이드되는 각 새로운 AEM 버전이 있으면, 사용된 모든 API가 더 이상 사용되지 않는 기능 및 제거된 기능 [페이지를 계속 볼 수](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 있습니다.
 
 핵심 구성 요소 [지원 섹션을](developing.md#core-component-support) 참조하십시오.
 
