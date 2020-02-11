@@ -1,15 +1,8 @@
 ---
 title: 텍스트 구성 요소
-seo-title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 즉석 편집 기능을 제공하는 리치 텍스트 편집 및 구성 요소입니다.
-seo-description: 텍스트 구성 요소는 즉석 편집 기능을 제공하는 리치 텍스트 편집 및 구성 요소입니다.
-uuid: 5f8eee8f-7317-4712-a77f-e34e8a024187
-contentOwner: 사용자
-content-type: 참조
-topic-tags: 핵심 구성 요소
-discoiquuid: 9a290584-56 파섹
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -30,32 +23,32 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](text-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|---|---|---|---|---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](text-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-텍스트 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
+텍스트 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_text).
 
 ### 기술 정보 {#technical-details}
 
-텍스트 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
+텍스트 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_text_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
 ## 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-핵심 구성 요소 텍스트 구성 요소는 AEM Rich Text Editor(RTE)를 활용합니다. RTE 파섹 RTE는 구성에 매우 유연하며 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 리치 텍스트 편집기 구성 [및 리치 텍스트 편집기](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) [](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)구성 플러그인을참조하십시오.
+핵심 구성 요소 텍스트 구성 요소는 AEM Rich Text Editor(RTE)를 활용합니다. RTE 파섹 RTE는 구성에 매우 유연하며 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 리치 텍스트 편집기 구성 [및 리치 텍스트 편집기](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) [](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)구성 플러그인을참조하십시오.
 
 이 문서의 나머지 부분에서는 기본 RTE 구성과 함께 핵심 구성 요소 텍스트 구성 요소의 표준 구성을 보여 줍니다.
 
 >[!NOTE]
 >
->RTE의 [UI 구성에서 활성화된](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 옵션만 텍스트 구성 요소에서 사용할 수 있습니다.
+>RTE의 [UI 구성에서 활성화된](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) 옵션만 텍스트 구성 요소에서 사용할 수 있습니다.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -255,7 +248,7 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 텍스트 내용의 맞춤법을 검사하는 데 사용됩니다. 맞춤법이 틀린 빨간색 선으로 밑줄이 그어져 있을 수 있습니다.
 
-맞춤법 검사 및 맞춤법 검사 사전 사용자 지정에 대한 자세한 내용은 리치 텍스트 편집기 플러그인 [구성 문서를 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+맞춤법 검사 및 맞춤법 검사 사전 사용자 지정에 대한 자세한 내용은 리치 텍스트 편집기 플러그인 [구성 문서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
 
 ### 특수 문자 {#special-characters}
 
