@@ -1,16 +1,8 @@
 ---
 title: 이미지 구성 요소
-seo-title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소 기능을 즉석 편집입니다.
-seo-description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소 기능을 즉석 편집입니다.
-uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -27,7 +19,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ## 반응형 기능 {#responsive-features}
 
-이미지 구성 요소는 즉시 사용할 수 있는 강력한 반응형 기능을 제공합니다. 페이지 템플릿 수준에서 [디자인 대화 상자를](#design-dialog) 사용하여 이미지 자산의 기본 너비를 정의할 수 있습니다. 그런 다음 이미지 구성 요소는 브라우저 창의 크기에 따라 표시할 올바른 너비를 자동으로 로드합니다. 창 크기가 변경되면 이미지 구성 요소는 올바른 이미지 크기를 신속하게 로드합니다. 이미지 구성 요소가 이미 컨텐츠를 로드하도록 최적화되었으므로 구성 요소 개발자는 사용자 정의 미디어 쿼리를 정의할 필요가 없습니다.
+이미지 구성 요소는 즉시 사용할 수 있는 강력한 반응형 기능을 제공합니다. 페이지 템플릿 수준에서 [디자인 대화 상자를](#design-dialog) 사용하여 이미지 자산의 기본 너비를 정의할 수 있습니다. 그런 다음 이미지 구성 요소는 브라우저 창의 크기에 따라 표시할 올바른 너비를 자동으로 로드합니다. 창 크기가 변경되면 이미지 구성 요소는 올바른 이미지 크기를 신속하게 동적으로 로드합니다. 이미지 구성 요소가 이미 컨텐츠를 로드하도록 최적화되었으므로 구성 요소 개발자는 사용자 정의 미디어 쿼리를 정의할 필요가 없습니다.
 
 또한 이미지 구성 요소는 실제 이미지 자산이 브라우저에 표시될 때까지 로드를 연기하여 페이지의 응답성을 높입니다.
 
@@ -37,10 +29,10 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](image-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](image-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
@@ -50,7 +42,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
 * DAM에서 SVG 에셋을 드래그 앤 드롭하고 로컬 파일 시스템에서 SVG 파일 업로드를 업로드할 수 있습니다.
 * 응용 이미지 서블릿은 원본 SVG 파일을 스트리밍합니다(변형을 건너뜁니다).
-* SVG 이미지의 경우 "스마트 이미지" 및 "스마트 크기"가 이미지 모델의 빈 배열로 설정됩니다.
+* SVG 이미지의 경우 &quot;스마트 이미지&quot; 및 &quot;스마트 크기&quot;가 이미지 모델의 빈 배열로 설정됩니다.
 
 ### 보안 {#security}
 
@@ -58,15 +50,15 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
 >[!CAUTION]
 >
->AEM 내의 [새로운 이미지 편집기 기능을](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 지원하려면 AEM 6.4 또는 AEM 6.3 이상용 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 및 [서비스 팩 3](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 와 함께 SVG 지원을 통해 핵심 구성 요소 릴리스 2.1.0 이상이 필요합니다.
+>AEM 내의 [새로운 이미지 편집기 기능을](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) 지원하려면 AEM 6.4 또는 AEM 6.3 이상용 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 및 [서비스 팩 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 와 함께 SVG 지원을 통해 핵심 구성 요소 릴리스 2.1.0 이상이 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-이미지 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
+이미지 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_image).
 
 ### 기술 정보 {#technical-details}
 
-이미지 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+이미지 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_image_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -83,9 +75,9 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **이미지 자산**
-   * 자산 브라우저에서 [자산을 삭제하거나](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) 찾아보기 **** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
+   * 자산 브라우저에서 [자산을 삭제하거나](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 찾아보기 **** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
    * 지우기를 탭하거나 **클릭하여** 현재 선택한 이미지를 선택 취소합니다.
-   * 편집을 탭하거나 **클릭하여** 자산 [편집기에서 자산의](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 표현물을관리합니다.
+   * 편집을 탭하거나 **클릭하여** 자산 [편집기에서 자산의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 표현물을관리합니다.
 
 ### 메타데이터 탭 {#metadata-tab}
 
@@ -144,7 +136,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
    >[!CAUTION]
    >
-   >론치 맵 기능을 사용하려면 AEM 6.4용 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 또는 AEM 6.3 이상의 [서비스 팩 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) (AEM 6.3 이상)과 함께 [새로운 이미지 편집기 기능을](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 사용하려면 릴리스 2.1.0 이상이 필요합니다.
+   >론치 맵 기능을 사용하려면 AEM 6.4용 [서비스 팩 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) 또는 AEM 6.3 이상의 [서비스 팩 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) (AEM 6.3 이상)과 함께 [새로운 이미지 편집기 기능을](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 사용하려면 릴리스 2.1.0 이상이 필요합니다.
 
    ![](assets/chlimage_1-12.png)
 
@@ -250,14 +242,6 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
    >[!CAUTION]
    >
    >대칭 **이동** 옵션은 기본적으로 비활성화됩니다. 이 옵션을 활성화하면 **이미지 구성 요소의** 편집 대화 상자에 세로로 뒤집기 및 **가로로 뒤집기** 단추가 표시되지만 현재 AEM에서 이 기능이 지원되지 않으며 이러한 옵션을 사용하여 변경한 내용은 지속되지 않습니다.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
- -->
 
 * 자르기
 
