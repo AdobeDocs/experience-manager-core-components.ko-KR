@@ -1,15 +1,9 @@
 ---
 title: 이미지 구성 요소(v1)
-seo-title: 이미지 구성 요소(v1)
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소 기능을 즉석 편집입니다.
-seo-description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소 기능을 즉석 편집입니다.
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: ab9041ab-e2 파섹
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
