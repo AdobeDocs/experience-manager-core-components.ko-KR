@@ -1,13 +1,8 @@
 ---
 title: AEM 프로젝트 원형형의 핵심 모듈
-seo-title: AEM 프로젝트 원형형의 핵심 모듈
 description: AEM 프로젝트 원형형의 핵심 모듈
-seo-description: AEM 프로젝트 원형형의 핵심 모듈
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
