@@ -1,25 +1,19 @@
 ---
 title: 컨텐츠 조각 목록 구성 요소
-seo-title: 컨텐츠 조각 목록 구성 요소
-description: 'null'
-seo-description: 핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 컨텐츠 조각 목록을 표시할 수 있습니다.
-contentOwner: 보허트
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
+description: 핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 컨텐츠 조각 목록을 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # 컨텐츠 조각 목록 구성 요소{#content-fragment-list-component}
 
-핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 [컨텐츠 조각](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)목록을 표시할 수 있습니다.
+핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 [컨텐츠 조각](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)목록을 표시할 수 있습니다.
 
 ## 사용량 {#usage}
 
-핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 컨텐츠 조각 모델을 기반으로 페이지에 [컨텐츠 조각](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) 목록을 포함할 수 있습니다. 이 기능은 특히 다른 애플리케이션에서 손쉽게 사용할 수 있는 헤드리스 컨텐츠를 [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) 제작하는 데 유용합니다.
+핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 컨텐츠 조각 모델을 기반으로 페이지에 [컨텐츠 조각](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 포함할 수 있습니다. 이 기능은 특히 다른 애플리케이션에서 손쉽게 사용할 수 있는 헤드리스 컨텐츠를 [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) 제작하는 데 유용합니다.
 
 * 목록 및 해당 속성은 [구성 대화 상자에서](#configure-dialog)선택할 수 있습니다.
 * 스타일은 [디자인 대화 상자에서](#design-dialog)구성 요소에 적용할 수 있습니다.
@@ -30,19 +24,19 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-컨텐츠 조각 목록 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 라이브러리를 [방문하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html).
+컨텐츠 조각 목록 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 라이브러리를 [방문하십시오](https://adobe.com/go/aem_cmp_library_cflist).
 
 ## 기술 정보 {#technical-details}
 
-컨텐츠 조각 목록 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+컨텐츠 조각 목록 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_cflist_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -81,7 +75,7 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **요소** - 지정된 목록에 있는 컨텐츠 조각의 요소만 나타납니다.
-   * 추가 단추를 클릭하거나 탭하여 **새** 요소를 추가합니다..
+   * 추가 단추를 클릭하거나 탭하여 **새** 요소를 추가합니다.
    * 삭제 **단추를 클릭하거나 탭하여** 선택한 요소를 제거합니다.
    * 순서 **핸들을 드래그하여** 요소의 순서를 다시 정렬합니다.
 
