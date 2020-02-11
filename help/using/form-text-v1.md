@@ -1,15 +1,9 @@
 ---
 title: 양식 텍스트 구성 요소(v1)
-seo-title: 양식 텍스트 구성 요소(v1)
-description: 'null'
-seo-description: 핵심 구성 요소 양식 텍스트 구성 요소를 사용하면 양식 텍스트를 입력하여 제출할 수 있습니다.
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: 핵심 구성 요소 양식 텍스트 구성 요소를 사용하면 양식 텍스트를 입력하여 제출할 수 있습니다.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
