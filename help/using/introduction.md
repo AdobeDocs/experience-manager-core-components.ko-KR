@@ -1,16 +1,8 @@
 ---
 title: 핵심 구성 요소 소개
-seo-title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
-seo-description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
-uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,9 +15,9 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 핵심 구성 요소 시도
 
-핵심 구성 요소를 바로 사용해 보려면 [구성 요소 라이브러리](http://opensource.adobe.com/aem-core-wcm-components/library.html)로 이동하십시오. 구성 요소 라이브러리는 대부분의 핵심 구성 요소의 현재 버전을 온라인으로 표시한 것으로, 구성 요소의 변형과 상호 작용하고 샘플 HTML 및 JSON 출력을 볼 수 있습니다.
+핵심 구성 요소를 바로 사용해 보려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library)로 이동하십시오. 구성 요소 라이브러리는 대부분의 핵심 구성 요소의 현재 버전을 온라인으로 표시한 것으로, 구성 요소의 변형과 상호 작용하고 샘플 HTML 및 JSON 출력을 볼 수 있습니다.
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+WKND [자습서에서는](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html) 핵심 구성 요소를 사용하는 방법도 설명합니다.
 
 ## 핵심 구성 요소 - 핵심 기능 {#core-components-core-features}
 
@@ -79,7 +71,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 >[!NOTE]
 >
->작성자는 핵심 구성 요소를 즉시 사용할 수 없습니다. [개발 팀에서 먼저 핵심 구성 요소를 환경에 통합해야 합니다](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>작성자는 핵심 구성 요소를 즉시 사용할 수 없습니다. [개발 팀에서 먼저 핵심 구성 요소를 환경에 통합해야 합니다](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
@@ -103,7 +95,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 핵심 구성 요소는 간단한 스타일링에서 고급 기능 재사용에 이르기까지 사용자 정의가 간편한 여러 패턴을 구현하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다. 자세한 내용은 [핵심 구성 요소 개발 설명서를](developing.md) 참조하십시오.
 
-[이 단계별 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+WKND 자습서를 따라 핵심 구성 요소를 사용하여 AEM [사이트 개발을 시작하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 AEM Project Tranype을 활용하는 자체 AEM 프로젝트를 [시작하는](overview.md) 것을 잊지 마십시오.
 
@@ -126,4 +118,4 @@ AEM Project Tranype을 활용하는 자체 AEM 프로젝트를 [시작하는](ov
 
 기초 구성 요소는 많은 버전에 대해 프로젝트 개발 기준 역할을 했기 때문에 가까운 미래에도 계속 지원됩니다.
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
