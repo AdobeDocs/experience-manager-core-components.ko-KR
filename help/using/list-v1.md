@@ -1,24 +1,9 @@
 ---
 title: 목록 구성 요소(v1)
-seo-title: 목록 구성 요소(v1)
-description: 'null'
-seo-description: 핵심 구성 요소 목록 구성 요소를 사용하면 정적 목록뿐만 아니라 동적 목록을 쉽게 만들 수 있습니다.
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
-modalsize: 426x240
-noindex: 'true'
+description: 핵심 구성 요소 목록 구성 요소를 사용하면 정적 목록뿐만 아니라 동적 목록을 쉽게 만들 수 있습니다.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -174,41 +159,41 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ![](assets/chlimage_1-39.png)
 
 * **상위 페이지**
-   * The page whose child pages should make the list
+   * 하위 페이지가 목록을 만들어야 하는 페이지
    * 현재 페이지를 사용하려면 비워 둡니다.
-* **Child-Depth - How many levels down in the hierarchy should be used**
+* **하위** 깊이 - 계층 구조에서 하위 수준 몇 개를 사용해야 합니까?
 
 #### Fixed List {#fixed-list}
 
-The list can be built using a fixed list of items.
+고정된 항목 목록을 사용하여 목록을 작성할 수 있습니다.
 
 ![](assets/chlimage_1-40.png)
 
-Tap or click the Add button to inset a new item to the list.****
+추가 단추를 탭하거나 **클릭하여** 목록에 새 항목을 삽입합니다.
 
-* Enter text for the item in the list or use the Selection Dialog to choose an item from AEM.****
-* Use the drag handle to re-arrange the items in the list.
+* 목록에 있는 항목의 텍스트를 입력하거나 선택 **대화 상자를** 사용하여 AEM에서 항목을 선택합니다.
+* 드래그 핸들을 사용하여 목록의 항목을 다시 정렬합니다.
 * 휴지통 아이콘을 사용하여 목록에서 항목을 삭제합니다.
 
 #### 검색 {#search}
 
-The list can be built using the results of a search of AEM content.
+AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다.
 
 ![](assets/chlimage_1-41.png)
 
 * **검색 쿼리** - 전체 텍스트 검색을 실행하여 목록 요소를 생성하는 문자열
-* **Search in - Where the search should be run**
-   * Use the Selection Dialog to choose the location in AEM ****
+* **검색 위치** - 검색을 실행해야 하는 위치
+   * 선택 **대화 상자를** 사용하여 AEM에서 위치 선택
    * 비워 둔 경우 현재 페이지 사용
 
 #### 태그 {#tags}
 
-The list can be built using pages that match certain tags under a particular location.
+특정 위치 아래의 특정 태그와 일치하는 페이지를 사용하여 목록을 작성할 수 있습니다.
 
 ![](assets/chlimage_1-42.png)
 
 * **상위 페이지** - 태그 일치를 시작해야 하는 위치
-   * Use the Selection Dialog to choose the location in AEM ****
+   * 선택 **대화 상자를** 사용하여 AEM에서 위치 선택
    * 비워 둔 경우 현재 페이지 사용
 * **태그** - 일치해야 하는 태그
    * 찾아보기 **대화 상자를** 사용하여 태그 선택
@@ -273,4 +258,4 @@ The list can be built using pages that match certain tags under a particular loc
 
 전체 핵심 구성 요소 프로젝트는 GitHub에서 다운로드할 수 있습니다.
 
-Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
+핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
