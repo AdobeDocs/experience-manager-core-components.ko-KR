@@ -1,24 +1,9 @@
 ---
 title: 텍스트 구성 요소(v1)
-seo-title: 텍스트 구성 요소(v1)
-description: 'null'
-seo-description: 텍스트 구성 요소는 즉석 편집 기능을 제공하는 리치 텍스트 편집 및 구성 요소입니다.
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
-modalsize: 426x240
-noindex: 'true'
+description: 텍스트 구성 요소는 즉석 편집 기능을 제공하는 리치 텍스트 편집 및 구성 요소입니다.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
