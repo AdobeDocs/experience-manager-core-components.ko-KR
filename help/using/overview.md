@@ -1,18 +1,13 @@
 ---
-title: AEM 프로젝트 원형
-seo-title: AEM 프로젝트 원형
+title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-seo-description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM 프로젝트 전형 {#aem-project-archetype}
 
 AEM Project Tranype은 AEM 프로젝트의 시작점으로 최소한으로 우수 사례 기반 Adobe Experience Manager 프로젝트를 만듭니다. 이 전형 사용 시 제공해야 하는 속성을 사용하면 이 프로젝트의 모든 부분에 대한 이름을 지정할 수 있을 뿐만 아니라 특정 선택적 기능을 제어할 수 있습니다.
 
@@ -49,11 +44,11 @@ AEM 프로젝트 전형 사용을 사용하면 몇 번의 키 입력만으로 �
 AEM Tranype은 다음 모듈로 구성됩니다.
 
 * **[코어](core.md)**:는 OSGi 서비스, 리스너 및 스케줄러와 같은 모든 핵심 기능뿐만 아니라 서블릿 및 요청 필터와 같은 구성 요소 관련 Java 코드를 포함하는 Java 번들입니다.
-* **[ui.apps](uiapps.md)**:에는 프로젝트의 `/apps` 부분과 `/etc` 부분(예: JS 및 CSS 클라이언트, 구성 요소, 템플릿, 런타임 모드 특정 구성 및 Hobbes 테스트 포함)
+* **[ui.apps](uiapps.md)**:에는 프로젝트의`/apps`부분과`/etc`부분(예: JS 및 CSS 클라이언트, 구성 요소, 템플릿, 런타임 모드 특정 구성 및 Hobbes 테스트 포함)
 * **[ui.content](uicontent.md)**:에는 ui.apps 모듈의 구성 요소를 사용하는 샘플 컨텐츠가 포함되어 있습니다.
 * **ui.tests**:는 서버측에서 실행되는 JUnit 테스트가 들어 있는 Java 번들입니다. 이 번들은 프로덕션에 배포되지 않습니다.
 * **ui.launcher**:에는 ui.tests 번들(및 종속 번들)을 서버에 배포하고 원격 JUnit 실행을 트리거하는 접착제가 포함되어 있습니다.
-* **[ui.frontend](uifrontend.md)**:(선택 사항) **** 에는 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
+* **[ui.frontend](uifrontend.md)**:(선택 사항)****에는 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
 
 ![](assets/archetype-structure.png)
 
@@ -77,7 +72,7 @@ Maven을 사용하여 프로젝트를 빌드하면 AEM에 배포할 객체(패�
 
 ### 프로젝트 만들기 {#create-project}
 
-먼저 AEM Eclipse 확장 기능을 [사용하고 새 프로젝트](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) 마법사를 **따라 AEM 샘플 다중 모듈** 프로젝트를선택하여 릴리스된 버전의 전형을 사용할 수 있습니다.
+먼저 AEM Eclipse 확장 기능을 [사용하고 새 프로젝트](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) 마법사를 **따라 AEM 샘플 다중 모듈** 프로젝트를선택하여 릴리스된 버전의 전형을 사용할 수 있습니다.
 
 물론 마벤을 직접 불러오셔도 됩니다
 
@@ -120,7 +115,8 @@ mvn archetype:generate \
 | `optionIncludeFrontendModule` | n | [전용 프런트 엔드 모듈 포함](uifrontend.md) |
 
 >[!NOTE]
-> 원형형이 처음 대화형 모드에서 실행되는 경우 기본값을 갖는 속성을 변경할 수 없습니다(자세한 내용은 [RCEYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 끝 부분의 속성 확인이 거부되고 질문서가 반복되거나 명령줄의 매개 변수(예: `-DoptionIncludeExamples=n`).
+> 원형형이 처음 대화형 모드에서 실행되는 경우 기본값을 갖는 속성을 변경할 수 없습니다(자세한 내용은 [RCEYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 끝 부분의 속성 확인이 거부되고 질문서가 반복되거나 명령줄의 매개 변수(예:
+     `-DoptionIncludeExamples=n`).
 
 ### 프로파일 {#profiles}
 
@@ -191,17 +187,17 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 AEM [uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). 여기에는 AEM 버전에 대한 단일 종속성 항목만 포함된 모든 AEM API가 포함됩니다.
+주요 종속성 중 하나는 AEM [uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). 여기에는 AEM 버전에 대한 단일 종속성 항목만 포함된 모든 AEM API가 포함됩니다.
 
 >[!NOTE]
 >
 >우수 사례로 uber-jar 버전을 업데이트하여 AEM의 대상 버전과 일치시켜야 합니다. 예를 들어 AEM 6.4에 배포하려는 경우 uber-jar 버전을 6.4.0으로 업데이트해야 합니다.
 
-#### 핵심 구성 요소 {#core-components}
+#### 코어 구성 요소 {#core-components}
 
 AEM 프로젝트 원형에서는 물론 핵심 구성 요소를 활용합니다.
 
-코어 구성 요소는 기본 런타임 모드에서 자동으로 설치되고 샘플 We.Retail 사이트에서 사용됩니다. 프로덕션 [런타임](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`)에서는 핵심 구성 요소를 사용할 수 없습니다.
+코어 구성 요소는 기본 런타임 모드에서 자동으로 설치되고 샘플 We.Retail 사이트에서 사용됩니다. 프로덕션 [런타임](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`)에서는 핵심 구성 요소를 사용할 수 없습니다.
 
 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 이를 Maven 프로젝트의 일부로 포함하는 것이 좋습니다.
 
@@ -225,7 +221,7 @@ AEM 프로젝트 원형에서는 물론 핵심 구성 요소를 활용합니다.
    * `mvn clean verify -PintegrationTests`
 * 클라이언트측 Hobbes.js 테스트:브라우저 측 동작을 확인하는 JavaScript 기반 브라우저 측 테스트입니다. 테스트하려면:
    1. 페이지를 작성하는 것처럼 브라우저에서 AEM을 로드합니다.
-   1. Open the page in [Developer mode](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)
+   1. Open the page in [Developer mode](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
    1. 왼쪽 패널을 열고 테스트 **탭으로** 전환합니다.
    1. 생성된 MyName **테스트를** 찾아 실행합니다.
 
@@ -234,6 +230,6 @@ AEM 프로젝트 원형에서는 물론 핵심 구성 요소를 활용합니다.
 AEM 프로젝트 원형형을 만들고 설치했습니다. 지금 뭐? 전형은 작지만 권장 우수 사례에 따라 구성된 강력한 AEM 기능의 많은 예제로 구성되어 있습니다. 이러한 기능은 프로젝트에서 이러한 기능을 활용할 수 있는 방법을 보여 줍니다. 모든 프로젝트의 경우 다음을 수행해야 합니다.
 
 * [기존 핵심 구성 요소를 확장하여 구성 요소 사용자 정의](customizing.md)
-* [추가 템플릿 추가](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [현지화 구조 조정](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [추가 템플릿 추가](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [현지화 구조 조정](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
 * [프런트 엔드 빌드 모듈에 대한 자세한 내용](uifrontend.md)
