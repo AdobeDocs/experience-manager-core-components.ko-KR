@@ -1,21 +1,8 @@
 ---
 title: 핵심 구성 요소 사용
-seo-title: 핵심 구성 요소 사용
-description: 'null'
-seo-description: '"프로젝트에서 핵심 구성 요소를 바로 실행하려면 다음 3단계를 수행하십시오.다운로드 및 설치, 프록시 구성 요소 제작, 핵심 스타일 로드, 템플릿에 구성 요소 허용 등 다양한 작업을 수행할 수 있습니다."'
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: 사용자
-content-type: 참조
-topic-tags: 개발
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: 밝음
-index: y
-internal: n
-snippet: y
+description: '"프로젝트에서 핵심 구성 요소를 바로 실행하려면 다음 3단계를 수행하십시오.다운로드 및 설치, 프록시 구성 요소 제작, 핵심 스타일 로드, 템플릿에 구성 요소 허용 등 다양한 작업을 수행할 수 있습니다."'
 translation-type: tm+mt
-source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -40,7 +27,7 @@ source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
 
 이러한 이유로, 핵심 구성 요소는 샘플 컨텐츠 없이 프로덕션 모드에서 시작할 때 빠른 시작에 속하지 않습니다. 따라서 첫 번째 단계는 GitHub에서 최신 릴리스된 콘텐츠 패키지를 [다운로드하고](https://github.com/adobe/aem-core-wcm-components/releases/latest) AEM 환경에 설치하는 것입니다.
 
-이를 자동화하는 방법에는 여러 가지가 있지만, 인스턴스에 컨텐츠 패키지를 신속하게 설치하는 가장 간단한 방법은 패키지 관리자를 사용하는 것입니다.패키지 [설치를 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). 또한 게시 인스턴스가 실행 중이면 해당 패키지를 게시자에게 복제해야 합니다.패키지 [복제를 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+이를 자동화하는 방법에는 여러 가지가 있지만, 인스턴스에 컨텐츠 패키지를 신속하게 설치하는 가장 간단한 방법은 패키지 관리자를 사용하는 것입니다.패키지 [설치를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). 또한 게시 인스턴스가 실행 중이면 해당 패키지를 게시자에게 복제해야 합니다.패키지 [복제를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -56,7 +43,7 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 프록시 구성 요소 패턴 [섹션에 설명된](guidelines.md#proxy-component-pattern) 이유로 핵심 구성 요소를 컨텐츠에서 직접 참조해서는 안 됩니다. 이를 방지하기 위해 모든 구성 요소는 숨겨진 구성 요소 그룹( `.core-wcm` 또는 `.core-wcm-form`)에 속하므로 편집기에서 바로 표시되지 않습니다.
 
-대신, 사이트 특정 구성 요소를 만들어야 합니다. 이 구성 요소는 페이지 작성자에게 표시할 원하는 구성 요소 이름과 그룹을 정의하고 각 구성 요소를 상위 유형으로 핵심 구성 요소를 참조합니다. 이러한 사이트별 구성 요소는 아무 것도 포함할 필요가 없고 주로 사이트에 사용할 구성 요소의 버전을 정의하기 위해 제공되므로 "프록시 구성 요소"라고도 합니다. 그러나 핵심 구성 요소를 사용자 [지정할](customizing.md)때 이러한 프록시 구성 요소는 마크업 및 논리 사용자 지정에 필수적인 역할을 합니다.
+대신, 사이트 특정 구성 요소를 만들어야 합니다. 이 구성 요소는 페이지 작성자에게 표시할 원하는 구성 요소 이름과 그룹을 정의하고 각 구성 요소를 상위 유형으로 핵심 구성 요소를 참조합니다. 이러한 사이트별 구성 요소는 아무 것도 포함할 필요가 없고 주로 사이트에 사용할 구성 요소의 버전을 정의하기 위해 제공되므로 &quot;프록시 구성 요소&quot;라고도 합니다. 그러나 핵심 구성 요소를 사용자 [지정할](customizing.md)때 이러한 프록시 구성 요소는 마크업 및 논리 사용자 지정에 필수적인 역할을 합니다.
 
 따라서 사이트에 사용할 각 핵심 구성 요소에 대해 다음을 수행해야 합니다.
 
@@ -113,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. 아직 완료하지 않은 경우 [사이트에](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) 필요한 모든 CSS 및 JS 파일이 포함된 클라이언트 라이브러리를 만듭니다.
+1. 아직 완료하지 않은 경우 [사이트에](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) 필요한 모든 CSS 및 JS 파일이 포함된 클라이언트 라이브러리를 만듭니다.
 1. 사이트의 클라이언트 라이브러리에서 필요한 핵심 구성 요소에 종속성을 추가합니다. 이 작업은 `embed` 속성을 추가하여 수행됩니다.
 
    예를 들어 모든 v1 핵심 구성 요소의 클라이언트 라이브러리를 포함하려면 추가할 속성은 다음과 같습니다.
@@ -132,7 +119,7 @@ Load the Core Client Libraries sounds way better
 
 ## 구성 요소 허용 {#allow-the-components}
 
-템플릿 편집기에서 다음 단계를 [수행합니다](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+템플릿 편집기에서 다음 단계를 [수행합니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. 템플릿 편집기에서 레이아웃 컨테이너를 선택하고 정책을 엽니다.
 1. 허용된 구성 요소 목록에서 이전에 만든 프록시 구성 요소를 선택합니다. 이 구성 요소는 할당된 구성 요소 그룹 아래에 표시됩니다. 완료되면 변경 내용을 적용합니다.
@@ -140,7 +127,7 @@ Load the Core Client Libraries sounds way better
 
 그거야! 편집된 템플릿으로 만든 페이지에서 새로 만든 구성 요소를 사용할 수 있습니다.
 
-**다음 보기:**
+**다음 참조:**
 
 * [핵심 구성 요소 사용자](customizing.md) 지정 - 핵심 구성 요소의 스타일을 지정하고 사용자 지정하는 방법을 알아봅니다.
 * [구성 요소](guidelines.md) 지침 - 핵심 구성 요소의 구현 패턴을 학습합니다.
