@@ -1,15 +1,9 @@
 ---
 title: 양식 숨김 구성 요소(v1)
-seo-title: 양식 숨김 구성 요소(v1)
 description: 핵심 구성 요소 양식 숨김 구성 요소를 사용하면 숨김 필드를 표시할 수 있습니다.
-seo-description: 핵심 구성 요소 양식 숨김 구성 요소를 사용하면 숨김 필드를 표시할 수 있습니다.
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
