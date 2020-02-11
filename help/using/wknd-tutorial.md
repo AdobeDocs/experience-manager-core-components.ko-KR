@@ -1,17 +1,8 @@
 ---
 title: WKND 개발자 자습서
-seo-title: AEM용 WKND 개발자 자습서
 description: 핵심 구성 요소를 사용하여 AEM Sites 개발 시작
-seo-description: 핵심 구성 요소를 사용하여 AEM Sites 개발 시작
-uuid: 7c3e852c-b738-45b4-b589-d342d129ab17
-contentOwner: 보허트
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-topic-tags: 소개
-discoiquuid: b4a78adb-5e84-4941-8e55-deb8f377d211
-redirecttarget: https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html
 translation-type: tm+mt
-source-git-commit: 23c3691a93a661c6e75087b4f094fd5263cb540e
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
