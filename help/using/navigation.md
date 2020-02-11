@@ -1,24 +1,8 @@
 ---
 title: 탐색 구성 요소
-seo-title: 탐색 구성 요소
-description: 'null'
-seo-description: 탐색 구성 요소를 사용하면 글로벌화된 사이트 구조를 쉽게 탐색할 수 있습니다.
-uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: false
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 탐색 구성 요소를 사용하면 글로벌화된 사이트 구조를 쉽게 탐색할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -107,19 +91,19 @@ source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-탐색 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html).
+탐색 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_navigation).
 
 ## 기술 정보 {#technical-details}
 
-탐색 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+탐색 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_navigation_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
