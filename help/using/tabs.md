@@ -1,14 +1,8 @@
 ---
 title: 탭 구성 요소
-seo-title: 탭 구성 요소
 description: 탭 구성 요소를 사용하면 여러 탭을 만들어 한 페이지의 컨텐츠를 정렬할 수 있습니다.
-seo-description: 탭 구성 요소를 사용하면 여러 탭을 만들어 한 페이지의 컨텐츠를 정렬할 수 있습니다.
-uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: 참조
-topic-tags: 핵심 구성 요소
-discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -27,7 +21,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 >
 >중첩된 탭 구성 요소(탭 내의 탭)가 지원됩니다.
 >
->단순(중첩된 아님) 탭 구성 요소는 [컨텐츠 트리를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)사용하여 찾거나 선택할 수 있지만 중첩된 탭은 없을 수 있습니다.
+>단순(중첩된 아님) 탭 구성 요소는 [컨텐츠 트리를](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)사용하여 찾거나 선택할 수 있지만 중첩된 탭은 없을 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -35,19 +29,19 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-탭 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
+탭 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_tabs).
 
 ### 기술 정보 {#technical-details}
 
-탭 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+탭 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_tabs_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -68,7 +62,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!TIP]
 >
->페이지의 뷰포트가 축소되어 편집 대화 상자가 전체 화면이 되면 추가 **단추가** 숨겨집니다. 구성 요소 브라우저에서 [드래그하고 페이지 편집기의](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)탭 구성 요소를 놓아 탭 구성 요소를 추가할 수 있습니다.
+>페이지의 뷰포트가 축소되어 편집 대화 상자가 전체 화면이 되면 추가 **단추가** 숨겨집니다. 구성 요소 브라우저에서 [드래그하고 페이지 편집기의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)탭 구성 요소를 놓아 탭 구성 요소를 추가할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
@@ -102,7 +96,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!NOTE]
 >
->편집 모드에서는 작성자가 탭을 선택할 수 **없습니다** . 미리 [**보기** 모드](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 또는 **[게시됨으로 보기](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 옵션을 사용하여 게시된 컨텐츠의 리더로 탭과 상호 작용합니다.
+>편집 모드에서는 작성자가 탭을 선택할 수 **없습니다** . 미리 **[보기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**모드 또는**[&#x200B;게시됨으로](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 보기 옵션을 사용하여 게시된 컨텐츠의 리더로 탭과 상호 작용합니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -112,7 +106,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 허용된 구성 **요소** 탭은 컨텐츠 작성자가 탭 구성 요소에 항목으로 추가할 수 있는 구성 요소를 정의하는 데 사용됩니다.
 
-템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 스타일 탭 {#styles-tab}
 
