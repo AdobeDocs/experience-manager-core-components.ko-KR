@@ -1,16 +1,8 @@
 ---
 title: 아코디언 구성 요소
-seo-title: 아코디언 구성 요소
-description: 'null'
-seo-description: 핵심 구성 요소 아코디언 구성 요소를 사용하면 페이지에 아코디언 형태로 배열된 패널 모음을 만들 수 있습니다.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 핵심 구성 요소 아코디언 구성 요소를 사용하면 페이지에 아코디언 형태로 배열된 패널 모음을 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -24,7 +16,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 핵심 구성 요소 아코디언 구성 요소를 사용하면 패널로서 구성하고 탭 구성 요소와 유사하게 페이지에 아코디언 형태로 정렬된 구성 요소 모음을 만들 [수](tabs.md)있지만 패널을 확장 및 축소할 수 있습니다.
 
 * 아코디언 속성은 [구성 대화 상자에서](#configure-dialog)정의할 수 있습니다.
-* 아코디언 패널의 순서는 구성 대화 상자와 [선택 패널 팝업에서 정의할 수 있습니다](#select-planel.md).
+* 아코디언 패널의 순서는 구성 대화 상자와 [선택 패널 팝업에서 정의할 수 있습니다](#select-panel.md).
 * 페이지에 추가할 때 아코디언 구성 요소의 기본값은 [디자인 대화 상자에서](#design-dialog)정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
@@ -33,19 +25,19 @@ Accordion 구성 요소의 현재 버전은 v1이며, 이 버전은 2019년 6월
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-아코디언 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 방문하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html).
+아코디언 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_accordion).
 
 ## 기술 정보 {#technical-details}
 
-Accordion 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+Accordion 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_accordion_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
