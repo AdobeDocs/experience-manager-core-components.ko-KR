@@ -1,15 +1,9 @@
 ---
 title: 페이지 구성 요소(v1)
-seo-title: 페이지 구성 요소(v1)
 description: 페이지 구성 요소는 템플릿 편집기와 함께 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
-seo-description: 페이지 구성 요소는 템플릿 편집기와 함께 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: 참조
-topic-tags: 핵심 구성 요소
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -689,7 +683,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 디자인 대화 상자 {#design-dialog}
 
-구성 요소는 전체 페이지를 나타내므로 [페이지 정보] -&gt; [페이지 디자인]을 통해 디자인 대화 **상자에 액세스합니다**.
+구성 요소는 전체 페이지를 나타내므로 [페이지 정보] -> [페이지 디자인]을 통해 디자인 대화 **상자에 액세스합니다**.
 
 ![](assets/chlimage_1-94.png)
 
