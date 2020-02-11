@@ -1,14 +1,8 @@
 ---
 title: 핵심 구성 요소의 현지화 기능
-seo-title: 핵심 구성 요소의 현지화 기능
 description: 핵심 구성 요소의 현지화 기능
-seo-description: 핵심 구성 요소의 현지화 기능
-content-type: reference
-topic-tags: core-components
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,7 +17,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 마찬가지로 탐색 구성 요소는 일반적으로 모든 페이지에 표시되어야 합니다. 하지만 현지화된 페이지의 컨텐츠도 반영해야 합니다.
 
-AEM의 [편집 가능한 템플릿과](navigation.md) 함께 탐색 코어 구성 요소 [및](experience-fragment.md) 경험 [조각 코어 구성 요소의](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)현지화 기능을 사용하면간단한 작업이 됩니다. 이 예는 언어 탐색 구성 요소도 사용하도록 [확장될 수](language-navigation.md) 있습니다.
+AEM의 [편집 가능한 템플릿과](navigation.md) 함께 탐색 코어 구성 요소 [및](experience-fragment.md) 경험 [조각 코어 구성 요소의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)현지화 기능을 사용하면간단한 작업이 됩니다. 이 예는 언어 탐색 구성 요소도 사용하도록 [확장될 수](language-navigation.md) 있습니다.
 
 ## 컨텐츠 구조 {#content-structure}
 
