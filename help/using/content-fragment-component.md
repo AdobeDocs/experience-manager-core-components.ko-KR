@@ -1,23 +1,15 @@
 ---
 title: 컨텐츠 조각 구성 요소
-seo-title: 컨텐츠 조각 구성 요소
-description: 'null'
-seo-description: 핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 컨텐츠 조각을 표시할 수 있습니다.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 컨텐츠 조각을 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # 컨텐츠 조각 구성 요소{#content-fragment-component}
 
-핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 [컨텐츠 조각을](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)표시할 수 있습니다.
+핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 [컨텐츠 조각을](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)표시할 수 있습니다.
 
 >[!NOTE]
 >
@@ -25,11 +17,11 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ## 사용량 {#usage}
 
-핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 페이지에 [컨텐츠 조각을](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) 포함할 수 있습니다.
+핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 페이지에 [컨텐츠 조각을](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 포함할 수 있습니다.
 
 * 조각 및 해당 속성은 [구성 대화 상자에서](#configure-dialog)선택할 수 있습니다.
 * 특정 이미지 및 격자를 처리하는 리소스 유형은 [디자인 대화 상자에서](#design-dialog)정의할 수 있습니다.
-* 편집 옵션은 [컨텐츠 조각 편집기](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)내에서 선택한 조각을 엽니다.
+* 편집 옵션은 [컨텐츠 조각 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)내에서 선택한 조각을 엽니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 >[!NOTE]
 >
@@ -57,11 +49,11 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-컨텐츠 조각 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+컨텐츠 조각 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_cf).
 
 ## 기술 정보 {#technical-details}
 
-컨텐츠 조각 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+컨텐츠 조각 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -71,7 +63,7 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ![](assets/chlimage_1-87.png)
 
-* **컨텐츠 조각**
+* **콘텐츠 조각**
 
    * 원하는 컨텐츠 조각의 경로
    * 선택 **대화 상자를** 사용하여 조각을 찾을 수 있습니다.
@@ -102,3 +94,4 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 * **내부 응답형 격자**
 
    * 내부 응답형 격자에 사용된 Sling 리소스 유형입니다
+
