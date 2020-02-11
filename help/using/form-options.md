@@ -1,16 +1,8 @@
 ---
 title: 양식 옵션 구성 요소
-seo-title: 양식 옵션 구성 요소
 description: 코어 구성 요소 양식 옵션 구성 요소를 사용하면 다양한 포맷의 사전 정의된 옵션에서 선택할 수 있습니다.
-seo-description: 코어 구성 요소 양식 옵션 구성 요소를 사용하면 다양한 포맷의 사전 정의된 옵션에서 선택할 수 있습니다.
-uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: 42289c2b-1671-46 파섹
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -31,16 +23,16 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](form-options-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](form-options-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-다음은 We.Retail에서 [가져온 샘플입니다](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+다음은 We.Retail에서 [가져온 샘플입니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### 스크린샷 {#screenshot}
 
@@ -139,7 +131,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 기술 정보 {#technical-details}
 
-양식 옵션 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+양식 옵션 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_options_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
