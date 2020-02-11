@@ -1,15 +1,8 @@
 ---
 title: Teaser 구성 요소
-seo-title: Teaser 구성 요소
 description: Teaser 구성 요소는 이미지, 제목, 리치 텍스트 및 추가 컨텐츠에 연결할 수 있습니다.
-seo-description: Teaser 구성 요소는 이미지, 제목, 리치 텍스트 및 추가 컨텐츠에 연결할 수 있습니다.
-uuid: 46989314-df37-448b-8562-c707043f2160
-contentOwner: 보허트
-content-type: 참조
-topic-tags: 핵심 구성 요소
-discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -30,17 +23,17 @@ Teaser 구성 요소의 현재 버전은 v1이며, 이 버전은 2018년 7월 �
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|---|---|---|---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-Teaser 구성 요소뿐만 아니라 구성 옵션의 예제도 및 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 방문하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
+Teaser 구성 요소뿐만 아니라 구성 옵션의 예제도 및 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_teaser).
 
 ### 기술 정보 {#technical-details}
 
-Teaser 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+Teaser 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_teaser_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -53,9 +46,9 @@ Teaser 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **이미지 자산**
-   * 자산 브라우저에서 [자산을 삭제하거나](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) 찾아보기 **** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
+   * 자산 브라우저에서 [자산을 삭제하거나](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 찾아보기 **** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
    * 지우기를 탭하거나 **클릭하여** 현재 선택한 이미지를 선택 취소합니다.
-   * 편집을 탭하거나 **클릭하여** 자산 [편집기에서 자산의](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 표현물을관리합니다.
+   * 편집을 탭하거나 **클릭하여** 자산 [편집기에서 자산의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 표현물을관리합니다.
 
 ### 텍스트 {#text}
 
