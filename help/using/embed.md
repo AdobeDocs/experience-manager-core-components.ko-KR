@@ -1,12 +1,8 @@
 ---
 title: 구성 요소 포함
-seo-title: 구성 요소 포함
 description: 포함 구성 요소를 사용하면 AEM 컨텐츠 페이지에 외부 컨텐츠를 포함할 수 있습니다.
-seo-description: 포함 구성 요소를 사용하면 AEM 컨텐츠 페이지에 외부 컨텐츠를 포함할 수 있습니다.
-content-type: 참조
-topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -28,19 +24,19 @@ source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-포함 구성 요소와 구성 옵션의 예 및 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html).
+포함 구성 요소와 구성 옵션의 예 및 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_embed).
 
 ## 기술 정보 {#technical-details}
 
-포함 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+포함 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -99,7 +95,7 @@ source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 하지만 포함 구성 요소는 에 나와 있는 AEM의 전역 HTML AntiSamy Fishing 프레임워크 필터링 규칙 세트를 따르기 때문에 규칙이 더 복잡해졌습니다. `/libs/cq/xssprotection/config.xml` 필요한 경우 개발자가 프로젝트별 구성에 대해 오버레이할 수 있습니다.
 
-추가 보안 정보는 AEM 개발자 [문서에서 찾을 수 있습니다.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+추가 보안 정보는 AEM 개발자 [문서에서 온-프레미스 설치](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) 및 AEM [을 클라우드 서비스 설치에서 찾을 수 있습니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >AntiSamy 위생 프레임워크 규칙은 오버레이로 구성할 수 있지만 이러한 `/libs/cq/xssprotection/config.xml`변경 사항은 내장 코어 구성 요소뿐만 아니라 모든 HTL 및 JSP 동작에 영향을 줍니다.
