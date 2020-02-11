@@ -1,24 +1,9 @@
 ---
 title: 양식 옵션 구성 요소(v1)
-seo-title: 양식 옵션 구성 요소(v1)
-description: 'null'
-seo-description: 코어 구성 요소 양식 옵션 구성 요소를 사용하면 다양한 포맷의 사전 정의된 옵션에서 선택할 수 있습니다.
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: 참조
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
-modalsize: 426x240
-noindex: 'true'
+description: 코어 구성 요소 양식 옵션 구성 요소를 사용하면 다양한 포맷의 사전 정의된 옵션에서 선택할 수 있습니다.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
