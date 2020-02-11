@@ -1,16 +1,8 @@
 ---
 title: 구성 요소 다운로드
-seo-title: 구성 요소 다운로드
-description: 'null'
-seo-description: 핵심 구성 요소 다운로드 구성 요소를 사용하면 페이지에 다운로드 옵션을 만들 수 있습니다.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 핵심 구성 요소 다운로드 구성 요소를 사용하면 페이지에 다운로드 옵션을 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-구성 요소 다운로드 및 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
+구성 요소 다운로드 및 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_download).
 
 ## 기술 정보 {#technical-details}
 
-다운로드 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+다운로드 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -59,9 +51,9 @@ source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 다운로드 자산의 선택은 이미지 구성 요소의 기능과 매우 유사하며 [마찬가지로](image.md) AEM의 DAM을 활용합니다.
 
 * **자산 다운로드**
-   * 자산 브라우저에서 [자산을 삭제하거나](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) 찾아보기 **** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
+   * 자산 브라우저에서 [자산을 삭제하거나](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 찾아보기 **** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
    * 지우기를 탭하거나 **클릭하여** 현재 선택한 이미지를 선택 취소합니다.
-   * 편집을 탭하거나 **클릭하여** 자산 [편집기에서 자산의](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 표현물을관리합니다.
+   * 편집을 탭하거나 **클릭하여** 자산 [편집기에서 자산의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 표현물을관리합니다.
 
 ### 속성 탭 {#properties-tab}
 
