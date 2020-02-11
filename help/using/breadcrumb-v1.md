@@ -1,20 +1,9 @@
 ---
 title: 탐색 표시 구성 요소(v1)
-seo-title: 탐색 표시 구성 요소(v1)
 description: 핵심 구성 요소 탐색 표시 구성 요소는 컨텐츠 계층 구조에서 페이지의 위치를 기반으로 링크의 탐색 표시를 작성하는 탐색 구성 요소입니다.
-seo-description: AEM 코어 구성 요소 탐색 표시 구성 요소는 컨텐츠 계층 구조에서 페이지의 위치를 기반으로 링크의 탐색 표시를 작성하는 탐색 구성 요소입니다.
-uuid: c1f20a82-b6ff-4a3c-920a-6710084a69f2
-content-type: 참조
-topic-tags: 핵심 구성 요소
-discoiquuid: 0b3a7d8f-d110-424f-b531-ff88c9a09128
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
