@@ -1,11 +1,8 @@
 ---
-cloud: experience-cloud
-product: adobe experience manager
-sub-product: adobe experience manager core components
-archetype: Administrator
+sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -13,7 +10,7 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 # AEM 핵심 구성 요소 도움말 {#using}
 
 + [핵심 구성 요소 소개](introduction.md)
-+ [구성 요소 라이브러리](http://opensource.adobe.com/aem-core-wcm-components/library.html)
++ [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library)
 + [구성 요소 버전](versions.md)
 + 시작하기 {#get-started}
    + [핵심 구성 요소로 작성](authoring.md)
@@ -63,10 +60,10 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
          + [양식 텍스트(v1)](form-text-v1.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing.md)
-   + [WKND 개발자 자습서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND 개발자 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 사용자 정의](customizing.md)
    + [구성 요소 지침](guidelines.md)
-   + AEM 프로젝트 원형 {#archetype}
+   + AEM 프로젝트 전형 {#archetype}
       + [원형 개요](overview.md)
       + [핵심 모듈](core.md)
       + [ui.apps 모듈](uiapps.md)
