@@ -1,13 +1,8 @@
 ---
 title: ui.content 모듈(AEM 프로젝트 원형)
-seo-title: ui.content 모듈(AEM 프로젝트 원형)
 description: ui.content 모듈(AEM 프로젝트 원형)
-seo-description: ui.content 모듈(AEM 프로젝트 원형)
-contentOwner: 보허트
-content-type: 참조
-topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
