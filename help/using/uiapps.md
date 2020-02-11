@@ -1,13 +1,8 @@
 ---
 title: ui.apps AEM 프로젝트 원형형의 모듈
-seo-title: ui.apps AEM 프로젝트 원형형의 모듈
 description: ui.apps AEM 프로젝트 원형형의 모듈
-seo-description: ui.apps AEM 프로젝트 원형형의 모듈
-contentOwner: 보허트
-content-type: 참조
-topic-tags: 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
