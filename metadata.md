@@ -1,30 +1,52 @@
 ---
-cloud: experience-cloud
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
-solution-image: null
-getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
+solution-title: AEM에 대한 학습 및 지원
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: AEM용 개발 시작
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: AEM 자습서
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
+source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
 
 ---
 
 
-# Metadata for internal use
+# 내부용 메타데이터
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+GitHub 저작 시스템의 메타데이터는 계층적이며 다음과 같은 선례 수준을 증가시킵니다.
 
-| 메타데이터 | what it does |
-|--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| 솔루션 아이콘 | Displays solution icon next to solution title. 아직 구현되지 않음 |
-| getting-started-url | 도움말 시작 페이지에 대한 링크 |
-| tutorials-url | 비디오 자습서로 연결되는 링크—도움말 자습서 또는 KT 자습서 |
-| mini-toc-levels | 오른쪽 레일에 표시되는 제목 수준 수를 결정합니다. 기본값은 2입니다. |
-| git-repo | 내부 사용을 위한 마스터 보고서의 위치를 지정합니다. |
+1. metadata.md
+1. ToC
+1. 기사
+
+metadata.md 파일에 정의된 메타데이터는 전체 보고서에 적용되지만 ToC 및 아티클 수준에서 재정의할 수 있습니다. 메타데이터를 재정의하는 작업은 가능한 가장 낮은 수준에서 수행해야 합니다.
+
+Experience-manager-core-components.en repo의 메타데이터는 최소한으로 필요합니다.
+
+metadata.md
+
+* `product`
+* `git-repo`
+* `index: y`
+* `solution-title`
+* `solution-hub-url`
+* `getting-started-title`
+* `getting-started-url`
+* `tutorials-title`
+* `tutorials-url`
+
+ToCs
+
+* `sub-product`
+* `user-guide-title`
+
+기사
+
+* `title`
+* `description`
+* `index: n` (이전 버전의 구성 요소에만 해당)
+
+메타데이터에 대한 자세한 내용은 [내부 작성 안내서를 참조하십시오.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
