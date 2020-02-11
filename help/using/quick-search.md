@@ -1,29 +1,13 @@
 ---
 title: 빠른 검색 구성 요소
-seo-title: 빠른 검색 구성 요소
-description: 'null'
-seo-description: 빠른 검색 구성 요소는 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 웹 사이트에 검색 기능을 제공하고 검색 결과를 제공합니다.
-uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 빠른 검색 구성 요소는 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 웹 사이트에 검색 기능을 제공하고 검색 결과를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
-# 빠른 검색 구성 요소{#quick-search-component}
+# 빠른 검색 구성 요소 {#quick-search-component}
 
 빠른 검색 구성 요소는 방문자가 일치하는 컨텐츠를 쉽게 찾고 결과를 볼 수 있도록 웹 사이트에 검색 기능을 제공하고 검색 결과를 제공합니다.
 
@@ -39,15 +23,15 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-다음은 We.Retail에서 [가져온 샘플입니다](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+다음은 We.Retail에서 [가져온 샘플입니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### 스크린샷 {#screenshot}
 
@@ -95,7 +79,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 >
 >DOS 공격으로부터 검색 구성 요소 또는 AEM 기반 응용 프로그램을 보호하는 것은 보다 높은 수준에서(예: 디스패처에서 사용) `mod_security` 해야 합니다.
 
-빠른 검색 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+빠른 검색 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_search_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
