@@ -1,25 +1,8 @@
 ---
 title: 양식 컨테이너 구성 요소
-seo-title: 양식 컨테이너 구성 요소
-description: 'null'
-seo-description: 핵심 구성 요소 양식 컨테이너 구성 요소를 사용하면 간단한 제출 양식을 만들 수 있습니다.
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 핵심 구성 요소 양식 컨테이너 구성 요소를 사용하면 간단한 제출 양식을 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,11 +15,11 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 양식 컨테이너 구성 요소를 사용하면 간단한 WCM 양식을 지원하고 중첩된 구조를 사용하여 추가 양식 구성 요소를 허용하여 간단한 정보 제출 양식 및 기능을 작성할 수 있습니다.
 
-컨텐츠 편집자는 [구성 대화](#configure-dialog) 상자를 사용하여 양식 제출로 트리거된 작업, 제출된 컨텐츠를 저장할 위치, 워크플로우 트리거 여부를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자를](#design-dialog) 사용하여 템플릿 편집기의 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)표준 레이아웃 컨테이너에 대한 디자인 대화 상자와 유사한 허용된 구성 요소 및 해당 매핑을 정의할 수 있습니다.
+컨텐츠 편집자는 [구성 대화](#configure-dialog) 상자를 사용하여 양식 제출로 트리거된 작업, 제출된 컨텐츠를 저장할 위치, 워크플로우 트리거 여부를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자를](#design-dialog) 사용하여 템플릿 편집기의 [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)표준 레이아웃 컨테이너에 대한 디자인 대화 상자와 유사한 허용된 구성 요소 및 해당 매핑을 정의할 수 있습니다.
 
 >[!NOTE]
 >
->핵심 구성 요소인 양식 컨테이너 구성 요소는 핵심 구성 요소(단추, 텍스트, 숨김 등)의 사용만 지원합니다. 핵심 구성 요소 양식 컨테이너 내에 있는 [기본 구성 요소](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 양식 구성 요소 사용(또는 그 반대)은 지원되지 않습니다.
+>핵심 구성 요소인 양식 컨테이너 구성 요소는 핵심 구성 요소(단추, 텍스트, 숨김 등)의 사용만 지원합니다. 핵심 구성 요소 양식 컨테이너 내에 있는 [기본 구성 요소](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) 양식 구성 요소 사용(또는 그 반대)은 지원되지 않습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -44,16 +27,16 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](form-container-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](form-container-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 기술 정보 {#technical-details}
 
-양식 컨테이너 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
+양식 컨테이너 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_container_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -124,4 +107,4 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 사용하여 템플릿 편집기에서 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)표준 레이아웃 컨테이너에 대한 디자인 대화 상자와 유사한 컨테이너에 대해 허용된 구성 요소 및 해당 매핑을 정의할 수 있습니다.
+템플릿 작성자는 디자인 대화 상자를 사용하여 템플릿 편집기에서 [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)표준 레이아웃 컨테이너에 대한 디자인 대화 상자와 유사한 컨테이너에 대해 허용된 구성 요소 및 해당 매핑을 정의할 수 있습니다.
