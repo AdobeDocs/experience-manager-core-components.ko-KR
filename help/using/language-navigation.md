@@ -1,24 +1,8 @@
 ---
-title: Language Navigation Component
-seo-title: Language Navigation Component
-description: 'null'
-seo-description: 언어 탐색 구성 요소는 방문자가 다른 로케일에서 동일한 페이지로 이동할 수 있도록 사이트에 대한 언어/국가 탐색을 제공합니다.
-uuid: ce736458-9cdf-4bc2-b90f-9c5a62fe1ca0
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: 8f232eb0-65d5-4075-8668-75f136682c8
-disttype: dist5
-gnavtheme: 밝음
-groupsectionnavitems: 아니오
-hidemerchandisingbar: 상속
-hidepromocomponent: 상속
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+title: 언어 탐색 구성 요소
+description: 언어 탐색 구성 요소는 방문자가 다른 로케일에서 동일한 페이지로 이동할 수 있도록 사이트에 대한 언어/국가 탐색을 제공합니다.
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -42,19 +26,19 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |--- |---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-언어 탐색 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
+언어 탐색 구성 요소뿐만 아니라 구성 옵션의 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_langnav).
 
 ## 기술 정보 {#technical-details}
 
-언어 탐색 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
+언어 탐색 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_langnav_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -62,7 +46,7 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 편집 대화 상자에서는 전역 사이트 탐색 루트의 정의뿐만 아니라 탐색이 가야 하는 구조 깊이를 정의할 수 있습니다.
 
-일반적으로 이러한 구성은 페이지 템플릿 수준에서 수행해야 합니다. 하지만 [편집 대화 상자를](#edit-dialog)통해 페이지 수준에서 변경할 수 있습니다.
+일반적으로 이러한 구성은 페이지 템플릿 수준에서만 수행해야 합니다. 하지만 [편집 대화 상자를](#edit-dialog)통해 페이지 수준에서 변경할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
@@ -70,16 +54,16 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 * **탐색 루트**
    * 여기에서 사이트 언어 탐색을 시작해야 합니다.
-   * The language structure of the site begins on the next level below this root.
+   * 사이트의 언어 구조는 이 루트 아래의 다음 수준에서 시작합니다.
 * **언어 구조 깊이**
-   * This is how many levels of the content tree below the Navigation Root represent the language structure of the site. **** Examples:
-      * `1` typically means that you only have the choice of language.
-      * `2` typcially means that you have a choice of language and country.
-      * `3` typically means that you have a choice of langauge, country, and region.
+   * 탐색 루트 아래의 콘텐츠 트리 수준 수가 **사이트의** 언어 구조를 나타냅니다. 예:
+      * `1` 일반적으로 사용자는 언어 선택만 할 수 있습니다.
+      * `2` 일반적으로 언어와 국가를 선택할 수 있음을 의미합니다.
+      * `3` 일반적으로 언어, 국가 및 지역을 선택할 수 있습니다.
 
 #### 예 {#example}
 
-Let's say that your content looks something like this:
+귀하의 컨텐츠는 다음과 같은 모습이라고 가정해 보겠습니다.
 
 ```
 /content
@@ -96,13 +80,13 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-For the site We.Retail, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template, you can set the Navigation Root of the component to  since that is where your localized content for that site begins. ****`/content/we-retail` You would also want to set the Language Structure Depth to be  since your structure is of two levels (country then laguage).****`2`
+사이트 We.Retail의 경우 페이지 템플릿에 언어 탐색 구성 요소를 머리글의 일부로 배치해야 할 수 있습니다. 템플릿의 일부로 구성 요소의 탐색 **루트가** 해당 사이트에 대한 현지화된 컨텐츠가 시작되는 `/content/we-retail` 곳이기 때문에 구성 요소의 탐색 루트를 설정할 수 있습니다. 또한 구조가 두 수준(국가 및 언어 **)**`2` (언어)이므로 언어 구조 깊이를 설정할 수 있습니다.
 
-With the Navigation Root value, the Language Component knows that after  that that the navigation begins and it can generate language navigation options by recognizing the next two levels in the content tree as the site's language navigation structure (as defined by the Language Structure Depth value).****`/content/we-retail`****
+탐색 **루트** 값을 사용하면 언어 구성 요소는 탐색 시작 후 `/content/we-retail` 해당 언어 탐색 옵션을 생성하여 컨텐츠 트리의 다음 두 수준을 사이트의 언어 탐색 구조(언어 구조 깊이 값으로 정의됨)로 인식합니다 **** .
 
-No matter what page a user is viewing, the Language Navigation component is able find the corresponding page in another language, by knowing the location of the current page and working backwards to the root, and then forwards to the corresponding page.
+사용자가 보고 있는 페이지에 관계없이 언어 탐색 구성 요소는 현재 페이지의 위치를 알고 루트로 역방향으로 작업한 다음 해당 페이지로 이동하여 다른 언어로 해당 페이지를 찾을 수 있습니다.
 
-### Styles Tab {#styles-tab}
+### 스타일 탭 {#styles-tab}
 
 언어 탐색 구성 요소는 AEM Style [System을 지원합니다](authoring.md#component-styling).
 
