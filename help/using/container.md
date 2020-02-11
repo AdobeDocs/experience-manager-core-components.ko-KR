@@ -1,16 +1,8 @@
 ---
 title: 컨테이너 구성 요소
-seo-title: 컨테이너 구성 요소
-description: 'null'
-seo-description: 핵심 구성 요소 컨테이너 구성 요소를 사용하면 페이지에 있는 여러 추가 구성 요소에 대한 컨테이너를 만들 수 있습니다.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 사용자
-content-type: 참조
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORCOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 핵심 구성 요소 컨테이너 구성 요소를 사용하면 페이지에 있는 여러 추가 구성 요소에 대한 컨테이너를 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+|--- |--- |--- |---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 핵심 구성 요소 [버전을 참조하십시오](versions.md).
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-컨테이너 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](http://opensource.adobe.com/aem-core-wcm-components/library/container.html).
+컨테이너 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_container).
 
 ## 기술 정보 {#technical-details}
 
-컨테이너 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+컨테이너 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_container_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](developing.md)참조하십시오.
 
@@ -56,9 +48,9 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 * **레이아웃** - 이 옵션은 컨테이너 구성 요소의 동작 또는 레이아웃 동작을 정의합니다.
    * **단순** - 컨테이너를 간단한 구성 요소 컬렉션으로 정의합니다.
-   * **반응형 격자** - 컨테이너를 AEM [반응형 격자로 정의합니다.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **반응형 격자** - 컨테이너를 AEM [반응형 레이아웃으로 정의합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** - 이 옵션을 사용하여 구성 요소에 적용할 HTML ID 속성을 정의합니다.
-* **배경색** - 구성에 [따라 자유 형식 RGB 값으로 정의하거나 색상 피커를 사용하여 정의할 수 있습니다.](#background-tab)
+* **배경색** - 구성에 [따라 자유 형식 RGB 값이나 색상 피커를 사용하여 정의할 수 있습니다.](#background-tab)
 * **배경 이미지** - 구성에 [따라 컨테이너의 배경색을 정의합니다.](#background-tab)
 
 ## 디자인 대화 상자 {#design-dialog}
@@ -69,11 +61,11 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 허용된 구성 **요소** 탭은 컨텐츠 작성자가 컨테이너 구성 요소에 항목으로 추가할 수 있는 구성 요소를 정의하는 데 사용됩니다.
 
-템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 
-기본 구성 요소 탭은 페이지 템플릿에서 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)기본 구성 요소를 정의하는 방법과 유사하게, 특정 자산 유형이 컨테이너에 드롭될 때 구성 요소에 추가되는 구성 요소를 정의하는 데 사용됩니다.
+기본 구성 요소 탭은 페이지 템플릿에서 [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)기본 구성 요소를 정의하는 방법과 유사하게, 특정 자산 유형이 컨테이너에 드롭될 때 구성 요소에 추가되는 구성 요소를 정의하는 데 사용됩니다.
 
 ### 반응형 설정 탭 {#responsive-settings-tab}
 
