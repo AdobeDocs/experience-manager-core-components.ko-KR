@@ -1,16 +1,8 @@
 ---
 title: 구성 요소 지침
-seo-title: 구성 요소 지침
 description: 핵심 구성 요소는 기본 구성 요소와 매우 다른 최신 구현 패턴을 따릅니다.
-seo-description: 핵심 구성 요소는 기본 구성 요소와 매우 다른 최신 구현 패턴을 따릅니다.
-uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -35,7 +27,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ### 우려 사항 분리 {#separation-of-concerns}
 
-일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 로직(또는 모델)을 구분하는 것이 좋습니다. 이를 위해 몇 가지 방법이 있지만, 핵심 구성 요소처럼 [로직용](https://sling.apache.org/documentation/bundles/models.html) Sling Models와 마크업에 HTML [템플릿 언어](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)를 사용하는 것이 좋습니다.
+일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 로직(또는 모델)을 구분하는 것이 좋습니다. 이를 위해 몇 가지 방법이 있지만, 핵심 구성 요소처럼 [로직용](https://sling.apache.org/documentation/bundles/models.html) Sling Models와 마크업에 HTML [템플릿 언어](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)를 사용하는 것이 좋습니다.
 
 Sling Models는 POJO에서 필요한 변수에 쉽게 액세스할 수 있는 Java 주석 집합이므로 구성 요소에 대한 Java 로직을 구현하는 간단하고 강력하고 효율적인 방법을 제공합니다.
 
@@ -47,7 +39,7 @@ HTL은 AEM에 맞게 고안된 안전하고 간단한 템플릿 언어입니다.
 
 ### 사전 구성 가능한 기능 {#pre-configurable-capabilities}
 
-페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 템플릿 작성자가 미리 구성할 수 있는 디자인 대화 상자가 있을 수 있습니다. 템플릿 [편집기를](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 사용하면 "정책"이라고 하는 모든 사전 구성을 설정할 수 있습니다.
+페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 템플릿 작성자가 미리 구성할 수 있는 디자인 대화 상자가 있을 수 있습니다. 템플릿 [편집기를](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 사용하면 &quot;정책&quot;이라고 하는 모든 사전 구성을 설정할 수 있습니다.
 
 구성 요소를 가능한 한 다시 사용할 수 있도록 하려면 구성 요소를 미리 구성할 수 있는 의미 있는 옵션을 제공해야 합니다. 이렇게 하면 다른 사이트의 특정 요구 사항에 맞게 구성 요소의 기능을 활성화하거나 비활성화할 수 있습니다.
 
@@ -55,7 +47,7 @@ HTL은 AEM에 맞게 고안된 안전하고 간단한 템플릿 언어입니다.
 
 각 컨텐츠 리소스에는 렌더링하기 위해 구성 요소를 참조하는 `sling:resourceType` 속성이 있으므로 여러 사이트에서 공유하는 구성 요소를 가리키는 대신 이러한 속성이 사이트별 구성 요소를 가리키는 것이 좋습니다. 이렇게 하면 한 사이트에서 구성 요소에 대해 다른 비헤이비어가 필요한 경우 컨텐츠 리팩토링 문제를 방지할 수 있습니다. 이렇게 하면 사이트별 구성 요소에서 이러한 사용자 지정을 수행할 수 있고 다른 사이트에는 영향을 주지 않기 때문입니다.
 
-그러나 프로젝트별 구성 요소가 코드를 복제하지 않도록 하려면 각 구성 요소는 `sling:resourceSuperType` 속성이 있는 공유 상위 구성 요소를 참조해야 합니다. 대부분의 상위 구성 요소만 참조하는 이러한 프로젝트 특정 구성 요소를 "프록시 구성 요소"라고 합니다. 프록시 구성 요소는 기능을 완전히 상속하거나 구성 요소의 일부 측면을 재정의할 수 있는 경우 완전히 비어 있을 수 있습니다.
+그러나 프로젝트별 구성 요소가 코드를 복제하지 않도록 하려면 각 구성 요소는 `sling:resourceSuperType` 속성이 있는 공유 상위 구성 요소를 참조해야 합니다. 대부분의 상위 구성 요소만 참조하는 이러한 프로젝트 특정 구성 요소를 &quot;프록시 구성 요소&quot;라고 합니다. 프록시 구성 요소는 기능을 완전히 상속하거나 구성 요소의 일부 측면을 재정의할 수 있는 경우 완전히 비어 있을 수 있습니다.
 
 ### 구성 요소 버전 관리 {#component-versioning}
 
@@ -86,11 +78,11 @@ HTL은 AEM에 맞게 고안된 안전하고 간단한 템플릿 언어입니다.
 
 ## 모든 작업 간소화 {#putting-it-all-together}
 
-다음은 제목 코어 구성 요소의 예를 들어 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 사이트 특정 프록시 구성 요소가 컨텐츠 리소스에 버전 번호가 포함되어 있지 않도록 구성 요소 버전 지정을 해결하는 방법을 보여 줍니다. 그런 다음 구성 요소의 HTL `title.html` 파일이 [모델](https://helpx.adobe.com/experience-manager/htl/using/overview.html) 인터페이스에 어떻게 [사용하는지를 보여주며, 구현은 Sling 모델 주석을 통해 구성 요소의 특정 버전에](https://sling.apache.org/documentation/bundles/models.html) 바인딩됩니다.
+다음은 제목 코어 구성 요소의 예를 들어 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 사이트 특정 프록시 구성 요소가 컨텐츠 리소스에 버전 번호가 포함되어 있지 않도록 구성 요소 버전 지정을 해결하는 방법을 보여 줍니다. 그런 다음 구성 요소의 HTL `title.html` 파일이 [모델](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) 인터페이스에 어떻게 [사용하는지를 보여주며, 구현은 Sling 모델 주석을 통해 구성 요소의 특정 버전에](https://sling.apache.org/documentation/bundles/models.html) 바인딩됩니다.
 
 ![리소스 바인딩 개요](assets/chlimage_1-32.png)
 
-다음은 구현 POJO에 대한 세부 정보를 표시하지 않고 관련 [템플릿과 정책을](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) 참조하는 방법을 보여주는 또 다른 개요입니다.
+다음은 구현 POJO에 대한 세부 정보를 표시하지 않고 관련 [템플릿과 정책을](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) 참조하는 방법을 보여주는 또 다른 개요입니다.
 
 이 `cq:allowedTemplates` `cq:template` 속성은 사이트에 사용할 수 있는 템플릿을 알려주고 각 페이지에 대해 연관된 템플릿이 무엇인지 알려줍니다. 모든 템플릿은 다음 세 부분으로 구성됩니다.
 
@@ -100,9 +92,9 @@ HTL은 AEM에 맞게 고안된 안전하고 간단한 템플릿 언어입니다.
 
 ![템플릿 및 정책 개요](assets/screen_shot_2018-12-07at093102.png)
 
-## AEM 프로젝트 원형 {#aem-project-archetype}
+## AEM 프로젝트 전형 {#aem-project-archetype}
 
-[AEM Project Tranype](overview.md) 은 권장 프록시 패턴을 사용하는 핵심 구성 요소의 로직과 적절한 구현을 위해 SlingModels가 포함된 사용자 지정 HTL 구성 요소의 도움말 예제를 비롯하여 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
+[AEM Project Tranype은](overview.md) SlingModels가 포함된 사용자 지정 HTL 구성 요소의 예를 포함하여 권장 프록시 패턴을 사용하는 핵심 구성 요소의 논리 및 적절한 구현을 위한 최소한의 Adobe Experience Manager 프로젝트를 고유한 프로젝트의 시작점으로 만듭니다.
 
 **다음 참조:**
 
