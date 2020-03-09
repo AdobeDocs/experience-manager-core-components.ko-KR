@@ -2,7 +2,7 @@
 title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소 기능을 즉석 편집입니다.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 반응형 기능 {#responsive-features}
 
-이미지 구성 요소는 즉시 사용할 수 있는 강력한 반응형 기능을 제공합니다. 페이지 템플릿 수준에서 [디자인 대화 상자를](#design-dialog) 사용하여 이미지 자산의 기본 너비를 정의할 수 있습니다. 그런 다음 이미지 구성 요소는 브라우저 창의 크기에 따라 표시할 올바른 너비를 자동으로 로드합니다. 창 크기가 변경되면 이미지 구성 요소는 올바른 이미지 크기를 신속하게 동적으로 로드합니다. 이미지 구성 요소가 이미 컨텐츠를 로드하도록 최적화되었으므로 구성 요소 개발자는 사용자 정의 미디어 쿼리를 정의할 필요가 없습니다.
+이미지 구성 요소는 즉시 사용할 수 있는 강력한 반응형 기능을 제공합니다. 페이지 템플릿 수준에서 [디자인 대화 상자를](#design-dialog) 사용하여 이미지 자산의 기본 너비를 정의할 수 있습니다. 그런 다음 이미지 구성 요소는 브라우저 창의 크기에 따라 표시할 올바른 너비를 자동으로 로드합니다. 창 크기가 조정되면 이미지 구성 요소는 올바른 이미지 크기를 신속하게 로드합니다. 이미지 구성 요소가 이미 컨텐츠를 로드하도록 최적화되었으므로 구성 요소 개발자는 사용자 정의 미디어 쿼리를 정의할 필요가 없습니다.
 
 또한 이미지 구성 요소는 실제 이미지 자산이 브라우저에 표시될 때까지 로드를 연기하여 페이지의 응답성을 높입니다.
 
@@ -29,7 +29,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |--- |--- |---|
 | v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](v1/image-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
@@ -41,7 +41,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
 * DAM에서 SVG 에셋을 드래그 앤 드롭하고 로컬 파일 시스템에서 SVG 파일 업로드를 업로드할 수 있습니다.
-* 적응형 이미지 서버는 원본 SVG 파일이 스트리밍되는 것을 스트리밍합니다(변형을 건너뜁니다).
+* 응용 이미지 서블릿은 원본 SVG 파일을 스트리밍합니다(변형을 건너뜁니다).
 * SVG 이미지의 경우 &quot;스마트 이미지&quot; 및 &quot;스마트 크기&quot;가 이미지 모델의 빈 배열로 설정됩니다.
 
 ### 보안 {#security}
@@ -50,7 +50,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
 >[!CAUTION]
 >
->AEM 내의 [새로운 이미지 편집기 기능을](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) 지원하려면 AEM 6.4 또는 AEM 6.3 이상용 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 및 [서비스 팩 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 와 함께 SVG 지원을 통해 핵심 구성 요소 릴리스 2.1.0 이상이 필요합니다.
+>AEM 내의 [새로운 이미지 편집기 기능을](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) 지원하려면 AEM 6.4 또는 AEM 6.3 이상용 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 및 [서비스 팩 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 와 함께 SVG 지원 릴리스 2.1.0 이상이 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -175,7 +175,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
    ![](/help/assets/chlimage_1-16.png)
 
-   이 옵션을 사용하여 이미지의 확대/축소 레벨을 제어하는 슬라이더를 표시합니다.
+   이 옵션을 사용하여 이미지의 확대/축소 레벨을 제어할 수 있는 슬라이더를 표시합니다.
 
    ![](/help/assets/chlimage_1-17.png)
 
@@ -261,12 +261,12 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
 이미지 구성 요소는 AEM 스타일 [시스템을 지원합니다](/help/get-started/authoring.md#component-styling).
 
-## 응용 이미지 서버 {#adaptive-image-servelet}
+## 응용 이미지 서블릿 {#adaptive-image-servlet}
 
-이미지 구성 요소는 핵심 구성 요소의 응용 이미지 서버를 사용합니다. [응용 이미지 서블릿은](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 이미지 처리 및 스트리밍을 담당하고 개발자가 핵심 구성 요소의 [사용자 정의에 활용할 수 있습니다](/help/developing/customizing.md).
+이미지 구성 요소는 핵심 구성 요소의 응용 이미지 서블릿을 사용합니다. [응용 이미지 서블릿은](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 이미지 처리 및 스트리밍을 담당하고 개발자가 핵심 구성 요소의 [사용자 정의에 활용할 수 있습니다](/help/developing/customizing.md).
 
 >[!NOTE]
 >
->헤더를 통한 조건부 `Last-Modified` 요청은 응용 이미지 서버에서 지원되지만, `Last-Modified` 헤더의 캐싱은 디스패처에서 활성화해야 [합니다](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>헤더를 통한 조건부 `Last-Modified` 요청은 응용 이미지 서블릿에서 지원되지만 `Last-Modified` 헤더의 캐싱은 디스패처에서 활성화해야 [합니다](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
 >[AEM Project Tranype의](/help/developing/archetype/overview.md)샘플 발송자 구성에는 이미 이 구성이 포함되어 있습니다.
