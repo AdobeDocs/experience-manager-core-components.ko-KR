@@ -2,7 +2,7 @@
 title: 양식 숨김 구성 요소
 description: 핵심 구성 요소 양식 숨김 구성 요소를 사용하면 숨김 필드를 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |--- |--- |---|
 | v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](/help/components/v1/form-hidden-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
@@ -32,43 +32,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-다음은 We.Retail에서 [가져온 샘플입니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### HTML {#html}
-
-```
-<div class="cmp cmp-form aem-GridColumn aem-GridColumn--default--12">
- <form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-  <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-   <div class="visible aem-GridColumn aem-GridColumn--default--12">
-    <input type="hidden" id="ghostToast" name="Invisible Toast" value="ghostToast">
-   </div>
- </form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"container": {
-              "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-              "columnCount": 12,
-              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-              ":items": {
-                "hidden": {
-                  "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-                  ":type": "weretail/components/form/hidden",
-                  "name": "Invisible Toast",
-                  "id": "ghostToast",
-                  "value": "ghostToast"
-                }
-              },
-              ":itemsOrder": [
-                "hidden"
-              ],
-              ":type": "weretail/components/form/container"
-            }
-```
+양식 숨김 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_form_hidden).
 
 ### 기술 정보 {#technical-details}
 
