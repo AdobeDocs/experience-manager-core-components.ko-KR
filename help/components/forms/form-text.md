@@ -2,7 +2,7 @@
 title: 양식 텍스트 구성 요소
 description: 핵심 구성 요소 양식 텍스트 구성 요소를 사용하면 양식 텍스트를 입력하여 제출할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 |
+| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |--- |--- |---|
 | v2 | 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](/help/components/v1/form-text-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
@@ -30,44 +30,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-다음은 We.Retail에서 [가져온 샘플입니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### 스크린샷 {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+양식 텍스트 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 구성 요소 [라이브러리를 참조하십시오](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### 기술 정보 {#technical-details}
 
@@ -93,7 +56,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
    * **암호**
 * **텍스트**&#x200B;라인텍스트 영역에 표시할 줄 수(제한 **조건이 텍스트 영역으로** 설정된 경우에만 **표시됨**)
 * **레이블필드에**&#x200B;표시할 레이블입니다.
-* **레이블이 표시되지**&#x200B;않도록 숨기기레이블은 액세서빌러티 용도로만 필요하고 필드에 대한 추가 시각적 정보를 포함하지 않는 경우 필요합니다.
+* **레이블이 표시되지**&#x200B;않도록 숨기기레이블은 액세서빌러티 용도로만 필요하며 필드에 대한 추가 시각적 정보를 포함하지 않는 경우 필요합니다.
 * **요소**&#x200B;이름양식 데이터로 제출된 필드의 이름입니다.
 * **값**&#x200B;필드에 미리 채워지는 기본값
 
