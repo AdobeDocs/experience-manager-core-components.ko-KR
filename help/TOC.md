@@ -1,8 +1,8 @@
 ---
-sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+sub-product: AEM 핵심 구성 요소
+user-guide-title: AEM 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
@@ -10,6 +10,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 # AEM 핵심 구성 요소 도움말 {#using}
 
 + [핵심 구성 요소 소개](introduction.md)
++ [성공 경로](developing/success.md)
 + [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library)
 + [구성 요소 버전](versions.md)
 + 시작하기 {#get-started}
@@ -60,11 +61,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          + [양식 텍스트(v1)](components/v1/form-text-v1.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing/overview.md)
+   + [성공 경로](developing/success.md)
    + [WKND 개발자 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 사용자 정의](developing/customizing.md)
    + [구성 요소 지침](developing/guidelines.md)
    + AEM 프로젝트 전형 {#archetype}
       + [원형 개요](developing/archetype/overview.md)
+      + [원형 사용](developing/archetype/using.md)
       + [핵심 모듈](developing/archetype/core.md)
       + [ui.apps 모듈](developing/archetype/uiapps.md)
       + [ui.content 모듈](developing/archetype/uicontent.md)
