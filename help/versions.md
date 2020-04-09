@@ -2,7 +2,7 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전이 무엇이며 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 ---
 
@@ -11,49 +11,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 핵심 구성 요소의 현재 릴리스는 2.8.0이며 클라우드 서비스 [및 사내 AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 설치로 AEM과 [호환됩니다](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . 릴리스 2.0.0에 대한 중요 업데이트로 2019년 12월에 릴리스되었습니다.릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
 
-자세한 내용은 [이 문서의 릴리스](#versions-and-releases) 내역 및 호환성 섹션을 참조하십시오.
-
-또한 구성 요소 라이브러리를 확인할 수 [있으며](https://adobe.com/go/aem_cmp_library), 이 라이브러리는 핵심 구성 요소의 현재 릴리스를 보여주고 사용 예를 제공합니다.
-
-## 버전 및 릴리스 {#versions-and-releases}
-
-핵심 구성 요소는 GitHub를 통해 배포됩니다. 이를 통해 Adobe는 구성 요소에 기능을 보다 신속하게 추가할 수 있고 AEM 릴리스 주기 외부의 커뮤니티 입력을 허용할 수 있습니다.
-
-핵심 구성 요소는 호환되는 정의된 AEM 버전에서 사용할 수 있습니다. 즉, 하나의 AEM 버전이 여러 버전 또는 핵심 구성 요소의 릴리스를 지원할 수 있습니다. 이는 특정 버전의 AEM에 연결된 이전 Foundation 구성 요소보다 더 많은 유연성을 제공합니다.
-
-### 버전 {#versions}
-
-핵심 구성 요소의 주 이터레이션은 **버전입니다**. 각 구성 요소에는 버전이 있습니다. 버전은 **v** 에 v1 및 v2와 같은 0이 아닌 양의 정수가 추가됩니다. 버전은 이전 버전과 호환하지 않는 변경 사항에 대해서만 증가되며, 이는 일반적으로 새로운 기능 및 기능이 추가될 때 해당됩니다.
-
-개발자와 관리자는 핵심 구성 요소의 버전을 리소스 유형 경로 및 구현의 정규화된 Java 클래스 이름에서 번호별로 인식할 수 있습니다. 이 버전 번호는 [의미 체계 버전 관리 지침에](https://semver.org/)의해 정의된 주요 버전을 나타냅니다.
-
-핵심 구성 요소 버전에 대한 자세한 내용은 핵심 구성 요소의 [개발자 설명서를 참조하십시오](developing/guidelines.md).
-
-### 릴리스 {#releases}
-
-핵심 구성 요소는 **릴리스를** 통해 사용할 수 있으며 GitHub에서 사용할 수 있는 실제 게시된 객체를 [나타냅니다](https://github.com/adobe/aem-core-wcm-components/releases). 릴리스는 X.Y.Z 형식의 십진수로 표시되며 모든 핵심 구성 요소를 산출물 패키지로 수집합니다.
-
-* **주요 릴리스에서는** 완전히 새로운 구성 요소뿐만 아니라 표준 버그 수정과 함께 새로운 버전의 기존 구성 요소를 도입할 수 있습니다. 릴리스 번호의 X 구성 요소에서 증가 값으로 표시됩니다.
-* **중요 릴리스에서는** 버그 수정과 함께 기존 버전의 구성 요소에 새로운 기능을 적용할 수 있습니다. 이 값은 릴리스 번호의 Y 구성 요소에서 증분으로 표시됩니다.
-* **일부 릴리스에는** 버그 수정만 포함되어 있습니다. 릴리스 번호의 Z 구성 요소에서 증가 값으로 표시됩니다.
-
->[!NOTE]
->
->릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 있습니다.
->
->동일한 버전의 구성 요소는 여러 릴리스에 표시될 수 있습니다.
-
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
 핵심 구성 요소는 AEM 6.3에서 처음 릴리스되었으며 지원되는 모든 AEM 버전과 유연하고 호환되도록 설계되었습니다. 따라서 구성 요소 릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 있습니다.
 
 다음 표는 핵심 구성 요소 릴리스의 호환성과 함께 어떤 구성 요소 버전이 어느 릴리스에 포함되어 있는지를 보여줍니다.
 
-### 릴리스 내역 및 지원되는 AEM 버전 {#release-history-supported-aem-versions}
+### 릴리스 내역 및 요구 사항 {#release-history-requirements}
 
 전체 릴리스 세부 [정보와 함께 GitHub에서](https://github.com/adobe/aem-core-wcm-components/releases)사용할 수 있는 다음 표는 핵심 구성 요소의 릴리스 및 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요를 제공합니다.
 
-| 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로 AEM 사용 | Java | 릴리스 날짜 |
+| 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|---|
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 이번 릴리스는 작은 개선 사항이 있는 수정 사항에 중점을 두었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 연속 | 8, 11 | 2019년 12월 5일 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 이 릴리스에서는 새로운 포함 구성 요소가 도입되었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 연속 | 8, 11 | 2019년 9월 25일 |
@@ -112,14 +80,51 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 | **[경험 조각](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[포함](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
-## 설명서 {#documentation}
+## 버전 및 릴리스 {#versions-and-releases}
 
-[핵심 구성 요소를](get-started/authoring.md) 사용하여 작성하는 작업은 핵심 구성 요소의 사용 방법과 컨텐츠 작성자 및 템플릿 작성자에게 표시되는 기능에 대해 설명합니다. 각 구성 요소는 자세히 설명되어 있습니다.
+핵심 구성 요소는 GitHub를 통해 배포됩니다. 이를 통해 Adobe는 구성 요소에 기능을 보다 신속하게 추가할 수 있고 AEM 릴리스 주기 외부의 커뮤니티 입력을 허용할 수 있습니다.
 
-[구성 요소](https://adobe.com/go/aem_cmp_library) 라이브러리는 대부분의 핵심 구성 요소의 현재 버전을 보여주는 쇼케이스로, 구성 요소를 사용하는 방법을 보여 줍니다.
+핵심 구성 요소는 호환되는 정의된 AEM 버전에서 사용할 수 있습니다. 즉, 하나의 AEM 버전이 여러 버전 또는 핵심 구성 요소의 릴리스를 지원할 수 있습니다. 이는 특정 버전의 AEM에 연결된 이전 Foundation 구성 요소보다 더 많은 유연성을 제공합니다.
 
-[핵심 구성 요소](developing/overview.md) 개발에서는 핵심 구성 요소의 기술 기능, 프로젝트에서 이러한 구성 요소를 사용하는 방법, 사용자 정의 방법 및 우수 사례에 대해 설명합니다.
+### 버전 {#versions}
 
-[핵심 구성 요소 소개에서는](introduction.md) 버전, 사용 사례 및 지원 간에 핵심 구성 요소 호환성에 대한 개요를 제공합니다.
+핵심 구성 요소의 주 이터레이션은 **버전입니다**. 각 구성 요소에는 버전이 있습니다. 버전은 **v** 에 v1 및 v2와 같은 0이 아닌 양의 정수가 추가됩니다. 버전은 이전 버전과 호환하지 않는 변경 사항에 대해서만 증가되며, 이는 일반적으로 새로운 기능 및 기능이 추가될 때 해당됩니다.
 
-[WKND 자습서는](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 핵심 구성 요소 사용을 포함하여 AEM용 개발을 위한 유용한 단계별 소개입니다.
+개발자와 관리자는 핵심 구성 요소의 버전을 리소스 유형 경로 및 구현의 정규화된 Java 클래스 이름에서 번호별로 인식할 수 있습니다. 이 버전 번호는 [의미 체계 버전 관리 지침에](https://semver.org/)의해 정의된 주요 버전을 나타냅니다.
+
+핵심 구성 요소 버전에 대한 자세한 내용은 핵심 구성 요소의 [개발자 설명서를 참조하십시오](developing/guidelines.md).
+
+### 릴리스 {#releases}
+
+핵심 구성 요소는 **릴리스를** 통해 사용할 수 있으며 GitHub에서 사용할 수 있는 실제 게시된 객체를 [나타냅니다](https://github.com/adobe/aem-core-wcm-components/releases). 릴리스는 X.Y.Z 형식의 십진수로 표시되며 모든 핵심 구성 요소를 산출물 패키지로 수집합니다.
+
+* **주요 릴리스에서는** 완전히 새로운 구성 요소뿐만 아니라 표준 버그 수정과 함께 새로운 버전의 기존 구성 요소를 도입할 수 있습니다. 릴리스 번호의 X 구성 요소에서 증가 값으로 표시됩니다.
+* **중요 릴리스에서는** 버그 수정과 함께 기존 버전의 구성 요소에 새로운 기능을 적용할 수 있습니다. 이 값은 릴리스 번호의 Y 구성 요소에서 증분으로 표시됩니다.
+* **일부 릴리스에는** 버그 수정만 포함되어 있습니다. 릴리스 번호의 Z 구성 요소에서 증가 값으로 표시됩니다.
+
+>[!NOTE]
+>
+>릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 있습니다.
+>
+>동일한 버전의 구성 요소는 여러 릴리스에 표시될 수 있습니다.
+
+## 핵심 구성 요소 지원 {#core-components-support}
+
+핵심 구성 요소는 AEM의 필수적인 부분으로, 빠른 시작의 일부로 전달된 것처럼 동일한 이용 약관에 따라 지원됩니다.
+
+다른 제품 기능과 마찬가지로 수명 종료에 대한 일반적인 규칙은 다음과 같습니다.
+
+* 구성 요소는 제거되기 전에 먼저 사용을 중단한다고 발표했습니다.
+* 공지 후 가장 빠른 시일 내에 AEM 릴리스에서 제거됩니다.
+
+따라서 지원이 종료되기 전에 고객에게 구성 요소의 새 버전으로 이동할 수 있는 릴리스 주기를 1개 이상 제공합니다.
+
+각 구성 요소의 버전은 지원되는 AEM 버전을 명확하게 설명합니다. AEM 버전에 대한 지원이 중단되면 해당 버전의 AEM에 대한 핵심 구성 요소에 대한 지원도 중단됩니다.
+
+구성 요소 사용자 정의에 대한 자세한 내용은 관련 핵심 구성 요소 버전의 [핵심 구성 요소 사용자 정의](developing/customizing.md)를 참조하십시오.
+
+## 기초 구성 요소 지원 {#foundation-component-support}
+
+기초 구성 요소는 많은 버전에 대해 프로젝트 개발 기준 역할을 했기 때문에 가까운 미래에도 계속 지원됩니다.
+
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
