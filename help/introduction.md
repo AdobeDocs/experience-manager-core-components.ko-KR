@@ -2,9 +2,9 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '841'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 * **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library)**다양한 구성의 구성 요소를 보는 예제 모음입니다.
 * **구성 요소 설명서(이 문서):** 개발자 및 작성자를 위한 자세한 내용은 각 구성 요소에 대한 정보를 참조하십시오.
+* **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)**각 구성 요소 및 프로젝트 다운로드에 대한 개발자 세부 정보를 참조하십시오.
 * 시작하기:
    * **[핵심 구성 요소를 사용한 성공:](/help/developing/success.md)**핵심 구성 요소를 사용할 프로젝트를 시작하기 전에 미리 고려하는 지침
    * **[WKND 자습서:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**새 사이트 구축을 위한 2일 자습서입니다.
@@ -43,6 +44,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 버전 관리 | 버전 [관리 정책은](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 사용자에게 영향을 줄 수 있는 사항을 개선할 때 핵심 구성 요소가 사이트를 벗어나지 않도록 합니다. |
 | 현지화 가능 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | 오픈 소스 | 만약 어떤 것이 제대로 되어 있지 않다면, [여러분의 개선점을 기부하세요!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| 추적 가능 | 기본 구성 요소는 Adobe 클라이언트 데이터 레이어와 [통합됩니다.](/help/developing/data-layer/overview.md) |
 
 ## 구성 요소 {#the-components}
 
