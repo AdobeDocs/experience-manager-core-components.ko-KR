@@ -2,7 +2,10 @@
 sub-product: AEM 핵심 구성 요소
 user-guide-title: AEM 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+source-git-commit: afd846b1f124ac9b326e59ff71b145f7b9efeb11
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 70%
 
 ---
 
@@ -33,6 +36,7 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
    + [목록](components/list.md)
    + [탐색](components/navigation.md)
    + [페이지](components/page.md)
+   + [진행률 표시줄](components/progress-bar.md)
    + [빠른 검색](components/quick-search.md)
    + [분리자](components/separator.md)
    + [소셜 미디어 공유](components/sharing.md)
@@ -65,13 +69,17 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
    + [WKND 개발자 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 사용자 정의](developing/customizing.md)
    + [구성 요소 지침](developing/guidelines.md)
+   + [Adobe 클라이언트 데이터 레이어 사용]{#data-layer}
+      + [핵심 구성 요소 및 Adobe 클라이언트 데이터 레이어](developing/data-layer/overview.md)
+      + [Adobe Launch와 통합](developing/data-layer/launch-integration.md)
+      + [Adobe Analytics와 통합](developing/data-layer/analytics-integration.md)
    + AEM 프로젝트 전형 {#archetype}
       + [원형 개요](developing/archetype/overview.md)
       + [원형 사용](developing/archetype/using.md)
-      + [핵심 모듈](developing/archetype/core.md)
+      + [코어 모듈](developing/archetype/core.md)
       + [ui.apps 모듈](developing/archetype/uiapps.md)
       + [ui.content 모듈](developing/archetype/uicontent.md)
       + [ui.frontend.general Module](developing/archetype/uifrontend.md)
-      + [ui.frontend.impact 모듈](developing/archetype/uifrontend-react.md)
-      + [ui.front.angular 모듈](developing/archetype/uifrontend-angular.md)
+      + [ui.frontend.imperate 모듈](developing/archetype/uifrontend-react.md)
+      + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
       + [ui.tests 모듈](developing/archetype/uitests.md)
