@@ -2,7 +2,10 @@
 title: AEM 프로젝트 원형 사용
 description: AEM 프로젝트 원형 유형에 대한 자세한 사용 지침
 translation-type: tm+mt
-source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '2057'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ AEM Project Tranype은 AEM 프로젝트의 시작점으로 최소의 우수 사�
 
 ## 원형을 사용하는 이유 {#why-use-the-archetype}
 
-AEM 프로젝트 원형 유형을 사용하면 몇 번의 키 입력만으로 모범 사례 기반 AEM 프로젝트를 빌드하는 경로에 사용자를 설정할 수 있습니다. 원형 사용을 통해 모든 조각이 이미 제자리에 배치되므로, 결과 프로젝트는 최소이지만, AEM의 모든 [주요 기능을](#features) 이미 구현하므로 위에서 빌드하고 확장하기만 하면 됩니다.
+AEM 프로젝트 원형 유형을 사용하면 몇 번의 키 입력만으로 모범 사례 기반 AEM 프로젝트를 빌드하는 경로에 사용자를 설정할 수 있습니다. 원형 사용을 통해 모든 조각이 이미 제자리에 배치되므로, 결과 프로젝트는 최소이지만, AEM의 모든 [주요 기능을](#what-you-get) 이미 구현하므로 위에서 빌드하고 확장하기만 하면 됩니다.
 
 물론 성공적인 AEM 프로젝트로 들어가는 많은 요소들이 있지만, AEM 프로젝트 전형 사용은 건전한 기반이며, 모든 AEM 프로젝트에 적극 권장됩니다.
 
