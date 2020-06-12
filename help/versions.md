@@ -2,7 +2,7 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법을 설명합니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.8.0이며 [AEM을 클라우드 서비스](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 및 [온프레미스 AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 설치로 호환합니다. 릴리스 2.0.0에 대한 중요한 업데이트로 2019년 12월에 출시되었습니다. 릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
+핵심 구성 요소의 현재 릴리스는 2.9.0이며 [AEM을 클라우드 서비스](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 및 [온프레미스 AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 설치로 호환합니다. 릴리스 2.0.0에 대한 중요한 업데이트로 2020년 5월에 출시되었습니다. 릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
