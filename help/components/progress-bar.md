@@ -2,7 +2,7 @@
 title: 진행률 표시줄 구성 요소
 description: 진행률 표시줄 구성 요소는 목표를 향해 진행 상태를 시각적으로 나타냅니다
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_progress).
+HTML 및 JSON 출력뿐만 아니라 구성 옵션의 예를 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_progressbar).
 
 ### 기술 세부 정보 {#technical-details}
 
