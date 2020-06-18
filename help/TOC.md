@@ -2,10 +2,10 @@
 sub-product: AEM 핵심 구성 요소
 user-guide-title: AEM 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 70%
+source-wordcount: '183'
+ht-degree: 69%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 70%
    + [목록](components/list.md)
    + [탐색](components/navigation.md)
    + [페이지](components/page.md)
+   + [PDF 뷰어](components/pdf-viewer.md)
    + [진행률 표시줄](components/progress-bar.md)
    + [빠른 검색](components/quick-search.md)
    + [분리자](components/separator.md)
@@ -72,7 +73,7 @@ ht-degree: 70%
    + Adobe Client Data Layer {#data-layer}
       + [핵심 구성 요소 및 Adobe 클라이언트 데이터 레이어](developing/data-layer/overview.md)
       + [Adobe Launch와 통합](developing/data-layer/launch-integration.md)
-      + [Adobe Analytics와 통합](developing/data-layer/analytics-integration.md)
+      + [Adobe Analytics과 통합](developing/data-layer/analytics-integration.md)
    + AEM 프로젝트 전형 {#archetype}
       + [원형 개요](developing/archetype/overview.md)
       + [원형 사용](developing/archetype/using.md)
