@@ -2,9 +2,9 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 28%
 
 ---
@@ -32,7 +32,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 |  |  |
 |---|---|
 | 프로덕션 준비 | 핵심 구성 요소는 28개의 강력한 구성 요소로서, 테스트를 잘 거친, 널리 사용되고, 그 성능이 우수합니다. |
-| 클라우드 지원 | AEM에서 [클라우드 서비스](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)또는 온-프레미스 중 어느 것이든 모두 작동합니다. |
+| 클라우드 지원 | AEM에서 [Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)또는 온-프레미스 중 어느 것이든 모두 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 구성할 수 있는 일반 개념을 나타냅니다. |
 | 구성 가능 | 템플릿 수준 [컨텐츠 정책은](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) 페이지 작성자가 사용할 수 있거나 사용하지 않을 수 있는 기능을 정의합니다. |
 | 추적 가능 | Adobe [Client Data Layer 통합을](/help/developing/data-layer/overview.md) 통해 방문자 경험의 모든 측면을 추적할 수 있습니다. |
@@ -74,6 +74,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * [소셜 미디어 공유](components/sharing.md)
 * [분리자](components/separator.md)
 * [진행률 표시줄](components/progress-bar.md)
+* [PDF 뷰어](components/pdf-viewer.md)
 
 ### 컨테이너 구성 요소 {#container-components}
 
@@ -104,10 +105,10 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 코어 구성 요소 | 클라우드 서비스로서의 AEM | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 지속적인 | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 지속적인 | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 이전 코어 구성 요소 릴리스의 요구 사항은 [핵심 구성 요소 버전을 참조하십시오](versions.md).
 
 핵심 구성 요소는 [편집 가능한 템플릿을](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 사용해야 하며 클래식 UI나 정적 템플릿을 지원하지 않습니다. 필요한 경우 AEM [Modern](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) Tools를 참조하여 최신 AEM 기능으로 프로젝트를 업데이트하십시오.
 
-로컬 개발 환경을 설정하려면 AEM에 대한 [이 개요를 클라우드 서비스 SDK로](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 확인하거나 이전 버전의 AEM에 [대해 이 문서를 확인하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+로컬 개발 환경을 설정하려면 AEM에 대한 [이 개요를 Cloud Service SDK로](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 확인하거나 이전 버전의 AEM에 [대한 이 문서를 확인하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
