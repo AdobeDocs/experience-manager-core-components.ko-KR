@@ -2,9 +2,9 @@
 title: PDF 뷰어 구성 요소
 description: PDF 뷰어 구성 요소를 사용하면 PDF 문서를 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 0df759a020020c21d776eb8f45d40cb7aff45cea
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ PDF 뷰어 구성 요소의 현재 버전은 v1이며, 이 버전은 2020년 6�
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-PDF 뷰어 구성 요소뿐만 아니라 구성 옵션에 대한 예와 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_pdf_viewer).
+PDF 뷰어 구성 요소뿐만 아니라 구성 옵션에 대한 예와 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_pdfviewer).
 
 ## 기술 세부 정보 {#technical-details}
 
-PDF 뷰어 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_pdf-viewer_v1).
+PDF 뷰어 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를 참조하십시오](/help/developing/overview.md).
 
