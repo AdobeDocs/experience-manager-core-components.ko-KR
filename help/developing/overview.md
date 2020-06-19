@@ -2,9 +2,9 @@
 title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 풍부한 기능, 연속 전달, 구성 요소 버전 관리, 최신 구현, lean markup 및 컨텐츠 JSON 내보내기를 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 12%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 12%
    대부분의 기존 프로젝트에서 매우 널리 사용되고 있으므로 기본 구성 요소는 [계속 지원됩니다.](/help/versions.md#foundation-component-support)
 * **새로운 사용자 지정 구성 요소**&#x200B;기존 [핵심 구성 요소를 사용자 정의할 수 있는지](customizing.md)평가합니다.\
    그렇지 않은 경우 구성 요소 지침에 따라 새 사용자 지정 구성 요소를 [만드는 것이 좋습니다](guidelines.md).
-* **기존 사용자 지정 구성 요소**&#x200B;가 예상대로 작동하면 구성 요소를 그대로 유지합니다.
-\
+* **기존 사용자 지정 구성 요소**&#x200B;가 예상대로 작동하면 구성 요소를 그대로 유지합니다.\
    그렇지 않은 경우 위의 &quot;새 사용자 지정 구성 요소&quot;를 참조하십시오.
 
 ## 핵심 구성 요소 성공 방법 {#how-to-succeed}
@@ -116,7 +115,7 @@ ht-degree: 12%
 | [경험 조각](https://adobe.com/go/aem_cmp_tech_xf_v1) | 페이지에 경험 조각 추가 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [포함](https://adobe.com/go/aem_cmp_tech_embed_v1) | 페이지 내에 외부 리소스 포함 | - |
 | [진행률 표시줄](https://adobe.com/go/aem_cmp_tech_progress_v1) | 목표를 향해 진행 상황을 시각적으로 표시 | - |
-| [PDF 뷰어](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1) | 페이지에 PDF 문서 표시 | - |
+| [PDF 뷰어](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 페이지에 PDF 문서 표시 | - |
 
 ### 예정된 구성 요소 {#upcoming-components}
 
