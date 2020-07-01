@@ -2,9 +2,9 @@
 title: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 translation-type: tm+mt
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 관계없이 AEM과 �
 
 1. 노드 아래에 다음 구조를 `/conf` 만듭니다.
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * 노드 유형: `nt:unstructured`
 1. 부울 속성을 추가하고 `enabled` 설정합니다 `true`.
 1. 아래 사이트 `sling:configRef` 의 `jcr:content` 노드에 속성을 `/content` 추가합니다(예: `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>`.
 
