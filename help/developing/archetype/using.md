@@ -2,7 +2,7 @@
 title: AEM 프로젝트 원형 사용
 description: AEM 프로젝트 원형 유형에 대한 자세한 사용 지침
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # AEM 프로젝트 전형 {#aem-project-archetype}
 
-AEM Project Tranype은 AEM 프로젝트의 시작점으로 최소의 우수 사례 기반 Adobe Experience Manager 프로젝트를 만듭니다. 이 원형 유형을 사용할 때 제공해야 하는 속성을 사용하면 이 프로젝트의 모든 부분에 대한 이름을 지정할 수 있을 뿐만 아니라 특정 선택적 기능을 제어할 수 있습니다.
+AEM 프로젝트 원형 기능은 AEM 프로젝트의 시작점으로 최소의 우수 사례 기반 Adobe Experience Manager 프로젝트를 만듭니다. 이 원형 유형을 사용할 때 제공해야 하는 속성을 사용하면 이 프로젝트의 모든 부분에 대한 이름을 지정할 수 있을 뿐만 아니라 특정 선택적 기능을 제어할 수 있습니다.
 
 ## 원형을 사용하는 이유 {#why-use-the-archetype}
 
@@ -24,7 +24,7 @@ AEM 프로젝트 원형 유형을 사용하면 몇 번의 키 입력만으로 �
 
 프로젝트 원형을 사용하면 AEM에서 개발을 쉽게 시작할 수 있습니다. 다양한 방법으로 첫 단계를 진행할 수 있습니다.
 
-* WKND 자습서 - 원형율을 활용하는 방법 등 AEM에서 개발하는 방법에 대한 자세한 내용은 AEM Sites 시작하기 - WKND 자습서를 [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 참조하십시오. 기본 유형을 사용하여 간단한 프로젝트를 구현할 수 있는 실용적인 예는 AEM Sites를 참조하십시오.
+* WKND 자습서 - 원형율을 활용하는 방법 등 AEM에서 개발하는 방법에 대한 자세한 내용은 [초기 유형을 사용하여 간단한 프로젝트를 구현하는 방법을 단계별로 안내하는 실용적인 예제는 WKND 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) (AEM Sites 시작하기 - WKND 자습서)를 참조하십시오.
 * WKND 이벤트 자습서 - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 특히 관심이 있는 경우 전용 WKND 이벤트 자습서를 [확인하십시오](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
 * 직접 다운로드하여 시작해 보세요! - GitHub에서 제공되는 최신 프로젝트 원형 유형을 손쉽게 다운로드할 수 있으며 아래 [의 간단한 단계를 통해 첫 번째 프로젝트를 제작할 수 있습니다](#how-to-use-the-archetype).
 
@@ -72,7 +72,7 @@ mvn -B archetype:generate \
 
 * 최신 AEM Project Tranype `XX` 의 [버전 번호로](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) 설정합니다.
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
-   `aemVersion=6.5.0` Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)또는 온프레미스 설정
+   `aemVersion=6.5.0` Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)또는 온-프레미스에 대해 설정합니다.
 핵심 구성 요소는 CloudService로서 AEM용 OOTB를 제공함에 따라 비 클라우드 aem 버전에 대해서만 추가됩니다.
 * 웹 사이트 제목 및 구성 요소 그룹 `appTitle="My Site"` 을 정의하려면 조정합니다.
 * 클라이언트 라이브러리 이름 `appId="mysite"` 은 물론 구성 요소, 구성 요소, 구성 및 컨텐츠 폴더 이름을 정의하기 위해 조정합니다.
@@ -97,7 +97,7 @@ mvn -B archetype:generate \
 | `groupId` |  | 기본 마비안 그룹 ID(예: `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | 타겟 AEM 버전(클라우드 서비스로 `cloud` AEM용으로 사용할 수 있음 [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)) 또는 `6.5.0``6.4.4`Adobe Managed Services `6.3.3` 또는 [온프레미스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) )를 사용할 수 있습니다. |
+| `aemVersion` | `6.5.0` | Target AEM 버전(Cloud Service `cloud` 로 [AEM용으로 사용 가능](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)) 또는 `6.5.0`Adobe Managed Services `6.4.4``6.3.3` 또는 [온-프레미스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 의 경우). |
 | `sdkVersion` | `latest` | SDK `aemVersion=cloud` 버전 [을 지정할](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 수 있는 경우(예: `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | 값(또는 `aemVersion` )에 따라 클라우드 또는 AMS/on-premise용 디스패처 구성을 `y` `n`포함합니다. |
 | `frontendModule` | `none` | 클라이언트 라이브러리를 생성하는 Webpack 프런트 엔드 빌드 모듈(일반 사이트일 수도 `general` 또는 `none` 에 사용할 수 있음)을 포함합니다. SPA 편집기 `angular` 를 구현하는 단일 페이지 앱에 대해 `react` 또는 [사용할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html). |
@@ -107,9 +107,11 @@ mvn -B archetype:generate \
 | `includeErrorHandler` | `n` | 전체 인스턴스( `y` 또는 `n`)에 대해 글로벌할 사용자 지정 404 응답 페이지를 포함합니다. |
 
 >[!NOTE]
+>
 > 원형이 처음 대화형 모드에서 실행되는 경우, 기본값이 있는 속성은 변경할 수 없습니다(자세한 내용은 [TRANYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 마지막 속성 확인이 거부되고 질문서가 반복되거나 명령줄의 매개 변수(예: `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
+>
 >Windows에서 실행하고 디스패처 구성을 생성하는 경우 관리자 권한 명령 프롬프트 또는 Linux용 Windows 하위 시스템에서 실행해야 합니다( [문제 329](https://github.com/adobe/aem-project-archetype/issues/329)참조).
 
 ### 프로파일 {#profiles}
