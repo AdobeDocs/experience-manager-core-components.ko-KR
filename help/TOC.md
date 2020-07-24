@@ -2,10 +2,10 @@
 sub-product: AEM 핵심 구성 요소
 user-guide-title: AEM 핵심 구성 요소
 translation-type: tm+mt
-source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 69%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 69%
    + [WKND 개발자 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 사용자 정의](developing/customizing.md)
    + [구성 요소 지침](developing/guidelines.md)
+   + [AMP 지원](developing/amp.md)
    + Adobe Client Data Layer {#data-layer}
       + [핵심 구성 요소 및 Adobe 클라이언트 데이터 레이어](developing/data-layer/overview.md)
       + [Adobe Launch와 통합](developing/data-layer/launch-integration.md)
