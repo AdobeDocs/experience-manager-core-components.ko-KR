@@ -2,16 +2,15 @@
 title: PDF 뷰어 구성 요소
 description: PDF 뷰어 구성 요소를 사용하면 PDF 문서를 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
 
 # PDF 뷰어 구성 요소 {#pdf-viewer-component}
-
 
 핵심 구성 요소 PDF 뷰어 구성 요소를 사용하면 페이지에 PDF 문서를 포함할 수 있습니다.
 
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 PDF 뷰어 구성 요소의 현재 버전은 v1이며, 이 버전은 2020년 6월에 핵심 구성 요소 릴리스 2.10.0과 함께 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |---|---|
@@ -41,13 +40,17 @@ PDF 뷰어 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를 참조하십시오](/help/developing/overview.md).
 
+>[!NOTE]
+>
+>PDF 뷰어 구성 요소는 [Adobe의 Document Services API를](https://www.adobe.io/apis/documentcloud/dcsdk.html) 활용하므로 관리자가 이러한 서비스를 사용하기 위해 [컨텍스트 인식 구성을](/help/developing/context-aware-configs.md) 구성해야 합니다. 이 구성에 대한 [자세한 내용은 구성 요소의 기술 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+
 ## 구성 대화 상자 {#configure-dialog}
 
 구성 대화 상자에서는 컨텐츠 작성자가 뷰어와 방문자가 페이지 방문자에게 보이고 동작하는 방식을 정의할 수 있습니다.
 
 ### Configuration Tab {#configuration-tab}
 
-구성 탭에서는 작성자가 표시해야 하는 PDF를 정의할 수 있습니다. 경로는 AEM의 자산이나 다른 리소스에 대한 절대 경로로 정의할 수 있습니다.
+구성 탭에서는 작성자가 표시해야 하는 PDF를 정의할 수 있습니다. 경로는 AEM의 자산으로 정의하거나 다른 리소스에 대한 절대 경로로 정의할 수 있습니다.
 
 ![PDF 뷰어 구성 요소의 편집 대화 상자 구성 탭](/help/assets/pdf-viewer-edit-configuration.png)
 
@@ -81,7 +84,7 @@ PDF 뷰어 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 
    * 고정
    * 고정 해제
 
-#### 크기 컨테이너 {#sized-container}
+#### 크기가 조정된 컨테이너 {#sized-container}
 
 보기 영역은 전체 브라우저에서 렌더링됩니다. 스토리지 및 생산성 애플리케이션에 가장 적합합니다.
 
