@@ -2,7 +2,7 @@
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 7%
@@ -95,7 +95,7 @@ mvn -B archetype:generate \
 ## 시스템 요구 사항
 
 | 원형 | 클라우드 서비스로서의 AEM | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
----------|---------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 지속적인 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 AEM용 로컬 개발 환경을 Cloud Service SDK [또는](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 이전 버전의 AEM으로 [](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)설정하십시오.
