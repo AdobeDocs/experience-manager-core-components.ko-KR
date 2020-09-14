@@ -1,11 +1,11 @@
 ---
 title: 핵심 구성 요소 소개
-description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공하기 위해 도입되었습니다. '
+description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 28%
+source-wordcount: '861'
+ht-degree: 26%
 
 ---
 
