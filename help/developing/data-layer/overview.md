@@ -2,10 +2,10 @@
 title: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 영향을 받지 않�
 
 구성 요소/컨테이너 항목 스키마는 다음과 같이 정의됩니다.
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+다음 [이벤트는](#events) 구성 요소/컨테이너 항목 스키마와 관련이 있습니다.
+
+* `cmp:click`
 
 ### 페이지 스키마 {#page}
 
@@ -78,7 +81,7 @@ id: {                   // component ID
 
 페이지 스키마는 다음과 같이 정의됩니다.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ id: {
 
 컨테이너 스키마는 다음과 같이 정의됩니다.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+다음 [이벤트는](#events) 컨테이너 스키마와 관련이 있습니다.
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### 이미지 스키마 {#image}
 
 이미지 스키마는 다음 구성 요소에서 사용됩니다.
@@ -125,7 +134,7 @@ id: {
 
 이미지 스키마는 다음과 같이 정의됩니다.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+다음 [이벤트는](#events) 이미지 스키마와 관련이 있습니다.
+
+* `cmp:click`
+
 ### 자산 스키마 {#asset}
 
 자산 스키마가 [이미지 구성 요소 내에서 사용됩니다.](/help/components/image.md)
 
 자산 스키마는 다음과 같이 정의됩니다.
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+다음 [이벤트는](#events) 자산 스키마와 관련이 있습니다.
+
+* `cmp:click`
+
+## 이벤트 {#events}
+
+데이터 레이어에서 트리거하는 이벤트가 여러 개 있습니다.
+
+* **`cmp:click`** - 클릭 가능한 요소( `data-cmp-clickable` 속성이 있는 요소)를 클릭하면 데이터 레이어가 `cmp:click` 이벤트를 트리거합니다.
+* **`cmp:show`** 및 **`cmp:hide`** - 아코디언(확장/축소), 회전판(다음/이전 버튼) 및 탭(탭 선택) 구성 요소를 조작하면 데이터 레이어가 각각 트리거되고 `cmp:show` `cmp:hide` 이벤트가 트리거됩니다.
+* **`cmp:loaded`** - 데이터 레이어가 페이지의 핵심 구성 요소로 채워지는 즉시 데이터 레이어가 `cmp:loaded` 이벤트를 트리거합니다.
+
+### 구성 요소로 트리거된 이벤트 {#events-components}
+
+다음 표는 이벤트를 트리거하는 표준 코어 구성 요소와 해당 이벤트를 함께 나열합니다.
+
+| 구성 요소 | 이벤트 |
+|---|---|
+| [탐색](/help/components/navigation.md) | `cmp:click` |
+| [언어 탐색](/help/components/language-navigation.md) | `cmp:click` |
+| [탐색 표시](/help/components/breadcrumb.md) | `cmp:click` |
+| [단추](/help/components/button.md) | `cmp:click` |
+| [회전판](/help/components/carousel.md) | `cmp:show` 및 `cmp:hide` |
+| [탭](/help/components/tabs.md) | `cmp:show` 및 `cmp:hide` |
+| [어코디언](/help/components/accordion.md) | `cmp:show` 및 `cmp:hide` |
