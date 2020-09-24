@@ -4,10 +4,10 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: b35b951a203b100e296bc3a115e34e27727293ae
+source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 70%
+source-wordcount: '188'
+ht-degree: 69%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 70%
    + [구성 요소 지침](developing/guidelines.md)
    + [AMP 지원](developing/amp.md)
    + [컨텍스트 인식 구성](developing/context-aware-configs.md)
+   + [클라이언트 라이브러리 포함](developing/including-clientlibs.md)
    + Adobe 클라이언트 데이터 레이어 {#data-layer}
       + [데이터 레이어 개요](developing/data-layer/overview.md)
       + [데이터 레이어와 통합](developing/data-layer/integrations.md)
