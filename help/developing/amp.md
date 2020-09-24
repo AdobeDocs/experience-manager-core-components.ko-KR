@@ -2,7 +2,7 @@
 title: 핵심 구성 요소에 대한 AMP 지원
 description: 핵심 구성 요소 지원 AMP - 가속 모바일 페이지
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -60,7 +60,7 @@ AMP 지원에서는 상당한 유연성을 제공하지만 AMP를 빠르게 시�
 
 ### CSS 요구 사항 {#css-requirements}
 
-핵심 구성 요소에서 AMP를 사용하는 경우, AMP가 모든 CSS를 최적화했을 뿐만 아니라 `<head>` 요소에 삽입해야 한다는 점이 주된 차이점입니다.
+핵심 구성 요소에서 AMP를 사용하는 경우 AMP가 모든 [CSS를 최적화했을 뿐만 아니라 요소에 삽입해야](including-clientlibs.md#inlining) 한다는 점이 주요 차이점입니다 `<head>` .
 
 이를 지원하기 위해 사용자 지정된 페이지 구성 요소가 사용됩니다. 이 구성 요소는 페이지에 있는 구성 요소에 대해 AMP별 CSS만 로드합니다.
 
