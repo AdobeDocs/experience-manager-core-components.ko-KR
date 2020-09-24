@@ -1,8 +1,8 @@
 ---
-title: ui.apps AEM 프로젝트 원형 모듈의
-description: ui.apps AEM 프로젝트 원형 모듈의
+title: ui.apps AEM 프로젝트 원형 모듈
+description: ui.apps AEM 프로젝트 원형 모듈
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -10,17 +10,17 @@ ht-degree: 0%
 ---
 
 
-# ui.apps AEM 프로젝트 원형 모듈의 {#uiapps-module}
+# ui.apps AEM 프로젝트 원형 모듈 {#uiapps-module}
 
-ui.apps maven 모듈(`<src-directory>/<project>/ui.apps`)에는 아래 사이트에 필요한 모든 렌더링 코드가 포함되어 `/apps`있습니다. 여기에는 clientlibs라는 AEM 형식으로 저장되는 CSS/JS가 포함됩니다. 동적 HTML 렌더링을 위한 HTML 스크립트도 포함되어 있습니다. ui.apps 모듈을 JCR의 구조에 대한 맵으로 생각할 수 있지만 파일 시스템에 저장되고 소스 제어에 커밋될 수 있는 형식으로 생각할 수 있습니다.
+ui.apps maven 모듈(`<src-directory>/<project>/ui.apps`)에는 아래 사이트에 필요한 모든 렌더링 코드가 포함되어 `/apps`있습니다. 여기에는 clientlibs라는 AEM 형식으로 저장되는 CSS/JS가 [포함됩니다.](uifrontend.md#clientlibs) 동적 HTML 렌더링을 위한 HTML 스크립트도 포함되어 있습니다. ui.apps 모듈을 JCR의 구조에 대한 맵으로 생각할 수 있지만 파일 시스템에 저장되고 소스 제어에 커밋될 수 있는 형식으로 생각할 수 있습니다.
 
-Apache Jackrabbit FileVault 패키지 플러그인은 ui.apps 모듈의 콘텐츠를 AEM에 배포할 수 있는 AEM 패키지로 컴파일하는 데 사용됩니다. 플러그인에 대한 전역 구성은 상위 pom.xml에 정의되어 있습니다.
+Apache Jackrabbit FileVault 패키지 플러그인은 ui.apps 모듈의 내용을 AEM에 배포할 수 있는 AEM 패키지로 컴파일하는 데 사용됩니다. 플러그인에 대한 전역 구성은 상위 pom.xml에 정의되어 있습니다.
 
 ## 상위 POM {#parent-pom}
 
 [상위 POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`)에는 프로젝트에 사용된 플러그인에 대한 다양한 구성을 정의하는 `<plugin>` 섹션이 포함되어 있습니다. 여기에는 Jackrabbit FileVault 패키지 플러그인 `filterSource` 에 대한 구성이 포함됩니다. 패키지 `filterSource` 에 포함된 jcr 경로를 정의하는 데 사용되는 `filter.xml` 파일의 위치를 가리킵니다.
 
-Jackrabbit FileVault 패키지 플러그인 외에도 패키지를 AEM으로 푸시하는 데 사용되는 컨텐츠 패키지 플러그인의 정의입니다. 동일한 상위 POM에 정의된 전역 속성 `aem.host`에 해당하는 변수, `aem.port``vault.user`, and `vault.password` 에 대한 변수가 사용됩니다.
+Jackrabbit FileVault Package Plugin 외에도 Content Package Plugin의 정의이며, 이 플러그인은 패키지를 AEM에 푸시하는 데 사용됩니다. 동일한 상위 POM에 정의된 전역 속성 `aem.host`에 해당하는 변수, `aem.port``vault.user`, and `vault.password` 에 대한 변수가 사용됩니다.
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
