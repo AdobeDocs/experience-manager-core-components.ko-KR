@@ -1,24 +1,24 @@
 ---
-title: AEM 프로젝트 원형 프런트 엔드 빌드
+title: AEM Project 원형형 프런트 엔드 빌드
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 
-# AEM 프로젝트 원형형의 ui.frontrend 모듈 {#uifrontend-module}
+# aem 프로젝트 원형형의 ui.frontend 모듈 {#uifrontend-module}
 
-AEM Project 원형에는 Webpack을 기반으로 하는 선택적 전용 프런트 엔드 빌드 메커니즘이 포함되어 있습니다. 따라서 ui.frontend 모듈은 JavaScript 및 CSS 파일을 비롯한 모든 프로젝트의 프런트 엔드 리소스에 대한 중앙 위치가 됩니다. 이 유용하고 유연한 기능을 최대한 활용하려면 프런트 엔드 개발이 AEM 프로젝트에 어떻게 적합한지 이해하는 것이 중요합니다.
+AEM Project Tranype에는 Webpack을 기반으로 하는 선택적인 전용 프런트 엔드 빌드 메커니즘이 포함되어 있습니다. 따라서 ui.frontend 모듈은 JavaScript 및 CSS 파일을 비롯한 모든 프로젝트의 프런트 엔드 리소스에 대한 중앙 위치가 됩니다. 이 유용하고 유연한 기능을 최대한 활용하려면 프런트 엔드 개발이 AEM 프로젝트에 어떻게 적합한지 이해하는 것이 중요합니다.
 
 ## AEM 프로젝트 및 프런트 엔드 개발 {#aem-and-front-end-development}
 
-크게 간소화된 용어로, AEM 프로젝트는 두 개의 분리된 관련 부분으로 구성되어 있다고 생각할 수 있습니다.
+크게 간소화된 용어로 AEM 프로젝트는 서로 다르지만 관련 부품으로 구성되는 것으로 생각할 수 있습니다.
 
-* AEM의 논리를 지원하고 Java 라이브러리, OSGi 서비스 등을 만드는 백엔드 개발
+* AEM의 논리를 지원하고 Java 라이브러리, OSGi 서비스 등을 생산하는 백엔드 개발
 * 결과 웹 사이트의 표시 및 동작을 유도하고 JavaScript 및 CSS 라이브러리를 생성하는 프런트 엔드 개발
 
 이러한 두 개발 프로세스는 프로젝트의 서로 다른 부분에 중점을 두기 때문에 백엔드 및 프런트엔드 개발이 동시에 진행될 수 있습니다.
@@ -27,25 +27,25 @@ AEM Project 원형에는 Webpack을 기반으로 하는 선택적 전용 프런�
 
 그러나 최종 프로젝트를 수행하려면 이러한 개발 노력(즉, 백엔드 및 프런트 엔드 모두)의 출력을 사용해야 합니다.
 
-실행을 `npm run dev` 하면 ui.frontend 모듈에 저장된 JavaScript 및 CSS 파일을 수집하는 프런트 엔드 빌드 프로세스가 시작되고 두 개의 미니화된 클라이언트 라이브러리 또는 ClientLibs가 호출되어 ui.apps 모듈에 `clientlib-site` 예치됩니다 `clientlib-dependencies` . ClientLibs는 AEM에 배포할 수 있으며, 이를 통해 클라이언트측 코드를 저장소에 저장할 수 있습니다.
+실행을 `npm run dev` 하면 ui.frontend 모듈에 저장된 JavaScript 및 CSS 파일을 수집하는 프런트 엔드 빌드 프로세스가 시작되고 두 개의 미니화된 클라이언트 라이브러리 또는 ClientLibs가 호출되어 ui.apps 모듈에 `clientlib-site` 예치됩니다 `clientlib-dependencies` . ClientLibs는 AEM에 배포할 수 있으며 클라이언트측 코드를 저장소에 저장할 수 있습니다.
 
-전체 AEM 프로젝트 원형 유형이 ClientLibs를 비롯한 모든 프로젝트 객체를 사용하여 실행되면 AEM 인스턴스로 푸시됩니다. `mvn clean install -PautoInstallPackage`
+전체 AEM 프로젝트 원형이 ClientLibs를 비롯한 `mvn clean install -PautoInstallPackage` 모든 프로젝트 객체를 사용하여 실행되면 AEM 인스턴스로 푸시됩니다.
 
 >[!TIP]
 >
->AEM 개발 설명서의 ClientLibs에 대한 자세한 내용 [및 ui.frontend 모듈에서](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) 이러한 변수를 사용하는 방법에 대해 [](#clientlib-generation)알아보십시오.
+>AEM에서 [AEM 개발 문서에서 ClientLibs를 처리하는 방법](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), [포함하는 방법](/help/developing/including-clientlibs.md)또는 ui.frontend 모듈에서 ClientLibs를 사용하는 [방법에 대해 자세히 알아보십시오.](#clientlib-generation)
 
 ## ClientLibs 개요 {#clientlibs}
 
-프런트 엔드 모듈은 [AEM ClientLib를 사용하여 사용할 수 있습니다](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). NPM 빌드 스크립트를 실행할 때 앱이 빌드되고 aem-clientlib-generator 패키지가 결과 빌드 출력을 받아 이를 ClientLib로 변환합니다.
+프런트 엔드 모듈은 [AEM ClientLib을 사용하여 사용할 수 있게 됩니다](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). NPM 빌드 스크립트를 실행할 때 앱이 빌드되고 aem-clientlib-generator 패키지가 결과 빌드 출력을 받아 이를 ClientLib로 변환합니다.
 
 ClientLib은 다음 파일 및 디렉터리로 구성됩니다.
 
-* `css/`: HTML에서 요청할 수 있는 CSS 파일
-* `css.txt`: 파일을 병합할 수 있도록 파일의 순서와 이름을 AEM에 `css/` 알려줍니다
-* `js/`: HTML에서 요청할 수 있는 JavaScript 파일
+* `css/`:HTML에서 요청할 수 있는 CSS 파일
+* `css.txt`:파일을 병합할 수 있도록 파일의 순서와 이름을 AEM에 `css/` 알려줍니다
+* `js/`:HTML에서 요청할 수 있는 JavaScript 파일
 * `js.txt` 파일을 병합할 수 있도록 파일의 순서와 이름을 AEM에 `js/` 알려줍니다
-* `resources/`: 소스 맵, 비중심점 코드 청크(코드 분할로 인한), 정적 자산(예: 아이콘) 등
+* `resources/`:소스 맵, 비중심점 코드 청크(코드 분할로 인한 결과), 정적 자산(예: 아이콘) 등
 
 ## 가능한 프런트 엔드 개발 워크플로우 {#possible-workflows}
 
@@ -60,7 +60,7 @@ Webpack을 사용하면 ui.frontend 모듈 내의 AEM 웹 페이지의 정적 �
 1. [웹 팩](#webpack-dev-server) 시작 및 필요한 JavaScript 및 CSS 스타일 생성
 1. ClientLibs `npm run dev` 를 생성하기 위해 실행
 
-이 과정에서 AEM 개발자는 1단계와 2단계를 수행하고 AEM HTML 출력을 기반으로 개발하는 프런트 엔드 개발자에게 정적 HTML을 전달할 수 있습니다.
+이 과정에서 AEM 개발자는 1단계와 2단계를 수행하고 정적인 HTML을 AEM HTML 출력을 기반으로 개발하는 프런트 엔드 개발자에게 전달할 수 있습니다.
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ Webpack을 사용하면 ui.frontend 모듈 내의 AEM 웹 페이지의 정적 �
 
 ### 스토리북 사용 {#using-storybook}
 
-스토리북 [을](https://storybook.js.org) 사용하면 보다 원자적인 프런트 엔드 개발을 수행할 수 있습니다. Storybook은 AEM Project Tranype에 포함되지 않지만 ui.frontend 모듈 내에 Storybook 결함을 설치하고 저장할 수 있습니다. AEM 내에서 테스트할 준비가 되면 실행을 통해 ClientLibs로 배포할 수 있습니다 `npm run dev`.
+스토리북 [을](https://storybook.js.org) 사용하면 보다 원자적인 프런트 엔드 개발을 수행할 수 있습니다. Storybook은 AEM Project Tranype에 포함되어 있지 않지만, 이 Storybook을 설치하고 ui.frontend 모듈 내에 Storybook 결함을 저장할 수 있습니다. AEM에서 테스트할 준비가 되면 ClientLibs를 실행하여 배포할 수 있습니다 `npm run dev`.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Webpack을 사용하면 ui.frontend 모듈 내의 AEM 웹 페이지의 정적 �
 
 ## ui.frontend 모듈 {#ui-frontend-module}
 
-AEM Project Tranype에는 다음 기능이 포함된 Webpack을 기반으로 하는 선택적 전용 프런트 엔드 빌드 메커니즘이 포함되어 있습니다.
+AEM Project Tranype에는 다음과 같은 기능이 포함된 Webpack을 기반으로 하는 선택적 전용 프런트 엔드 빌드 메커니즘이 포함되어 있습니다.
 
 * 전체 TypeScript, ES6 및 ES5 지원(해당 웹 팩 래퍼 포함)
 * TSLint 규칙 세트를 사용한 TypeScript 및 JavaScript 린팅
@@ -88,12 +88,12 @@ AEM Project Tranype에는 다음 기능이 포함된 Webpack을 기반으로 하
 * Globbing
    * 어디에서나 가져오기 추가 필요 없음
    * 이제 모든 JS 및 CSS 파일을 각 구성 요소에 추가할 수 있습니다.
-      * 모범 사례 `/clientlib/js`는 `/clientlib/css``/clientlib/scss`
+      * 모범 사례 `/clientlib/js`는 `/clientlib/css`, 또는 `/clientlib/scss`
    * 모든 것이 웹 팩을 통해 실행되므로 `.content.xml` 또는 `js.txt`/`css.txt` 파일이 필요하지 않습니다.
    * 이 글로버는 폴더 아래의 모든 JS 파일을 `/component/` 가져옵니다.
       * Webpack을 사용하면 CSS/SCSS 파일을 JS 파일을 통해 체인으로 연결할 수 있습니다.
       * 그들은 두 개의 진입점을 통해 `sites.js` 들어왔으며, `vendors.js`.
-   * AEM에서 사용하는 유일한 파일 `site.js` 은 출력 파일 `site.css``/clientlib-site` , `dependencies.js` `dependencies.css` 및 `/clientlib-dependencies`
+   * AEM에서 사용하는 유일한 파일 `site.js` 은 출력 파일 `site.css``/clientlib-site` , `dependencies.js` in 및 `dependencies.css` in `/clientlib-dependencies`
 * 청크
    * 기본(사이트 js/css)
    * 공급업체(종속성 js/css)
@@ -119,7 +119,7 @@ AEM Project Tranype에는 다음 기능이 포함된 Webpack을 기반으로 하
 
 * `npm run dev` - JS 최적화를 사용하지 않도록 설정(트리 흔들기 등)하고 소스 맵을 활성화하여 CSS 최적화를 사용하지 않도록 설정함으로써 전체 빌드를 수행할 수 있습니다.
 * `npm run prod` - JS 최적화 활성화(트리 흔들기 등), 소스 맵 비활성화 및 CSS 최적화를 사용하여 전체 빌드
-* `npm run start` - AEM에 대한 최소 종속성이 있는 로컬 개발을 위한 정적 웹 팩 개발 서버를 시작합니다.
+* `npm run start` - AEM에 대한 의존성을 최소화하면서 로컬 개발을 위한 정적 웹팩 개발 서버를 시작합니다.
 
 ## 출력 {#output}
 
@@ -195,9 +195,9 @@ ui.frontend 모듈에는 AEM 외부의 신속한 프런트 엔드 개발을 위�
 * `ui.frontend/src/main/webpack/static/index.html`
    * 서버가 실행할 정적 HTML입니다.
    * 이를 통해 개발자는 CSS/JS를 변경하고 마크업에 즉시 반영되는 내용을 볼 수 있습니다.
-   * 이 파일에 배치된 마크업은 AEM 구성 요소에 의해 생성된 마크업을 정확하게 반영한다고 가정합니다.
-   * 이 파일의 마크업은 AEM 구성 요소 마크업과 자동으로 동기화되지 않습니다.
-   * 이 파일에는 코어 구성 요소 CSS 및 응답형 격자 CSS와 같이 AEM에 저장된 클라이언트 라이브러리에 대한 참조도 포함되어 있습니다.
+   * 이 파일에 배치된 마크업은 AEM 구성 요소에서 생성된 마크업을 정확하게 반영한다고 가정합니다.
+   * 이 파일의 마크업은 AEM 구성 요소 마크업에 자동으로 동기화되지 않습니다.
+   * 또한 이 파일에는 코어 구성 요소 CSS 및 응답형 격자 CSS와 같이 AEM에 저장된 클라이언트 라이브러리에 대한 참조가 포함되어 있습니다.
    * 웹 팩 개발 서버는 `ui.frontend/webpack.dev.js`
 
 #### 사용 {#using-webpack-server}
