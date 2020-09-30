@@ -2,10 +2,10 @@
 title: 탭 구성 요소
 description: 탭 구성 요소를 사용하면 여러 탭을 만들어 페이지의 컨텐츠를 정렬할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
+source-wordcount: '1027'
+ht-degree: 2%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 1%
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 게시됨으로 **[보기](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**옵션을 사용하여 구성 요소가 있는 페이지를 봅니다.
-1. 페이지의 컨텐츠를 검사하고 패널의 ID를 확인합니다.
+1. 페이지 편집기의 게시됨으로 **[보기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 옵션을 사용하여 구성 요소가 있는 페이지를 봅니다.
+1. 페이지의 컨텐츠를 Inspect으로 표시하고 패널의 ID를 식별합니다.
    * 예 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID는 해시(`#`)를 사용하여 URL에 추가할 수 있는 앵커가 됩니다.
    * 예 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 현재 버전의 탭 구성 요소는 v1이며, 2018년 10월 핵심 구성 요소 릴리스 2.2.0과 함께 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |--- |---|
@@ -118,7 +118,7 @@ HTML 및 JSON 출력뿐만 아니라 탭 구성 요소의 구성 옵션 예제�
 
 >[!NOTE]
 >
->편집 모드에서는 작성자가 탭을 **선택할 수** 없습니다. 미리 **[보기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)****[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 모드 또는게시됨으로 보기옵션을 사용하여 게시된 컨텐츠의 리더로 탭과 상호 작용합니다.
+>편집 모드에서는 작성자가 탭을 **선택할 수** 없습니다. 미리 **[보기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 모드 또는게시됨으로 보기옵션을 사용하여 게시된 컨텐츠의 리더로 탭과 상호 작용합니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
