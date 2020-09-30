@@ -2,7 +2,7 @@
 title: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 4%
@@ -35,7 +35,7 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 영향을 받지 않�
    * 여기서 각 노드에는 `jcr:primaryType` 설정이 있습니다 `nt:unstructured`.
 1. 부울 속성을 추가하고 `enabled` 설정합니다 `true`.
 
-   ![WKND 참조 사이트의 DataLayerConfig 위치](../../assets/datalayer-contextaware-sling-config.png)
+   ![WKND 참조 사이트의 DataLayerConfig 위치](/help/assets/datalayer-contextaware-sling-config.png)
 
    *WKND 참조 사이트의 DataLayerConfig 위치*
 
@@ -59,7 +59,7 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 영향을 받지 않�
 
 1. 또한 브라우저의 개발자 도구를 열고 콘솔에서 JavaScript 개체를 사용할 수 있어야 `adobeDataLayer` 합니다. 현재 페이지의 데이터 레이어 상태를 가져오려면 다음 명령을 입력합니다.
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ eventInfo: {
 
 예:
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
