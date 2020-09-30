@@ -2,9 +2,9 @@
 title: AEM Project 원형형 프런트 엔드 빌드
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM Project Tranype에는 Webpack을 기반으로 하는 선택적인 전용 프
 
 ## ClientLibs 개요 {#clientlibs}
 
-프런트 엔드 모듈은 [AEM ClientLib을 사용하여 사용할 수 있게 됩니다](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). NPM 빌드 스크립트를 실행할 때 앱이 빌드되고 aem-clientlib-generator 패키지가 결과 빌드 출력을 받아 이를 ClientLib로 변환합니다.
+프런트 엔드 모듈은 [AEM ClientLib을 사용하여 사용할 수 있게 됩니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). NPM 빌드 스크립트를 실행할 때 앱이 빌드되고 aem-clientlib-generator 패키지가 결과 빌드 출력을 받아 이를 ClientLib로 변환합니다.
 
 ClientLib은 다음 파일 및 디렉터리로 구성됩니다.
 
@@ -161,7 +161,7 @@ ui.frontend 모듈 빌드 프로세스는 aem-clientlib-generator [](https://www
 
 ### 페이지에 클라이언트 라이브러리 포함 {#clientlib-inclusion}
 
-`clientlib-site` 및 카테고리는 기본 템플릿의 일부로 `clientlib-dependencies` 페이지 정책 구성을 [](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) 통해 페이지에 포함됩니다. 정책을 보려면 **컨텐츠 페이지 템플릿 > 페이지 정보 > 페이지 정책을 편집합니다**.
+`clientlib-site` 및 카테고리는 기본 템플릿의 일부로 `clientlib-dependencies` 페이지 정책 구성을 [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 통해 페이지에 포함됩니다. 정책을 보려면 **컨텐츠 페이지 템플릿 > 페이지 정보 > 페이지 정책을 편집합니다**.
 
 사이트 페이지에 클라이언트 라이브러리를 최종 포함시키는 방법은 다음과 같습니다.
 
