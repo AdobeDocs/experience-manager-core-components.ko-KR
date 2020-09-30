@@ -2,10 +2,10 @@
 title: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 translation-type: tm+mt
-source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
+source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 5%
+source-wordcount: '868'
+ht-degree: 4%
 
 ---
 
@@ -26,17 +26,42 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 영향을 받지 않�
 
 ## 설치 및 활성화 {#installation-activation}
 
-핵심 구성 요소 릴리스 2.9.0부터는 데이터 레이어가 핵심 구성 요소와 함께 clientlib로 배포됩니다. 설치할 필요가 없습니다.
+핵심 구성 요소 릴리스 2.9.0부터는 데이터 레이어가 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되며 설치할 필요가 없습니다. AEM Project Tranype v. 24+ [](/help/developing/archetype/overview.md) 에서 생성된 모든 프로젝트에는 기본적으로 활성화된 데이터 레이어가 포함되어 있습니다.
 
-하지만 데이터 레이어는 기본적으로 활성화되지 않습니다. 데이터 레이어를 활성화하려면 [컨텍스트 인식 구성을](/help/developing/context-aware-configs.md) 만들어야 합니다.
+데이터 레이어를 수동으로 활성화하려면 [컨텍스트 인식 구성을](/help/developing/context-aware-configs.md) 만들어야 합니다.
 
-1. 노드 아래에 다음 구조를 `/conf` 만듭니다.
+1. 폴더 아래에 `/conf/<mySite>` 사이트 프로젝트 이름 `<mySite>` 이 있는 다음 구조를 만듭니다.
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * 노드 유형: `nt:unstructured`
+   * 여기서 각 노드에는 `jcr:primaryType` 설정이 있습니다 `nt:unstructured`.
 1. 부울 속성을 추가하고 `enabled` 설정합니다 `true`.
-1. 아래 사이트 `sling:configRef` 의 `jcr:content` 노드에 속성을 `/content` 추가합니다(예: `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>`.
 
-활성화되면 편집기 외부에서 사이트 페이지를 로드하여 활성화를 확인할 수 있습니다. 페이지를 검사하면 Adobe 클라이언트 데이터 레이어가 로드되어 있음을 확인할 수 있습니다.
+   ![WKND 참조 사이트의 DataLayerConfig 위치](../../assets/datalayer-contextaware-sling-config.png)
+
+   *WKND 참조 사이트의 DataLayerConfig 위치*
+
+1. 아래 사이트 `sling:configRef` 의 `jcr:content` 노드에 속성을 `/content` 추가합니다(예: `/content/<mySite>/jcr:content`)을 클릭하고 이전 단계 `/conf/<mySite>` 에서 로 설정합니다.
+
+1. 활성화되면 편집기 외부에서 사이트 페이지를 로드하여 활성화를 확인할 수 있습니다. Inspect 페이지 소스 및 태그에는 `<body>` 속성이 포함되어야 합니다. `data-cmp-data-layer-enabled`
+
+   ```html
+   <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
+       <script>
+         window.adobeDataLayer = window.adobeDataLayer || [];
+         adobeDataLayer.push({
+             page: JSON.parse("{\x22page\u002D6c5d4b9fdd\x22:{\x22xdm:language\x22:\x22en\x22,\x22repo:path\x22:\x22\/content\/wknd\/language\u002Dmasters\/en.html\x22,\x22xdm:tags\x22:[],\x22xdm:template\x22:\x22\/conf\/wknd\/settings\/wcm\/templates\/landing\u002Dpage\u002Dtemplate\x22,\x22@type\x22:\x22wknd\/components\/page\x22,\x22dc:description\x22:\x22WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.\x22,\x22dc:title\x22:\x22WKND Adventures and Travel\x22,\x22repo:modifyDate\x22:\x222020\u002D09\u002D29T07:50:13Z\x22}}"),
+             event:'cmp:show',
+             eventInfo: {
+                 path: 'page.page\u002D6c5d4b9fdd'
+             }
+         });
+       </script>
+   ```
+
+1. 또한 브라우저의 개발자 도구를 열고 콘솔에서 JavaScript 개체를 사용할 수 있어야 `adobeDataLayer` 합니다. 현재 페이지의 데이터 레이어 상태를 가져오려면 다음 명령을 입력합니다.
+
+   ```js
+   window.adobeDataLayer.getState();
+   ```
 
 ## 핵심 구성 요소 데이터 스키마 {#data-schemas}
 
@@ -96,6 +121,8 @@ id: {
     xdm:language        // page language
 }
 ```
+
+페이지 로드 시 `cmp:show` 이벤트가 트리거됩니다. 이 이벤트는 여는 `<body>` 태그 바로 아래의 인라인 JavaScript에서 전달되어 데이터 레이어 이벤트 큐에서 가장 빠른 이벤트로 만듭니다.
 
 ### 컨테이너 스키마 {#container}
 
@@ -171,12 +198,14 @@ id: {
 
 * `cmp:click`
 
-## 이벤트 {#events}
+## 핵심 구성 요소 이벤트 {#events}
 
-데이터 레이어에서 트리거하는 이벤트가 여러 개 있습니다.
+데이터 레이어를 통해 코어 구성 요소가 트리거되는 이벤트가 많습니다. 데이터 레이어와 상호 작용하기 위한 가장 좋은 방법은 이벤트 리스너를 [](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) 등록한 다음 ** 이벤트를 트리거한 이벤트 유형 및/또는 구성 요소에 따라 작업을 수행하는 것입니다. 이렇게 하면 비동기 스크립트와 관련된 잠재적인 경쟁 조건이 방지됩니다.
+
+다음은 AEM 코어 구성 요소에서 제공하는 특별 이벤트입니다.
 
 * **`cmp:click`** - 클릭 가능한 요소( `data-cmp-clickable` 속성이 있는 요소)를 클릭하면 데이터 레이어가 `cmp:click` 이벤트를 트리거합니다.
-* **`cmp:show`** 및 **`cmp:hide`** - 아코디언(확장/축소), 회전판(다음/이전 버튼) 및 탭(탭 선택) 구성 요소를 조작하면 데이터 레이어가 각각 트리거되고 `cmp:show` `cmp:hide` 이벤트가 트리거됩니다.
+* **`cmp:show`** 및 **`cmp:hide`** - 아코디언(확장/축소), 회전판(다음/이전 버튼) 및 탭(탭 선택) 구성 요소를 조작하면 데이터 레이어가 각각 트리거되고 `cmp:show` `cmp:hide` 이벤트가 트리거됩니다. 또한 `cmp:show` 이벤트는 페이지 로드 시 전달되며 첫 번째 이벤트가 될 것으로 예상됩니다.
 * **`cmp:loaded`** - 데이터 레이어가 페이지의 핵심 구성 요소로 채워지는 즉시 데이터 레이어가 `cmp:loaded` 이벤트를 트리거합니다.
 
 ### 구성 요소로 트리거된 이벤트 {#events-components}
@@ -185,10 +214,45 @@ id: {
 
 | 구성 요소 | 이벤트 |
 |---|---|
-| [탐색](/help/components/navigation.md) | `cmp:click` |
-| [언어 탐색](/help/components/language-navigation.md) | `cmp:click` |
-| [탐색 표시](/help/components/breadcrumb.md) | `cmp:click` |
-| [단추](/help/components/button.md) | `cmp:click` |
-| [회전판](/help/components/carousel.md) | `cmp:show` 및 `cmp:hide` |
-| [탭](/help/components/tabs.md) | `cmp:show` 및 `cmp:hide` |
 | [어코디언](/help/components/accordion.md) | `cmp:show` 및 `cmp:hide` |
+| [단추](/help/components/button.md) | `cmp:click` |
+| [탐색 표시](/help/components/breadcrumb.md) | `cmp:click` |
+| [회전판](/help/components/carousel.md) | `cmp:show` 및 `cmp:hide` |
+| [언어 탐색](/help/components/language-navigation.md) | `cmp:click` |
+| [탐색](/help/components/navigation.md) | `cmp:click` |
+| [페이지](/help/components/page.md) | `cmp:show` |
+| [탭](/help/components/tabs.md) | `cmp:show` 및 `cmp:hide` |
+| [티저](/help/components/teaser.md) | `cmp:click` |
+
+### 이벤트 경로 정보 {#event-path-info}
+
+AEM 코어 구성 요소에 의해 트리거되는 각 데이터 레이어 이벤트에는 다음과 같은 JSON 개체가 포함된 페이로드가 포함됩니다.
+
+```json
+eventInfo: {
+    path: '<component-path>'
+}
+```
+
+이벤트 `<component-path>` 를 트리거한 데이터 레이어의 구성 요소에 대한 JSON 경로는 어디입니까?  이벤트를 트리거한 구성 요소의 현재 상태를 검색하는 매개 변수 `event.eventInfo.path`로 사용할 수 `adobeDataLayer.getState(<component-path>)` 있으므로 사용자 지정 코드에서 추가 데이터에 액세스하여 데이터 레이어에 추가할 수 있으므로 이 값을 사용할 수 있습니다.
+
+예:
+
+```js
+function logEventObject(event) {
+    if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
+        var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
+        console.debug("The component that triggered this event: ");
+        console.log(dataObject);
+    }
+}
+
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function (dl) {
+     dl.addEventListener("cmp:show", logEventObject);
+});
+```
+
+## 자습서
+
+데이터 레이어와 핵심 구성 요소를 자세히 살펴보시겠습니까? [이 실습 자습서를 확인하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
