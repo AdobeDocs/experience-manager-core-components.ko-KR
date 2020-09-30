@@ -2,56 +2,56 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 3136a82a0b523e13227def893d516017873f4365
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 26%
+source-wordcount: '1681'
+ht-degree: 24%
 
 ---
 
 
 # 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.11.0이며 Cloud Service [및](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 온프레미스 AEM [](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치로서 AEM과 호환됩니다. 릴리스 2.0.0에 대한 중요한 업데이트로 2020년 7월에 출시되었습니다. 릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
+핵심 구성 요소의 현재 릴리스는 2.11.0이며 Cloud Service [및](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 온프레미스 AEM [설치로서](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) AEM과 호환됩니다. 릴리스 2.0.0에 대한 중요한 업데이트로 2020년 7월에 출시되었습니다. 릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
-핵심 구성 요소는 AEM 6.3에서 처음 릴리스되었으며, 지원되는 모든 AEM 버전과 유연하고 호환되도록 설계되었습니다. 이러한 구성 요소 릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 있습니다.
+핵심 구성 요소는 지원되는 모든 AEM 버전과 유연하게 호환되도록 설계되었습니다. 이러한 구성 요소 릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 있습니다.
 
 다음 표에서는 릴리스에 포함된 구성 요소 버전과 함께 핵심 구성 요소 릴리스의 호환성을 보여줍니다.
 
 ### 릴리스 내역 및 요구 사항 {#release-history-requirements}
 
-전체 릴리스 세부 [정보와 함께 GitHub에서](https://github.com/adobe/aem-core-wcm-components/releases)사용할 수 있는 컨텐츠가 있는 다음 표는 핵심 구성 요소의 릴리스 및 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요를 제공합니다.
+전체 릴리스 세부 [정보와 함께 GitHub에서](https://github.com/adobe/aem-core-wcm-components/releases)사용할 수 있는 컨텐츠는 다음 표에 핵심 구성 요소의 릴리스 및 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요를 제공합니다.
 
-| 릴리스 | 설명 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM | Java | 릴리스 날짜 |
-|---|---|---|---|---|---|---|---|
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 이 릴리스에서는 AMP 지원이 도입되었습니다. | - | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 7월 20일 |
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 이 릴리스에서는 PDF 뷰어 구성 요소가 도입되었습니다. | - | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 6월 17일 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 이 릴리스는 Adobe 클라이언트 데이터 레이어와의 통합을 활성화했으며 진행률 표시줄 구성 요소를 도입했습니다. | - | 6.4.8.0+ | 6.5.4.0+ | 지속적인 | 8, 11 | 2020년 5월 29일 |
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 이 릴리스는 작은 개선 사항이 있는 수정 사항에 중점을 두었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 12월 5일 |
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 이 릴리스에서는 새로운 포함 구성 요소가 도입되었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 9월 25일 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이 릴리스에서는 새로운 경험 조각 구성 요소가 도입되었습니다. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 9월 6일 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 이 릴리스에서는 새로운 아코디언, 단추, 컨테이너 및 다운로드 구성 요소가 도입되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 6월 25일 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 이 릴리스에서는 컨텐츠 조각 목록 구성 요소가 도입되었습니다. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 5월 7일 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 이 릴리스에서는 구성 요소 라이브러리에 대한 구체화에 중점을 두었으며 구분 문자 구성 요소에 대한 일부 기능 개선 사항도 포함되어 있습니다 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 지속적인 | 8 | 2019년 3월 14일 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 이 릴리스는 구성 요소 라이브러리 및 새로운 구분 문자 구성 요소를 소개합니다. 또한 이미지 구성 요소에 대한 일부 기능 개선 사항도 포함합니다 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2019년 2월 11일 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 이 릴리스는 주로 버그 수정에 중점을 두지만 Carousel 구성 요소에 대한 일부 기능 개선 사항을 포함합니다 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2018년 11월 27일 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 새롭게 추가된 탭 및 회전판 구성 요소, 향상된 이미지, 페이지 및 제목 구성 요소 및 향상된 추적 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2018년 10월 16일 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaser 구성 요소 도입, 이미지 구성 요소 개선 및 다양한 버그 수정 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2018년 7월 13일 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 버그 수정 릴리스 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018년 6월 12일 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 향상된 추가 백그라운드 기능, 버그 수정 및 이미지 플립 지원을 비롯한 작은 향상 기능 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018년 4월 11일 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 주로 백그라운드 개선 사항, 버그 수정, 이미지, 페이지 및 컨텐츠 조각 구성 요소에 대한 일부 개선 사항 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018년 3월 7일 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 탐색, 언어 탐색 및 빠른 검색 구성 요소가 도입되었습니다. 모든 구성 요소에 대해 구현된 스타일 시스템입니다. | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018년 1월 16일 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 모든 구성 요소에 대한 JSON 내보내기 구현, 컨텐츠 조각 구성 요소 소개 | 6.3.1.0 | 6.4.0.0+ | - | - | 8 | 2017년 10월 10일 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 이미지 구성 요소에 대한 몇 가지 수정 사항 | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 2017년 8월 4일 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 페이지 구성 요소, 이미지 구성 요소, 다양한 전역 수정 사항 및 개선 사항 | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 2017년 4월 26일 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 이미지 구성 요소의 애니메이션 GIF 이미지에 대한 수정 사항 | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 2017년 3월 22일 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 핵심 구성 요소의 초기 릴리스 | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 2017년 3월 20일 |
+| 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM | Java | 릴리스 날짜 |
+|---|---|---|---|---|---|---|
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 이 릴리스에서는 AMP 지원이 도입되었습니다. | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 7월 20일 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 이 릴리스에서는 PDF 뷰어 구성 요소가 도입되었습니다. | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 6월 17일 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 이 릴리스는 Adobe 클라이언트 데이터 레이어와의 통합을 활성화했으며 진행률 표시줄 구성 요소를 도입했습니다. | 6.4.8.0+ | 6.5.4.0+ | 지속적인 | 8, 11 | 2020년 5월 29일 |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 이 릴리스는 작은 개선 사항이 있는 수정 사항에 중점을 두었습니다. | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 12월 5일 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 이 릴리스에서는 새로운 포함 구성 요소가 도입되었습니다. | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 9월 25일 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이 릴리스에서는 새로운 경험 조각 구성 요소가 도입되었습니다. | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 9월 6일 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 이 릴리스에서는 새로운 아코디언, 단추, 컨테이너 및 다운로드 구성 요소가 도입되었습니다. | 6.4.2.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 6월 25일 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 이 릴리스에서는 컨텐츠 조각 목록 구성 요소가 도입되었습니다. | 6.4.2.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 5월 7일 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 이 릴리스에서는 구성 요소 라이브러리에 대한 구체화에 중점을 두었으며 구분 문자 구성 요소에 대한 일부 기능 개선 사항도 포함되어 있습니다 | 6.4.2.0+ | 6.5.0.0+ | 지속적인 | 8 | 2019년 3월 14일 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 이 릴리스는 구성 요소 라이브러리 및 새로운 구분 문자 구성 요소를 소개합니다. 또한 이미지 구성 요소에 대한 일부 기능 개선 사항도 포함합니다 | 6.4.2.0+ | - | - | 8 | 2019년 2월 11일 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 이 릴리스는 주로 버그 수정에 중점을 두지만 Carousel 구성 요소에 대한 일부 기능 개선 사항을 포함합니다 | 6.4.2.0+ | - | - | 8 | 2018년 11월 27일 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 새롭게 추가된 탭 및 회전판 구성 요소, 향상된 이미지, 페이지 및 제목 구성 요소 및 향상된 추적 | 6.4.2.0+ | - | - | 8 | 2018년 10월 16일 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaser 구성 요소 도입, 이미지 구성 요소 개선 및 다양한 버그 수정 | 6.4.2.0+ | - | - | 8 | 2018년 7월 13일 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 버그 수정 릴리스 | 6.4.0.0+ | - | - | 8 | 2018년 6월 12일 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 향상된 추가 백그라운드 기능, 버그 수정 및 이미지 플립 지원을 비롯한 작은 향상 기능 | 6.4.0.0+ | - | - | 8 | 2018년 4월 11일 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 주로 백그라운드 개선 사항, 버그 수정, 이미지, 페이지 및 컨텐츠 조각 구성 요소에 대한 일부 개선 사항 | 6.4.0.0+ | - | - | 8 | 2018년 3월 7일 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 탐색, 언어 탐색 및 빠른 검색 구성 요소가 도입되었습니다. 모든 구성 요소에 대해 구현된 스타일 시스템입니다. | 6.4.0.0+ | - | - | 8 | 2018년 1월 16일 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 모든 구성 요소에 대한 JSON 내보내기 구현, 컨텐츠 조각 구성 요소 소개 | 6.4.0.0+ | - | - | 8 | 2017년 10월 10일 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 이미지 구성 요소에 대한 몇 가지 수정 사항 | 6.4.0.0+ | - | - | 8 | 2017년 8월 4일 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 페이지 구성 요소, 이미지 구성 요소, 다양한 전역 수정 사항 및 개선 사항 | 6.4.0.0+ | - | - | 8 | 2017년 4월 26일 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 이미지 구성 요소의 애니메이션 GIF 이미지에 대한 수정 사항 | 6.4.0.0+ | - | - | 7 | 2017년 3월 22일 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 핵심 구성 요소의 초기 릴리스 | 6.4.0.0+ | - | - | 7 | 2017년 3월 20일 |
 
 >[!NOTE]
 >
->AEM과 마찬가지로 최신 수정 사항 및 기능을 활용하기 위해 개발자가 실행 중인 AEM 버전과 호환되는 [최신 릴리스 및 핵심 구성 요소](https://github.com/adobe/aem-core-wcm-components/releases/latest) 버전을 사용하는 것이 좋습니다.
+>AEM에서와 마찬가지로, 개발자는 최신 수정 사항 및 기능을 활용하기 위해 실행 중인 AEM 버전과 호환되는 [최신 릴리스와 버전의 핵심 구성](https://github.com/adobe/aem-core-wcm-components/releases/latest) 요소를 사용하는 것이 좋습니다.
 
 ### 구성 요소 버전 및 릴리스 {#component-versions-and-releases}
 
@@ -90,9 +90,9 @@ ht-degree: 26%
 
 ## 버전 및 릴리스 {#versions-and-releases}
 
-핵심 구성 요소는 GitHub를 통해 배포됩니다. 이를 통해 Adobe는 구성 요소에 기능을 보다 신속하게 추가할 수 있으며 AEM 릴리스 주기 외부에서 커뮤니티 입력을 허용할 수도 있습니다.
+핵심 구성 요소는 GitHub를 통해 배포됩니다. 이를 통해 Adobe은 구성 요소에 기능을 보다 신속하게 추가할 수 있고 AEM 릴리스 주기 외부에서 커뮤니티 입력을 허용할 수 있습니다.
 
-핵심 구성 요소는 호환되는 정의된 AEM 버전에서 사용할 수 있습니다. 즉, 하나의 AEM 버전이 여러 버전 또는 핵심 구성 요소의 릴리스를 지원할 수 있습니다. 이는 특정 버전의 AEM에 연결된 이전 Foundation 구성 요소보다 더 많은 유연성을 제공합니다.
+핵심 구성 요소는 호환되는 정의된 AEM 버전에서 사용할 수 있습니다. 즉, 한 AEM 버전이 여러 버전 또는 핵심 구성 요소의 릴리스를 지원할 수 있습니다. 이는 특정 버전의 AEM에 연결된 이전 Foundation Components보다 더 많은 유연성을 제공합니다.
 
 ### 버전 {#versions}
 
@@ -133,6 +133,6 @@ ht-degree: 26%
 
 ## 기초 구성 요소 지원 {#foundation-component-support}
 
-기초 구성 요소는 많은 버전에 대해 프로젝트 개발 기준 역할을 했기 때문에 가까운 미래에도 계속 지원됩니다.
+Adobe의 개발 강조가 핵심 구성 요소로 전환되었으며 새로운 기능은 계속 추가될 예정입니다.
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+[거의 모든 Foundation 구성 요소는 AEM 6.5에서 더 이상 사용되지 않으며](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) Foundation 구성 요소의 경우 주요 버그 수정만 고려됩니다.
