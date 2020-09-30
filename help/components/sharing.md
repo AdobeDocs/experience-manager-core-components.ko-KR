@@ -2,9 +2,9 @@
 title: 소셜 공유 구성 요소
 description: 핵심 구성 요소 소셜 공유 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-소셜 공유 구성 요소의 현재 버전은 v1이며, AEM 6.3의 핵심 구성 요소 릴리스 1.0.0에서 도입되었으며 이 문서에 설명되어 있습니다.
+소셜 미디어 공유 구성 요소의 현재 버전은 v1이며, 이 버전은 핵심 구성 요소 릴리스 1.0.0과 함께 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 버전이 호환되는 구성 요소 및 AEM 버전의 지원되는 모든 버전에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소 버전과 호환되는 AEM 버전과 구성 요소의 지원되는 모든 버전을 자세히 설명합니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |--- |---|
