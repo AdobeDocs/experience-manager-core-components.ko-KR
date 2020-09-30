@@ -2,9 +2,9 @@
 title: 아코디언 구성 요소
 description: 핵심 구성 요소 아코디언 구성 요소를 사용하면 페이지의 아코디언을 사용하여 패널 모음을 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 1%
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 게시됨으로 **[보기](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**옵션을 사용하여 구성 요소가 있는 페이지를 봅니다.
-1. 페이지의 컨텐츠를 검사하고 패널의 ID를 확인합니다.
+1. 페이지 편집기의 게시됨으로 **[보기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 옵션을 사용하여 구성 요소가 있는 페이지를 봅니다.
+1. 페이지의 컨텐츠를 Inspect으로 표시하고 패널의 ID를 식별합니다.
    * 예 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID는 해시(`#`)를 사용하여 URL에 추가할 수 있는 앵커가 됩니다.
    * 예 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 아코디언 구성 요소의 현재 버전은 v1이며, 2019년 6월에 핵심 구성 요소 릴리스 2.5.0에서 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
 |--- |--- |---|---|
@@ -120,7 +120,7 @@ Accordion 구성 요소에 대한 최신 기술 문서는 GitHub에서 찾을 [�
 
 허용된 구성 요소 **** 탭은 컨텐츠 작성자가 아코디언 구성 요소의 패널에 항목으로 추가할 수 있는 구성 요소를 정의하는 데 사용됩니다.
 
-템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 [정의할 때 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### 스타일 탭 {#styles-tab}
 
