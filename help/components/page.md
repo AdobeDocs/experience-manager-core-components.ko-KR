@@ -2,15 +2,15 @@
 title: 페이지 구성 요소
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '631'
 ht-degree: 2%
 
 ---
 
 
-# 페이지 구성 요소{#page-component}
+# Page Component{#page-component}
 
 페이지 구성 요소는 [템플릿 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 작업을 위해 설계된 확장 가능한 페이지 구성 요소로서, 템플릿 편집기로 페이지 머리글/바닥글 및 구조 구성 요소를 조합할 수 있습니다.
 
@@ -24,18 +24,14 @@ ht-degree: 2%
 
 페이지 구성 요소의 현재 버전은 v2입니다. v2는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0에서 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
-|---|---|---|---|---|
-| v2 | - | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
+|---|---|---|---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전을 참조하십시오](/help/versions.md).
-
->[!NOTE]
->
->페이지 구성 요소 및 AEM 6.3의 버전 2에 대해 `cq:Page` 수준에서 리디렉션을 활성화하려면 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 이상이 필요합니다. 이전 릴리스에서는 이러한 리디렉션을 사용할 수 없었습니다.
 
 ### 기술 세부 정보 {#technical-details}
 
@@ -55,7 +51,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이전 버전의 AEM에서 **페이지** 정책을 **페이지 디자인이라고 했습니다**.
+>이전 버전의 AEM에서는 **페이지** 정책을 **페이지 디자인이라고 했습니다**.
 
 ### 속성 탭 {#properties-tab}
 
