@@ -2,9 +2,9 @@
 title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 즉석 편집을 제공하는 리치 텍스트 편집 및 구성 요소입니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2200'
 ht-degree: 3%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 3%
 
 텍스트 구성 요소의 현재 버전은 v2입니다. v2는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0에서 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
-|---|---|---|---|---|
-| v2 | - | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/text-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
+|---|---|---|---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](v1/text-v1.md) | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전을 참조하십시오](/help/versions.md).
 
@@ -45,13 +45,13 @@ ht-degree: 3%
 
 ## 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-핵심 구성 요소 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE는 컨텐츠 작성자가 텍스트 컨텐츠를 편집할 수 있는 다양한 기능을 제공합니다. RTE는 구성에 매우 유연하며 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 리치 텍스트 편집기 구성 [및 리치 텍스트 편집기](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) 구성 [플러그인을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+핵심 구성 요소 텍스트 구성 요소는 AEM RTE(Rich Text Editor)를 활용합니다. RTE는 컨텐츠 작성자가 텍스트 컨텐츠를 편집할 수 있는 다양한 기능을 제공합니다. RTE는 구성에 매우 유연하며 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 리치 텍스트 편집기 구성 [및 리치 텍스트 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 구성 [플러그인을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 이 문서의 나머지 부분에서는 기본 RTE 구성을 사용하는 핵심 구성 요소 텍스트 구성 요소의 표준 구성을 보여 줍니다.
 
 >[!NOTE]
 >
->RTE의 [UI 구성에서 활성화된 옵션만 텍스트 구성 요소에서](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) 사용할 수 있습니다.
+>RTE의 [UI 구성에서 활성화된 옵션만 텍스트 구성 요소에서](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 사용할 수 있습니다.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -122,9 +122,9 @@ ht-degree: 3%
 ![하이퍼링크 예](/help/assets/text-hyperlink-example.png)
 
 * 경로 입력
-   * 선택 열기 대화 상자를 사용하여 AEM에서 경로 선택
+   * 선택 열기 대화 상자를 사용하여 AEM에서 패스 선택
    * 링크가 AEM 내에 없으면 절대 URL을 입력합니다
-      * 절대 경로가 아닌 경로는 AEM을 기준으로 해석됩니다
+      * 절대 경로가 아닌 경로는 AEM에 상대적인 것으로 해석됩니다
 * 링크에 대한 대체 설명 텍스트 입력
 * 링크 동작 선택
    * 타겟
@@ -132,6 +132,7 @@ ht-degree: 3%
    * 새 탭
    * 상위 프레임
    * 상위 프레임
+
    확인란을 탭하거나 클릭하여 링크를 적용하거나 취소할 x를 클릭합니다.
 
 ### 연결 해제
@@ -257,7 +258,7 @@ ht-degree: 3%
 
 텍스트 컨텐츠의 맞춤법을 검사하는 데 사용됩니다. 맞춤법이 틀린 빨간색 선으로 밑줄이 그어져 있을 수 있습니다.
 
-맞춤법 검사 및 맞춤법 검사 사전 사용자 정의에 대한 자세한 내용은 리치 텍스트 편집기 플러그인 [구성 문서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+맞춤법 검사 및 맞춤법 검사 사전 사용자 정의에 대한 자세한 내용은 리치 텍스트 편집기 플러그인 [구성 문서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### 특수 문자 {#special-characters}
 
@@ -275,7 +276,7 @@ ht-degree: 3%
 
 텍스트의 HTML 소스를 보고 수정하는 데 사용됩니다.
 
-원본 HTML을 보려면 **소스 편집** 아이콘을 누르거나 클릭하여 서식이 지정된 보기에서 텍스트 내용을 변경합니다. 이 모드에서는 다른 모든 서식 옵션이 비활성화됩니다. 소스 **편집** 아이콘을 다시 탭하거나 클릭하여 서식이 지정된 보기로 돌아갑니다.
+원본 HTML을 보려면 **소스 편집** 아이콘을 탭하거나 클릭하여 서식이 지정된 보기에서 텍스트 내용을 변경합니다. 이 모드에서는 다른 모든 서식 옵션이 비활성화됩니다. 소스 **편집** 아이콘을 다시 탭하거나 클릭하여 서식이 지정된 보기로 돌아갑니다.
 
 >[!CAUTION]
 >
@@ -297,7 +298,7 @@ ht-degree: 3%
 
 ### 인라인 편집 {#in-line-editing}
 
-텍스트 구성 요소를 인라인 편집도 할 수 있지만 공간 제한으로 인해 일부 서식 지정 옵션을 인라인 사용할 수는 없습니다. 모든 옵션을 보려면 전체 화면 모드로 전환하십시오.
+텍스트 구성 요소를 줄로도 편집할 수 있지만 공간 제한으로 인해 일부 서식 지정 옵션을 인라인 사용할 수는 없습니다. 모든 옵션을 보려면 전체 화면 모드로 전환하십시오.
 
 ![인라인 편집 예](/help/assets/text-edit-inline-example.png)
 
