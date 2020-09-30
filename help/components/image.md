@@ -2,9 +2,9 @@
 title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 즉석 편집의 응용 이미지 구성 요소 기능입니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1921'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ## 사용량 {#usage}
 
-이미지 구성 요소는 페이지 방문자를 위한 레이지 로딩과 컨텐츠 작성자를 위한 간편한 이미지 배치 및 자르기를 통해 적응형 이미지 선택 및 응답형 동작을 제공합니다.
+이미지 구성 요소는 페이지 방문자를 위한 레이지 로딩과 컨텐츠 작성자를 위한 간편한 이미지 배치 및 자르기 기능을 통해 적응형 이미지 선택 및 응답형 동작을 제공합니다.
 
 자르기 및 추가 설정은 물론 이미지 너비를 [디자인 대화 상자에서 템플릿 작성자가 정의할 수 있습니다](#design-dialog). 콘텐츠 편집기는 구성 대화 상자에서 자산을 [업로드 또는 선택하고](#configure-dialog) 편집 대화 상자에서 [이미지를](#edit-dialog)자를 수 있습니다. 또한 편의성을 높이기 위해 이미지를 직접 간단하게 수정할 수 있습니다.
 
@@ -30,12 +30,12 @@ ht-degree: 2%
 
 이미지 구성 요소의 현재 버전은 v2이며, 2018년 1월에 핵심 구성 요소 릴리스 2.0.0에서 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.3 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
-|--- |--- |--- |--- |---|
-| v2 | - | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/image-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 | - |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
+|--- |--- |--- |---|
+| v2 | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](v1/image-v1.md) | 호환 가능 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전을 참조하십시오](/help/versions.md).
 
@@ -53,7 +53,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
 
 >[!CAUTION]
 >
->AEM 내의 [새 이미지 편집기 기능을 지원하기 위해 SVG 지원을 사용하려면 AEM 6.4 또는 AEM 6.3](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) 이상의 [서비스 팩 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) 와 함께 핵심 구성 요소 [버전 2.1.0이 필요합니다](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) .
+>AEM에서 [이미지 편집기 기능을](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) 지원하려면 SVG 지원을 통해 AEM 6.4 이상의 [서비스 팩 2](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 이상과 함께 핵심 구성 요소 릴리스 2.1.0이 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -91,13 +91,14 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
    * DAM에서 대체 텍스트 가져오기 - 선택하면 이미지의 대체 텍스트가 DAM의 메타데이터 값으로 `dc:description` 채워집니다.
 
 * **캡션**&#x200B;이미지 아래에 기본적으로 표시되는 이미지에 대한 추가 정보입니다.
-   * **DAM에서 캡션**&#x200B;을 가져오면 이미지의 캡션 텍스트가 DAM의 `dc:title` 메타데이터 값으로 채워집니다.
+   * **DAM에서 캡션**&#x200B;을 가져오면 이미지의 캡션 텍스트가 
+`dc:title` 메타데이터에 액세스할 수 있습니다.
    * **캡션을 팝업으로 표시**&#x200B;이 선택된 경우 캡션은 이미지 아래에 표시되지 않고 이미지 위로 마우스를 가져가면 일부 브라우저가 팝업으로 표시하는 것입니다.
 
 * **링크**
    * 이미지를 다른 리소스에 연결합니다.
    * 선택 대화 상자를 사용하여 다른 AEM 리소스에 연결합니다.
-   * AEM 리소스에 연결되지 않은 경우 절대 URL을 입력합니다. 비솔루션 URL은 AEM을 기준으로 해석됩니다.
+   * AEM 리소스에 연결되지 않으면 절대 URL을 입력합니다. 비솔루션 URL은 AEM에 대한 상대 URL로 해석됩니다.
 
 * **ID** - 이 옵션을 사용하면 HTML과 [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
    * 비워 두면 자동으로 고유 ID가 생성되어 결과 페이지를 검사하여 찾을 수 있습니다.
@@ -118,6 +119,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
 
    * [손 **무료]** 옵션을 선택하여 직접 자르기를 정의합니다.
    * [자르기 **제거** ] 옵션을 선택하여 원본 자산을 표시합니다.
+
    자르기 옵션을 선택하면 파란색 핸들을 사용하여 이미지의 자르기 크기를 조정합니다.
 
    ![자르기 옵션](/help/assets/image-crop-options.png)
@@ -205,18 +207,20 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
 
    ![이미지 구성 요소의 디자인 대화 상자 기능 탭](/help/assets/image-design-features-source.png)
 
-   컨텐츠 작성자가 자신의 로컬 컴퓨터에서 이미지를 **업로드할 수 있도록 파일 시스템에서** 자산 업로드 허용 옵션을 선택합니다. 컨텐츠 작성자가 AEM에서 자산만 선택하도록 하려면 이 옵션을 선택 취소합니다.
+   컨텐츠 작성자가 자신의 로컬 컴퓨터에서 이미지를 **업로드할 수 있도록 파일 시스템에서** 자산 업로드 허용 옵션을 선택합니다. 컨텐츠 작성자가 AEM에서 에셋만 선택하도록 하려면 이 옵션을 선택 취소합니다.
 
 * 방향
 
    ![이미지 구성 요소의 디자인 대화 상자 기능 탭](/help/assets/image-design-features-orientation.png)
 
-* **회전**&#x200B;이 옵션을 사용하여 컨텐츠 작성자가 [오른쪽으로 **회전] 옵션을 사용할 수** 있습니다.
-* **뒤집기**&#x200B;이 옵션을 사용하면 컨텐츠 작성자가 가로 **뒤집기** 및 세로로 뒤집기 옵션을 사용할 수 **있습니다** .
+* **회전**&#x200B;이 옵션을 사용하여 컨텐츠 작성자가 
+**오른쪽으로 회전** 옵션.
+* **뒤집기**&#x200B;이 옵션을 사용하여 내용 작성자가 
+**가로로 뒤집기** 및 **세로로 뒤집기** 옵션
 
    >[!CAUTION]
    >
-   >플립( **Flip** ) 옵션은 기본적으로 비활성화됩니다. 활성화하면 이미지 구성 요소의 편집 대화 상자에 **세로로** 뒤집기 **및** 가로로 뒤집기단추가 표시되지만 현재 AEM에서 이 기능이 지원되지 않으며 이러한 옵션을 사용하여 변경한 사항은 지속되지 않습니다.
+   >플립( **Flip** ) 옵션은 기본적으로 비활성화됩니다. 활성화하면 이미지 구성 요소의 편집 대화 상자에 **세로로** 뒤집기 **및** 가로로 뒤집기단추가 표시되지만 현재 AEM에서 이 기능이 지원되지 않으며 이러한 옵션을 사용하여 변경한 내용은 지속되지 않습니다.
 
 * 자르기
 
@@ -228,6 +232,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
    * 종횡비를 입력합니다.
    * 드래그 핸들을 사용하여 종횡비의 순서를 재정렬합니다.
    * 종횡비를 삭제하려면 휴지통 아이콘을 사용하십시오.
+
    >[!CAUTION]
    >
    >Note that in AEM, crop aspect ratios are defined as **height/width**. 이것은 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 비율 자체가 아니라 UI에 이름이 표시되므로 비율의 명확한 이름을 제공하는 한 컨텐츠 작성자는 어떠한 차이도 인식하지 못합니다.
@@ -244,4 +249,4 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
 >
 >헤더를 통한 조건부 요청 `Last-Modified` 은 응용 이미지 서블릿에서 지원되지만, `Last-Modified` 헤더의 캐싱은 발송자에서 [활성화해야 합니다](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->[AEM 프로젝트 원형](/help/developing/archetype/overview.md)형식의 샘플 발송자 구성에는 이미 이 구성이 포함되어 있습니다.
+>[AEM Project Tranype의 샘플](/help/developing/archetype/overview.md)Dispatcher 구성에는 이 구성이 이미 포함되어 있습니다.
