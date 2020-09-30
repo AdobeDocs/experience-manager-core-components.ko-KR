@@ -2,9 +2,9 @@
 title: 핵심 구성 요소로 작성
 description: AEM에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다.
 translation-type: tm+mt
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '764'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 핵심 구성 요소를 경험하고 구성 옵션 예와 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library).
 
-AEM 프로젝트 원형형을 사용하여 AEM 프로젝트에서 핵심 구성 요소를 구현하기 위한 보다 심층적인 개발자 중심 [의](/help/developing/archetype/overview.md) 소개를 살펴보려면 WKND 자습서 [를 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+AEM 프로젝트 원형형을 사용하여 AEM 프로젝트에서 핵심 구성 요소를 구현하기 위한 보다 심층적인 개발자 중심 [의 소개](/help/developing/archetype/overview.md) [를 살펴보려면 WKND 자습서를 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ AEM 프로젝트 원형형을 사용하여 AEM 프로젝트에서 핵심 구성 
 
 >[!CAUTION]
 >
->핵심 구성 요소 [는 AEM 6.3 이상이](/help/versions.md) 필요하며 [편집 가능한 템플릿을 사용해야 합니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). 클래식 UI나 정적 템플릿에서는 작동하지 않습니다.
+>핵심 구성 요소 [는 AEM 6.4 이상이](/help/versions.md) 필요하며 [편집 가능한 템플릿을 사용해야 합니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). 클래식 UI나 정적 템플릿에서는 작동하지 않습니다.
 
 ## 핵심 구성 요소로 작성 {#authoring-with-core-components}
 
@@ -46,7 +46,7 @@ AEM 프로젝트 원형형을 사용하여 AEM 프로젝트에서 핵심 구성 
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-구성 요소는 구성 요소를 쉽게 구성하고 필터링하기 위해 구성 요소 그룹이라는 범주에 따라 그룹화됩니다. 구성 요소 그룹 이름은 [구성 요소 브라우저의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) 구성 요소와 함께 표시되며 올바른 구성 요소를 쉽게 찾기 위해 그룹별로 필터링할 수도 있습니다.
+구성 요소는 구성 요소를 쉽게 구성하고 필터링하기 위해 구성 요소 그룹이라는 범주에 따라 그룹화됩니다. 구성 요소 그룹 이름은 [구성 요소 브라우저의](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) 구성 요소와 함께 표시되며, 올바른 구성 요소를 쉽게 찾기 위해 그룹별로 필터링할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -79,10 +79,6 @@ Components are available on the **Components** tab of the side panel of the page
 * 그런 다음 컨텐츠 작성자는 구성 요소를 추가하고 컨텐츠를 만들 때 적용할 스타일을 선택할 수 있습니다.
 
 자세한 내용은 [스타일 시스템](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) 설명서를 참조하십시오.
-
->[!NOTE]
->
->스타일 시스템 기능을 활성화하려면 AEM 6.3에서 서비스 팩 2(6.3.2.0) 이상이 필요합니다.
 
 ## 개발자 리소스 {#developer-resources}
 
