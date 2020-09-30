@@ -2,9 +2,9 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '860'
 ht-degree: 26%
 
 ---
@@ -34,14 +34,14 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 프로덕션 준비 | 핵심 구성 요소는 28개의 강력한 구성 요소로서, 테스트를 잘 거친, 널리 사용되고, 그 성능이 우수합니다. |
 | 클라우드 지원 | AEM에서 Cloud Service [,](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)또는 온프레미스 중 어느 곳에서나 모두 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 구성할 수 있는 일반 개념을 나타냅니다. |
-| 구성 가능 | 템플릿 수준 [컨텐츠 정책은](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) 페이지 작성자가 사용할 수 있거나 사용하지 않을 수 있는 기능을 정의합니다. |
+| 구성 가능 | 템플릿 수준 [컨텐츠 정책은](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) 페이지 작성자가 사용할 수 있거나 사용하지 않을 수 있는 기능을 정의합니다. |
 | 추적 가능 | Adobe [클라이언트 데이터 레이어 통합을](/help/developing/data-layer/overview.md) 통해 방문자 경험의 모든 측면을 추적할 수 있습니다. |
 | 액세스 가능 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Attle)). |
 | SEO-Friendly | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | WebApp-Ready | 간소화된 [JSON 출력](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) 덕분에 클라이언트측 렌더링을 할 수 있으며 상황에 맞는 편집 [이 가능합니다](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | AMP 지원 | 이 구성 요소는 AMP 표준을 [지원하므로](/help/developing/amp.md) 모바일 경험을 가속화할 수 있습니다. |
 | 디자인 키트 | 디자이너는 Adobe XD [용](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) UI 키트를 사용하여 와이어프레임을 만들고 필요에 따라 [스타일을 지정할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
-| 사용 가능 | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
+| 사용 가능 | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
 | 사용자 정의 가능 | HTML을 조정하거나 고급 기능을 재사용할 때 [손쉽게 사용자 지정할](developing/customizing.md)수 있는 패턴도 있습니다. |
 | 버전 관리 | 버전 [관리 정책은](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 사용자에게 영향을 줄 수 있는 사항을 개선할 때 핵심 구성 요소가 사이트를 벗어나지 않도록 합니다. |
 | 현지화 가능 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
