@@ -2,10 +2,10 @@
 title: 클라이언트 라이브러리 포함
 description: 사용 사례에 따라 클라이언트 라이브러리를 포함하는 다양한 방법이 있습니다.
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -84,10 +84,7 @@ JS가 `head``cssIncludes`아닌 CSS만 포함하려면
 
 및 `link` 에 전달할 수 있는 CSS 속성 `jsAndCssIncludes` `cssIncludes`:
 
-* `media`: 문자열
-
-및 `script` 에 전달할 수 있는 JS 속성 `jsAndCssIncludes` `jsIncludes`:
-
+* `media`:문자열 JS `script` 속성을 `jsAndCssIncludes` 전달하거나 다음 URL로 전달할 수 `jsIncludes`있습니다.
 * `async`: 부울
 * `defer`: 부울
 * `onload`: 문자열
