@@ -2,10 +2,10 @@
 title: 클라이언트 라이브러리 포함
 description: 사용 사례에 따라 클라이언트 라이브러리를 포함하는 다양한 방법이 있습니다.
 translation-type: tm+mt
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,8 @@ ht-degree: 3%
 
 ## CSS 또는 JS만 해당 {#css-js-only}
 
-CSS 포함 사항을 HTML `head` 요소에 삽입하려는 경우가 많고 JS에 `body` 요소가 닫기 직전에 포함됩니다.&#x200B;
+CSS 포함 사항을 HTML `head` 요소에 삽입하려는 경우가 많고 JS에 `body` 요소가 닫기 직전에 포함됩니다.
+
 JS가 `head``cssIncludes`아닌 CSS만 포함하려면
 
 ```html
@@ -83,7 +84,9 @@ JS가 `head``cssIncludes`아닌 CSS만 포함하려면
 
 및 `link` 에 전달할 수 있는 CSS 속성 `jsAndCssIncludes` `cssIncludes`:
 
-* `media`:문자열&#x200B; JS `script` 속성 `jsAndCssIncludes` 및 `jsIncludes`다음
+* `media`: 문자열
+
+및 `script` 에 전달할 수 있는 JS 속성 `jsAndCssIncludes` `jsIncludes`:
 
 * `async`: 부울
 * `defer`: 부울
@@ -92,7 +95,8 @@ JS가 `head``cssIncludes`아닌 CSS만 포함하려면
 
 ## 삽입 {#inlining}
 
-최적화, 이메일 또는 [AMP의 경우](amp.md) CSS 또는 JS를 HTML의 출력으로 인라인으로 지정해야 하는 경우가 있습니다&#x200B;.
+최적화, 이메일 또는 [AMP의 경우](amp.md) CSS 또는 JS를 HTML 출력으로 인라인으로 지정해야 하는 경우가 있습니다.
+
 CSS를 인라인으로 만들려면, 사용할 `cssInline` 수 있습니다. 이 경우 주변 `style` 요소를 작성해야 합니다.
 
 ```html
