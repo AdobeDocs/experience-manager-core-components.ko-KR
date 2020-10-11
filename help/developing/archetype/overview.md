@@ -2,9 +2,9 @@
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
+source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1035'
 ht-degree: 7%
 
 ---
@@ -41,6 +41,7 @@ AEM Project Tranype은 최소한의 모범 사례 기반 Adobe Experience Manage
 * **스타일 시스템:** 작성자가 다른 스타일을 [적용할 수 있도록 하여 사용자 지정 구성 요소를](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) 작성하지 마십시오.
 * **프런트 엔드 빌드:** 프런트 엔드 개발자는 [웹 팩, TypeScript](uifrontend.md#webpack-dev-server) 및 SASS를 사용하여 AEM 페이지 [를 만들고 클라이언트 라이브러리를](uifrontend.md) 구축할 수 있습니다.
 * **WebApp-Ready:** React [또](uifrontend-react.md) 는 Angular [를 사용하는 사이트의 경우](uifrontend-angular.md)SPA SDK [를](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) 사용하여 앱 [컨텍스트 작성](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
+* **상거래 활성화:** 커머스 코어 구성 요소를 사용하여 [Magento과](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) 같은 상거래 솔루션과 [AEM](https://magento.com/) 커머스 [를 통합하려는](https://github.com/adobe/aem-core-cif-components)프로젝트의경우.
 * **예제 코드:** HelloWorld 구성 요소와 샘플 모델, 서블릿, 필터 및 스케줄러를 체크 아웃합니다.
 * **오픈 소스:** 만약 어떤 것이 제대로 되어 있지 않다면, [여러분의 개선점을](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 기부하라!
 
