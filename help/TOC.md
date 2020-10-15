@@ -1,13 +1,13 @@
 ---
 sub-product: AEM 핵심 구성 요소
 user-guide-title: AEM 핵심 구성 요소
-breadcrumb-title: Core Components Guide
-user-guide-description: Use the extensible Core Components to let authors easily create content.
+breadcrumb-title: Core Components 안내서
+user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 컨텐츠를 쉽게 만들 수 있습니다.
 translation-type: tm+mt
 source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 69%
+source-wordcount: '202'
+ht-degree: 71%
 
 ---
 
