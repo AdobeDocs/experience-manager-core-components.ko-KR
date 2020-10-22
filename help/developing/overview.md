@@ -2,10 +2,10 @@
 title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 풍부한 기능, 연속 전달, 구성 요소 버전 관리, 최신 구현, lean markup 및 컨텐츠 JSON 내보내기를 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
 workflow-type: tm+mt
 source-wordcount: '1442'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -16,14 +16,15 @@ ht-degree: 12%
 
 핵심 구성 요소가 새로워졌고 여러 이점을 제공하므로 새 AEM 프로젝트에서 이러한 구성 요소를 사용하는 것이 좋습니다. 기존 프로젝트의 경우 마이그레이션은 리브랜딩 또는 전체 리팩터링 등 대규모 프로젝트 작업에 포함되었습니다.
 
-따라서 Adobe에서는 다음 권장 사항을 제공합니다.
+따라서 Adobe은 다음 권장 사항을 제공합니다.
 
 * **새 프로젝트**&#x200B;새 프로젝트는 항상 핵심 구성 요소를 사용해야 합니다. 핵심 구성 요소를 프로젝트 요구 사항을 충족하기 위해 직접 또는 [확장할](customizing.md) 수 없는 경우, 핵심 구성 요소에 지정된 구성 요소 아키텍처 다음에 사용자 지정 구성 요소를 만듭니다. 그렇지 않은 경우 외에는 [기본 구성 요소를 사용하지 마십시오](/help/versions.md#foundation-component-support).
 * **사이트나 구성 요소**&#x200B;리팩토링을 계획하지 않는 한 기존 프로젝트 [는 계속](/help/versions.md#foundation-component-support)기초 구성 요소를사용합니다.\
    대부분의 기존 프로젝트에서 매우 널리 사용되고 있으므로 기본 구성 요소는 [계속 지원됩니다.](/help/versions.md#foundation-component-support)
 * **새로운 사용자 지정 구성 요소**&#x200B;기존 [핵심 구성 요소를 사용자 정의할 수 있는지](customizing.md)평가합니다.\
    그렇지 않은 경우 구성 요소 지침에 따라 새 사용자 지정 구성 요소를 [만드는 것이 좋습니다](guidelines.md).
-* **기존 사용자 지정 구성 요소**&#x200B;가 예상대로 작동하면 구성 요소를 그대로 유지합니다.\
+* **기존 사용자 지정 구성 요소**&#x200B;가 예상대로 작동하면 구성 요소를 그대로 유지합니다.
+\
    그렇지 않은 경우 위의 &quot;새 사용자 지정 구성 요소&quot;를 참조하십시오.
 
 ## 핵심 구성 요소 성공 방법 {#how-to-succeed}
@@ -34,26 +35,26 @@ ht-degree: 12%
 
 모든 새 프로젝트는 핵심 구성 요소를 사용하여 구현해야 합니다. 그러나 기존 프로젝트에는 일반적으로 Foundation 구성 요소의 광범위한 구현이 있습니다.
 
-기존 프로젝트(예: 리브랜딩 또는 전체 리팩토링)에서 더 많은 노력을 기울이면 종종 핵심 구성 요소로 마이그레이션할 수 있습니다. Adobe는 이러한 마이그레이션을 촉진하기 위해 핵심 구성 요소 및 최신 AEM 기술의 채택을 장려하는 다양한 마이그레이션 도구를 제공했습니다.
+기존 프로젝트(예: 리브랜딩 또는 전체 리팩토링)에서 더 많은 노력을 기울이면 종종 핵심 구성 요소로 마이그레이션할 수 있습니다. 이러한 마이그레이션을 용이하게 하기 위해 Adobe은 핵심 구성 요소 및 최신 AEM 기술 채택을 장려하기 위한 여러 마이그레이션 도구를 제공했습니다.
 
-[AEM 현대화 도구를](http://opensource.adobe.com/aem-modernize-tools/) 사용하여 다음을 쉽게 변환할 수 있습니다.
+[AEM Modern](http://opensource.adobe.com/aem-modernize-tools/) Tools를 사용하면
 
-* 정적 템플릿을 편집 가능한 템플릿으로 변환
-* 정책으로 구성 디자인
-* 핵심 구성 요소에 대한 기본 구성 요소
-* 클래식 UI에서 터치 지원 UI
+* 정적 템플릿을 편집 가능한 템플릿
+* 디자인 구성을 정책
+* 기초 구성 요소를 코어 구성 요소
+* 클래식 UI를 터치 사용 UI
 
 이러한 도구 사용에 대한 자세한 내용은 해당 설명서를 [참조하십시오](http://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
->AEM 현대화 도구는 커뮤니티 활동이며 Adobe에서 지원하거나 보증하지 않습니다.
+>AEM 현대화 도구는 커뮤니티의 노력이며 Adobe에 의해 지원되거나 보증되지 않습니다.
 
 ## 핵심 구성 요소 지원 {#core-component-support}
 
 핵심 구성 요소는 AEM의 필수적인 부분으로, 빠른 시작의 일부로 전달된 것처럼 동일한 이용 약관에 따라 지원됩니다.
 
-다른 AEM 제품 기능과 마찬가지로 일반 규칙은 다음과 같습니다. 구성 요소는 먼저 폐기되고, 다음 AEM 릴리스에 대해 가장 빨리 제거됨을 알립니다. 따라서 고객은 지원을 중단하기 전에 적어도 하나의 릴리스 주기를 새로운 버전의 구성 요소로 전환할 수 있습니다.
+다른 AEM 제품 기능과 마찬가지로 일반적인 규칙은 다음과 같습니다.구성 요소는 먼저 폐기되고 다음 AEM 릴리스에 대해 가장 빨리 제거됨을 알립니다. 따라서 고객은 지원을 중단하기 전에 적어도 하나의 릴리스 주기를 새로운 버전의 구성 요소로 전환할 수 있습니다.
 
 각 구성 요소의 버전은 지원되는 AEM 버전을 명확하게 설명합니다. AEM 버전에 대한 지원이 중단되면 해당 버전의 AEM에 대한 핵심 구성 요소에 대한 지원도 중단됩니다.
 
@@ -79,7 +80,7 @@ ht-degree: 12%
 | 배달 | [공개 GitHub를 통해](https://github.com/adobe/aem-core-wcm-components) | 빠른 시작을 통해 |
 | 라이센스 | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 독점 |
 | 기여도 | 풀 요청을 통해 | 불가능 |
-| 액세스 가능성 | WCAG [2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | WCAG [2.0 AA 표준을 일부 준수하는 경우에만](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 접근성 | WCAG [2.0 AA 표준 준수](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | WCAG [2.0 AA 표준을 일부 준수하는 경우에만](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 구성 요소 목록 {#component-list}
 
@@ -123,8 +124,8 @@ ht-degree: 12%
 
 ## 핵심 구성 요소 업그레이드 {#upgrade-of-core-components}
 
-버전 관리 구성 요소의 한 가지 이점은 새 AEM 버전으로의 마이그레이션을 새 구성 요소 버전으로의 마이그레이션으로부터 분리할 수 있다는 것입니다. 또한 새 구성 요소 버전을 사용할 수 있는 경우 각 구성 요소를 새 버전으로 개별적으로 마이그레이션할 수 있습니다.
+버전 관리 구성 요소의 이점 중 하나는 새 AEM 버전으로 마이그레이션하는 것을 새 구성 요소 버전으로 마이그레이션하는 것에서 분리하는 것입니다. 또한 새 구성 요소 버전을 사용할 수 있는 경우 각 구성 요소를 새 버전으로 개별적으로 마이그레이션할 수 있습니다.
 
-새 AEM 버전으로 마이그레이션해도 핵심 구성 요소의 작동 방식에 영향을 주지 않습니다. 단, 해당 버전이 마이그레이션되는 새 AEM 버전도 지원합니다. 핵심 구성 요소에 대한 사용자 지정은 [더 이상 사용되지 않거나 제거된 API를 사용하지 않는 한 영향을 받지 않아야 합니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+새 AEM 버전으로 마이그레이션해도 핵심 구성 요소가 작동하는 방식에는 영향을 주지 않습니다. 단, 마이그레이션 중인 새 AEM 버전도 지원합니다. 핵심 구성 요소에 대한 사용자 지정은 [더 이상 사용되지 않거나 제거된 API를 사용하지 않는 한 영향을 받지 않아야 합니다](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 핵심 구성 요소의 새 버전으로 마이그레이션해도 구성 요소의 작동 방식에는 영향을 주지 않지만, 기본 동작을 원하지 않는 경우 템플릿 편집기의 일부 구성이 필요할 수 있는 페이지 작성자에게 새로운 기능이 도입될 수 있습니다. 하지만 사용자 지정을 수정해야 할 수도 있습니다. 자세한 내용은 핵심 구성 요소 [사용자 지정](customizing.md#upgrade-compatibility-of-customizations) 페이지를 참조하십시오.
