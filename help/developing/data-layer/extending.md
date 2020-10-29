@@ -2,9 +2,9 @@
 title: Adobe 클라이언트 데이터 레이어 확장
 description: 일부 기본 패턴에 따라 Adobe 클라이언트 데이터 레이어를 확장할 수 있습니다
 translation-type: tm+mt
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ ht-degree: 0%
 따라서 사용자 정의 Sling 모델에는 추가 필드를 반환하도록 확장되는 개체를 반환하는 `getData` 메서드가 있을 `ComponentData` 수 있습니다.
 
 이렇게 하면 데이터 레이어에 채울 데이터의 JSON과 함께 구성 요소의 HTML 요소에 `data-cmp-data-layer` 속성이 추가됩니다. 이때 이 데이터 또는 관련 이벤트를 수신하는 스크립트를 구현할 수 있습니다.
+
+>[!TIP]
+>
+>데이터 레이어의 유연성을 자세히 살펴보려면 사용자 지정 구성 요소에 대해 데이터 레이어를 활성화하는 방법을 포함한 통합 옵션에 대해 검토하십시오.
