@@ -2,10 +2,10 @@
 title: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용
 translation-type: tm+mt
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 4%
+source-wordcount: '893'
+ht-degree: 3%
 
 ---
 
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## 자습서
 
 데이터 레이어와 핵심 구성 요소를 자세히 살펴보시겠습니까? [이 실습 자습서를 확인하십시오](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+
+>[!TIP]
+>
+>데이터 레이어의 유연성을 자세히 살펴보려면 사용자 지정 구성 요소에 대해 데이터 레이어를 활성화하는 방법을 포함한 통합 옵션에 대해 검토하십시오.
