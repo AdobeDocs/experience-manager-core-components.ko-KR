@@ -2,9 +2,9 @@
 title: 양식 컨테이너 구성 요소
 description: 핵심 구성 요소 양식 컨테이너 구성 요소를 사용하면 간단한 제출 양식을 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '956'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 양식 컨테이너 구성 요소를 사용하면 간단한 WCM 양식을 지원하고 중첩된 구조를 사용하여 추가 양식 구성 요소를 허용하도록 간단한 정보 제출 양식 및 기능을 작성할 수 있습니다.
 
-컨텐츠 편집자는 [구성 대화](#configure-dialog) 상자를 사용하여 양식 제출 시 트리거되는 작업, 제출된 컨텐츠를 저장해야 하는 위치 및 워크플로우를 트리거해야 하는지 여부를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화](#design-dialog) 상자를 사용하여 템플릿 편집기의 [표준 레이아웃 컨테이너에 대한 디자인 대화 상자와 유사한 허용된 구성 요소 및 해당 매핑을 정의할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+컨텐츠 편집자는 [구성 대화](#configure-dialog) 상자를 사용하여 양식 제출, 제출을 처리해야 하는 URL 및 워크플로우를 트리거해야 하는지 여부를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화](#design-dialog) 상자를 사용하여 템플릿 편집기의 [표준 레이아웃 컨테이너에 대한 디자인 대화 상자와 유사한 허용된 구성 요소 및 해당 매핑을 정의할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ ht-degree: 2%
 
 선택한 작업 **유형에**&#x200B;따라 컨테이너 내의 사용 가능한 옵션이 달라집니다. 사용 가능한 작업 유형은 다음과 같습니다.
 
+* [게시물 양식 데이터](#post-data)
 * [메일](#mail)
 * [컨텐츠 저장](#store-content)
 
 유형에 관계없이 각 동작에 적용되는 [일반](#general-settings) 설정이 있습니다.
+
+### 게시물 양식 데이터 {#post-data}
+
+양식이 제출되면, 게시물 양식 데이터 작업 유형은 제출된 데이터를 처리를 위해 JSON으로 제3자에게 전달합니다.
+
+![양식 컨테이너 구성 요소의 편집 대화 상자에서 양식 데이터 게시 옵션](/help/assets/form-container-edit-post.png)
+
+* **끝점** - 데이터를 처리할 정규화된 HTTPS 서비스
+* **오류 메시지** - 제출이 실패할 경우 표시할 메시지입니다.
+
+>[!TIP]
+>시스템 관리자가 전달된 양식 데이터의 처리를 처리하기 위해 조정할 수 있는 추가 시간 제한 옵션이 있습니다. [자세한 내용은 GitHub에 대한 기술 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### 메일 {#mail}
 
@@ -82,6 +95,12 @@ ht-degree: 2%
 * **컨텐츠 경로** - 제출된 컨텐츠가 저장되는 컨텐츠 저장소 경로
 * **데이터** 보기 - 저장된 전송 데이터를 JSON으로 보려면 탭하거나 클릭합니다.
 * **워크플로우** 시작 - 양식 제출 시 저장된 컨텐츠를 페이로드로 사용하여 워크플로우를 시작하도록 구성
+
+>[!NOTE]
+>
+>사용자 데이터 관리를 간소화하고 우려 사항을 명확하게 하기 위해 일반적으로 사용자 생성 컨텐츠를 저장소 내에 저장하지 않는 것이 좋습니다.
+>
+>대신 [게시물 양식 데이터](#post-data) 작업 유형을 사용하여 전용 서비스 제공업체에 사용자 컨텐츠를 전달할 수 있습니다.
 
 ### 일반 설정 {#general-settings}
 
