@@ -2,9 +2,9 @@
 title: 클라이언트 라이브러리 포함
 description: 사용 사례에 따라 클라이언트 라이브러리를 포함하는 다양한 방법이 있습니다.
 translation-type: tm+mt
-source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
+source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -111,3 +111,26 @@ CSS를 인라인으로 만들려면, 사용할 `cssInline` 수 있습니다. 이
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## 컨텍스트 인식 CSS 및 JavaScript 로드 {#context-aware-loading}
+
+페이지 구성 [요소](/help/components/page.md) 또한 개발자가 정의한 컨텍스트 인식 CSS, JavaScript 또는 메타 태그를 로드할 수 있도록 지원합니다.
+
+이 작업은 다음 구조를 사용하기 위한 [컨텍스트 인식 리소스를](context-aware-configs.md) 만들어 `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` 수행합니다.
+
+```text
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+```
+
+[자세한 내용은 페이지 구성 요소에 대한 기술 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
