@@ -2,10 +2,10 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 8f57b555b06cbb193e0b94021c81193f016390b8
+source-git-commit: 836fc4a8544e4d5bdf352074385ee4aed9303b1d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 26%
+source-wordcount: '898'
+ht-degree: 25%
 
 ---
 
@@ -104,9 +104,13 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 시스템 요구 사항 {#system-requirements}
 
-| 코어 구성 요소 | 클라우드 서비스로서의 AEM | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
+| 코어 구성 요소 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
 |---------|---------|---------|---------|---------|---------|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 지속적인 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 지속적인 | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+
+>[!NOTE]
+>
+>(*) 버전 2.11.0부터 `org.apache.sling.models.impl` 버전 1.4.12 이상이 필요합니다(SLING- [8781](https://issues.apache.org/jira/browse/SLING-8781)때문). 이 서비스는 향후 서비스 팩에서 AEM 6.4 및 6.5용으로 제공됩니다. 그때까지 Sling Models 번들은 패키지에 `core.wcm.components.all` 포함됩니다.
 
 이전 코어 구성 요소 릴리스의 요구 사항은 [핵심 구성 요소 버전을 참조하십시오](versions.md).
 
