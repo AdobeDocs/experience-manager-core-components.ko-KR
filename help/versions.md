@@ -2,17 +2,17 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법을 설명합니다.
 translation-type: tm+mt
-source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
+source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 23%
+source-wordcount: '1848'
+ht-degree: 22%
 
 ---
 
 
 # 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.12.0이며 Cloud Service [및](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 온프레미스 AEM [설치로서](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) AEM과 호환됩니다. 릴리스 2.0.0에 대한 중요한 업데이트로 2020년 10월에 출시되었습니다. 릴리스 2.0.0에서는 기존 구성 요소의 v2 업데이트와 함께 새로운 구성 요소를 도입했습니다.
+핵심 구성 요소의 현재 릴리스는 2.12.1이며 Cloud Service [및](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 온프레미스 AEM [설치로서](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) AEM과 호환됩니다. 2.12.0에 대한 패치 릴리스로 2020년 11월에 출시되었습니다. 릴리스 2.12.0에서는 양식, 메타데이터 및 데이터 레이어에 대한 몇 가지 새로운 기능을 도입했습니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -24,10 +24,11 @@ ht-degree: 23%
 
 전체 릴리스 세부 [정보와 함께 GitHub에서](https://github.com/adobe/aem-core-wcm-components/releases)사용할 수 있는 컨텐츠는 다음 표에 핵심 구성 요소의 릴리스 및 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요를 제공합니다.
 
-| 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM | Java | 릴리스 날짜 |
+| 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 이 릴리스 [는 새로운 POST 양식 핸들러를 도입했습니다.](/help/components/forms/form-container.md#post-data) 컨텍스트 인식 구성을 통해 사용자 지정 CSS, Javascript 및 메타데이터 [태그를 포함하는 기능;](/help/developing/including-clientlibs.md#context-aware-loading) 사용자 `DataLayerBuilder` 정의 구성 요소에서 데이터 [레이어 통합을 간소화하는 유틸리티](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 10월 29일 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 이 릴리스에서는 [AMP 지원이 도입되었습니다.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 7월 20일 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | 이미지 구성 요소의 주요 버그를 수정하는 2.12.0용 패치 릴리스입니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 11월 5일 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 이 릴리스 [는 새로운 POST 양식 핸들러를 도입했습니다.](/help/components/forms/form-container.md#post-data) 컨텍스트 인식 구성을 통해 사용자 지정 CSS, Javascript 및 메타데이터 [태그를 포함하는 기능;](/help/developing/including-clientlibs.md#context-aware-loading) 사용자 `DataLayerBuilder` 정의 구성 요소에서 데이터 [레이어 통합을 간소화하는 유틸리티](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 10월 29일 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 이 릴리스에서는 [AMP 지원이 도입되었습니다.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 7월 20일 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 이 릴리스에서는 [PDF 뷰어 구성 요소가 도입되었습니다.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 지속적인 | 8, 11 | 2020년 6월 17일 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 이 릴리스는 [Adobe 클라이언트 데이터 레이어와의 통합을 활성화했으며](/help/developing/data-layer/overview.md) 진행률 [표시줄 구성 요소를 도입했습니다.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 지속적인 | 8, 11 | 2020년 5월 29일 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 이 릴리스는 작은 개선 사항이 있는 수정 사항에 중점을 두었습니다. | 6.4.4.0+ | 6.5.0.0+ | 지속적인 | 8, 11 | 2019년 12월 5일 |
@@ -51,6 +52,10 @@ ht-degree: 23%
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 핵심 구성 요소의 초기 릴리스. | 6.4.0.0+ | - | - | 7 | 2017년 3월 20일 |
 
 >[!NOTE]
+>
+>(*) 버전 2.11.0부터 `org.apache.sling.models.impl` 버전 1.4.12 이상이 필요합니다(SLING- [8781](https://issues.apache.org/jira/browse/SLING-8781)때문). 이 서비스는 향후 서비스 팩에서 AEM 6.4 및 6.5용으로 제공됩니다. 그때까지 Sling Models 번들은 패키지에 `core.wcm.components.all` 포함됩니다.
+
+>[!TIP]
 >
 >AEM에서와 마찬가지로, 개발자는 최신 수정 사항 및 기능을 활용하기 위해 실행 중인 AEM 버전과 호환되는 [최신 릴리스와 버전의 핵심 구성](https://github.com/adobe/aem-core-wcm-components/releases/latest) 요소를 사용하는 것이 좋습니다.
 
