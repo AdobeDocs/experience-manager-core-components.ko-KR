@@ -2,10 +2,10 @@
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
+source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 7%
+source-wordcount: '1280'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ AEM Project Tranype은 최소한의 모범 사례 기반 Adobe Experience Manage
 * **머리글 및 바닥글:** 구성 요소의 [로컬라이제이션 기능을 사용하여 코드 없이 구성 및 현지화할 수 있습니다](https://docs.adobe.com/content/help/ko-KR/experience-manager-core-components/using/get-started/localization.html).
 * **스타일 시스템:** 작성자가 다른 스타일을 [적용할 수 있도록 하여 사용자 지정 구성 요소를](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) 작성하지 마십시오.
 * **프런트 엔드 빌드:** 프런트 엔드 개발자는 [웹 팩, TypeScript](uifrontend.md#webpack-dev-server) 및 SASS를 사용하여 AEM 페이지 [를 만들고 클라이언트 라이브러리를](uifrontend.md) 구축할 수 있습니다.
-* **WebApp-Ready:** React [또](uifrontend-react.md) 는 Angular [를 사용하는 사이트의 경우](uifrontend-angular.md)SPA SDK [를](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) 사용하여 앱 [컨텍스트 작성](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
+* **WebApp-Ready:** React [또는 Angular](uifrontend-react.md) 를 사용하는 사이트에서는 [SPA SDK](uifrontend-angular.md)를 [사용하여](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) 앱 [의 컨텍스트](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)내 저작을 유지할 수 있습니다.
 * **상거래 활성화:** 커머스 코어 구성 요소를 사용하여 [Magento과](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) 같은 상거래 솔루션과 [AEM](https://magento.com/) 커머스 [를 통합하려는](https://github.com/adobe/aem-core-cif-components)프로젝트의경우.
 * **예제 코드:** HelloWorld 구성 요소와 샘플 모델, 서블릿, 필터 및 스케줄러를 체크 아웃합니다.
 * **오픈 소스:** 만약 어떤 것이 제대로 되어 있지 않다면, [여러분의 개선점을](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 기부하라!
@@ -80,7 +80,7 @@ mvn -B archetype:generate \
 | `aemVersion` | `cloud` | Target AEM 버전(Cloud Service `cloud` 로 [AEM용으로 사용할 수 있음](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html))또는 `6.5.0`Adobe `6.4.4` Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스)를 사용할 수 있습니다. |
 | `sdkVersion` | `latest` | SDK `aemVersion=cloud` 버전 [을 지정할](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 수 있는 경우(예: `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | 값(또는 `aemVersion` )에 따라 클라우드 또는 AMS/on-premise용 디스패처 구성을 `y` `n`포함합니다. |
-| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프런트 엔드 빌드 모듈(일반 사이트일 수도 `general` 또는 `none` 에 사용할 수 있음)을 포함합니다.SPA 편집기 `angular` 를 구현하는 단일 페이지 앱에 대해 `react` 또는 [사용할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html). |
+| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프런트 엔드 빌드 모듈(일반 사이트일 수도 `general` 또는 `none` 에 사용할 수 있음)을 포함합니다.spa 편집기 `angular` 를 구현하는 단일 페이지 앱에 대해 `react` 또는 [사용할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html). |
 | `language` | `en` | 언어 코드(예: `en`, `deu`). |
 | `country` | `us` | 국가 번호(ISO 3166-1)를 사용하여 콘텐츠 구조를 만드는 방법(예: `US`). |
 | `singleCountry` | `y` | 언어 마스터 컨텐츠 구조를 포함합니다( `y`또는 `n`). |
@@ -91,9 +91,24 @@ mvn -B archetype:generate \
 | `datalayer` | `y` | Adobe 클라이언트 [데이터 레이어와의 통합을 활성화합니다](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | 생성된 [프로젝트 템플릿에](/help/developing/amp.md) 대한 AMP 지원을 활성화합니다. |
 
+## 분석기 모듈 {#analyzer-module}
+
+AEM analyzer Maven 플러그인은 다양한 컨텐츠 패키지 프로젝트의 구조를 분석합니다.
+
+AEM [마스터 프로젝트에 이를 포함하는 방법에 대한 자세한 내용은 AEM Analyzer Maven 플러그인 설명서를](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) 참조하십시오. 이 플러그인은 AEM Maven 원형형 버전 25 이상에 포함되어 있습니다.
+
+다음은 이 단계의 일부로 실행되는 분석기를 설명하는 표입니다. 일부는 로컬 SDK에서 실행되는 반면 다른 일부는 Cloud Manager 파이프라인 배포 중에만 실행됩니다.
+
+| 모듈 | 함수, 예 및 문제 해결 | 로컬 SDK | Cloud Manager |
+|---|---|---|---|
+| `api-regions-exportsimports` | 모든 OSGI 번들이 Maven 프로젝트에 포함된 다른 번들의 Export-package 선언에서 충족한 Import-Package 선언이 있는지 확인합니다. <p> </p> 문제를 해결하려면 잘못된 이름 또는 잘못된 버전이 사용되었는지 확인하기 위해 내보낼 번들의 매니페스트를 확인하십시오. | 예 | 예 |
+| `requirements-capabilities` | OSGI 번들에서 수행된 모든 요구 사항 선언이 Maven 프로젝트에 포함된 다른 번들의 기능 선언에 만족하는지 확인합니다. <p> </p> 문제를 해결하려면 누락된 이유를 확인하는 기능을 선언해야 할 번들의 매니페스트를 확인하십시오. | 예 | 예 |
+| `bundle-content` | 번들에 Sling-Initial-Content로 지정된 초기 컨텐츠가 포함되어 있는 경우 Cloud Service 클러스터된 환경으로서 AEM에서 문제가 되는 경고 메시지가 표시됩니다. | 예 | 예 |
+| `api-regions-crossfeature-dups` | 고객 OSGI 번들에 AEM을 Cloud Service의 공용 API로 재정의하는 내보내기 패키지 선언이 없는지 확인합니다. | 예 | 예 |
+
 ## 시스템 요구 사항
 
-| 원형 | 클라우드 서비스로서의 AEM | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
+| 원형 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
 |---------|---------|---------|---------|---------|---------|
 | [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 지속적인 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
