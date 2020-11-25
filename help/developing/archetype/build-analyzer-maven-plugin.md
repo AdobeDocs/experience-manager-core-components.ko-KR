@@ -2,9 +2,9 @@
 title: AEM as Cloud Service SDK Build Analyzer Maven Plugin
 description: 로컬 Maven 빌드 분석기 플러그인에 대한 설명서
 translation-type: tm+mt
-source-git-commit: a58434ebf7ae72472989f2e55d40bfa22fd99208
+source-git-commit: abb43865278f884555d1bb963686ccc561f319b5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 3%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # AEM as Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
 
-AEM analyzer Maven 플러그인은 다양한 컨텐츠 패키지 프로젝트의 구조를 분석합니다.
+AEM as a Cloud Service SDK Build Analyzer Maven Plugin은 다양한 콘텐츠 패키지 프로젝트의 구조를 분석합니다.
 
 AEM [마스터 프로젝트에 이를 포함하는 방법에 대한 자세한 내용은 AEM Analyzer Maven 플러그인 설명서를](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) 참조하십시오.
 
-다음은 이 단계의 일부로 실행되는 분석기를 설명하는 표입니다. 일부는 로컬 SDK에서 실행되는 반면 다른 일부는 Cloud Manager 파이프라인 배포 중에만 실행됩니다.
+다음은 이 단계의 일부로 실행되는 분석기를 설명하는 표입니다. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | 모듈 | 함수, 예 및 문제 해결 | 로컬 SDK | Cloud Manager |
 |---|---|---|---|
