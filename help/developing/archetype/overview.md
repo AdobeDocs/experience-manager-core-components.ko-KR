@@ -2,10 +2,10 @@
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 6%
+source-wordcount: '1035'
+ht-degree: 7%
 
 ---
 
@@ -90,21 +90,6 @@ mvn -B archetype:generate \
 | `commerceEndpoint` |  | CIF에만 필요합니다. 사용할 상거래 시스템 GraphQL 서비스의 선택 끝점(예: `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Adobe 클라이언트 [데이터 레이어와의 통합을 활성화합니다](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | 생성된 [프로젝트 템플릿에](/help/developing/amp.md) 대한 AMP 지원을 활성화합니다. |
-
-## 분석기 모듈 {#analyzer-module}
-
-AEM analyzer Maven 플러그인은 다양한 컨텐츠 패키지 프로젝트의 구조를 분석합니다.
-
-AEM [마스터 프로젝트에 이를 포함하는 방법에 대한 자세한 내용은 AEM Analyzer Maven 플러그인 설명서를](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) 참조하십시오. 이 플러그인은 AEM Maven 원형형 버전 25 이상에 포함되어 있습니다.
-
-다음은 이 단계의 일부로 실행되는 분석기를 설명하는 표입니다. 일부는 로컬 SDK에서 실행되는 반면 다른 일부는 Cloud Manager 파이프라인 배포 중에만 실행됩니다.
-
-| 모듈 | 함수, 예 및 문제 해결 | 로컬 SDK | Cloud Manager |
-|---|---|---|---|
-| `api-regions-exportsimports` | 모든 OSGI 번들이 Maven 프로젝트에 포함된 다른 번들의 Export-package 선언에서 충족한 Import-Package 선언이 있는지 확인합니다. <p> </p> 문제를 해결하려면 잘못된 이름 또는 잘못된 버전이 사용되었는지 확인하기 위해 내보낼 번들의 매니페스트를 확인하십시오. | 예 | 예 |
-| `requirements-capabilities` | OSGI 번들에서 수행된 모든 요구 사항 선언이 Maven 프로젝트에 포함된 다른 번들의 기능 선언에 만족하는지 확인합니다. <p> </p> 문제를 해결하려면 누락된 이유를 확인하는 기능을 선언해야 할 번들의 매니페스트를 확인하십시오. | 예 | 예 |
-| `bundle-content` | 번들에 Sling-Initial-Content로 지정된 초기 컨텐츠가 포함되어 있는 경우 Cloud Service 클러스터된 환경으로서 AEM에서 문제가 되는 경고 메시지가 표시됩니다. | 예 | 예 |
-| `api-regions-crossfeature-dups` | 고객 OSGI 번들에 AEM을 Cloud Service의 공용 API로 재정의하는 내보내기 패키지 선언이 없는지 확인합니다. | 예 | 예 |
 
 ## 시스템 요구 사항
 
