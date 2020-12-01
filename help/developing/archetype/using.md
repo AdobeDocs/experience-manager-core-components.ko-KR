@@ -14,9 +14,9 @@ ht-degree: 1%
 
 AEM Project Tranype은 AEM 프로젝트의 시작점으로 최소 수준의 모범 사례 기반의 Adobe Experience Manager 프로젝트를 만듭니다. 이 원형 유형을 사용할 때 제공해야 하는 속성을 사용하면 이 프로젝트의 모든 부분에 대한 이름을 지정할 수 있을 뿐만 아니라 특정 선택적 기능을 제어할 수 있습니다.
 
-## 원형을 사용하는 이유 {#why-use-the-archetype}
+## 원형 {#why-use-the-archetype}을 사용하는 이유
 
-AEM 프로젝트 원형을 사용하면 몇 번의 키 입력만으로 모범 사례 기반의 AEM 프로젝트를 구축하는 데 걸리는 시간을 단축할 수 있습니다. 원형대로 하면 모든 조각들이 이미 제자리에 놓일 것이고, 따라서 프로젝트를 최소한으로 수행하면서 AEM의 모든 [주요 기능들을](#what-you-get) 이미 구현하므로 여러분이 해야 할 일은 위에 서고 확장되는 것입니다.
+AEM 프로젝트 원형을 사용하면 몇 번의 키 입력만으로 모범 사례 기반의 AEM 프로젝트를 구축하는 데 걸리는 시간을 단축할 수 있습니다. 원형대로 사용하면 모든 조각이 이미 제자리에 있게 되므로, 결과 프로젝트는 최소한으로 수행되지만 AEM의 [주요 기능](#what-you-get)을 모두 이미 구현하므로 여러분이 해야 할 일은 모두 위쪽에서 쌓고 확장만 하면 됩니다.
 
 물론 성공적인 AEM 프로젝트에 참여하는 많은 요소들이 있지만 AEM 프로젝트 원형형을 사용하는 것은 건전한 기반이며 AEM 프로젝트에 적극 권장됩니다.
 
@@ -24,22 +24,22 @@ AEM 프로젝트 원형을 사용하면 몇 번의 키 입력만으로 모범 �
 
 프로젝트 원형을 사용하면 AEM에서 개발을 쉽게 시작할 수 있습니다. 다양한 방법으로 첫 단계를 진행할 수 있습니다.
 
-* WKND 튜토리얼 - 원형형을 활용하는 방법을 포함하여 AEM에서 개발하는 방법에 대한 자세한 내용은 [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 을 참조하십시오. 이 자습서에서는 전형적인 유형을 사용하여 간단한 프로젝트를 구현할 수 있는 실용적인 예를 제공합니다.
-* WKND 이벤트 자습서 - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 특히 관심이 있는 경우 전용 WKND 이벤트 자습서를 [확인하십시오](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
-* 직접 다운로드하여 시작해 보세요! - GitHub에서 제공되는 최신 프로젝트 원형 유형을 손쉽게 다운로드할 수 있으며 아래 [의 간단한 단계를 통해 첫 번째 프로젝트를 제작할 수 있습니다](#how-to-use-the-archetype).
+* WKND 자습서 - 원형형을 활용하는 방법을 포함하여 AEM에서 개발하는 방법에 대한 자세한 내용은 원형 유형을 사용하여 간단한 프로젝트를 구현할 수 있는 실용적인 예제에 대한 자세한 내용은 [AEM Sites 시작하기 - WKND 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)를 참조하십시오.
+* WKND 이벤트 자습서 - AEM의 단일 페이지 애플리케이션(SPA) 개발에 특히 관심이 있는 경우 전용 [WKND 이벤트 자습서](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)를 확인하십시오.
+* 직접 다운로드하여 시작해 보세요! - GitHub에서 사용 가능한 현재 프로젝트 원형 유형을 쉽게 다운로드할 수 있고 ](#how-to-use-the-archetype) 아래의 간단한 단계에 따라 [에서 첫 프로젝트를 만들 수 있습니다.
 
-## 원형을 통해 얻을 수 있는 이점 {#what-you-get}
+## 원형 {#what-you-get}
 
 AEM Tranype은 다음과 같은 모듈로 구성됩니다.
 
 * **[코어](core.md)**:는 OSGi 서비스, 청취자 및 일정기와 같은 모든 핵심 기능뿐만 아니라 서블릿 및 요청 필터와 같은 구성 요소 관련 Java 코드가 포함된 Java 번들입니다.
-* **[ui.apps](uiapps.md)**:에는 프로젝트의 `/apps` 부분과 `/etc` 부분, 즉 JS 및 CSS clientlibs, components, templates, runmode-specific configs and as Hobes tests.
+* **[ui.apps](uiapps.md)**:에는 프로젝트의  `/apps` 및  `/etc` 부분, 즉 JS 및 CSS clientlibs, 구성 요소, 템플릿, 런타임 모드 특정 구성 및 Hobes 테스트가 포함됩니다.
 * **[ui.content](uicontent.md)**:ui.apps 모듈의 구성 요소를 사용하는 샘플 컨텐츠를 포함합니다.
 * **[ui.tests](uitests.md)**:은 서버측에서 실행되는 JUnit 테스트가 들어 있는 Java 번들입니다. 이 번들은 프로덕션에 배포되지 않습니다.
 * **ui.launcher**:ui.tests 번들(및 종속 번들)을 서버에 배포하고 원격 JUnit 실행을 트리거하는 링크 코드를 포함합니다.
-* **[ui.frontend.general](uifrontend.md)**: **(선택 사항)** 일반 웹 팩 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
-* **[ui.frontend.response](uifrontend-react.md)**: **(선택 사항)** 원형형을 사용하여 React를 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
-* **[ui.frontend.angular](uifrontend-angular.md)**: **(선택 사항)** 원형(Angun)을 사용하여 SPA 프로젝트를 생성할 때 필요한 가공물이 포함되어 있습니다.
+* **[ui.frontend.general](uifrontend.md)**: **(선택 사항)** 에는 일반 Webpack 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 결함이 포함되어 있습니다.
+* **[ui.frontend.response](uifrontend-react.md)**: **(선택 사항)** 에는 원형 툴을 사용하여 [반응]을 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
+* **[ui.frontend.angular](uifrontend-angular.md)**: **(선택 사항)** 에는 원형(Angular)을 사용하여 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
 
 ![](/help/assets/archetype-structure.png)
 
@@ -47,13 +47,13 @@ Maven에 대표되는 AEM 원형형 모듈은 애플리케이션, 컨텐츠 및 
 
 ## 원형 사용 방법 {#how-to-use-the-archetype}
 
-원형을 사용하려면 먼저 프로젝트를 만들어야 하며, 이 경우 [이전에 설명한 대로 로컬 파일 구조에 모듈을 생성합니다](#what-you-get). 프로젝트 생성의 일부로 프로젝트 이름, 버전 등과 같이 프로젝트에 대한 많은 속성을 정의할 수 있습니다.
+원형을 사용하려면 먼저 프로젝트를 만들어야 합니다. 이 경우 이전에 설명한 [과 같이 로컬 파일 구조에 모듈을 생성합니다. ](#what-you-get) 프로젝트 생성의 일부로 프로젝트 이름, 버전 등과 같이 프로젝트에 대한 많은 속성을 정의할 수 있습니다.
 
 Maven을 사용하여 프로젝트를 빌드하면 AEM에 배포할 수 있는 객체(패키지 및 OSGi 번들)가 만들어집니다. 추가적인 Maven 명령과 프로필을 사용하여 프로젝트 객체를 AEM 인스턴스에 배포할 수 있습니다.
 
 ### 프로젝트 만들기 {#create-project}
 
-먼저 [AEM Eclipse 익스텐션을](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) 사용하고 새로운 프로젝트 마법사를 따라 **AEM Sample Multi-Module Project** 를 선택하여 출시된 원형 버전을 사용할 수 있습니다.
+시작하려면 [AEM Eclipse 익스텐션](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html)을 사용하고 새 프로젝트 마법사를 따라 **AEM 샘플 다중 모듈 프로젝트**&#x200B;를 선택하여 출시된 원형 버전을 사용하십시오.
 
 물론 마벤을 직접 불러오셔도 됩니다
 
@@ -70,20 +70,21 @@ mvn -B archetype:generate \
  -D includeExamples=n
 ```
 
-* 최신 AEM Project Tranype `XX` 의 [버전 번호로](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) 설정합니다.
-* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
-   `aemVersion=6.5.0` Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)또는 온프레미스 설정
-핵심 구성 요소는 AEM용 OOTB를 CloudService로 제공하므로 비 클라우드 aem 버전에 대해서만 코어 구성 요소 종속성이 추가됩니다.
-* 웹 사이트 제목 및 구성 요소 그룹 `appTitle="My Site"` 을 정의하려면 조정합니다.
-* 클라이언트 라이브러리 이름 `appId="mysite"` 은 물론 구성 요소, 구성 요소, 구성 및 컨텐츠 폴더 이름을 정의하기 위해 조정합니다.
-* Maven groupId `groupId="com.mysite"` 와 Java 소스 패키지를 정의하도록 조정합니다.
+* `XX`을 최신 AEM 프로젝트 원형형의 [버전 번호](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)로 설정합니다.
+* [AEM에 대해 `aemVersion=cloud`을 Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)으로 설정합니다.\
+   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스에 대해 `aemVersion=6.5.0`을 설정합니다.
+핵심 구성 요소가 AEM용 OOTB를 클라우드로 제공되므로 핵심 구성 요소 종속성은 비 클라우드 aem 버전에 대해서만 추가됩니다
+서비스.
+* 웹 사이트 제목 및 구성 요소 그룹을 정의하려면 `appTitle="My Site"`을 조정합니다.
+* `appId="mysite"`을 조정하여 클라이언트 라이브러리 이름은 물론 구성 요소, 구성 및 컨텐츠 폴더 이름을 정의합니다.
+* `groupId="com.mysite"`을 조정하여 Maven groupId 및 Java 소스 패키지를 정의합니다.
 * 사용 가능한 속성 목록을 조회하여 조정할 추가 사항이 있는지 확인합니다.
 
 >[!NOTE]
 >
->전문적인 빌드 프로세스에 repo.adobe.com을 자동으로 추가하려면 Maven `adobe-public` `settings.xml` 파일에 프로필을 추가하는 것이 좋습니다.
+>maven 빌드 프로세스에 repo.adobe.com을 자동으로 추가하려면 `adobe-public` 프로필을 Maven `settings.xml` 파일에 추가하는 것이 좋습니다.
 >
->예제 POM은 여기에서 찾을 [수 있습니다](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>POM [의 예는](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)에서 찾을 수 있습니다.
 
 ### 속성 {#properties}
 
@@ -91,43 +92,43 @@ mvn -B archetype:generate \
 
 | 이름 | 기본값 | 설명 |
 --------------------------|----------------|--------------------
-| `appTitle` |  | 애플리케이션 제목은 웹 사이트 제목 및 구성 요소 그룹(예: `"My Site"`). |
-| `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예: `"mysite"`). |
-| `artifactId` | *`${appId}`* | 기본 마비안 아티팩트 ID(예: `"mysite"`). |
-| `groupId` |  | 기본 마비안 그룹 ID(예: `"com.mysite"`). |
-| `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`). |
-| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Target AEM 버전(Cloud Service `cloud` 로 [AEM용으로 사용할 수 있음](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html))또는 `6.5.0`Adobe `6.4.4` Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스)를 사용할 수 있습니다. |
-| `sdkVersion` | `latest` | SDK `aemVersion=cloud` 버전 [을 지정할](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 수 있는 경우(예: `2020.02.2265.20200217T222518Z-200130`). |
-| `includeDispatcherConfig` | `y` | 값(또는 `aemVersion` )에 따라 클라우드 또는 AMS/on-premise용 디스패처 구성을 `y` `n`포함합니다. |
-| `frontendModule` | `none` | 클라이언트 라이브러리를 생성하는 Webpack 프런트 엔드 빌드 모듈(일반 사이트일 수도 `general` 또는 `none` 에 사용할 수 있음)을 포함합니다.SPA 편집기 `angular` 를 구현하는 단일 페이지 앱에 대해 `react` 또는 [사용할 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html). |
-| `languageCountry` | `en_us` | 컨텐츠 구조를 만드는 언어 및 국가 코드(예: `en_us`). |
-| `singleCountry` | `y` | 언어 마스터 컨텐츠 구조를 포함합니다( `y`또는 `n`). |
-| `includeExamples` | `y` | 구성 요소 [라이브러리](https://www.aemcomponents.dev/) 예제 사이트( `y`또는 `n`)를 포함합니다. |
-| `includeErrorHandler` | `n` | 전체 인스턴스( `y` 또는 `n`)에 대해 글로벌할 사용자 지정 404 응답 페이지를 포함합니다. |
+| `appTitle` |  | 애플리케이션 제목은 웹 사이트 제목 및 구성 요소 그룹(예:`"My Site"`). |
+| `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예:`"mysite"`). |
+| `artifactId` | *`${appId}`* | 기본 마비안 아티팩트 ID(예:`"mysite"`). |
+| `groupId` |  | 기본 마비안 그룹 ID(예:`"com.mysite"`). |
+| `package` | *`${groupId}`* | Java 소스 패키지(예:`"com.mysite"`). |
+| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예:`1.0-SNAPSHOT`). |
+| `aemVersion` | `6.5.0` | Target AEM 버전(Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);으로 [AEM의 경우 `cloud`일 수 있음)또는 `6.5.0`, [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스)용 `6.4.4`. |
+| `sdkVersion` | `latest` | `aemVersion=cloud`SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전을 지정할 수 있는 경우(예:`2020.02.2265.20200217T222518Z-200130`).[ |
+| `includeDispatcherConfig` | `y` | `aemVersion` 값(`y` 또는 `n`일 수 있음)에 따라 클라우드 또는 AMS/on-premise용 디스패처 구성을 포함합니다. |
+| `frontendModule` | `none` | 클라이언트 라이브러리를 생성하는 Webpack 프런트 엔드 빌드 모듈을 포함합니다(일반 사이트에 대해 `general` 또는 `none`일 수 있음).[SPA 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)를 구현하는 단일 페이지 앱의 경우 `angular` 또는 `react`일 수 있습니다. |
+| `languageCountry` | `en_us` | 컨텐츠 구조를 만드는 언어 및 국가 코드(예:`en_us`). |
+| `singleCountry` | `y` | 언어 마스터 콘텐츠 구조를 포함합니다(`y` 또는 `n` 가능). |
+| `includeExamples` | `y` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예제 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
+| `includeErrorHandler` | `n` | 전체 인스턴스(`y` 또는 `n`일 수 있음)로 글로벌할 사용자 지정 404 응답 페이지를 포함합니다. |
 
 >[!NOTE]
 >
-> 원형이 처음 대화형 모드에서 실행되는 경우, 기본값이 있는 속성은 변경할 수 없습니다(자세한 내용은 [TRANYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 마지막 속성 확인이 거부되고 질문서가 반복되거나 명령줄의 매개 변수(예: `-DoptionIncludeExamples=n`).
+> 원형이 처음 대화형 모드에서 실행되는 경우 기본값이 있는 속성을 변경할 수 없습니다(자세한 내용은 [TRANYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 마지막 속성 확인이 거부되고 질문서가 반복되거나 명령줄의 매개 변수(예:`-DoptionIncludeExamples=n`).
 
 >[!NOTE]
 >
->Windows에서 실행하고 디스패처 구성을 생성하는 경우 관리자 권한 명령 프롬프트 또는 Linux용 Windows 하위 시스템에서 실행해야 합니다( [문제 329](https://github.com/adobe/aem-project-archetype/issues/329)참조).
+>Windows에서 실행하고 디스패처 구성을 생성하는 경우 관리자 권한 명령 프롬프트 또는 Linux용 Windows 하위 시스템에서 실행 중이어야 합니다([발행물 329](https://github.com/adobe/aem-project-archetype/issues/329) 참조).
 
 ### 프로파일 {#profiles}
 
-생성된 마스터 프로젝트는 실행 시 다른 배포 프로필을 지원합니다 `mvn install`.
+생성된 마스터 프로젝트는 `mvn install`을(를) 실행할 때 다른 배포 프로필을 지원합니다.
 
 | 프로필 ID | 설명 |
 --------------------------|------------------------------
 | `autoInstallBundle` | felix console에 maven-sling-plugin을 사용하여 코어 번들 설치 |
-| `autoInstallPackage` | localhost, port 4502에서 기본 작성 인스턴스를 설정하려면 패키지 관리자에 content-package-maven-plugin을 사용하여 ui.content 및 ui.apps 컨텐츠 패키지를 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자 정의 속성으로 변경할 수 있습니다. |
-| `autoInstallPackagePublish` | localhost, port 4503에서 기본적으로 게시 인스턴스를 게시하려면 content-package-maven-plugin이 포함된 ui.content 및 ui.apps 컨텐츠 패키지를 패키지 관리자에게 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자 정의 속성으로 변경할 수 있습니다. |
-| `autoInstallSinglePackage` | localhost, port 4502에서 기본 작성 인스턴스를 설정하려면 패키지 관리자에 content-package-maven-plugin을 사용하여 `all` 컨텐츠 패키지를 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자 정의 속성으로 변경할 수 있습니다. |
-| `autoInstallSinglePackagePublish` | localhost, port 4503에서 기본 게시 인스턴스를 설정하려면 패키지 관리자에 content-package-maven-plugin을 사용하여 `all` 컨텐츠 패키지를 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자 정의 속성으로 변경할 수 있습니다. |
-| `integrationTests` | AEM 인스턴스에서 제공된 통합 테스트를 `verify` 실행합니다(단계에 대해서만). |
+| `autoInstallPackage` | localhost, port 4502에서 기본 작성 인스턴스를 설정하려면 패키지 관리자에 content-package-maven-plugin을 사용하여 ui.content 및 ui.apps 컨텐츠 패키지를 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자가 정의한 속성으로 변경할 수 있습니다. |
+| `autoInstallPackagePublish` | localhost, port 4503에서 기본적으로 게시 인스턴스를 게시하려면 content-package-maven-plugin이 포함된 ui.content 및 ui.apps 컨텐츠 패키지를 패키지 관리자에게 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자가 정의한 속성으로 변경할 수 있습니다. |
+| `autoInstallSinglePackage` | localhost, port 4502에서 기본 작성 인스턴스를 설정하려면 패키지 관리자에 content-package-maven-plugin이 포함된 `all` 컨텐츠 패키지를 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자가 정의한 속성으로 변경할 수 있습니다. |
+| `autoInstallSinglePackagePublish` | localhost, port 4503에서 게시 인스턴스를 기본값으로 설정하려면 패키지 관리자에 content-package-maven-plugin이 포함된 `all` 컨텐츠 패키지를 설치합니다. 호스트 이름 및 포트는 `aem.host` 및 `aem.port` 사용자가 정의한 속성으로 변경할 수 있습니다. |
+| `integrationTests` | AEM 인스턴스에서 제공된 통합 테스트를 실행합니다(`verify` 단계에만 해당). |
 
-### 빌드 및 설치 {#building-and-installing}
+### {#building-and-installing} 빌드 및 설치
 
 프로젝트 루트 디렉토리에서 실행되는 모든 모듈을 빌드하려면 다음 마웬 명령을 사용합니다.
 
@@ -161,15 +162,15 @@ mvn clean install -PautoInstallBundle
 
 ## 상위 POM {#parent-pom}
 
-프로젝트 루트 `pom.xml` (`<src-directory>/<project>/pom.xml`)에 있는 POM을 상위 POM이라고 하며 프로젝트의 구조를 만들고 프로젝트의 종속성 및 특정 전역 속성을 관리합니다.
+프로젝트(`<src-directory>/<project>/pom.xml`)의 루트에 있는 `pom.xml`은 상위 POM이라고 하며 프로젝트 구조를 구동할 뿐만 아니라 프로젝트의 종속성 및 특정 전역 속성을 관리합니다.
 
 ### 전역 프로젝트 속성 {#global-properties}
 
-상위 POM의 `<properties>` 섹션은 사용자 이름/암호, 호스트 이름/포트 등과 같은 AEM 인스턴스에서 프로젝트를 배포하는 데 중요한 몇 가지 전역 속성을 정의합니다.
+상위 POM의 `<properties>` 섹션은 사용자 이름/암호, 호스트 이름/포트 등과 같이 AEM 인스턴스에서 프로젝트를 배포하는 데 중요한 여러 전역 속성을 정의합니다.
 
 이러한 속성은 개발자가 수행하는 가장 일반적인 빌드이므로 로컬 AEM 인스턴스에 배포하도록 설정됩니다. 게시 인스턴스와 작성자 인스턴스에 배포할 속성이 있습니다. 또한 AEM 인스턴스로 인증하도록 자격 증명을 설정하는 곳이기도 합니다. 기본 admin:admin 자격 증명이 사용됩니다.
 
-이러한 속성은 상위 수준 환경에 배포할 때 재정의할 수 있도록 설정됩니다. 이러한 방식으로 POM 파일은 변경할 필요가 없지만 명령줄 인수를 통해 다음과 같은 변수 `aem.host` 를 재정의할 `sling.password` 수 있습니다.
+이러한 속성은 상위 수준 환경에 배포할 때 재정의할 수 있도록 설정됩니다. 이러한 방식으로 POM 파일은 변경할 필요가 없지만 `aem.host` 및 `sling.password` 같은 변수는 명령줄 인수를 통해 재정의할 수 있습니다.
 
 ```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
@@ -177,15 +178,15 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 모듈 구조 {#module-structure}
 
-상위 POM의 `<modules>` 섹션은 프로젝트가 빌드할 모듈을 정의합니다. 기본적으로 프로젝트는 이전에 정의된 표준 모듈 [을 빌드합니다](#what-you-get).core, ui.apps, ui.content, ui.tests 및 it.launcher. 프로젝트의 진화에 따라 더 많은 모듈을 추가할 수 있습니다.
+상위 POM의 `<modules>` 섹션에서는 프로젝트가 빌드할 모듈을 정의합니다. 기본적으로 프로젝트는 [이전에 정의된 표준 모듈을 빌드합니다](#what-you-get).core, ui.apps, ui.content, ui.tests 및 it.launcher. 프로젝트의 진화에 따라 더 많은 모듈을 추가할 수 있습니다.
 
 ### 종속성 {#dependencies}
 
-상위 POM의 `<dependencyManagement>` 섹션은 프로젝트에서 사용되는 API의 모든 종속성 및 버전을 정의합니다. 버전은 상위 POM에서 관리해야 합니다. 코어 및 ui.apps와 같은 하위 모듈에는 버전 정보가 포함되지 않아야 합니다.
+상위 POM의 `<dependencyManagement>` 섹션에서는 프로젝트에 사용되는 API의 모든 종속성 및 버전을 정의합니다. 버전은 상위 POM에서 관리해야 합니다. 코어 및 ui.apps와 같은 하위 모듈에는 버전 정보가 포함되지 않아야 합니다.
 
-#### 우버항어 {#uber-jar}
+#### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 [AEM 우버-jar입니다](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). 여기에는 AEM 버전에 대한 단일 종속성 항목이 포함된 모든 AEM API가 포함됩니다.
+주요 종속성 중 하나는 [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies)입니다. 여기에는 AEM 버전에 대한 단일 종속성 항목이 포함된 모든 AEM API가 포함됩니다.
 
 >[!NOTE]
 >
@@ -195,7 +196,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 물론 AEM 프로젝트 원형에서는 핵심 구성 요소를 활용합니다.
 
-핵심 구성 요소는 기본 실행 모드에서 AEM에 자동으로 설치되며 샘플 WKND 사이트에서 사용됩니다. 프로덕션 [실행 모드](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`)에서는 핵심 구성 요소를 사용할 수 없습니다.
+핵심 구성 요소는 기본 실행 모드에서 AEM에 자동으로 설치되며 샘플 WKND 사이트에서 사용됩니다. [프로덕션 런타임 모드](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html)(`nosamplecontent`)에서는 핵심 구성 요소를 사용할 수 없습니다.
 
 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 이를 Maven 프로젝트의 일부로 포함하는 것이 좋습니다.
 
@@ -219,9 +220,9 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
    * `mvn clean verify -PintegrationTests`
 * 클라이언트측 Hobes.js 테스트:브라우저 측 동작을 확인하는 JavaScript 기반 브라우저 측 테스트입니다. 테스트하려면:
    1. 페이지를 작성하는 것처럼 브라우저에서 AEM을 로드합니다.
-   1. Open the page in [Developer mode](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
-   1. 왼쪽 패널을 열고 테스트 **탭으로** 전환합니다.
-   1. 생성된 MyName **테스트를** 찾아 실행합니다.
+   1. [개발자 모드](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)에서 페이지 열기
+   1. 왼쪽 패널을 열고 **테스트** 탭으로 전환합니다.
+   1. 생성된 **MyName 테스트**&#x200B;를 찾아 실행합니다.
 
 ## 다음 단계 {#next-steps}
 
