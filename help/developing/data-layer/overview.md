@@ -10,7 +10,7 @@ ht-degree: 3%
 ---
 
 
-# 핵심 구성 요소에서 Adobe 클라이언트 데이터 레이어 사용 {#data-layer-core-components}
+# 핵심 구성 요소 {#data-layer-core-components}과 함께 Adobe 클라이언트 데이터 레이어 사용
 
 Adobe 클라이언트 데이터 레이어의 목표는 모든 스크립트의 모든 종류의 데이터를 노출하고 액세스하는 표준화된 방법을 제공하여 웹 사이트 구현 노력을 줄이는 것입니다.
 
@@ -20,28 +20,28 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 영향을 받지 않�
 
 >[!TIP]
 >
->Adobe 클라이언트 데이터 레이어에 대한 자세한 내용은 해당 GitHub 저장소의 리소스를 [참조하십시오.](https://github.com/adobe/adobe-client-data-layer)
+>Adobe 클라이언트 데이터 레이어에 대한 자세한 내용은 [해당 GitHub 저장소의 리소스를 참조하십시오.](https://github.com/adobe/adobe-client-data-layer)
 >
 >Adobe 클라이언트 데이터 레이어와 핵심 구성 요소의 통합에 대한 자세한 기술 정보는 핵심 구성 요소 저장소의 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 파일을 참조하십시오.
 
 ## 설치 및 활성화 {#installation-activation}
 
-핵심 구성 요소 릴리스 2.9.0부터는 데이터 레이어가 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되며 설치할 필요가 없습니다. AEM Project Tranype v. 24+ [](/help/developing/archetype/overview.md) 에서 생성된 모든 프로젝트에는 기본적으로 활성화된 데이터 레이어가 포함되어 있습니다.
+핵심 구성 요소 릴리스 2.9.0부터는 데이터 레이어가 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되며 설치할 필요가 없습니다. [AEM Project Tranype v. 24+](/help/developing/archetype/overview.md)에 의해 생성된 모든 프로젝트에는 기본적으로 활성화된 데이터 레이어가 포함되어 있습니다.
 
-데이터 레이어를 수동으로 활성화하려면 [컨텍스트 인식 구성을](/help/developing/context-aware-configs.md) 만들어야 합니다.
+데이터 레이어를 수동으로 활성화하려면 [컨텍스트 인식 구성](/help/developing/context-aware-configs.md)을(를) 생성해야 합니다.
 
-1. 폴더 아래에 `/conf/<mySite>` 사이트 프로젝트 이름 `<mySite>` 이 있는 다음 구조를 만듭니다.
+1. `/conf/<mySite>` 폴더 아래에 다음 구조를 만듭니다. 여기서 `<mySite>`은 사이트 프로젝트의 이름입니다.
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * 여기서 각 노드에는 `jcr:primaryType` 설정이 있습니다 `nt:unstructured`.
-1. 부울 속성을 추가하고 `enabled` 설정합니다 `true`.
+   * 여기서 각 노드에는 `jcr:primaryType`이(가) `nt:unstructured`로 설정되어 있습니다.
+1. `enabled`이라는 부울 속성을 추가하고 `true`로 설정합니다.
 
    ![WKND 참조 사이트의 DataLayerConfig 위치](/help/assets/datalayer-contextaware-sling-config.png)
 
    *WKND 참조 사이트의 DataLayerConfig 위치*
 
-1. 아래 사이트 `sling:configRef` 의 `jcr:content` 노드에 속성을 `/content` 추가합니다(예: `/content/<mySite>/jcr:content`)을 클릭하고 이전 단계 `/conf/<mySite>` 에서 로 설정합니다.
+1. `sling:configRef` 속성을 `/content` 아래 사이트의 `jcr:content` 노드에 추가합니다(예:`/content/<mySite>/jcr:content`)을 클릭하고 이전 단계에서 `/conf/<mySite>`로 설정합니다.
 
-1. 활성화되면 편집기 외부에서 사이트 페이지를 로드하여 활성화를 확인할 수 있습니다. Inspect 페이지 소스 및 태그에는 `<body>` 속성이 포함되어야 합니다. `data-cmp-data-layer-enabled`
+1. 활성화되면 편집기 외부에서 사이트 페이지를 로드하여 활성화를 확인할 수 있습니다. Inspect 페이지 소스 및 `<body>` 태그에는 `data-cmp-data-layer-enabled` 특성이 포함되어야 합니다.
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -57,7 +57,7 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 영향을 받지 않�
        </script>
    ```
 
-1. 또한 브라우저의 개발자 도구를 열고 콘솔에서 JavaScript 개체를 사용할 수 있어야 `adobeDataLayer` 합니다. 현재 페이지의 데이터 레이어 상태를 가져오려면 다음 명령을 입력합니다.
+1. 또한 브라우저의 개발자 도구를 열고 콘솔에서 `adobeDataLayer` JavaScript 개체를 사용할 수 있어야 합니다. 현재 페이지의 데이터 레이어 상태를 가져오려면 다음 명령을 입력합니다.
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -94,7 +94,7 @@ id: {                   // component ID
 }
 ```
 
-다음 [이벤트는](#events) 구성 요소/컨테이너 항목 스키마와 관련이 있습니다.
+다음 [event](#events)은 구성 요소/컨테이너 항목 스키마와 관련이 있습니다.
 
 * `cmp:click`
 
@@ -122,7 +122,7 @@ id: {
 }
 ```
 
-페이지 로드 시 `cmp:show` 이벤트가 트리거됩니다. 이 이벤트는 여는 `<body>` 태그 바로 아래의 인라인 JavaScript에서 전달되어 데이터 레이어 이벤트 큐에서 가장 빠른 이벤트로 만듭니다.
+`cmp:show` 이벤트는 페이지 로드 시 트리거됩니다. 이 이벤트는 여는 `<body>` 태그 바로 아래의 인라인 JavaScript에서 전달되어 데이터 레이어 이벤트 큐에서 가장 빠른 이벤트로 만듭니다.
 
 ### 컨테이너 스키마 {#container}
 
@@ -147,7 +147,7 @@ id: {
 }
 ```
 
-다음 [이벤트는](#events) 컨테이너 스키마와 관련이 있습니다.
+다음 [events](#events)는 컨테이너 스키마와 관련이 있습니다.
 
 * `cmp:click`
 * `cmp:show`
@@ -174,7 +174,7 @@ id: {
 }
 ```
 
-다음 [이벤트는](#events) 이미지 스키마와 관련이 있습니다.
+다음 [event](#events)은 이미지 스키마와 관련이 있습니다.
 
 * `cmp:click`
 
@@ -194,21 +194,21 @@ id: {
 }
 ```
 
-다음 [이벤트는](#events) 자산 스키마와 관련이 있습니다.
+다음 [event](#events)은 자산 스키마와 관련이 있습니다.
 
 * `cmp:click`
 
 ## 핵심 구성 요소 이벤트 {#events}
 
-데이터 레이어를 통해 코어 구성 요소가 트리거되는 이벤트가 많습니다. 데이터 레이어와 상호 작용하기 위한 가장 좋은 방법은 이벤트 리스너를 [](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) 등록한 다음 ** 이벤트를 트리거한 이벤트 유형 및/또는 구성 요소에 따라 작업을 수행하는 것입니다. 이렇게 하면 비동기 스크립트와 관련된 잠재적인 경쟁 조건이 방지됩니다.
+데이터 레이어를 통해 코어 구성 요소가 트리거되는 이벤트가 많습니다. 데이터 레이어와 상호 작용하기 위한 최상의 방법은 이벤트 수신기[와 ](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)그런 다음&#x200B;*이 이벤트를 트리거한 이벤트 유형 및/또는 구성 요소에 따라 작업을 수행하는 것입니다.* 이렇게 하면 비동기 스크립트와 관련된 잠재적인 경쟁 조건이 방지됩니다.
 
 다음은 AEM 코어 구성 요소에서 제공하는 특별 이벤트입니다.
 
-* **`cmp:click`** - 클릭 가능한 요소( `data-cmp-clickable` 속성이 있는 요소)를 클릭하면 데이터 레이어가 `cmp:click` 이벤트를 트리거합니다.
-* **`cmp:show`** 및 **`cmp:hide`** - 아코디언(확장/축소), 회전판(다음/이전 버튼) 및 탭(탭 선택) 구성 요소를 조작하면 데이터 레이어가 각각 트리거되고 `cmp:show` `cmp:hide` 이벤트가 트리거됩니다. 또한 `cmp:show` 이벤트는 페이지 로드 시 전달되며 첫 번째 이벤트가 될 것으로 예상됩니다.
-* **`cmp:loaded`** - 데이터 레이어가 페이지의 핵심 구성 요소로 채워지는 즉시 데이터 레이어가 `cmp:loaded` 이벤트를 트리거합니다.
+* **`cmp:click`** - 클릭 가능한 요소( `data-cmp-clickable` 속성이 있는 요소)를 클릭하면 데이터 레이어가  `cmp:click` 이벤트를 트리거합니다.
+* **`cmp:show`** 및  **`cmp:hide`** - 아코디언(확장/축소), 회전판(다음/이전 버튼) 및 탭(탭 선택) 구성 요소를 조작하면 데이터 레이어가 각각 트리거되고  `cmp:show`   `cmp:hide` 이벤트가 트리거됩니다. `cmp:show` 이벤트는 페이지 로드에서도 전달되며 첫 번째 이벤트가 될 것으로 예상됩니다.
+* **`cmp:loaded`** - 데이터 레이어가 페이지의 핵심 구성 요소로 채워지면 데이터 레이어에서  `cmp:loaded` 이벤트를 트리거합니다.
 
-### 구성 요소로 트리거된 이벤트 {#events-components}
+### 구성 요소 {#events-components}에 의해 트리거된 이벤트
 
 다음 표는 이벤트를 트리거하는 표준 코어 구성 요소와 해당 이벤트를 함께 나열합니다.
 
@@ -234,7 +234,7 @@ eventInfo: {
 }
 ```
 
-이벤트 `<component-path>` 를 트리거한 데이터 레이어의 구성 요소에 대한 JSON 경로는 어디입니까?  이벤트를 트리거한 구성 요소의 현재 상태를 검색하는 매개 변수 `event.eventInfo.path`로 사용할 수 `adobeDataLayer.getState(<component-path>)` 있으므로 사용자 지정 코드에서 추가 데이터에 액세스하여 데이터 레이어에 추가할 수 있으므로 이 값을 사용할 수 있습니다.
+여기서 `<component-path>`은 이벤트를 트리거한 데이터 레이어의 구성 요소에 대한 JSON 경로입니다.  `event.eventInfo.path`을 통해 사용할 수 있는 값은 이벤트를 트리거한 구성 요소의 현재 상태를 검색하는 매개 변수로 사용할 수 있으므로 사용자 지정 코드에서 추가 데이터에 액세스하여 데이터 레이어에 추가할 수 있습니다.`adobeDataLayer.getState(<component-path>)`
 
 예:
 
