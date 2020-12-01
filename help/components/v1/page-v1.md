@@ -1,22 +1,25 @@
 ---
 title: 페이지 구성 요소(v1)
-description: 페이지 구성 요소는 템플릿 편집기와 함께 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
+description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 2%
 
 ---
 
 
 # 페이지 구성 요소(v1) {#page-component-v}
 
-페이지 구성 요소는 [템플릿 편집기와](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) 함께 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
+페이지 구성 요소는 [템플릿 편집기](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)와 함께 작동하도록 설계된 확장 가능한 페이지 구성 요소로서, 템플릿 편집기로 페이지 머리글/바닥글 및 구조 구성 요소를 조합할 수 있도록 허용합니다.
 
 ## 사용량 {#usage}
 
-페이지 구성 요소는 핵심 구성 요소뿐만 아니라 편집 가능한 템플릿으로 디자인된 모든 페이지의 기반을 형성합니다. 페이지 구성 요소, 머리글, 바닥글 및 페이지 구조를 다른 핵심 구성 요소를 사용하여 템플릿으로 정의할 수 있습니다.
+페이지 구성 요소는 핵심 구성 요소뿐만 아니라 편집 가능한 템플릿으로 디자인된 모든 페이지의 기반을 형성합니다. 페이지 구성 요소, 머리글, 바닥글 및 페이지 구조를 사용하여 다른 핵심 구성 요소를 사용하여 템플릿으로 정의할 수 있습니다.
 
-페이지에 대한 사용자 정의 클라이언트측 라이브러리를 [디자인 대화](#design-dialog)상자를 사용하여 정의할 수 있습니다. 구성 요소가 페이지 자체이므로 구성 요소에서 직접 액세스할 수 있는 편집 대화 상자가 있는 다른 구성 요소와 달리 페이지 구성 요소의 [편집 대화](#edit-dialog) 상자는 페이지 속성 창입니다.
+[디자인 대화 상자](#design-dialog)를 사용하여 페이지에 대해 사용자 지정 클라이언트측 라이브러리를 정의할 수 있습니다. 구성 요소는 페이지 자체이므로 구성 요소에서 직접 액세스할 수 있는 편집 대화 상자가 있는 다른 구성 요소와 달리 페이지 구성 요소의 [편집 대화 상자](#edit-dialog)는 페이지 속성 창입니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -33,15 +36,15 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 >
 >이 문서에서는 페이지 구성 요소의 v1에 대해 설명합니다.
 >
->페이지 구성 요소의 현재 버전에 대한 자세한 내용은 페이지 구성 [요소](/help/components/page.md) 문서를 참조하십시오.
+>페이지 구성 요소의 현재 버전에 대한 자세한 내용은 [페이지 구성 요소](/help/components/page.md) 문서를 참조하십시오.
 
 >[!NOTE]
 >
->페이지 구성 요소의 v1은 페이지 리디렉션을 지원하지 않습니다. 페이지 리디렉션 지원을 위해 페이지 구성 요소의 [현재 버전을](/help/components/page.md) 사용하십시오.
+>페이지 구성 요소의 v1에서 페이지 리디렉션을 지원하지 않습니다. 페이지 리디렉션 지원을 위해 페이지 구성 요소[의 현재 버전을 사용하십시오.](/help/components/page.md)
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-다음은 We.Retail에서 [가져온 샘플입니다](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+다음은 [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)에서 가져온 샘플입니다.
 
 ### 스크린샷 {#screenshot}
 
@@ -675,32 +678,32 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 >[!NOTE]
 >
->핵심 구성 요소에서 JSON을 내보내려면 핵심 구성 요소 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1의 [](/help/versions.md) 호환성 정보를 참조하십시오.
+>핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1[에 대한 호환성 정보를 참조하십시오.](/help/versions.md)
 
-## Edit Dialog {#edit-dialog}
+## 편집 대화 상자 {#edit-dialog}
 
-구성 요소는 전체 페이지를 나타내므로 일반적으로 편집 대화 상자에 있는 설정은 페이지 속성 [창에서 찾을 수](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) 있습니다.
+구성 요소는 전체 페이지를 나타내므로, 일반적으로 편집 대화 상자에 있는 설정은 [페이지 속성](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) 창에 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
-구성 요소는 전체 페이지를 나타내므로 [페이지 정보] -> [페이지 디자인]을 통해 디자인 대화 **상자에 액세스합니다**.
+구성 요소는 전체 페이지를 나타내므로, 디자인 대화 상자는 **페이지 정보 -> 페이지 디자인**&#x200B;을 통해 액세스합니다.
 
 ![](/help/assets/chlimage_1-94.png)
 
 페이지 디자인 창에서 페이지와 함께 로드해야 하는 클라이언트측 라이브러리를 정의할 수 있습니다.
 
-* 새 필드를 추가하려면 필드 아래에 있는 **추가** 단추를 클릭하거나 탭하십시오.
+* 새 필드를 추가하려면 필드 아래에 있는 **추가** 단추를 클릭하거나 탭합니다.
 * 필드를 제거하려면 제거할 필드 옆에 있는 휴지통 아이콘을 클릭하거나 탭합니다.
 * 로드 순서를 재정렬하려면 이동할 필드 옆에 있는 핸들을 클릭하거나 탭하고 드래그합니다.
 
-클라이언트측 라이브러리 사용에 대한 자세한 내용은 클라이언트측 라이브러리 [사용을 참조하십시오](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+클라이언트측 라이브러리 사용에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)을 참조하십시오.
 
 ![](/help/assets/chlimage_1-95.png)
 
-## 기술 정보 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-페이지 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+페이지 구성 요소 [에 대한 최신 기술 문서는 GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)에서 찾을 수 있습니다.
 
 전체 핵심 구성 요소 프로젝트는 GitHub에서 다운로드할 수 있습니다.
 
-핵심 구성 요소 개발에 대한 자세한 내용은 핵심 구성 요소 개발자 [설명서를](/help/developing/overview.md)참조하십시오.
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
