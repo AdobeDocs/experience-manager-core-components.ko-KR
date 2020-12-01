@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # 클라이언트 라이브러리 포함 {#including-client-libraries}
 
-사용 사례에 따라 [클라이언트 라이브러리를](/help/developing/archetype/uifrontend.md#clientlibs) 포함하는 다양한 방법이 있습니다. 이 문서에서는 각각에 대한 예제 및 샘플 [HTML 코드 조각을](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html) 제공합니다.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 포함하는 여러 가지 방법이 있습니다. 이 문서에서는 예와 각각에 대한 샘플 [HTL snippets](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html)을 제공합니다.
 
-## 권장 기본 사용 {#recommended-default-usage}
+## 권장 기본 사용량 {#recommended-default-usage}
 
-상황에 가장 적합한 요소를 조사할 시간이 없는 경우 다음 HTL 줄을 페이지 `head` 요소 내에 배치하여 클라이언트 라이브러리를 포함시키십시오.
+상황에 가장 적합한 항목을 조사할 시간이 없는 경우 다음 HTL 줄을 페이지 `head` 요소 내에 배치하여 클라이언트 라이브러리를 포함시키십시오.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +25,11 @@ ht-degree: 3%
 </sly>
 ```
 
-여기에는 페이지에 CSS와 JS가 모두 포함되지만 JS에 `head``defer` `script` 속성을 추가하면 브라우저가 스크립트를 실행하기 전에 DOM이 준비될 때까지 기다렸다가 페이지 로드 속도를 최적화합니다.
+여기에는 페이지 `head`에 CSS와 JS가 모두 포함되지만, 브라우저가 스크립트를 실행하기 전에 DOM이 준비될 때까지 기다리며 페이지 로드 속도를 최적화하기 위해 JS `defer` 특성을 추가할 수 있습니다.`script`
 
-## 기본 사용 {#basic-usage}
+## 기본 사용량 {#basic-usage}
 
-모든 해당 CSS `link` 요소 및/또는 JS `script` 요소를 생성하는 클라이언트 라이브러리 카테고리의 JS와 CSS를 모두 포함하는 기본 구문은 다음과 같습니다.
+클라이언트 라이브러리 범주의 JS와 CSS를 모두 포함하는 기본 구문은 다음과 같습니다. 이 구문은 모든 해당 CSS `link` 요소 및/또는 JS `script` 요소를 생성합니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -46,11 +46,11 @@ ht-degree: 3%
 </sly>
 ```
 
-## CSS 또는 JS만 해당 {#css-js-only}
+## CSS 또는 JS만 {#css-js-only}
 
-CSS 포함 사항을 HTML `head` 요소에 삽입하려는 경우가 많고 JS에 `body` 요소가 닫기 직전에 포함됩니다.
+CSS가 HTML `head` 요소에 포함되고 JS에 `body` 요소가 닫기 직전에 포함됩니다.
 
-JS가 `head``cssIncludes`아닌 CSS만 포함하려면
+`head`에서 JS가 아닌 CSS만 포함하려면 `cssIncludes`을 사용하십시오.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -58,7 +58,7 @@ JS가 `head``cssIncludes`아닌 CSS만 포함하려면
 </sly>
 ```
 
-닫기 전에 `body` CSS가 아닌 JS만 포함하려면 다음을 사용하십시오 `jsIncludes`.
+`body` 닫기 전에 CSS가 아닌 JS만 포함하려면 `jsIncludes`을 사용하십시오.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -82,19 +82,19 @@ JS가 `head``cssIncludes`아닌 CSS만 포함하려면
 </sly>
 ```
 
-및 `link` 에 전달할 수 있는 CSS 속성 `jsAndCssIncludes` `cssIncludes`:
+`jsAndCssIncludes` 및 `cssIncludes`에 전달할 수 있는 CSS `link` 속성:
 
-* `media`:문자열 JS `script` 속성을 `jsAndCssIncludes` 전달하거나 다음 URL로 전달할 수 `jsIncludes`있습니다.
+* `media`:문자열 JS  `script` 속성 `jsAndCssIncludes` 을 전달하거나 다음을  `jsIncludes`수행합니다.
 * `async`: 부울
 * `defer`: 부울
 * `onload`: 문자열
 * `crossorigin`: 문자열
 
-## 삽입 {#inlining}
+## {#inlining} 삽입
 
-최적화, 이메일 또는 [AMP의 경우](amp.md) CSS 또는 JS를 HTML 출력으로 인라인으로 지정해야 하는 경우가 있습니다.
+경우에 따라 최적화나 이메일 또는 [AMP의 경우,](amp.md)CSS 또는 JS를 HTML 출력으로 인라인으로 지정해야 할 수 있습니다.
 
-CSS를 인라인으로 만들려면, 사용할 `cssInline` 수 있습니다. 이 경우 주변 `style` 요소를 작성해야 합니다.
+CSS를 인라인으로 지정하려면 `cssInline`을 사용할 수 있습니다. 이 경우 주변 `style` 요소를 작성해야 합니다.
 
 ```html
 <style type="text/css"
@@ -103,7 +103,7 @@ CSS를 인라인으로 만들려면, 사용할 `cssInline` 수 있습니다. 이
 </style>
 ```
 
-마찬가지로 JS의 인라인에 대해 사용할 `jsInline` 수 있습니다. 이 경우 주변 `script` 요소를 작성해야 합니다.
+마찬가지로 JS의 인라인에 `jsInline`을 사용할 수 있습니다. 이 경우 주변 `script` 요소를 작성해야 합니다.
 
 ```html
 <script type="text/javascript"
@@ -112,11 +112,11 @@ CSS를 인라인으로 만들려면, 사용할 `cssInline` 수 있습니다. 이
 </script>
 ```
 
-## 컨텍스트 인식 CSS 및 JavaScript 로드 {#context-aware-loading}
+## 컨텍스트 인식 CSS 및 JavaScript {#context-aware-loading} 로드
 
-페이지 구성 [요소](/help/components/page.md) 또한 개발자가 정의한 컨텍스트 인식 CSS, JavaScript 또는 메타 태그를 로드할 수 있도록 지원합니다.
+[페이지 구성 요소](/help/components/page.md)도 개발자가 정의한 컨텍스트 인식 CSS, JavaScript 또는 메타 태그를 로드할 수 있도록 지원합니다.
 
-이 작업은 다음 구조를 사용하기 위한 [컨텍스트 인식 리소스를](context-aware-configs.md) 만들어 `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` 수행합니다.
+이 작업은 다음 구조를 사용하여 `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`에 대한 [컨텍스트 인식 리소스](context-aware-configs.md)를 만들어 수행합니다.
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
