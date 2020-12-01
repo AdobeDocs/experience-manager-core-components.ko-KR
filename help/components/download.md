@@ -18,30 +18,30 @@ ht-degree: 1%
 
 핵심 구성 요소 다운로드 구성 요소를 사용하면 다운로드 옵션 및 관련 자산을 페이지에 포함할 수 있습니다.
 
-* 다운로드 옵션 속성은 구성 대화 상자에서 선택할 수 [있습니다](#configure-dialog).
-* 다운로드 구성 요소의 기본값은 [디자인 대화 상자에서 정의할 수 있습니다](#design-dialog).
+* 다운로드 옵션의 속성은 [구성 대화 상자](#configure-dialog)에서 선택할 수 있습니다.
+* 다운로드 구성 요소의 기본값은 [디자인 대화 상자](#design-dialog)에서 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
 다운로드 구성 요소의 현재 버전은 v1이며, 2019년 6월에 핵심 구성 요소의 릴리스 2.5.0에서 도입되었으며 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전을 참조하십시오](/help/versions.md).
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-구성 요소 다운로드 및 구성 옵션에 대한 예와 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_download).
+구성 요소 다운로드 및 구성 옵션 예와 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_download)를 방문하십시오.
 
 ## 기술 세부 정보 {#technical-details}
 
-다운로드 구성 요소에 대한 최신 기술 문서는 GitHub에서 [확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_download_v1).
+다운로드 구성 요소 [에 대한 최신 기술 문서는 GitHub](https://adobe.com/go/aem_cmp_tech_download_v1)에서 찾을 수 있습니다.
 
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를 참조하십시오](/help/developing/overview.md).
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
 
 ## 구성 대화 상자 {#configure-dialog}
 
@@ -51,25 +51,25 @@ ht-degree: 1%
 
 ### 자산 탭 {#asset-tab}
 
-다운로드 자산의 선택은 [이미지 구성 요소의 기능과 매우 유사하며](image.md) 마찬가지로 AEM의 DAM도 활용합니다.
+다운로드 에셋 선택은 [이미지 구성 요소](image.md)의 기능과 매우 유사하며, 마찬가지로 AEM DAM도 활용합니다.
 
 * **자산 다운로드**
-   * 자산 브라우저에서 자산을 [삭제하거나](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 찾아보기 **옵션을** 눌러 로컬 파일 시스템에서 업로드합니다.
-   * 현재 선택된 이미지를 선택 **취소하려면** 지우기를 탭하거나 클릭합니다.
-   * 자산 편집기에서 자산 **의** 표현물을 [관리하려면](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 또는 편집을 클릭합니다.
+   * [자산 브라우저](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 끌어 놓거나 **찾아보기** 옵션을 눌러 로컬 파일 시스템에서 업로드합니다.
+   * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택한 이미지를 선택 취소합니다.
+   * 자산 편집기에서 자산](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)의 변환을 관리하려면 **편집**&#x200B;을 탭하거나 클릭합니다.[
 
 ### 속성 탭 {#properties-tab}
 
 ![구성 요소 다운로드 편집 대화 상자의 속성 탭](/help/assets/download-edit-properties.png)
 
-* **제목** - 다운로드 항목의 헤드라인으로 표시됩니다.
-   * **DAM 자산에서 제목** 가져오기 - 이 옵션을 선택하면 제목이 DAM 자산의 제목으로 자동으로 채워집니다.
-* **설명** - 다운로드 항목의 설명 하위 헤드라인으로 표시됩니다.
-   * **DAM 자산에서 설명 가져오기** - 이 옵션을 선택하면 DAM 자산 설명이 자동으로 채워집니다.
-* **작업 텍스트** - 다운로드 항목에 대한 작업 텍스트로 표시됩니다.
+* **제목**  - 다운로드 항목의 헤드라인으로 표시됩니다.
+   * **DAM 자산에서 제목**  가져오기 - 이 옵션을 선택하면 제목이 DAM 자산의 제목으로 자동으로 채워집니다.
+* **설명**  - 다운로드 항목의 설명 하위 헤드라인으로 표시됩니다.
+   * **DAM 자산에서 설명 가져오기**  - 이 옵션을 선택하면 DAM 자산의 설명으로 설명이 자동으로 채워집니다.
+* **작업 텍스트**  - 다운로드 항목에 대한 작업 텍스트로 표시됩니다.
    * 이 필드는 파일 시스템에서 자산을 업로드할 때 필요합니다.
-   * **인라인** 표시 - 제공된 **작업 텍스트가** 인라인으로 표시됩니다.
-* **ID** - 이 옵션을 사용하면 HTML과 [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
+   * **인라인**  표시 - 제공된  **작업** 텍스트가 인라인으로 표시됩니다.
+* **ID**  - 이 옵션을 사용하면 HTML과  [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
    * 비워 두면 자동으로 고유 ID가 생성되어 결과 페이지를 검사하여 찾을 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
@@ -82,17 +82,17 @@ ht-degree: 1%
 
 ![구성 요소 다운로드 대화 상자](/help/assets/download-design.png)
 
-* **파일 시스템에서** 업로드 허용 - 컨텐츠 작성자가 로컬 파일 시스템의 자산을 다운로드 자산으로 업로드할 수 있습니다.
+* **파일 시스템에서**  업로드 허용 - 컨텐츠 작성자가 로컬 파일 시스템의 자산을 다운로드 자산으로 업로드할 수 있습니다.
    * 기본값은 선택되지 않았습니다.
-* **제목 유형** - 다운로드 구성 요소의 제목에 사용되는 HTML 요소입니다.
+* **제목 유형**  - 다운로드 구성 요소의 제목에 사용되는 HTML 요소입니다.
    * 값을 선택하지 않으면 기본값은 H3입니다.
-* **파일 크기** 표시 - 선택하면 자산의 파일 크기가 다운로드 구성 요소에 표시됩니다.
+* **파일 크기**  표시 - 선택하면 자산의 파일 크기가 다운로드 구성 요소에 표시됩니다.
    * 기본값이 선택됩니다.
-* **파일 형식** 표시 - 선택하면 자산의 파일 형식이 다운로드 구성 요소에 표시됩니다.
+* **파일 형식**  표시 - 선택하면 자산의 파일 형식이 다운로드 구성 요소에 표시됩니다.
    * 기본값이 선택됩니다.
-* **파일 이름** 표시 - 선택하면 자산의 파일 이름이 다운로드 구성 요소에 표시됩니다.
+* **파일 이름**  표시 - 선택하면 자산의 파일 이름이 다운로드 구성 요소에 표시됩니다.
    * 기본값이 선택됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
-이미지 구성 요소는 AEM [스타일 시스템을 지원합니다](/help/get-started/authoring.md#component-styling).
+이미지 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
