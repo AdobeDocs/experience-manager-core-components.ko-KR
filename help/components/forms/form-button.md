@@ -16,9 +16,9 @@ ht-degree: 4%
 
 ## 사용량 {#usage}
 
-핵심 구성 요소 양식 단추 구성 요소를 사용하면 종종 양식 제출을 트리거하는 단추 필드를 만들 수 있으며 [양식 컨테이너 구성 요소와 함께 사용할 수 있습니다](form-container.md).
+핵심 구성 요소 양식 단추 구성 요소를 사용하면 종종 양식 제출을 트리거하는 단추 필드를 만들 수 있으며, 이는 [양식 컨테이너 구성 요소](form-container.md)와 함께 사용하기 위한 것입니다.
 
-단추 속성은 [구성 대화 상자의 컨텐츠 편집기에서 정의할 수 있습니다](#configure-dialog).
+단추 속성은 [구성 대화 상자](#configure-dialog)에서 내용 편집기로 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -26,22 +26,22 @@ ht-degree: 4%
 
 다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전의 설명서 링크에 대해 자세히 설명합니다.
 
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | 클라우드 서비스로서의 AEM |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](/help/components/v1/form-button-v1.md) | 호환 가능 | 호환 가능 | - |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전을 참조하십시오](/help/versions.md).
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-양식 단추 구성 요소뿐만 아니라 구성 옵션 예와 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리를 방문하십시오](https://adobe.com/go/aem_cmp_library_form_button).
+양식 단추 구성 요소와 구성 옵션 예 및 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_form_button)를 방문하십시오.
 
 ### 기술 세부 정보 {#technical-details}
 
-양식 단추 구성 요소에 대한 최신 기술 문서는 GitHub에서 [찾을 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_button_v2).
+양식 단추 구성 요소 [에 대한 최신 기술 문서는 GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2)에서 찾을 수 있습니다.
 
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서를 참조하십시오](/help/developing/overview.md).
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
 
 ## 구성 대화 상자 {#configure-dialog}
 
@@ -56,14 +56,14 @@ ht-degree: 4%
    * **단추**
    * **전송**
 
-* **제목** - 단추에 표시된 텍스트
+* **제목**  - 단추에 표시되는 텍스트입니다.
 
    * 제공된 것이 없으면 기본적으로 단추 유형이 됩니다
 
-* **이름** - 양식 데이터와 함께 제출하는 단추의 이름
-* **값** - 양식 데이터와 함께 제출하는 단추의 값
+* **이름**  - 양식 데이터와 함께 제출하는 단추의 이름입니다.
+* **값**  - 양식 데이터와 함께 제출하는 단추의 값
 
-* **ID** - 이 옵션을 사용하면 HTML과 [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
+* **ID**  - 이 옵션을 사용하면 HTML과  [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
    * 비워 두면 자동으로 고유 ID가 생성되어 결과 페이지를 검사하여 찾을 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
@@ -72,4 +72,4 @@ ht-degree: 4%
 
 ### 스타일 탭 {#styles-tab}
 
-양식 단추 구성 요소는 AEM [스타일 시스템을 지원합니다](/help/get-started/authoring.md#component-styling).
+양식 단추 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
