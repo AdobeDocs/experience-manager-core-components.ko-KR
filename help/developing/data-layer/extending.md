@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Adobe 클라이언트 데이터 레이어 확장 {#extending-acdl}
+# Adobe 클라이언트 데이터 레이어 {#extending-acdl} 확장
 
 컨텐츠 작성자가 데이터 레이어와 관련된 추가 정보를 입력할 수 있는 사용자 정의 대화 상자 옵션을 사용하여 핵심 구성 요소를 확장할 수 있습니다.
 
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 예:제목 구성 요소 {#example}
 
-제목 구성 요소와 같은 핵심 구성 요소는 [구성](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) 요소 [를 확장하며](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) 구성 `getData` 요소에는 기본적으로 반환되는 [`ComponentData`메서드가 있습니다.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
+[제목 구성 요소](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java)과 같은 핵심 구성 요소는 기본적으로 [`ComponentData`을 반환하는 `getData` 메서드가 있는 [Component](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java)을 확장합니다.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
 
-`ComponentData` 구성 요소가 구현할 수 있는 사전 정의된 필드 `getDataLayerLinkUrl` 를 정리합니다(예: and `getDataLayerTitle` for [`TitleImpl`the](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
+`ComponentData` 과 같이 구성 요소가 구현할 수 있는 사전 정의된 필드 `getDataLayerLinkUrl` 를  `getDataLayerTitle` 정리합니다 [`TitleImpl`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
 
-따라서 사용자 정의 Sling 모델에는 추가 필드를 반환하도록 확장되는 개체를 반환하는 `getData` 메서드가 있을 `ComponentData` 수 있습니다.
+따라서 사용자 지정 Sling 모델에는 `ComponentData`을(를) 확장하여 더 많은 필드를 반환하는 개체를 반환하는 `getData` 메서드가 있을 수 있습니다.
 
 이렇게 하면 데이터 레이어에 채울 데이터의 JSON과 함께 구성 요소의 HTML 요소에 `data-cmp-data-layer` 속성이 추가됩니다. 이때 이 데이터 또는 관련 이벤트를 수신하는 스크립트를 구현할 수 있습니다.
 
