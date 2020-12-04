@@ -2,9 +2,9 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM과의 호환성을 이해하는 방법을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
+source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1873'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.12.1이며 Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 및 [온-프레미스 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치로서 [AEM과 호환됩니다. 2.12.0에 대한 패치 릴리스로 2020년 11월에 출시되었습니다. 릴리스 2.12.0에서는 양식, 메타데이터 및 데이터 레이어에 대한 몇 가지 새로운 기능을 도입했습니다.
+핵심 구성 요소의 현재 릴리스는 2.13.0이며 Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 및 [온-프레미스 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치로서 [AEM과 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 22%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 이 릴리스에는 [이미지 구성 요소에 대한 새로운 동적 미디어 기능이 포함되어 있습니다.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 12월 4일 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 이 릴리스는 사소한 수정 사항이 포함된 2.12.0에 대한 패치 릴리스였습니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 11월 11일 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 이 버전은 [이미지 구성 요소의 주요 버그를 수정하는 2.12.0용 패치 릴리스였습니다.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 11월 5일 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 이 릴리스에서는 [새 POST 양식 핸들러;](/help/components/forms/form-container.md#post-data) 컨텍스트 인식 구성을 통해 사용자 지정 CSS, Javascript 및 메타데이터 [태그를 포함하는 기능;](/help/developing/including-clientlibs.md#context-aware-loading) 및 `DataLayerBuilder` 유틸리티를 도입하여 [사용자 지정 구성 요소의 데이터 레이어 통합을 단순화합니다.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8, 11 | 2020년 10월 29일 |
