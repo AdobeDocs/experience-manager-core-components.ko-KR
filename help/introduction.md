@@ -2,9 +2,9 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 882c67a5a1b0d52c21180d4100f16aa663385c86
+source-git-commit: 456bd449f5776355923bcd859a2afb6b00f33d5c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 25%
 
 ---
@@ -40,7 +40,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | SEO-Friendly | HTML 출력은 의미적이며 [schema.org](https://schema.org) 마이크로데이터 주석을 제공합니다. |
 | WebApp-Ready | [간소화된 JSON 출력](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)은 클라이언트측 렌더링을 허용하지만 [상황에 맞는 편집](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)의 가능성이 있습니다. |
 | AMP 지원 | 이 구성 요소는 모바일 경험을 가속화하는 AMP 표준인 [에 대한 기본 지원을 제공합니다.](/help/developing/amp.md) |
-| 디자인 키트 | 디자이너는 Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)용 [UI 키트를 사용하여 필요한 경우 [스타일을 지정할 수 있는 와이어프레임을 만들 수 있습니다.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
+| 디자인 키트 | 디자이너는 Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)용 [UI 키트를 사용하여 필요한 경우 [스타일을 지정할 수 있는 와이어프레임을 만들 수 있습니다.](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | 사용 가능 | 구성 요소는 [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html)을 구현하며 마크업은 [BEM CSS 규칙](http://getbem.com/)을 따릅니다. |
 | 사용자 정의 가능 | 일부 패턴에서는 [사용자 정의](developing/customizing.md)이(가) HTML을 조정하는 것부터 고급 기능 재사용에 이르기까지 간단합니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)에서는 영향을 줄 수 있는 사항을 개선할 때 핵심 구성 요소가 사이트를 벗어나지 않도록 합니다. |
