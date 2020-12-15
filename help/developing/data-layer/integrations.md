@@ -1,6 +1,6 @@
 ---
 title: 통합 및 Adobe 클라이언트 데이터 레이어
-description: Adobe 클라이언트 데이터 레이어가 사용자 정의 구성 요소와 어떻게 통합되고 Adobe Analytics 및 Adobe Target과의 통합을 통해 웹 사이트에 대한 통찰력을 얻을 수 있는지 살펴보십시오
+description: Adobe 클라이언트 데이터 레이어가 사용자 정의 구성 요소와 통합하는 방법, Adobe Analytics 및 Adobe Target와의 통합을 통해 웹 사이트에 대한 통찰력을 얻는 방법을 살펴볼 수 있습니다
 translation-type: tm+mt
 source-git-commit: ea7a0e08ea1b769b400fce275c8ce7e0db6f9407
 workflow-type: tm+mt
@@ -10,13 +10,13 @@ ht-degree: 0%
 ---
 
 
-# Adobe 클라이언트 데이터 계층 {#integrations}과의 통합
+# Adobe 클라이언트 데이터 레이어 {#integrations}와의 통합
 
-Adobe 클라이언트 데이터 레이어는 모든 스크립트의 모든 종류의 데이터를 노출하고 액세스하는 표준화된 방법을 제공하여 웹 사이트를 구축하는 노력을 줄이고 있습니다.
+Adobe 클라이언트 데이터 레이어는 모든 스크립트의 모든 유형의 데이터를 노출하고 액세스하는 표준화된 방법을 제공하여 웹 사이트를 구축하는 노력을 줄여 줍니다.
 
-Adobe 클라이언트 데이터 레이어는 사용자 정의 구성 요소와 통합할 수 있고, Adobe Analytics 및 Adobe Target과의 통합을 통해 웹 사이트에 대한 통찰력을 얻을 수 있습니다.
+Adobe 클라이언트 데이터 레이어는 사용자 정의 구성 요소와 통합하고 Adobe Analytics 및 Adobe Target와의 통합을 통해 웹 사이트에 대한 통찰력을 얻을 수 있습니다.
 
-## 사용자 지정 구성 요소의 데이터 레이어 활성화 {#enabling-custom-components}
+## 사용자 지정 구성 요소에 대한 데이터 레이어 활성화 {#enabling-custom-components}
 
 사용자 지정 구성 요소를 데이터 레이어에 자동으로 추가하려면:
 
@@ -29,7 +29,7 @@ Adobe 클라이언트 데이터 레이어는 사용자 정의 구성 요소와 �
 
 >[!TIP]
 >
->Adobe 클라이언트 데이터 레이어와 핵심 구성 요소 간의 통합 및 사용자 지정 구성 요소에서 데이터 레이어를 활성화하는 방법에 대한 자세한 기술 정보는 핵심 구성 요소 저장소의 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 파일을 참조하십시오.
+>Adobe 클라이언트 데이터 레이어를 핵심 구성 요소와 통합하는 방법과 사용자 지정 구성 요소에서 데이터 레이어를 활성화하는 방법에 대한 자세한 내용은 핵심 구성 요소 저장소의 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 파일을 참조하십시오.
 
 ## Adobe Analytics 및 Adobe Target {#analytics-target}과 통합
 
@@ -37,12 +37,12 @@ Adobe Analytics 및 Adobe Target과 함께 제공되는 Adobe 클라이언트 �
 
 ### Adobe Analytics {#collect-page-data}을(를) 사용하여 페이지 데이터 수집
 
-AEM 코어 구성 요소와 함께 Adobe 클라이언트 데이터 레이어의 내장 기능을 사용하여 Adobe Experience Manager Sites의 페이지에 대한 데이터를 수집하는 방법을 학습합니다. Experience Platform Launch 및 Adobe Analytics 확장자는 페이지 데이터를 Adobe Analytics으로 보내는 규칙을 만드는 데 사용됩니다.
+AEM 핵심 구성 요소와 함께 Adobe 클라이언트 데이터 레이어의 내장 기능을 사용하여 Adobe Experience Manager Sites의 페이지에 대한 데이터를 수집하는 방법에 대해 학습합니다. Experience Platform Launch 및 Adobe Analytics 확장 기능을 사용하여 페이지 데이터를 Adobe Analytics으로 보내는 규칙을 만듭니다.
 
-[튜토리얼을 확인하십시오.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[여기에서 자습서를 봅니다.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
-### 클릭한 구성 요소 추적(Adobe Analytics {#track-clicked-components} 포함)
+### Adobe Analytics {#track-clicked-components}을(를) 사용하여 클릭한 구성 요소 추적
 
-AEM 코어 구성 요소와 함께 이벤트 기반 Adobe 클라이언트 데이터 레이어를 사용하여 Adobe Experience Manager 사이트에서 특정 구성 요소의 클릭을 추적합니다. Experience Platform Launch의 규칙을 사용하여 클릭 이벤트를 수신하고, 구성 요소별로 필터링하고, 추적 링크 비콘이 있는 Adobe Analytics으로 데이터를 전송하는 방법을 알아봅니다.
+AEM 핵심 구성 요소와 함께 이벤트 기반의 Adobe 클라이언트 데이터 레이어를 사용하여 Adobe Experience Manager 사이트에서 특정 구성 요소의 클릭 수를 추적할 수 있습니다. Experience Platform Launch에서 규칙을 사용하여 클릭 이벤트를 수신하고, 구성 요소별로 필터링하고, 추적 링크 비콘이 있는 Adobe Analytics으로 데이터를 보내는 방법을 알아봅니다.
 
-[튜토리얼을 확인하십시오.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[여기에서 자습서를 봅니다.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
