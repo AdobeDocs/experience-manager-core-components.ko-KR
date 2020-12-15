@@ -2,9 +2,9 @@
 title: AEM 프로젝트 원형 사용
 description: AEM 프로젝트 원형을 위한 자세한 사용 지침
 translation-type: tm+mt
-source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2055'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Maven을 사용하여 프로젝트를 빌드하면 AEM에 배포할 객체(패�
 
 ### 프로젝트 만들기 {#create-project}
 
-시작하려면 대부분 [AEM Eclipse 확장](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html)을 사용하고 새 프로젝트 마법사를 따라 **AEM Sample Multi-Module Project**&#x200B;를 선택하여 릴리스된 버전의 원형 버전을 사용할 수 있습니다.
+시작하려면 대부분 [AEM Eclipse 확장](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html)을 사용하고 새 프로젝트 마법사를 따라 **AEM Sample Multi-Module Project**&#x200B;를 선택하여 릴리스된 버전의 원형 버전을 사용할 수 있습니다.
 
 물론 마벤을 직접 불러오셔도 됩니다
 
