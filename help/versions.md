@@ -2,9 +2,9 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM와의 호환성을 이해하는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
+source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1901'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.13.0이며 Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 및 [온-프레미스 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치로 [AEM과 호환됩니다.
+핵심 구성 요소의 현재 릴리스는 2.13.2이며 Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 및 [온-프레미스 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치로 [AEM과 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 22%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
+| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | AEMAaCS에서 RTE와 관련된 문제를 해결하는 패치 릴리스였습니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 12월 16일 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 이 릴리스에는 [이미지 구성 요소에 대한 새 Dynamic Media 기능이 포함되어 있습니다.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 12월 4일 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 이 버전은 사소한 수정 사항을 포함한 2.12.0용 패치 릴리스였습니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 11월 11일 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 이 버전은 [이미지 구성 요소의 주요 버그를 수정하는 2.12.0용 패치 릴리스였습니다.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 11월 5일 |
