@@ -2,10 +2,10 @@
 title: 핵심 구성 요소에 대한 AMP 지원
 description: 핵심 구성 요소 지원 AMP - 가속 모바일 페이지
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ AMP 지원에서는 뛰어난 유연성을 제공하지만 빠르게 시작하�
 * **AMP**  - 페이지가 HTML뿐만 아니라 AMP로 제공됩니다.
 * **AMP만**  - 페이지가 AMP로만 제공됩니다.
 
-페이지의 AMP 설정은 개별 페이지의 [페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서도 재정의할 수 있습니다.
+페이지의 AMP 설정은 개별 페이지의 [페이지 속성](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서도 재정의할 수 있습니다.
 
 ![AMP 페이지 속성](/help/assets/amp-page-properties.png)
 
@@ -63,5 +63,9 @@ AMP 지원에서는 뛰어난 유연성을 제공하지만 빠르게 시작하�
 핵심 구성 요소에 AMP를 사용하는 경우, AMP를 사용하려면 AMP가 최적화되었을 뿐만 아니라 `<head>` 요소에 모든 [CSS를 입력](including-clientlibs.md#inlining)해야 한다는 것이 주된 차이입니다.
 
 이를 지원하기 위해 사용자 지정된 페이지 구성 요소가 사용됩니다. 이 구성 요소는 페이지에 있는 구성 요소에 대해 AMP 특정 CSS만 로드합니다.
+
+>[!NOTE]
+>
+>AMP 디자인 제한 Adobe은 AMP 버전의 페이지에서 반응형 격자 사용을 지원하지 않습니다.
 
 자세한 요구 사항 및 기술 정보는 [GitHub 개발자 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
