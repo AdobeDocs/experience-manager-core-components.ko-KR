@@ -2,9 +2,9 @@
 title: 구성 요소 나열
 description: 핵심 구성 요소 목록 구성 요소를 사용하면 정적 목록뿐만 아니라 동적 목록을 쉽게 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
@@ -188,3 +188,7 @@ AEM 컨텐츠 검색 결과를 사용하여 목록을 작성할 수 있습니다
 ### 스타일 탭 {#styles-tab}
 
 이미지 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+목록 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
