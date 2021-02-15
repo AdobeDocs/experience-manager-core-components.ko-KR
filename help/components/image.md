@@ -2,9 +2,9 @@
 title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 즉석 편집 응용 이미지 구성 요소 기능입니다.
 translation-type: tm+mt
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2170'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 
 >[!CAUTION]
 >
->AEM에서 [이미지 편집기 기능](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)을 지원하기 위해 SVG 지원을 사용하려면 AEM 6.4용 [서비스 팩 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)과 함께 핵심 구성 요소 2.1.0 이상의 릴리스가 필요합니다.
+>AEM에서 [이미지 편집기 기능](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)을 지원하기 위해 SVG 지원을 사용하려면 AEM 6.4용 [서비스 팩 2](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/release-notes/sp-release-notes.html)과 함께 코어 구성 요소 2.1.0 이상의 릴리스 버전이 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -255,3 +255,7 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원합니다.
 >`Last-Modified` 헤더를 통한 조건부 요청은 응용 이미지 서블릿에서 지원되지만 `Last-Modified` 헤더 [의 캐싱은 Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)에서 활성화해야 합니다.
 >
 >[AEM 프로젝트 원형](/help/developing/archetype/overview.md) 형식의 샘플 디스패처 구성에는 이미 이 구성이 포함되어 있습니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+이미지 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
