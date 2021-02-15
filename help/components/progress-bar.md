@@ -2,9 +2,9 @@
 title: 진행률 표시줄 구성 요소
 description: 진행률 표시줄 구성 요소는 목표를 향한 진행 상태를 시각적으로 나타냅니다.
 translation-type: tm+mt
-source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '338'
 ht-degree: 3%
 
 ---
@@ -55,3 +55,7 @@ HTML 및 JSON 출력뿐만 아니라 진행률 표시줄 구성 요소의 예 �
 ### 스타일 탭 {#styles-tab}
 
 진행률 표시줄 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+진행률 표시줄 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
