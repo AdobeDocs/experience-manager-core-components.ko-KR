@@ -2,9 +2,9 @@
 title: 탐색 표시 구성 요소
 description: 핵심 구성 요소 브레드크럼 구성 요소는 컨텐츠 계층 구조에서 페이지의 위치를 기반으로 링크의 브레드크럼을 만드는 탐색 구성 요소입니다.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -89,3 +89,7 @@ ht-degree: 2%
 ### 스타일 탭 {#styles-tab}
 
 탐색 표시 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+탐색 표시 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
