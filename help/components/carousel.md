@@ -2,9 +2,9 @@
 title: 회전판 구성 요소
 description: 회전판 구성 요소를 사용하면 컨텐츠 작성자가 회전하는 회전하는 회전판 안에 컨텐츠를 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -123,8 +123,12 @@ Carousel 구성 요소를 경험할 수 있을 뿐만 아니라 구성 옵션의
 
 **허용된 구성 요소** 탭은 내용 작성자가 슬라이드 구성 요소에 추가할 수 있는 구성 요소를 정의하는 데 사용됩니다.
 
-허용된 구성 요소 탭은 템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 정의할 때 같은 이름의 탭과 동일한 방식으로 작동합니다.[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+허용된 구성 요소 탭은 템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 정의할 때 같은 이름의 탭과 동일한 방식으로 작동합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)[
 
 ### 스타일 탭 {#styles-tab}
 
 캐러셀 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+캐러셀 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
