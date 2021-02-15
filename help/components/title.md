@@ -2,9 +2,9 @@
 title: 제목 구성 요소
 description: 핵심 구성 요소 제목 구성 요소는 즉석 편집을 제공하는 섹션 제목 구성 요소입니다.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
@@ -82,3 +82,7 @@ ht-degree: 3%
 ### 스타일 탭 {#styles-tab}
 
 제목 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+제목 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
