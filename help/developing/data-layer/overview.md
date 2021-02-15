@@ -2,10 +2,10 @@
 title: 핵심 구성 요소에 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에 Adobe 클라이언트 데이터 레이어 사용
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 관계 없지만, AEM�
 
 1. `sling:configRef` 속성을 `/content` 아래 사이트의 `jcr:content` 노드에 추가합니다(예:`/content/<mySite>/jcr:content`)을 클릭하고 이전 단계에서 `/conf/<mySite>`로 설정합니다.
 
-1. 활성화한 후에는 편집기 외부에서 사이트 페이지를 로드하여 활성화를 확인할 수 있습니다. Inspect 페이지 소스 및 `<body>` 태그에는 `data-cmp-data-layer-enabled` 특성이 포함되어야 합니다.
+1. 활성화한 후에는 편집기의 외부에 사이트의 페이지를 로드하여 활성화를 확인할 수 있습니다. 예를 들어 편집기에서 **게시된 것으로 보기** 옵션을 사용합니다. Inspect 페이지 소스 및 `<body>` 태그에는 `data-cmp-data-layer-enabled` 특성이 포함되어야 합니다.
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Adobe 클라이언트 데이터 레이어는 플랫폼에 관계 없지만, AEM�
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## 지원되는 구성 요소 {#supported-components}
+
+다음 구성 요소는 데이터 레이어를 지원합니다.
+
+* [어코디언](/help/components/accordion.md)
+* [탐색 표시](/help/components/breadcrumb.md)
+* [단추](/help/components/button.md)
+* [회전판](/help/components/carousel.md)
+* [콘텐츠 조각](/help/components/content-fragment-component.md)
+* [이미지](/help/components/image.md)
+* [언어 탐색](/help/components/language-navigation.md)
+* [목록](/help/components/list.md)
+* [탐색](/help/components/navigation.md)
+* [페이지](/help/components/page.md)
+* [진행률 표시줄](/help/components/progress-bar.md)
+* [탭](/help/components/tabs.md)
+* [티저](/help/components/teaser.md)
+* [텍스트](/help/components/text.md)
+* [제목](/help/components/title.md)
+
+구성 요소에 의해 트리거된 [이벤트를 참조하십시오.](#events-components)
 
 ## 핵심 구성 요소 데이터 스키마 {#data-schemas}
 
@@ -197,6 +219,34 @@ id: {
 다음 [event](#events)은 자산 스키마와 관련이 있습니다.
 
 * `cmp:click`
+
+### 컨텐츠 조각 스키마 {#content-fragment}
+
+컨텐츠 조각 스키마는 [컨텐츠 조각 구성 요소에서 사용합니다.](/help/components/content-fragment-component.md)
+
+컨텐츠 조각 스키마는 다음과 같이 정의됩니다.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+컨텐츠 조각 요소에 사용되는 스키마는 다음과 같습니다.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## 핵심 구성 요소 이벤트 {#events}
 
