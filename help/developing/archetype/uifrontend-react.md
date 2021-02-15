@@ -2,7 +2,7 @@
 title: 반응형 SPA을 위한 프런트 엔드 빌드
 description: 반응형 기반의 SPA 프로젝트를 위한 프런트 엔드 구축 프로세스에 대한 설명
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### npm 시작 {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -45,15 +45,15 @@ CORS와 관련된 오류가 발생하는 경우 다음과 같이 AEM을 구성�
 
 ### npm 테스트 {#npm-test}
 
-```
+```shell
 npm test
 ```
 
-이 명령은 대화형 감시 모드에서 테스트 러너를 시작합니다. 자세한 내용은 테스트 실행[에 대한 응답 설명서를 참조하십시오.](https://facebook.github.io/create-react-app/docs/running-tests)
+이 명령은 대화형 감시 모드에서 테스트 러너를 시작합니다. 자세한 내용은 테스트 실행](https://facebook.github.io/create-react-app/docs/running-tests)에 대한 응답 설명서를 참조하십시오.[
 
 ### npm 실행 빌드 {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -69,7 +69,7 @@ npm run build
 
 React 앱은 기본적으로 [코드 분할](https://webpack.js.org/guides/code-splitting)을 사용하도록 구성되어 있습니다. 제작용 앱을 빌드할 때 코드는 다음과 같이 여러 청크로 출력됩니다.
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map
