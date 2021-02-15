@@ -2,9 +2,9 @@
 title: 언어 탐색 구성 요소
 description: 언어 탐색 구성 요소는 방문자가 다른 로케일에서 동일한 페이지로 이동할 수 있도록 사이트에 대한 언어/국가 탐색을 제공합니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ HTML 및 JSON 출력뿐만 아니라 언어 탐색 구성 요소의 예는 물�
 
 **내비게이션 루트** 값을 사용하면 언어 구성 요소는 `/content/wknd` 이후에 탐색을 시작하고 컨텐츠 트리의 다음 두 수준을 사이트의 언어 탐색 구조로 인식하여 언어 탐색 옵션을 생성할 수 있음을 알고 있습니다(**언어 구조 깊이** 값으로 정의됨).
 
-사용자가 보고 있는 페이지에 상관없이 언어 탐색 구성 요소는 현재 페이지의 위치를 알고 루트로 거꾸로 작업한 다음 해당 페이지로 이동하여 다른 언어로 해당 페이지를 찾을 수 있습니다.
+사용자가 보고 있는 페이지에 관계없이 언어 탐색 구성 요소는 현재 페이지의 위치를 알고 루트로 거꾸로 작업한 다음 해당 페이지로 이동하여 다른 언어로 해당 페이지를 찾을 수 있습니다.
 
 ### 스타일 탭 {#styles-tab}
 
@@ -104,3 +104,7 @@ HTML 및 JSON 출력뿐만 아니라 언어 탐색 구성 요소의 예는 물�
 * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
 
 ![언어 탐색 구성 요소의 편집 대화 상자](/help/assets/language-navigation-edit.png)
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+언어 탐색 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
