@@ -1,10 +1,10 @@
 ---
 title: ui.AEM 프로젝트 원형 모듈의 테스트
-description: AEM 프로젝트 원형 테스트 사용 방법
+description: AEM 프로젝트 원형 UI 테스트를 사용하는 방법
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -14,24 +14,22 @@ ht-degree: 0%
 
 프로젝트에 포함된 3가지 테스트 수준은 다음과 같습니다.
 
-## 단위 테스트 {#unit-tests}
+* [단위 테스트](core.md#unit-tests)
+* [통합 테스트](ittests.md)
+* UI 테스트
 
-[핵심 모듈](core.md)의 단위 테스트는 번들에 포함된 코드의 클래식 단위 테스트를 보여줍니다. 테스트하려면 다음을 실행합니다.
+이 문서에서는 ui.tests 모듈의 일부로 사용할 수 있는 UI 테스트에 대해 설명합니다.
 
-```
-mvn clean test
-```
+## UI 테스트 실행 {#running-tests}
 
-## 통합 테스트 {#integration-tests}
+테스트하려면 다음을 실행합니다.
 
-서버측 통합 테스트를 통해 AEM 환경에서 단위 유사한 테스트를 실행할 수 있습니다(예: AEM 서버). 테스트하려면 다음을 실행합니다.
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## 클라이언트측 테스트 {#client-side-tests}
+실행 후에는 `target/reports` 폴더에서 보고서 및 로그를 사용할 수 있습니다.
 
-`client-side Hobbes.js` 테스트는 브라우저 측 동작을 확인하는 JavaScript 기반 브라우저 측 테스트입니다.
+## 추가 옵션 {#additional-options}
 
-테스트하려면 브라우저에서 테스트할 AEM 페이지를 볼 때 왼쪽 패널을 열어 **테스트** 탭으로 전환하여 **개발자 모드**&#x200B;에서 페이지를 열고 생성된 **MyName 테스트**&#x200B;를 찾아 실행합니다.
+UI 테스트는 로컬 브라우저에 대한 헤드리스 테스트를 비롯하여 Docker 이미지로 실행할 수 있는 등 여러 옵션을 사용하여 실행할 수 있습니다. 자세한 내용은 ui.tests 모듈](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)의 [README.md 파일을 참조하십시오.
