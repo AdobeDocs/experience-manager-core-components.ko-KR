@@ -2,7 +2,7 @@
 title: 각 SPA용 프런트 엔드 빌드
 description: 각도 기반 SPA 프로젝트를 위한 프런트 엔드 빌드 프로세스에 대한 설명
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -45,7 +45,7 @@ CORS와 관련된 오류가 발생하는 경우 다음과 같이 AEM을 구성�
 
 ### npm 테스트 {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ npm test
 
 ### npm 실행 테스트:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -61,7 +61,7 @@ npm run test:debug
 
 ### npm 실행 빌드 {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
