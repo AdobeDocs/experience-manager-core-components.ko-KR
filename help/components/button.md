@@ -2,10 +2,10 @@
 title: 단추 구성 요소
 description: 핵심 구성 요소 단추 구성 요소를 사용하면 단추를 만들고 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 4%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -73,3 +73,7 @@ HTML 및 JSON 출력뿐만 아니라 단추 구성 요소의 구성 옵션 예�
 ### 스타일 탭 {#styles-tab}
 
 단추 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+단추 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
