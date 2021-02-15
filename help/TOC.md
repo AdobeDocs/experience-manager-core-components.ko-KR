@@ -1,13 +1,13 @@
 ---
 sub-product: AEM 핵심 구성 요소
 user-guide-title: AEM 핵심 구성 요소
-breadcrumb-title: Core Components 안내서
+breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 컨텐츠를 쉽게 만들 수 있습니다.
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 69%
+source-wordcount: '214'
+ht-degree: 67%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 69%
          + [양식 텍스트(v1)](components/v1/form-text-v1.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing/overview.md)
-   + [성공 경로](developing/success.md)
+   + [성공 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 개발자 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 사용자 정의](developing/customizing.md)
    + [구성 요소 지침](developing/guidelines.md)
@@ -89,4 +89,5 @@ ht-degree: 69%
       + [ui.frontend.react 모듈](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
       + [ui.tests 모듈](developing/archetype/uitests.md)
+      + [it.tests 모듈](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
