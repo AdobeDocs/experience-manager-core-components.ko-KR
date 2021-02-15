@@ -2,9 +2,9 @@
 title: AEM 프로젝트 원형 사용
 description: AEM 프로젝트 원형을 위한 자세한 사용 지침
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
@@ -30,16 +30,19 @@ AEM 프로젝트 원형을 사용하면 몇 번의 키 입력만으로 모범 �
 
 ## 원형 {#what-you-get}을(를) 사용하여 얻는 내용
 
-AEM Tranype은 다음과 같은 모듈로 구성됩니다.
+AEM Lianype은 다음과 같은 모듈로 구성됩니다.
 
 * **[코어](core.md)**:는 OSGi 서비스, 리스너 및 스케줄러와 같은 모든 핵심 기능뿐만 아니라 서블릿 및 요청 필터와 같은 구성 요소 관련 Java 코드가 포함된 Java 번들입니다.
-* **[ui.apps](uiapps.md)**:프로젝트 `/apps` 와  `/etc` 일부(예: JS 및 CSS clientlibs, 구성 요소, 템플릿, 런타임 모드 특정 구성 및 Hobes 테스트 포함)
+* **[it.tests](ittests.md)**:은 Java 기반 통합 테스트입니다.
+* **[ui.apps](uiapps.md)**:에는 프로젝트 `/apps` 의  `/etc` 및 부분, 즉 JS 및 CSS clientlibs, 구성 요소 및 템플릿이 포함되어 있습니다.
 * **[ui.content](uicontent.md)**:은 ui.apps 모듈의 구성 요소를 사용하는 샘플 컨텐츠를 포함합니다.
-* **[ui.tests](uitests.md)**:은 서버측에서 실행되는 JUnit 테스트가 포함된 Java 번들입니다. 이 번들은 프로덕션에 배포되지 않습니다.
-* **ui.launcher**:ui.tests 번들(및 종속 번들)을 서버에 배포하고 원격 JUnit 실행을 트리거하는 접착제가 포함되어 있습니다.
+* **ui.config**:프로젝트에 대한 런타임 모드 특정 OSGi 구성을 포함합니다.
 * **[ui.frontend.general](uifrontend.md)**: **(선택 사항)** 에는 일반적인 웹 팩 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 아티팩트가 포함되어 있습니다.
 * **[ui.frontend.react](uifrontend-react.md)**: **(선택 사항)** 에는 원형 유형을 사용하여 [반응]을 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
 * **[ui.frontend.angular](uifrontend-angular.md)**: **(선택 사항)** 에는 원형(angular)을 사용하여 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
+* **[ui.tests](uitests.md)**:는 Selenium 기반 UI 테스트를 포함합니다.
+* **모두**:은 공급업체 종속성을 포함하여 컴파일된 모든 모듈(번들 및 컨텐츠 패키지)을 포함하는 단일 컨텐츠 패키지입니다.
+* **분석**:프로젝트에서 분석을 실행합니다. 이 분석은 Cloud Service으로 AEM에 배포하기 위한 추가 유효성 검사를 제공합니다.
 
 ![](/help/assets/archetype-structure.png)
 
