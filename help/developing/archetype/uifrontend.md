@@ -2,7 +2,7 @@
 title: AEM 프로젝트 원형 프런트 엔드 구축
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# aem 프로젝트 원형형의 ui.frontend 모듈 {#uifrontend-module}
+# AEM 프로젝트 원형형의 ui.frontend 모듈 {#uifrontend-module}
 
 AEM Project Tranype에는 Webpack을 기반으로 하는 선택적 전용 프런트 엔드 빌드 메커니즘이 포함되어 있습니다. 따라서 ui.frontend 모듈은 JavaScript 및 CSS 파일을 비롯한 모든 프로젝트의 프런트 엔드 리소스에 대한 중앙 위치가 됩니다. 이 유용하고 유연한 기능을 최대한 활용하려면 프런트 엔드 개발이 AEM 프로젝트에 어떻게 적합한지 이해하는 것이 중요합니다.
 
@@ -72,7 +72,7 @@ Webpack을 사용하면 ui.frontend 모듈 내의 AEM 웹 페이지의 정적 �
 
 >[!NOTE]
 >
->[스토리북](https://storybook.js.org) 은 AEM 프로젝트 원형에 포함되지 않습니다. 사용하기로 선택한 경우 별도로 설치해야 합니다.
+>[스토리북](https://storybook.js.org) 은 AEM 프로젝트 원형에 포함되지 않습니다. 사용하려는 경우 별도로 설치해야 합니다.
 
 ### 마크업 {#determining-markup} 결정
 
@@ -166,7 +166,7 @@ ui.frontend 모듈 빌드 프로세스는 [aem-clientlib-generator](https://www.
 
 사이트 페이지에 클라이언트 라이브러리를 최종 포함시키는 작업은 다음과 같습니다.
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
