@@ -2,9 +2,9 @@
 title: 구성 요소 포함
 description: 포함 구성 요소를 사용하면 AEM 컨텐츠 페이지에 외부 컨텐츠를 포함할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,20 @@ ht-degree: 2%
 
 ### 포함 가능 {#embeddable}
 
-포함 가능 항목을 사용하면 포함된 리소스를 보다 사용자 지정할 수 있으며, 매개 변수화할 수 있고 추가 정보를 포함할 수 있습니다. 작성자는 미리 구성된 신뢰할 수 있는 포함 가능 항목 중에서 선택할 수 있으며 구성 요소는 기본 제공 가능한 Youtube와 함께 제공됩니다.
+포함 가능 항목을 사용하면 포함된 리소스를 보다 사용자 지정할 수 있으며, 매개 변수화할 수 있고 추가 정보를 포함할 수 있습니다. 작성자는 미리 구성된 신뢰할 수 있는 포함 가능 항목 중에서 선택할 수 있으며 구성 요소는 기본적으로 포함되어 있는 YouTube 포함 가능한 out-of-the-box와 함께 제공됩니다.
 
 **포함 가능** 필드는 사용할 프로세서 유형을 정의합니다. YouTube 임베드 가능한 경우 다음을 정의할 수 있습니다.
 
 * **비디오 ID**  - 포함할 리소스의 YouTube에서 고유한 비디오 ID
 * **너비**  - 포함된 비디오의 폭입니다.
 * **높이**  - 포함된 비디오의 높이입니다.
+* **음소거**  활성화 - 이 매개 변수는 기본적으로 비디오가 음소거 재생되는지 여부를 지정합니다. 이를 활성화하면 자동 재생이 최신 브라우저에서 작동할 가능성이 높아집니다.
+* **자동 재생**  활성화 - 이 매개 변수는 플레이어가 로드될 때 초기 비디오가 자동으로 재생되는지 여부를 지정합니다. 이 옵션은 게시 인스턴스에만 적용되거나 제작 인스턴스에서 **게시됨으로 보기** 옵션을 사용할 때만 적용됩니다.
+* **루프**  활성화 - 단일 비디오의 경우 이 매개 변수는 플레이어가 초기 비디오를 반복적으로 재생할지 여부를 지정합니다. 재생 목록의 경우 플레이어가 전체 재생 목록을 재생한 다음 첫 번째 비디오에서 다시 시작합니다.
+* **인라인 재생 활성화(iOS)**  - 이 매개 변수는 iOS에서 비디오가 HTML5 플레이어에서 인라인(온) 또는 전체 화면(꺼짐)으로 재생되는지 여부를 제어합니다.
+* **무제한 관련 비디오**  - 이 옵션을 사용하지 않으면 관련 비디오가 방금 재생된 비디오와 동일한 채널에서 나오며 그렇지 않으면 모든 채널에서 나옵니다.
+
+&quot;enable&quot; 옵션은 [디자인 대화 상자](#design-dialog)를 통해 활성화해야 하고 기본값으로 설정할 수 있습니다.
 
 다른 포함 파일은 유사한 필드를 제공하며 포함 구성 요소의 개발자 설명서에 따라 [개발자가 정의할 수 있습니다.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -89,7 +96,7 @@ ht-degree: 2%
 
 ### HTML {#html}
 
-포함 구성 요소를 사용하여 페이지에 자유 형식 HTML을 추가할 수 있습니다.
+포함 구성 요소를 사용하여 페이지에 자유 형식의 HTML을 추가할 수 있습니다.
 
 ![HTML에 대한 구성 요소의 편집 대화 상자 포함](/help/assets/embed-html.png)
 
@@ -104,7 +111,7 @@ ht-degree: 2%
 
 그러나 포함 구성 요소는 `/libs/cq/xssprotection/config.xml`에서 찾을 수 있는 AEM 전역 HTML AntiSamy Furishing 프레임워크 필터링 규칙 세트를 따르기 때문에 규칙은 더 복잡합니다. 필요한 경우 개발자가 프로젝트 특정 구성을 위해 이를 오버레이할 수 있습니다.
 
-추가 보안 정보는 Cloud Service 설치로서 ](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)AEM뿐만 아니라 온-프레미스 설치[AEM 개발자 문서에서 찾을 수 있습니다.[](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/security/home.html)
+추가 보안 정보는 Cloud Service 설치로서 [AEM뿐만 아니라 온-프레미스 설치](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)AEM 개발자 문서에서 찾을 수 있습니다.](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/security/home.html)[
 
 >[!NOTE]
 >`/libs/cq/xssprotection/config.xml`을(를) 오버레이하여 AntiSamy 위생 프레임워크 규칙을 구성할 수 있지만 이러한 변경 사항은 내장 코어 구성 요소만이 아니라 모든 HTL 및 JSP 동작에 영향을 줍니다.
@@ -113,9 +120,26 @@ ht-degree: 2%
 
 템플릿 작성자는 디자인 대화 상자를 통해 포함 구성 요소를 사용할 때 기본 설정값과 포함 구성 요소를 사용할 컨텐츠 작성자가 사용할 수 있는 옵션을 정의할 수 있습니다.
 
+### 포함 가능한 유형 탭 {#embeddable-types-tab}
+
 ![구성 요소의 디자인 대화 상자 포함](/help/assets/embed-design.png)
 
 * **URL**  비활성화 - 선택 시 컨텐츠 작성자에  **** 대한 URL 옵션을 비활성화합니다.
 * **포함 가능**  비활성화 - 임베드 가능한  **** 프로세서에 상관없이 선택한 경우 컨텐츠 작성자에 대한 포함 가능 옵션을 비활성화합니다.
 * **HTML**  비활성화 - 선택 시 컨텐츠 작성자에  **** 대한 HTML 옵션을 비활성화합니다.
-* **임베드 가능**  - 임베드 가능 옵션이 활성 상태인 경우 컨텐츠 작성자가 사용할 수 있는 임베드 가능한 프로세서를 정의하는  **** 다중 선택 기능입니다.
+* **임베드 가능**  - 임베드 가능한 프로세서를 정의하는 다중 선택이며, 임베디드  **** 선택 옵션이 활성 상태임.
+
+### YouTube 탭 {#youtube-tab}
+
+![포함 구성 요소의 디자인 대화 상자의 YouTube 탭](/help/assets/embed-design-youtube.png)
+
+* **음소거 비헤이비어 구성**  허용 - YouTube 포함 유형 **을 선택한 경우 컨텐츠 작성자가 구성** 요소에서 다중 사용 옵션을 구성할 수 있습니다.
+   * **음소거**  기본값 - YouTube  **포함 유형** 을 선택한 경우 [다중 사용] 옵션을 자동으로 설정합니다.
+* **자동 재생 동작 구성**  허용 - YouTube 포함 유형을 선택할 때 컨텐츠 작성자가  **구성** 요소에서 자동 레이아웃 활성화 옵션을 구성할 수 있습니다.
+   * **자동 재생**  기본값 - YouTube  **포함 유형** 이 선택되면 자동 레이아웃 활성화를 자동으로 설정합니다.
+* **루프 동작 구성**  허용 - YouTube  **포함 유형을 선택할** 때 컨텐츠 작성자가 구성 요소에서 반복 사용 옵션을 구성할 수 있습니다.
+   * **루프**  기본값 - YouTube  **포함 유형** 을 선택한 경우 반복 사용 옵션을 자동으로 설정합니다.
+* **인라인 재생 구성 허용(iOS)**  - YouTube 포함 유형을 선택할 때 컨텐츠 작성자가 구성 요소 **에서 인라인 재생 사용(iOS)** 옵션을 구성할 수 있습니다.
+   * **인라인 재생 기본값(iOS)**  - YouTube  **포함 유형을 선택할 때 인라인 재생 사용(iOS)** 옵션을 자동으로 설정합니다.
+* **인라인 비디오 구성**  허용 - YouTube 포함 유형을 선택할 때 컨텐츠 작성자가 구성 요소 **에서 무제한 관련** 비디오 옵션을 구성할 수 있습니다.
+   * **무제한 관련 비디오의 기본값**  - YouTube 포함 유형 **을 선택한** 경우 무제한 관련 비디오 옵션이 자동으로 설정됩니다.
