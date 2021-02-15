@@ -2,17 +2,17 @@
 title: 컨텐츠 조각 구성 요소
 description: 핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 컨텐츠 조각을 표시할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 6%
+source-wordcount: '673'
+ht-degree: 9%
 
 ---
 
 
 # 컨텐츠 조각 구성 요소{#content-fragment-component}
 
-핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 [컨텐츠 조각](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)을 표시할 수 있습니다.
+핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 [컨텐츠 조각](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)을 표시할 수 있습니다.
 
 >[!NOTE]
 >
@@ -110,3 +110,6 @@ ht-degree: 6%
 
    * 내부 응답형 격자에 사용된 Sling 리소스 유형입니다
 
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
+
+컨텐츠 조각 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
