@@ -2,7 +2,7 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
+source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 25%
@@ -106,7 +106,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 코어 구성 요소 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
 |---------|---------|---------|---------|---------|---------|
-| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 지속적인 | 6.5.5.0+ * | 6.4.8.1+ * | 8,11 | 3.3.9+ |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 지속적인 | 6.5.5.0+ * | 6.4.8.1+ * | 8,11 | 3.3.9+ |
 
 >[!NOTE]
 >
@@ -116,4 +116,4 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 핵심 구성 요소는 [편집 가능한 템플릿](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)을 사용해야 하며 클래식 UI나 정적 템플릿을 지원하지 않습니다. 필요한 경우 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)를 확인하여 최신 AEM 기능으로 프로젝트를 업데이트하십시오.
 
-로컬 개발 환경을 설정하려면 AEM에 대한 이 개요를 Cloud Service SDK[ 또는 이전 버전의 AEM[의 경우 이 문서 ](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)에서 확인하십시오.](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)
+로컬 개발 환경을 설정하려면 AEM에 대한 이 개요를 Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 이전 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)의 경우 이 문서 [에서 확인하십시오.[
