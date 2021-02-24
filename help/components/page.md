@@ -2,10 +2,10 @@
 title: 페이지 구성 요소
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 4%
+source-wordcount: '691'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 4%
 
 ## 사용량 {#usage}
 
-페이지 구성 요소는 편집 가능한 템플릿뿐만 아니라 핵심 구성 요소로 디자인된 모든 페이지의 기반을 형성합니다. 페이지 구성 요소, 머리글, 바닥글 및 페이지 구조를 다른 핵심 구성 요소를 사용하여 템플릿으로 정의할 수 있습니다.
+페이지 구성 요소는 편집 가능한 템플릿뿐만 아니라 핵심 구성 요소로 디자인된 모든 페이지의 기반을 형성합니다. 페이지 구성 요소를 사용하여 머리글, 바닥글 및 페이지 구조를 다른 핵심 구성 요소를 사용하여 템플릿으로 정의할 수 있습니다.
 
-[디자인 대화 상자](#design-dialog)를 사용하여 페이지에 대한 사용자 정의 클라이언트측 라이브러리를 정의할 수 있습니다. 구성 요소는 페이지 자체이므로 구성 요소에서 직접 액세스할 수 있는 편집 대화 상자가 있는 다른 구성 요소와 달리 페이지 구성 요소의 [편집 대화 상자](#edit-dialog)는 페이지 속성 창입니다.
+[디자인 대화 상자](#design-dialog)를 사용하여 페이지에 대한 사용자 정의 클라이언트측 라이브러리를 정의할 수 있습니다. 페이지 구성 요소는 페이지 자체이므로 구성 요소에서 직접 액세스할 수 있는 편집 대화 상자가 있는 다른 구성 요소와 달리 페이지 구성 요소의 [편집 대화 상자](#edit-dialog)는 페이지 속성 창입니다.
+
+## 점진적 웹 앱 지원 {#pwa-support}
+
+핵심 구성 요소의 릴리스 2.15.0은 페이지 구성 요소에 내장된 [점진적 웹 앱(PWA) 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)에 대한 지원을 도입했습니다. 사이트 수준에서 간단한 구성을 통해 AEM 경험을 PWA으로 전환하십시오!
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
