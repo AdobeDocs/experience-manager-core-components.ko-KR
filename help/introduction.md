@@ -2,7 +2,7 @@
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
+source-git-commit: a752bbe7e03b3b85950b4b6332c39960198edd1e
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 25%
@@ -106,7 +106,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 코어 구성 요소 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
 |---------|---------|---------|---------|---------|---------|
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 지속적인 | 6.5.5.0+ * | 6.4.8.1+ * | 8,11 | 3.3.9+ |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 지속적인 | 6.5.5.0+ * | 6.4.8.1+ * | 8,11 | 3.3.9+ |
 
 >[!NOTE]
 >
