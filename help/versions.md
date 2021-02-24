@@ -2,9 +2,9 @@
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM와의 호환성을 이해하는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
+source-git-commit: 0f188a1d380e29674c8c8c6a6c9e773e0276743f
 workflow-type: tm+mt
-source-wordcount: '1938'
+source-wordcount: '1971'
 ht-degree: 22%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 22%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 이 릴리스에는 [포함 구성 요소](/help/components/embed.md)에 대한 새로운 옵션이 포함되며, 많은 문제를 해결할 뿐만 아니라 [페이지](/help/components/page.md) 수준에서 브랜드 슬러그를 소개합니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2021년 2월 8일 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 이 릴리스에는 [페이지 구성 요소](/help/components/page.md)의 점진적 웹 앱에 대한 지원이 포함되어 있으며 [Adobe 데이터 레이어의 버전 2.0.0을 지원합니다.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2021년 2월 23일 |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 이 릴리스에는 [포함 구성 요소](/help/components/embed.md)에 대한 새로운 옵션이 포함되며, 많은 문제를 해결할 뿐만 아니라 [페이지](/help/components/page.md) 수준에서 브랜드 슬러그를 소개합니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2021년 2월 9일 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | AEMAaCS에서 RTE와 관련된 문제를 해결하는 패치 릴리스였습니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 12월 16일 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 이 릴리스에는 [이미지 구성 요소에 대한 새 Dynamic Media 기능이 포함되어 있습니다.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 12월 4일 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 이 버전은 사소한 수정 사항을 포함한 2.12.0용 패치 릴리스였습니다. | 6.4.8.1+ * | 6.5.5.0+ * | 지속적인 | 8,11 | 2020년 11월 11일 |
