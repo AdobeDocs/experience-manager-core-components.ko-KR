@@ -87,7 +87,7 @@ ht-degree: 67%
       + [ui.content 모듈](developing/archetype/uicontent.md)
       + [ui.frontend.general Module](developing/archetype/uifrontend.md)
       + [ui.frontend.react 모듈](developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
+      + [ui.frontend.angular 모듈](developing/archetype/uifrontend-angular.md)
       + [ui.tests 모듈](developing/archetype/uitests.md)
       + [it.tests 모듈](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
