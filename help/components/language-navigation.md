@@ -1,10 +1,11 @@
 ---
 title: 언어 탐색 구성 요소
 description: 언어 탐색 구성 요소는 방문자가 다른 로케일에서 동일한 페이지로 이동할 수 있도록 사이트에 대한 언어/국가 탐색을 제공합니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
