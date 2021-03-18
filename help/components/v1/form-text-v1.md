@@ -2,10 +2,11 @@
 title: 양식 텍스트 구성 요소(v1)
 description: 핵심 구성 요소 양식 텍스트 구성 요소를 사용하면 양식 텍스트를 입력하여 제출할 수 있습니다.
 index: n
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '496'
 ht-degree: 8%
 
 ---
@@ -88,7 +89,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1[에 대한 호환성 정보를 참조하십시오.](/help/versions.md)
+>핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1](/help/versions.md)에 대한 호환성 정보를 참조하십시오.[
 
 ## 구성 대화 상자 {#configure-dialog}
 
