@@ -2,10 +2,11 @@
 title: 페이지 구성 요소(v1)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
 index: n
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '495'
 ht-degree: 2%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->페이지 구성 요소의 v1에서 페이지 리디렉션을 지원하지 않습니다. 페이지 리디렉션 지원을 위해 페이지 구성 요소[의 현재 버전을 사용하십시오.](/help/components/page.md)
+>페이지 구성 요소의 v1에서 페이지 리디렉션을 지원하지 않습니다. 페이지 리디렉션 지원을 위해 페이지 구성 요소](/help/components/page.md)의 현재 버전을 사용하십시오.[
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -678,7 +679,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1[에 대한 호환성 정보를 참조하십시오.](/help/versions.md)
+>핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1](/help/versions.md)에 대한 호환성 정보를 참조하십시오.[
 
 ## 편집 대화 상자 {#edit-dialog}
 
