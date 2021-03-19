@@ -1,11 +1,12 @@
 ---
 title: 핵심 구성 요소를 사용한 성공 경로
 description: 핵심 구성 요소로 프로젝트를 구현할 때 성공하는 방법
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 14%
+source-wordcount: '575'
+ht-degree: 13%
 
 ---
 
