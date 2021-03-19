@@ -1,10 +1,11 @@
 ---
 title: 구성 요소 다운로드
 description: 핵심 구성 요소 다운로드 구성 요소를 사용하면 페이지에 다운로드 옵션을 만들 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '692'
 ht-degree: 1%
 
 ---
