@@ -1,10 +1,11 @@
 ---
 title: 핵심 구성 요소의 현지화 기능
 description: 핵심 구성 요소의 현지화 기능
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
