@@ -1,10 +1,11 @@
 ---
 title: 구성 요소 지침
 description: 핵심 구성 요소는 기본 구성 요소와 매우 다른 최신 구현 패턴을 따릅니다.
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -38,7 +39,7 @@ HTL은 AEM에 맞게 맞춤화된 안전하고 간단한 템플릿 언어로 설
 
 ## 재사용 가능한 구성 요소 패턴 {#reusable-component-patterns}
 
-이 섹션의 지침은 모든 유형의 구성 요소에도 사용할 수 있지만 핵심 구성 요소와 같이 사이트 또는 프로젝트에서 재사용할 수 있는 구성 요소에 대해서는 가장 적절합니다. 따라서 이러한 지침은 단일 사이트 또는 프로젝트에서만 사용되는 구성 요소에 대해 무시될 수 있습니다.
+이 섹션의 지침은 모든 유형의 구성 요소에도 사용할 수 있지만 핵심 구성 요소와 같이 사이트 또는 프로젝트에서 재사용할 수 있는 구성 요소에 대해서는 가장 적절합니다. 따라서 단일 사이트 또는 프로젝트에서만 사용되는 구성 요소에 대해서는 이러한 지침을 무시할 수 있습니다.
 
 ### 사전 구성 가능한 기능 {#pre-configurable-capabilities}
 
