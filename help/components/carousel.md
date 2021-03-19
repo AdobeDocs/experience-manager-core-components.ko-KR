@@ -1,10 +1,11 @@
 ---
 title: 회전판 구성 요소
 description: 회전판 구성 요소를 사용하면 컨텐츠 작성자가 회전하는 회전하는 회전판 안에 컨텐츠를 표시할 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
