@@ -1,10 +1,11 @@
 ---
 title: 핵심 구성 요소 사용자 정의
 description: 핵심 구성 요소는 간단한 스타일링에서 고급 기능 재사용에 이르기까지 사용자 정의가 용이한 여러 패턴을 구현합니다.
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1109'
 ht-degree: 2%
 
 ---
@@ -128,7 +129,7 @@ public class PageHeadline implements Title {
 
 다음과 같이 3가지 유형의 업그레이드가 가능합니다.
 
-* aem 버전 업그레이드
+* AEM 버전 업그레이드
 * 핵심 구성 요소를 새 부 버전으로 업그레이드
 * 핵심 구성 요소를 주 버전으로 업그레이드
 
@@ -140,7 +141,7 @@ public class PageHeadline implements Title {
 
 ## 사용자 지정 지원 {#support-of-customizations}
 
-모든 AEM 구성 요소와 마찬가지로 사용자 정의에 대해 알아야 할 사항이 많습니다.
+모든 AEM 구성 요소와 마찬가지로 사용자 지정에 대해 알아야 할 사항이 많습니다.
 
 1. **핵심 구성 요소의 코드를 직접 수정하지 마십시오.**
 
@@ -148,7 +149,7 @@ public class PageHeadline implements Title {
 
 1. **사용자 지정 코드는 사용자의 책임입니다.**
 
-   Adobe 지원 프로그램은 사용자 지정 코드를 포함하지 않으며, 문서화된[으로 사용되는 바닐라 코어 구성 요소로 재현할 수 없는 보고된 문제는 적용되지 않습니다.](/help/get-started/using.md)
+   Adobe 지원 프로그램은 사용자 지정 코드를 포함하지 않으며, 문서화된](/help/get-started/using.md)으로 사용되는 바닐라 코어 구성 요소로 재현할 수 없는 보고된 문제는 적용되지 않습니다.[
 
 1. **사용 중단되거나 제거된 기능을 봅니다.**
 
