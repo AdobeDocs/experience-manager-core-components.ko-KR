@@ -1,10 +1,11 @@
 ---
 title: 핵심 구성 요소에 대한 AMP 지원
 description: 핵심 구성 요소 지원 AMP - 가속 모바일 페이지
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
