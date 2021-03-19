@@ -1,10 +1,11 @@
 ---
 title: 컨테이너 구성 요소
 description: 핵심 구성 요소 컨테이너 구성 요소를 사용하면 한 페이지에 있는 여러 추가 구성 요소에 대한 컨테이너를 만들 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -67,11 +68,11 @@ HTML 및 JSON 출력뿐만 아니라 컨테이너 구성 요소의 예는 물론
 
 **허용된 구성 요소** 탭은 내용 작성자가 컨테이너 구성 요소에 항목으로 추가할 수 있는 구성 요소를 정의하는 데 사용됩니다.
 
-허용된 구성 요소 탭은 템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 정의할 때 같은 이름의 탭과 동일한 방식으로 작동합니다.[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+허용된 구성 요소 탭은 템플릿 편집기에서 레이아웃 컨테이너의 정책 및 속성을 정의할 때 같은 이름의 탭과 동일한 방식으로 작동합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)[
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 
-기본 구성 요소 탭은 페이지 템플릿[에서 기본 구성 요소를 정의하는 방법과 유사하게, 특정 자산 유형이 컨테이너에 드롭될 때 구성 요소에 추가되는 구성 요소를 정의하는 데 사용됩니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+기본 구성 요소 탭은 페이지 템플릿](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)에서 기본 구성 요소를 정의하는 방법과 유사하게, 특정 자산 유형이 컨테이너에 드롭될 때 구성 요소에 추가되는 구성 요소를 정의하는 데 사용됩니다.[
 
 ### 응답형 설정 탭 {#responsive-settings-tab}
 
