@@ -1,11 +1,12 @@
 ---
 title: 소셜 공유 구성 요소
 description: 핵심 구성 요소 소셜 공유 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '432'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 2%
 
 소셜 공유 구성 요소는 페이지에 Facebook 및 Pinterest 공유 링크를 추가합니다. 페이지 머리글이나 바닥글에 종종 포함됩니다.
 
-다른 구성 요소와 달리 소셜 공유 구성 요소의 설정은 템플릿 작성자가 [초기 페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 그리고 [페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 컨텐츠 작성자가 수행합니다.
+다른 구성 요소와 달리 소셜 공유 구성 요소의 설정은 템플릿 작성자가 [초기 페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 그리고 [페이지 속성](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 컨텐츠 작성자가 수행합니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
