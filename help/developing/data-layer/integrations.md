@@ -1,10 +1,12 @@
 ---
 title: 통합 및 Adobe 클라이언트 데이터 레이어
 description: Adobe 클라이언트 데이터 레이어가 사용자 정의 구성 요소와 통합하는 방법, Adobe Analytics 및 Adobe Target와의 통합을 통해 웹 사이트에 대한 통찰력을 얻는 방법을 살펴볼 수 있습니다
+feature: 핵심 구성 요소, Adobe 클라이언트 데이터 레이어
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: ea7a0e08ea1b769b400fce275c8ce7e0db6f9407
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
