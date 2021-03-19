@@ -1,10 +1,11 @@
 ---
 title: 분리자 구성 요소
 description: 구분 기호 구성 요소는 페이지의 구성 요소 간에 나누기를 만듭니다
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '309'
 ht-degree: 5%
 
 ---
