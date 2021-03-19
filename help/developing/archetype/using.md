@@ -1,10 +1,12 @@
 ---
 title: AEM 프로젝트 원형 사용
 description: AEM 프로젝트 원형을 위한 자세한 사용 지침
+feature: 핵심 구성 요소, AEM 프로젝트 원형
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2072'
 ht-degree: 1%
 
 ---
@@ -39,7 +41,7 @@ AEM Lianype은 다음과 같은 모듈로 구성됩니다.
 * **ui.config**:프로젝트에 대한 런타임 모드 특정 OSGi 구성을 포함합니다.
 * **[ui.frontend.general](uifrontend.md)**: **(선택 사항)** 에는 일반적인 웹 팩 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 아티팩트가 포함되어 있습니다.
 * **[ui.frontend.react](uifrontend-react.md)**: **(선택 사항)** 에는 원형 유형을 사용하여 [반응]을 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
-* **[ui.frontend.angular](uifrontend-angular.md)**: **(선택 사항)** 에는 원형(angular)을 사용하여 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
+* **[ui.frontend.angular](uifrontend-angular.md)**: **(선택 사항)** 에는 Angular 기반의 SPA 프로젝트를 만들기 위해 원형 유형을 사용할 때 필요한 가공물이 포함되어 있습니다.
 * **[ui.tests](uitests.md)**:는 Selenium 기반 UI 테스트를 포함합니다.
 * **모두**:은 공급업체 종속성을 포함하여 컴파일된 모든 모듈(번들 및 컨텐츠 패키지)을 포함하는 단일 컨텐츠 패키지입니다.
 * **분석**:프로젝트에서 분석을 실행합니다. 이 분석은 Cloud Service으로 AEM에 배포하기 위한 추가 유효성 검사를 제공합니다.
