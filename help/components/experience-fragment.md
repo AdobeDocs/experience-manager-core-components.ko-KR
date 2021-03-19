@@ -1,10 +1,11 @@
 ---
 title: 경험 조각 구성 요소
 description: 경험 조각 구성 요소를 사용하면 컨텐츠 작성자가 페이지에 경험 조각 변형을 추가할 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 * 경험 조각 구성 요소가 템플릿에 추가됩니다.
 * 이 템플릿은 `/content/<site>` 아래에 지역화된 구조의 일부인 새 컨텐트 페이지를 만드는 데 사용됩니다.
-* 컨텐츠 페이지에서 참조되는 경험 조각은 동일한 구성 요소 이름을 사용하는 것을 포함하여 `/content/experience-fragments` 아래의 사이트와 동일한 패턴을 따르는 현지화된 경험 조각 구조의 일부입니다.`/content/<site>`
+* 컨텐츠 페이지에서 참조되는 경험 조각은 동일한 구성 요소 이름을 사용하는 것을 포함하여 `/content/<site>` 아래의 사이트와 동일한 패턴을 따르는 현지화된 경험 조각 구조의 일부입니다.`/content/experience-fragments`
 
 이 경우 현재 페이지와 동일한 현지화(언어, 블루프린트 또는 live copy)가 있는 조편이 템플릿의 일부로 렌더링됩니다.
 
