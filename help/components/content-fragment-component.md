@@ -1,10 +1,11 @@
 ---
 title: 컨텐츠 조각 구성 요소
 description: 핵심 구성 요소 컨텐츠 조각 구성 요소를 사용하면 컨텐츠 조각을 표시할 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 9%
 
 ---
