@@ -1,11 +1,12 @@
 ---
 title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 풍부한 기능, 연속 전달, 구성 요소 버전 관리, 최신 구현, 리닝 마크업 및 컨텐츠 JSON 내보내기 등 다양한 기능을 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 14%
+source-wordcount: '1445'
+ht-degree: 15%
 
 ---
 
@@ -84,7 +85,7 @@ ht-degree: 14%
 | 배달 | [공개 GitHub를 통해](https://github.com/adobe/aem-core-wcm-components) | 빠른 시작을 통해 |
 | 라이센스 | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 독점 |
 | 기여도 | 가져오기 요청을 통해 | 불가능 |
-| 접근성 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과 완전히 호환 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과(와) 일부만 준수합니다. |
+| 접근성 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과 완전히 호환 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과(와) 일부만 준수합니다. |
 
 ## 구성 요소 목록 {#component-list}
 
