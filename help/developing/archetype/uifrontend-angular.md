@@ -1,18 +1,20 @@
 ---
-title: 각 SPA용 프런트 엔드 빌드
-description: 각도 기반 SPA 프로젝트를 위한 프런트 엔드 빌드 프로세스에 대한 설명
+title: angular SPA용 프런트 엔드 빌드
+description: angular 기반의 SPA 프로젝트를 위한 프런트 엔드 구축 프로세스에 대한 설명
+feature: 핵심 구성 요소, AEM 프로젝트 원형
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 
-# 각 SPA용 프런트 엔드 빌드 {#frontend-angular}
+# angular SPA용 프런트 엔드 빌드 {#frontend-angular}
 
-이 문서에서는 원형 유형을 사용하여 Angular 프레임워크를 기반으로 단일 페이지 애플리케이션(SPA)을 생성할 때 생성된 프로젝트의 세부 사항을 설명합니다. 즉, `frontendModule` 옵션을 `angular`로 설정한 경우입니다.
+이 문서에서는 Angular 프레임워크을 기반으로 단일 페이지 애플리케이션(SPA)을 만들 때 생성된 프로젝트의 세부 사항을 설명합니다. 즉, `frontendModule` 옵션을 `angular`로 설정한 경우입니다.
 
 ## 개요 {#overview}
 
@@ -49,7 +51,7 @@ CORS와 관련된 오류가 발생하는 경우 다음과 같이 AEM을 구성�
 npm test
 ```
 
-이 명령은 카르마 테스트 주자를 실행합니다. 자세한 내용은 테스트 실행](https://angular.io/guide/testing)에 대한 [각 설명서를 참조하십시오.
+이 명령은 카르마 테스트 주자를 실행합니다. 자세한 내용은 테스트 실행](https://angular.io/guide/testing)에 대한 [Angular 설명서를 참조하십시오.
 
 ### npm 실행 테스트:debug {#npm-run-test-debug}
 
@@ -65,7 +67,7 @@ npm run test:debug
 npm run build
 ```
 
-이 명령은 제작 앱을 빌드 폴더에 빌드합니다. 프로덕션 모드에서 Angular를 번들로 처리하고 최상의 성능을 위해 빌드를 최적화합니다. 자세한 내용은 배포](https://angular.io/guide/deployment)에 대한 [각 설명서를 참조하십시오.
+이 명령은 제작 앱을 빌드 폴더에 빌드합니다. 프로덕션 모드에서 Angular을 번들로 처리하고 최상의 성능을 위해 빌드를 최적화합니다. 자세한 내용은 배포](https://angular.io/guide/deployment)에 대한 [Angular 설명서를 참조하십시오.
 
 또한 AEM ClientLib는 [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) 패키지를 사용하여 앱에서 생성됩니다.
 
