@@ -3,8 +3,9 @@ sub-product: AEM 핵심 구성 요소
 user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 컨텐츠를 쉽게 만들 수 있습니다.
+feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 67%
