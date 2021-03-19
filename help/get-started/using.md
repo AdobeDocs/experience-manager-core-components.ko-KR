@@ -1,10 +1,11 @@
 ---
 title: 핵심 구성 요소 사용
 description: '"프로젝트에서 핵심 구성 요소를 바로 실행하려면 다음 3단계를 수행하십시오.템플릿에 구성 요소를 다운로드하여 설치하고, 프록시 구성 요소를 만들고, 핵심 스타일을 로드하고, 구성 요소를 허용합니다."'
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '762'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >또는 프로젝트 설정, 핵심 구성 요소, 편집 가능한 템플릿, 클라이언트 라이브러리 및 구성 요소 개발을 처음부터 시작하는 방법에 대한 자세한 지침을 보려면 다음 다중 부분 자습서가 유용할 수 있습니다.\
->[AEM Sites 시작하기 - WKND 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[AEM Sites 시작하기 - WKND 튜토리얼](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## {#download-and-install} 다운로드 및 설치
 
