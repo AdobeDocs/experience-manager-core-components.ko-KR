@@ -1,10 +1,11 @@
 ---
 title: 양식 컨테이너 구성 요소
 description: 핵심 구성 요소 양식 컨테이너 구성 요소를 사용하면 간단한 제출 양식을 만들 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
