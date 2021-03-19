@@ -1,18 +1,19 @@
 ---
 title: 컨텐츠 조각 목록 구성 요소
 description: 핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 컨텐츠 조각 목록을 표시할 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 3%
+source-wordcount: '767'
+ht-degree: 5%
 
 ---
 
 
 # 컨텐츠 조각 목록 구성 요소{#content-fragment-list-component}
 
-핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 [컨텐츠 조각](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 표시할 수 있습니다.
+핵심 구성 요소 컨텐츠 조각 목록 구성 요소를 사용하면 [컨텐츠 조각](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 표시할 수 있습니다.
 
 ## 사용량 {#usage}
 
