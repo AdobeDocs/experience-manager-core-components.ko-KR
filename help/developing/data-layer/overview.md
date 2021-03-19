@@ -1,10 +1,12 @@
 ---
 title: 핵심 구성 요소에 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소에 Adobe 클라이언트 데이터 레이어 사용
+feature: 핵심 구성 요소, Adobe 클라이언트 데이터 레이어
+role: 건축가, 개발자, 관리자
 translation-type: tm+mt
-source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '983'
 ht-degree: 5%
 
 ---
