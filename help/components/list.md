@@ -1,10 +1,11 @@
 ---
 title: 구성 요소 나열
 description: 핵심 구성 요소 목록 구성 요소를 사용하면 정적 목록뿐만 아니라 동적 목록을 쉽게 만들 수 있습니다.
+role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '984'
 ht-degree: 4%
 
 ---
