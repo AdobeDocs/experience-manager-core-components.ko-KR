@@ -3,9 +3,9 @@ title: 페이지 구성 요소
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
 role: 건축가, 개발자, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '696'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 점진적 웹 앱 지원 {#pwa-support}
 
-핵심 구성 요소의 릴리스 2.15.0은 Cloud Service의 내장된 점진적 웹 앱(PWA) 기능으로 AEM에 대한 지원을 도입했습니다. 사이트 수준에서 간단한 구성을 통해 AEM 경험을 PWA으로 전환하십시오!
+핵심 구성 요소의 릴리스 2.15.0은 Cloud Service에 내장된 [점진적 웹 앱(PWA) 기능으로 AEM에 대한 지원을 도입했습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 사이트 수준에서 간단한 구성을 통해 AEM 경험을 PWA으로 전환하십시오!
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
