@@ -1,15 +1,15 @@
 ---
 title: 핵심 구성 요소 사용자 정의
 description: 핵심 구성 요소는 간단한 스타일링에서 고급 기능 재사용에 이르기까지 사용자 정의가 용이한 여러 패턴을 구현합니다.
-role: 건축가, 개발자, 관리자
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 2%
 
 ---
-
 
 # 핵심 구성 요소 사용자 정의{#customizing-core-components}
 
@@ -105,7 +105,7 @@ public class PageHeadline implements Title {
 
 고급 스타일링을 사용하려면 구성 요소의 다른 마크업 구조가 필요합니다.
 
-이 작업은 핵심 구성 요소에서 프록시 구성 요소로 수정해야 하는 HTL 파일을 복사하여 쉽게 수행할 수 있습니다.
+이 작업은 핵심 구성 요소에서 수정해야 하는 HTL 파일을 [프록시 구성 요소로 복사하여 쉽게 수행할 수 있습니다.](guidelines.md#proxy-component-pattern)
 
 핵심 탐색 표시 구성 요소의 예를 다시 들어 마크업 출력을 사용자 정의하려면 `breadcrumb.html` 파일이 핵심 탐색 표시 구성 요소를 가리키는 `sling:resourceSuperTypes`이 있는 사이트 특정 구성 요소로 복사되어야 합니다.
 
