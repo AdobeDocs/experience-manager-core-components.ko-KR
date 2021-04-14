@@ -1,15 +1,15 @@
 ---
 title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 풍부한 기능, 연속 전달, 구성 요소 버전 관리, 최신 구현, 리닝 마크업 및 컨텐츠 JSON 내보내기 등 다양한 기능을 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
-role: 건축가, 개발자, 관리자
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 15%
+source-wordcount: '1591'
+ht-degree: 14%
 
 ---
-
 
 # 핵심 구성 요소 개발 {#developing-core-components}
 
@@ -40,6 +40,8 @@ ht-degree: 15%
 
 모든 새 프로젝트는 핵심 구성 요소로 구현해야 합니다. 그러나 기존 프로젝트에는 일반적으로 Foundation 구성 요소의 광범위한 구현이 있습니다.
 
+### 기본 구성 요소 {#from-foundation}에서 마이그레이션
+
 기존 프로젝트(예: 리브랜딩 또는 전체 리팩토링)에 대한 더 많은 노력이 종종 핵심 구성 요소로 마이그레이션할 수 있는 기회를 제공합니다. 이러한 마이그레이션을 용이하게 하기 위해 Adobe은 핵심 구성 요소 및 최신 AEM 기술 채택을 장려하기 위한 여러 마이그레이션 도구를 제공했습니다.
 
 [간편한 전환을 ](http://opensource.adobe.com/aem-modernize-tools/) 위한 AEM Modern Toollow:
@@ -54,6 +56,23 @@ ht-degree: 15%
 >[!NOTE]
 >
 >AEM 현대화 도구는 커뮤니티의 노력이며 Adobe에 의해 지원되거나 보증되지 않습니다.
+
+## AEM으로 이동을 통해 Cloud Service {#via-aemaacs}
+
+Cloud Service으로 AEM은 최신 버전의 핵심 구성 요소를 자동으로 제공하므로 온프레미스 AEM 설치에서 이동할 때 프로젝트 `pom.xml` 파일에서 핵심 구성 요소에 대한 종속성을 제거해야 합니다.
+
+프록시 구성 요소는   프록시는 필요한 supertype을 가리키며 supertype 패스에는 해당 버전이 있습니다. 이러한 방식으로 종속성을 제거하면 핵심 구성 요소가 온프레미스에서 작업하는 것처럼 AEMaaCS에서 작동할 수 있습니다.
+
+다른 AEMaaCS 프로젝트와 마찬가지로 AEM SDK jar에도 종속성을 추가해야 합니다. 이것은 핵심 구성 요소에만 국한되지 않지만 필수 요소입니다.
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) 문서를 참조하십시오.
 
 ## 핵심 구성 요소 지원 {#core-component-support}
 
@@ -75,7 +94,7 @@ ht-degree: 15%
 | **기능** | **핵심 구성 요소** | **기본 구성 요소** |
 |-----|---|---|
 | 논리 구현 | [Sling 모델](https://sling.apache.org/documentation/bundles/models.html) 주석이 있는 Java POJO | JSP 코드 |
-| 마크업 정의 | [HTML 템플릿 언어](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html) (HTL) 구문 | JSP 코드 |
+| 마크업 정의 | [HTML 템플릿 언어](https://docs.adobe.com/content/help/ko/experience-manager-htl/using/overview.html) (HTL) 구문 | JSP 코드 |
 | XSS 기밀 정보 가리기 | HTL로 자동화 | 대부분 수동 |
 | CSS 클래스 이름 지정 | [블록 요소 수정자](https://getbem.com/) (BEM) 표기법을 기반으로 하는 표준 명명 규칙(릴리스 2.0.0 기준) | 사용자 지정 스킴 |
 | 대화 상자 정의 | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + 클래식 UI |
@@ -85,7 +104,7 @@ ht-degree: 15%
 | 배달 | [공개 GitHub를 통해](https://github.com/adobe/aem-core-wcm-components) | 빠른 시작을 통해 |
 | 라이센스 | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 독점 |
 | 기여도 | 가져오기 요청을 통해 | 불가능 |
-| 접근성 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과 완전히 호환 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과(와) 일부만 준수합니다. |
+| 접근성 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과 완전히 호환 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과(와) 일부만 준수합니다. |
 
 ## 구성 요소 목록 {#component-list}
 
