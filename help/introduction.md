@@ -1,15 +1,15 @@
 ---
 title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 25%
+source-wordcount: '936'
+ht-degree: 24%
 
 ---
-
 
 # 핵심 구성 요소 소개{#core-components-introduction}
 
@@ -118,3 +118,9 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 핵심 구성 요소는 [편집 가능한 템플릿](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)을 사용해야 하며 클래식 UI나 정적 템플릿을 지원하지 않습니다. 필요한 경우 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)를 확인하여 최신 AEM 기능으로 프로젝트를 업데이트하십시오.
 
 로컬 개발 환경을 설정하려면 AEM에 대한 이 개요를 Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 이전 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)의 경우 이 문서 [에서 확인하십시오.[
+
+>[!TIP]
+>
+>핵심 구성 요소는 Cloud Service으로 AEM에 자동으로 포함되며 항상 핵심 구성 요소의 최신 릴리스를 사용할 수 있습니다.
+>
+>AEMaaCS 및 온-프레미스에서 코어 구성 요소를 시작하는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md) 문서를 참조하십시오.
