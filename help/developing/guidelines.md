@@ -1,15 +1,15 @@
 ---
 title: 구성 요소 지침
 description: 핵심 구성 요소는 기본 구성 요소와 매우 다른 최신 구현 패턴을 따릅니다.
-role: 건축가, 개발자, 관리자
+role: Architect, Developer, Administrator
+exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
-
 
 # 구성 요소 지침 {#component-guidelines}
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ### 우려 사항 분리 {#separation-of-concerns}
 
-일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 논리(또는 모델)를 구분하도록 하는 것이 좋습니다. 여러 가지 방법을 사용할 수 있지만 권장 방법은 논리에는 [Sling 모델](https://sling.apache.org/documentation/bundles/models.html)을 사용하고, 핵심 구성 요소처럼 마크업에 [HTML 템플릿 언어](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html)(HTL)를 사용하는 것입니다.
+일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 논리(또는 모델)를 구분하도록 하는 것이 좋습니다. 여러 가지 방법을 사용할 수 있지만 권장 방법은 논리에는 [Sling 모델](https://sling.apache.org/documentation/bundles/models.html)을 사용하고, 핵심 구성 요소처럼 마크업에 [HTML 템플릿 언어](https://docs.adobe.com/content/help/ko/experience-manager-htl/using/overview.html)(HTL)를 사용하는 것입니다.
 
 Sling Models는 POJO에서 필요한 변수에 쉽게 액세스할 수 있는 Java 주석 집합이므로 구성 요소에 대한 Java 로직을 구현하는 간단하고 강력하며 효율적인 방법을 제공합니다.
 
@@ -52,6 +52,10 @@ HTL은 AEM에 맞게 맞춤화된 안전하고 간단한 템플릿 언어로 설
 각 컨텐츠 리소스에는 렌더링할 구성 요소를 참조하는 `sling:resourceType` 속성이 있으므로 일반적으로 여러 사이트에서 공유하는 구성 요소를 가리키는 대신 사이트 특정 구성 요소를 가리키는 속성이 있는 것이 좋습니다. 이렇게 하면 사이트 특정 구성 요소에서 이러한 사용자 지정을 수행할 수 있고 다른 사이트에 영향을 주지 않으므로 한 사이트에 구성 요소에 대해 다른 비헤이비어가 필요한 경우 컨텐츠 리팩토링을 더 유연하게 수행할 수 있으며 컨텐츠 리팩토링을 방지할 수 있습니다.
 
 그러나 프로젝트별 구성 요소가 코드를 복제하지 않도록 하려면 각각 `sling:resourceSuperType` 속성이 있는 공유 상위 구성 요소를 참조해야 합니다. 주로 상위 구성 요소만을 참조하는 이러한 프로젝트 특정 구성 요소를 &quot;프록시 구성 요소&quot;라고 합니다. 프록시 구성 요소는 기능을 완전히 상속하거나 구성 요소의 일부 측면을 재정의할 수 있는 경우 완전히 비어 있을 수 있습니다.
+
+>[!TIP]
+>
+>프록시 구성 요소를 만드는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md#create-proxy-components)을 참조하십시오.
 
 ### 구성 요소 버전 관리 {#component-versioning}
 
