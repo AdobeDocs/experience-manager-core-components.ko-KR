@@ -1,15 +1,15 @@
 ---
 title: 빠른 검색 구성 요소
 description: 빠른 검색 구성 요소는 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 웹 사이트에 검색 기능을 제공하고 검색 결과를 제공합니다.
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
-
 
 # 빠른 검색 구성 요소 {#quick-search-component}
 
@@ -54,6 +54,10 @@ ht-degree: 2%
    * 비워 두면 자동으로 고유 ID가 생성되며 결과 페이지를 검사하여 찾을 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
+
+>[!NOTE]
+>
+>**검색 루트**&#x200B;이(가) 구성되지 않았거나 확인할 수 없는 경우 빠른 검색은 현재 페이지 아래에서 기본적으로 검색됩니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
