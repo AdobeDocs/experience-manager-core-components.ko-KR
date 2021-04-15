@@ -4,7 +4,7 @@ description: 빠른 검색 구성 요소는 방문자가 사이트를 검색하�
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -50,7 +50,7 @@ ht-degree: 1%
 ![빠른 검색 구성 요소의 편집 대화 상자](/help/assets/quick-search-edit.png)
 
 **검색 루트**  - 검색을 시작할 루트 페이지입니다. 검색 루트는 블루프린트 마스터, 언어 마스터 또는 일반 페이지일 수 있습니다.
-* **ID**  - 이 옵션을 사용하면 HTML 및 데이터 레이어에서 구성 요소의 고유 식별자를 제어할  [수 있습니다](/help/developing/data-layer/overview.md).
+* **ID**  - 이 옵션을 사용하면 HTML 및 데이터 레이어에서 구성 요소의 고유 식별자를 제어할  [수 있습니다.](/help/developing/data-layer/overview.md)
    * 비워 두면 자동으로 고유 ID가 생성되며 결과 페이지를 검사하여 찾을 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
