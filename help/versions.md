@@ -1,7 +1,7 @@
 ---
 title: 구성 요소 버전
 description: 핵심 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전에 대해 설명하고 핵심 구성 요소 및 AEM와의 호환성을 이해하는 방법에 대해 설명합니다.
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt

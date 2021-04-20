@@ -1,7 +1,7 @@
 ---
 title: 진행률 표시줄 구성 요소
 description: 진행률 표시줄 구성 요소는 목표를 향한 진행 상태를 시각적으로 나타냅니다.
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

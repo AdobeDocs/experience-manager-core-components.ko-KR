@@ -1,7 +1,7 @@
 ---
 title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 즉석 편집을 제공하는 리치 텍스트 편집 및 구성 요소입니다.
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

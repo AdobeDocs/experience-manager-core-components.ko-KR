@@ -2,7 +2,7 @@
 title: 페이지 구성 요소(v1)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 조합하도록 설계된 확장 가능한 페이지 구성 요소입니다.
 index: n
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

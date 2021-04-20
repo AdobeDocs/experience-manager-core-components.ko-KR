@@ -1,7 +1,7 @@
 ---
 title: 컨테이너 구성 요소
 description: 핵심 구성 요소 컨테이너 구성 요소를 사용하면 한 페이지에 있는 여러 추가 구성 요소에 대한 컨테이너를 만들 수 있습니다.
-role: 건축가, 개발자, 관리자, 비즈니스 전문가
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

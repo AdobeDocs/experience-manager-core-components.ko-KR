@@ -1,7 +1,7 @@
 ---
 product: adobe experience manager
 solution: Experience Manager Sites
-type: 설명서
+type: Documentation
 description: Adobe Experience Manager 핵심 구성 요소 설명서
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.ko-KR
 index: y

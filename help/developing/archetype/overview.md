@@ -1,8 +1,8 @@
 ---
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: 건축가, 개발자, 관리자
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt

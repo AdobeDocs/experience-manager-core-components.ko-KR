@@ -1,8 +1,8 @@
 ---
 title: AEM 프로젝트 원형의 핵심 모듈
 description: AEM 프로젝트 원형의 핵심 모듈
-feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: 건축가, 개발자, 관리자
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

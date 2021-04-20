@@ -1,7 +1,7 @@
 ---
 title: 클라이언트 라이브러리 포함
 description: 사용 사례에 따라 클라이언트 라이브러리를 포함하는 다양한 방법이 있습니다.
-role: 건축가, 개발자, 관리자
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
