@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: 74cbb94c35e7b62332f88245ed48c72d1ac07796
+source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 66%
+source-wordcount: '214'
+ht-degree: 67%
 
 ---
 
@@ -92,4 +92,3 @@ ht-degree: 66%
       + [ui.tests 모듈](developing/archetype/uitests.md)
       + [it.tests 모듈](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
-+ [숨겨진 페이지](hidden.md)
