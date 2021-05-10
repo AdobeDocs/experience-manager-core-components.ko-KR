@@ -1,16 +1,16 @@
 ---
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-feature: Core Components, AEM Project Archetype
+feature: 핵심 구성 요소, AEM 프로젝트 원형
 role: Architect, Developer, Administrator
+exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 translation-type: tm+mt
-source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
+source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1040'
 ht-degree: 7%
 
 ---
-
 
 # AEM 프로젝트 전형 {#aem-project-archetype}
 
@@ -55,7 +55,7 @@ AEM Project Tranype은 최소한의 우수 사례 기반 Adobe Experience Manage
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=26 \
+ -D archetypeVersion=27 \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
@@ -97,7 +97,7 @@ mvn -B archetype:generate \
 
 | 원형 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 마벤 |
 |---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-26) | 지속적인 | 6.5.5.0+ | 6.4.8.1+ | 8,11 | 3.3.9+ |
+| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | 지속적인 | 6.5.5.0+ | 6.4.8.1+ | 8,11 | 3.3.9+ |
 
 [AEM의 로컬 개발 환경을 Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 이전 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)에 대해 설정합니다.[
 
