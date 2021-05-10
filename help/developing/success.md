@@ -2,14 +2,14 @@
 title: 핵심 구성 요소를 사용한 성공 경로
 description: 핵심 구성 요소로 프로젝트를 구현할 때 성공하는 방법
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 13%
+source-wordcount: '564'
+ht-degree: 14%
 
 ---
-
 
 # 핵심 구성 요소 {#paths-to-success} 사용 성공 경로
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 
 ### Adobe XD {#ui-kit}용 UI 키트 사용
 
-사용자 지정 구성 요소에 대한 필요성이 증명되면 디자이너가 핵심 구성 요소로 와이어프레임과 디자인을 빌드할 수 있도록 Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)용 [UI 키트를 활용하십시오.
+사용자 지정 구성 요소에 대한 필요성이 증명되면 디자이너가 핵심 구성 요소로 와이어프레임과 디자인을 빌드할 수 있도록 Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)용 [UI 키트를 활용하십시오.
 
 ## 강력한 기능 {#powerful-features} 간과하지 마십시오.
 
@@ -59,4 +59,4 @@ AEM 및 핵심 구성 요소의 기능은 매우 강력할 수 있지만 매우 
 
 ### 포함 구성 요소 {#embed-component}
 
-[포함 구성 ](/help/components/embed.md) 요소는 YouTube 비디오 컨텐츠와 같은 외부 리소스를 간단히 포함할 수 있을 뿐만 아니라 프로젝트의 요구 사항에 맞는 컨텐츠를 수용할 수 있도록 확장할 수 있습니다.
+[포함 구성 ](/help/components/embed.md) 요소는 YouTube 비디오 컨텐츠와 같은 외부 리소스를 간단하게 포함할 수 있을 뿐만 아니라 프로젝트의 요구 사항에 맞는 컨텐츠를 수용할 수 있도록 확장할 수 있습니다.
