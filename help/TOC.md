@@ -4,7 +4,6 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
 source-wordcount: '214'
@@ -76,19 +75,19 @@ ht-degree: 67%
    + [AMP 지원](developing/amp.md)
    + [컨텍스트 인식 구성](developing/context-aware-configs.md)
    + [클라이언트 라이브러리 포함](developing/including-clientlibs.md)
-   + Adobe 클라이언트 데이터 레이어 {#data-layer}
+   + Adobe 클라이언트 데이터 계층 {#data-layer}
       + [데이터 레이어 개요](developing/data-layer/overview.md)
-      + [데이터 레이어와 통합](developing/data-layer/integrations.md)
+      + [데이터 계층과의 통합](developing/data-layer/integrations.md)
       + [데이터 레이어 확장](developing/data-layer/extending.md)
    + AEM 프로젝트 전형 {#archetype}
       + [원형 개요](developing/archetype/overview.md)
       + [원형 사용](developing/archetype/using.md)
       + [코어 모듈](developing/archetype/core.md)
       + [ui.apps 모듈](developing/archetype/uiapps.md)
-      + [ui.content 모듈](developing/archetype/uicontent.md)
+      + [ui.content Module](developing/archetype/uicontent.md)
       + [ui.frontend.general Module](developing/archetype/uifrontend.md)
       + [ui.frontend.react 모듈](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular 모듈](developing/archetype/uifrontend-angular.md)
       + [ui.tests 모듈](developing/archetype/uitests.md)
       + [it.tests 모듈](developing/archetype/ittests.md)
-      + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
+      + [Build Analyzer Maven 플러그인](developing/archetype/build-analyzer-maven-plugin.md)
