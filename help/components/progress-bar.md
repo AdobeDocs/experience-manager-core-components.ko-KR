@@ -1,29 +1,28 @@
 ---
 title: 진행률 표시줄 구성 요소
-description: 진행률 표시줄 구성 요소는 목표를 향한 진행 상태를 시각적으로 나타냅니다.
+description: 진행률 표시줄 구성 요소는 목표를 위한 진행 상황을 시각적으로 나타냅니다
 role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '338'
 ht-degree: 3%
 
 ---
 
-
 # 진행률 표시줄 구성 요소 {#progress-bar-component}
 
-핵심 구성 요소 진행률 표시줄 구성 요소는 목표를 향한 진행 상태를 시각적으로 나타냅니다.
+코어 구성 요소 진행률 표시줄 구성 요소는 목표를 위한 진행 상황을 시각적으로 나타냅니다.
 
 ## 사용량 {#usage}
 
-진행률 표시줄 구성 요소를 사용하면 컨텐츠 작성자는 완료 비율을 정의하여 진행률 표시줄을 손쉽게 만들 수 있으므로 목표를 향해 진행 상황을 직관적으로 시각적으로 표시할 수 있습니다.
+진행률 표시줄 구성 요소를 사용하면 컨텐츠 작성자가 완료율을 정의하여 진행률 표시줄을 손쉽게 만들 수 있으므로 목표를 향해 진행 상황을 직관적으로 시각적으로 표시할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-진행률 표시줄 구성 요소의 현재 버전은 v1이며, 2020년 5월 핵심 구성 요소 릴리스 2.9.0에 도입되었으며 이 문서에 설명되어 있습니다.
+진행률 표시줄 구성 요소의 현재 버전은 v1이며, 2020년 5월에 핵심 구성 요소 릴리스 2.9.0에서 도입되었으며, 이 문서에 설명되어 있습니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
@@ -31,32 +30,32 @@ ht-degree: 3%
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-HTML 및 JSON 출력뿐만 아니라 진행률 표시줄 구성 요소의 예 및 구성 옵션을 보려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_progressbar)을 방문하십시오.
+진행률 표시줄 구성 요소와 구성 옵션의 예 및 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_progressbar)를 방문하십시오.
 
 ### 기술 세부 정보 {#technical-details}
 
-진행률 표시줄 구성 요소 [에 대한 최신 기술 문서는 GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1)에서 찾을 수 있습니다.
+진행률 표시줄 구성 요소 [에 대한 최신 기술 설명서는 GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1)에 있습니다.
 
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
+코어 구성 요소 개발에 대한 자세한 내용은 [코어 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
 
 ## 구성 대화 상자 {#configure-dialog}
 
 ![진행률 표시줄 구성 요소의 편집 대화 상자](/help/assets/progress-bar-edit.png)
 
-* **완료**  - 백분율로 표시되는 진행률
-* **ID**  - 이 옵션을 사용하면 HTML 및 데이터 레이어에서 구성 요소의 고유 식별자를 제어할  [수 있습니다](/help/developing/data-layer/overview.md).
-   * 비워 두면 자동으로 고유 ID가 생성되며 결과 페이지를 검사하여 찾을 수 있습니다.
-   * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
+* **완료**  - 백분율로 표시되는 진행 상태
+* **ID**  - 이 옵션을 사용하면 HTML과  [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
+   * 비워 두면 고유 ID가 자동으로 생성되며 결과 페이지를 검사하여 찾을 수 있습니다.
+   * ID가 지정된 경우 ID가 고유한지 확인하는 것은 작성자의 책임입니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 사용하여 진행률 표시줄 구성 요소에 적용된 스타일을 정의할 수 있습니다.
+템플릿 작성자는 디자인 대화 상자에서 진행률 표시줄 구성 요소에 적용된 스타일을 정의할 수 있습니다.
 
 ### 스타일 탭 {#styles-tab}
 
 진행률 표시줄 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 레이어 {#data-layer}
+## Adobe 클라이언트 데이터 계층 {#data-layer}
 
-진행률 표시줄 구성 요소는 [Adobe 클라이언트 데이터 레이어를 지원합니다.](/help/developing/data-layer/overview.md)
+진행률 표시줄 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
