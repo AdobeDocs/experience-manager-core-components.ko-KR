@@ -1,32 +1,31 @@
 ---
 title: 제목 구성 요소(v1)
-description: 핵심 구성 요소 제목 구성 요소는 즉석 편집을 제공하는 섹션 제목 구성 요소입니다.
+description: 코어 구성 요소 제목 구성 요소는 즉석 편집 기능을 하는 섹션 제목 구성 요소입니다.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
 
-
 # 제목 구성 요소(v1) {#title-component-v}
 
-핵심 구성 요소 제목 구성 요소는 즉석 편집을 제공하는 섹션 제목 구성 요소입니다.
+코어 구성 요소 제목 구성 요소는 즉석 편집 기능을 하는 섹션 제목 구성 요소입니다.
 
 ## 사용량 {#usage}
 
-제목 구성 요소는 컨텐츠 섹션의 제목 또는 머리글로 사용되도록 되어 있습니다.
+제목 구성 요소는 컨텐츠 섹션의 제목 또는 머리글로 사용됩니다.
 
-사용 가능한 머리글 수준은 [디자인 대화 상자](#design-dialog)에서 템플릿 작성자가 정의할 수 있습니다. 내용 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 머리글 수준 중에서 선택할 수 있습니다. 또한 편의를 위해 머리글 텍스트를 간단히 즉석 편집할 수 있습니다.
+사용 가능한 제목 수준은 [디자인 대화 상자](#design-dialog)에서 템플릿 작성자가 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자의 사용 가능한 머리글 수준 중에서 선택할 수 있습니다](#edit-dialog). 편의상, 제목 텍스트를 즉석 편집할 수도 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 AEM 6.3과 함께 핵심 구성 요소 릴리스 1.0.0에 처음 소개된 제목 구성 요소의 v1에 대해 설명합니다.
+이 문서에서는 원래 AEM 6.3과 함께 코어 구성 요소 릴리스 1.0.0에 소개된 제목 구성 요소 v1에 대해 설명합니다.
 
-다음 표는 제목 구성 요소의 v1 호환성을 보여줍니다.
+다음 표에는 제목 구성 요소 v1의 호환성이 나와 있습니다.
 
 | AEM 버전 | 제목 구성 요소 v1 |
 |--- |--- |
@@ -68,15 +67,15 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1](/help/versions.md)에 대한 호환성 정보를 참조하십시오.[
+>코어 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소 릴리스 1.1.0이 필요합니다. 자세한 내용은 코어 구성 요소 v1](/help/versions.md)에 대한 호환성 정보를 참조하십시오.[
 
 ## 편집 대화 상자 {#edit-dialog}
 
-편집 대화 상자를 사용하면 컨텐츠 작성자가 제목 텍스트를 정의할 수 있을 뿐만 아니라 제목 수준을 선택할 수 있습니다.
+편집 대화 상자에서는 컨텐츠 작성자가 제목 텍스트를 정의하고 제목 수준을 선택할 수 있습니다.
 
 >[!NOTE]
 >
->제목에 빈 값을 사용하면 페이지 제목이 표시됩니다.
+>제목이 비어 있는 값으로 인해 페이지 제목이 표시됩니다.
 
 ![](/help/assets/chlimage_1-91.png)
 
@@ -86,14 +85,14 @@ ht-degree: 2%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 사용하여 컨텐츠 작성자가 작성할 때 제목 구성 요소가 가질 기본 제목 수준을 정의할 수 있습니다.
+디자인 대화 상자에서는 템플릿 작성자가 컨텐츠 작성자가 만들 때 제목 구성 요소가 가질 기본 제목 수준을 정의할 수 있습니다.
 
 ![](/help/assets/chlimage_1-92.png)
 
 ## 기술 세부 정보 {#technical-details}
 
-제목 구성 요소 [에 대한 최신 기술 문서는 GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)에서 찾을 수 있습니다.
+제목 구성 요소 [에 대한 최신 기술 설명서는 GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)에 있습니다.
 
-전체 핵심 구성 요소 프로젝트를 GitHub에서 다운로드할 수 있습니다.
+전체 코어 구성 요소 프로젝트는 GitHub에서 다운로드할 수 있습니다.
 
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
+코어 구성 요소 개발에 대한 자세한 내용은 [코어 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
