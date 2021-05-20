@@ -1,43 +1,42 @@
 ---
-title: 양식 숨겨진 구성 요소(v1)
-description: 핵심 구성 요소 양식 숨김 구성 요소를 사용하면 숨김 필드를 표시할 수 있습니다.
+title: 숨겨진 구성 요소(v1)
+description: 코어 구성 요소 양식 숨김 구성 요소로 숨김 필드를 표시할 수 있습니다.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
 
+# 양식 숨김 구성 요소(v1) {#form-hidden-component-v}
 
-# 양식 숨겨진 구성 요소(v1) {#form-hidden-component-v}
-
-핵심 구성 요소 양식 숨김 구성 요소를 사용하면 숨김 필드를 표시할 수 있습니다.
+코어 구성 요소 양식 숨김 구성 요소로 숨김 필드를 표시할 수 있습니다.
 
 ## 사용량 {#usage}
 
-핵심 구성 요소 양식 숨겨진 구성 요소를 사용하면 숨겨진 필드를 만들어 현재 페이지에 대한 정보를 다시 AEM에 전달할 수 있으며 이 필드는 [양식 컨테이너 구성 요소](form-container-v1.md)와 함께 사용할 수 있습니다.
+코어 구성 요소 양식 숨김 구성 요소 를 사용하면 숨겨진 필드를 만들어 현재 페이지에 대한 정보를 다시 AEM에 전달할 수 있습니다. 이 필드는 [양식 컨테이너 구성 요소](form-container-v1.md)와 함께 사용하기 위한 것입니다.
 
-필드 속성은 [구성 대화 상자](#configure-dialog)에서 내용 편집기로 정의할 수 있습니다.
+필드 속성은 [구성 대화 상자](#configure-dialog)에서 컨텐츠 편집기에서 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 AEM 6.3의 핵심 구성 요소 릴리스 1.0.0에 처음 소개된 양식 숨겨진 구성 요소의 v1에 대해 설명합니다.
+이 문서에서는 원래 AEM 6.3과 함께 코어 구성 요소 릴리스 1.0.0에 소개된 양식 숨김 구성 요소의 v1에 대해 설명합니다.
 
-다음 표는 양식 숨김 구성 요소의 v1 호환성을 보여줍니다.
+다음 표에는 Form Hidden 구성 요소의 v1과의 호환성이 나와 있습니다.
 
-| AEM 버전 | 양식 숨겨진 구성 요소 v1 |
+| AEM 버전 | 양식 숨김 구성 요소 v1 |
 |--- |--- |
 | 6.3 | 호환 가능 |
 | 6.4 | 호환 가능 |
 
 >[!CAUTION]
 >
->이 문서에서는 양식 숨겨진 구성 요소의 v1에 대해 설명합니다.
+>이 문서에서는 양식 숨김 구성 요소의 v1에 대해 설명합니다.
 >
->현재 버전의 숨겨진 구성 요소에 대한 자세한 내용은 [양식 숨겨진 구성 요소](/help/components/forms/form-hidden.md) 문서를 참조하십시오.
+>양식 숨김 구성 요소의 현재 버전에 대한 자세한 내용은 [양식 숨김 구성 요소](/help/components/forms/form-hidden.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -81,17 +80,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->핵심 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소의 릴리스 1.1.0이 필요합니다. 자세한 내용은 핵심 구성 요소 v1](/help/versions.md#release-history-and-compatibility)에 대한 호환성 정보를 참조하십시오.[
+>코어 구성 요소에서 JSON 내보내기를 사용하려면 핵심 구성 요소 릴리스 1.1.0이 필요합니다. 자세한 내용은 코어 구성 요소 v1](/help/versions.md#release-history-and-compatibility)에 대한 호환성 정보를 참조하십시오.[
 
 ## 구성 대화 상자 {#configure-dialog}
 
-구성 대화 상자를 사용하면 컨텐츠 작성자가 숨김 필드의 매개 변수를 정의할 수 있습니다.
+구성 대화 상자에서는 컨텐츠 작성자가 숨김 필드의 매개 변수를 정의할 수 있습니다.
 
 ![](/help/assets/chlimage_1-26.png)
 
-* **이름**  - 양식 데이터와 함께 제출하는 필드의 이름입니다.
-* **값**  - 양식 데이터와 함께 제출하는 필드의 값입니다.
-* **식별자**  - 식별자는 페이지에서 고유해야 하며 이 양식 필드에 스크립트를 바인딩하는 데 사용할 수 있습니다
+* **이름**  - 양식 데이터와 함께 제출되는 필드의 이름입니다
+* **값**  - 양식 데이터와 함께 제출되는 필드의 값입니다
+* **식별자**  - 식별자는 페이지에서 고유해야 하며 스크립트를 이 양식 필드에 바인딩하는 데 사용할 수 있습니다
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -99,8 +98,8 @@ ht-degree: 2%
 
 ## 기술 세부 정보 {#technical-details}
 
-양식 숨겨진 구성 요소 [에 대한 최신 기술 문서는 GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)에서 찾을 수 있습니다.
+양식 숨김 구성 요소 [에 대한 최신 기술 설명서는 GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)에 있습니다.
 
-전체 핵심 구성 요소 프로젝트를 GitHub에서 다운로드할 수 있습니다.
+전체 코어 구성 요소 프로젝트는 GitHub에서 다운로드할 수 있습니다.
 
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
+코어 구성 요소 개발에 대한 자세한 내용은 [코어 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
