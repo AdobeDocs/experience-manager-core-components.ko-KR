@@ -4,10 +4,10 @@ description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 feature: 핵심 구성 요소, AEM 프로젝트 원형
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
+source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 7%
+source-wordcount: '1111'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ AEM 프로젝트 원형 은 웹 사이트의 시작점으로 최소한의 우수
 
 >[!TIP]
 >
->최신 AEM 프로젝트 원형 [은 GitHub](https://github.com/adobe/aem-project-archetype)에서 찾을 수 있습니다.
+>최신 AEM 프로젝트 원형 [은 GitHub에서 찾을 수 있습니다.](https://github.com/adobe/aem-project-archetype)
 
 ## 리소스 {#resources}
 
@@ -46,7 +46,7 @@ AEM 프로젝트 원형 은 웹 사이트의 시작점으로 최소한의 우수
 * **예제 코드:** HelloWorld 구성 요소와 샘플 모델, 서블릿, 필터 및 스케줄러를 체크아웃합니다.
 * **오픈 소싱됨:** 필요한 내용이 아닌 경우 개선  [](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 사항에 기여합니다.
 
-## 사용량
+## 사용량 {#usage}
 
 프로젝트를 생성하려면 다음 명령줄을 필요에 따라 조정합니다.
 
@@ -68,10 +68,10 @@ mvn -B archetype:generate \
 * `groupId="com.mysite"` 을 조정하여 Maven groupId 및 Java 소스 패키지를 정의합니다.
 * 사용 가능한 속성 목록을 조회하여 조정할 추가 정보가 있는지 확인합니다.
 
-## 사용 가능한 속성
+## 사용 가능한 속성 {#available-properties}
 
 | 이름 | 기본값 | 설명 |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | 애플리케이션 제목 은 웹 사이트 제목 및 구성 요소 그룹(예:`"My Site"`) |
 | `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예:`"mysite"`) |
 | `artifactId` | *`${appId}`* | Base Maven 아티팩트 ID(예:`"mysite"`) |
@@ -91,21 +91,25 @@ mvn -B archetype:generate \
 | `commerceEndpoint` |  | CIF에만 필요합니다. 사용할 상거래 시스템 GraphQL 서비스의 선택적 끝점(예:`https://hostname.com/grapql`) |
 | `datalayer` | `y` | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)와의 통합을 활성화합니다. |
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대해 [AMP](/help/developing/amp.md) 지원을 사용하도록 설정합니다. |
+| `enableDynamicMedia` | `n` | 프로젝트 정책 설정에서 기본 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소의 정책에서 Dynamic Media 기능을 활성화합니다. |
+| `enableSSR` | `n` | 프런트엔드 프로젝트에 대해 SSR을 활성화하는 옵션 |
 
-## 시스템 요구 사항
+## 시스템 요구 사항 {#requirements}
 
-| 원형 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
-|---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | 계속 | 6.5.5.0+ | 6.4.8.1+ | 8,11 | 3.3.9+ |
+| 원형 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
+|---------|---------|---------|---------|---------|
+| [28년](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | 계속 | 6.5.7.0+ | 8,11 | 3.3.9+ |
 
 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 이전 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)에 대한 로컬 개발 환경을 설정합니다.[
 
-### 알려진 문제
+### 알려진 문제 {#known-issues}
 
 Windows에서 실행하고 디스패처 구성을 생성하는 경우 관리자 권한 명령 프롬프트 또는 Linux용 Windows 하위 시스템에서 실행해야 합니다( [#329](https://github.com/adobe/aem-project-archetype/issues/329) 참조).
 
 대화형 모드(`-B` 매개 변수 없이)에서 원형 을 실행할 때 최종 확인이 취소되지 않는 한 기본값이 있는 속성을 변경할 수 없습니다. 그러면 질문에 기본값이 있는 속성을 포함하여 질문을 반복합니다( 참조)
 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 자세한 내용)
+
+[Eclipse 문제로 인해 생성 스크립트 `archetype-post-generate.groovy`이 실행되지 않으므로 `File -> New -> Maven Project`으로 새 프로젝트를 시작할 때 Eclipse에서 이 원형 을 사용할 수 없습니다.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) 해결 방법은 위의 명령줄을 사용한 다음 Eclipse를 사용하는 것입니다  `File -> Import -> Existing Maven Project`.
 
 ## 추가 읽기 {#further-reading}
 
