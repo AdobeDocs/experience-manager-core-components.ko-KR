@@ -2,16 +2,16 @@
 title: AEM Project Archetype의 ui.tests 모듈
 description: AEM Project Archetype UI 테스트를 사용하는 방법
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# AEM 프로젝트 원형 {#uitests-module}의 ui.tests 모듈
+# AEM Project Archetype의 ui.tests 모듈 {#uitests-module}
 
 프로젝트에 포함된 세 가지 수준의 테스트가 있습니다.
 
