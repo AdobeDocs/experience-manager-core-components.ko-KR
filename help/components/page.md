@@ -1,9 +1,9 @@
 ---
 title: 페이지 구성 요소
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고 페이지 머리글/바닥글 및 구조 구성 요소를 템플릿 편집기로 어셈블할 수 있도록 디자인된 확장 가능한 페이지 구성 요소입니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 3%
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-구성 요소는 전체 페이지를 나타내므로 일반적으로 편집 대화 상자에 있는 설정은 [페이지 속성](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 창에 있습니다.
+구성 요소는 전체 페이지를 나타내므로 일반적으로 편집 대화 상자에 있는 설정은 [페이지 속성](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 창에 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -88,6 +88,6 @@ ht-degree: 3%
 
 페이지 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 페이지 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
