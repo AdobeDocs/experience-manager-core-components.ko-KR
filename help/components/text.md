@@ -1,9 +1,9 @@
 ---
 title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 즉석 편집 기능을 하는 리치 텍스트 편집 및 구성 구성 요소입니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 4%
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ## 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-코어 구성 요소 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE는 컨텐츠 작성자가 텍스트 컨텐츠를 편집할 수 있는 다양한 기능을 제공합니다. RTE는 구성 면에서 매우 유연하며 다양한 옵션을 제공합니다. RTE 구성 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+코어 구성 요소 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE는 컨텐츠 작성자가 텍스트 컨텐츠를 편집할 수 있는 다양한 기능을 제공합니다. RTE는 구성 면에서 매우 유연하며 다양한 옵션을 제공합니다. RTE 구성 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
 
 이 문서의 나머지 부분에서는 기본 제공 RTE 구성과 함께 코어 구성 요소 텍스트 구성 요소의 표준 구성을 보여줍니다.
 
@@ -370,6 +370,6 @@ ht-degree: 4%
 
 텍스트 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 텍스트 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
