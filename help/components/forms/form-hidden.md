@@ -1,9 +1,9 @@
 ---
 title: 양식 숨김 구성 요소
 description: 코어 구성 요소 양식 숨김 구성 요소로 숨김 필드를 표시할 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 3%
