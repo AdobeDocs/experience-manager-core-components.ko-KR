@@ -2,9 +2,9 @@
 title: 이미지 구성 요소(v1)
 description: 코어 구성 요소 이미지 구성 요소 는 즉석 편집 중인 응용 이미지 구성 요소 기능입니다.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 3%
