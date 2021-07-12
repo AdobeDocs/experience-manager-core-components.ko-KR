@@ -1,9 +1,9 @@
 ---
 title: 클라이언트 라이브러리 포함
 description: 사용 사례에 따라 클라이언트 라이브러리를 포함하는 방법에는 여러 가지가 있습니다.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 클라이언트 라이브러리 포함 {#including-client-libraries}
 
-사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 포함하는 방법은 여러 가지가 있습니다. 이 문서에서는 각각에 대한 예제 및 샘플 [HTL 코드 조각](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html)을 제공합니다.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 포함하는 방법은 여러 가지가 있습니다. 이 문서에서는 각각에 대한 예제 및 샘플 [HTL 코드 조각](https://docs.adobe.com/content/help/ko/experience-manager-htl/using/overview.html)을 제공합니다.
 
 ## 권장 기본 사용 {#recommended-default-usage}
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 </sly>
 ```
 
-## CSS 또는 JS만{#css-js-only}
+## CSS 또는 JS만 해당 {#css-js-only}
 
 CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` 요소를 닫기 바로 전에 포함됩니다.
 
@@ -84,7 +84,7 @@ CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` �
 
 `jsAndCssIncludes` 및 `cssIncludes`에 전달할 수 있는 CSS `link` 속성:
 
-* `media`:및  `script` 에 전달할 수 있는 string JS  `jsAndCssIncludes` 속성  `jsIncludes`:
+* `media`: 및  `script` 에 전달할 수 있는 string JS  `jsAndCssIncludes` 속성  `jsIncludes`:
 * `async`: 부울
 * `defer`: 부울
 * `onload`: 문자열
@@ -112,7 +112,7 @@ CSS를 인라인으로 지정하려면 `cssInline`을 사용할 수 있습니다
 </script>
 ```
 
-## 컨텍스트 인식 CSS 및 JavaScript {#context-aware-loading} 로드
+## 컨텍스트 인식 CSS 및 JavaScript 로드 {#context-aware-loading}
 
 [페이지 구성 요소](/help/components/page.md)는 개발자 정의 컨텍스트 인식 CSS, JavaScript 또는 메타 태그 로딩도 지원합니다.
 
