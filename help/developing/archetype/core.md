@@ -2,16 +2,16 @@
 title: AEM 프로젝트 원형 코어 모듈
 description: AEM 프로젝트 원형 코어 모듈
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# AEM 프로젝트 원형 {#core-module} 의 코어 모듈
+# AEM 프로젝트 원형 코어 모듈 {#core-module}
 
 코어 maven 모듈(`<src-directory>/<project>/core`)에는 구현에 필요한 모든 Java 코드가 포함되어 있습니다. 이 모듈은 모든 Java 코드를 패키징하고 OSGi 번들로 AEM 인스턴스에 배포합니다.
 
