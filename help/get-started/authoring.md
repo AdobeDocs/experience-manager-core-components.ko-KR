@@ -1,9 +1,9 @@
 ---
 title: 핵심 구성 요소로 작성
 description: AEM에서 구성 요소는 작성 중인 페이지의 컨텐츠를 구성하는 구조적 요소입니다. 핵심 구성 요소는 유연하고 기능이 풍부한 작성 기능을 제공합니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 8%
@@ -54,7 +54,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 >
 >필요한 구성 요소를 표시된 그룹에 추가하거나 작성자가 사용할 수 있도록 사용자 지정합니다.
 
-## 코어 구성 요소 사전 구성 {#pre-configuring-core-components}
+## 핵심 구성 요소 사전 구성 {#pre-configuring-core-components}
 
 기초 구성 요소를 구성하는 것은 개발자의 작업입니다. 하지만 핵심 구성 요소를 사용하여 이제 템플릿 작성자가 템플릿 편집기를 통해 많은 기능을 구성할 수 있습니다.
 
@@ -71,7 +71,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | **편집 대화 상자** | 배치된 구성 요소에 대한 일반 페이지 편집 중에 **페이지 작성자**&#x200B;가 수정할 수 있는 옵션 | 구성 요소에 의해 표시되는 콘텐츠와 궁극적으로 페이지에 표시되는 방법입니다. | 컨텐츠 텍스트의 서식을 지정하고 페이지에서 이미지를 회전합니다. |
 | **디자인 대화 상자** | 페이지 템플릿을 구성할 때 **템플릿 작성자**&#x200B;가 수정할 수 있는 옵션입니다. | 구성 요소를 편집할 때 페이지 작성자가 사용할 수 있는 옵션은 무엇입니까 | 사용할 수 있는 텍스트 형식 옵션, 사용 가능한 이미지 즉석 옵션 |
 
-### 구성 요소 스타일 {#component-styling}
+### 구성 요소 스타일링 {#component-styling}
 
 대부분의 코어 구성 요소의 스타일은 AEM 스타일 시스템을 사용하여 정의할 수 있습니다.
 
