@@ -1,9 +1,9 @@
 ---
 title: 빠른 검색 구성 요소
 description: 빠른 검색 구성 요소는 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 웹 사이트에 검색 기능을 제공하고 검색 결과를 제공합니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
