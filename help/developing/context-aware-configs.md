@@ -1,9 +1,9 @@
 ---
 title: Sling 컨텍스트 인식 구성 및 핵심 구성 요소
 description: 코어 구성 요소는 특정 기능에 대한 Sling 컨텍스트 인식 구성을 활용합니다
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 AEM의 구성에 대한 자세한 내용은 [구성 및 구성 브라우저 설명서를 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
-## 핵심 구성 요소 {#core-components}에서 를 사용하십시오
+## 핵심 구성 요소에서 사용 {#core-components}
 
 많은 핵심 구성 요소 기능이 컨텍스트 인식 구성을 활용합니다. 이러한 모든 구성은 다음 노드 아래에 있습니다.
 
