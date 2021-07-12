@@ -1,9 +1,9 @@
 ---
 title: 구성 요소 지침
 description: 핵심 구성 요소는 기초 구성 요소와 전혀 다른 최신 구현 패턴을 따릅니다.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 2%
@@ -28,9 +28,9 @@ ht-degree: 2%
 
 이 단계를 더 수행하려면 구성 요소가 사이트 또는 프로젝트에서 다시 사용되는 경우 [구성 가능한 기능](#pre-configurable-capabilities) 섹션을 참조하십시오.
 
-### 관심 항목 {#separation-of-concerns} 분리
+### 문제 분리 {#separation-of-concerns}
 
-일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 논리(또는 모델)를 별도로 유지하는 것이 좋습니다. 이를 위해 여러 가지 방법이 있지만, 권장되는 방법은 논리에 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) 를 사용하고, 핵심 구성 요소처럼 마크업에 [HTML Template Language](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html) (HTL)을 사용하는 것입니다.
+일반적으로 마크업 템플릿(또는 보기)과 구성 요소의 논리(또는 모델)를 별도로 유지하는 것이 좋습니다. 이를 위해 여러 가지 방법이 있지만, 권장되는 방법은 논리에 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) 를 사용하고, 핵심 구성 요소처럼 마크업에 [HTML Template Language](https://docs.adobe.com/content/help/ko/experience-manager-htl/using/overview.html) (HTL)을 사용하는 것입니다.
 
 Sling 모델은 POJO에서 필요한 변수에 쉽게 액세스할 수 있는 Java 주석 세트입니다. 따라서 구성 요소에 대한 Java 로직을 구현하는 간단하고 강력하며 효율적인 방법을 제공합니다.
 
@@ -83,7 +83,7 @@ HTL은 AEM에 맞게 맞춤화된 안전하고 간단한 템플릿 언어로 디
 1. 사이트는 여전히 인터페이스를 가리키는 HTL 파일에 대해 신경쓰지 않고 프록시 구성 요소의 리소스 유형에 등록하여 Sling 모델의 구현을 재정의할 수 있습니다.
 1. 사이트는 어떤 구현 논리를 가리킬 필요 없이 구성 요소의 HTL 마크업을 재정의할 수 있습니다.
 
-## 모두 함께 {#putting-it-all-together}
+## 모든 것을 하나로 묶는 방법 {#putting-it-all-together}
 
 다음은 제목 코어 구성 요소의 예를 들어 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 사이트별 프록시 구성 요소에서 구성 요소 버전 지정을 확인할 수 있도록 어떻게 컨텐츠 리소스에 버전 번호가 포함되어 있는지 확인하는 방법을 설명합니다. 그런 다음 구성 요소의 `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) 파일이 모델 인터페이스에 어떻게 사용되는지 보여 주는 반면, 구현은 [Sling Model](https://sling.apache.org/documentation/bundles/models.html) 주석을 통해 구성 요소의 특정 버전에 바인딩됩니다.
 
