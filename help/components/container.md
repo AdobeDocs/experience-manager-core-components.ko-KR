@@ -1,9 +1,9 @@
 ---
 title: 컨테이너 구성 요소
 description: 코어 구성 요소 컨테이너 구성 요소를 사용하면 한 페이지에서 여러 추가 구성 요소를 위한 컨테이너를 만들 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 2%
@@ -79,7 +79,7 @@ HTML 및 JSON 출력뿐만 아니라 컨테이너 구성 요소의 구성 옵션
 
 * **열**  - 결과 컨테이너의 그리드에 포함되는 열 수를 정의합니다.
 
-### 백그라운드 탭 {#background-tab}
+### 배경 탭 {#background-tab}
 
 ![컨테이너 구성 요소의 디자인 대화 상자에 있는 배경 탭](/help/assets/container-design-background.png)
 
