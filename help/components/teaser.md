@@ -1,16 +1,16 @@
 ---
 title: 티저 구성 요소
 description: 티저 구성 요소는 이미지, 제목, 리치 텍스트 및 선택적으로 추가 컨텐츠에 연결할 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 2%
 
 ---
 
-# Teaser 구성 요소 {#teaser-component}
+# 티저 구성 요소 {#teaser-component}
 
 핵심 구성 요소 티저 구성 요소는 이미지, 제목, 리치 텍스트를 표시하고 선택적으로 추가 컨텐츠에 연결할 수 있습니다.
 
@@ -86,7 +86,7 @@ Teaser 구성 요소는 [이미지 구성 요소](image.md)에 이미지 렌더�
 
 디자인 대화 상자에서는 템플릿 작성자가 이 구성 요소를 사용할 때 컨텐츠 작성자가 갖는 티저 옵션을 정의할 수 있습니다.
 
-### Teaser 탭 {#teaser-tab}
+### 티저 탭 {#teaser-tab}
 
 ![Teaser 구성 요소의 디자인 대화 상자](/help/assets/teaser-design.png)
 
@@ -107,6 +107,6 @@ Teaser 구성 요소는 [이미지 구성 요소](image.md)에 이미지 렌더�
 
 Teaser 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 Teaser 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
