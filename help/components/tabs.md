@@ -1,9 +1,9 @@
 ---
 title: 탭 구성 요소
 description: 탭 구성 요소를 사용하면 여러 탭을 만들어 페이지에 컨텐츠를 정렬할 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 2%
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 * **레이블**  - 구성 요소에 대한 ARIA 레이블 속성의 값
 
-## 패널 {#select-panel} 선택
+## 패널 선택 {#select-panel}
 
 컨텐츠 작성자는 구성 요소 도구 모음의 **패널 선택** 옵션을 사용하여 편집할 다른 패널로 변경하고 탭의 순서를 쉽게 다시 정렬할 수 있습니다.
 
@@ -134,6 +134,6 @@ ht-degree: 2%
 
 탭 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 탭 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
