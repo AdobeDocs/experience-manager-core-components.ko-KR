@@ -1,26 +1,26 @@
 ---
 title: 핵심 구성 요소에 대한 AMP 지원
 description: 핵심 구성 요소 지원 AMP - 가속 모바일 페이지
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
-# 코어 구성 요소 {#amp-support}에 대한 AMP 지원
+# 핵심 구성 요소에 대한 AMP 지원 {#amp-support}
 
 코어 구성 요소 중 [릴리스 2.11.0](/help/versions.md)AMP - 가속 모바일 페이지](https://developers.google.com/amp) 는 완전히 지원됩니다.[
 
 이 문서에서는 AMP가 지원되는 방법과 사이트에 대해 AMP를 활성화하는 방법에 대한 개요를 제공합니다. 그러나 기술적인 세부 사항은 [GitHub 개발자 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
 
-## AMP란 무엇입니까?{#what-is-amp}
+## AMP란 무엇입니까? {#what-is-amp}
 
 가속 모바일 페이지 또는 AMP는 본래 Google이 모바일 탐색을 위해 페이지를 최적화하기 위해 설계한 오픈 소스 프레임워크입니다. AMP 페이지는 일반적으로 표준 웹 페이지보다 훨씬 더 빠르게 로드되므로 더 나은 모바일 경험을 제공합니다.
 
-## 코어 구성 요소 {#amp-in-core-components}의 AMP
+## 핵심 구성 요소의 AMP {#amp-in-core-components}
 
 코어 구성 요소에서 AMP에 대한 지원은 [완전히 구성할 수 있습니다.](#enabling-amp) AMP 버전의 페이지는 표준 HTML 버전과 함께 독점적으로 제공되거나 전혀 제공되지 않을 수 있습니다.
 
@@ -39,7 +39,7 @@ AMP 지원은 매우 많은 유연성을 제공하지만 빠르게 시작하려�
 1. [템플릿 ](#enabling-amp) 수준 또는 개별 페이지에서 AMP 지원을 활성화합니다.
 1. [필요에 ](#css-requirements) 따라 인라인 CSS를 배포합니다.
 
-### 페이지용 AMP {#enabling-amp} 활성화
+### 페이지용 AMP 활성화 {#enabling-amp}
 
 페이지에 대해 AMP를 활성화하려면 **AMP 모드**&#x200B;를 [페이지 정책에서 선택해야 합니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
@@ -49,7 +49,7 @@ AMP 지원은 매우 많은 유연성을 제공하지만 빠르게 시작하려�
 * **연결된 AMP**  - 페이지가 HTML뿐만 아니라 AMP로 전달됩니다.
 * **AMP만**  - 페이지가 AMP로만 전달됩니다.
 
-페이지에 대한 AMP 설정은 개별 페이지의 [페이지 속성](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서도 무시할 수 있습니다.
+페이지에 대한 AMP 설정은 개별 페이지의 [페이지 속성](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서도 무시할 수 있습니다.
 
 ![AMP 페이지 속성](/help/assets/amp-page-properties.png)
 
