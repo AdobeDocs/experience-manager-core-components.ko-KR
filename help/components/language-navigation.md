@@ -1,9 +1,9 @@
 ---
 title: 언어 탐색 구성 요소
 description: 언어 탐색 구성 요소는 방문자가 다른 로케일의 동일한 페이지로 이동할 수 있도록 사이트에 대한 언어/국가 탐색을 제공합니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 2%
@@ -105,6 +105,6 @@ ht-degree: 2%
 
 ![언어 탐색 구성 요소의 편집 대화 상자](/help/assets/language-navigation-edit.png)
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 언어 탐색 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
