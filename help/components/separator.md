@@ -1,9 +1,9 @@
 ---
 title: 분리자 구성 요소
 description: 구분 기호 구성 요소는 페이지의 구성 요소 간에 브레이크를 만듭니다
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
