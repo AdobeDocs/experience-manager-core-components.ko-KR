@@ -2,16 +2,16 @@
 title: angular SPA용 프런트 엔드 빌드
 description: angular 기반 SPA 프로젝트에 대한 프런트 엔드 빌드 프로세스에 대한 설명입니다
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-# angular SPA {#frontend-angular} 의 프런트 엔드 빌드
+# angular SPA용 프런트 엔드 빌드 {#frontend-angular}
 
 이 문서에서는 원형 을 사용하여 Angular 프레임워크을 기반으로 단일 페이지 애플리케이션(SPA)을 만들 때 생성된 프로젝트의 세부 사항을 설명합니다. 즉, `frontendModule` 옵션을 `angular`로 설정한 경우
 
@@ -40,9 +40,9 @@ CORS와 관련된 오류가 발생하는 경우 다음과 같이 AEM을 구성�
 1. 구성 관리자(http://localhost:4502/system/console/configMgr)으로 이동합니다.
 1. &quot;Granite Cross-Origin 리소스 공유 Adobe&quot; 구성을 엽니다.
 1. 다음 추가 값으로 새 구성을 만듭니다.
-   * 허용된 원본:http://localhost:4200
-   * 지원되는 헤더:인증
-   * 허용되는 메서드:OPTIONS
+   * 허용된 원본: http://localhost:4200
+   * 지원되는 헤더: 인증
+   * 허용되는 메서드: OPTIONS
 
 ### npm 테스트 {#npm-test}
 
@@ -52,7 +52,7 @@ npm test
 
 이 명령은 카르마 테스트 주자를 시작합니다. 자세한 내용은 테스트 실행 ](https://angular.io/guide/testing)에 대한 [Angular 설명서를 참조하십시오.
 
-### npm 실행 테스트:debug {#npm-run-test-debug}
+### npm 실행 테스트:디버그 {#npm-run-test-debug}
 
 ```shell
 npm run test:debug
