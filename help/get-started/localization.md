@@ -1,9 +1,9 @@
 ---
 title: 핵심 구성 요소의 로컬라이제이션 기능
 description: 핵심 구성 요소의 로컬라이제이션 기능
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -105,7 +105,7 @@ AEM 및 핵심 구성 요소의 모든 현지화 기능은 현지화된 콘텐�
 
 ![](/help/assets/screen-shot-2019-09-09-11.22.14.png)
 
-## 모두 함께 {#fitting-it-all-together} 피팅
+## 모두 합쳐서 {#fitting-it-all-together}
 
 다음은 이러한 간단하지만 강력한 요소가 함께 작동하여 콘텐츠 작성자를 위해 현지화된 페이지를 전달하는 방법에 대한 전체 그림입니다.
 
