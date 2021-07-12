@@ -1,9 +1,9 @@
 ---
 title: 핵심 구성 요소 사용자 정의
 description: 코어 구성 요소 는 간단한 스타일링에서 고급 기능 재사용에 이르기까지 쉬운 사용자 지정을 허용하는 몇 가지 패턴을 구현합니다.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 2%
@@ -73,7 +73,7 @@ ht-degree: 2%
 </jcr:root>
 ```
 
-### 코어 구성 요소의 논리 사용자 지정 {#customizing-the-logic-of-a-core-component}
+### 핵심 구성 요소의 논리 사용자 지정 {#customizing-the-logic-of-a-core-component}
 
 핵심 구성 요소에 대한 비즈니스 로직은 Sling 모델에서 구현됩니다. Sling 위임 패턴을 사용하여 이 논리를 확장할 수 있습니다.
 
@@ -100,7 +100,7 @@ public class PageHeadline implements Title {
 
 위임 패턴에 대한 자세한 내용은 핵심 구성 요소 GitHub Wiki 문서 [Sling 모델용 위임 패턴](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)을 참조하십시오.
 
-### 마크업 {#customizing-the-markup} 사용자 정의
+### 마크업 사용자 정의 {#customizing-the-markup}
 
 고급 스타일링을 사용하려면 구성 요소의 다른 마크업 구조가 필요한 경우가 있습니다.
 
@@ -108,13 +108,13 @@ public class PageHeadline implements Title {
 
 코어 탐색 표시 구성 요소의 예를 다시 들어 마크업 출력을 사용자 지정하려면 `breadcrumb.html` 파일을 코어 탐색 표시 구성 요소를 가리키는 `sling:resourceSuperTypes` 가 있는 사이트별 구성 요소에 복사해야 합니다.
 
-### 구성 요소 {#styling-the-components} 스타일 지정
+### 구성 요소 스타일 지정 {#styling-the-components}
 
 사용자 지정의 첫 번째 형식은 CSS 스타일을 적용하는 것입니다.
 
 이를 쉽게 하기 위해 코어 구성 요소는 의미 있는 마크업을 렌더링하고 [Bootstrap](https://getbootstrap.com/)에서 영감을 받은 표준화된 이름 지정 규칙을 따릅니다. 또한 개별 구성 요소에 대한 스타일을 쉽게 타깃팅하고 네임스페이스를 지정하려면 각 코어 구성 요소를 &quot; `cmp`&quot; 및 &quot; `cmp-<name>`&quot; 클래스를 사용하여 DIV 요소에 래핑됩니다.
 
-예를 들어, v1 코어 탐색 표시 구성 요소의 HTL 파일 보기:[탐색 표시.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html) 요소 출력 계층이 `ol.breadcrumb > li.breadcrumb-item > a`인 것을 알 수 있습니다. 따라서 CSS 규칙이 해당 구성 요소의 탐색 표시 클래스에만 영향을 주는지 확인하려면 모든 규칙에 다음과 같이 이름을 지정해야 합니다.
+예를 들어, v1 코어 탐색 표시 구성 요소의 HTL 파일 보기: [탐색 표시.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html) 요소 출력 계층이 `ol.breadcrumb > li.breadcrumb-item > a`인 것을 알 수 있습니다. 따라서 CSS 규칙이 해당 구성 요소의 탐색 표시 클래스에만 영향을 주는지 확인하려면 모든 규칙에 다음과 같이 이름을 지정해야 합니다.
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -124,7 +124,7 @@ public class PageHeadline implements Title {
 
 또한 각 핵심 구성 요소는 템플릿 작성자가 페이지 작성자가 구성 요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있도록 해주는 AEM [스타일 시스템 기능](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)을 활용합니다. 이렇게 하면 각 템플릿에 대해 허용된 구성 요소 스타일 목록과 이러한 스타일 중 하나를 해당 종류의 모든 구성 요소에 기본적으로 적용할지 여부를 정의할 수 있습니다.
 
-## 사용자 지정 {#upgrade-compatibility-of-customizations} 의 업그레이드 호환성
+## 사용자 정의 업그레이드 호환성 {#upgrade-compatibility-of-customizations}
 
 다음과 같은 세 가지 종류의 업그레이드가 가능합니다.
 
