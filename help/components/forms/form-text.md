@@ -1,9 +1,9 @@
 ---
 title: 양식 텍스트 구성 요소
 description: 코어 구성 요소 양식 텍스트 구성 요소를 사용하면 양식을 제출할 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 7%
@@ -67,7 +67,7 @@ ht-degree: 7%
    * ID가 지정된 경우 ID가 고유한지 확인하는 것은 작성자의 책임입니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
 
-### 탭 {#about-tab} 정보
+### 정보 탭 {#about-tab}
 
 ![정보 탭](/help/assets/form-text-edit-about.png)
 
