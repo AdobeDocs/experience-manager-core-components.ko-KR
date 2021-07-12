@@ -2,16 +2,16 @@
 title: AEM Project Archetype의 it.tests 모듈
 description: AEM Project Archetype 통합 테스트를 사용하는 방법
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
-# AEM Project Archetype {#ittests-module}의 it.tests 모듈입니다.
+# AEM Project Archetype의 it.tests 모듈 {#ittests-module}
 
 프로젝트에 포함된 세 가지 수준의 테스트가 있습니다.
 
