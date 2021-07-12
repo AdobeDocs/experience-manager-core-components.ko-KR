@@ -2,16 +2,16 @@
 title: AEM Project Archetype의 ui.apps 모듈
 description: AEM Project Archetype의 ui.apps 모듈
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
-# AEM 프로젝트 원형 {#uiapps-module}의 ui.apps 모듈
+# AEM Project Archetype의 ui.apps 모듈 {#uiapps-module}
 
 ui.apps maven 모듈(`<src-directory>/<project>/ui.apps`)에는 `/apps` 아래의 사이트에 필요한 모든 렌더링 코드가 포함되어 있습니다. 여기에는 [clientlibs라는 AEM 형식으로 저장될 CSS/JS가 포함됩니다.](uifrontend.md#clientlibs) 여기에는 동적 HTML 렌더링을 위한 HTL 스크립트도 포함됩니다. ui.apps 모듈을 JCR의 구조에 대한 맵으로 생각할 수 있지만 파일 시스템에 저장하고 소스 제어에 커밋할 수 있는 형식으로 생각할 수 있습니다.
 
