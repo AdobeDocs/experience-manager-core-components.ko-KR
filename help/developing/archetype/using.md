@@ -2,9 +2,9 @@
 title: AEM 프로젝트 원형 사용
 description: AEM Project Archetype에 대한 자세한 사용 지침
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 17081a073998512a52aebfc662f2bc125ca2a2c4
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 1%
@@ -33,17 +33,17 @@ AEM 프로젝트 원형 을 사용하면 몇 번의 키 입력만으로 모범 �
 
 AEM Archetype 은 모듈로 구성됩니다.
 
-* **[코어](core.md)**:는 OSGi 서비스, 리스너 및 스케줄러와 같은 모든 핵심 기능과 서블릿 및 요청 필터와 같은 구성 요소 관련 Java 코드가 포함된 Java 번들입니다.
-* **[it.tests](ittests.md)**:는 Java 기반 통합 테스트입니다.
-* **[ui.apps](uiapps.md)**:는 프로젝트 `/apps` 의 및  `/etc` 일부, 즉 JS 및 CSS clientlibs, 구성 요소 및 템플릿을 포함합니다.
-* **[ui.content](uicontent.md)**:ui.apps 모듈의 구성 요소를 사용하여 샘플 컨텐츠를 포함합니다.
-* **ui.config**:프로젝트에 대한 실행 모드별 OSGi 구성을 포함합니다.
-* **[ui.frontend.general](uifrontend.md)**: **(선택 사항)** 에는 일반 웹 팩 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 가공물이 포함되어 있습니다.
-* **[ui.frontend.react](uifrontend-react.md)**: **(선택 사항)** 원형 을 사용하여 React를 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
-* **[ui.frontend.angular](uifrontend-angular.md)**: **(선택 사항)** 원형 을 사용하여 Angular을 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
-* **[ui.tests](uitests.md)**:는 Selenium 기반 UI 테스트를 포함합니다.
-* **모두**:는 공급업체 종속성을 포함하여 모든 컴파일된 모듈(번들 및 콘텐츠 패키지)을 포함하는 단일 콘텐츠 패키지입니다.
-* **분석**:프로젝트에서 분석을 실행하며, AEM as a Cloud Service에 배포할 추가적인 유효성 검사를 제공합니다.
+* **[코어](core.md)**: 는 OSGi 서비스, 리스너 및 스케줄러와 같은 모든 핵심 기능과 서블릿 및 요청 필터와 같은 구성 요소 관련 Java 코드가 포함된 Java 번들입니다.
+* **[it.tests](ittests.md)**: 는 Java 기반 통합 테스트입니다.
+* **[ui.apps](uiapps.md)**: 는 프로젝트 `/apps` 의 및  `/etc` 일부, 즉 JS 및 CSS clientlibs, 구성 요소 및 템플릿을 포함합니다.
+* **[ui.content](uicontent.md)**: ui.apps 모듈의 구성 요소를 사용하여 샘플 컨텐츠를 포함합니다.
+* **ui.config**: 프로젝트에 대한 실행 모드별 OSGi 구성을 포함합니다.
+* **[ui.frontend.general](uifrontend.md)**:  **(선택 사항)** 에는 일반 웹 팩 기반 프런트 엔드 빌드 모듈을 사용하는 데 필요한 가공물이 포함되어 있습니다.
+* **[ui.frontend.react](uifrontend-react.md)**:  **(선택 사항)** 원형 을 사용하여 React를 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
+* **[ui.frontend.angular](uifrontend-angular.md)**:  **(선택 사항)** 원형 을 사용하여 Angular을 기반으로 SPA 프로젝트를 만들 때 필요한 가공물이 포함되어 있습니다.
+* **[ui.tests](uitests.md)**: 는 Selenium 기반 UI 테스트를 포함합니다.
+* **모두**: 는 공급업체 종속성을 포함하여 모든 컴파일된 모듈(번들 및 콘텐츠 패키지)을 포함하는 단일 콘텐츠 패키지입니다.
+* **분석**: 프로젝트에서 분석을 실행하며, AEM as a Cloud Service에 배포할 추가적인 유효성 검사를 제공합니다.
 
 ![](/help/assets/archetype-structure.png)
 
@@ -96,23 +96,23 @@ mvn -B archetype:generate \
 
 | 이름 | 기본값 | 설명 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 애플리케이션 제목 은 웹 사이트 제목 및 구성 요소 그룹(예:`"My Site"`) |
-| `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예:`"mysite"`) |
-| `artifactId` | *`${appId}`* | Base Maven 아티팩트 ID(예:`"mysite"`) |
-| `groupId` |  | 기본 Maven 그룹 ID(예:`"com.mysite"`) |
-| `package` | *`${groupId}`* | Java 소스 패키지(예:`"com.mysite"`) |
-| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예:`1.0-SNAPSHOT`) |
-| `aemVersion` | `cloud` | Target AEM 버전([AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)에 대해 `cloud`일 수 있음);또는 `6.5.0`, [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스용 `6.4.4`)입니다. |
-| `sdkVersion` | `latest` | `aemVersion=cloud`[SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전을 지정할 수 있으면(예: )`2020.02.2265.20200217T222518Z-200130`). |
+| `appTitle` |  | 애플리케이션 제목 은 웹 사이트 제목 및 구성 요소 그룹(예: `"My Site"`) |
+| `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예: `"mysite"`) |
+| `artifactId` | *`${appId}`* | Base Maven 아티팩트 ID(예: `"mysite"`) |
+| `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`) |
+| `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`) |
+| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`) |
+| `aemVersion` | `cloud` | Target AEM 버전([AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)에 대해 `cloud`일 수 있음); 또는 `6.5.0`, [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스용 `6.4.4`)입니다. |
+| `sdkVersion` | `latest` | `aemVersion=cloud`[SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전을 지정할 수 있으면(예: ) `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | `aemVersion` 값(`y` 또는 `n`일 수 있음)에 따라 클라우드 또는 AMS/on-premise에 대한 디스패처 구성을 포함합니다. |
-| `frontendModule` | `general` | 일반 사이트의 클라이언트 라이브러리(`general` 또는 `none`일 수 있음)를 생성하는 Webpack 프런트 엔드 빌드 모듈이 포함되어 있습니다.[SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))를 구현하는 단일 페이지 앱의 경우 `angular` 또는 `react`일 수 있습니다. |
-| `language` | `en` | 에서 컨텐츠 구조를 만들 언어 코드(ISO 639-1).`en`, `deu`). |
-| `country` | `us` | 에서 컨텐츠 구조를 만들 국가 코드(ISO 3166-1).`US`) |
+| `frontendModule` | `general` | 일반 사이트의 클라이언트 라이브러리(`general` 또는 `none`일 수 있음)를 생성하는 Webpack 프런트 엔드 빌드 모듈이 포함되어 있습니다. [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))를 구현하는 단일 페이지 앱의 경우 `angular` 또는 `react`일 수 있습니다. |
+| `language` | `en` | 에서 컨텐츠 구조를 만들 언어 코드(ISO 639-1). `en`, `deu`). |
+| `country` | `us` | 에서 컨텐츠 구조를 만들 국가 코드(ISO 3166-1). `US`) |
 | `singleCountry` | `y` | 언어 마스터 컨텐츠 구조(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예제 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeErrorHandler` | `n` | 전체 인스턴스(`y` 또는 `n`일 수 있음)에 전역되는 사용자 지정 404 응답 페이지를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 코어 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
-| `commerceEndpoint` |  | CIF에만 필요합니다. 사용할 상거래 시스템 GraphQL 서비스의 선택적 끝점(예:`https://hostname.com/grapql`) |
+| `commerceEndpoint` |  | CIF에만 필요합니다. 사용할 상거래 시스템 GraphQL 서비스의 선택적 끝점(예: `https://hostname.com/grapql`) |
 | `datalayer` | `y` | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)와의 통합을 활성화합니다. |
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대해 [AMP](/help/developing/amp.md) 지원을 사용하도록 설정합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정에서 기본 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소의 정책에서 Dynamic Media 기능을 활성화합니다. |
@@ -120,7 +120,7 @@ mvn -B archetype:generate \
 
 >[!NOTE]
 >
-> 원형 형식이 처음 대화형 모드에서 실행되는 경우 기본값이 있는 속성을 변경할 수 없습니다(자세한 내용은 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 끝에 있는 속성 확인이 거부되고 질문서를 반복하거나 명령줄에서 매개 변수(예:`-DoptionIncludeExamples=n`)
+> 원형 형식이 처음 대화형 모드에서 실행되는 경우 기본값이 있는 속성을 변경할 수 없습니다(자세한 내용은 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조). 끝에 있는 속성 확인이 거부되고 질문서를 반복하거나 명령줄에서 매개 변수(예: `-DoptionIncludeExamples=n`)
 
 >[!NOTE]
 >
@@ -189,7 +189,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 모듈 구조 {#module-structure}
 
-상위 POM의 `<modules>` 섹션은 프로젝트가 빌드될 모듈을 정의합니다. 기본적으로 프로젝트는 이전에 정의된 표준 모듈 [을 빌드합니다.](#what-you-get)코어, ui.apps, ui.content, ui.tests 및 it.launcher. 프로젝트가 발전함에 따라 항상 더 많은 모듈을 추가할 수 있습니다.
+상위 POM의 `<modules>` 섹션은 프로젝트가 빌드될 모듈을 정의합니다. 기본적으로 프로젝트는 이전에 정의된 표준 모듈 [을 빌드합니다.](#what-you-get) 코어, ui.apps, ui.content, ui.tests 및 it.launcher. 프로젝트가 발전함에 따라 항상 더 많은 모듈을 추가할 수 있습니다.
 
 ### 종속성 {#dependencies}
 
@@ -225,11 +225,11 @@ AEM 프로젝트 원형 은 코어 구성 요소를 활용합니다.
 
 프로젝트에 포함된 세 가지 수준의 테스트가 있으며 테스트 유형은 서로 다르므로 다른 방법이나 다른 위치에서 실행됩니다.
 
-* 코어의 단위 테스트:여기에는 번들에 포함된 코드의 클래식 단위 테스트가 도입됩니다. 테스트하려면 다음을 실행합니다.
+* 코어의 단위 테스트: 여기에는 번들에 포함된 코드의 클래식 단위 테스트가 도입됩니다. 테스트하려면 다음을 실행합니다.
    * `mvn clean test`
-* 서버측 통합 테스트:이러한 실행은 AEM 환경에서, 즉 AEM 서버에서 단위 유사 테스트를 실행합니다. 테스트하려면 다음을 실행합니다.
+* 서버측 통합 테스트: 이러한 실행은 AEM 환경에서, 즉 AEM 서버에서 단위 유사 테스트를 실행합니다. 테스트하려면 다음을 실행합니다.
    * `mvn clean verify -PintegrationTests`
-* 클라이언트측 Hobbes.js 테스트:브라우저 측 동작을 확인하는 JavaScript 기반 브라우저 측 테스트입니다. 테스트하려면:
+* 클라이언트측 Hobbes.js 테스트: 브라우저 측 동작을 확인하는 JavaScript 기반 브라우저 측 테스트입니다. 테스트하려면:
    1. 페이지를 작성하는 것처럼 브라우저에서 AEM을 로드합니다.
    1. [개발자 모드](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)에서 페이지를 엽니다.
    1. 왼쪽 패널을 열고 **테스트** 탭으로 전환합니다.
