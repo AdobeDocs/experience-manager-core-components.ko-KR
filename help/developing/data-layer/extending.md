@@ -2,22 +2,22 @@
 title: Adobe 클라이언트 데이터 레이어 확장
 description: Adobe 클라이언트 데이터 계층은 몇 가지 기본 패턴을 따라 확장할 수 있습니다
 feature: 핵심 구성 요소, Adobe 클라이언트 데이터 레이어
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-# Adobe 클라이언트 데이터 레이어 {#extending-acdl} 확장
+# Adobe 클라이언트 데이터 레이어 확장 {#extending-acdl}
 
 컨텐츠 작성자가 데이터 레이어와 관련된 추가 정보를 입력할 수 있는 사용자 지정 대화 상자 옵션을 사용하여 코어 구성 요소를 확장할 수 있습니다.
 
 핵심 구성 요소에서 제공하는 데이터 레이어에 이러한 필드를 포함하려면 고유한 특정 데이터 계층 메서드를 구현하는 구성 요소의 모델을 확장해야 합니다.
 
-## 예:제목 구성 요소 {#example}
+## 예: 제목 구성 요소 {#example}
 
 [제목 구성 요소](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java)와 같은 핵심 구성 요소는 기본적으로 [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)을 반환하는 `getData` 메서드가 있는 [구성 요소](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java)를 확장합니다.
 
