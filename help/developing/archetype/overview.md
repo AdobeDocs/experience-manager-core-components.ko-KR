@@ -2,9 +2,9 @@
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 6%
