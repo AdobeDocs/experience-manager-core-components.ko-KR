@@ -1,9 +1,9 @@
 ---
 title: 양식 컨테이너 구성 요소
 description: 핵심 구성 요소 양식 컨테이너 구성 요소를 사용하면 간단한 제출 양식을 만들 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
    * **추가** 단추를 탭하거나 클릭하여 주소를 추가합니다
    * **삭제** 단추를 탭하거나 클릭하여 이메일 주소를 제거합니다
 
-### 컨텐츠 저장 {#store-content}
+### 콘텐츠 저장 {#store-content}
 
 양식이 제출되면 양식의 컨텐츠가 지정된 저장소 위치에 저장됩니다.
 
