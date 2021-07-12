@@ -2,16 +2,16 @@
 title: AEM 프로젝트 원형 중 ui.content 모듈
 description: AEM 프로젝트 원형 중 ui.content 모듈
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: af019cd8-c733-4b53-bb57-321dd9451178
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
-# AEM 프로젝트 원형 {#uicontent-module}의 ui.content 모듈
+# AEM 프로젝트 원형 중 ui.content 모듈 {#uicontent-module}
 
 ui.content maven 모듈(`<src-directory>/<project>/ui.content`)은 `/content` 및 `/conf` 아래에 있는 기본 컨텐츠 및 구성을 포함합니다. ui.content는 ui.apps와 마찬가지로 AEM 패키지에 컴파일됩니다. 주요 차이점은 ui.content에 저장된 노드를 AEM 인스턴스에서 직접 수정할 수 있다는 것입니다. 여기에는 페이지, DAM 자산 및 편집 가능한 템플릿이 포함됩니다. ui.content 모듈은 깨끗한 인스턴스에 대한 샘플 컨텐츠를 저장하거나 소스 제어에서 관리할 일부 기준 구성을 만드는 데 사용할 수 있습니다.
 
