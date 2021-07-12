@@ -2,16 +2,16 @@
 title: AEM Project Archetype 프런트 엔드 빌드
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 0%
 
 ---
 
-# AEM 프로젝트 원형 {#uifrontend-module}의 ui.frontend 모듈
+# AEM 프로젝트 원형 중 ui.frontend 모듈 {#uifrontend-module}
 
 AEM 프로젝트 원형 에는 웹 팩을 기반으로 하는 선택적 전용 프런트 엔드 빌드 메커니즘이 포함되어 있습니다. 따라서 ui.frontend 모듈은 JavaScript 및 CSS 파일을 비롯한 모든 프로젝트의 프런트 엔드 리소스의 중앙 위치가 됩니다. 이 유용하고 유연한 기능을 최대한 활용하려면 프런트 엔드 개발이 AEM 프로젝트에 어떻게 적합한지 이해하는 것이 중요합니다.
 
@@ -42,11 +42,11 @@ AEM 프로젝트 원형 에는 웹 팩을 기반으로 하는 선택적 전용 �
 
 ClientLib은 다음 파일과 디렉터리로 구성됩니다.
 
-* `css/`:HTML에서 요청할 수 있는 CSS 파일
-* `css.txt`:병합할 수  `css/` 있도록 AEM에 파일의 순서와 이름을 알려줍니다
-* `js/`:HTML에서 요청할 수 있는 JavaScript 파일
+* `css/`: HTML에서 요청할 수 있는 CSS 파일
+* `css.txt`: 병합할 수  `css/` 있도록 AEM에 파일의 순서와 이름을 알려줍니다
+* `js/`: HTML에서 요청할 수 있는 JavaScript 파일
 * `js.txt` 병합할 수  `js/` 있도록 AEM에 파일의 순서와 이름을 알려줍니다
-* `resources/`:소스 맵, 비시작 지점 코드 청크(코드 분할에 의한), 정적 자산(예: 아이콘) 등은
+* `resources/`: 소스 맵, 비시작 지점 코드 청크(코드 분할에 의한), 정적 자산(예: 아이콘) 등은
 
 ## 가능한 프런트 엔드 개발 워크플로우 {#possible-workflows}
 
@@ -75,7 +75,7 @@ ClientLib은 다음 파일과 디렉터리로 구성됩니다.
 >
 >[](https://storybook.js.org) Storybookis는 AEM Project Archetype에 포함되어 있지 않습니다. 사용하도록 선택한 경우 별도로 설치해야 합니다.
 
-### 마크업 {#determining-markup} 확인
+### 마크업 확인 {#determining-markup}
 
 프로젝트를 위해 구현하려는 프런트 엔드 개발 워크플로우에서 백엔드 개발자와 프런트 엔드 개발자는 마크업에 먼저 동의해야 합니다. 일반적으로 AEM은 핵심 구성 요소에서 제공하는 마크업을 정의합니다. [그러나 필요한 경우 사용자 지정할 수 있습니다](/help/developing/customizing.md#customizing-the-markup).
 
@@ -189,7 +189,7 @@ ui.frontend 모듈 빌드 프로세스는 [aem-clientlib-generator](https://www.
 
 ui.frontend 모듈에 포함된 는 AEM 외부의 빠른 프런트 엔드 개발을 위해 라이브 재로드를 제공하는 웹 팩-개발 서버입니다. 이 설정은 html-webpack-plugin을 활용하여 ui.frontend 모듈에서 컴파일된 CSS 및 JS를 정적 HTML 템플릿에 자동으로 주입합니다.
 
-#### 중요 파일 {#important-files}
+#### 중요한 파일 {#important-files}
 
 * `ui.frontend/webpack.dev.js`
    * 여기에는 웹 팩-개발-서비스에 대한 구성이 포함되어 있으며, 사용할 html 템플릿을 가리킵니다.
