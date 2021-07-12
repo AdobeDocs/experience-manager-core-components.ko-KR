@@ -1,9 +1,9 @@
 ---
 title: 아코디언 구성 요소
 description: 코어 구성 요소 아코디언 구성 요소를 사용하면 페이지의 아코디언 내에 배치된 패널 모음을 만들 수 있습니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 1%
@@ -90,7 +90,7 @@ ht-degree: 1%
    * ID가 지정된 경우 ID가 고유한지 확인하는 것은 작성자의 책임입니다.
    * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
 
-## 패널 팝업 {#select-panel-popover} 선택
+## 패널 팝업 선택 {#select-panel-popover}
 
 컨텐츠 작성자는 구성 요소 도구 모음에서 **패널 선택** 옵션을 사용하여 편집할 다른 패널로 변경하고 아코디언 내에서 패널의 순서를 쉽게 재정렬할 수 있습니다.
 
@@ -126,6 +126,6 @@ ht-degree: 1%
 
 아코디언 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 아코디언 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
