@@ -1,9 +1,9 @@
 ---
 title: 이미지 구성 요소
 description: 코어 구성 요소 이미지 구성 요소 는 즉석 편집 중인 응용 이미지 구성 요소 기능입니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2170'
 ht-degree: 2%
@@ -256,6 +256,6 @@ SVG(Scalable Vector Graphics)는 이미지 구성 요소에서 지원됩니다.
 >
 >[AEM 프로젝트 원형](/help/developing/archetype/overview.md) 의 샘플 Dispatcher 구성에 이미 이 구성이 포함되어 있습니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 이미지 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
