@@ -2,9 +2,9 @@
 title: 양식 옵션 구성 요소(v1)
 description: 코어 구성 요소 양식 옵션 구성 요소를 사용하면 사전 정의된 옵션 중에서 다양한 형식으로 선택할 수 있습니다.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 3%
