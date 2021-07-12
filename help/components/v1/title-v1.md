@@ -2,9 +2,9 @@
 title: 제목 구성 요소(v1)
 description: 코어 구성 요소 제목 구성 요소는 즉석 편집 기능을 하는 섹션 제목 구성 요소입니다.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 2%
