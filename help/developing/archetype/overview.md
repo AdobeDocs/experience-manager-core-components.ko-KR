@@ -4,9 +4,9 @@ description: AEM 기반 응용 프로그램용 프로젝트 템플릿
 feature: 핵심 구성 요소, AEM 프로젝트 원형
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
+source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1118'
 ht-degree: 6%
 
 ---
@@ -54,12 +54,13 @@ AEM 프로젝트 원형 은 웹 사이트의 시작점으로 최소한의 우수
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* `XX`을 최신 [원형 버전 번호로 바꿉니다.](#requirements)
 * [AEM에 대해 `aemVersion=cloud`을 Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)로 설정합니다.\
    [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스용으로 `aemVersion=6.5.0` 을 설정합니다.
 핵심 구성 요소 종속성은 AEM용 OOTB를 Cloud Service으로 제공하므로 비 클라우드 aem 버전에 대해서만 추가됩니다.
@@ -72,23 +73,23 @@ mvn -B archetype:generate \
 
 | 이름 | 기본값 | 설명 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 애플리케이션 제목 은 웹 사이트 제목 및 구성 요소 그룹(예:`"My Site"`) |
-| `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예:`"mysite"`) |
-| `artifactId` | *`${appId}`* | Base Maven 아티팩트 ID(예:`"mysite"`) |
-| `groupId` |  | 기본 Maven 그룹 ID(예:`"com.mysite"`) |
-| `package` | *`${groupId}`* | Java 소스 패키지(예:`"com.mysite"`) |
-| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예:`1.0-SNAPSHOT`) |
-| `aemVersion` | `cloud` | Target AEM 버전([AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)에 대해 `cloud`일 수 있음);또는 `6.5.0`, [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스용 `6.4.4`)입니다. |
-| `sdkVersion` | `latest` | `aemVersion=cloud`[SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전을 지정할 수 있으면(예: )`2020.02.2265.20200217T222518Z-200130`). |
+| `appTitle` |  | 애플리케이션 제목 은 웹 사이트 제목 및 구성 요소 그룹(예: `"My Site"`) |
+| `appId` |  | 기술 이름은 클라이언트 라이브러리 이름(예: `"mysite"`) |
+| `artifactId` | *`${appId}`* | Base Maven 아티팩트 ID(예: `"mysite"`) |
+| `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`) |
+| `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`) |
+| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`) |
+| `aemVersion` | `cloud` | Target AEM 버전([AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)에 대해 `cloud`일 수 있음); 또는 `6.5.0`, [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온-프레미스용 `6.4.4`)입니다. |
+| `sdkVersion` | `latest` | `aemVersion=cloud`[SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전을 지정할 수 있으면(예: ) `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | `aemVersion` 값(`y` 또는 `n`일 수 있음)에 따라 클라우드 또는 AMS/on-premise에 대한 디스패처 구성을 포함합니다. |
-| `frontendModule` | `general` | 일반 사이트의 클라이언트 라이브러리(`general` 또는 `none`일 수 있음)를 생성하는 Webpack 프런트 엔드 빌드 모듈이 포함되어 있습니다.[SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))를 구현하는 단일 페이지 앱의 경우 `angular` 또는 `react`일 수 있습니다. |
-| `language` | `en` | 에서 컨텐츠 구조를 만들 언어 코드(ISO 639-1).`en`, `deu`). |
-| `country` | `us` | 에서 컨텐츠 구조를 만들 국가 코드(ISO 3166-1).`US`) |
+| `frontendModule` | `general` | 일반 사이트의 클라이언트 라이브러리(`general` 또는 `none`일 수 있음)를 생성하는 Webpack 프런트 엔드 빌드 모듈이 포함되어 있습니다. [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))를 구현하는 단일 페이지 앱의 경우 `angular` 또는 `react`일 수 있습니다. |
+| `language` | `en` | 에서 컨텐츠 구조를 만들 언어 코드(ISO 639-1). `en`, `deu`). |
+| `country` | `us` | 에서 컨텐츠 구조를 만들 국가 코드(ISO 3166-1). `US`) |
 | `singleCountry` | `y` | 언어 마스터 컨텐츠 구조(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예제 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeErrorHandler` | `n` | 전체 인스턴스(`y` 또는 `n`일 수 있음)에 전역되는 사용자 지정 404 응답 페이지를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 코어 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
-| `commerceEndpoint` |  | CIF에만 필요합니다. 사용할 상거래 시스템 GraphQL 서비스의 선택적 끝점(예:`https://hostname.com/grapql`) |
+| `commerceEndpoint` |  | CIF에만 필요합니다. 사용할 상거래 시스템 GraphQL 서비스의 선택적 끝점(예: `https://hostname.com/grapql`) |
 | `datalayer` | `y` | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)와의 통합을 활성화합니다. |
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대해 [AMP](/help/developing/amp.md) 지원을 사용하도록 설정합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정에서 기본 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소의 정책에서 Dynamic Media 기능을 활성화합니다. |
