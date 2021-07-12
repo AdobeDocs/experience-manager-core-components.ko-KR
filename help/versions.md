@@ -3,16 +3,16 @@ title: 구성 요소 버전
 description: 코어 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전이 무엇이고 핵심 구성 요소 및 AEM와의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e62bb19a487e337c1ea5994d9fbfc845145ae19d
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2174'
 ht-degree: 21%
 
 ---
 
 # 구성 요소 버전 {#core-components-versions}
 
-코어 구성 요소의 현재 릴리스는 2.17.0이며 [AEM as a1/> 및 [온-프레미스 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치와 호환됩니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+코어 구성 요소의 현재 릴리스는 2.17.2이며 [AEM as a1/> 및 [온-프레미스 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/user-guide/home.html) 설치와 호환됩니다.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 21%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 이 패치 릴리스에는 AEMaaCS에서 작동하지 않는 [데이터 레이어](/help/developing/data-layer/overview.md)에 대한 수정 사항이 포함되어 있습니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 7월 2일 |
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 이 릴리스에는 링크 핸들러 기능을 지원하는 많은 새 구성 요소 버전의 기술 미리 보기가 포함되며 [페이지 구성 요소에 대한 주요 이미지 기능의 기술 미리 보기가 포함됩니다.](/help/components/page.md) 몇 가지 버그 수정 사항이 포함되어 있습니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 6월 16일 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 새 링크 핸들러 문제를 해결하는 패치 릴리스입니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 5월 19일 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 이는 주로 새 링크 처리기의 문제를 해결하는 패치 릴리스이며 [PWA에 대한 다중 페이지 응용 프로그램을 지원하도록 기능이 추가되었습니다.](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 5월 15일 |
