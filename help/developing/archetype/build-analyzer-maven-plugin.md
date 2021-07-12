@@ -2,9 +2,9 @@
 title: AEM as a Cloud Service SDK Build Analyzer Maven 플러그인
 description: 로컬 Maven 빌드 분석기 플러그인에 대한 설명서
 feature: 핵심 구성 요소, AEM 프로젝트 원형
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 4%
@@ -19,11 +19,11 @@ AEM Maven 프로젝트에 포함하는 방법에 대한 자세한 내용은 [Mav
 
 >[!NOTE]
 >
->다음 위치에서 Maven 중앙 리포지토리에 있는 플러그인의 최신 버전을 참조하도록 Maven 프로젝트를 업데이트하는 것이 좋습니다.https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+>다음 위치에서 Maven 중앙 리포지토리에 있는 플러그인의 최신 버전을 참조하도록 Maven 프로젝트를 업데이트하는 것이 좋습니다. https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
 플러그인은 프로젝트에 구성된 SDK가 아니라 사용 가능한 최신 SDK를 사용합니다.
 
-다음은 이 단계의 일부로 실행되는 분석기를 설명하는 테이블입니다.<!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
+다음은 이 단계의 일부로 실행되는 분석기를 설명하는 테이블입니다. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | 모듈 | 함수, 예제 및 문제 해결 | 로컬 SDK | Cloud Manager |
 |---|---|---|---|
