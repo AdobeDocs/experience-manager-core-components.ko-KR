@@ -2,9 +2,9 @@
 title: 텍스트 구성 요소(v1)
 description: 텍스트 구성 요소는 즉석 편집 기능을 하는 리치 텍스트 편집 및 구성 구성 요소입니다.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 3%
