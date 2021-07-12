@@ -1,9 +1,9 @@
 ---
 title: 탐색 표시 구성 요소
 description: 핵심 구성 요소 탐색 표시 구성 요소는 컨텐츠 계층 구조에서 페이지의 위치를 기반으로 링크의 탐색 표시를 만드는 탐색 구성 요소입니다.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 2%
@@ -90,6 +90,6 @@ ht-degree: 2%
 
 탐색 표시 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-## Adobe 클라이언트 데이터 계층 {#data-layer}
+## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
 탐색 표시 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
