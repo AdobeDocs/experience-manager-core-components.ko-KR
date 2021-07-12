@@ -2,16 +2,16 @@
 title: 숨겨진 구성 요소(v1)
 description: 코어 구성 요소 양식 숨김 구성 요소로 숨김 필드를 표시할 수 있습니다.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
 
 ---
 
-# 양식 숨김 구성 요소(v1) {#form-hidden-component-v}
+# 숨겨진 구성 요소(v1) {#form-hidden-component-v}
 
 코어 구성 요소 양식 숨김 구성 요소로 숨김 필드를 표시할 수 있습니다.
 
