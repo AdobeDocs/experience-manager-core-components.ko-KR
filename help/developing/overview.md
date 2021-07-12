@@ -1,9 +1,9 @@
 ---
 title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 다양한 기능, 지속적인 게재, 구성 요소 버전 관리, 최신 구현, 마크업 및 컨텐츠 JSON 내보내기를 제공하는 강력하고 확장 가능한 기본 구성 요소를 제공합니다.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 14%
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # 핵심 구성 요소 개발 {#developing-core-components}
 
-## 핵심 구성 요소를 사용해야 하는 경우{#when-to-use-the-core-components}
+## 핵심 구성 요소를 사용해야 하는 경우 {#when-to-use-the-core-components}
 
 핵심 구성 요소가 새로워졌고 여러 이점을 제공하므로 새 AEM 프로젝트에서 이러한 구성 요소를 사용하는 것이 좋습니다. 기존 프로젝트의 경우 마이그레이션은 리브랜딩 또는 전체 리팩터링 등 대규모 프로젝트 작업에 포함되었습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 \
    없는 경우 위의 &quot;새 사용자 지정 구성 요소&quot;를 참조하십시오.
 
-## 코어 구성 요소 {#how-to-succeed}로 성공하는 방법
+## 핵심 구성 요소를 사용하여 성공하는 방법 {#how-to-succeed}
 
 핵심 구성 요소는 강력하고 유연하며 사용이 편리하고 사용자 지정할 수 있습니다. [몇 가지 주요 ](success.md) 지침에 따라 핵심 구성 요소를 사용하는 프로젝트가 성공했는지 확인합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 
 새 프로젝트는 코어 구성 요소를 사용하여 구현해야 합니다. 그러나 기존 프로젝트에는 일반적으로 기초 구성 요소의 광범위한 구현이 있습니다.
 
-### 기초 구성 요소 {#from-foundation}에서 마이그레이션
+### Foundation 구성 요소에서 마이그레이션 {#from-foundation}
 
 기존 프로젝트(예: 리브랜딩 또는 전체 리팩터링)에 대한 더 많은 노력이 종종 핵심 구성 요소로 마이그레이션할 수 있는 기회를 제공합니다. 이러한 마이그레이션을 용이하게 하기 위해 Adobe은 핵심 구성 요소 및 최신 AEM 기술을 채택할 수 있도록 많은 마이그레이션 도구를 제공했습니다.
 
@@ -56,7 +56,7 @@ ht-degree: 14%
 >
 >AEM 현대화 도구는 커뮤니티 활동으로, Adobe에서 지원하거나 보증하지 않습니다.
 
-## AEM으로 Cloud Service {#via-aemaacs}으로 이동을 통해 마이그레이션
+## AEM으로 Cloud Service으로 이동을 통한 마이그레이션 {#via-aemaacs}
 
 Cloud Service로서의 AEM은 자동으로 최신 버전의 핵심 구성 요소를 제공하므로, 온프레미스 AEM 설치에서 이동할 때 프로젝트 `pom.xml` 파일에서 핵심 구성 요소에 대한 종속성을 제거해야 합니다.
 
@@ -73,11 +73,11 @@ Cloud Service로서의 AEM은 자동으로 최신 버전의 핵심 구성 요소
 
 AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) 문서를 참조하십시오.
 
-## 코어 구성 요소 지원 {#core-component-support}
+## 핵심 구성 요소 지원 {#core-component-support}
 
 핵심 구성 요소는 AEM의 필수적인 부분으로, 빠른 시작의 일부로 전달된 것처럼 동일한 이용 약관에 따라 지원됩니다.
 
-다른 AEM 제품 기능과 마찬가지로 일반적인 규칙은 다음과 같습니다.구성 요소는 먼저 사용을 중단한다고 발표되고, 다음 AEM 릴리스에 대해 가장 빨리 제거됩니다. 이 경우 지원을 중단하기 전에 고객에게 구성 요소의 새 버전으로 이동할 수 있는 릴리스 주기를 1개 이상 제공합니다.
+다른 AEM 제품 기능과 마찬가지로 일반적인 규칙은 다음과 같습니다. 구성 요소는 먼저 사용을 중단한다고 발표되고, 다음 AEM 릴리스에 대해 가장 빨리 제거됩니다. 이 경우 지원을 중단하기 전에 고객에게 구성 요소의 새 버전으로 이동할 수 있는 릴리스 주기를 1개 이상 제공합니다.
 
 각 구성 요소의 버전은 지원되는 AEM 버전을 명확하게 설명합니다. AEM 버전에 대한 지원이 중단되면 해당 버전의 AEM에 대한 핵심 구성 요소에 대한 지원도 중단됩니다.
 
@@ -93,7 +93,7 @@ AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](htt
 | **기능** | **핵심 구성 요소** | **기초 구성 요소** |
 |-----|---|---|
 | 논리 구현 | [Sling 모델](https://sling.apache.org/documentation/bundles/models.html) 주석이 있는 Java POJO | JSP 코드 |
-| 마크업 정의 | [HTL(HTML Template Language](https://docs.adobe.com/content/help/ko-KR/experience-manager-htl/using/overview.html) ) 구문 | JSP 코드 |
+| 마크업 정의 | [HTL(HTML Template Language](https://docs.adobe.com/content/help/ko/experience-manager-htl/using/overview.html) ) 구문 | JSP 코드 |
 | XSS 기밀 정보 가리기 | HTL로 자동화 | 대부분 수동 |
 | CSS 클래스 이름 지정 | [블록 요소 수정자](https://getbem.com/) (BEM) 표기법(릴리스 2.0.0부터)을 기반으로 표준화된 명명 규칙 | 사용자 지정 구성표 |
 | 대화 상자 정의 | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + 클래식 UI |
@@ -103,7 +103,7 @@ AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](htt
 | 배달 | [공용 GitHub를 통해](https://github.com/adobe/aem-core-wcm-components) | Quickstart를 통해 |
 | 라이센스 | [Apache 라이센스](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 독점 |
 | 기여도 | 가져오기 요청을 통해 | 가능하지 않음 |
-| 접근성 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과 완벽하게 호환됩니다 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)만 부분적으로 준수합니다. |
+| 접근성 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)과 완벽하게 호환됩니다 | [WCAG 2.0 AA 표준](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)만 부분적으로 준수합니다. |
 
 ## 구성 요소 목록 {#component-list}
 
@@ -145,7 +145,7 @@ AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](htt
 
 예정된 코어 구성 요소 로드 맵에 대한 개요는 GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home)에서 [프로젝트 wiki를 참조하십시오.
 
-## 코어 구성 요소 업그레이드 {#upgrade-of-core-components}
+## 핵심 구성 요소 업그레이드 {#upgrade-of-core-components}
 
 버전이 지정된 구성 요소의 한 가지 이점은 새 구성 요소 버전으로의 마이그레이션과 새 AEM 버전으로의 마이그레이션을 구분할 수 있다는 것입니다. 또한 새 구성 요소 버전을 사용할 수 있는 경우 각 구성 요소를 새 버전으로 개별 마이그레이션할 수 있습니다.
 
