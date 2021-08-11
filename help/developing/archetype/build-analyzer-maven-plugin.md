@@ -4,9 +4,9 @@ description: 로컬 Maven 빌드 분석기 플러그인에 대한 설명서
 feature: 핵심 구성 요소, AEM 프로젝트 원형
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '595'
 ht-degree: 4%
 
 ---
@@ -38,3 +38,25 @@ AEM Maven 프로젝트에 포함하는 방법에 대한 자세한 내용은 [Mav
 | `configuration-api` | 중요한 OSGi 구성을 확인합니다. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `region-deprecated-api` | [더 이상 사용되지 않는 api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html)가 사용되는지 확인합니다 <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 
+## 알려진 문제
+
+다음은 Build Analyzer Maven 플러그인을 사용할 때 발생하는 알려진 문제 목록입니다.
+
+### 로컬 SDK에서 Build Analyzer Maven 플러그인을 실행하지 못했습니다.
+
+Build Analyzer Maven 플러그인 버전이 `1.1.2`보다 낮은 로컬 SDK와 함께 사용하는 경우 플러그인을 실행하면 아래 오류가 발생할 수 있습니다. 이 경우 프로젝트를 플러그인의 최신 버전으로 업데이트합니다.
+
+```txt
+[ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
+```
+
+AEM Project Archetype을 사용하여 프로젝트를 설정하는 경우 아래 와 같이 루트 Maven `pom.xml`에서 속성을 조정하십시오.
+
+```xml
+   ...
+   <properties>
+      ...
+      <aemanalyser.version>1.1.2</aemanalyser.version> <!-- Make sure to use the latest release -->
+      ...
+   </properties>
+```
