@@ -3,9 +3,9 @@ title: 구성 요소 나열
 description: 코어 구성 요소 목록 구성 요소를 사용하면 정적 목록뿐만 아니라 동적 목록을 쉽게 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 4%
 ## 사용량 {#usage}
 
 목록 구성 요소를 사용하여 하위 페이지의 동적 목록이나 임의로 정의된 항목의 정적 목록 등을 만들 수 있습니다. 사용 가능한 목록 유형 및 서식 옵션은 [디자인 대화 상자](#design-dialog)에서 템플릿 작성자가 정의할 수 있습니다. 콘텐츠 편집기는 사용 가능한 목록 유형 중에서 선택하고 [편집 대화 상자에서 목록 요소의 형식을 지정하는 방법을 선택할 수 있습니다](#edit-dialog).
+
+## 목록의 리디렉션 {#redirects}
+
+페이지에 리디렉션 대상이 있는 경우(외부 URL을 가리키는지 아니면 다른 AEM 페이지를 가리키는지 여부에 관계없이) 해당 링크가 포함된 목록이 리디렉션 대상의 URL을 직접 가리킵니다.
+
+### 예 {#redirect-example}
+
+* 페이지 B로 리디렉션되는 페이지 A를 만듭니다.
+* `https://aemcomponents.dev`으로 리디렉션되는 페이지 C를 만듭니다.
+* 페이지 D에서 페이지 A와 C가 포함된 목록 구성 요소를 삽입합니다
+* 생성된 각 링크는 페이지 B와 `https://aemcomponents.dev`을 직접 가리킵니다
 
 ## 버전 및 호환성 {#version-and-compatibility}
 

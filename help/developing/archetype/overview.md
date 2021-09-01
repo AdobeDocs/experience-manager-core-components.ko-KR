@@ -1,12 +1,12 @@
 ---
 title: AEM 프로젝트 전형
 description: AEM 기반 응용 프로그램용 프로젝트 템플릿
-feature: 핵심 구성 요소, AEM 프로젝트 원형
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1113'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ AEM 프로젝트 원형 은 웹 사이트의 시작점으로 최소한의 우수
    * **[Archetype 사용:](using.md)** 원형 및 사용 가능한 모듈 사용에 대한 자세한 내용
    * **[ui.frontend:](uifrontend.md)** 프런트 엔드 빌드 모듈을 사용하는 방법
 * 다음 자습서는 이 기본 자습서를 기반으로 합니다.
-   * **[WKND 사이트: ](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 새 웹 사이트를 시작하는 방법을 알아봅니다.
+   * **[WKND 사이트: ](https://docs.adobe.com/content/help/ko/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 새 웹 사이트를 시작하는 방법을 알아봅니다.
    * **[WKND 단일 페이지 앱: ](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** AEM에서 완전히 권한이 부여된 React 또는 Angular 웹 앱을 빌드하는 방법을 알아봅니다.
 
 ## 기능 {#features}
@@ -99,7 +99,7 @@ mvn -B archetype:generate \
 
 | 원형 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [28년](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | 계속 | 6.5.7.0+ | 8,11 | 3.3.9+ |
+| [30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | 계속 | 6.5.7.0+ | 8,11 | 3.3.9+ |
 
 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 이전 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)에 대한 로컬 개발 환경을 설정합니다.[
 

@@ -3,7 +3,7 @@ title: 핵심 구성 요소 소개
 description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc8c3275bf251b4c390ee66588f34bac7c0ec218
+source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 24%
@@ -23,7 +23,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * **[핵심 구성 요소 GitHub 리포지토리:](https://github.com/adobe/aem-core-wcm-components)**  각 구성 요소 및 프로젝트 다운로드에 대한 개발자 세부 사항을 제공합니다.
 * 시작하기:
    * **[핵심 구성 요소로 성공:](/help/developing/success.md)**  핵심 구성 요소를 사용할 프로젝트 시작 전에 고려해야 하는 지침입니다.
-   * **[WKND 자습서: ](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 새 사이트를 빌드하기 위한 2일 자습서입니다.
+   * **[WKND 자습서: ](https://docs.adobe.com/content/help/ko/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 새 사이트를 빌드하기 위한 2일 자습서입니다.
    * **[Summit 자습서: ](https://expleague.azureedge.net/labs/L767/index.html)** 새 사이트 구축을 위한 2시간 자습서(US Summit 2019의 랩에서).
    * **[Gems 웨비나: ](https://helpx.adobe.com/kr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html에서 확인하십시오.)** 핵심 구성 요소(2018년 12월에 기록)의 가이드 투어.
 
@@ -106,7 +106,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 코어 구성 요소 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 계속 | 6.5.6.0+ * | 6.4.8.4+ * | 8,11 | 3.3.9+ |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 계속 | 6.5.6.0+ * | 6.4.8.4+ * | 8,11 | 3.3.9+ |
 
 >[!NOTE]
 >

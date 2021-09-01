@@ -3,9 +3,9 @@ title: 탐색 구성 요소
 description: 탐색 구성 요소를 사용하면 세계화된 사이트 구조를 쉽게 탐색할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1469'
 ht-degree: 1%
 
 ---
@@ -87,6 +87,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >섀도 사이트 구조를 렌더링할 때 탐색 논리에 의해 섀도 페이지만 반복됩니다. 로직은 리디렉션 대상의 구조를 반복하지 않습니다.
+
+## 탐색의 리디렉션 {#redirects}
+
+페이지에 리디렉션 대상이 있는 경우(외부 URL을 가리키는지 아니면 다른 AEM 페이지를 가리키는지 여부에 관계없이), 해당 링크에 대한 링크가 포함된 탐색 구성 요소는 리디렉션 대상의 URL을 직접 가리킵니다.
+
+### 예 {#redirect-example}
+
+* 페이지 B로 리디렉션되는 페이지 A를 만듭니다.
+* `https://aemcomponents.dev`으로 리디렉션되는 페이지 C를 만듭니다.
+* 페이지 D에서 페이지 A와 C가 포함된 또는 탐색 구성 요소를 삽입합니다
+* 생성된 각 링크는 페이지 B와 `https://aemcomponents.dev`을 직접 가리킵니다
+
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
