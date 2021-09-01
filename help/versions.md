@@ -3,9 +3,9 @@ title: 구성 요소 버전
 description: 코어 구성 요소는 동일한 핵심 구성 요소의 두 개 이상의 버전을 포함할 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전이 무엇이고 핵심 구성 요소 및 AEM와의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2279'
 ht-degree: 21%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 21%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 이 패치는 [List](/help/components/list.md) 및 [Navigation](/help/components/navigation.md) 구성 요소를 개선하여 리디렉션 대상에 대한 외부 URL을 표시하고 [Teaser](/help/components/teaser.md) 구성 요소에 대한 페이지 이미지 상속을 활성화하며 추가 버그 수정을 포함합니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 31일 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 이 패치는 [List](/help/components/list.md) 및 [Navigation](/help/components/navigation.md) 구성 요소를 개선하여 리디렉션 타겟에 대한 외부 URL을 표시하고, [Teaser](/help/components/teaser.md) 구성 요소의 예정된 v2에 대해 페이지 이미지 상속을 활성화하고 추가 버그 수정을 포함합니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 31일 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 이 패치 릴리스 이전에 도입된 호환되지 않는 변경 사항을 수정하기 위한 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 2일 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 이 패치 릴리스는 페이지에 대한 사이트 맵에 대한 지원을 추가하며 다양한 액세스 가능성 개선 사항을 포함합니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 7월 29일 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 이 패치 릴리스에는 AEMaaCS에서 작동하지 않는 [데이터 레이어](/help/developing/data-layer/overview.md)에 대한 수정 사항이 포함되어 있습니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 7월 8일 |
