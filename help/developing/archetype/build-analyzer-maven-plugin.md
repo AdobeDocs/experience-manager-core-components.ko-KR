@@ -1,12 +1,12 @@
 ---
 title: AEM as a Cloud Service SDK Build Analyzer Maven 플러그인
 description: 로컬 Maven 빌드 분석기 플러그인에 대한 설명서
-feature: 핵심 구성 요소, AEM 프로젝트 원형
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
+source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ AEM Maven 프로젝트에 포함하는 방법에 대한 자세한 내용은 [Mav
 | `bundle-nativecode` | OSGI 번들이 기본 코드를 설치하지 않는지 확인합니다. | 예 | 예 |
 | `configuration-api` | 중요한 OSGi 구성을 확인합니다. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `region-deprecated-api` | [더 이상 사용되지 않는 api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html)가 사용되는지 확인합니다 <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
+| `artifact-rules` | 아티팩트의 알려진 문제를 방지하기 위해 번들 및 컨텐츠 패키지와 같은 종속성을 확인합니다.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 
 ## 알려진 문제
 
