@@ -1,79 +1,79 @@
 ---
-title: 단추 구성 요소
-description: 핵심 구성 요소 단추 구성 요소를 사용하면 단추를 만들고 표시할 수 있습니다.
+title: 버튼 구성 요소
+description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 단추 구성 요소{#button-component}
+# 버튼 구성 요소{#button-component}
 
-핵심 구성 요소 단추 구성 요소를 사용하면 페이지에 단추 항목을 구성하고 표시할 수 있습니다.
+핵심 구성 요소의 버튼 구성 요소를 사용하여 페이지에서 버튼 항목을 구성하고 표시할 수 있습니다.
 
 ## 사용량 {#usage}
 
-핵심 구성 요소 단추 구성 요소를 사용하면 페이지에 단추를 포함할 수 있습니다.
+핵심 구성 요소의 버튼 구성 요소를 사용하여 페이지에 버튼을 포함할 수 있습니다.
 
 * [구성 대화 상자](#configure-dialog)에서 버튼의 속성을 선택할 수 있습니다.
-* 단추 구성 요소의 스타일은 [디자인 대화 상자](#design-dialog)에서 정의할 수 있습니다.
+* [디자인 대화 상자](#design-dialog)에서 버튼 구성 요소의 스타일을 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-단추 구성 요소의 현재 버전은 v1이며, 2019년 6월에 핵심 구성 요소 릴리스 2.5.0에서 도입되었으며, 이 문서에 설명되어 있습니다.
+현재 버전의 버튼 요소 다운로드는 2019년 6월 핵심 구성 요소 릴리스 2.5.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서는 구성 요소의 지원되는 모든 버전, 구성 요소의 버전이 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 설명합니다.
+다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-Button 구성 요소와 구성 옵션의 예 및 HTML 및 JSON 출력을 보려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_button)를 방문하십시오.
+버튼 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_button_kr)를 참조하십시오.
 
-## 기술 세부 정보 {#technical-details}
+## 기술 세부 사항 {#technical-details}
 
-단추 구성 요소 [에 대한 최신 기술 설명서는 GitHub](https://adobe.com/go/aem_cmp_tech_button_v1)에 있습니다.
+버튼 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_button_v1_kr).
 
-코어 구성 요소 개발에 대한 자세한 내용은 [코어 구성 요소 개발자 설명서](/help/developing/overview.md)에서 확인할 수 있습니다.
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
-구성 대화 상자에서는 컨텐츠 작성자가 버튼과 페이지 방문자에 대해 어떻게 동작하고 표시되는지를 정의할 수 있습니다.
+콘텐츠 작성자는 구성 대화 상자를 통해 버튼 항목과 방문자를 위한 페이지 작동 및 표시 방법을 정의할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
-![단추 구성 요소의 편집 대화 상자에 있는 속성 탭](/help/assets/button-edit-properties.png)
+![버튼 구성 요소의 디자인 대화 상자 속성 탭](/help/assets/button-edit-properties.png)
 
-* **텍스트**  - 단추에 표시할 텍스트입니다
-* **링크**  - AEM 내 컨텐츠 페이지, 외부 리소스 또는 앵커에 연결
-   * **선택 대화 상자**&#x200B;를 사용하여 AEM 내에서 경로를 선택합니다.
-* **아이콘**  - 단추에 아이콘을 표시하는 식별자입니다
-* **ID**  - 이 옵션을 사용하면 HTML과  [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다](/help/developing/data-layer/overview.md).
-   * 비워 두면 고유 ID가 자동으로 생성되며 결과 페이지를 검사하여 찾을 수 있습니다.
-   * ID가 지정된 경우 ID가 고유한지 확인하는 것은 작성자의 책임입니다.
-   * ID를 변경하면 CSS, JS 및 데이터 레이어 추적에 영향을 줄 수 있습니다.
+* **텍스트** - 버튼에 표시할 텍스트
+* **링크** - AEM, 외부 소스 또는 앵커 내의 콘텐츠 페이지 링크
+   * **선택 대화 상자**&#x200B;를 사용하여 AEM 내부 경로를 선택합니다.
+* **아이콘** - 버튼에 아이콘을 표시하는 아이콘 식별자
+* **ID** - 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+   * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
+   * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
+   * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-### 액세스 가능성 탭 {#accessibility-tab}
+### 접근성 탭 {#accessibility-tab}
 
-![단추 구성 요소의 편집 대화 상자에 있는 액세스 가능성 탭](/help/assets/button-edit-accessibility.png)
+![버튼 구성 요소의 디자인 대화 상자 접근성 탭](/help/assets/button-edit-accessibility.png)
 
-**액세스 가능성** 탭에서 구성 요소의 [ARIA 액세스 가능성](https://www.w3.org/WAI/standards-guidelines/aria/) 레이블에 대한 값을 설정할 수 있습니다.
+**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 라벨 값을 설정할 수 있습니다.
 
-* **레이블**  - 구성 요소에 대한 ARIA 레이블 속성의 값
+* **라벨** - 구성 요소에 대한 ARIA 라벨 속성 값
 
 ## 디자인 대화 상자 {#design-dialog}
 
 ### 스타일 탭 {#styles-tab}
 
-단추 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+버튼 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
-단추 구성 요소는 [Adobe 클라이언트 데이터 계층을 지원합니다.](/help/developing/data-layer/overview.md)
+버튼 구성 요소는 [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)를 지원합니다.
