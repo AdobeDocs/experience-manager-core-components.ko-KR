@@ -1,32 +1,32 @@
 ---
-title: Sling 컨텍스트 인식 구성 및 핵심 구성 요소
-description: 코어 구성 요소는 특정 기능에 대한 Sling 컨텍스트 인식 구성을 활용합니다
+title: 슬링 컨텍스트 인식 구성 및 핵심 구성 요소
+description: 핵심 구성 요소는 특정 기능에 대한 슬링 컨텍스트 인식 구성을 활용합니다.
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Sling 컨텍스트 인식 구성 및 핵심 구성 요소 {#sling-context-aware-configurations}
+# 슬링 컨텍스트 인식 구성 및 핵심 구성 요소 {#sling-context-aware-configurations}
 
-컨텍스트 인식 구성은 Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)의 [기능입니다. 컨텐츠 리소스 또는 리소스 트리와 관련된 구성이며 코어 구성 요소에서 활용하여 사이트 전체 구성을 허용합니다.
+텍스트 인식 구성은 [슬링 기능](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)입니다. 핵심 구성 요소는 콘텐츠 리소스 또는 리소스 트리 관련 구성을 활용하여 전체 사이트를 구성할 수 있습니다.
 
-## Sling 컨텍스트 인식 구성 {#context-aware-configurations}
+## 슬링 텍스트 인식 구성 {#context-aware-configurations}
 
-중첩된 컨텍스트 및 글로벌 폴백 값에 대해 상속을 필요로 하는 일부 매개 변수를 공유해야 하는 경우 사이트마다 다른 사이트 영역에 대해 다른 구성이 필요할 수 있습니다. AEM은 Sling 컨텍스트 인식 구성을 활용하여 이러한 가능성을 활성화합니다.
+예를 들어 중첩된 컨텍스트와 전역 대체 값을 상속하는 매개 변수를 공유할 수 있는 사이트 지역별로 사이트를 다양하게 구성할 수 있습니다. AEM은 이 기능을 활성화하는 슬링 컨텍스트 인식 구성을 활용합니다.
 
-AEM의 구성에 대한 자세한 내용은 [구성 및 구성 브라우저 설명서를 참조하십시오.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
+AEM의 구성에 대한 자세한 내용은 [구성 및 구성 브라우저 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html).
 
 ## 핵심 구성 요소에서 사용 {#core-components}
 
-많은 핵심 구성 요소 기능이 컨텍스트 인식 구성을 활용합니다. 이러한 모든 구성은 다음 노드 아래에 있습니다.
+다양한 핵심 구성 요소 기능이 컨텍스트 인식 구성을 활용합니다. 그러한 구성은 모두 다음 노드 아래에 위치합니다.
 
 * `/conf/<my-site>/sling:configs/<my-configuration>`
 
-개별 구성은 특정 구성 요소 또는 기능에 따라 다릅니다. 컨텍스트 인식 구성을 사용하는 핵심 구성 요소의 기능은 다음과 같습니다.
+개별 구성은 특정 구성 요소나 기능에 따라 다릅니다. 텍스트 인식 구성을 사용하는 핵심 구성 요소의 기능은 다음과 같습니다.
 
 * [PDF 뷰어 구성 요소](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md#installation-activation)
