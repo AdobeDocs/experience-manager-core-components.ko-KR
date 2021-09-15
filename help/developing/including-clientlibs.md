@@ -1,22 +1,22 @@
 ---
 title: 클라이언트 라이브러리 포함
-description: 사용 사례에 따라 클라이언트 라이브러리를 포함하는 방법에는 여러 가지가 있습니다.
+description: 사용 사례에 따라 클라이언트 라이브러리를 다양한 방식으로 포함시킬 수 있습니다.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # 클라이언트 라이브러리 포함 {#including-client-libraries}
 
-사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 포함하는 방법은 여러 가지가 있습니다. 이 문서에서는 각각에 대한 예제 및 샘플 [HTL 코드 조각](https://docs.adobe.com/content/help/ko/experience-manager-htl/using/overview.html)을 제공합니다.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 이 문서에서는 각 라이브러리에 대해 [HTL 스니펫](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)의 예제와 샘플을 제공합니다.
 
 ## 권장 기본 사용 {#recommended-default-usage}
 
-현재 상황에서 가장 좋은 결과를 조사할 시간이 없는 경우 페이지 `head` 요소 내에 다음 HTL 줄을 배치하여 클라이언트 라이브러리를 포함하십시오.
+상황에 맞는 모범 사례를 조사할 시간이 없다면 페이지 `head` 요소 내부에 다음 HTL 라인을 배치하여 클라이언트 라이브러리를 포함시킵니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +25,11 @@ ht-degree: 3%
 </sly>
 ```
 
-여기에는 페이지 `head`에 CSS와 JS가 모두 포함되지만, JS `defer` 속성에 `script`를 추가하면 브라우저가 스크립트를 실행하기 전에 DOM이 준비될 때까지 기다렸다가 페이지 로드 속도가 최적화됩니다.
+페이지`head`의 CSS와 JS가 여기에 포함되지만, `defer` 속성을 JS `script`에 추가하는 경우 스크립트 실행 전에 브라우저는 DOM이 준비 상태가 될 때까지 기다리다가 페이지 로드 속도를 최적화합니다.
 
 ## 기본 사용 {#basic-usage}
 
-모든 해당 CSS `link` 요소 및/또는 JS `script` 요소를 생성하는 클라이언트 라이브러리 카테고리의 JS 및 CSS를 모두 포함하는 기본 구문은 다음과 같습니다.
+해당 CSS 요소 `link` 및/또는 JS `script` 요소를 모두 생성하며 클라이언트 라이브러리 범주의 JS 및 CSS가 포함된 기본 구문은 다음과 같습니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -37,7 +37,7 @@ ht-degree: 3%
 </sly>
 ```
 
-한 번에 여러 클라이언트 라이브러리 카테고리에 대해 동일한 작업을 수행하려면 문자열 배열을 `categories` 매개 변수에 전달할 수 있습니다.
+여러 클라이언트 라이브러리 범주에서 동일한 작업을 동시에 수행하기 위해 문자열 배열을 `categories` 매개 변수에 전달할 수 있습니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -48,9 +48,9 @@ ht-degree: 3%
 
 ## CSS 또는 JS만 해당 {#css-js-only}
 
-CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` 요소를 닫기 바로 전에 포함됩니다.
+CSS는 HTML `head` 요소에 포함되고, JS는 `body` 요소를 닫기 직전에 포함되는 경우가 자주 있습니다.
 
-`head`에서 JS가 아닌 CSS만 포함하려면 `cssIncludes` 를 사용하십시오.
+`head`에서 CSS만 포함되고 JS는 포함되지 않는 경우에 `cssIncludes`를 사용합니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -58,7 +58,7 @@ CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` �
 </sly>
 ```
 
-`body` 닫기 전에 CSS가 아닌 JS만 포함하려면 `jsIncludes` 를 사용하십시오.
+`body` 닫기 전에 JS만 포함되고 CSS가 포함되지 않는 경우에 `jsIncludes`를 사용합니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -68,7 +68,7 @@ CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` �
 
 ## 속성 {#attributes}
 
-생성된 CSS `link` 요소 및/또는 JS `script` 요소에 속성을 적용하려면 많은 매개 변수를 사용할 수 있습니다.
+속성을 생성된 CSS `link` 요소 및/또는 JS `script` 요소에 적용하려면 다음 여러 매개 변수를 사용합니다.
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -82,9 +82,9 @@ CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` �
 </sly>
 ```
 
-`jsAndCssIncludes` 및 `cssIncludes`에 전달할 수 있는 CSS `link` 속성:
+CSS `link` 속성을 `jsAndCssIncludes` 및 `cssIncludes`에 전달할 수 있습니다.
 
-* `media`: 및  `script` 에 전달할 수 있는 string JS  `jsAndCssIncludes` 속성  `jsIncludes`:
+* `media`: string JS `script` 속성을 `jsAndCssIncludes` 및 `jsIncludes`에 전달할 수 있습니다.
 * `async`: 부울
 * `defer`: 부울
 * `onload`: 문자열
@@ -92,9 +92,9 @@ CSS를 HTML `head` 요소에 배치하려는 경우가 많은데 JS는 `body` �
 
 ## 인라인 {#inlining}
 
-최적화를 위해 또는 이메일이나 [AMP의 경우](amp.md) CSS 또는 JS를 HTML의 출력으로 인라인으로 설정해야 할 수도 있습니다.
+최적화, 이메일 또는 [AMP](amp.md) 중 어떠한 경우든 CSS 또는 JS를 HTML 출력으로 인라인해야 합니다.
 
-CSS를 인라인으로 지정하려면 `cssInline`을 사용할 수 있습니다. 이 경우 주변 `style` 요소를 작성해야 합니다.
+CSS를 인라인하려면 `cssInline`를 사용할 수 있으며, 이 경우 주변 `style` 요소를 작성해야 합니다.
 
 ```html
 <style type="text/css"
@@ -103,7 +103,7 @@ CSS를 인라인으로 지정하려면 `cssInline`을 사용할 수 있습니다
 </style>
 ```
 
-마찬가지로 JS를 인라인으로 채우려면 `jsInline` 을 사용할 수 있습니다. 이 경우 주변 `script` 요소를 작성해야 합니다.
+마찬가지로 JS를 인라인하려면 `jsInline`를 사용할 수 있으며, 이 경우 주변 `script` 요소를 작성해야 합니다.
 
 ```html
 <script type="text/javascript"
@@ -112,11 +112,11 @@ CSS를 인라인으로 지정하려면 `cssInline`을 사용할 수 있습니다
 </script>
 ```
 
-## 컨텍스트 인식 CSS 및 JavaScript 로드 {#context-aware-loading}
+## 텍스트 인식 CSS 및 JavaScript 로드 중 {#context-aware-loading}
 
-[페이지 구성 요소](/help/components/page.md)는 개발자 정의 컨텍스트 인식 CSS, JavaScript 또는 메타 태그 로딩도 지원합니다.
+[페이지 구성 요소](/help/components/page.md)는 로드 중인 개발자 정의된 컨텍스트 인식 CSS, JavaScript 또는 메타 태그를 지원합니다.
 
-이 작업은 다음 구조를 사용하여 `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`에 대한 [컨텍스트 인식 리소스](context-aware-configs.md)를 만들어 수행합니다.
+이는 다음 구조를 사용하는 `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`의 [컨텍스트 인식 리소스](context-aware-configs.md)를 통해 수행됩니다.
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
@@ -133,4 +133,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-[자세한 내용은 페이지 구성 요소에 대한 기술 설명서 를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
+자세한 내용은 [페이지 구성 요소에 대한 기술 설명서](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)를 참조하십시오.
