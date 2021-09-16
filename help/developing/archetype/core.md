@@ -25,7 +25,7 @@ mvn -PautoInstallBundle clean install
 
 실행이 완료되면 `http://<host>:<port>/system/console/bundles`에서 번들 콘솔을 확인할 수 있습니다.
 
-##  단위 테스트 {#unit-tests}
+## 단위 테스트 {#unit-tests}
 
 핵심 모듈의 단위 테스트는 번들에 포함된 코드에 대한 클래식 단위 테스트를 보여 줍니다. 테스트를 하려면 다음을 실행합니다.
 
