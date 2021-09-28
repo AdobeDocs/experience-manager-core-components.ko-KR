@@ -1,13 +1,13 @@
 ---
 title: AEM Project Archetype 사용
 description: AEM Project Archetype에 대한 자세한 사용량 지침
-feature: 핵심 구성 요소, AEM Project Archetype
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2147'
-ht-degree: 100%
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 96%
 
 ---
 
@@ -116,6 +116,7 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대한 [AMP](/help/developing/amp.md) 지원을 활성화합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
 | `enableSSR` | `n` | 프론트엔드 프로젝트용 SSR을 활성화하는 옵션 |
+| `precompiledScripts` | `n` | [서버측 스크립트를 `ui.apps`에서 미리 컴파일하고 `ui.apps` 프로젝트에서 두 번째 번들 아티팩트로 빌드에 첨부하는 옵션입니다. ](/help/developing/archetype/precompiled-bundled-scripts.md) `aemVersion` 를 로 설정해야  `cloud`합니다. |
 
 >[!NOTE]
 >
@@ -137,6 +138,7 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 | `autoInstallSinglePackage` | content-package-maven-plugin이 포함된 `all` 콘텐츠 패키지를 패키지 매니저에 설치하여 localhost, port 4502에 작성자 인스턴스를 기본 설정합니다. `aem.host` 및 `aem.port` 사용자 정의 속성으로 된 호스트 이름과 포트를 변경할 수 있습니다. |
 | `autoInstallSinglePackagePublish` | content-package-maven-plugin이 포함된 `all` 콘텐츠 패키지를 패키지 매니저에 설치하여 localhost, port 4503에 게시 인스턴스를 기본 설정합니다. `aem.host` 및 `aem.port` 사용자 정의 속성으로 된 호스트 이름과 포트를 변경할 수 있습니다. |
 | `integrationTests` | AEM 인스턴스에 제공된 통합 테스트를 실행합니다(`verify` 단계만 해당). |
+| `precompiledScripts` | `precompiledScripts` 속성이 `y`로 설정된 상태에서 프로젝트가 생성될 때 자동으로 정의됩니다. 이 프로필은 기본적으로 활성화되어 있으며 `ui.apps` 내에 OSGi 번들을 생성하며 이 번들은 사전 컴파일된 스크립트가 `all` 컨텐츠 패키지에 포함됩니다. 이 프로필은 `-DskipScriptPrecompilation=true`으로 비활성화할 수 있습니다. |
 
 ### 빌드 및 설치 {#building-and-installing}
 
