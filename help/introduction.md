@@ -1,51 +1,51 @@
 ---
-title: 핵심 구성 요소 소개
-description: '핵심 구성 요소는 최신 기술과 우수 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
+title: 핵심 구성 요소 도입
+description: '핵심 구성 요소는 최신 기술과 모범 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 24%
+source-wordcount: '937'
+ht-degree: 98%
 
 ---
 
-# 핵심 구성 요소 소개{#core-components-introduction}
+# 핵심 구성 요소 도입{#core-components-introduction}
 
 Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘텐츠를 구성하는 구조적 요소입니다. 구성 요소는 항상 AEM 경험의 기본 요소로, 이를 통해 작성자는 간단하지만 강력한 페이지를 만들 수 있고 개발자는 유연하고 확장 가능한 구성 요소를 개발할 수 있습니다.
 
-핵심 구성 요소는 개발 시간을 단축하고 웹 사이트의 유지 관리 비용을 절감할 수 있도록 AEM용 WCM(Web Content Management) 구성 요소 세트입니다.
+핵심 구성 요소는 AEM에서 개발 시간을 가속화고 웹 사이트의 유지 관리 비용을 절감할 수 있는 표준화된 웹 콘텐츠 관리(WCM) 구성 요소입니다.
 
 ## 리소스 {#resources}
 
-* **[구성 요소 라이브러리: ](https://www.adobe.com/go/aem_cmp_library)** 다양한 구성에서 구성 요소를 보기 위한 예제의 모음입니다.
-* **구성 요소 설명서(이 문서):** 개발자 및 작성자를 위한 것으로서 각 구성 요소에 대한 세부 사항을 제공합니다.
-* **[핵심 구성 요소 GitHub 리포지토리:](https://github.com/adobe/aem-core-wcm-components)**  각 구성 요소 및 프로젝트 다운로드에 대한 개발자 세부 사항을 제공합니다.
+* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library_kr)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
+* **구성 요소 설명서(본 문서):** 개발자 및 작성자용 (각 구성 요소에 대한 세부 정보 포함)
+* **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)** 개발자용 (각 구성 요소에 대한 세부 정보 및 프로젝트 다운로드 포함)
 * 시작하기:
-   * **[핵심 구성 요소로 성공:](/help/developing/success.md)**  핵심 구성 요소를 사용할 프로젝트 시작 전에 고려해야 하는 지침입니다.
-   * **[WKND 자습서: ](https://docs.adobe.com/content/help/ko/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 새 사이트를 빌드하기 위한 2일 자습서입니다.
-   * **[Summit 자습서: ](https://expleague.azureedge.net/labs/L767/index.html)** 새 사이트 구축을 위한 2시간 자습서(US Summit 2019의 랩에서).
-   * **[Gems 웨비나: ](https://helpx.adobe.com/kr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html에서 확인하십시오.)** 핵심 구성 요소(2018년 12월에 기록)의 가이드 투어.
+   * **[핵심 구성 요소로 성공하기:](/help/developing/success.md)** 핵심 구성 요소를 사용할 프로젝트를 시작하기 전 충분히 고려해야 할 가이드라인
+   * **[WKND 튜토리얼:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 2일간 진행되는 신규 사이트 구축 튜토리얼
+   * **[서밋 튜토리얼:](https://expleague.azureedge.net/labs/L767/index.html)** 4시간 동안 진행되는 신규 사이트 구축 튜토리얼 (출처: 2019년 US Summit 랩)
+   * **[Gems 웨비나:](https://helpx.adobe.com/kr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 핵심 구성 요소 둘러보기 (2018년 12월 녹화분)
 
 ## 기능 {#features}
 
 |  |  |
 |---|---|
-| 프로덕션 준비 | 핵심 구성 요소는 28개의 강력한 구성 요소로서 테스트를 잘 거치고 널리 사용되며 잘 수행됩니다. |
-| 클라우드 지원 | [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)에서, 또는 온프레미스에서 모두 작동합니다. |
-| 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 어셈블할 수 있는 일반 개념을 나타냅니다. |
-| 구성 가능 | 템플릿 수준 [컨텐츠 정책](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)은 페이지 작성자가 사용할 수 있거나 사용할 수 없는 기능을 정의합니다. |
-| 추적 가능 | [Adobe 클라이언트 데이터 계층 통합](/help/developing/data-layer/overview.md)을 사용하면 방문자 경험의 모든 측면을 추적할 수 있습니다. |
-| 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고, ARIA 레이블을 제공하고, 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Attitle)). |
-| SEO 기반 | HTML 출력은 의미가 있으며 [schema.org](https://schema.org) 마이크로 데이터 주석을 제공합니다. |
-| WebApp-Ready | [간소화된 JSON 출력](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)은(는) 클라이언트측 렌더링을 허용하지만, 여전히 [컨텍스트 내 편집](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)이 가능합니다. |
-| AMP 지원 | 구성 요소는 모바일 경험을 가속화하는 AMP 표준,](/help/developing/amp.md)에 대한 기본 제공 [을 지원합니다. |
-| 디자인 키트 | 디자이너는 Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)용 [UI 키트를 사용하여 필요한 경우 [스타일을 지정할 수 있는 와이어프레임을 만들 수 있습니다.](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd) |
-| 실행 가능 | 구성 요소는 [스타일 시스템](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html)을 구현하고 마크업이 [BEM CSS 규칙](http://getbem.com/)을 따릅니다. |
-| 사용자 지정 가능 | 몇 가지 패턴을 사용하면 HTML을 조정에서 고급 기능 재사용까지 [쉬운 사용자 지정](developing/customizing.md)을 수행할 수 있습니다. |
-| 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하면 영향을 줄 수 있는 사항을 개선할 때 코어 구성 요소가 사이트를 손상시키지 않도록 할 수 있습니다. |
-| 지역화 가능 | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 해당 지역화된 콘텐츠를 자동으로 찾아 [렌더링할 수 있습니다.](get-started/localization.md) |
-| 오픈 소스 | 필요한 내용이 아니면 [개선 사항을 기여하십시오!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| 제작 준비 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 27개의 강력한 구성 요소입니다. |
+| 클라우드 기반 | [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
+| 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
+| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
+| 추적 가능 | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md) 통합 기능을 통해 모든 측면의 방문자 경험을 추적할 수 있습니다. |
+| 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고, ARIA 레이블을 제공하고, 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| SEO 친화도 | HTML 출력은 의미가 있으며 [schema.org](https://schema.org) 마이크로 데이터 주석을 제공합니다. |
+| WebApp 기반 | [간소화된 JSON 출력](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)을 통해 클라이언트측을 렌더링하고 [상황에 맞게 편집](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)할 수 있습니다. |
+| AMP 지원 | 구성 요소는 [AMP 표준에 대한 내장된 지원](/help/developing/amp.md)을 제공하고 모바일 경험을 가속화합니다. |
+| 디자인 키트 | 디자이너는 [Adobe XD용 UL 키트](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)를 통해 [필요에 따라 스타일링](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)될 수 있는 와이어프레임을 만들 수 있습니다. |
+| 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html)을 구현하고 마크업이 [BEM CSS 명명](http://getbem.com/)을 따릅니다 |
+| 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 [간편한 맞춤화](developing/customizing.md)를 구현할 수 있습니다. |
+| 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
+| 현지화 가능 | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 [현지화된 해당 콘텐츠를 자동으로 검색하여 렌더링할 수 있습니다](get-started/localization.md). |
+| 오픈 소스 | 매출이 평소와 같지 않다면 [자신의 성과를 공개하십시오](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md). |
 
 ## 구성 요소 {#the-components}
 
@@ -56,7 +56,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * [페이지](components/page.md)
 * [탐색](components/navigation.md)
 * [언어 탐색](components/language-navigation.md)
-* [탐색 표시](components/breadcrumb.md)
+* [이동 경로](components/breadcrumb.md)
 * [빠른 검색](components/quick-search.md)
 
 ### 페이지 작성 구성 요소 {#page-authoring-components}
@@ -64,14 +64,14 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * [제목](components/title.md)
 * [텍스트](components/text.md)
 * [이미지](components/image.md)
-* [단추](components/button.md)
+* [버튼](components/button.md)
 * [티저](components/teaser.md)
 * [다운로드](components/download.md)
 * [목록](components/list.md)
 * [경험 조각](components/experience-fragment.md)
 * [콘텐츠 조각](components/content-fragment-component.md)
 * [콘텐츠 조각 목록](components/content-fragment-list.md)
-* [포함](components/embed.md)
+* [임베드](components/embed.md)
 * [소셜 미디어 공유](components/sharing.md)
 * [분리자](components/separator.md)
 * [진행률 표시줄](components/progress-bar.md)
@@ -80,21 +80,21 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 ### 컨테이너 구성 요소 {#container-components}
 
 * [컨테이너](components/container.md)
-* [회전판](components/carousel.md)
+* [슬라이드](components/carousel.md)
 * [탭](components/tabs.md)
-* [어코디언](components/accordion.md)
+* [아코디언](components/accordion.md)
 
 ### 양식 구성 요소 {#form-components}
 
 * [양식 컨테이너](components/forms/form-container.md)
 * [양식 텍스트](components/forms/form-text.md)
 * [양식 옵션](components/forms/form-options.md)
-* [숨겨진 양식](components/forms/form-hidden.md)
-* [양식 단추](components/forms/form-button.md)
+* [양식 숨김](components/forms/form-hidden.md)
+* [양식 버튼](components/forms/form-button.md)
 
 >[!NOTE]
 >
->작성자는 핵심 구성 요소를 즉시 사용할 수 없습니다. [개발 팀에서 먼저 핵심 구성 요소를 환경에 통합해야 합니다](get-started/using.md). 통합되면 [템플릿 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 사용하고 사전 구성할 수 있습니다.
+>작성자는 핵심 구성 요소를 즉시 사용할 수 없습니다. [개발 팀에서 먼저 핵심 구성 요소를 환경에 통합해야 합니다](get-started/using.md). 통합되면 [템플릿 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 사용 및 사전 구성할 수 있습니다.
 
 >[!NOTE]
 >
@@ -104,22 +104,22 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 시스템 요구 사항 {#system-requirements}
 
-| 코어 구성 요소 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
+| 핵심 구성 요소 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 계속 | 6.5.6.0+ * | 6.4.8.4+ * | 8,11 | 3.3.9+ |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Continual | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
->(*) 버전 2.11.0부터 `org.apache.sling.models.impl` 버전 1.4.12 이상이 필요합니다( [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). 향후 서비스 팩에서 AEM 6.4 및 6.5용으로 제공됩니다. 그때까지 Sling 모델 번들은 `core.wcm.components.all` 패키지에 포함되어 있습니다.
+>(*) 버전 2.11.0부터 `org.apache.sling.models.impl` 버전 1.4.12 이상이 필요합니다([SLING-8781](https://issues.apache.org/jira/browse/SLING-8781) 원인). 향후 서비스 팩에서 AEM 6.4 and 6.5에 제공됩니다. 그때까지 슬링 모델 번들은 `core.wcm.components.all` 패키지에 포함됩니다.
 
-이전 코어 구성 요소 릴리스의 요구 사항에 대해서는 [핵심 구성 요소 버전](versions.md)을 참조하십시오.
+이전 핵심 구성 요소 릴리스의 요구 사항을 알아보려면 [핵심 구성 요소 버전](versions.md)을 참조하십시오.
 
-코어 구성 요소는 [편집 가능한 템플릿](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)을 사용해야 하며, 클래식 UI나 정적 템플릿을 지원하지 않습니다. 필요한 경우 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)를 확인하여 이러한 최신 AEM 기능으로 프로젝트를 업데이트하십시오.
+구성 요소는 [편집 가능한 템플릿](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)을 사용하고 클래식 UI와 정적 템플릿을 지원하지 않습니다. 필요한 경우 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)를 사용하여 해당 최신 AEM 기능이 포함된 프로젝트를 업데이트합니다.
 
-로컬 개발 환경을 설정하려면 AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 이 문서 [에서 이전 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)에 대해 [이 개요를 확인하십시오.
+로컬 개발 환경을 설정하려면 기존 버전의 AEM에 대한 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 개요나 [본 문서](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)를 참조하십시오.
 
 >[!TIP]
 >
->코어 구성 요소는 자동으로 AEM as a Cloud Service에 포함되며 핵심 구성 요소의 최신 릴리스가 항상 제공됩니다.
+>핵심 구성 요소는 자동으로 AEM as a Cloud Service의 일부로 적용되고, 핵심 구성 요소 릴리스는 언제나 최신 버전입니다.
 >
->AEMaaCS와 온프레미스에서 코어 구성 요소를 시작하는 방법에 대한 자세한 내용은 [코어 구성 요소 사용](/help/get-started/using.md) 문서를 참조하십시오.
+>AEMaaCS와 온프레미스에서 핵심 구성 요소를 시작하는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md) 설명서를 참조하십시오.
