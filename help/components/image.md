@@ -3,10 +3,10 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2170'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)가 필요합니다.
+>SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ko-KR)가 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -82,9 +82,9 @@ ht-degree: 100%
 ![이미지 구성 요소의 구성 대화 상자 에셋 탭](/help/assets/image-configure-asset.png)
 
 * **이미지 에셋**
-   * [에셋 브라우저](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
+   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 ### 메타데이터 탭 {#metadata-tab}
 

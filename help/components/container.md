@@ -3,10 +3,10 @@ title: 컨테이너 구성 요소
 description: 핵심 구성 요소의 컨테이너 구성 요소를 통해 페이지에서 다중 구성 요소의 컨테이너를 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 * **레이아웃** - 이 옵션은 컨테이너 구성 요소의 비헤이비어 또는 레이아웃 비헤이비어를 정의합니다.
    * **간소화된** - 컨테이너를 간소화된 구성 요소 컬렉션으로 정의합니다.
-   * **반응형 그리드** - 컨테이너를[ AEM 반응형 레이아웃](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)으로 정의합니다.
+   * **반응형 그리드** - 컨테이너를[ AEM 반응형 레이아웃](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)으로 정의합니다.
 * **배경색** - [구성에 따라](#background-tab) 자유 형식의 RGB 값이나 색상 피커를 사용하여 정의할 수 있습니다.
 * **배경 이미지** - [구성에 따라](#background-tab) 컨테이너 배경색을 정의합니다.
 * **ID** - 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
@@ -67,11 +67,11 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 컨테이너 구성 요소에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 허용된 구성 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 허용된 구성 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 
-컨테이너에서 특정 에셋 유형이 삭제되면 기본 구성 요소 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
+컨테이너에서 특정 에셋 유형이 삭제되면 기본 구성 요소 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
 
 ### 반응형 설정 탭 {#responsive-settings-tab}
 

@@ -4,10 +4,10 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1104'
+ht-degree: 87%
 
 ---
 
@@ -25,24 +25,24 @@ AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사�
    * **[Archetype 사용:](using.md)** Archetype 및 모듈 사용에 대해 자세히 알아보기
    * **[ui.frontend:](uifrontend.md)** 프론트엔드 빌드 모듈을 사용하는 방법
 * 다음 튜토리얼은 이 Archetype에 따라 작성됩니다.
-   * **[WKND Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 완전히 새로운 웹 사이트를 시작하는 방법에 대해 알아봅니다.
-   * **[WKND Single Page App:](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** AEM에서 전체 작성할 수 있는 대화형 또는 방사형 WebApp을 빌드하는 방법에 알아봅니다.
+   * **[WKND Site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 완전히 새로운 웹 사이트를 시작하는 방법에 대해 알아봅니다.
+   * **[WKND Single Page App:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** AEM에서 전체 작성할 수 있는 대화형 또는 방사형 WebApp을 빌드하는 방법에 알아봅니다.
 
 ## 기능 {#features}
 
 * **모범 관행:** Adobe 권장 최신 모범 사례를 사용하여 Bootstrap으로 사이트를 제작합니다.
 * **로우 코드:** 템플릿을 편집하고, 콘텐츠를 제작하고 CSS를 배포하면 사이트 실행이 준비됩니다.
-* **클라우드 기반:** 필요한 경우 [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)를 사용하여 며칠 내에 사이트를 실행하고 간단히 확장 및 관리할 수 있습니다.
-* **발송자:** 속도와 보안을 보장하는 [발송자 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html)만으로 프로젝트를 완료합니다.
-* **다중 사이트:** 필요한 경우 Archetype은 [다국어 및 다중 지역 설정](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/msm.html)용 콘텐츠 구조를 생성합니다.
+* **클라우드 기반:** 필요한 경우 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)를 사용하여 며칠 내에 사이트를 실행하고 간단히 확장 및 관리할 수 있습니다.
+* **발송자:** 속도와 보안을 보장하는 [발송자 구성](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ko-KR)만으로 프로젝트를 완료합니다.
+* **다중 사이트:** 필요한 경우 Archetype은 [다국어 및 다중 지역 설정](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html)용 콘텐츠 구조를 생성합니다.
 * **핵심 구성 요소:** 작성자는 다목적 [세트의 표준화된 구성 요소](/help/introduction.md)를 사용하여 거의 모든 레이아웃을 제작할 수 있습니다.
-* **편집 가능한 템플릿:** 코드 없이 거의 모든 [템플릿을 조합하고](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 작성자가 편집할 내용을 정의합니다.
-* **반응형 레이아웃:** 템플릿 또는 개별 페이지에서 [정의된 중단점에 대한 요소를 재배치하는 방법](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)을 정의합니다.
-* **머리글 및 바닥글:** [구성 요소의 현지화 기능](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html)을 사용하여 코드 없이 이를 조합하고 현지화합니다.
-* **스타일 시스템:** 작성자가 [다른 스타일을 적용](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html)하면 맞춤형 구성 요소를 빌드하지 마십시오.
+* **편집 가능한 템플릿:** 코드 없이 거의 모든 [템플릿을 조합하고](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 작성자가 편집할 내용을 정의합니다.
+* **반응형 레이아웃:** 템플릿 또는 개별 페이지에서 [정의된 중단점에 대한 요소를 재배치하는 방법](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)을 정의합니다.
+* **머리글 및 바닥글:** [구성 요소의 현지화 기능](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)을 사용하여 코드 없이 이를 조합하고 현지화합니다.
+* **스타일 시스템:** 작성자가 [다른 스타일을 적용](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)하면 맞춤형 구성 요소를 빌드하지 마십시오.
 * **프론트엔드 빌드:** 프론트엔드 개발자는 Webpack, TypeScript 및 SASS를 사용하여 [AEM을 복제](uifrontend.md#webpack-dev-server)하고 [클라이언트 라이브러리를 빌드](uifrontend.md)할 수 있습니다.
-* **WebApp 기반:** 사이트에서 [반응형](uifrontend-react.md) 또는 [방사형 WebApp](uifrontend-angular.md)을 사용하는 경우 [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html)로 [상황에 맞게 앱 제작](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
-* **Commerce 활성화됨:** 프로젝트에서 [상거래 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components)를 사용하여 [AEM Commerce](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html)와 상거래 솔루션(예: [Magento](https://magento.com/))을 통합하는 경우.
+* **WebApp 기반:** 사이트에서 [반응형](uifrontend-react.md) 또는 [방사형 WebApp](uifrontend-angular.md)을 사용하는 경우 [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/developing.html)로 [상황에 맞게 앱 제작](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
+* **Commerce 활성화됨:** 프로젝트에서 [상거래 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components)를 사용하여 [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html)와 상거래 솔루션(예: [Magento](https://magento.com/))을 통합하는 경우.
 * **예제 코드:** HelloWorld 구성 요소와 샘플 모드, 서블릿, 필터 및 스케줄러 체크아웃.
 * **오픈 소스:** 매출이 평소와 같지 않다면 자신의 성과를 [공개](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)하십시오.
 
@@ -61,7 +61,7 @@ mvn -B archetype:generate \
 ```
 
 * `XX`를 최신 [Archetype 버전 번호로 대체합니다.](#requirements)
-* [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)에 대해 `aemVersion=cloud`를 설정합니다.\
+* [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)에 대해 `aemVersion=cloud`를 설정합니다.\
    [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스를 위한 `aemVersion=6.5.0`를 설정합니다.
 AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이 아닌 버전에는 핵심 구성 요소 종속성만 추가됩니다.
 * `appTitle="My Site"`를 조정하여 웹 사이트 제목과 구성 요소 그룹을 정의합니다.
@@ -79,10 +79,10 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`) |
-| `aemVersion` | `cloud` | 대상 AEM 버전([AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
-| `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우(예: `2020.02.2265.20200217T222518Z-200130`) |
+| `aemVersion` | `cloud` | 대상 AEM 버전([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
+| `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우(예: `2020.02.2265.20200217T222518Z-200130`) |
 | `includeDispatcherConfig` | `y` | `aemVersion`(`y` 또는 `n`일 수 있음)의 값에 따라 Cloud 또는 AMS/온프레미스용 발송자 구성을 포함합니다. |
-| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
+| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
 | `language` | `en` | 다음 코드(예: `en`, `deu`)에서 콘텐츠 구조를 만드는 언어 코드(ISO 639-1). |
 | `country` | `us` | 다음 코드(예: `US`)에서 콘텐츠 구조를 만드는 국가 코드(ISO 3166-1). |
 | `singleCountry` | `y` | 언어 습득 콘텐츠 구조(`y` 또는 `n`일 수 있음)를 포함합니다. |
@@ -102,7 +102,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 |---------|---------|---------|---------|---------|
 | [30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
-[AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 [기존 버전의 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)용 로컬 개발 환경을 설정합니다.
+[AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 [기존 버전의 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)용 로컬 개발 환경을 설정합니다.
 
 ### 알려진 문제 {#known-issues}
 

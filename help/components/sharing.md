@@ -3,10 +3,10 @@ title: 소셜 공유 구성 요소
 description: 핵심 구성 요소의 소셜 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 소셜 구성 요소는 Facebook 및 Pinterest 공유 링크를 페이지에 추가합니다. 종종 페이지 머리글이나 바닥글에 포함됩니다.
 
-기타 구성 요소와 다르게 소셜 공유 구성 요소는 [초기 페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 템플릿 작성자에 의해 설정하고, [페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 콘텐츠 작성자에 의해 설정합니다.
+기타 구성 요소와 다르게 소셜 공유 구성 요소는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 템플릿 작성자에 의해 설정하고, [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 콘텐츠 작성자에 의해 설정합니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -51,8 +51,8 @@ ht-degree: 100%
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서, 콘텐츠 작성자는 [초기 페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 공유 구성 요소에 대한 편집 옵션을 추가로 사용할 수 있습니다.
+공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서, 콘텐츠 작성자는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 공유 구성 요소에 대한 편집 옵션을 추가로 사용할 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
-공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서, 템플릿 작성자는 [초기 페이지 속성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 공유 구성 요소에 대한 디자인 옵션을 사용할 수 있습니다.
+공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서, 템플릿 작성자는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 공유 구성 요소에 대한 디자인 옵션을 사용할 수 있습니다.

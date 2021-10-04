@@ -3,10 +3,10 @@ title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2213'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2205'
+ht-degree: 98%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 100%
 
 ## 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-핵심 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 매우 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 문서 [리치 텍스트 편집기 구성](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://docs.adobe.com/content/help/ko/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+핵심 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 매우 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 문서 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
 
 이 문서의 나머지 부분에서 즉시 사용 가능한 RTE 구성과 함께 핵심 구성 요소의 텍스트 구성 요소에 대한 표준 구성을 보여 줍니다.
 
 >[!NOTE]
 >
->[RTE의 UI 구성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 활성화되는 옵션만 텍스트 구성 요소에서 사용할 수 있습니다.
+>[RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 활성화되는 옵션만 텍스트 구성 요소에서 사용할 수 있습니다.
 
 ## 편집 대화 상자 {#edit-dialog}
 
@@ -258,7 +258,7 @@ ht-degree: 100%
 
 텍스트 맞춤법을 검사하는 데 사용됩니다. 오자는 빨간색 점선으로 밑줄이 그어져 있습니다.
 
-맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
 
 ### 특수 문자 {#special-characters}
 

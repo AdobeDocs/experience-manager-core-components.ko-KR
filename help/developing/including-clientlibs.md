@@ -3,16 +3,16 @@ title: 클라이언트 라이브러리 포함
 description: 사용 사례에 따라 클라이언트 라이브러리를 다양한 방식으로 포함시킬 수 있습니다.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
 
 # 클라이언트 라이브러리 포함 {#including-client-libraries}
 
-사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 이 문서에서는 각 라이브러리에 대해 [HTL 스니펫](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)의 예제와 샘플을 제공합니다.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/uifrontend.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 이 문서에서는 각 라이브러리에 대해 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko-KR)의 예제와 샘플을 제공합니다.
 
 ## 권장 기본 사용 {#recommended-default-usage}
 

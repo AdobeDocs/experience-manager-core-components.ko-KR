@@ -5,10 +5,10 @@ type: Documentation
 description: Adobe Experience Manager 핵심 구성 요소에 대한 설명서
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.ko-KR
 index: y
-source-git-commit: 3897e37ed1e24c4a045b7f6cc716b5cabdd7cf9f
+source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 89%
+ht-degree: 81%
 
 ---
 
@@ -48,4 +48,4 @@ ToCs
 * `description`
 * `index: n` (이전 버전의 구성 요소만 해당)
 
-메타데이터에 대한 추가 정보는 [내부 제작 안내서](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)에서 확인할 수 있습니다.
+메타데이터에 대한 추가 정보는 [내부 제작 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)에서 확인할 수 있습니다.

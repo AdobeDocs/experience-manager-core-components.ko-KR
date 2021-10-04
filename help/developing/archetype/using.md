@@ -4,10 +4,10 @@ description: AEM Project Archetype에 대한 자세한 사용량 지침
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
 workflow-type: tm+mt
-source-wordcount: '2209'
-ht-degree: 96%
+source-wordcount: '2193'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ AEM Project Archetype을 사용하여 몇 번의 키 입력만으로 모범 사�
 
 Project Archetype을 통해 AEM에서 개발 시작하기가 수월해집니다. 여러 방식으로 첫 단계를 수행할 수 있습니다.
 
-* WKND 튜토리얼 - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) - WKND 튜토리얼을 참조하십시오.
+* WKND 튜토리얼 - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) - WKND 튜토리얼을 참조하십시오.
 * WKND 이벤트 튜토리얼 - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 관심이 있다면 전용 [WKND 이벤트 튜토리얼](https://helpx.adobe.com/kr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)에 대해 자세히 알아보십시오.
 * 다운로드 후 바로 시작해 보십시오. - GitHub에 제공하는 현재 Project Archetype을 간편하게 다운로드하고 [아래의 간소한 단계에 따라](#how-to-use-the-archetype) 첫 번째 프로젝트를 제작할 수 있습니다.
 
@@ -75,7 +75,7 @@ mvn -B archetype:generate \
 ```
 
 * `XX`를 [최신 AEM Project Archetype의 버전 번호](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)로 설정합니다.
-* [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)에 대해 `aemVersion=cloud`를 설정합니다.\
+* [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)에 대해 `aemVersion=cloud`를 설정합니다.\
    [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스를 위한 `aemVersion=6.5.0`를 설정합니다.
 AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이 아닌 버전에는 핵심 구성 요소 종속성만 추가됩니다.
 * `appTitle="My Site"`를 조정하여 웹 사이트 제목과 구성 요소 그룹을 정의합니다.
@@ -101,10 +101,10 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 | `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`) |
-| `aemVersion` | `cloud` | 대상 AEM 버전([AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
-| `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우(예: `2020.02.2265.20200217T222518Z-200130`) |
+| `aemVersion` | `cloud` | 대상 AEM 버전([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
+| `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우(예: `2020.02.2265.20200217T222518Z-200130`) |
 | `includeDispatcherConfig` | `y` | `aemVersion`(`y` 또는 `n`일 수 있음)의 값에 따라 Cloud 또는 AMS/온프레미스용 발송자 구성을 포함합니다. |
-| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
+| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
 | `language` | `en` | 다음 코드(예: `en`, `deu`)에서 콘텐츠 구조를 만드는 언어 코드(ISO 639-1). |
 | `country` | `us` | 다음 코드(예: `US`)에서 콘텐츠 구조를 만드는 국가 코드(ISO 3166-1). |
 | `singleCountry` | `y` | 언어 습득 콘텐츠 구조(`y` 또는 `n`일 수 있음)를 포함합니다. |
@@ -198,7 +198,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies)입니다. AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
+주요 종속성 중 하나는 [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)입니다. AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 AEM Project Archetype은 핵심 구성 요소를 활용합니다.
 
-기본 실행 모드에서 AEM에 핵심 구성 요소를 자동으로 설치하고 샘플 WKND 사이트에서 사용합니다. [제작 실행 모드](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html)(`nosamplecontent`)에서는 핵심 구성 요소를 사용할 수 없습니다.
+기본 실행 모드에서 AEM에 핵심 구성 요소를 자동으로 설치하고 샘플 WKND 사이트에서 사용합니다. [제작 실행 모드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes)(`nosamplecontent`)에서는 핵심 구성 요소를 사용할 수 없습니다.
 
 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 Maven 프로젝트의 일부로 포함시키는 것이 좋습니다.
 
@@ -232,7 +232,7 @@ AEM Project Archetype은 핵심 구성 요소를 활용합니다.
    * `mvn clean verify -PintegrationTests`
 * 클라이언트측 Hobbes.js 테스트: 브라우저측 비헤이비어를 확인하는 JavaScript 기반 브라우저측 테스트입니다. 테스트를 수행하려면
    1. 페이지를 작성하는 경우 AEM을 브라우저에 로드합니다.
-   1. 페이지를 [개발자 모드](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)에서 엽니다
+   1. 페이지를 [개발자 모드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)에서 엽니다
    1. 왼쪽 패널을 열고 **테스트** 탭으로 전환합니다.
    1. 생성된 **MyName 테스트**&#x200B;를 검색하고 실행합니다.
 
@@ -241,6 +241,6 @@ AEM Project Archetype은 핵심 구성 요소를 활용합니다.
 AEM Project Archetype을 빌드하고 설치했습니다. 이제 무엇을 합니까? Archetype의 규모는 작지만 권장 모범 사례에 따라 강력한 AEM 기능에 대한 여러 예제들로 구성됩니다. 이를 통해 이러한 기능이 프로젝트에서 어떻게 활용되는지 나타냅니다. 프로젝트의 경우 다음 작업을 수행해야 합니다.
 
 * [기본 핵심 구성 요소를 확장하여 구성 요소를 사용자 정의합니다.](/help/developing/customizing.md)
-* [템플릿 추가](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [현지화 구조 조정](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
+* [템플릿 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [현지화 구조 조정](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
 * [프론트엔드 빌드 모듈에 대해 알아보기](uifrontend.md)

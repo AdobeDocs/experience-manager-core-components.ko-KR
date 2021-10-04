@@ -1,13 +1,13 @@
 ---
 title: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용
-feature: 핵심 구성 요소, Adobe 클라이언트 데이터 레이어
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 99%
 
 ---
 
@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 튜토리얼
 
-데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을 살펴보십시오.
+데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을 살펴보십시오.
 
 >[!TIP]
 >
