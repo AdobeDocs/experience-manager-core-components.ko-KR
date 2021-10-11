@@ -1,12 +1,12 @@
 ---
 title: Adobe 클라이언트 데이터 레이어 확장
 description: 몇 가지 기본 패턴에 따라 Adobe 클라이언트 데이터 레이어를 확장할 수 있습니다.
-feature: 핵심 구성 요소, Adobe 클라이언트 데이터 레이어
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '282'
+source-wordcount: '276'
 ht-degree: 100%
 
 ---
