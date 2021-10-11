@@ -1,12 +1,12 @@
 ---
 title: Angular SPA의 프론트엔드 빌드
 description: Angular 기반 SPA 프로젝트의 프론트엔드 빌드 프로세스에 대한 설명
-feature: 핵심 구성 요소, AEM Project Archetype
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '409'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
