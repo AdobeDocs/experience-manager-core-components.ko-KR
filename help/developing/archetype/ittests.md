@@ -1,12 +1,12 @@
 ---
 title: AEM Project Archetype의 it.tests 모듈
 description: AEM Project Archetype 통합 테스트 사용법
-feature: 핵심 구성 요소, AEM Project Archetype
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
