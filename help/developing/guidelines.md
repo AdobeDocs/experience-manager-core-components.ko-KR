@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 기초 구성 요소와 전혀 다른 최�
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ### 문제 분리 {#separation-of-concerns}
 
-일반적으로 마크업 템플릿(뷰)과 구성 요소의 논리(또는 모델)를 분리하는 것이 좋습니다. 이를 수행하기 위한 몇 가지 방법이 있지만, 핵심 구성 요소와 마찬가지로 논리에는 [슬링 모드](https://sling.apache.org/documentation/bundles/models.html)를, 마크업에는 [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko-KR)를 사용하는 것이 좋습니다.
+일반적으로 마크업 템플릿(뷰)과 구성 요소의 논리(또는 모델)를 분리하는 것이 좋습니다. 이를 수행하기 위한 몇 가지 방법이 있지만, 핵심 구성 요소와 마찬가지로 논리에는 [슬링 모드](https://sling.apache.org/documentation/bundles/models.html)를, 마크업에는 [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)를 사용하는 것이 좋습니다.
 
 Java 주석 세트인 슬링 모드를 통해 POJO에서 필요한 변형에 쉽게 액세스할 수 있으므로 간단하고, 강력하고 효율적으로 구성 요소에 대해 Java 논리를 구현할 수 있습니다.
 
