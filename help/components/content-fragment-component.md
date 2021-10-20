@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
