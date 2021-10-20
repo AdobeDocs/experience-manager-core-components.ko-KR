@@ -4,9 +4,9 @@ description: “나만의 프로젝트에서 핵심 구성 요소를 시작하�
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
