@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 소셜 구성 요소는 Facebook 및 Pinter
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
