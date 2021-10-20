@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ko-KR)가 필요합니다.
+>SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)가 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
