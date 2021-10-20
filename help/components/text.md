@@ -4,9 +4,9 @@ description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 �
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2205'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
