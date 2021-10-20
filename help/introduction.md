@@ -4,9 +4,9 @@ description: '핵심 구성 요소는 최신 기술과 모범 사례를 기반�
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
 | 추적 가능 | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md) 통합 기능을 통해 모든 측면의 방문자 경험을 추적할 수 있습니다. |
-| 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고, ARIA 레이블을 제공하고, 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고 ARIA 레이블을 제공하며 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO 친화도 | HTML 출력은 의미가 있으며 [schema.org](https://schema.org) 마이크로 데이터 주석을 제공합니다. |
 | WebApp 기반 | [간소화된 JSON 출력](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)을 통해 클라이언트측을 렌더링하고 [상황에 맞게 편집](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)할 수 있습니다. |
 | AMP 지원 | 구성 요소는 [AMP 표준에 대한 내장된 지원](/help/developing/amp.md)을 제공하고 모바일 경험을 가속화합니다. |
