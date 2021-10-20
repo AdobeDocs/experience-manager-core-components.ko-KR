@@ -4,9 +4,9 @@ description: 콘텐츠 작성자는 회전하는 슬라이드 구성 요소를 �
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
