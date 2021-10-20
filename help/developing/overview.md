@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 강력하고 확장 가능한 기본 구성
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](htt
 | **기능** | **핵심 구성 요소** | **기초 구성 요소** |
 |-----|---|---|
 | 논리 구현 | [슬링 모드](https://sling.apache.org/documentation/bundles/models.html) 주석이 포함된 Java POJO | JSP 코드 |
-| 마크업 정의 | [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko-KR)(HTL) 구문 | JSP 코드 |
+| 마크업 정의 | [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)(HTL) 구문 | JSP 코드 |
 | XSS 정리 | HTL로 자동화 | 대부분의 경우 수동 |
 | CSS 클래스 명명 | [블록 요소 수정자](https://getbem.com/)(BEM) 표기법에 따라 표준화된 명명 규칙(릴리스 2.9.0부터) | 맞춤형 스키마 |
 | 대화 상자 정의 | [코랄 3](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | 코랄 2 + 클래식 UI |
