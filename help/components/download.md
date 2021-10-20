@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 다운로드 구성 요소를 사용하여 
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
