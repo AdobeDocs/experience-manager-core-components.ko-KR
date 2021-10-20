@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -33,7 +33,7 @@ AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사�
 * **모범 관행:** Adobe 권장 최신 모범 사례를 사용하여 Bootstrap으로 사이트를 제작합니다.
 * **로우 코드:** 템플릿을 편집하고, 콘텐츠를 제작하고 CSS를 배포하면 사이트 실행이 준비됩니다.
 * **클라우드 기반:** 필요한 경우 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)를 사용하여 며칠 내에 사이트를 실행하고 간단히 확장 및 관리할 수 있습니다.
-* **발송자:** 속도와 보안을 보장하는 [발송자 구성](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ko-KR)만으로 프로젝트를 완료합니다.
+* **발송자:** 속도와 보안을 보장하는 [발송자 구성](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)만으로 프로젝트를 완료합니다.
 * **다중 사이트:** 필요한 경우 Archetype은 [다국어 및 다중 지역 설정](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html)용 콘텐츠 구조를 생성합니다.
 * **핵심 구성 요소:** 작성자는 다목적 [세트의 표준화된 구성 요소](/help/introduction.md)를 사용하여 거의 모든 레이아웃을 제작할 수 있습니다.
 * **편집 가능한 템플릿:** 코드 없이 거의 모든 [템플릿을 조합하고](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 작성자가 편집할 내용을 정의합니다.
@@ -94,7 +94,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대한 [AMP](/help/developing/amp.md) 지원을 활성화합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
 | `enableSSR` | `n` | 프론트엔드 프로젝트용 SSR을 활성화하는 옵션 |
-| `precompiledScripts` | `n` | [서버측 스크립트를 `ui.apps`에서 미리 컴파일하고 `ui.apps` 프로젝트에서 두 번째 번들 아티팩트로 빌드에 첨부하는 옵션입니다. ](/help/developing/archetype/precompiled-bundled-scripts.md) `aemVersion` 를 로 설정해야  `cloud`합니다. |
+| `precompiledScripts` | `n` | `ui.apps`의 서버측 스크립트를 [미리 컴파일](/help/developing/archetype/precompiled-bundled-scripts.md)하고 `ui.apps` 프로젝트에서 빌드에 보조 번들 아티팩트로 스크립트를 첨부하는 옵션. `aemVersion`을 `cloud`로 설정해야 합니다. |
 
 ## 시스템 요구 사항 {#requirements}
 
