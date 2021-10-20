@@ -4,9 +4,9 @@ description: 탭 구성 요소를 사용하여 페이지에서 콘텐츠를 정�
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
