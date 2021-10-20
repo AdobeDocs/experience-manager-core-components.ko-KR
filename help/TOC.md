@@ -5,9 +5,9 @@ breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
 source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 95%
       + [Archetype 사용](developing/archetype/using.md)
       + [핵심 모듈](developing/archetype/core.md)
       + [ui.apps 모듈](developing/archetype/uiapps.md)
-      + [사전 컴파일된 번들 스크립트](developing/archetype/precompiled-bundled-scripts.md)
+      + [미리 컴파일된 번들형 스크립트](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content 모듈](developing/archetype/uicontent.md)
       + [ui.frontend.general 모듈](developing/archetype/uifrontend.md)
       + [ui.frontend.react 모듈](developing/archetype/uifrontend-react.md)
