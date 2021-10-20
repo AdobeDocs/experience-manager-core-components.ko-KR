@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대한 [AMP](/help/developing/amp.md) 지원을 활성화합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
 | `enableSSR` | `n` | 프론트엔드 프로젝트용 SSR을 활성화하는 옵션 |
-| `precompiledScripts` | `n` | [서버측 스크립트를 `ui.apps`에서 미리 컴파일하고 `ui.apps` 프로젝트에서 두 번째 번들 아티팩트로 빌드에 첨부하는 옵션입니다. ](/help/developing/archetype/precompiled-bundled-scripts.md) `aemVersion` 를 로 설정해야  `cloud`합니다. |
+| `precompiledScripts` | `n` | `ui.apps`의 서버측 스크립트를 [미리 컴파일](/help/developing/archetype/precompiled-bundled-scripts.md)하고 `ui.apps` 프로젝트에서 빌드에 보조 번들 아티팩트로 스크립트를 첨부하는 옵션. `aemVersion`을 `cloud`로 설정해야 합니다. |
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 | `autoInstallSinglePackage` | content-package-maven-plugin이 포함된 `all` 콘텐츠 패키지를 패키지 매니저에 설치하여 localhost, port 4502에 작성자 인스턴스를 기본 설정합니다. `aem.host` 및 `aem.port` 사용자 정의 속성으로 된 호스트 이름과 포트를 변경할 수 있습니다. |
 | `autoInstallSinglePackagePublish` | content-package-maven-plugin이 포함된 `all` 콘텐츠 패키지를 패키지 매니저에 설치하여 localhost, port 4503에 게시 인스턴스를 기본 설정합니다. `aem.host` 및 `aem.port` 사용자 정의 속성으로 된 호스트 이름과 포트를 변경할 수 있습니다. |
 | `integrationTests` | AEM 인스턴스에 제공된 통합 테스트를 실행합니다(`verify` 단계만 해당). |
-| `precompiledScripts` | `precompiledScripts` 속성이 `y`로 설정된 상태에서 프로젝트가 생성될 때 자동으로 정의됩니다. 이 프로필은 기본적으로 활성화되어 있으며 `ui.apps` 내에 OSGi 번들을 생성하며 이 번들은 사전 컴파일된 스크립트가 `all` 컨텐츠 패키지에 포함됩니다. 이 프로필은 `-DskipScriptPrecompilation=true`으로 비활성화할 수 있습니다. |
+| `precompiledScripts` | `precompiledScripts` 속성이 `y`로 설정된 상태에서 프로젝트가 생성되면 자동으로 정의됩니다. 프로필은 기본적으로 활성화되고, `all` 콘텐츠 패키지에 포함된 미리 컴파일된 스크립트를 사용하여 `ui.apps`내에서 OSGi 번들을 생성합니다. 프로필은 `-DskipScriptPrecompilation=true`을 통해 비활성화될 수 있습니다. |
 
 ### 빌드 및 설치 {#building-and-installing}
 
