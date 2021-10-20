@@ -4,9 +4,9 @@ description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,16 +88,16 @@ ht-degree: 94%
 >[!NOTE]
 >그림자 사이트 구조를 렌더링하는 경우 그림자 페이지만 탐색 논리에 의해 반복적으로 사용됩니다. 논리는 리디렉션 대상의 구조를 반복적으로 사용하지 않습니다.
 
-## 탐색의 리디렉션 {#redirects}
+## 탐색에서 리디렉션 {#redirects}
 
-페이지에 리디렉션 대상이 있는 경우(외부 URL을 가리키는지 아니면 다른 AEM 페이지를 가리키는지 여부에 관계없이), 해당 링크에 대한 링크가 포함된 탐색 구성 요소는 리디렉션 대상의 URL을 직접 가리킵니다.
+페이지에 리디렉션 대상이 있으면(외부 URL 또는 다른 AEM 페이지 지정 여부에 관계없이) 탐색 구성 요소에는 리디렉션 대상의 URL을 직접 지정하는 링크가 포함됩니다.
 
 ### 예 {#redirect-example}
 
-* 페이지 B로 리디렉션되는 페이지 A를 만듭니다.
-* `https://aemcomponents.dev`으로 리디렉션되는 페이지 C를 만듭니다.
-* 페이지 D에서 페이지 A와 C가 포함된 또는 탐색 구성 요소를 삽입합니다
-* 생성된 각 링크는 페이지 B와 `https://aemcomponents.dev`을 직접 가리킵니다
+* 페이지 B로 리디렉션하는 페이지 A를 만듭니다.
+* `https://aemcomponents.dev`로 리디렉션하는 페이지 C를 만듭니다.
+* 페이지 D에서 페이지 A 및 C가 포함된 탐색 구성 요소를 삽입합니다.
+* 그때 생성된 해당 링크는 페이지 B 및 `https://aemcomponents.dev`를 직접 지정합니다.
 
 
 ## 버전 및 호환성 {#version-and-compatibility}
