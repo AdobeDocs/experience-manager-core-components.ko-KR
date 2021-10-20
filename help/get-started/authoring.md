@@ -4,9 +4,9 @@ description: AEM에서 구성 요소는 작성 중인 페이지의 콘텐츠를 
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 * 간편한 사용 및 [페이지 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)와 효율적인 통합
 
-* [WKND 참조 사이트](https://wknd.site)와 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library) 설명과 같이 여러 사용 사례에 맞게 구성된 다양한 기능
+* [WKND 참조 사이트](https://wknd.site)와 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_kr) 설명과 같이 여러 사용 사례에 맞게 구성된 다양한 기능
 
 * 페이지 작성자가 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 사용할 수 있는 기능을 정의하는 [사전에 구성 가능한 옵션](#pre-configuring-core-components)
 
