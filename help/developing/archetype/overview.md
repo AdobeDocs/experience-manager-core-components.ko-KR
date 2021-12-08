@@ -4,14 +4,14 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: acff746b66c69dd3a0f4beb7c0c4e9eb0e3e116c
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 96%
 
 ---
 
-# AEM Project Archetype {#aem-project-archetype}
+# AEM 프로젝트 원형 {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -95,12 +95,14 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
 | `enableSSR` | `n` | 프론트엔드 프로젝트용 SSR을 활성화하는 옵션 |
 | `precompiledScripts` | `n` | `ui.apps`의 서버측 스크립트를 [미리 컴파일](/help/developing/archetype/precompiled-bundled-scripts.md)하고 `ui.apps` 프로젝트에서 빌드에 보조 번들 아티팩트로 스크립트를 첨부하는 옵션. `aemVersion`을 `cloud`로 설정해야 합니다. |
+| `includeFormscommunications` | `n` | 포함 [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마 및 Forms Communications 프로그램에 해당하는 아티팩트를 생성합니다. |
+| `includeFormsenrollment` | `n` | 포함 [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마 및 Forms 등록 프로그램에 해당하는 아티팩트를 생성합니다. |
 
 ## 시스템 요구 사항 {#requirements}
 
 | Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 [기존 버전의 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)용 로컬 개발 환경을 설정합니다.
 
