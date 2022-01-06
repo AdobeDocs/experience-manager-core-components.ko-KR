@@ -4,14 +4,14 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: acff746b66c69dd3a0f4beb7c0c4e9eb0e3e116c
-workflow-type: ht
+source-git-commit: 9ae35572f7ef60ea5140a7b48be087f34e39ce3a
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
 ---
 
-# AEM Project Archetype {#aem-project-archetype}
+# AEM 프로젝트 원형 {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -24,7 +24,7 @@ AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사�
 * **Archetype 설명서(본 문서):** Archetype 아키텍처와 서로 다른 모듈을 대해 살펴봅니다.
    * **[Archetype 사용:](using.md)** Archetype 및 모듈 사용에 대해 자세히 알아보기
    * **[ui.frontend:](uifrontend.md)** 프론트엔드 빌드 모듈을 사용하는 방법
-* 다음 튜토리얼은 이 Archetype에 따라 작성됩니다.
+* **다음 튜토리얼은 이 Archetype에 따라 작성됩니다.**
    * **[WKND Site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 완전히 새로운 웹 사이트를 시작하는 방법에 대해 알아봅니다.
    * **[WKND Single Page App:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** AEM에서 전체 작성할 수 있는 대화형 또는 방사형 WebApp을 빌드하는 방법에 알아봅니다.
 
@@ -102,7 +102,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 
 | Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [34](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-34) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 [기존 버전의 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)용 로컬 개발 환경을 설정합니다.
 
