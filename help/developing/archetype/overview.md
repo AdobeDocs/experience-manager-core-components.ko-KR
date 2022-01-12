@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 9ae35572f7ef60ea5140a7b48be087f34e39ce3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
 ---
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
