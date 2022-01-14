@@ -4,14 +4,14 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 9ae35572f7ef60ea5140a7b48be087f34e39ce3a
-workflow-type: ht
+source-git-commit: 1a27f8c48e29199df94b1dbdccd5bf7fa160e479
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
 ---
 
-# AEM Project Archetype {#aem-project-archetype}
+# AEM 프로젝트 원형 {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -102,7 +102,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 
 | Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [34](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-34) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [35](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-35) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 또는 [기존 버전의 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)용 로컬 개발 환경을 설정합니다.
 
