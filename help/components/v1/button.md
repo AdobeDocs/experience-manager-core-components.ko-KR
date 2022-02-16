@@ -1,16 +1,16 @@
 ---
-title: 버튼 구성 요소
+title: 버튼 구성 요소 (v1)
 description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
-exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 79%
+source-wordcount: '412'
+ht-degree: 89%
 
 ---
 
-# 버튼 구성 요소{#button-component}
+
+# 버튼 구성 요소 (v1) {#button-component}
 
 핵심 구성 요소의 버튼 구성 요소를 사용하여 페이지에서 버튼 항목을 구성하고 표시할 수 있습니다.
 
@@ -23,16 +23,13 @@ ht-degree: 79%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-단추 구성 요소의 현재 버전은 v2이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0에서 도입되었으며, 이 문서에 설명되어 있습니다.
+이 문서에서는 2019년 6월에 핵심 구성 요소 릴리스 2.5.0과 함께 소개된 단추 구성 요소의 v1에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 호환 가능 | 호환 가능 |
-| [v1](v1/button.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+>[!CAUTION]
+>
+>이 문서에서는 단추 구성 요소의 v1에 대해 설명합니다.
+>
+>단추 구성 요소의 현재 버전에 대한 자세한 내용은 [단추 구성 요소](/help/components/button.md) 문서.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -55,7 +52,6 @@ ht-degree: 79%
 * **텍스트** - 버튼에 표시할 텍스트
 * **링크** - AEM, 외부 소스 또는 앵커 내의 콘텐츠 페이지 링크
    * **선택 대화 상자**&#x200B;를 사용하여 AEM 내부 경로를 선택합니다.
-* **새 탭에서 링크 열기** - 이 확인란을 선택하면 새 브라우저 탭에서 링크가 열립니다.
 * **아이콘** - 버튼에 아이콘을 표시하는 아이콘 식별자
 * **ID** - 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
    * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
@@ -69,16 +65,6 @@ ht-degree: 79%
 **접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 라벨 값을 설정할 수 있습니다.
 
 * **라벨** - 구성 요소에 대한 ARIA 라벨 속성 값
-
-### 스타일 탭 {#styles-tab-edit}
-
-![단추 구성 요소의 편집 대화 상자에 있는 스타일 탭](/help/assets/button-edit-styles.png)
-
-단추 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
-
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
-
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
 
 ## 디자인 대화 상자 {#design-dialog}
 

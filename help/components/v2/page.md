@@ -1,16 +1,16 @@
 ---
-title: 페이지 구성 요소
+title: 페이지 구성 요소 (v2)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
-# 페이지 구성 요소{#page-component}
+
+# 페이지 구성 요소 (v2) {#page-component}
 
 페이지 구성 요소는 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 
@@ -22,17 +22,13 @@ ht-degree: 92%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-페이지 구성 요소의 현재 버전은 v3이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0과 함께 도입되었으며, 이 문서에 설명되어 있습니다.
+이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 페이지 구성 요소의 v2에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | 호환 가능 | 호환 가능 |
-| [v2](v2/page.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | - |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+>[!CAUTION]
+>
+>이 문서에서는 페이지 구성 요소 v2에 대해 설명합니다.
+>
+>현재 버전의 페이지 구성 요소에 대한 자세한 내용은 [페이지 구성 요소](/help/components/page.md) 문서를 참조하십시오.
 
 ## 점진적 웹 앱 지원 {#pwa-support}
 
@@ -70,8 +66,6 @@ ht-degree: 92%
 * **웹 리소스 클라이언트 라이브러리** - favicons와 같은 웹 리소스를 제공하는 데 사용되는 클라이언트 라이브러리 범주
 
 * **메인 콘텐츠 요소 선택기로 건너뛰기** - 페이지의 메인 콘텐츠로 바로 건너뛸 수 있는 접근성 기능으로 사용
-
-* **대체 언어 링크 렌더링** - 활성화된 경우 동일한 사이트에 있는 페이지의 대체 언어 버전에 대한 링크가 페이지 헤드에 추가됩니다.
 
 ![페이지 구성 요소의 디자인 대화 상자](/help/assets/page-design.png)
 

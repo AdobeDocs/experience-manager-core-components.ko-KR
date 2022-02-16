@@ -3,10 +3,10 @@ title: 아코디언 구성 요소
 description: 핵심 구성 요소의 아코디언 구성 요소를 통해 페이지에서 아코디언으로 배열되는 패널 컬렉션을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 100%
 * 구성 대화 상자와 [패널 선택 팝오버](#select-panel-popover)에서 아코디언의 패널 순서를 정의할 수 있습니다.
 * 구성 요소를 페이지에 추가하는 경우 [디자인 대화 상자](#design-dialog)에서 아코디언 구성 요소의 기본값을 정의할 수 있습니다.
 
+## 버전 및 호환성 {#version-and-compatibility}
+
+현재 버전의 아코디언 구성 요소는 2019년 6월 핵심 구성 요소 릴리스 2.5.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
+
+다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | 호환 가능 with<br>[릴리스 2.17.4](/help/versions.md) 이전 | 호환 가능 | 호환 가능 |
+
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+
+## 샘플 구성 요소 출력 {#sample-component-output}
+
+아코디언 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_accordion_kr)를 참조하십시오.
+
+## 기술 세부 사항 {#technical-details}
+
+아코디언 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_accordion_v1_kr).
+
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
+
 ## 패널로 딥 링크하기 {#deep-linking}
 
 아코디언 및 [탭 구성 요소](tabs.md)는 구성 요소에서 패널로 직접 링크하기를 지원합니다.
@@ -35,28 +57,6 @@ ht-degree: 100%
    * 예 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 패널 ID를 앵커로 사용하여 URL로 이동하면 브라우저는 특정 구성 요소로 바로 스크롤하고 지정 패널을 표시합니다. 패널 확장이 기본 구성되어 있지 않으면 패널은 자동으로 확장됩니다.
-
-## 버전 및 호환성 {#version-and-compatibility}
-
-현재 버전의 아코디언 구성 요소는 2019년 6월 핵심 구성 요소 릴리스 2.5.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
-
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-아코디언 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_accordion_kr)를 참조하십시오.
-
-## 기술 세부 사항 {#technical-details}
-
-아코디언 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_accordion_v1_kr).
-
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 

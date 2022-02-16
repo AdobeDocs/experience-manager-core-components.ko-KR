@@ -1,16 +1,16 @@
 ---
-title: 임베디드 구성 요소
+title: 포함 구성 요소(v1)
 description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠 임베드를 활성화합니다.
 role: Architect, Developer, Admin, User
-exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 92%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
-# 임베디드 구성 요소 {#embed-component}
+
+# 임베디드 구성 요소 (v1) {#embed-component}
 
 핵심 구성 요소의 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠를 임베드할 수 있습니다.
 
@@ -23,16 +23,13 @@ ht-degree: 92%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-포함 구성 요소의 현재 버전은 v2이며, 2022년 2월에 핵심 구성 요소의 릴리스 2.18.0에서 도입되었으며 이 문서에 설명되어 있습니다.
+이 문서에서는 2019년 9월에 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 포함 구성 요소의 v1에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 호환 가능 | 호환 가능 |
-| [v1](v1/embed.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+>[!CAUTION]
+>
+>이 문서에서는 포함 구성 요소의 v1에 대해 설명합니다.
+>
+>포함 구성 요소의 현재 버전에 대한 자세한 내용은 [포함 구성 요소](/help/components/embed.md) 문서.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -46,23 +43,19 @@ ht-degree: 92%
 
 ## 구성 대화 상자 {#configure-dialog}
 
-콘텐츠 작성자는 구성 대화 상자를 통해 페이지에 임베드할 외부 리소스를 정의할 수 있습니다.
-
-### 속성 탭 {#properties-tab}
-
-우선 임베드해야 할 리소스 유형을 선택합니다.
+콘텐츠 작성자는 구성 대화 상자를 통해 페이지에 임베드할 외부 리소스를 정의할 수 있습니다. 우선 임베드해야 할 리소스 유형을 선택합니다.
 
 * [URL](#url)
 * [임베드 가능](#embeddable)
 * [HTML](#html)
 
-포함 가능한 각 유형에 대해 **ID**. 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+임베드가 가능한 유형의 경우 광고 **ID**&#x200B;를 정의할 수 있습니다. 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
 * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
 * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
 * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-#### URL {#url}
+### URL {#url}
 
 가장 단순한 임베드는 URL입니다. 간단히 **URL** 필드에서 임베드하려는 리소스의 URL을 붙여넣습니다. 구성 요소가 리소스 액세스를 시도하고, 프로세서 중 하나에서 구성 요소를 렌더링하는 경우 아래 **URL** 필드에 확인 메시지가 표시됩니다. 그렇지 않으면 필드에 오류가 표시됩니다.
 
@@ -75,7 +68,7 @@ ht-degree: 92%
 
 ![URL용 임베디드 구성 요소의 편집 대화 상자](/help/assets/embed-url.png)
 
-#### 임베드 가능 {#embeddable}
+### 임베드 가능 {#embeddable}
 
 임베디드 기능을 사용하여 임베디드 리소스를 추가로 사용자 정의할 수 있습니다. 해당 리소스는 매개 변수화되고 리소스에 추가 정보가 포함될 수 있습니다. 작성자는 사전 구성된 임베디드 기능 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베디드 기능이 포함됩니다.
 
@@ -90,15 +83,16 @@ ht-degree: 92%
 * **인라인 재생(iOS) 활성화** - 이 매개 변수는 iOS의 HTML5 플레이어에서 비디오가 인라인(켜짐) 또는 전체 화면(꺼짐)으로 재생될지를 제어합니다.
 * **무제한 관련 비디오** - 이 옵션이 비활성화되면 비디오가 바로 재생되기 때문에 관련 비디오는 동일한 채널에서 가져옵니다. 그렇지 않으면 모든 채널에서 가져옵니다.
 
+[디자인 대화 상자](#design-dialog)를 통해 “활성화” 옵션이 활성화되고 기본값으로 설정될 수 있습니다.
+
 다른 임베디드 기능은 유사 필드를 제공하고 [임베디드 구성 요소 개발자 설명서에 따라](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) 개발자에 의해 정의될 수 있습니다.
 
 ![임베디드 기능을 위한 임베디드 구성 요소의 편집 대화 상자](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->
 >페이지 작성자가 사용할 수 있는 [디자인 대화 상자](#design-dialog)를 통해 템플릿 수준에서 임베디드 기능을 활성화해야 합니다.
 
-#### HTML {#html}
+### HTML {#html}
 
 임베디드 구성 요소를 사용하여 자유 형식의 HTML을 페이지에 추가할 수 있습니다.
 
@@ -107,29 +101,18 @@ ht-degree: 92%
 >[!NOTE]
 >스크립트와 같은 불안전한 태그는 입력한 HTML에서 필터링되고 결과 페이지에서는 렌더링되지 않습니다.
 
-##### 보안 {#security}
+#### 보안 {#security}
 
 (예로 작성자에게 관리 권한을 부여할 수 있는) 크로스 사이트 스크립팅 공격을 방지하려면 작성자가 보안용으로 입력할 수 있는 HTML 마크업을 필터링합니다.
 
-일반적으로 출력에서 모든 스크립트와 `style` 요소뿐 아니라 모든 `on*` 및 `style` 속성을 제거합니다.
+*일반적으로* 출력에서 모든 스크립트와 `style` 요소뿐 아니라 모든 `on*` 및 `style` 속성을 제거합니다.
 
 임베디드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
 
 추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)용)에서 확인할 수 있습니다.
 
 >[!NOTE]
->
 >`/libs/cq/xssprotection/config.xml` 오버레이를 통해 HTML AntiSamy 정리 프레임워크 규칙을 구성할 수 있지만 해당 변경 사항은 핵심 임베디드 구성 요소뿐 만 아니라 모든 HTL 및 JSP 비헤이비어에 영향을 줄 수 있습니다.
-
-### 스타일 탭 {#styles-tab-edit}
-
-![포함 구성 요소의 편집 대화 상자에 있는 스타일 탭](/help/assets/embed-styles.png)
-
-포함 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
-
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
-
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
 
 ## 디자인 대화 상자 {#design-dialog}
 

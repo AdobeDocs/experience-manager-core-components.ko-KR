@@ -1,16 +1,16 @@
 ---
-title: 다운로드 구성 요소
+title: 구성 요소 다운로드(v1)
 description: 핵심 구성 요소의 다운로드 구성 요소를 사용하여 페이지에서 다운로드 옵션을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 87%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
-# 다운로드 구성 요소{#download-component}
+
+# 다운로드 구성 요소 (v1) {#download-component}
 
 핵심 구성 요소의 다운로드 구성 요소를 사용하여 페이지에서 다운로드 옵션을 만들 수 있습니다.
 
@@ -23,16 +23,13 @@ ht-degree: 87%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-다운로드 구성 요소의 현재 버전은 v2이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0과 함께 도입되었으며, 이 문서에 설명되어 있습니다.
+이 문서에서는 2019년 6월에 핵심 구성 요소 릴리스 2.5.0과 함께 소개된 다운로드 구성 요소 v1에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 호환 가능 | 호환 가능 |
-| [v1](v1/download.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+>[!CAUTION]
+>
+>이 문서에서는 다운로드 구성 요소 v1에 대해 설명합니다.
+>
+>다운로드 구성 요소의 현재 버전에 대한 자세한 내용은 [구성 요소 다운로드](/help/components/download.md) 문서.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -52,7 +49,7 @@ ht-degree: 87%
 
 ### 에셋 탭 {#asset-tab}
 
-에셋 다운로드 선택은 [이미지 구성 요소](image.md) 기능과 매우 유사합니다. 이와 마찬가지로 AEM의 DAM을 활용합니다.
+에셋 다운로드 선택은 [이미지 구성 요소](image-v1.md) 기능과 매우 유사합니다. 이와 마찬가지로 AEM의 DAM을 활용합니다.
 
 * **에셋 다운로드**
    * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
@@ -74,16 +71,6 @@ ht-degree: 87%
    * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
-
-### 스타일 탭 {#styles-tab-edit}
-
-![구성 요소 다운로드 대화 상자의 스타일 탭](/help/assets/download-edit-styles.png)
-
-다운로드 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
-
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
-
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
 
 ## 디자인 대화 상자 {#design-dialog}
 

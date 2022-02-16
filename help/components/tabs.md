@@ -3,10 +3,10 @@ title: 탭 구성 요소
 description: 탭 구성 요소를 사용하여 페이지에서 콘텐츠를 정렬할 수 있는 여러 탭을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,28 @@ ht-degree: 100%
 >
 >[콘텐츠 트리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)를 통해 간단한(중첩되지 않은) 탭 구성 요소를 배치/선택할 수 있지만 중첩된 탭은 그럴 수 없습니다.
 
+## 버전 및 호환성 {#version-and-compatibility}
+
+현재 버전의 탭 구성 요소는 2019년 10월 핵심 구성 요소 릴리스 2.2.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
+
+다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | 호환 가능 with<br>[릴리스 2.17.4](/help/versions.md) 이전 | 호환 가능 | 호환 가능 |
+
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+
+## 샘플 구성 요소 출력 {#sample-component-output}
+
+탭 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_tabs_kr)를 참조하십시오.
+
+### 기술 세부 사항 {#technical-details}
+
+탭 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_tabs_v1_kr).
+
+핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
+
 ## 패널로 딥 링크하기 {#deep-linking}
 
 탭 및 [아코디언 구성 요소](accordion.md)는 구성 요소에서 패널로 직접 링크하기를 지원합니다.
@@ -39,28 +61,6 @@ ht-degree: 100%
    * 예 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 패널 ID를 앵커로 사용하여 URL로 이동하면 브라우저는 특정 구성 요소로 바로 스크롤하고 지정 패널을 표시합니다. 패널 확장이 기본 구성되어 있지 않으면 패널은 자동으로 확장됩니다.
-
-## 버전 및 호환성 {#version-and-compatibility}
-
-현재 버전의 탭 구성 요소는 2019년 10월 핵심 구성 요소 릴리스 2.2.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
-
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-탭 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_tabs_kr)를 참조하십시오.
-
-### 기술 세부 사항 {#technical-details}
-
-탭 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_tabs_v1_kr).
-
-핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 편집 대화 상자 {#edit-dialog}
 

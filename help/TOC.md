@@ -4,9 +4,9 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,17 @@ ht-degree: 100%
       + [양식 텍스트](components/forms/form-text.md)
    + v1 구성 요소 {#v1-components}
       + [이동 경로 (v1)](components/v1/breadcrumb-v1.md)
+      + [단추(v1)](components/v1/button.md)
+      + [콘텐츠 조각 목록(v1)](components/v1/content-fragment-list.md)
+      + [다운로드(v1)](components/v1/download.md)
+      + [포함(v1)](components/v1/embed.md)
+      + [경험 조각(v1)](components/v1/experience-fragment.md)
       + [이미지 (v1)](components/v1/image-v1.md)
+      + [언어 탐색(v1)](components/v1/language-navigation.md)
       + [목록 (v1)](components/v1/list-v1.md)
+      + [탐색(v1)](components/v1/navigation.md)
       + [페이지 (v1)](components/v1/page-v1.md)
+      + [티저(v1)](components/v1/teaser.md)
       + [텍스트 (v1)](components/v1/text-v1.md)
       + [제목 (v1)](components/v1/title-v1.md)
       + v1 양식 구성 요소 {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 100%
          + [양식 숨김 (v1)](components/v1/form-hidden-v1.md)
          + [양식 옵션 (v1)](components/v1/form-options-v1.md)
          + [양식 텍스트 (v1)](components/v1/form-text-v1.md)
+   + v2 구성 요소 {#v2-components}
+      + [이동 경로 (v2)](components/v2/breadcrumb.md)
+      + [이미지 (v2)](components/v2/image.md)
+      + [목록 (v2)](components/v2/list.md)
+      + [페이지 (v2)](components/v2/page.md)
+      + [제목 (v2)](components/v2/title.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing/overview.md)
    + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)

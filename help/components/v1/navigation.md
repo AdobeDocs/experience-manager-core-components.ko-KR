@@ -1,16 +1,16 @@
 ---
-title: 탐색 구성 요소
+title: 탐색 구성 요소 (v1)
 description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 93%
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
-# 탐색 구성 요소{#navigation-component}
+
+# 탐색 구성 요소 (v1) {#navigation-component}
 
 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
 
@@ -24,16 +24,13 @@ ht-degree: 93%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-탐색 구성 요소의 현재 버전은 v2이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0과 함께 도입되었으며, 이 문서에 설명되어 있습니다.
+이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 탐색 구성 요소 v1에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
-
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | 호환 가능 | 호환 가능 |
-| [v1](v1/navigation.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+>[!CAUTION]
+>
+>이 문서에서는 탐색 구성 요소의 v1에 대해 설명합니다.
+>
+>탐색 구성 요소의 현재 버전에 대한 자세한 내용은 [탐색 구성 요소](/help/components/navigation.md) 문서.
 
 ## 현지화된 사이트 구조 지원 {#localized-site-structure}
 
@@ -155,16 +152,6 @@ ht-degree: 93%
 **접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 라벨 값을 설정할 수 있습니다.
 
 * **라벨** - 구성 요소에 대한 ARIA 라벨 속성 값
-
-### 스타일 탭 {#styles-tab-edit}
-
-탐색 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
-
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
-
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
-
-![탐색 구성 요소의 편집 대화 상자에 있는 스타일 탭](/help/assets/navigation-edit-styles.png)
 
 ## 디자인 대화 상자 {#design-dialog}
 
