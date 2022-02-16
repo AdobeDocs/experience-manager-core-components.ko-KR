@@ -3,7 +3,7 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 92%
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 핵심 구성 요소의 이 주요 릴리스는 많은 액세스 가능성 개선 및 버그 수정 사항과 함께 여러 구성 요소의 새 버전에서 새 링크 핸들러가 도입되는 것을 봅니다. | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 2월 24일 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 핵심 구성 요소의 이 주요 릴리스는 많은 액세스 가능성 개선 및 버그 수정 사항과 함께 여러 구성 요소의 새 버전에서 새 링크 핸들러가 도입되는 것을 봅니다. | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 2월 16일 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 12월 13일 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 이전 릴리스에 도입된 회기를 수정하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8, 11 | 2021년 10월 1일 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 이전 릴리스에 도입된 회기를 수정하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 10월 1일 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 이 패치는 리디렉션 대상의 외부 URL이 표시되는 [목록](/help/components/list.md) 및 [탐색](/help/components/navigation.md) 구성 요소를 개선하고 [티저](/help/components/teaser.md) 구성 요소의 추후 v2용 페이지 이미지 상속을 활성화하고 패치에 추가 버그 수정이 포함됩니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 31일 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 이전에 도입된 이전 버전과 호환 불가능한 변경 사항을 해결하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 2일 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 이 패치 릴리스는 페이지 사이트 맵에 대한 지원을 추가하고 패치에 여러 접근성 개선 사항이 포함됩니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 7월 29일 |
@@ -36,7 +36,7 @@ ht-degree: 92%
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 이 릴리스에는 링크 핸들러를 지원하는 여러 구성 요소 버전 및 [페이지 구성 요소의 이미지 추천 기능에 대한 기술 미리보기가 포함됩니다.](/help/components/page.md) 몇 가지 버그 수정도 포함됩니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 6월 16일 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 새 링크 핸들러 문제를 해결할 수 있는 패치 릴리스입니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 5월 19일 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 이는 새 링크 핸들러 문제를 해결하는 패치 릴리스이자 [PWA](/help/components/page.md#pwa-support) 다중 페이지 애플리케이션 지원을 위해 추가된 개선 사항입니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 5월 15일 |
-| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 이 릴리스는 접근성 개선 사항과 새 링크 핸들러의 기존 구성 요소 도입에 중점을 둡니다. | 6.4.8.1+ * | 6.5.5.0+ * | Continual | 8,11 | 2021년 4월 22일 |
+| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 이 릴리스는 접근성 개선 사항과 새 링크 핸들러의 기존 구성 요소 도입에 중점을 둡니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 4월 22일 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 특정 상황에서 실패한 이전 [데이터 레이어](/help/developing/data-layer/overview.md) 호환성과 IT 테스트 문제를 해결하는 패치 릴리스입니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 3월 16일 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 이 릴리스는 [페이지 구성 요소의 점진적 웹 앱(PWA)](/help/components/page.md#pwa-support)과 [Adobe 데이터 레이어](/help/developing/data-layer/overview.md)의 버전 2.0.0을 지원합니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 2월 23일 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 이 릴리스에는 [임베디드 구성 요소](/help/components/embed.md)에 대한 새 옵션, [페이지](/help/components/page.md) 수준의 브랜드 슬러그와 문제 버그 수정이 포함됩니다. | 6.4.8.1+ * | 6.5.5.0+ * | 계속 | 8,11 | 2021년 2월 9일 |

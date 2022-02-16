@@ -4,9 +4,9 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [핵심 구성 요소 도입](introduction.md)
 + [성공으로 가는 경로](developing/success.md)
 + [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_kr)
-+ [핵심 구성 요소 버전](versions.md)
++ [버전](versions.md)
 + 시작하기 {#get-started}
    + [핵심 구성 요소로 작성](get-started/authoring.md)
    + [핵심 구성 요소 사용](get-started/using.md)
