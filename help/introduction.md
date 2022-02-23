@@ -4,9 +4,9 @@ description: '핵심 구성 요소는 최신 기술과 모범 사례를 기반�
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 01f57b2d547d2c1ab87b552522375a0a07496a23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 >[!NOTE]
 >
->작성자는 핵심 구성 요소를 즉시 사용할 수 없습니다. [개발 팀에서 먼저 핵심 구성 요소를 환경에 통합해야 합니다](get-started/using.md). 통합되면 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 사용 및 사전 구성할 수 있습니다.
+>작성자는 핵심 구성 요소를 즉시 사용할 수 없으며, [개발 팀에서 먼저 핵심 구성 요소를 환경에 통합](get-started/using.md)해야 합니다. 통합되면 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 사용 및 사전 구성할 수 있습니다.
 
 >[!NOTE]
 >
