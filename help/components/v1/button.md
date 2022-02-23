@@ -3,9 +3,9 @@ title: 버튼 구성 요소 (v1)
 description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 89%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2019년 6월에 핵심 구성 요소 릴리스 2.5.0과 함께 소개된 단추 구성 요소의 v1에 대해 설명합니다.
+버튼 구성 요소는 2019년 6월 핵심 구성 요소 릴리스 2.5.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 단추 구성 요소의 v1에 대해 설명합니다.
+>이 문서에서는 버튼 구성 요소 v1에 대해 설명합니다.
 >
->단추 구성 요소의 현재 버전에 대한 자세한 내용은 [단추 구성 요소](/help/components/button.md) 문서.
+>현재 버전의 버튼 구성 요소에 대한 자세한 내용은 [버튼 구성 요소](/help/components/button.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
