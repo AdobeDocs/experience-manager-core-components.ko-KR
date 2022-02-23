@@ -3,9 +3,9 @@ title: 목록 구성 요소 (v2)
 description: 핵심 구성 요소의 목록 구성 요소를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 목록 구성 요소의 v1에 대해 설명합니다.
+목록 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
