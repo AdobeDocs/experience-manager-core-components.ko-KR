@@ -1,11 +1,11 @@
 ---
-title: 포함 구성 요소(v1)
+title: 임베디드 구성 요소 (v1)
 description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠 임베드를 활성화합니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 96%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2019년 9월에 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 포함 구성 요소의 v1에 대해 설명합니다.
+임베디드 구성 요소는 2019년 9월 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 포함 구성 요소의 v1에 대해 설명합니다.
+>이 문서에서는 임베디드 구성 요소 v1에 대해 설명합니다.
 >
->포함 구성 요소의 현재 버전에 대한 자세한 내용은 [포함 구성 요소](/help/components/embed.md) 문서.
+>현재 버전의 임베디드 구성 요소에 대한 자세한 내용은 [임베디드 구성 요소](/help/components/embed.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
