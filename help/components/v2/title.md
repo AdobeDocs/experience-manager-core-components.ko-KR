@@ -3,9 +3,9 @@ title: 제목 구성 요소 (v2)
 description: 핵심 구성 요소의 제목 구성 요소는 바로 편집 기능이 있는 섹션 머리말 구성 요소입니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 94%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 제목 구성 요소의 v2에 대해 설명합니다.
+제목 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 제목 구성 요소의 v2에 대해 설명합니다.
+>이 문서에서는 제목 구성 요소 v2에 대해 설명합니다.
 >
 >현재 버전의 제목 구성 요소에 대한 자세한 내용은 [제목 구성 요소](/help/components/title.md) 문서를 참조하십시오.
 
