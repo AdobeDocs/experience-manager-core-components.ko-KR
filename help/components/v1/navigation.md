@@ -3,9 +3,9 @@ title: 탐색 구성 요소 (v1)
 description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 97%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 탐색 구성 요소 v1에 대해 설명합니다.
+탐색 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 탐색 구성 요소의 v1에 대해 설명합니다.
+>이 문서에서는 탐색 구성 요소 v1에 대해 설명합니다.
 >
->탐색 구성 요소의 현재 버전에 대한 자세한 내용은 [탐색 구성 요소](/help/components/navigation.md) 문서.
+>현재 버전의 탐색 구성 요소에 대한 자세한 내용은 [탐색 구성 요소](/help/components/navigation.md) 문서를 참조하십시오.
 
 ## 현지화된 사이트 구조 지원 {#localized-site-structure}
 
