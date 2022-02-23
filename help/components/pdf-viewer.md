@@ -4,9 +4,9 @@ description: PDF 뷰어 구성 요소를 사용하여 PDF 문서를 표시할 �
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | 호환 가능 with<br>[릴리스 2.17.4](/help/versions.md) 이전 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
