@@ -4,9 +4,9 @@ description: 방문자가 서로 다른 로케일에서 동일한 페이지로 �
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-언어 탐색 구성 요소의 현재 버전은 v2이며, 2022년 2월 핵심 구성 요소 릴리스 2.18.0에서 도입되었으며, 이 문서에 설명되어 있습니다.
+현재 버전의 언어 탐색 구성 요소는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
@@ -48,7 +48,7 @@ ht-degree: 84%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자에서는 전역 사이트 탐색 루트와 탐색 루트의 깊이를 정의할 수 있습니다.
+디자인 대화 상자를 통해 전역 사이트 루트와 탐색이 적용될 구조의 깊이를 정의할 수 있습니다.
 
 일반적으로 이러한 구성은 페이지 템플릿 수준에서만 수행되어야 합니다. 하지만 페이지 수준에서 [편집 대화 상자](#edit-dialog)를 통해 변경할 수 있습니다.
 
@@ -98,7 +98,7 @@ ht-degree: 84%
 
 ### 속성 탭 {#properties-tab-edit}
 
-일반적으로 사이트의 페이지 템플릿에서만 언어 탐색 구성 요소를 추가하고 구성할 수 있습니다. 하지만, 언어 탐색 구성 요소를 개별 페이지에 추가해야 할 경우 콘텐츠 작성자는 [디자인 편집 상자](#design-dialog) 설명에 따라 편집 대화 상자를 통해 동일한 값을 구성할 수 있습니다
+일반적으로 사이트의 페이지 템플릿에서만 언어 탐색 구성 요소를 추가하고 구성할 수 있습니다. 하지만, 언어 탐색 구성 요소를 개별 페이지에 추가해야 할 경우 콘텐츠 작성자는 [디자인 편집 상자](#design-dialog) 설명에 따라 편집 대화 상자를 통해 동일한 값을 구성할 수 있습니다.
 
 또한 **ID**&#x200B;를 설정할 수 있습니다. 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
@@ -110,19 +110,19 @@ ht-degree: 84%
 
 ### 접근성 탭 {#accessibility-tab}
 
-* **레이블** - 구성 요소의 aria 레이블 속성을 설정할 페이지에 둘 이상의 언어 탐색이 있는 경우 이 옵션을 정의해야 합니다.
+* **라벨** - 구성 요소의 ARIA 라벨 속성을 설정하기 위해 페이지에 두 가지 이상의 언어 탐색이 있는 경우 이 옵션을 정의해야 합니다.
 
-![언어 탐색 액세스 가능성 탭](/help/assets/language-navigation-edit-accessibility.png)
+![언어 탐색 접근성 탭](/help/assets/language-navigation-edit-accessibility.png)
 
 ### 스타일 탭 {#styles-tab-edit}
 
-언어 탐색 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
+언어 탐색 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
+드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 툴바에서 선택한 항목과 동일한 효과를 가집니다.
 
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
+드롭다운 메뉴를 사용하려면 [디자인 대화 상자](#design-dialog)에서 이 구성 요소에 대한 스타일을 구성해야 합니다.
 
-![언어 탐색 구성 요소의 편집 대화 상자에 있는 스타일 탭](/help/assets/language-navigation-edit-styles.png)
+![ 언어탐색 구성 요소의 디자인 대화 상자 스타일 탭](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
