@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-단추 구성 요소의 현재 버전은 v2이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0에서 도입되었으며, 이 문서에 설명되어 있습니다.
+현재 버전의 버튼 구성 요소는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
@@ -55,7 +55,7 @@ ht-degree: 79%
 * **텍스트** - 버튼에 표시할 텍스트
 * **링크** - AEM, 외부 소스 또는 앵커 내의 콘텐츠 페이지 링크
    * **선택 대화 상자**&#x200B;를 사용하여 AEM 내부 경로를 선택합니다.
-* **새 탭에서 링크 열기** - 이 확인란을 선택하면 새 브라우저 탭에서 링크가 열립니다.
+* **새 탭에서 링크 열기** - 확인 표시가 되어 있는 경우 링크가 새 브라우저 탭에서 열립니다.
 * **아이콘** - 버튼에 아이콘을 표시하는 아이콘 식별자
 * **ID** - 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
    * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
@@ -72,13 +72,13 @@ ht-degree: 79%
 
 ### 스타일 탭 {#styles-tab-edit}
 
-![단추 구성 요소의 편집 대화 상자에 있는 스타일 탭](/help/assets/button-edit-styles.png)
+![버튼 구성 요소의 디자인 대화 상자 스타일 탭](/help/assets/button-edit-styles.png)
 
-단추 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
+버튼 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
+드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 툴바에서 선택한 항목과 동일한 효과를 가집니다.
 
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
+드롭다운 메뉴를 사용하려면 [디자인 대화 상자](#design-dialog)에서 이 구성 요소에 대한 스타일을 구성해야 합니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
