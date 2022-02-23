@@ -4,9 +4,9 @@ description: 콘텐츠 작성자는 경험 조각 구성 요소를 통해 경험
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-경험 조각 구성 요소의 현재 버전은 v2이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0과 함께 도입되었으며, 이 문서에 설명되어 있습니다.
+현재 버전의 경험 조각 구성 요소는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
@@ -131,13 +131,13 @@ ht-degree: 88%
 
 ### 스타일 탭 {#styles-tab-edit}
 
-![경험 조각 구성 요소의 편집 대화 상자에 있는 스타일 탭](/help/assets/experience-fragment-edit-styles.png)
+![경험 조각 구성 요소의 편집 대화 상자 스타일 탭](/help/assets/experience-fragment-edit-styles.png)
 
-경험 조각 구성 요소는 AEM을 지원합니다 [스타일 시스템.](/help/get-started/authoring.md#component-styling).
+경험 조각 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 도구 모음에서 선택한 것과 동일한 효과를 갖습니다.
+드롭다운을 사용하여 구성 요소에 적용할 스타일을 선택합니다. 편집 대화 상자에서 선택한 항목은 구성 요소 툴바에서 선택한 항목과 동일한 효과를 가집니다.
 
-스타일을 [디자인 대화 상자](#design-dialog) 드롭다운 메뉴를 사용하려면 다음을 수행하십시오.
+드롭다운 메뉴를 사용하려면 [디자인 대화 상자](#design-dialog)에서 이 구성 요소에 대한 스타일을 구성해야 합니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
