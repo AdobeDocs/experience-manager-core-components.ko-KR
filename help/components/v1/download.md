@@ -1,11 +1,11 @@
 ---
-title: 구성 요소 다운로드(v1)
+title: 구성 요소 다운로드 (v1)
 description: 핵심 구성 요소의 다운로드 구성 요소를 사용하여 페이지에서 다운로드 옵션을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 93%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2019년 6월에 핵심 구성 요소 릴리스 2.5.0과 함께 소개된 다운로드 구성 요소 v1에 대해 설명합니다.
+다운로드 구성 요소는 2019년 6월 핵심 구성 요소 릴리스 2.5.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
 >이 문서에서는 다운로드 구성 요소 v1에 대해 설명합니다.
 >
->다운로드 구성 요소의 현재 버전에 대한 자세한 내용은 [구성 요소 다운로드](/help/components/download.md) 문서.
+>현재 버전의 다운로드 구성 요소에 대한 자세한 내용은 [다운로드 구성 요소](/help/components/download.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
