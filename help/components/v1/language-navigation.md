@@ -3,9 +3,9 @@ title: 언어 탐색 구성 요소 (v1)
 description: 방문자가 서로 다른 로케일에서 동일한 페이지로 이동할 수 있도록 언어 탐색 구성 요소는 사이트에 언어/국가/지역 탐색을 제공합니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 94%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 언어 탐색 구성 요소의 v1에 대해 설명합니다.
+언어 탐색 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 언어 탐색 구성 요소의 v1에 대해 설명합니다.
+>이 문서에서는 언어 탐색 구성 요소 v1에 대해 설명합니다.
 >
->언어 탐색 구성 요소의 현재 버전에 대한 자세한 내용은 [언어 탐색 구성 요소](/help/components/language-navigation.md) 문서.
+>현재 버전의 언어 탐색 구성 요소에 대한 자세한 내용은 [언어 탐색 구성 요소](/help/components/language-navigation.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
