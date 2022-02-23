@@ -4,9 +4,9 @@ description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-페이지 구성 요소의 현재 버전은 v3이며, 2022년 2월에 핵심 구성 요소 릴리스 2.18.0과 함께 도입되었으며, 이 문서에 설명되어 있습니다.
+현재 버전의 페이지 구성 요소는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v3입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
