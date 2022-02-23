@@ -3,9 +3,9 @@ title: 페이지 구성 요소 (v2)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2018년 1월에 핵심 구성 요소 릴리스 2.0.0과 함께 소개된 페이지 구성 요소의 v2에 대해 설명합니다.
+페이지 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
