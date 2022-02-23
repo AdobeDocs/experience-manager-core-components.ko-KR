@@ -3,9 +3,9 @@ title: 경험 조각 구성 요소 (v1)
 description: 콘텐츠 작성자는 경험 조각 구성 요소를 통해 경험 조각 변형을 페이지에 추가할 수 있습니다.
 role: Architect, Developer, Admin, User
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 94%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2019년 9월에 핵심 구성 요소 릴리스 2.6.0과 함께 소개된 경험 조각 구성 요소의 v1에 대해 설명합니다.
+경험 조각 구성 요소는 2019년 9월 핵심 구성 요소 릴리스 2.6.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 경험 조각 구성 요소의 v1에 대해 설명합니다.
+>이 문서에서는 경험 조각 구성 요소 v1에 대해 설명합니다.
 >
->경험 조각 구성 요소의 현재 버전에 대한 자세한 내용은 [경험 조각 구성 요소](/help/components/experience-fragment.md) 문서.
+>현재 버전의 경험 조각 구성 요소에 대한 자세한 내용은 [경험 조각 구성 요소](/help/components/experience-fragment.md) 문서를 참조하십시오.
 
 ## 현지화된 사이트 구조 지원 {#localized-site-structure}
 
