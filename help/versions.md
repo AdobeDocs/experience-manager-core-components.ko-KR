@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 핵심 구성 요소의 이 주요 릴리스는 많은 액세스 가능성 개선 및 버그 수정 사항과 함께 여러 구성 요소의 새 버전에서 새 링크 핸들러가 도입되는 것을 봅니다. | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 2월 16일 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 핵심 구성 요소의 주요 릴리스에서는 여러 구성 요소의 새로운 버전에 새 링크 핸들러가 도입되며 접근성 개선 및 버그 수정이 이루어집니다. | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 2월 16일 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 12월 13일 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 이전 릴리스에 도입된 회기를 수정하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 10월 1일 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 이전 릴리스와 함께 도입된 회귀 문제를 해결하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 10월 1일 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 이 패치는 리디렉션 대상의 외부 URL이 표시되는 [목록](/help/components/list.md) 및 [탐색](/help/components/navigation.md) 구성 요소를 개선하고 [티저](/help/components/teaser.md) 구성 요소의 추후 v2용 페이지 이미지 상속을 활성화하고 패치에 추가 버그 수정이 포함됩니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 31일 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 이전에 도입된 이전 버전과 호환 불가능한 변경 사항을 해결하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 2일 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 이 패치 릴리스는 페이지 사이트 맵에 대한 지원을 추가하고 패치에 여러 접근성 개선 사항이 포함됩니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 7월 29일 |
@@ -80,7 +80,7 @@ ht-degree: 92%
 
 다음 표에서 핵심 구성 요소 릴리스에 포함된 구성 요소에 대해 자세히 살펴볼 수 있습니다.
 
-|  | 릴리스 1.0.0 - 1.0.6 | 릴리스 1.1.0 | 릴리스 2.0.0 - 2.0.8 | 릴리스 2.1.0 | 릴리스 2.2.0 - 2.2.0 | 릴리스 2.3.0 - 2.3.2 | 릴리스 2.4.0 | 릴리스 2.5.0 | 릴리스 2.6.0 | 릴리스 2.7.0 - 2.8.0 | 릴리스 2.9.0-2.17.14 | 릴리스 2.18.0+ |
+|  | 릴리스 1.0.0 - 1.0.6 | 릴리스 1.1.0 | 릴리스 2.0.0 - 2.0.8 | 릴리스 2.1.0 | 릴리스 2.2.0 - 2.2.0 | 릴리스 2.3.0 - 2.3.2 | 릴리스 2.4.0 | 릴리스 2.5.0 | 릴리스 2.6.0 | 릴리스 2.7.0 - 2.8.0 | 릴리스 2.9.0 - 2.17.14 | 릴리스 2.18.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **[페이지](components/page.md)** | v1 | v1 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2, v3 |
 | **[제목](components/title.md)** | v1 | v1 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2 | v1 v2, v3 |
@@ -127,11 +127,11 @@ ht-degree: 92%
 
 ### 릴리스 {#releases}
 
-**릴리스**&#x200B;를 통해 핵심 구성 요소를 사용할 수 있고 [핵심 구성 요소는 GitHub에 제공되는 실제 게시된 아티팩트를 나타냅니다](https://github.com/adobe/aem-core-wcm-components/releases). 릴리스는 형식의 10진수로 표시됩니다 `X.Y.Z` 모든 핵심 구성 요소를 산출물 패키지로 수집할 수 있습니다.
+**릴리스**&#x200B;를 통해 핵심 구성 요소를 사용할 수 있고 [핵심 구성 요소는 GitHub에 제공되는 실제 게시된 아티팩트를 나타냅니다](https://github.com/adobe/aem-core-wcm-components/releases). 릴리스는 포맷 `X.Y.Z`의 10진법으로 표시되고, 제공 가능한 패키지로 모든 핵심 구성 요소를 수집합니다.
 
-* **주요 릴리스** 완전히 새로운 구성 요소, 기존 구성 요소 버전 개선 사항 및 표준 버그 수정 사항을 소개합니다. 이는 `X` 릴리스 번호의 구성 요소입니다.
-* **부 릴리스** 기존 버전의 구성 요소에 새 구성 요소와 버그 수정을 도입할 수 있습니다. 이는 `Y` 릴리스 번호의 구성 요소입니다.
-* **패치 릴리스** 버그 수정만 포함합니다. 이는 `Z` 릴리스 번호의 구성 요소입니다.
+* **주요 릴리스**&#x200B;에는 전체 새 구성 요소 및 표준 버그 수정과 함께 기존 버전의 구성 요소에 대한 개선이 도입됩니다. `X` 구성 요소 릴리스 횟수가 증가하면 나타납니다.
+* **마이너 릴리스**&#x200B;에는 새 구성 요소, 버그 수정과 함께 기존 버전의 구성 요소에 새로운 기능이 도입됩니다. `Y` 구성 요소 릴리스 횟수가 증가하면 나타납니다.
+* **패치 릴리스**&#x200B;에는 버그 수정만 포함됩니다. `Z` 구성 요소 릴리스 횟수가 증가하면 나타납니다.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ ht-degree: 92%
 
 ## 핵심 구성 요소 지원 {#core-components-support}
 
-핵심 구성 요소는 AEM의 필수적인 부분으로, 빠른 시작의 일부로 전달된 것처럼 동일한 이용 약관에 따라 지원됩니다.
+핵심 구성 요소는 AEM의 필수적인 부분이며 빠른 시작의 일부로 전달된 것처럼 동일한 이용 약관에 따라 지원됩니다.
 
 다른 제품 기능과 마찬가지로 수명 종료에 대한 일반적인 규칙은 다음과 같습니다.
 
