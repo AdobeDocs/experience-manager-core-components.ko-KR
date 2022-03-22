@@ -3,8 +3,8 @@ title: 핵심 구성 요소 도입
 description: '핵심 구성 요소는 최신 기술과 모범 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 01f57b2d547d2c1ab87b552522375a0a07496a23
-workflow-type: ht
+source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
+workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 패치 수준 | Java SE 버전 | Maven 버전 |
 |---------|---------|---------|---------|---------|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >

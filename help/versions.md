@@ -3,10 +3,10 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
+source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 100%
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 100%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 핵심 구성 요소의 주요 릴리스에서는 여러 구성 요소의 새로운 버전에 새 링크 핸들러가 도입되며 접근성 개선 및 버그 수정이 이루어집니다. | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 2월 16일 |
+| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 이 릴리스는 AEMaaCS에 대한 문제를 수정합니다. | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 3월 17일 |
+| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 패치 릴리스입니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 3월 3일 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 핵심 구성 요소의 주요 릴리스에서는 여러 구성 요소의 새로운 버전에 새 링크 핸들러가 도입되며 접근성 개선 및 버그 수정이 이루어집니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 2월 16일 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 12월 13일 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 이전 릴리스와 함께 도입된 회귀 문제를 해결하는 패치 릴리스입니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 10월 1일 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 이 패치는 리디렉션 대상의 외부 URL이 표시되는 [목록](/help/components/list.md) 및 [탐색](/help/components/navigation.md) 구성 요소를 개선하고 [티저](/help/components/teaser.md) 구성 요소의 추후 v2용 페이지 이미지 상속을 활성화하고 패치에 추가 버그 수정이 포함됩니다. | 6.4.8.4+ * | 6.5.6.0+ * | 계속 | 8,11 | 2021년 8월 31일 |
