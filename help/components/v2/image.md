@@ -2,13 +2,13 @@
 title: 이미지 구성 요소 (v2)
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
+source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
+workflow-type: tm+mt
+source-wordcount: '2231'
+ht-degree: 99%
 
 ---
-
 
 # 이미지 구성 요소 (v2) {#image-component}
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)가 필요합니다.
+>SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)가 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 

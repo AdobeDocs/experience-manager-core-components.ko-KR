@@ -3,10 +3,10 @@ title: 구성 요소 가이드라인
 description: 핵심 구성 요소는 기초 구성 요소와 전혀 다른 최신 구현 패턴을 따릅니다.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
+workflow-type: tm+mt
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ HTL은 AEM에 맞게 설계된 안전하고 간단한 템플릿 언어입니다.
 
 ![리소스 바인딩 개요](/help/assets/chlimage_1-32.png)
 
-아래 검토에는 구현 POJO에 대한 세부 정보가 표시되지 않지만 관련 [템플릿 및 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html)을 참조하는 방법은 표시됩니다.
+아래 검토에는 구현 POJO에 대한 세부 정보가 표시되지 않지만 관련 [템플릿 및 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)을 참조하는 방법은 표시됩니다.
 
 `cq:allowedTemplates` 속성을 통해 사이트에 사용되는 템플릿을 알려 주고 `cq:template`를 통해 각 페이지에 관련 템플릿에 대한 정보를 제공할 수 있습니다. 모든 템플릿은 다음 세 가지 부품으로 구성됩니다.
 

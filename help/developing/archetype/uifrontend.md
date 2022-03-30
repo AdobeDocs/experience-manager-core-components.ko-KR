@@ -4,10 +4,10 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '1618'
-ht-degree: 100%
+source-git-commit: 0e8082b0c5db1f2efc7db51f13123b5264a3a608
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 99%
 
 ---
 
@@ -162,7 +162,7 @@ ui.frontend 모듈 빌드 프로세스는 [aem-clientlib-generator](https://www.
 
 ### 페이지에 클라이언트 라이브러리 포함 {#clientlib-inclusion}
 
-`clientlib-site` 및 `clientlib-dependencies` 범주는 [페이지 정책 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions)을 통해 기본 템플릿의 일부로 페이지에 포함됩니다. 정책을 조회하려면 **콘텐츠 페이지 템플릿 > 페이지 정보 > 페이지 정책**&#x200B;을 편집합니다.
+`clientlib-site` 및 `clientlib-dependencies` 범주는 [페이지 정책 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#template-definitions)을 통해 기본 템플릿의 일부로 페이지에 포함됩니다. 정책을 조회하려면 **콘텐츠 페이지 템플릿 > 페이지 정보 > 페이지 정책**&#x200B;을 편집합니다.
 
 다음과 같이 사이트 페이지에 클라이언트 라이브러리가 마지막으로 포함됩니다.
 

@@ -4,14 +4,14 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: a4ed30ad613efab89f10788a41a5dee8d663bf6c
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 98%
 
 ---
 
-# AEM Project Archetype {#aem-project-archetype}
+# AEM 프로젝트 원형 {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -41,7 +41,7 @@ AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사�
 * **머리글 및 바닥글:** [구성 요소의 현지화 기능](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)을 사용하여 코드 없이 이를 조합하고 현지화합니다.
 * **스타일 시스템:** 작성자가 [다른 스타일을 적용](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)하면 맞춤형 구성 요소를 빌드하지 마십시오.
 * **프론트엔드 빌드:** 프론트엔드 개발자는 Webpack, TypeScript 및 SASS를 사용하여 [AEM을 복제](uifrontend.md#webpack-dev-server)하고 [클라이언트 라이브러리를 빌드](uifrontend.md)할 수 있습니다.
-* **WebApp 기반:** 사이트에서 [반응형](uifrontend-react.md) 또는 [방사형 WebApp](uifrontend-angular.md)을 사용하는 경우 [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/developing.html)로 [상황에 맞게 앱 제작](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
+* **WebApp 기반:** 사이트에서 [반응형](uifrontend-react.md) 또는 [방사형 WebApp](uifrontend-angular.md)을 사용하는 경우 [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html)로 [상황에 맞게 앱 제작](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
 * **Commerce 활성화됨:** 프로젝트에서 [상거래 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components)를 사용하여 [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html)와 상거래 솔루션(예: [Magento](https://magento.com/))을 통합하는 경우.
 * **예제 코드:** HelloWorld 구성 요소와 샘플 모드, 서블릿, 필터 및 스케줄러 체크아웃.
 * **오픈 소스:** 매출이 평소와 같지 않다면 자신의 성과를 [공개](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)하십시오.
@@ -82,7 +82,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `aemVersion` | `cloud` | 대상 AEM 버전([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
 | `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우(예: `2020.02.2265.20200217T222518Z-200130`) |
 | `includeDispatcherConfig` | `y` | `aemVersion`(`y` 또는 `n`일 수 있음)의 값에 따라 Cloud 또는 AMS/온프레미스용 발송자 구성을 포함합니다. |
-| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
+| `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
 | `language` | `en` | 다음 코드(예: `en`, `deu`)에서 콘텐츠 구조를 만드는 언어 코드(ISO 639-1). |
 | `country` | `us` | 다음 코드(예: `US`)에서 콘텐츠 구조를 만드는 국가 코드(ISO 3166-1). |
 | `singleCountry` | `y` | 언어 습득 콘텐츠 구조(`y` 또는 `n`일 수 있음)를 포함합니다. |
