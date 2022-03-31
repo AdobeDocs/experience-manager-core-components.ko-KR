@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2231'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ko#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 핵심 구성 요소가 내장된 웹 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 없습니다.
 
@@ -263,7 +263,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더[의 캐싱은 발송자](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)에서 활성화해야 합니다.
+>적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더[의 캐싱은 발송자](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko#caching-http-response-headers)에서 활성화해야 합니다.
 >
 >[AEM Project Archetype](/help/developing/archetype/overview.md)의 샘플 발송자 구성에는 이미 이 구성이 포함됩니다.
 
