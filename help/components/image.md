@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1799'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더[의 캐싱은 발송자](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)에서 활성화해야 합니다.
+>적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더[의 캐싱은 발송자](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko#caching-http-response-headers)에서 활성화해야 합니다.
 >
 >[AEM Project Archetype](/help/developing/archetype/overview.md)의 샘플 발송자 구성에는 이미 이 구성이 포함됩니다.
 
