@@ -5,7 +5,7 @@ breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
 source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ ht-degree: 100%
       + [탐색 (v1)](components/v1/navigation.md)
       + [페이지 (v1)](components/v1/page-v1.md)
       + [티저 (v1)](components/v1/teaser.md)
-      + [빠른 검색(v1)](components/v1/quick-search.md)
+      + [빠른 검색 (v1)](components/v1/quick-search.md)
       + [텍스트 (v1)](components/v1/text-v1.md)
       + [제목 (v1)](components/v1/title-v1.md)
       + v1 양식 구성 요소 {#v1-forms}
