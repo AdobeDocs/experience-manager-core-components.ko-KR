@@ -6,7 +6,7 @@ exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->이 문서에서는 빠른 검색 구성 요소의 v1에 대해 설명합니다.
->빠른 검색 구성 요소의 현재 버전에 대한 자세한 내용은 [빠른 검색 구성 요소](/help/components/quick-search.md) 문서.
+>이 문서는 빠른 검색 구성 요소 v1에 대해 설명합니다.
+>현재 버전의 빠른 검색 구성 요소에 대한 자세한 내용은 [빠른 검색 구성 요소](/help/components/quick-search.md) 문서를 참조하십시오.
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
