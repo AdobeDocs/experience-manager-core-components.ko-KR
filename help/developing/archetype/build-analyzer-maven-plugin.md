@@ -4,10 +4,10 @@ description: 로컬 Maven Build Analyzer Plugin 설명서
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 79eb9cc18a66c09deeef1477c4d26d8616ba55de
+source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 94%
+source-wordcount: '646'
+ht-degree: 93%
 
 ---
 
@@ -39,6 +39,8 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 | `region-deprecated-api` | [더 이상 사용되지 않는 API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html)가 사용되고 있는지 확인합니다. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `artifact-rules` | 아티팩트의 알려진 문제를 사전에 방지하기 위해 번들 및 패키지와 같은 종속 항목을 확인합니다.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `content-package-validation` | 파일 유효성 검사기를 실행합니다. 기본적으로 Jackrabbit-docviewparser는 배포 중에 설치될 패키지 내에서 잘 구성된 xml 콘텐츠 구문을 확인하는 기능이 활성화됩니다.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>수정하려면 Analyzer에서 이름을 지정한 파일에서 xml 문제를 확인합니다. | 예 | 예 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 알려진 문제
 
