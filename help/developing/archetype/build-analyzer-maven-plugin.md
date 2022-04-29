@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# AEM as a Cloud Service SDK Build Analyzer Maven 플러그인 {#maven-analyzer-plugin}
+# AEM as a Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
 
 AEM as a Cloud Service SDK Build Analyzer Maven Plugin은 다양한 콘텐츠 패키지 프로젝트의 구조를 분석합니다.
 
