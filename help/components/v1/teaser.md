@@ -4,9 +4,9 @@ description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '745'
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image-v1.md)로 전달합니다. 따라서 [대화 상자 편집](image-v1.md#edit-dialog) 컨텐츠 작성자가 티저 이미지를 조작하는 데 이미지 구성 요소의 이미지 구성 요소를 사용할 수 있습니다.
+티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image-v1.md)로 전달합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자](image-v1.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
