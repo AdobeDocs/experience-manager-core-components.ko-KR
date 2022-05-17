@@ -1,12 +1,12 @@
 ---
 title: 핵심 구성 요소 도입
-description: '핵심 구성 요소는 최신 기술과 모범 사례를 기반으로 구축된 강력하고 확장 가능한 기본 구성 요소를 제공합니다. '
+description: '핵심 구성 요소 문제에 대한 해결 방법을 가져오고 다른 사람이 AEM 내에서 요소를 작성할 수 있도록 합니다. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
