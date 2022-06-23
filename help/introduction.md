@@ -3,10 +3,10 @@ title: 핵심 구성 요소 도입
 description: '핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: ht
-source-wordcount: '924'
-ht-degree: 100%
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 |  |  |
 |---|---|
-| 제작 준비 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 27개의 강력한 구성 요소입니다. |
+| 제작 준비 | 핵심 구성 요소는 30개의 강력한 구성 요소로서 테스트를 잘 거치고 널리 사용되며 잘 수행됩니다. |
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
@@ -58,6 +58,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * [언어 탐색](components/language-navigation.md)
 * [이동 경로](components/breadcrumb.md)
 * [빠른 검색](components/quick-search.md)
+* [목차](components/tableofcontents.md)
 
 ### 페이지 작성 구성 요소 {#page-authoring-components}
 
@@ -106,7 +107,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 패치 수준 | Java SE 버전 | Maven 버전 |
 |---------|---------|---------|---------|---------|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '245'
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [빠른 검색](components/quick-search.md)
    + [분리자](components/separator.md)
    + [소셜 미디어 공유](components/sharing.md)
+   + [목차](components/tableofcontents.md)
    + [텍스트](components/text.md)
    + [탭](components/tabs.md)
    + [티저](components/teaser.md)
