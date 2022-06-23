@@ -3,9 +3,9 @@ title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 강력하고 확장 가능한 기본 구성 요소를 제공합니다. 이 기본 구성 요소에는 다양한 기능의 연속 제공, 구성 요소 버전 관리, 최신 구현, 린 마크업 및 JSON 포맷의 콘텐츠 내보내기 등이 있습니다.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
 workflow-type: ht
-source-wordcount: '1583'
+source-wordcount: '1559'
 ht-degree: 100%
 
 ---
@@ -140,10 +140,6 @@ AEMaaCS 프로젝트에 대한 자세한 내용은 [AEM 프로젝트 구조](htt
 | [임베드](https://adobe.com/go/aem_cmp_tech_embed_v1_kr) | 페이지 내부 외부 리소스를 임베드합니다. | - |
 | [진행률 표시줄](https://adobe.com/go/aem_cmp_tech_progress_v1_kr) | 목표에 대한 진행률을 시각적으로 표시합니다. | - |
 | [PDF 뷰어](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_kr) | 페이지의 PDF 문서를 제공합니다. | - |
-
-### 예정된 구성 요소 {#upcoming-components}
-
-예정된 핵심 구성 요소 로드맵의 개요를 보려면 [GitHub의 프로젝트 wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)를 참조하십시오.
 
 ## 핵심 구성 요소 업그레이드 {#upgrade-of-core-components}
 
