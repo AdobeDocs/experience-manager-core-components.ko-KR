@@ -4,9 +4,9 @@ description: '핵심 구성 요소와 관련된 문제에 대한 해결책을 �
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '927'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 |  |  |
 |---|---|
-| 제작 준비 | 핵심 구성 요소는 30개의 강력한 구성 요소로서 테스트를 잘 거치고 널리 사용되며 잘 수행됩니다. |
+| 제작 준비 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 30개의 강력한 구성 요소입니다. |
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
