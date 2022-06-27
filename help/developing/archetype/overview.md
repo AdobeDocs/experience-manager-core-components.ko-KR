@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 8b6f0a38d27911f23afa1fe26fd1800b4d200d33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
 ht-degree: 100%
 
 ---
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -75,12 +75,12 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 |---------------------------|----------------|--------------------|
 | `appTitle` |  | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
 | `appId` |  | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
-| `artifactId` | *`${appId}`* | 기본 Maven 아티팩트 ID(예: `"mysite"`). |
-| `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`). |
-| `package` | *`${groupId}`* | Java 소스 패키지(예: `"com.mysite"`). |
-| `version` | `1.0-SNAPSHOT` | 프로젝트 버전(예: `1.0-SNAPSHOT`) |
-| `aemVersion` | `cloud` | 대상 AEM 버전([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
-| `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우(예: `2020.02.2265.20200217T222518Z-200130`) |
+| `artifactId` | *`${appId}`* | 기본 Maven 아티팩트 ID (예: `"mysite"`) |
+| `groupId` |  | 기본 Maven 그룹 ID (예: `"com.mysite"`) |
+| `package` | *`${groupId}`* | Java 소스 패키지 (예: `"com.mysite"`) |
+| `version` | `1.0-SNAPSHOT` | 프로젝트 버전 (예: `1.0-SNAPSHOT`) |
+| `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
+| `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우 (예: `2020.02.2265.20200217T222518Z-200130`) |
 | `includeDispatcherConfig` | `y` | `aemVersion`(`y` 또는 `n`일 수 있음)의 값에 따라 Cloud 또는 AMS/온프레미스용 발송자 구성을 포함합니다. |
 | `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
 | `language` | `en` | 다음 코드(예: `en`, `deu`)에서 콘텐츠 구조를 만드는 언어 코드(ISO 639-1). |
@@ -110,7 +110,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 
 Windows에서 실행하고 발송자 구성을 생성하는 경우 상위 명령 프롬프트나 Linux용 Windows 하위 시스템에서 실행해야 합니다([#329](https://github.com/adobe/aem-project-archetype/issues/329) 참조).
 
-대화형 모드로 Archetype을 실행할 때(`-B` 매개 변수가 없음), 최종 확인이 종료되지 않으면 기본값이 포함된 속성을 변경할 수 없습니다. 그런 다음 기본값이 포함된 속성이 질문에 기재되면 질문이 반복됩니다(자세한 내용은 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조).
+대화형 모드로 Archetype을 실행할 때(`-B` 매개변수가 없음), 최종 확인이 종료되지 않으면 기본값이 포함된 속성을 변경할 수 없습니다. 그런 다음 기본값이 포함된 속성이 질문에 기재되면 질문이 반복됩니다(자세한 내용은 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) 참조).
 
 `File -> New -> Maven Project`로 새 프로젝트를 시작할 때 [Eclipse 문제로 사후 생성 스크립트`archetype-post-generate.groovy`를 실행할 수 없기 때문에 Eclipse에서 이 Archetype을 사용할 수 없습니다.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) 문제를 해결하려면 상기 명령줄을 사용한 다음 Eclipse에서 `File -> Import -> Existing Maven Project`를 사용합니다.
 
