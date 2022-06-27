@@ -3,9 +3,9 @@ title: 이동 경로 구성 요소
 description: 핵심 구성 요소의 이동 경로 구성 요소는 콘텐츠 계층 구조의 페이지 위치에 따라 링크의 이동 경로를 빌드하는 탐색 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '800'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 |--- | --- |--- |---|
 | v3 | - | 호환 가능 | 호환 가능 |
 | [v2](v2/breadcrumb.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/breadcrumb-v1.md) | 호환 가능 | 호환 가능 | - |
+| [v1](v1/breadcrumb-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

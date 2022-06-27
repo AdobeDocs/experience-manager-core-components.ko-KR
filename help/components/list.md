@@ -3,9 +3,9 @@ title: 목록 구성 요소
 description: 핵심 구성 요소의 목록 구성 요소를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '1151'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 |--- |--- |--- |---|
 | v3 | - | 호환 가능 | 호환 가능 |
 | [v2](v2/list.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/list-v1.md) | 호환 가능 | 호환 가능 | - |
+| [v1](v1/list-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

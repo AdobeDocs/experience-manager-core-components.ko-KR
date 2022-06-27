@@ -4,10 +4,10 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -91,6 +91,8 @@ ht-degree: 100%
    + [AMP 지원](developing/amp.md)
    + [텍스트 인식 구성](developing/context-aware-configs.md)
    + [클라이언트 라이브러리 포함](developing/including-clientlibs.md)
+   + [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md)
+   + [웹에 최적화된 이미지 제공](/help/developing/web-optimized-image-delivery.md)
    + Adobe 클라이언트 데이터 레이어 {#data-layer}
       + [데이터 레이어 개요](developing/data-layer/overview.md)
       + [데이터 레이어와 통합](developing/data-layer/integrations.md)

@@ -3,9 +3,9 @@ title: 페이지 구성 요소
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: ht
-source-wordcount: '715'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 |---|---|---|---|
 | v3 | - | 호환 가능 | 호환 가능 |
 | [v2](v2/page.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | - |
+| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

@@ -4,10 +4,10 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '1323'
+ht-degree: 92%
 
 ---
 
@@ -194,9 +194,17 @@ ht-degree: 100%
 
 기본적으로 이미지가 표시될 때까지 이미지 로드를 연기합니다. **소극적 로드 활성화** 옵션을 사용하여 페이지 로드에서 이미지를 로드합니다.
 
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md) 는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄입니다.
+   * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
+   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 이 사용됩니다.
+
 ### 기능 {#features}
 
 **기능** 탭에서 업로드 옵션, 방향 및 자르기 옵션을 사용할 때 콘텐츠 작성자가 사용할 수 있는 옵션을 정의할 수 있습니다.
+
+* **웹 최적화 이미지 활성화** - 이 옵션을 선택하면, 웹에 최적화된 이미지 제공 서비스는 WebP 포맷으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+   * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
+   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 이 사용됩니다.
 
 * 소스
 
@@ -229,7 +237,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >AEM에서 자르기 종횡비는 **높이/폭**&#x200B;으로 정의됩니다. 이것은 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 종횡비 이름이 UI에 명확하게 표시되고 종황비 자체가 아니기 때문에 이름이 제공되어도 콘텐츠 작성자는 차이를 알 수 없습니다.
+   >AEM에서 자르기 종횡비는 **높이/폭**&#x200B;으로 정의됩니다. 이는 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 종횡비 이름이 UI에 명확하게 표시되고 종황비 자체가 아니기 때문에 이름이 제공되어도 콘텐츠 작성자는 차이를 알 수 없습니다.
 
 ## 기술 세부 사항 {#technical-details}
 
