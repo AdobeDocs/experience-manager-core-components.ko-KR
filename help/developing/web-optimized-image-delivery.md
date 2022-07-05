@@ -2,13 +2,13 @@
 title: 웹에 최적화된 이미지 제공
 description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화된 이미지 전달 기능을 활용하여 이미지를 보다 효율적으로 전달하는 방법을 알아봅니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # 웹에 최적화된 이미지 제공 {#web-optimized-image-delivery}
 
@@ -122,6 +122,6 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 이런 일은 절대 안 돼
 
-* HTML에서 웹에 최적화된 이미지를 활성화할 때 마크업이 변경되지 않고 이미지 요소의 SCR 속성 값만 변경됩니다.
+* HTML에서 마크업은 웹 최적화 이미지를 활성화할 때 변경되지 않고 이미지 요소의 SRC 속성 값만 변경됩니다.
 * 새 이미지 서비스를 사용할 수 없거나 원하는 이미지를 처리할 수 없을 때마다 생성된 URL은 [응용 이미지 서블릿에 대한 폴백입니다.](#fallback)
 * Dispatcher 규칙은 웹에 최적화된 이미지 서비스를 차단할 수 있습니다. [피쳐를 활성화할 때 선택해야 합니다.](#activating)
