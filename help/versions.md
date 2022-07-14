@@ -3,16 +3,16 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
+source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 98%
+source-wordcount: '2686'
+ht-degree: 97%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성의 현재 릴리스는 2.20.0이고 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 설치와 호환됩니다.
+핵심 구성의 현재 릴리스는 2.20.6이고 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,8 +26,12 @@ ht-degree: 98%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
 |---|---|---|---|---|---|---|
-| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 새 AEMaaCS의 문제를 수정하는 패치 릴리스입니다 [web-optimized asset delivery service.](/help/developing/web-optimized-image-delivery.md) | - | 6.5.10.0+ * | Continual | 8, 11 | 2022년 6월 20일 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 이 릴리스는 새 [목차 구성 요소](/help/components/tableofcontents.md)에서 AEMaaCS에 대한 지원을 추가합니다 [웹에 최적화된 자산 제공 서비스,](/help/developing/web-optimized-image-delivery.md) 및 에는 버그 수정 사항이 포함되어 있습니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 6월 9일 |
+| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 이 패치 릴리스는 새 [목차 구성 요소.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Continual | 8, 11 | 2022년 7월 7일 |
+| — | — | — | — | — | — | — |
+| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 이 패치 릴리스는 새 [목차 구성 요소.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 6월 29일 |
+| — | — | — | — | — | — | — |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 새 AEMaaCS의 문제를 수정하는 패치 릴리스입니다 [web-optimized asset delivery service.](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 6월 20일 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 이 릴리스는 새 [목차 구성 요소](/help/components/tableofcontents.md)에서 AEMaaCS에 대한 지원을 추가합니다 [웹에 최적화된 자산 제공 서비스,](/help/developing/web-optimized-image-delivery.md) 및 에는 버그 수정 사항이 포함되어 있습니다. | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 6월 9일 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 이번 릴리스에서는 새로운 버전의 [검색 구성 요소](/help/components/quick-search.md) 및 [버튼 구성 요소](/help/components/button.md) 기능이 추가되었으며 다양한 접근성 개선 및 버그 수정이 이루어졌습니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 4월 7일 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 이번 릴리스에서는 AEMaaCS 관련 문제가 해결되었습니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 3월 17일 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 패치 릴리스입니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 3월 3일 |
