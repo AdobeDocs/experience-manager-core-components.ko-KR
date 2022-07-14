@@ -4,7 +4,7 @@ description: 핵심 구성 요소의 이동 경로 구성 요소는 콘텐츠 �
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
 ht-degree: 100%
 
