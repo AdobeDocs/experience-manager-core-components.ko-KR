@@ -3,7 +3,7 @@ title: 웹에 최적화된 이미지 제공
 description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화된 이미지 전달 기능을 활용하여 이미지를 보다 효율적으로 전달하는 방법을 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >AEMaaCS의 사전 릴리스 기능에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Experience Manager as a Cloud Service 사전 릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
-##  개요 {#overview}
+## 개요 {#overview}
 
 AEM as a Cloud Service의 웹에 최적화된 이미지 전달 기능은 의 DAM에서 이미지 자산을 전달합니다 [WebP 형식입니다.](https://developers.google.com/speed/webp) WebP는 이미지의 다운로드 크기를 평균적으로 25% 줄일 수 있어 페이지 로드 속도가 빨라집니다.
 
