@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1323'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 92%
    * AEM 리소스에 연결되지 않은 경우 절대 URL을 입력합니다. 절대 URL이 아닌 URL은 AEM의 상대 URL로 해석됩니다.
 
 * **캡션** - 이미지 아래 표시된 이미지에 대한 추가 정보는 기본입니다.
-* **팝업으로 캡션 표시** - 확인된 경우 캡션은 이미지 아래에 표시되지 않고 마우스로 이미지를 가리키면 일부 브라우저에서 팝업으로 표시됩니다.
+* **팝업으로 캡션 표시** - 확인 표시가 되어 있으면 캡션은 이미지 아래에 표시되지 않고 마우스로 이미지를 가리키면 일부 브라우저에서 팝업으로 표시됩니다.
 
 ## 편집 대화 상자 {#edit-dialog}
 
@@ -194,17 +194,17 @@ ht-degree: 92%
 
 기본적으로 이미지가 표시될 때까지 이미지 로드를 연기합니다. **소극적 로드 활성화** 옵션을 사용하여 페이지 로드에서 이미지를 로드합니다.
 
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md) 는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄입니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 
 ### 기능 {#features}
 
 **기능** 탭에서 업로드 옵션, 방향 및 자르기 옵션을 사용할 때 콘텐츠 작성자가 사용할 수 있는 옵션을 정의할 수 있습니다.
 
-* **웹 최적화 이미지 활성화** - 이 옵션을 선택하면, 웹에 최적화된 이미지 제공 서비스는 WebP 포맷으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+* **웹 최적화 이미지 활성화** - 선택하면 웹에 최적화된 이미지 제공 서비스는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 
 * 소스
 
