@@ -1,12 +1,12 @@
 ---
-title: 이미지 구성 요소 (v2)
+title: 이미지 구성 요소(v2)
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 이미지 구성 요소는 확장 가능한 벡터 그래픽(SVG)을 지원합니다.
 
 * DAM에서의 SVG 에셋 드래그 앤 드롭과 로컬 파일 시스템에서의 SVG 파일 업로드를 모두 지원합니다.
-* 원본 SVG 파일이 스트리밍됩니다(변형을 건너뜁니다).
+* 원본 SVG 파일이 스트리밍됩니다(변환은 건너뜀).
 * SVG 이미지의 경우 “스마트 이미지”와 “스마트 크기”를 이미지 모델에서 빈 배열로 설정합니다.
 
 ### 보안 {#security}
@@ -185,9 +185,9 @@ ht-degree: 96%
 ![이미지 구성 요소의 디자인 대화 상자 메인 탭](/help/assets/image-design-main-v2.png)
 
 * **DM 기능 활성화** - 확인 표시가 되어 있으면 [Dynamic Media 기능](#dynamic-media)이 제공됩니다.
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md) 는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄입니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **소극적 로드 활성화** - 페이지에 이미지 구성 요소를 추가할 때 소극적 로드 옵션이 자동으로 활성화되면 정의합니다.
 * **장식적 이미지** - 페이지에 이미지 구성 요소를 추가할 때 장식적 이미지 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 대체 텍스트 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 대체 텍스트를 검색하는 옵션이 자동으로 활성화되면 정의합니다.
@@ -204,7 +204,7 @@ ht-degree: 96%
 
 >[!TIP]
 >
->문서를 참조하십시오 [응용 이미지 서블릿](#adaptive-image-servlet) 너비를 신중하게 정의하여 표현물 선택을 최적화하는 팁입니다.
+>폭을 정의함으로써 렌디션 선택을 최적화하기 위한 팁과 관련된 자세한 내용은 [적응형 이미지 서블릿](#adaptive-image-servlet) 섹션을 참조하십시오.
 
 ### 기능 탭 {#features-tab}
 
