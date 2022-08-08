@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,15 +44,15 @@ ht-degree: 93%
 
 이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
-핵심 구성 요소로 구축된 웹 경험은 풍부하고 Sensei 기반의 강력한 고성능 교차 플랫폼 Dynamic Media 이미지 기능을 제공할 수 있습니다.
+핵심 구성 요소가 내장된 웹 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
 ## SVG 지원 {#svg-support}
 
 이미지 구성 요소는 확장 가능한 벡터 그래픽(SVG)을 지원합니다.
 
 * DAM에서의 SVG 에셋 드래그 앤 드롭과 로컬 파일 시스템에서의 SVG 파일 업로드를 모두 지원합니다.
-* 원본 SVG 파일이 스트리밍됩니다(변형을 건너뜁니다).
-* SVG 이미지의 경우 &quot;스마트 이미지&quot; 및 &quot;스마트 크기&quot;가 이미지 모델에서 빈 배열로 설정됩니다.
+* 원본 SVG 파일이 스트리밍됩니다(변환은 건너뜀).
+* SVG 이미지의 경우 “스마트 이미지”와 “스마트 크기”를 이미지 모델에서 빈 배열로 설정합니다.
 
 ### 보안 {#security}
 
@@ -137,9 +137,9 @@ ht-degree: 93%
 
 * **DM 기능 활성화** - 확인 표시가 되어 있으면 [Dynamic Media 기능](#dynamic-media)을 사용할 수 있습니다.
    * 이 옵션은 환경에서 Dynamic Media가 활성화된 경우에만 표시됩니다.
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md) 는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄입니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **소극적 로드 활성화** - 확인 표시가 되어 있으면 구성 요소가 소극적 로드 없이 모든 이미지를 미리 로드합니다.
 * **장식적 이미지** - 페이지에 이미지 구성 요소를 추가할 때 장식적 이미지 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 대체 텍스트 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 대체 텍스트를 검색하는 옵션이 자동으로 활성화되면 정의합니다.
@@ -162,7 +162,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->문서를 참조하십시오 [응용 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 너비를 신중하게 정의하여 표현물 선택을 최적화하는 팁입니다.
+>폭을 정의함으로써 렌디션 선택을 최적화하기 위한 팁과 관련된 자세한 내용은 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 섹션을 참조하십시오.
 
 ### 스타일 탭 {#styles-tab}
 
