@@ -3,10 +3,10 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
-workflow-type: ht
-source-wordcount: '1662'
-ht-degree: 100%
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+workflow-type: tm+mt
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 100%
 이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 에셋의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 올바른 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
 
 또한, 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 에셋 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
+
+>[!TIP]
+>
+>기본적으로 이미지 구성 요소는 응용 이미지 서블릿으로 제공됩니다. 문서 보기 [응용 이미지 서블릿](#adaptive-image-servlet) 를 참조하십시오.
 
 ## Dynamic Media 지원 {#dynamic-media}
 
