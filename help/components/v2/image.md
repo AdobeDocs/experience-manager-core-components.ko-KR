@@ -1,12 +1,12 @@
 ---
-title: 이미지 구성 요소(v2)
+title: 이미지 구성 요소 (v2)
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->이미지 구성 요소는 응용 이미지 서블릿에서 지원합니다. 문서 보기 [응용 이미지 서블릿](#adaptive-image-servlet) 를 참조하십시오.
+>이미지 구성 요소는 적응형 이미지 서블릿에 의해 제공됩니다. 작동 방식에 대한 자세한 내용은 [적응형 이미지 서블릿](#adaptive-image-servlet) 문서를 참조하십시오.
 
 ## Dynamic Media 지원 {#dynamic-media}
 
