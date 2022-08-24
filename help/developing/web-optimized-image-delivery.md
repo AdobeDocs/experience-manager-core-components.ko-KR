@@ -4,9 +4,9 @@ description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ AEM as a Cloud Service의 웹에 최적화된 이미지 제공 기능은 DAM의 
 
 ## 자주 묻는 질문 {#faq}
 
-### 내 환경에서 웹에 최적화된 이미지를 활성화할 수 있는 옵션이 없는 이유는 무엇입니까? {#missing-option}
+### 내 환경에서 웹에 최적화된 이미지를 활성화하는 옵션이 없는 이유는 무엇입니까? {#missing-option}
 
 이 기능은 AEM as a Cloud Service에서만 사용할 수 있습니다. AEM에서 로컬로 실행하거나 온프레미스에서 실행하는 경우 이미지 구성 요소는 적응형 이미지 서블릿 사용으로 [돌아갑니다](#fallback).
 
@@ -88,7 +88,7 @@ WebP 형식을 제공하기 위해 웹에 최적화된 이미지 제공 서비�
 
 ### 내 구성 요소와 함께 웹에 최적화된 이미지 제공을 사용할 수 있습니까?
 
-예. 웹에 최적화된 이미지 제공 서비스는 사용자 지정 구성 요소에서 사용할 수 있습니다. 이 경우 [이미지 구성 요소를 확장](/help/developing/customizing.md)하는 것이 좋습니다.
+예. 웹에 최적화된 이미지 제공 서비스는 사용자 정의 구성 요소에서 사용할 수 있습니다. 이 경우 [이미지 구성 요소를 확장](/help/developing/customizing.md)하는 것이 좋습니다.
 
 다음은 에셋 URL을 생성하는 데 사용할 수 있는 서비스 인터페이스입니다.
 
