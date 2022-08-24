@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->기본적으로 이미지 구성 요소는 응용 이미지 서블릿으로 제공됩니다. 문서 보기 [응용 이미지 서블릿](#adaptive-image-servlet) 를 참조하십시오.
+>기본적으로 이미지 구성 요소는 적응형 이미지 서블릿에 의해 제공됩니다. 작동 방식에 대한 자세한 내용은 [적응형 이미지 서블릿](#adaptive-image-servlet) 문서를 참조하십시오.
 
 ## Dynamic Media 지원 {#dynamic-media}
 
