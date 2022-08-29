@@ -3,8 +3,8 @@ title: 빠른 검색 구성 요소
 description: 빠른 검색 구성 요소는 웹 사이트에 검색 기능을 제공하고, 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 검색 결과를 제공합니다.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-현재 버전의 빠른 검색 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
+현재 버전의 빠른 검색 구성 요소는 2018년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 

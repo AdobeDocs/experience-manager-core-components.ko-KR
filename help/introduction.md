@@ -3,10 +3,10 @@ title: 핵심 구성 요소 도입
 description: '핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+workflow-type: tm+mt
+source-wordcount: '928'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * [콘텐츠 조각](components/content-fragment-component.md)
 * [콘텐츠 조각 목록](components/content-fragment-list.md)
 * [임베드](components/embed.md)
-* [소셜 미디어 공유](components/sharing.md)
+* [소셜 미디어 공유](components/sharing.md) (사용하지 않음)
 * [분리자](components/separator.md)
 * [진행률 표시줄](components/progress-bar.md)
 * [PDF 뷰어](components/pdf-viewer.md)
