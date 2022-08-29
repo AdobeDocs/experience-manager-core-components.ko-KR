@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 소셜 구성 요소는 Facebook 및 Pinter
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->소셜 공유 구성 요소가 핵심 구성 요소로 감가상각되었습니다 [릴리스 2.18.0.](/help/versions.md)
+>소셜 공유 구성 요소는 핵심 구성 요소 [릴리스 2.18.0](/help/versions.md)부터 더 이상 사용되지 않습니다.
 
 ## 사용량 {#usage}
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능, 사용되지 않음 | 호환 가능, 사용되지 않음 |
+| v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능, 사용 안 함 | 호환 가능, 사용 안 함 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
