@@ -3,9 +3,9 @@ title: 소셜 공유 구성 요소
 description: 핵심 구성 요소의 소셜 구성 요소는 Facebook 및 Pinterest 공유 위젯입니다.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
-workflow-type: ht
-source-wordcount: '436'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ ht-degree: 100%
 | v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능, 사용 안 함 | 호환 가능, 사용 안 함 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-소셜 공유 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_sharing_kr)를 참조하십시오.
 
 ### 기술 세부 사항 {#technical-details}
 

@@ -3,9 +3,9 @@ title: 목차 구성 요소
 description: 목차 구성 요소는 독자가 페이지를 빠르게 탐색할 수 있도록 페이지 콘텐츠의 제목을 기반으로 목차를 만듭니다.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ ht-degree: 100%
 | v1 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-목차 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_tableofcontents_kr)를 참조하십시오.
 
 ### 기술 세부 사항 {#technical-details}
 

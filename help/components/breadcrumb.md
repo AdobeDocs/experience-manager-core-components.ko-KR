@@ -3,8 +3,8 @@ title: 이동 경로 구성 요소
 description: 핵심 구성 요소의 이동 경로 구성 요소는 콘텐츠 계층 구조의 페이지 위치에 따라 링크의 이동 경로를 빌드하는 탐색 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ## 기술 세부 사항 {#technical-details}
 
-이동 경로 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_kr).
+이동 경로 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
