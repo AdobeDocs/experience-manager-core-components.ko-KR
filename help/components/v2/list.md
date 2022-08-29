@@ -2,13 +2,13 @@
 title: 목록 구성 요소 (v2)
 description: 핵심 구성 요소의 목록 구성 요소를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
 workflow-type: ht
 source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # 목록 구성 요소 (v2) {#list-component}
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 목록의 빌드 방법에 관계없이 언제든지 구성할 수 있는 [정렬 및 ID 옵션](#sort-options)이 있습니다.
 
-![목록 구성 요소의 편집 대화 상자](/help/assets/list-edit.png)
+![목록 구성 요소의 편집 대화 상자](/help/assets/v2/list-edit.png)
 
 콘텐츠 작성자의 목록 빌드 선택에 따라 추가 구성 옵션이 변경됩니다.
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 현재 페이지나 다른 페이지의 하위 페이지에서 목록을 빌드할 수 있습니다.
 
-![하위 페이지 옵션](/help/assets/list-edit-child-pages.png)
+![하위 페이지 옵션](/help/assets/v2/list-edit-child-pages.png)
 
 * **상위 페이지**
    * 목록을 작성하는 페이지의 하위 페이지
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 항목의 고정 목록 통해 목록을 빌드할 수 있습니다.
 
-![고정 목록 옵션](/help/assets/list-edit-fixed.png)
+![고정 목록 옵션](/help/assets/v2/list-edit-fixed-list.png)
 
 **추가** 버튼을 탭하거나 클릭하여 새 항목을 목록에 삽입합니다.
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 AEM 콘텐츠 검색 결과를 통해 목록을 빌드할 수 있습니다.
 
-![검색 목록 옵션](/help/assets/list-edit-search.png)
+![검색 목록 옵션](/help/assets/v2/list-edit-search.png)
 
 * **검색 쿼리**
 전체 텍스트 검색에 대한 문자열을 실행하여 목록 요소를 생성합니다.
@@ -110,7 +110,7 @@ AEM 콘텐츠 검색 결과를 통해 목록을 빌드할 수 있습니다.
 
 특정 위치에서 특정 태그와 일치하는 페이지를 사용하여 목록을 빌드할 수 있습니다
 
-![태그 목록 옵션](/help/assets/list-edit-tags.png)
+![태그 목록 옵션](/help/assets/v2/list-edit-tags.png)
 
 * **상위 페이지**
 태그 일치의 시작 위치
@@ -128,7 +128,7 @@ AEM 콘텐츠 검색 결과를 통해 목록을 빌드할 수 있습니다.
 
 목록의 빌드 방법에 관계없이 언제든지 정의할 수 있는 특정 정렬 옵션이 있습니다.
 
-![정렬 옵션](/help/assets/list-edit-sort-options.png)
+![정렬 옵션](/help/assets/v2/list-edit-sort-options.png)
 
 * **항목별 순서**
 요소 순서를 변경하는 방법
@@ -149,7 +149,7 @@ AEM 콘텐츠 검색 결과를 통해 목록을 빌드할 수 있습니다.
 
 항목 설정 탭을 사용하여 목록 요소 서식 설정을 구성할 수 있습니다.
 
-![항목 설정](/help/assets/list-edit-items.png)
+![항목 설정](/help/assets/v2/list-edit-item-settings.png)
 
 * **항목 연결**
 해당 페이지에 항목 연결
@@ -166,7 +166,7 @@ AEM 콘텐츠 검색 결과를 통해 목록을 빌드할 수 있습니다.
 
 **목록 설정** 탭에서 날짜 형식을 정의하고, 구성 요소에서 콘텐츠 작성자가 사용할 수 있는 목록 유형을 정의할 수 있습니다.
 
-![목록 구성 요소의 디자인 대화 상자 목록 설정](/help/assets/list-design-list-settings.png)
+![목록 구성 요소의 디자인 대화 상자 목록 설정](/help/assets/v2/list-design-list-settings.png)
 
 * **날짜 형식**
 마지막 수정 날짜 표시에 사용할 형식
@@ -183,7 +183,7 @@ AEM 콘텐츠 검색 결과를 통해 목록을 빌드할 수 있습니다.
 
 **항목 설정** 탭에서, 콘텐츠 작성자가 구성 요소에서 사용할 수 있는 개별 목록 요소에 대한 서식 옵션을 정의할 수 있습니다.
 
-![목록 구성 요소의 디자인 대화 상자 항목 설정](/help/assets/list-design-item-settings.png)
+![목록 구성 요소의 디자인 대화 상자 항목 설정](/help/assets/v2/list-design-item-settings.png)
 
 * **항목 연결**
 [편집 대화 상자](#edit-dialog)에서 항목 연결을 활성화합니다.
