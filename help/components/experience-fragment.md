@@ -4,7 +4,7 @@ description: 콘텐츠 작성자는 경험 조각 구성 요소를 통해 경험
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
 ht-degree: 100%
 
@@ -105,11 +105,11 @@ ht-degree: 100%
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-경험 조각 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_xf_kr)를 참조하십시오.
+경험 조각 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_xf)를 참조하십시오.
 
 ## 기술 세부 사항 {#technical-details}
 
-경험 조각 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_xf_v2_kr).
+경험 조각 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_xf_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
