@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 01890b368b083b09b5be8a9b6efad55a5d8d4f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -76,7 +76,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `appTitle` |  | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
 | `appId` |  | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
 | `artifactId` | *`${appId}`* | 기본 Maven 아티팩트 ID (예: `"mysite"`) |
-| `groupId` |  | 기본 Maven 그룹 ID (예: `"com.mysite"`) 이 값은 [유효한 Java 패키지 이름입니다.](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
+| `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`). 이 값은 [유효한 Java 패키지 이름](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)이어야 합니다. |
 | `package` | *`${groupId}`* | Java 소스 패키지 (예: `"com.mysite"`) |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전 (예: `1.0-SNAPSHOT`) |
 | `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
