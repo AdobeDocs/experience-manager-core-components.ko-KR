@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: c817592207868284d6d9cc1c8bc0405aa50f8957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -39,7 +39,7 @@ AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사�
 * **편집 가능한 템플릿:** 코드 없이 거의 모든 [템플릿을 조합하고](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 작성자가 편집할 내용을 정의합니다.
 * **반응형 레이아웃:** 템플릿 또는 개별 페이지에서 [정의된 중단점에 대한 요소를 재배치하는 방법](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)을 정의합니다.
 * **머리글 및 바닥글:** [구성 요소의 현지화 기능](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)을 사용하여 코드 없이 이를 조합하고 현지화합니다.
-* **스타일 시스템:** 작성자가 [다른 스타일을 적용](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)하면 맞춤형 구성 요소를 빌드하지 마십시오.
+* **스타일 시스템:** 작성자가 [다른 스타일을 적용](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)하면 사용자 정의 구성 요소를 빌드하지 마십시오.
 * **프론트엔드 빌드:** 프론트엔드 개발자는 Webpack, TypeScript 및 SASS를 사용하여 [AEM을 복제](uifrontend.md#webpack-dev-server)하고 [클라이언트 라이브러리를 빌드](uifrontend.md)할 수 있습니다.
 * **WebApp 기반:** 사이트에서 [반응형](uifrontend-react.md) 또는 [방사형 WebApp](uifrontend-angular.md)을 사용하는 경우 [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html)로 [상황에 맞게 앱 제작](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)을 유지할 수 있습니다.
 * **Commerce 활성화됨:** 프로젝트에서 [상거래 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components)를 사용하여 [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html)와 상거래 솔루션(예: [Magento](https://magento.com/))을 통합하는 경우.
@@ -87,18 +87,18 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `country` | `us` | 다음 코드(예: `US`)에서 콘텐츠 구조를 만드는 국가 코드(ISO 3166-1). |
 | `singleCountry` | `y` | 언어 습득 콘텐츠 구조(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예시 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
-| `includeErrorHandler` | `n` | 전체 인스턴스 전역의 맞춤형 404 반응형 페이지(`y` 또는 `n`일 수 있음)를 포함합니다. |
+| `includeErrorHandler` | `n` | 전체 인스턴스 전역의 사용자 정의 404 반응형 페이지(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
 | `commerceEndpoint` |  | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 끝점(예: `https://hostname.com/grapql`). |
 | `includeFormscommunications` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 커뮤니케이션 프로그램에 해당하는 아티팩트를 생성합니다. |
 | `includeFormsenrollment` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 등록 프로그램에 해당하는 아티팩트를 생성합니다. |
-| `sdkFormsVersion` | `latest` | When `aemVersion=cloud` 다음 중 하나 `includeFormsenrollment=y` 또는 `includeFormscommunications=y`로 지정하는 경우 Forms SDK 버전(예: `2020.12.17.02`). |
+| `sdkFormsVersion` | `latest` | `aemVersion=cloud` 및 `includeFormsenrollment=y` 또는 `includeFormscommunications=y` 중 하나이면, Forms SDK 버전을 지정할 수 있습니다(예: `2020.12.17.02`). |
 | `datalayer` | `y` | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)와의 통합 기능을 활성화합니다. |
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대한 [AMP](/help/developing/amp.md) 지원을 활성화합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
 | `enableSSR` | `n` | 프론트엔드 프로젝트용 SSR을 활성화하는 옵션 |
 | `precompiledScripts` | `n` | `ui.apps`의 서버측 스크립트를 [미리 컴파일](/help/developing/archetype/precompiled-bundled-scripts.md)하고 `ui.apps` 프로젝트에서 빌드에 보조 번들 아티팩트로 스크립트를 첨부하는 옵션. `aemVersion`을 `cloud`로 설정해야 합니다. |
-| `includeFormsheadless` | `n` | 포함 [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, `ui.frontend.react.forms.af`, 및 헤드리스 가공물입니다. |
+| `includeFormsheadless` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, `ui.frontend.react.forms.af` 및 헤드리스 아티팩트를 포함합니다. |
 
 ## 시스템 요구 사항 {#requirements}
 
