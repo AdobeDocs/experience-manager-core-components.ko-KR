@@ -3,7 +3,7 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+source-git-commit: 6fd0fd045846da0d8e6f9c4753d172a9af101ba2
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 98%
@@ -30,9 +30,7 @@ ht-degree: 98%
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 이 릴리스에는 LinkHandler API의 게시를 비롯한 많은 개선 사항이 포함되며 [이미지 구성 요소](/help/components/image.md) 및 [데이터 레이어,](/help/developing/data-layer/overview.md) 다중 패널 구성 요소에 대한 개선 사항뿐만 아니라, | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 9월 12일 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 이 릴리스는 AdaptiveImageServlet을 통한 SVG 이미지 전달 문제를 해결합니다. | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 8월 4일 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 이 패치 릴리스에서는 새로운 [목차 구성 요소](/help/components/tableofcontents.md)와 관련된 문제가 해결되었습니다. | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 7월 7일 |
-| --- | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 이 패치 릴리스에서는 새로운 [목차 구성 요소](/help/components/tableofcontents.md)와 관련된 문제가 해결되었습니다. | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 6월 29일 |
-| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 새 AEMaaCS [웹에 최적화된 에셋 제공 서비스](/help/developing/web-optimized-image-delivery.md)와 관련된 문제를 해결하는 패치 릴리스입니다. | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 6월 20일 |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 이 릴리스에는 새로운 [목차 구성 요소](/help/components/tableofcontents.md) 및 AEMaaCS [웹에 최적화된 에셋 제공 서비스](/help/developing/web-optimized-image-delivery.md)에 대한 지원이 추가되었으며 버그 수정이 포함되어 있습니다. | - | 6.5.13.0+ * | 계속 | 8,11 | 2022년 6월 9일 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 이번 릴리스에서는 새로운 버전의 [검색 구성 요소](/help/components/quick-search.md) 및 [버튼 구성 요소](/help/components/button.md) 기능이 추가되었으며 다양한 접근성 개선 및 버그 수정이 이루어졌습니다. | - | 6.5.10.0+ * | 계속 | 8,11 | 2022년 4월 7일 |
