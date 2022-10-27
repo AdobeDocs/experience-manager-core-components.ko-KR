@@ -4,9 +4,9 @@ description: AEM Project Archetype의 ui.apps 모듈
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 19bceb1d8ba07c70798f2e7203db957d3e8b3d03
 workflow-type: ht
-source-wordcount: '335'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ Apache Jackrabbit FileVault 패키지 플러그인을 통해 ui.apps 모듈 콘�
 Apache Jackrabbit FileVault 패키지 플러그 외에도 패키지를 AEM에 푸시하는 콘텐츠 패키지 플러그에 대한 정의가 있습니다. 동일한 상위 POM에 정의된 전역 속성에 해당되는 `aem.host`, `aem.port`, `vault.user` 및 `vault.password`에 대한 변형이 사용됩니다.
 
 ## ui.apps/pom.xml {#uiapps-pom}
-
-ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)은 `filevault-package-maven-plugin`에 `embedded` 태그를 제공합니다. `embedded` 태그에는 ui.apps 패키지로 컴파일된 핵심 번들과 설치 위치가 포함됩니다.
 
 하위 패키지로 core.wcm.components.all과 core.wcm.components.examples 패키지가 포함됩니다. 매번 WKND 코드와 함께 핵심 구성 요소 패키지가 배포됩니다.
 
