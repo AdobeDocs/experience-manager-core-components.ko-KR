@@ -4,10 +4,10 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 95%
 
 ---
 
@@ -110,3 +110,19 @@ ht-degree: 100%
       + [ui.test 모듈](developing/archetype/uitests.md)
       + [it.tests 모듈](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
++ 이메일 구성 요소 {#email}
+   + [소개](/help/email/introduction.md)
+   + [이메일 핵심 구성 요소 사용](/help/email/using.md)
+   + [캠페인 변수](/help/email/campaign-variables.md)
+   + [버전](/help/email/versions.md)
+   + 이메일 구성 요소 {#components}
+      + [페이지](/help/email/components/page.md)
+      + [컨테이너](/help/email/components/container.md)
+      + [제목](/help/email/components/title.md)
+      + [텍스트](/help/email/components/text.md)
+      + [이미지](/help/email/components/image.md)
+      + [버튼](/help/email/components/button.md)
+      + [티저](/help/email/components/teaser.md)
+      + [경험 조각](/help/email/components/experience-fragment.md)
+      + [콘텐츠 조각](/help/email/components/content-fragment.md)
+      + [세그멘테이션](/help/email/components/segmentation.md)
