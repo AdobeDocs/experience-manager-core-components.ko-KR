@@ -1,22 +1,22 @@
 ---
 title: 이미지 구성 요소
-description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
+description: 코어 구성 요소 이미지 구성 요소는 응용 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
+workflow-type: tm+mt
+source-wordcount: '1678'
+ht-degree: 97%
 
 ---
 
 # 이미지 구성 요소{#image-component}
 
-핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
+코어 구성 요소 이미지 구성 요소는 응용 이미지 구성 요소입니다.
 
 ## 사용량 {#usage}
 
-이미지 구성 요소에는 페이지 방문자의 소극적 로드와 콘텐츠 작성자의 간단한 이미지 배치 및 자르기 옵션이 있는 적응형 이미지 선택 기능과 반응 동작이 포함됩니다.
+이미지 구성 요소는 페이지 방문자를 위해 레이지 로드를 포함하는 적응형 이미지 선택 및 응답형 동작과 컨텐츠 작성자를 위한 쉬운 이미지 배치를 제공합니다.
 
 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 이미지 폭 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 에셋을 업로드하거나 선택할 수 있습니다.
 
