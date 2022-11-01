@@ -4,10 +4,10 @@ description: 로컬 Maven Build Analyzer Plugin 설명서
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
+source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '710'
+ht-degree: 92%
 
 ---
 
@@ -28,6 +28,7 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 | 모듈 | 기능, 예제 및 문제 해결 | 로컬 SDK | Cloud Manager |
 |---|---|---|---|
 | `api-regions-exportsimports` | Maven 프로젝트에 포함된 다른 번들의 패키지 내보내기 선언이 충족하는 패키지 가져오기 선언이 모든 OSGI 번들에 있는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>문제를 해결하려면 배포에 패키지를 제공하는 번들이 포함되어 있는지 확인합니다. 아니면 내보내려는 번들의 매니페스트를 살펴봄으로써 잘못된 이름 또는 잘못된 버전이 사용되었는지를 확인할 수 있습니다. | 예 | 예 |
+| `bundle-unversioned-packages` | OSGi 번들이 Export-Package 선언이 있는 버전과 Import-Package 선언이 있는 버전 범위를 지정하는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>문제를 해결하려면 `package-info.java` 내보낼 버전을 지정하는 패키지로 이동합니다. | 예 | 예 |
 | `requirements-capabilities` | Maven 프로젝트에 포함된 다른 번들의 기능 선언이 OSGI 번들로 제작된 요구 사항 선언을 모두 충족하는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> 문제를 해결하려면 기능을 선언하려는 번들의 매니페스트를 살펴봄으로써 누락된 이유를 확인하거나, 필요한 번들의 매니페스트를 체크인하여 해당 요구 사항이 정확한지 확인합니다. | 예 | 예 |
 | `bundle-content` | 번들에 포함된 최초 콘텐츠가 AEM as a Cloud Service 클러스터된 환경에 문제가 되는 최초 콘텐츠 슬링으로 지정되는 경우 경고 메시지가 나타납니다. 경고 형태는 다음과 같습니다. <p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found initial content : [/]` <p> </p>문제를 해결하려면 최초 콘텐츠를 Repoinit 선언으로 변환하고 Repoinit 설명서를 참조하십시오. | 예 | 예 |
 | `bundle-resources` | 번들에 포함된 리소스가 AEM as a Cloud Service 클러스터된 환경에 문제가 되는 번들 리소스 슬링으로 지정되는 경우 경고 메시지가 나타납니다. 경고 형태는 다음과 같습니다.<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> 문제를 해결하려면 리소스를 Repoinit 선언으로 변환하고 [Repoinit 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=kr#repo-init)를 참조하십시오. | 예 | 예 |
