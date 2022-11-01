@@ -4,14 +4,14 @@ description: 로컬 Maven Build Analyzer Plugin 설명서
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
+workflow-type: tm+mt
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
-# AEM as a Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
+# AEM as a Cloud Service SDK Build Analyzer Maven 플러그인 {#maven-analyzer-plugin}
 
 AEM as a Cloud Service SDK Build Analyzer Maven Plugin은 다양한 콘텐츠 패키지 프로젝트의 구조를 분석합니다.
 
@@ -38,6 +38,7 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 | `configuration-api` | 중요 OSGi 구성을 확인합니다. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `region-deprecated-api` | [더 이상 사용되지 않는 API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=kr)가 사용되고 있는지 확인합니다. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `artifact-rules` | 아티팩트의 알려진 문제를 사전에 방지하기 위해 번들 및 패키지와 같은 종속 항목을 확인합니다.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
+| `aem-env-var` | 에 따라 env vars의 사용을 확인합니다. [변수 이름 지정 안내서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `content-package-validation` | FileVault 유효성 검사기를 실행합니다. 기본적으로 jackrabbit-docviewparser가 활성화되며 배포 도중 설치될 내부 패키지의 xml에 대한 올바른 형식의 콘텐츠 구문을 검사합니다.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>이를 해결하려면 분석기에서 지정한 파일에 xml 문제가 있는지 확인하십시오. | 예 | 예 |
 
 {style=&quot;table-layout:auto&quot;}
