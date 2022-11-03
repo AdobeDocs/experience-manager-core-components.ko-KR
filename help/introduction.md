@@ -1,16 +1,16 @@
 ---
-title: 핵심 구성 요소 도입
+title: 핵심 구성 요소 소개
 description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 핵심 구성 요소 도입{#core-components-introduction}
+# 핵심 구성 요소 소개{#core-components-introduction}
 
 Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘텐츠를 구성하는 구조적 요소입니다. 구성 요소는 항상 AEM 경험의 기본 요소로, 이를 통해 작성자는 간단하지만 강력한 페이지를 만들 수 있고 개발자는 유연하고 확장 가능한 구성 요소를 개발할 수 있습니다.
 
@@ -18,13 +18,13 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 리소스 {#resources}
 
-* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library_kr)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
+* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library_kr_kr)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
 * **구성 요소 설명서(본 문서):** 개발자 및 작성자용 (각 구성 요소에 대한 세부 정보 포함)
 * **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)** 개발자용 (각 구성 요소에 대한 세부 정보 및 프로젝트 다운로드 포함)
 * 시작하기:
    * **[핵심 구성 요소로 성공하기:](/help/developing/success.md)** 핵심 구성 요소를 사용할 프로젝트를 시작하기 전 충분히 고려해야 할 가이드라인
    * **[WKND 튜토리얼:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko-KR)** 2일간 진행되는 신규 사이트 구축 튜토리얼
-   * **[서밋 튜토리얼:](https://expleague.azureedge.net/labs/L767/index.html)** 4시간 동안 진행되는 신규 사이트 구축 튜토리얼 (출처: 2019년 US Summit 랩)
+   * **[서밋 튜토리얼:](https://expleague.azureedge.net/labs/L767/index.html)** 2시간 동안 진행되는 신규 사이트 구축 튜토리얼 (출처: 2019년 US Summit 랩)
    * **[Gems 웨비나:](https://helpx.adobe.com/kr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 핵심 구성 요소 둘러보기 (2018년 12월 녹화분)
 
 ## 기능 {#features}
@@ -117,10 +117,10 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 구성 요소는 [편집 가능한 템플릿](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=ko-KR)을 사용하고 클래식 UI와 정적 템플릿을 지원하지 않습니다. 필요한 경우 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)를 사용하여 해당 최신 AEM 기능이 포함된 프로젝트를 업데이트합니다.
 
-로컬 개발 환경을 설정하려면 다음을 확인하십시오 [AEM as a Cloud Service SDK에 대한 이 개요](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ko-KR) 또는 이 문서 [이전 버전의 AEM용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ko-KR).
+로컬 개발 환경을 설정하려면 기존 버전의 AEM에 대한 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ko-KR) 개요나 [본 문서](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ko-KR)를 참조하십시오.
 
 >[!TIP]
 >
 >핵심 구성 요소는 자동으로 AEM as a Cloud Service의 일부로 적용되고, 핵심 구성 요소 릴리스는 언제나 최신 버전입니다.
 >
->AEMaaCS와 온프레미스에서 핵심 구성 요소를 시작하는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md) 설명서를 참조하십시오.
+>AEMaaCS와 온프레미스에서 핵심 구성 요소를 시작하는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md) 문서를 참조하십시오.
