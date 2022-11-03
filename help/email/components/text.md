@@ -1,31 +1,31 @@
 ---
 title: 이메일 텍스트 구성 요소
-description: 이메일 텍스트 구성 요소는 즉석 편집 기능을 하는 리치 텍스트 편집 및 구성 구성 요소입니다.
+description: 이메일 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 role: Architect, Developer, Admin, User
 hidefromtoc: true
 index: false
 source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2328'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
 # 이메일 텍스트 구성 요소 {#email-text-component}
 
-이메일 텍스트 구성 요소는 즉석 편집 기능을 하는 리치 텍스트 편집 및 구성 구성 요소입니다.
+이메일 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 
-## 사용량 {#usage}
+## 사용 {#usage}
 
-이메일 텍스트 구성 요소는 간소화된 인라인 편집기와 전체 화면 포맷으로 쉽게 텍스트를 편집할 수 있는 강력한 리치 텍스트 편집기를 제공합니다.
+이메일 텍스트 구성 요소는 인라인 편집기와 전체 화면 포맷으로 간편한 텍스트 편집이 가능한 강력한 서식 있는 텍스트 편집기를 제공합니다.
 
 * [편집 대화 상자](#edit-dialog)에는 전체 화면 편집 대화 상자에서 전체 기능을 사용할 수 있고 제한된 옵션이 제공되는 인라인 편집 기능이 있습니다.
-* 사용 [디자인 대화 상자,](#design-dialog) 제목, 특수 문자 및 단락 스타일과 같은 텍스트 서식 옵션은 컨텐츠 작성자의 템플릿에 대해 구성할 수 있습니다.
+* [디자인 대화 상자](#design-dialog)를 통해 콘텐츠 작성자용 템플릿에서 텍스트 서식 옵션을 구성할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이메일 텍스트 구성 요소의 현재 버전은 v1이며, 이 버전은 2022년 10월에 이메일 핵심 구성 요소의 릴리스 X에서 도입되었으며, 이 문서에 설명되어 있습니다.
+현재 버전의 이메일 텍스트 구성 요소는 2022년 10월 이메일 핵심 구성 요소 릴리스 X과(와) 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
@@ -33,27 +33,27 @@ ht-degree: 73%
 |---|---|---|
 | v1 | 호환 가능 | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서를 참조하십시오 [이메일 핵심 구성 요소 버전.](/help/email/versions.md)
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-텍스트 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_text)를 참조하십시오.
+텍스트 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_text_kr)를 참조하십시오.
 
 ### 기술 세부 사항 {#technical-details}
 
-이메일 텍스트 구성 요소에 대한 최신 기술 문서입니다 [gitHub에서 찾을 수 있습니다.](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+이메일 텍스트 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_email_text_v1_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 이메일 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-이메일 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RTE는 구성에 유연하며 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 문서 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+이메일 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
-이 문서의 나머지 부분에서는 기본 제공 RTE 구성과 함께 이메일 텍스트 구성 요소의 표준 구성을 보여줍니다.
+이 문서의 나머지 부분에서 즉시 사용 가능한 RTE 구성과 함께 이메일 텍스트 구성 요소에 대한 표준 구성을 보여 줍니다.
 
 >[!NOTE]
 >
->옵션만 사용 [RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 이메일 텍스트 구성 요소에서 사용할 수 있습니다.
+>[RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 활성화되는 옵션만 이메일 텍스트 구성 요소에서 사용할 수 있습니다.
 
 ## 편집 대화 상자 {#edit-dialog}
 
@@ -61,7 +61,7 @@ ht-degree: 73%
 
 ### 서식 옵션 {#options}
 
-편집 대화 상자는 사용자가 텍스트를 작성할 것으로 예상되는 표준 서식 있는 텍스트 서식 도구를 제공합니다.
+편집 대화 상자는 사용자가 텍스트를 작성할 서식 있는 표준 텍스트 서식 도구를 제공합니다.
 
 #### 볼드체
 
@@ -105,7 +105,7 @@ ht-degree: 73%
 
 서식 지정 없이 복사한 텍스트를 일반 텍스트로 붙여넣습니다.
 
-이 옵션을 선택하면 텍스트를 텍스트에 삽입하기 전에 미리 보기로 서식이 없는 일반 텍스트로 붙여넣을 수 있는 창이 열립니다. 확인 표시를 탭하거나 클릭하여 수락하고 x를 탭하거나 클릭하여 취소합니다.
+이 옵션을 선택하면 서식 지정 없이 텍스트를 일반 텍스트로 붙여넣을 수 있는 창이 텍스트에 삽입되기 전 미리보기로 열립니다. 확인 표시를 탭하거나 클릭하여 수락하고 x를 탭하거나 클릭하여 취소합니다.
 
 ![텍스트로 붙여넣기 예제](/help/assets/text-paste-text-example.png)
 
@@ -113,7 +113,7 @@ ht-degree: 73%
 
 ![Word에서 붙여넣기 아이콘](/help/assets/text-paste-word.png)
 
-이 옵션을 선택하면 텍스트에 삽입되기 전에 텍스트를 미리 보기로 유지하면서 붙여넣을 수 있는 창이 열립니다. 확인 표시를 탭하거나 클릭하여 수락하고 x를 탭하거나 클릭하여 취소합니다.
+이 옵션을 선택하면 서식 지정을 유지하면서 텍스트를 일반 텍스트로 붙여넣을 수 있는 창이 텍스트에 삽입되기 전 미리보기로 열립니다. 확인 표시를 탭하거나 클릭하여 수락하고 x를 탭하거나 클릭하여 취소합니다.
 
 ![Word에서 붙여넣기 사례](/help/assets/text-paste-word-example.png)
 
@@ -121,12 +121,12 @@ ht-degree: 73%
 
 ![하이퍼링크 아이콘](/help/assets/text-hyperlink.png)
 
-이 옵션을 사용하여 선택한 텍스트를 하이퍼링크로 변환하거나 이미 정의된 링크를 수정합니다. 이 옵션을 선택하면 링크를 설정할 수 있는 추가 옵션이 있는 창이 열립니다.
+이 옵션을 사용하여 선택한 텍스트를 하이퍼링크로 변환하거나 이미 정의된 링크를 수정합니다. 이 옵션은 링크 설정 추가 옵션이 있는 창을 엽니다.
 
 ![하이퍼링크 예](/help/assets/text-hyperlink-example.png)
 
 * 경로 입력
-   * 를 사용하십시오 **선택 항목 열기** AEM에서 경로를 선택하는 대화 상자
+   * **선택 열기** 대화 상자를 통해 AEM의 경로 선택
    * 링크가 AEM 내에 없는 경우 절대 URL을 입력합니다.
       * 절대 경로가 아닌 경로는 AEM의 상대 경로로 해석됩니다.
 * 링크에 대한 대체 설명 텍스트 입력
@@ -149,7 +149,7 @@ ht-degree: 73%
 
 ![앵커 아이콘](/help/email/assets/anchor.png)
 
-텍스트에 앵커를 삽입하려면 이 옵션을 사용합니다.
+이 옵션을 사용하여 텍스트에 앵커를 삽입합니다.
 
 #### 찾기
 
@@ -183,21 +183,21 @@ ht-degree: 73%
 * 사례에 따라 정확하게 일치시키려면 **사례 일치** 옵션을 선택한 다음 검색을 시작합니다.
 * **모두 바꾸기**&#x200B;를 선택하여 한 번에 모든 발생 항목을 바꿉니다.
 
-일치가 발견되면 강조 표시되고 검색 대화 상자가 흐리게 표시됩니다. 흐리게 표시된 대화 상자에서 **찾기** 버튼을 다시 클릭하여 다음 발생 항목을 검색하거나, **바꾸기** 버튼을 선택하여 강조 표시 및 일치된 텍스트를 대체합니다. 다음 **바꾸기** 단추는 일치하는 항목이 있는 경우에만 활성화됩니다.
+일치가 발견되면 강조 표시되고 검색 대화 상자가 흐리게 표시됩니다. 흐리게 표시된 대화 상자에서 **찾기** 버튼을 다시 클릭하여 다음 발생 항목을 검색하거나, **바꾸기** 버튼을 선택하여 강조 표시 및 일치된 텍스트를 대체합니다. 일치하는 항목이 있는 경우에만 **바꾸기** 버튼이 활성화됩니다.
 
 찾기를 클릭하면 찾기 및 바꾸기 대화 상자가 투명해지고, 바꾸기를 클릭하면 불투명해집니다. 이로써 작성자는 대체될 텍스트를 검토할 수 있습니다.
 
 >[!NOTE]
 >
->바꾸기 기능을 사용할 때 바꿀 문자열을 찾을 문자열과 동시에 입력해야 합니다. 단, 계속 찾기를 클릭하여 문자열을 대체하기 전에 검색할 수 있습니다. 찾기를 클릭한 후 바꾸기 문자열을 입력하면 검색은 텍스트 시작으로 재설정됩니다.
+>바꾸기 기능을 사용하면 찾을 문자열과 동시에 바꿀 문자열을 입력해야 합니다. 단, 계속 찾기를 클릭하여 문자열을 대체하기 전에 검색할 수 있습니다. 찾기를 클릭한 후 바꾸기 문자열을 입력하면 검색은 텍스트 시작으로 재설정됩니다.
 
 #### 실행 취소
 
 ![실행 취소 아이콘](/help/email/assets/undo.png)
 
-리치 텍스트 편집기에서 마지막 편집을 취소하는 데 사용됩니다.
+리치 텍스트 편집기에서 마지막 편집을 실행 취소하는 데 사용됩니다.
 
-#### 재실행
+#### 다시 실행
 
 ![다시 실행 아이콘](/help/email/assets/redo.png)
 
@@ -285,7 +285,7 @@ ht-degree: 73%
 
 텍스트 맞춤법을 검사하는 데 사용됩니다. 오자는 빨간색 점선으로 밑줄이 그어져 있습니다.
 
-맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 #### 특수 문자 {#special-characters}
 
@@ -319,7 +319,7 @@ ht-degree: 73%
 
 ![단락 형식 아이콘](/help/assets/text-paragraph.png)
 
-선택한 텍스트이나 커서 다음에 삽입한 텍스트에 단락 형식을 적용하는 데 사용됩니다. 이 옵션을 선택하면 단락 형식이 선택된 드롭다운이 열립니다.
+선택한 텍스트이나 커서 다음에 삽입한 텍스트에 단락 형식을 적용하는 데 사용됩니다. 이 옵션을 선택하면 단락 형식이 선택된 위치에서 드롭다운이 열립니다.
 
 ![단락 형식 예제](/help/assets/text-paragraph-example.png)
 
@@ -327,25 +327,25 @@ ht-degree: 73%
 
 ![Adobe Campaign 변수 선택 아이콘](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-를 엽니다. [Adobe Campaign 변수 선택](/help/email/campaign-variables.md) 대화 상자에서 Adobe Campaign의 동적 콘텐츠를 삽입할 수 있습니다.
+Adobe Campaign의 다이내믹 콘텐츠를 삽입하기 위한 [Adobe Campaign 변수 선택](/help/email/campaign-variables.md) 대화 상자를 엽니다.
 
 ### 인라인 편집 {#in-line-editing}
 
-텍스트 구성 요소는 인라인 편집도 가능합니다. 인라인 편집하려면 컨텐츠 페이지에서 이메일 텍스트 구성 요소 를 선택합니다.
+텍스트 구성 요소는 인라인으로도 편집할 수 있습니다. 인라인으로 편집하려면 콘텐츠 페이지에서 이메일 텍스트 구성 요소를 선택합니다.
 
-![전자 메일 텍스트 구성 요소 선택](/help/email/assets/email-text-select-component.png)
+![이메일 텍스트 구성 요소 선택](/help/email/assets/email-text-select-component.png)
 
-그런 다음 **편집** 아이콘을 클릭합니다. 도구 모음이 변경된 경우 **Adobe Campaign 변수 선택** 선택 사항)을 클릭하여 텍스트를 인라인 편집할 수 있습니다.
+그런 다음 구성 요소에 표시되는 팝업 도구 모음에서 **편집** 아이콘을 탭하거나 클릭합니다. 도구 모음이 제한된 텍스트 서식 옵션(**Adobe Campaign 변수 선택** 옵션 액세스 포함)을 표시하도록 변경되며, 텍스트를 인라인으로 편집할 수 있습니다.
 
 ![인라인 편집 예제](/help/email/assets/email-text-edit-inline-example.png)
 
-도구 모음에서 확인 표시를 탭하거나 클릭하여 변경 내용을 저장하거나 취소할 X 를 클릭합니다.
+도구 모음에서 확인 표시를 탭하거나 클릭하여 변경 사항을 저장하거나 X를 눌러 취소합니다.
 
-공간 제어로 인해 일부 서식 옵션이 인라인 형식으로 제공되지는 않습니다. 모든 옵션을 보려면 전체 화면 모드로 전환합니다.
+공간 제약으로 일부 서식 옵션은 인라인에서 사용할 수 없습니다. 모든 옵션을 보려면 전체 화면 모드로 전환합니다.
 
 ### ID 설정 {#setting-id}
 
-이 옵션을 사용하면 HTM에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+이 옵션을 통해 HTML에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
 * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
 * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
@@ -357,7 +357,7 @@ ht-degree: 73%
 
 ### 플러그인 탭 {#plugins-tab}
 
-다음 **Plugins** 탭은 컨텐츠 작성자가 사용할 수 있는 다양한 텍스트 서식 옵션을 활성화하고 비활성화하는 데 사용됩니다.
+**플러그인** 탭을 통해 콘텐츠 작성자가 사용할 수 있는 텍스트 서식 옵션을 활성화 및 비활성화합니다.
 
 ### 기능 {#features}
 
@@ -394,8 +394,8 @@ ht-degree: 73%
 
 * **추가** 버튼을 탭하거나 클릭하여 새 스타일을 삽입합니다.
 * 편집 대화 상자에 표시할 스타일 및 설명에 대한 코드를 입력합니다.
-* 스타일을 제거하려면 **삭제** 버튼을 클릭합니다.
-* 서식 순서를 재정렬하려면 핸들을 탭하거나 클릭하고 드래그합니다.
+* 스타일을 제거하려면 **삭제** 버튼을 탭하거나 클릭합니다.
+* 포맷 순서를 재배열하려면 핸들을 탭하거나 클릭하여 드래그합니다.
 
 ### 특수 문자 {#configuring-special-characters}
 
@@ -405,9 +405,9 @@ ht-degree: 73%
 
 * **추가** 버튼을 탭하거나 클릭하여 새 문자를 삽입합니다.
 * 편집 대화 상자에 표시할 문자 및 설명에 대한 HTML 코드를 입력합니다.
-* 문자를 제거하려면 **삭제** 버튼을 클릭합니다.
+* 문자를 제거하려면 **삭제** 버튼을 탭하거나 클릭합니다.
 * 문자 순서를 재배열하려면 핸들을 탭하거나 클릭하여 드래그합니다.
 
 ## 스타일 탭 {#styles-tab}
 
-이메일 텍스트 구성 요소가 AEM을 지원합니다 [스타일 시스템](/help/get-started/authoring.md#component-styling).
+이메일 텍스트 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
