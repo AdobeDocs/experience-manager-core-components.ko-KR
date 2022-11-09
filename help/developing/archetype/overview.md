@@ -5,13 +5,13 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 2557a72b6bc9ea3f1fd0f73e53b5880f9b6d3ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
 ht-degree: 100%
 
 ---
 
-# AEM 프로젝트 원형 {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사이트 시작 지점으로 만드는 최소한의 모범 사례 기반 Maven 템플릿입니다.
 
@@ -79,7 +79,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`). 이 값은 [유효한 Java 패키지 이름](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)이어야 합니다. |
 | `package` | *`${groupId}`* | Java 소스 패키지 (예: `"com.mysite"`) |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전 (예: `1.0-SNAPSHOT`) |
-| `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
+| `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
 | `sdkVersion` | `latest` | `aemVersion=cloud` 한 개의 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 버전이 지정될 경우 (예: `2020.02.2265.20200217T222518Z-200130`) |
 | `includeDispatcherConfig` | `y` | `aemVersion`(`y` 또는 `n`일 수 있음)의 값에 따라 Cloud 또는 AMS/온프레미스용 발송자 구성을 포함합니다. |
 | `frontendModule` | `general` | 클라이언트 라이브러리를 생성하는 Webpack 프론트엔드 빌드 모듈(일반 사이트용 `general` 또는 `none`일 수 있고, [SPA 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)를 구현하는 단일 페이지 앱용 `angular` 또는 `react`일 수 있음)을 포함합니다. |
