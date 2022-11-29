@@ -4,10 +4,10 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
    + [핵심 구성 요소로 작성](get-started/authoring.md)
    + [핵심 구성 요소 사용](get-started/using.md)
    + [현지화 기능](get-started/localization.md)
-+ 구성 요소 {#components}
++ WCM 구성 요소 {#wcm-components}
    + [아코디언](components/accordion.md)
    + [이동 경로](components/breadcrumb.md)
    + [버튼](components/button.md)
@@ -82,6 +82,22 @@ ht-degree: 100%
       + [목록 (v2)](components/v2/list.md)
       + [페이지 (v2)](components/v2/page.md)
       + [제목 (v2)](components/v2/title.md)
++ 이메일 구성 요소 {#email}
+   + [소개](/help/email/introduction.md)
+   + [이메일 핵심 구성 요소 사용](/help/email/using.md)
+   + [캠페인 변수](/help/email/campaign-variables.md)
+   + [버전](/help/email/versions.md)
+   + 이메일 구성 요소 {#components}
+      + [페이지](/help/email/components/page.md)
+      + [컨테이너](/help/email/components/container.md)
+      + [제목](/help/email/components/title.md)
+      + [텍스트](/help/email/components/text.md)
+      + [이미지](/help/email/components/image.md)
+      + [버튼](/help/email/components/button.md)
+      + [티저](/help/email/components/teaser.md)
+      + [경험 조각](/help/email/components/experience-fragment.md)
+      + [콘텐츠 조각](/help/email/components/content-fragment.md)
+      + [세분화](/help/email/components/segmentation.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing/overview.md)
    + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
@@ -110,19 +126,3 @@ ht-degree: 100%
       + [ui.test 모듈](developing/archetype/uitests.md)
       + [it.tests 모듈](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
-+ 이메일 구성 요소 {#email}
-   + [소개](/help/email/introduction.md)
-   + [이메일 핵심 구성 요소 사용](/help/email/using.md)
-   + [캠페인 변수](/help/email/campaign-variables.md)
-   + [버전](/help/email/versions.md)
-   + 이메일 구성 요소 {#components}
-      + [페이지](/help/email/components/page.md)
-      + [컨테이너](/help/email/components/container.md)
-      + [제목](/help/email/components/title.md)
-      + [텍스트](/help/email/components/text.md)
-      + [이미지](/help/email/components/image.md)
-      + [버튼](/help/email/components/button.md)
-      + [티저](/help/email/components/teaser.md)
-      + [경험 조각](/help/email/components/experience-fragment.md)
-      + [콘텐츠 조각](/help/email/components/content-fragment.md)
-      + [세분화](/help/email/components/segmentation.md)

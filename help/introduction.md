@@ -3,10 +3,10 @@ title: 핵심 구성 요소 소개
 description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 |  |  |
 |---|---|
-| 제작 준비 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 30개의 강력한 구성 요소입니다. |
+| 제작 준비 | 핵심 구성 요소는 30개의 강력한 WCM 구성 요소로서 잘 테스트되고 널리 사용되며 잘 수행됩니다. |
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR), [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko-KR#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
@@ -47,7 +47,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 현지화 가능 | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 [현지화된 해당 콘텐츠를 자동으로 검색하여 렌더링할 수 있습니다](get-started/localization.md). |
 | 오픈 소스 | 매출이 평소와 같지 않다면 [자신의 성과를 공개하십시오](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md). |
 
-## 구성 요소 {#the-components}
+## WCM 구성 요소 {#the-wcm-components}
 
 핵심 구성 요소의 현재 버전은 다음 구성 요소 기능이 있습니다.
 
@@ -124,3 +124,9 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 >핵심 구성 요소는 자동으로 AEM as a Cloud Service의 일부로 적용되고, 핵심 구성 요소 릴리스는 언제나 최신 버전입니다.
 >
 >AEMaaCS와 온프레미스에서 핵심 구성 요소를 시작하는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md) 문서를 참조하십시오.
+
+## 기타 구성 요소 {#other-components}
+
+핵심 구성 요소를 기반으로 구축된 AEM 작성자가 사용할 수 있는 추가 구성 요소가 있습니다.
+
+* [이메일 핵심 구성 요소](/help/email/introduction.md) - Adobe Campaign에서 사용하기 위해 특별히 핵심 구성 요소 위에 구축된 구성 요소를 알아봅니다.
