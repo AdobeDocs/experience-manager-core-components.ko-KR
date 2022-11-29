@@ -2,9 +2,8 @@
 title: 이메일 페이지 구성 요소
 description: 이메일 페이지 구성 요소
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '804'
 ht-degree: 100%
