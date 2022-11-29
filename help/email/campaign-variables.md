@@ -2,9 +2,8 @@
 title: 캠페인 변수
 description: 캠페인 변수를 자리 표시자로 사용하여 개인화된 이메일 콘텐츠를 작성합니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
