@@ -2,12 +2,11 @@
 title: 이메일 핵심 구성 요소 사용
 description: 이메일 핵심 구성 요소의 기본 설치, 구성 및 사용에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 ### 핵심 구성 요소 설치 {#core-components}
 
-이메일 핵심 구성 요소는 AEM 핵심 구성 요소를 기반으로 합니다. 핵심 구성 요소는 AEM과 함께 제공되지 않으므로 이메일 핵심 구성 요소를 설치하기 전에 먼저 AEM 핵심 구성 요소를 설치해야 합니다.
+이메일 핵심 구성 요소는 AEM 핵심 구성 요소를 기반으로 합니다. 핵심 구성 요소가 AEM 6.5와 함께 제공되지 않으므로 이메일 핵심 구성 요소를 설치하기 전에 먼저 AEM 핵심 구성 요소를 설치해야 합니다.
 
 핵심 구성 요소 설치 방법에 대한 자세한 내용은 핵심 구성 요소 사용 문서의 [다운로드 및 설치](/help/get-started/using.md#download-and-install) 섹션을 참조하십시오.
 
@@ -80,6 +79,4 @@ Adobe Campaign에서 이메일 핵심 구성 요소를 기반으로 이메일을
 
 AEM에서 이메일 콘텐츠를 만들고 Adobe Campaign에서 전달하는 예는 다음 리소스를 참조하십시오.
 
-* AEM as a Cloud Service: [AEM으로 Campaign 뉴스레터 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Adobe Campaign Classic 및 Adobe Campaign Standard 작업](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-
