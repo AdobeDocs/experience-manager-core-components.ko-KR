@@ -2,9 +2,8 @@
 title: 이메일 텍스트 구성 요소
 description: 이메일 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '2328'
 ht-degree: 100%
