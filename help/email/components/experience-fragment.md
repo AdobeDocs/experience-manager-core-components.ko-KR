@@ -4,9 +4,9 @@ description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
