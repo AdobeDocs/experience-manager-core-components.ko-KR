@@ -2,9 +2,8 @@
 title: 이메일 콘텐츠 조각 구성 요소
 description: 이메일 콘텐츠 조각 구성 요소를 사용하여 콘텐츠에 콘텐츠 조각을 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '668'
 ht-degree: 100%
