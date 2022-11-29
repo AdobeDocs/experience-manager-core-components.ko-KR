@@ -2,9 +2,8 @@
 title: 이메일 경험 조각 구성 요소
 description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통해 콘텐츠에 경험 조각 변형을 배치하면서 현지화된 콘텐츠 구조를 지원할 수 있습니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '927'
 ht-degree: 100%
