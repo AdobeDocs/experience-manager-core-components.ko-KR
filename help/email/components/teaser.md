@@ -2,9 +2,8 @@
 title: 이메일 티저 구성 요소
 description: 이메일 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: d6123b22-7cba-406c-986d-b6f00322d135
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '1056'
 ht-degree: 100%
