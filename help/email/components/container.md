@@ -2,9 +2,8 @@
 title: 이메일 컨테이너 구성 요소
 description: 이메일 컨테이너 구성 요소를 통해 이메일 콘텐츠에서 다중 추가 구성 요소의 컨테이너를 만들 수 있습니다.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '835'
 ht-degree: 100%
