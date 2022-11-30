@@ -4,9 +4,9 @@ description: 이메일 핵심 구성 요소의 유연성을 사용하여 매력�
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 88%
 
 * 핵심 이메일 구성 요소는 [핵심 구성 요소](/help/introduction.md)에 기반하며 따라서 [편집 가능한 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko-KR) 및 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko-KR)도 지원합니다.
 * 이메일 콘텐츠 작성용으로 [이메일에 최적화되고 제작 준비가 완료된 구성 요소 10개](#components)가 있습니다.
-* 핵심 이메일 구성 요소는 [Adobe Campaign 변수](campaign-variables.md) 대부분의 대화 상자 필드에서 참조할 수 있습니다.
-* 유연한 [세그먼테이션 구성 요소](/help/email/components/segmentation.md) 을(를) 통해 컨텐츠의 고급 세분화를 수행할 수 있습니다.
-* 핵심 이메일 구성 요소는 [CSS 스타일 인라이너,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-기술 설명서) [HTML 속성 인라이너](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) 및 [HTML 삭제기](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)를 통해 이메일에 최적화된 HTML 출력을 제공합니다.
+* 핵심 이메일 구성 요소는 대부분의 대화 상자 필드에서의 [Adobe Campaign 변수](campaign-variables.md) 삽입을 통해 고급 개인화 기능을 제공합니다.
+* 유연한 [세분화 구성 요소](/help/email/components/segmentation.md) 덕분에 콘텐츠의 고급 세분화가 가능합니다.
+* 핵심 이메일 구성 요소는 [CSS 스타일 인라이너,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML 속성 인라이너](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) 및 [HTML 삭제기](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)를 통해 이메일에 최적화된 HTML 출력을 제공합니다.
 * `/content` 아래 어디에나 이메일 콘텐츠를 만들 수 있습니다.
 * 이메일 핵심 구성 요소는 [오픈 소스](https://github.com/adobe/aem-core-email-components)입니다.
 
@@ -42,7 +42,7 @@ ht-degree: 88%
 
 | AEM | Adobe Campaign | 핵심 구성 요소 |
 |---|---|---|
-| AEM 6.5.14.0+<br>온-프레미스 또는 AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [릴리스 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>온프레미스 또는 AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [릴리스 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
