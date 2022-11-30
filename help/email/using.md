@@ -4,9 +4,9 @@ description: 이메일 핵심 구성 요소의 기본 설치, 구성 및 사용�
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ### 핵심 구성 요소 설치 {#core-components}
 
-이메일 핵심 구성 요소는 AEM 핵심 구성 요소를 기반으로 합니다. 핵심 구성 요소가 AEM 6.5와 함께 제공되지 않으므로 이메일 핵심 구성 요소를 설치하기 전에 먼저 AEM 핵심 구성 요소를 설치해야 합니다.
+이메일 핵심 구성 요소는 AEM 핵심 구성 요소를 기반으로 합니다. 핵심 구성 요소는 AEM 6.5와 함께 제공되지 않으므로 이메일 핵심 구성 요소를 설치하기 전에 먼저 AEM 핵심 구성 요소를 설치해야 합니다.
 
 핵심 구성 요소 설치 방법에 대한 자세한 내용은 핵심 구성 요소 사용 문서의 [다운로드 및 설치](/help/get-started/using.md#download-and-install) 섹션을 참조하십시오.
 
