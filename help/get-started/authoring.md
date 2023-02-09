@@ -3,8 +3,8 @@ title: 핵심 구성 요소로 작성
 description: AEM에서 구성 요소는 작성 중인 페이지의 콘텐츠를 구성하는 구조적 요소이며, 핵심 구성 요소는 유연하고 다양한 작성 기능을 제공합니다.
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 

@@ -2,10 +2,10 @@
 title: 응용 Forms 코어 구성 요소 - 패널 컨테이너
 description: 응용 Forms 패널 컨테이너 코어 구성 요소 사용 또는 사용자 지정
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,10 @@ ht-degree: 2%
 
 응용 Forms 패널 컨테이너 코어 구성 요소는 코어 구성 요소 2.0.4의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
+|  |  |
+|---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 호환 가능 with<br>[릴리스 2.0.4](/help/versions.md) 나중에 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서.
@@ -92,7 +94,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **화면 판독기에서 알릴 HTML 역할** - HTML 역할은 화면 판독기와 같은 보조 기술에 HTML 요소의 목적을 지정하는 데 사용되는 속성입니다. 역할 속성은 요소에 추가적인 컨텍스트 및 의미 부여를 제공하는 데 사용되며, 따라서 화면 판독기에서 컨텐츠를 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 &quot;label&quot;이라는 역할을 가질 수 있으며 해당 입력 필드에는 &quot;textbox&quot;의 역할이 있을 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알려줍니다.
 
-## 디자인 대화 상자 {#design-dialog}
 
 
 

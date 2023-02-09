@@ -2,9 +2,9 @@
 title: 응용 Forms 코어 구성 요소 - 헤더
 description: 응용 Forms 헤더 코어 구성 요소 사용 또는 사용자 지정
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 7%
 
 ---
@@ -34,10 +34,11 @@ ht-degree: 7%
 
 응용 Forms 헤더 코어 구성 요소는 코어 구성 요소 2.0.4의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서에 대한 링크를 보여주는 표입니다.
 
+|  |  |
+|---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 호환 가능 with<br>[릴리스 2.0.4](/help/versions.md) 나중에 | 호환 가능 | 호환 가능 |
-
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서.
 
 
@@ -80,6 +81,5 @@ To experience the Accordion Component as well as see examples of its configurati
 
 이 섹션에서는 헤더에 포함할 텍스트를 입력할 수 있습니다.
 
-## 디자인 대화 상자 {#design-dialog}
 
 

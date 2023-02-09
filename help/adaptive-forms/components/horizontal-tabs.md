@@ -2,7 +2,7 @@
 title: 적응형 Forms 코어 구성 요소 - 가로 탭
 description: 응용 Forms 가로 탭 코어 구성 요소 사용 또는 사용자 지정
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1584'
 ht-degree: 3%
@@ -32,8 +32,10 @@ ht-degree: 3%
 
 응용 Forms 가로 탭 코어 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
+|  |  |
+|---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 호환 가능 with<br>[릴리스 2.0.4](/help/versions.md) 나중에 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서.

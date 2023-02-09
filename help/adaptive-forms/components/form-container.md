@@ -2,9 +2,9 @@
 title: 적응형 Forms 코어 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식 추가
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,10 @@ Forms을 사용하면 웹 사이트 방문자가 중요한 정보를 제공하�
 
 응용 Forms 컨테이너 코어 구성 요소는 코어 구성 요소 2.0.4의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
+|  |  |
+|---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 호환 가능 with<br>[릴리스 2.0.4](/help/versions.md) 나중에 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서.
@@ -72,6 +74,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![제출 탭](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 사용자는 적응형 양식 제출에 대해 다른 작업을 구성할 수 있습니다.
+
 * **리디렉션 URL/경로** - 이 옵션을 사용하면 적응형 양식을 제출한 후 양식 사용자가 리디렉션되는 각 양식에 대해 페이지를 구성할 수 있습니다. 자세한 내용을 보려면 여기를 클릭하십시오. [리디렉션 페이지 구성 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![메시지 탭 표시](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **작업 제출** - 사용자가 적응형 양식에서 제출 단추를 클릭하면 제출 작업이 트리거됩니다. 사용자는 드롭다운 목록에서 즉시 지원되는 작업 제출 을 선택할 수 있습니다. 방법 알아보기 [제출 탭에서 제출 작업 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## 디자인 대화 상자 {#design-dialog}
 
 
 
