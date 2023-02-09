@@ -4,9 +4,9 @@ description: “나만의 프로젝트에서 핵심 구성 요소를 시작하�
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
    * 향후 릴리스에서 핵심 구성 요소가 포함되면 파이프라인 빌드에 오류가 발생합니다.
 * 이전에 `/apps`의 핵심 구성 요소가 프로젝트에 포함되면 [프로젝트를 조정할 수 있습니다.](/help/developing/overview.md#via-aemaacs)
 * 핵심 구성 요소가 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. 구성 요소의 모든 측면을 사용자 정의해야 할 경우 대신 [프록시 구성 요소 패턴](/help/developing/guidelines.md#proxy-component-pattern)을 사용해야 합니다.
-* 을 위해 [목차 구성 요소](/help/components/tableofcontents.md) 콘텐츠를 렌더링하려면 OSGi에서 필터를 구성해야 합니다.
-   * [구성 요소의 GitHub 설명서를 참조하십시오](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_kr) 추가 정보.
+* [목차 구성 요소](/help/components/tableofcontents.md)가 콘텐츠를 렌더링하려면 OSGi에서 필터를 구성해야 합니다.
+   * 자세한 내용은 [구성 요소의 GitHub 설명서를 참조하십시오](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_kr).
 
 ### AEM 6.5 및 이전 {#aem-65}
 
