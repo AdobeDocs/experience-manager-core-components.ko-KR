@@ -4,10 +4,10 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 79%
 
 ---
 
@@ -98,6 +98,30 @@ ht-degree: 100%
       + [경험 조각](/help/email/components/experience-fragment.md)
       + [콘텐츠 조각](/help/email/components/content-fragment.md)
       + [세분화](/help/email/components/segmentation.md)
++ 적응형 양식 {#adaptive-forms}
+   + [소개](/help/adaptive-forms/introduction.md)
+   + 응용 Forms 구성 요소 {#adaptive-forms-components}
+      + [적응형 Forms 아코디언](/help/adaptive-forms/components/accordion.md)
+      + [응용 Forms 단추](/help/adaptive-forms/components/button.md)
+      + [적응형 Forms 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
+      + [적응형 Forms 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
+      + [적응형 Forms 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+      + [적응형 Forms 이메일 입력](/help/adaptive-forms/components/email-input.md)
+      + [적응형 Forms 파일 첨부](/help/adaptive-forms/components/file-attachment.md)
+      + [적응형 Forms 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [응용 Forms 이미지](/help/adaptive-forms/components/image.md)
+      + [적응형 Forms 번호 입력](/help/adaptive-forms/components/number-input.md)
+      + [응용 Forms 패널](/help/adaptive-forms/components/panel-container.md)
+      + [응용 Forms 라디오 단추](/help/adaptive-forms/components/radio-button.md)
+      + [적응형 Forms 재설정 단추](/help/adaptive-forms/components/reset-button.md)
+      + [응용 Forms 제출 단추](/help/adaptive-forms/components/submit-button.md)
+      + [적응형 Forms 전화 입력](/help/adaptive-forms/components/telephone-input.md)
+      + [응용 Forms 텍스트](/help/adaptive-forms/components/text.md)
+      + [응용 Forms 텍스트 상자](/help/adaptive-forms/components/text-input.md)
+      + [응용 Forms 제목](/help/adaptive-forms/components/title.md)
+      + [응용 Forms 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
+      + [헤더](/help/adaptive-forms/components/header.md)
+      + [바닥글](/help/adaptive-forms/components/footer.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](developing/overview.md)
    + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
