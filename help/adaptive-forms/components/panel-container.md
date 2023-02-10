@@ -2,7 +2,7 @@
 title: 응용 Forms 코어 구성 요소 - 패널 컨테이너
 description: 응용 Forms 패널 컨테이너 코어 구성 요소 사용 또는 사용자 지정
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 1%
