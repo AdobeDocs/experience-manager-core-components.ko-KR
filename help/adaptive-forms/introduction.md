@@ -2,10 +2,10 @@
 title: AEM 응용 Forms 핵심 구성 요소 소개
 description: 적응형 Forms 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능을 사용하여 전달할 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 11%
+source-wordcount: '1028'
+ht-degree: 13%
 
 ---
 
@@ -40,11 +40,14 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지 및 양식을 만
 | 클라우드 기반 | 사용 가능  [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 유연성 | 구성 요소는 Forms 작성자가 거의 모든 레이아웃을 어셈블할 수 있는 일반 개념을 나타냅니다. |
 | 구성 가능 | 템플릿 수준 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko-KR#content-policies) 사용할 수 있거나 사용하지 않을 기능을 정의합니다. |
-| 액세스 가능 | 그들은 [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/), ARIA 레이블 제공, 키보드 탐색 지원([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle), 및 텍스트(예: 화면 판독기). |
+| 액세스 가능 | ARIA 레이블을 제공하고 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle), 및 텍스트(예: 화면 판독기). |
 | 테마 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko-KR)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
 | 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 간편한 맞춤화를 구현할 수 있습니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
 | 오픈 소스 | 만약 어떤 것이 필요한 것이 아니라면, 여러분의 개선에 기여하세요. |
+
+<!-- comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), -->
+
 
 ## 이점 {#benefits}
 
@@ -62,17 +65,22 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지 및 양식을 만
 
 * **스타일을 쉽게 지정**: 코어 구성 요소 는 기초 구성 요소 상대보다 스타일을 지정하는 것이 더 쉽습니다. 테마 만들기 프로세스는 상위 사이트 페이지에서 동일한 테마/CSS를 상속할 수 있는 기능을 사용하여 Sites와 유사합니다. 또한 스타일링용 BEM 모델을 사용하면 스타일을 쉽게 이해하고 수정할 수 있습니다.
 
-* **접근성**: 응용 Forms 핵심 구성 요소는 다음과 같은 액세스 가능성 표준 및 지침을 지원합니다  [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 호출하여 화면 판독기와 같은 보조 기술을 사용하는 등 장애가 있는 사람이 양식을 사용할 수 있도록 했습니다.
+* **접근성**: 적응형 Forms 코어 구성 요소 는 화면 판독기와 같은 보조 기술을 사용하는 사용자를 비롯하여 장애가 있는 사람이 양식을 사용할 수 있도록 하는 접근성 표준 및 지침을 지원합니다
 
-* **AEM Sites과 정렬**: 코어 구성 요소는 AEM Sites과 보다 잘 정렬되도록 설계되었으므로 사이트 사용자가 새로운 기능을 배우지 않고도 핵심 구성 요소를 쉽게 채택하고 사용할 수 있습니다. 컴포넌트는 사이트와 동일한 프런트 엔드 파이프라인을 사용하여 모양새를 보다 쉽게 스타일을 지정하고 수정할 수 있습니다. 또한 다음 점은 이 정렬을 추가로 보여 줍니다.
 
-   * **페이지 편집기를 사용하여 인라인 경험 작성**: 핵심 구성 요소에는 페이지 편집기와 유사한 대화 상자 및 기타 경험과 함께 사이트 편집기로 인라인으로 작성된 작성 경험이 있습니다. 이렇게 하면 Sites 사용자가 Sites 편집기의 친숙한 컨텍스트 내에서 양식을 쉽게 만들고 관리할 수 있습니다.
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
-   * **사이트 편집기에서 인라인 양식 편집**: 코어 구성 요소를 사용하면 편집기 내에서 인라인 양식을 편집할 수 있으므로 편집기 간을 앞뒤로 전환할 필요가 없습니다. 이를 통해 작성 환경을 간소화하고 양식을 보다 쉽게 만들고 관리할 수 있습니다.
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
 
-   * **Forms의 사이트 기능 상속**: 사이트 페이지에서 작성된 Forms은 사이트와 동일한 기능을 상속합니다. AEM Sites 컨텍스트 내에서 양식을 만들고 관리할 수 있도록 원활하고 통합된 환경을 제공합니다
+<!-- Additionally, the following points further illustrate this alignment:
 
-   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
 
 
