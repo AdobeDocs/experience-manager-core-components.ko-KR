@@ -3,9 +3,9 @@ title: 티저 구성 요소
 description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '999'
+source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
+workflow-type: tm+mt
+source-wordcount: '988'
 ht-degree: 100%
 
 ---
@@ -79,12 +79,8 @@ ht-degree: 100%
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
    * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 * **접근성을 위한 대체 텍스트** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
-   * **페이지에서 대체 텍스트 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 에셋이 없는 경우 현재 페이지의 연결된 에셋 값에 대한 대체 설명을 사용합니다.
-* **대체 텍스트를 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
-
->[!NOTE]
->
->[Dynamic Media 기능](image.md#dynamic-media)은 현재 티저 구성 요소에서 사용할 수 없습니다.
+   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 에셋이 없는 경우 현재 페이지의 연결된 에셋 값에 대한 대체 설명을 사용합니다.
+* **그림 설명을 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
 
 ### 스타일 탭 {#styles-tab-edit}
 
