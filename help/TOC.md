@@ -7,7 +7,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 199cd9e1e49a1f7b939aa9cc3a62dcb3e0db96cd
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,26 +102,26 @@ ht-degree: 79%
       + [세분화](/help/email/components/segmentation.md)
 + 적응형 양식 {#adaptive-forms}
    + [소개](/help/adaptive-forms/introduction.md)
-   + 응용 Forms 구성 요소 {#adaptive-forms-components}
-      + [적응형 Forms 아코디언](/help/adaptive-forms/components/accordion.md)
-      + [응용 Forms 단추](/help/adaptive-forms/components/button.md)
-      + [적응형 Forms 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
-      + [적응형 Forms 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
-      + [적응형 Forms 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
-      + [적응형 Forms 이메일 입력](/help/adaptive-forms/components/email-input.md)
-      + [적응형 Forms 파일 첨부](/help/adaptive-forms/components/file-attachment.md)
-      + [적응형 Forms 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
-      + [응용 Forms 이미지](/help/adaptive-forms/components/image.md)
-      + [적응형 Forms 번호 입력](/help/adaptive-forms/components/number-input.md)
-      + [응용 Forms 패널](/help/adaptive-forms/components/panel-container.md)
-      + [응용 Forms 라디오 단추](/help/adaptive-forms/components/radio-button.md)
-      + [적응형 Forms 재설정 단추](/help/adaptive-forms/components/reset-button.md)
-      + [응용 Forms 제출 단추](/help/adaptive-forms/components/submit-button.md)
-      + [적응형 Forms 전화 입력](/help/adaptive-forms/components/telephone-input.md)
-      + [응용 Forms 텍스트](/help/adaptive-forms/components/text.md)
-      + [응용 Forms 텍스트 상자](/help/adaptive-forms/components/text-input.md)
-      + [응용 Forms 제목](/help/adaptive-forms/components/title.md)
-      + [응용 Forms 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
+   + 적응형 양식 구성 요소 {#adaptive-forms-components}
+      + [적응형 양식 아코디언](/help/adaptive-forms/components/accordion.md)
+      + [적응형 양식 버튼](/help/adaptive-forms/components/button.md)
+      + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
+      + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
+      + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+      + [적응형 양식 이메일 입력](/help/adaptive-forms/components/email-input.md)
+      + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
+      + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
+      + [적응형 양식 숫자 입력](/help/adaptive-forms/components/number-input.md)
+      + [적응형 양식 패널](/help/adaptive-forms/components/panel-container.md)
+      + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
+      + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
+      + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
+      + [적응형 양식 전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
+      + [적응형 양식 텍스트](/help/adaptive-forms/components/text.md)
+      + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-input.md)
+      + [적응형 양식 제목](/help/adaptive-forms/components/title.md)
+      + [적응형 양식 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
       + [헤더](/help/adaptive-forms/components/header.md)
       + [바닥글](/help/adaptive-forms/components/footer.md)
 + 개발 {#developing}
