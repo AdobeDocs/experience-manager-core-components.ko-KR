@@ -4,9 +4,9 @@ description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 
 
-* **ID**: 이 옵션을 사용하면 HTML 및 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+* **ID**: 이 옵션을 통해 HTML과 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
    * 비워 두면 고유 ID는 자동으로 * 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
