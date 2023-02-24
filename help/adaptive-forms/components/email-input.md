@@ -4,7 +4,7 @@ description: 적응형 양식 이메일 입력 핵심 구성 요소를 사용 �
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1776'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ To experience the Accordion Component as well as see examples of its configurati
 <br>
 
     **유효성 검사 패턴** 옵션을 사용하면 입력한 이메일 ID의 유효성을 검사하는 패턴을 입력할 수 있습니다. 이메일 ID가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패한 경우 화면에 오류 메시지가 표시됩니다.
-    * **패턴** - 이 옵션을 사용하면 이메일에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규식도 허용됩니다.
+    * **패턴** - 이 옵션을 사용하면 이메일에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규 표현식도 허용됩니다.
     * **오류 메시지** - 이 옵션을 사용하면 이메일 ID가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패할 경우 화면에 표시되는 메시지를 입력할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
