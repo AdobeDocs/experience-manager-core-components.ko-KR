@@ -1,26 +1,26 @@
 ---
 title: 목록 구성 요소 (v3)
-description: 코어 구성 요소 목록 구성 요소(v3)를 사용하면 정적 목록과 동적 목록을 쉽게 만들 수 있습니다.
+description: 핵심 구성 요소의 목록 구성 요소(v3)를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
+source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-
 # 목록 구성 요소 (v3) {#list-component}
 
-코어 구성 요소 목록 구성 요소(v3)를 사용하면 정적 목록과 동적 목록을 쉽게 만들 수 있습니다.
+핵심 구성 요소의 목록 구성 요소(v3)를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 
 ## 사용 {#usage}
 
-목록 구성 요소(v3)를 사용하여 하위 페이지의 동적 목록이나 임의로 정의된 항목의 정적 목록 등을 만들 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 목록 유형 및 서식 지정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 목록 유형 및 목록 요소 서식 지정 방법을 선택할 수 있습니다.
+목록 구성 요소(v3)를 사용하여 하위 페이지에 대한 동적 목록 또는 임의로 정의된 항목에 대한 정적 목록을 만들 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 목록 유형 및 서식 지정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 목록 유형 및 목록 요소 서식 지정 방법을 선택할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-이 문서에서는 2022년 2월에 코어 구성 요소 릴리스 2.18.0과 함께 소개된 목록 구성 요소의 v3에 대해 설명합니다.
+이 문서는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 목록 구성 요소의 v3에 대해 설명합니다.
 
 >[!CAUTION]
 >
@@ -54,7 +54,7 @@ ht-degree: 93%
 
 목록 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_list_kr)를 참조하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3).
 
