@@ -4,9 +4,9 @@ description: 적응형 양식 텍스트 입력 핵심 구성 요소를 사용 �
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1727'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -100,9 +100,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 **유효성 검사 패턴** 옵션을 사용하면 입력한 텍스트의 유효성을 검사하는 패턴을 입력할 수 있습니다. 텍스트가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패한 경우 화면에 오류 메시지가 표시됩니다.
 
-* **패턴** - 이 옵션을 사용하면 텍스트에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규식도 허용됩니다.
+* **패턴** - 이 옵션을 사용하면 텍스트에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규 표현식도 허용됩니다.
 
-* **오류 메시지** - 이 옵션을 사용하면 입력한 텍스트가 **패턴** 옵션
+* **오류 메시지** - 이 옵션을 사용하면 텍스트가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패할 경우 화면에 표시되는 메시지를 입력할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
