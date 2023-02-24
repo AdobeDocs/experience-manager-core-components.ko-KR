@@ -5,7 +5,7 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ AEM Project Archetype은 Adobe Experience Manager(AEM) 프로젝트를 웹 사�
 * **예제 코드:** HelloWorld 구성 요소와 샘플 모드, 서블릿, 필터 및 스케줄러 체크아웃.
 * **오픈 소스:** 매출이 평소와 같지 않다면 자신의 성과를 [공개](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)하십시오.
 
-## 사용량 {#usage}
+## 사용 {#usage}
 
 프로젝트를 생성하려면 필요에 맞게 다음 명령줄을 조정해야 합니다.
 
@@ -76,7 +76,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `appTitle` |  | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
 | `appId` |  | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
 | `artifactId` | *`${appId}`* | 기본 Maven 아티팩트 ID (예: `"mysite"`) |
-| `groupId` |  | 기본 Maven 그룹 ID(예: `"com.mysite"`). 이 값은 [유효한 Java 패키지 이름](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)이어야 합니다. |
+| `groupId` |  | 기본 Maven 그룹 ID (예: `"com.mysite"`) 이 값은 [유효한 Java 패키지 이름](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)이어야 합니다. |
 | `package` | *`${groupId}`* | Java 소스 패키지 (예: `"com.mysite"`) |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전 (예: `1.0-SNAPSHOT`) |
 | `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
@@ -89,10 +89,10 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예시 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeErrorHandler` | `n` | 전체 인스턴스 전역의 사용자 정의 404 반응형 페이지(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
-| `commerceEndpoint` |  | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 끝점(예: `https://hostname.com/grapql`). |
+| `commerceEndpoint` |  | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 엔드포인트(예: `https://hostname.com/grapql`). |
 | `includeFormscommunications` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 커뮤니케이션 프로그램에 해당하는 아티팩트를 생성합니다. |
 | `includeFormsenrollment` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 등록 프로그램에 해당하는 아티팩트를 생성합니다. |
-| `sdkFormsVersion` | `latest` | `aemVersion=cloud` 및 `includeFormsenrollment=y` 또는 `includeFormscommunications=y` 중 하나이면, Forms SDK 버전을 지정할 수 있습니다(예: `2020.12.17.02`). |
+| `sdkFormsVersion` | `latest` | `aemVersion=cloud` 및 `includeFormsenrollment=y` 또는 `includeFormscommunications=y` 중 하나이면 Forms SDK 버전을 지정할 수 있습니다(예: `2020.12.17.02`). |
 | `datalayer` | `y` | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)와의 통합 기능을 활성화합니다. |
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대한 [AMP](/help/developing/amp.md) 지원을 활성화합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
