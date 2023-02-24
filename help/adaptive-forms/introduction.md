@@ -4,9 +4,9 @@ description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Manager의 적응형 양식 핵심 구성 요소를 사용하�
 
 ## 핵심 구성 요소  {#overview}
 
-Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작성하는 데 사용되는 빌딩 블록입니다. 작성자가 콘텐츠를 만들고 관리할 수 있는 간단하고 강력한 방법을 제공하는 동시에 개발자에게 사용자 정의 구성 요소를 만드는 데 필요한 유연성과 확장성을 제공합니다. 이 설계는 개발 시간을 단축하고 웹 사이트 및 양식에 대한 유지 관리 비용을 절감하도록 설계되었으며, 유연하고 웹 사이트 및 양식의 특정 요구 사항에 맞게 손쉽게 사용자 지정할 수 있습니다.
+Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작성하는 데 사용되는 빌딩 블록입니다. 작성자가 콘텐츠를 만들고 관리할 수 있는 간단하고 강력한 방법을 제공하는 동시에 개발자에게 사용자 정의 구성 요소를 만드는 데 필요한 유연성과 확장성을 제공합니다. 이는 개발을 가속화하고 웹 사이트 및 양식의 유지 관리 비용을 절감하도록 설계되었으며, 유연하고 웹 사이트 및 양식의 특정 요구 사항에 맞게 쉽게 사용자 정의할 수 있습니다.
 
 또한 핵심 구성 요소는 응답성이 뛰어나며 데스크탑, 태블릿 및 스마트폰을 포함한 다양한 디바이스를 지원하도록 설계되었습니다. 최신 웹 표준 및 모범 사례를 준수하여 강력하고 신뢰할 수 있는 웹 콘텐츠 제작 솔루션이기도 합니다.
 
@@ -39,9 +39,9 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 | 제작 준비 | 반응형 양식 핵심 구성 요소는 24개의 강력한 WCM 구성 요소입니다. |
 | 클라우드 기반 | [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html)에 사용할 수 있습니다. |
 | 유연성 | 구성 요소는 양식 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반적인 개념을 나타냅니다. |
-| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko-KR#content-policies)은 사용하거나 사용할 수 없는 기능이 무엇인지 정의합니다. |
-| 액세스 가능 | ARIA 레이블을 제공하고 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle), 및 텍스트(예: 화면 판독기). |
-| 테마 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko-KR)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
+| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)은 사용하거나 사용할 수 없는 기능이 무엇인지 정의합니다. |
+| 액세스 가능 | ARIA 레이블을 제공하고, 키보드 탐색([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))을 지원하며, 화면 판독기와 같은 보조 기술용 텍스트를 제공합니다. |
+| 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
 | 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 간편한 맞춤화를 구현할 수 있습니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
 | 오픈 소스 | 매출이 평소와 같지 않다면 자신의 성과를 공개하십시오. |
@@ -51,21 +51,21 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 ## 이점 {#benefits}
 
-데이터 캡처 경험은 리드 생성 및 등록에 매우 중요하며 적응형 양식 핵심 구성 요소는 데이터 캡처에 최적화된 양식을 만들기 위한 강력한 솔루션을 제공합니다. 기초 구성 요소를 통해 이러한 경험을 만들기 위해 핵심 구성 요소를 사용해야 하는 몇 가지 이유는 다음과 같습니다.
+데이터 캡처 경험은 리드 생성 및 등록에 매우 중요하며 적응형 양식 핵심 구성 요소는 데이터 캡처에 최적화된 양식을 만들기 위한 강력한 솔루션을 제공합니다. 핵심 구성 요소를 사용하여 기초 구성 요소에 대한 이러한 경험을 만드는 데에는 다음과 같은 몇 가지 이유가 있습니다.
 
-* **GitHub 및 포괄적인 설명서의 가용성**: AEM 적응형 Forms 코어 구성 요소 는 오픈 소스이며 포괄적인 설명서와 함께 GitHub에서 사용할 수 있습니다. 이를 통해 개발자가 구성 요소와 작동 방식을 쉽게 이해하고 개발에 기여할 수 있습니다. 다음 [aemcomponents.dev](https://www.aemcomponents.dev/) 웹 사이트는 개발자가 사용 중인 구성 요소를 확인하고 세부 설명서에 액세스할 수 있는 중요한 리소스입니다.
+* **GitHub 및 포괄적인 설명서에 대한 가용성**: AEM 적응형 양식 핵심 구성 요소는 오픈 소스이며 포괄적인 설명서와 함께 GitHub에서 사용할 수 있습니다. 이를 통해 개발자는 구성 요소와 작동 방식을 보다 쉽게 이해할 수 있을 뿐만 아니라 개발에 기여할 수 있습니다. 개발자가 작동 중인 구성 요소를 확인하고 자세한 설명서에 액세스할 수 있는 유용한 리소스인 [emcomponents.dev](https://www.aemcomponents.dev/) 웹 사이트도 있습니다.
 
-* **스타일링용 BEM 모델**: 코어 구성 요소는 CSS를 구성하기 위해 잘 설정되어 널리 사용되는 방법론인 BEM(블록 요소 수정자) 모델을 따릅니다. 따라서 개발자가 스타일을 구성하는 방법과 특정 요구에 맞게 수정하는 방법을 쉽게 이해할 수 있습니다.
+* **스타일링용 BEM 모델**: 핵심 구성 요소는 CSS를 구성하기 위해 잘 정립되고 널리 사용되는 방법론인 스타일링용 BEM(블록 요소 수정자) 모델을 따릅니다. 이를 통해 개발자가 스타일을 구성하는 방법과 특정 요구 사항에 맞게 스타일을 수정하는 방법을 보다 쉽게 이해할 수 있습니다.
 
-* **타사 라이브러리에 대한 종속성 없음**: 핵심 구성 요소의 이점 중 하나는 JQuery 및 밑줄을 비롯한 타사 JavaScript 라이브러리에 종속되지 않는다는 것입니다. 이를 통해 구성 요소를 보다 빠르고 간단하게 만들 수 있을 뿐만 아니라 기존 AEM 구현에 쉽게 통합할 수 있습니다.
+* **서드파티 라이브러리에 대한 종속성 없음**: 핵심 구성 요소의 장점 중 하나는 JQuery 및 Underscore를 비롯한 서드파티 JavaScript 라이브러리에 종속되지 않는다는 점입니다. 이를 통해 구성 요소가 더 빠르고 가벼워질 뿐만 아니라 기존 AEM 구현에 쉽게 통합될 수 있습니다.
 
-* **성능 및 접근성에 집중**: 코어 구성 요소는 높은 Google Lighthouse 및 웹 바이탈 점수에 반영되는 성능과 액세서빌러티를 염두에 두고 빌드됩니다. 이를 통해 개발자가 액세스 가능하고 성과가 좋은 웹 페이지를 만들기가 쉬워지므로 오늘날의 디지털 환경에서 이러한 작업이 점점 중요해지고 있습니다.
+* **성능 및 접근성에 대한 포커스**: 핵심 구성 요소는 성능과 접근성을 염두에 두고 구축되었으며, 이는 높은 Google Lighthouse 및 웹 바이탈 점수에 반영됩니다. 이를 통해 개발자는 오늘날의 디지털 환경에서 점점 더 중요해지고 있는 접근성이 뛰어난 고성능 웹 페이지를 보다 쉽게 만들 수 있습니다.
 
-* **Sites 30 템플릿 및 테마의 양식 구성 요소**: 핵심 구성 요소는 Sites 30 템플릿 및 테마의 양식 구성 요소를 지원하므로 개발자가 AEM 내에서 양식을 쉽게 만들고 사용자 지정할 수 있습니다.
+* **Sites 30 템플릿 및 테마의 양식 구성 요소**: 핵심 구성 요소는 Sites 30 템플릿 및 테마의 양식 구성 요소를 지원하므로 개발자가 AEM 내에서 양식을 보다 쉽게 만들고 사용자 정의할 수 있습니다.
 
-* **스타일을 쉽게 지정**: 코어 구성 요소 는 기초 구성 요소 상대보다 스타일을 지정하는 것이 더 쉽습니다. 테마 만들기 프로세스는 상위 사이트 페이지에서 동일한 테마/CSS를 상속할 수 있는 기능을 사용하여 Sites와 유사합니다. 또한 스타일링용 BEM 모델을 사용하면 스타일을 쉽게 이해하고 수정할 수 있습니다.
+* **스타일링 용이성**: 핵심 구성 요소는 기초 구성 요소보다 스타일링이 더 쉽습니다. 테마 생성 프로세스는 Sites와 유사하며 상위 Sites 페이지에서 동일한 테마/CSS를 상속할 수 있습니다. 또한 스타일링용 BEM 모델을 사용하면 스타일을 보다 쉽게 이해하고 수정할 수 있습니다.
 
-* **접근성**: 적응형 Forms 코어 구성 요소 는 화면 판독기와 같은 보조 기술을 사용하는 사용자를 비롯하여 장애가 있는 사람이 양식을 사용할 수 있도록 하는 접근성 표준 및 지침을 지원합니다
+* **접근성**: 적응형 양식 핵심 구성 요소는 접근성 표준 및 지침을 지원하여 화면 판독기와 같은 보조 기술을 사용하는 사용자를 포함하여 장애를 가진 사용자도 양식을 사용할 수 있도록 합니다
 
 
 <!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
@@ -95,7 +95,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 ## 적응형 양식 핵심 구성 요소 {#components}
 
-다음을 사용할 수 있습니다 [적응형 Forms 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) 응용 Forms을 기반으로 하는 핵심 구성 요소를 만들려면 응용 Forms 핵심 구성 요소의 현재 버전은 아래에 나열된 구성 요소 입니다.
+[적응형 양식 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)를 사용하여 핵심 구성 요소 기반의 적응형 양식을 만들 수 있습니다. 현재 버전의 적응형 양식 핵심 구성 요소에는 아래 나열된 구성 요소가 포함되어 있습니다.
 
 * 아코디언
 * 버튼
