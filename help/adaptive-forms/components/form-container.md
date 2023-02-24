@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '698'
 ht-degree: 100%
 
