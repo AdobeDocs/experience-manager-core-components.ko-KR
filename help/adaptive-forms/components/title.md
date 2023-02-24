@@ -4,7 +4,7 @@ description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
 * **유형/크기** - 제목의 제목 수준을 정의합니다.
-* **ID** - 이 옵션을 사용하면 HTML과 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+* **ID** - 이 옵션을 통해 HTML과 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
    * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
