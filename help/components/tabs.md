@@ -3,10 +3,10 @@ title: 탭 구성 요소
 description: 탭 구성 요소를 사용하여 페이지에서 콘텐츠를 정렬할 수 있는 여러 탭을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 패널로 딥 링크하기 {#deep-linking}
 
-탭 및 [아코디언 구성 요소](accordion.md)는 구성 요소에서 패널로 직접 링크하기를 지원합니다.
+탭, [회전판,](carousel.md) 및 [아코디언 구성 요소](accordion.md) 구성 요소 내에서 패널로 직접 링크하기를 지원합니다.
 
 이를 위해 진행되는 작업:
 

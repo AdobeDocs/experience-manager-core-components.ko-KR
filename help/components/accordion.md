@@ -3,10 +3,10 @@ title: 아코디언 구성 요소
 description: 핵심 구성 요소의 아코디언 구성 요소를 통해 페이지에서 아코디언으로 배열되는 패널 컬렉션을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## 패널로 딥 링크하기 {#deep-linking}
 
-아코디언 및 [탭 구성 요소](tabs.md)는 구성 요소에서 패널로 직접 링크하기를 지원합니다.
+아코디언 [회전판,](carousel.md) 및 [탭 구성 요소](tabs.md) 구성 요소 내에서 패널로 직접 링크하기를 지원합니다.
 
 이를 위해 진행되는 작업:
 
