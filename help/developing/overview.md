@@ -3,10 +3,10 @@ title: 핵심 구성 요소 개발
 description: 핵심 구성 요소는 강력하고 확장 가능한 기본 구성 요소를 제공합니다. 이 기본 구성 요소에는 다양한 기능의 연속 제공, 구성 요소 버전 관리, 최신 구현, 린 마크업 및 JSON 포맷의 콘텐츠 내보내기 등이 있습니다.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
+source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,14 +43,14 @@ ht-degree: 100%
 
 기존 프로젝트(예: 리브랜딩 또는 전체 리팩터링)에 더 많은 노력을 투자하면서 핵심 구성 요소로 마이그레이션할 수 있는 가능성이 높아집니다. 원활한 마이그레이션을 위해 Adobe는 다양한 마이그레이션 도구를 제공함으로써 핵심 구성 요소 및 최신 AEM 기술 도입을 유도하고 있습니다.
 
-[AEM 현대화 도구](http://opensource.adobe.com/aem-modernize-tools/)를 사용하여 다음과 같이 쉽게 변환할 수 있습니다.
+[AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/)를 사용하여 다음과 같이 쉽게 변환할 수 있습니다.
 
 * 정적 템플릿을 편집 가능한 템플릿
 * 디자인 구성을 정책
 * 기초 구성 요소를 핵심 구성 요소
 * 클래식 UI를 터치 사용 UI
 
-이 도구 사용에 대한 자세한 내용은 [도구 설명서를 참조하십시오](http://opensource.adobe.com/aem-modernize-tools/).
+이 도구 사용에 대한 자세한 내용은 [도구 설명서를 참조하십시오](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
