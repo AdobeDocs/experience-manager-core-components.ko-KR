@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 아코디언 구성 요소를 통해 페이
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 98%
 
 ## 기술 세부 사항 {#technical-details}
 
-아코디언 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_accordion_v1_kr).
+아코디언 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_accordion_v1_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 패널로 딥 링크하기 {#deep-linking}
 
-아코디언 [회전판,](carousel.md) 및 [탭 구성 요소](tabs.md) 구성 요소 내에서 패널로 직접 링크하기를 지원합니다.
+아코디언, [캐러셀](carousel.md) 및 [탭 구성 요소](tabs.md)는 구성 요소 내에서 패널로 직접 링크하는 기능을 지원합니다.
 
 이를 위해 진행되는 작업:
 
@@ -128,4 +128,4 @@ ht-degree: 98%
 
 ## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
-아코디언 구성 요소는 [ Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)지원합니다.
+아코디언 구성 요소는 [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)지원합니다.
