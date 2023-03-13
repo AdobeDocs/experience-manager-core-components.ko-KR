@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2873'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 99%
 
 [전체 릴리스 정보와 함께 GitHub에 제공](https://github.com/adobe/aem-core-wcm-components/releases)되는 다음 목차에서는 핵심 구성 요소 릴리스와 AEM 릴리스 및 Java 버전의 호환성에 대한 개요를 제공합니다.
 
-| 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 날짜 |
+| 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 이 릴리스에서는 [목록 구성 요소](/help/components/list.md) 에 대한 개선 사항과 함께 [티저](/help/components/teaser.md) 및 업데이트 [PDF 뷰어](/help/components/pdf-viewer.md) 및 [회전판](/help/components/carousel.md) | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 2월 9일 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 이 릴리스에는 [티저](/help/components/teaser.md)에 대한 개선 사항, [PDF 뷰어](/help/components/pdf-viewer.md) 및 [캐러셀](/help/components/carousel.md) 업데이트와 더불어 새로운 버전의 [목록 구성 요소](/help/components/list.md)가 도입되었습니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 2월 9일 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 이번 패치 릴리스에서는 v1 및 v2 [티저 구성 요소](/help/components/teaser.md)와 관련된 문제가 해결되었습니다. | - | 6.5.13.0+ * | Continual | 8, 11 | 2022년 9월 12일 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 이 릴리스에는 LinkHandler API의 게시, [이미지 구성 요소](/help/components/image.md) 및 [데이터 레이어](/help/developing/data-layer/overview.md)에 대한 개선 사항, 다중 패널 구성 요소에 대한 개선 사항을 비롯한 여러 개선 사항이 포함되어 있습니다. | - | 6.5.13.0+ * | Continual | 8, 11 | 2022년 9월 12일 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 이번 릴리스에서는 AdaptiveImageServlet을 통한 SVG 이미지 게재 문제가 해결되었습니다. | - | 6.5.13.0+ * | Continual | 8, 11 | 2022년 8월 4일 |
