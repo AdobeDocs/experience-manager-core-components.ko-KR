@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2198'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 >
 >repo.adobe.com을 maven build process로 자동 추가하려면 `adobe-public`프로필을 Maven`settings.xml` 파일로 추가하는 것이 좋습니다.
 >
->예제 POM은 [여기에서 찾을 수 있습니다](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
+>예제 POM은 [여기에서 찾을 수 있습니다](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=ko).
 
 ### 속성 {#properties}
 
