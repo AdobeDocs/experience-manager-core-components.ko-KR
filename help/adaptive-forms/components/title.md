@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 제목
 description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 90%
 
 ---
 
@@ -38,15 +38,13 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 제목 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
-|  |  |
-|---|---|
-| 구성 요소 버전 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+|---|---|---|
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -74,27 +72,32 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자는 날짜 선택기 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
+디자인 탭은 날짜-선택기 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 제목
 
 [제목] 탭을 사용하면 템플릿 작성자가 양식 작성자의 기본 및 허용된 HTML 제목 요소를 설정할 수 있습니다.
 
-![디자인 대화 상자 제목 탭](/help/assets/accordion-design-properties.png)
+![디자인 대화 상자 제목 탭](/help/adaptive-forms/assets/title_heading.png)
 
 * **허용된 제목 요소**: 템플릿 작성자가 양식 작성자가 제목에 사용할 수 있는 제목 요소를 선택할 수 있도록 하는 여러 옵션을 제공하는 목록입니다.
 
 * **기본 제목 요소** - 제목 구성 요소의 기본 제목 요소를 설정하는 드롭다운 목록입니다.
 
-
 ### 스타일 탭 {#styles-tab}
 
-디자인 대화 상자는 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 날짜 선택기 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+이 탭은 구성 요소에 대한 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 날짜 선택기 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-**기본 CSS 클래스**: 적응형 양식 날짜 선택기 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+![디자인 대화 상자 제목 탭](/help/adaptive-forms/assets/title_styles.png)
 
-**허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+* **기본 CSS 클래스**: 적응형 양식 날짜 선택기 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+
+* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
 ### 형식 탭 {#format-tab}
 
 형식 탭에서는 기본 및 사용자 정의 날짜 형식을 지정할 수 있습니다.
+
+![서식 탭](/help/adaptive-forms/assets/title_styles.png)
+
+

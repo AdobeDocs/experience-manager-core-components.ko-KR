@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 첨부 파일
 description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1482'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 96%
 
 ---
 
@@ -35,15 +35,13 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 첨부 파일 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
-|  |  |
-|---|---|
-| 구성 요소 버전 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+|---|---|---|
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -109,6 +107,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **도움말 텍스트** - 도움말 텍스트는 양식 필드를 올바르게 작성하는 데 도움이 되도록 사용자에게 제공되는 추가 정보 또는 지침을 나타냅니다. 구성 요소 옆에 있는 도움말 아이콘(i)을 클릭하면 표시됩니다. 도움말 텍스트는 양식 필드의 레이블이나 플레이스홀더 텍스트보다 더 자세한 정보를 제공하며 사용자가 필드의 요구 사항이나 제한 사항을 이해하는 데 도움이 되도록 설계되었습니다. 또한 양식을 보다 쉽고 정확하게 작성할 수 있도록 제안이나 예시를 제공할 수도 있습니다.
 
+### 접근성 탭 {#accessibility-tab}
+
+
 ![접근성 탭](/help/adaptive-forms/assets/fileattachement_accessibilitytab.png)
 
 * **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
@@ -122,6 +123,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 적응형 양식 첨부 파일 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-**기본 CSS 클래스**: 적응형 양식 첨부 파일 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+![파일 첨부 디자인 대화 상자](/help/adaptive-forms/assets/fileattachment_designdialog.png)
 
-**허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+* **기본 CSS 클래스**: 적응형 양식 첨부 파일 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+
+* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.

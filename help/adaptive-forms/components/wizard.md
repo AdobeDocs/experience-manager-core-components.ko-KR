@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 마법사
 description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '1847'
+ht-degree: 90%
 
 ---
 
@@ -51,13 +51,11 @@ ht-degree: 100%
 
 적응형 양식 마법사 레이아웃 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
-|  |  |
-|---|---|
-| 구성 요소 버전 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+|---|---|---|
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,10 +122,38 @@ To experience the Accordion Component as well as see examples of its configurati
 
 **허용된 구성 요소** 탭을 사용하면 템플릿 편집기에서 적응형 양식 편집기의 마법사 구성 요소 패널에 항목으로 추가할 수 있는 구성 요소를 설정할 수 있습니다.
 
+![허용된 구성 요소 탭](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### 기본 구성 요소 탭 {#default-component-tab}
+
+이 탭에서는 템플릿 편집기에서 적응형 Forms 편집기의 마법사 구성 요소의 패널에 항목으로 추가할 수 있는 구성 요소를 매핑할 수 있습니다.
+
+![패널 기본 구성 요소](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### 응답형 설정 {#responsive-settings}
+
+이 탭에서는 템플릿 편집기에서 응답형 그리드에 표시할 열 수를 설정할 수 있습니다.
+
+![응답형 격자](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### 컨테이너 설정 탭 {#container-setting-tab}
+
+컨테이너 설정 탭에서는 응용 Forms 편집기에서 구성 요소의 위치를 설정할 수 있습니다.
+
+![컨테이너 설정](/help/adaptive-forms/assets/panel_settings.png)
+
+* **레이아웃**: 단순 레이아웃은 모든 것을 제자리에 고정하지만 응답형 그리드를 사용하면 필요에 따라 구성 요소의 위치를 변경할 수 있습니다.
+* **레이아웃 비활성화**: 편집 대화 상자에서 **레이아웃 비활성화** 확인란을 선택합니다.
+* **배경 이미지 사용**: 이 탭에서는 템플릿 편집기에서 배경 이미지와 색상을 설정할 수 있습니다.
+* **배경색 사용**: 이 탭에서는 템플릿 편집기에서 배경색을 설정할 수 있습니다.
+
 ### 스타일 탭 {#styles-tab}
 
-디자인 대화 상자는 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 마법사 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+이 탭은 구성 요소에 대한 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 마법사 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-**기본 CSS 클래스**: 마법사 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+![스타일 탭](/help/adaptive-forms/assets/panel_style.png)
 
-**허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+* **기본 CSS 클래스**: 마법사 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+
+* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+

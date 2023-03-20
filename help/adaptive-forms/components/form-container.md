@@ -2,10 +2,10 @@
 title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
-workflow-type: ht
-source-wordcount: '698'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 89%
 
 ---
 
@@ -39,16 +39,13 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 컨테이너 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
-|  |  |
-|---|---|
-| 구성 요소 버전 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+|---|---|---|
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
-
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -65,7 +62,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![기본 탭](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **미리 채우기 서비스** - 이 옵션을 사용하면 적응형 양식이 렌더링될 때 미리 채우기 서비스를 선택하여 데이터를 검색할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
+* **미리 채우기 서비스** - 이 옵션을 사용하면 적응형 양식을 렌더링할 때 데이터를 검색할 미리 채우기 서비스를 선택할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
 
 * **클라이언트 라이브러리 범주** - 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
 
@@ -82,7 +79,3 @@ To experience the Accordion Component as well as see examples of its configurati
 * **메시지 표시** - 이 옵션을 사용하면 적응형 양식이 정상적으로 제출될 때 표시되는 메시지를 추가할 수 있습니다. 대화 상자에는 사전 정의된 텍스트가 포함되며 사용자는 이를 수정할 수 있습니다. 메시지 표시 대화 상자는 사용자가 추가된 텍스트의 서식을 지정할 수 있도록 하는 서식 있는 텍스트 서식 도구를 지원합니다.
 
 * **제출 액션** - 사용자가 적응형 양식에서 [제출] 버튼을 클릭하면 제출 액션이 트리거됩니다. 사용자는 기본적으로 지원되는 드롭다운 목록에서 [제출 작업]을 선택할 수 있습니다. [[제출] 탭에서 제출 액션을 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)하는 방법에 대해 알아보십시오.
-
-
-
-

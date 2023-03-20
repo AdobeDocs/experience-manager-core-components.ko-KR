@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 가로 탭
 description: 적응형 양식 가로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1584'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 91%
 
 ---
 
@@ -30,15 +30,13 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 가로 탭 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
-|  |  |
-|---|---|
-| 구성 요소 버전 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+|---|---|---|
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,7 +78,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **아이콘** - 목록에서 패널 구성 요소를 식별하는 아이콘입니다. 아이콘 위에 마우스를 가져다 대면 전체 구성 요소 이름을 툴팁으로 조회할 수 있습니다.
 * **설명** - 패널의 텍스트로 사용되는 설명입니다. 기본적으로 구성 요소의 이름이 패널에 대해 선택되어 있습니다.
-* **삭제** - 탭하거나 클릭하여 아코디언 구성 요소에서 패널을 삭제합니다.
+* **삭제** - 수평 탭 구성 요소에서 패널을 삭제하려면 탭하거나 클릭합니다.
 * **재배열** - 패널의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
 
 ### 도움말 콘텐츠 탭 {#help-content}
@@ -103,10 +101,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 아코디언 구성 요소의 경우 다음을 설정할 수 있습니다.
+디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 응용 Forms 구성 요소의 경우 다음을 설정할 수 있습니다.
 
-* 양식 작성자가 적응형 양식 편집기에서 아코디언에 추가할 수 있는 핵심 구성 요소
-* 적응형 양식 편집기에서 아코디언 구성 요소의 속성 대화 상자에 적용할 수 있는 스타일(CSS 클래스)의 간단한 이름
+* 양식 작성자가 적응형 Forms 편집기의 가로 탭에 추가할 수 있는 핵심 구성 요소
+* 응용 Forms 편집기의 가로 탭 구성 요소의 속성 대화 상자에서 적용할 수 있는 스타일(CSS 클래스)의 단순 이름입니다.
 
 이렇게 하면 양식을 만들고 사용자 정의하는 프로세스를 보다 간단하고 효율적으로 만들 수 있습니다.
 
@@ -114,10 +112,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 **허용된 구성 요소** 탭을 사용하면 템플릿 편집기에서 적응형 양식 편집기의 가로 탭 구성 요소 패널에 항목으로 추가할 수 있는 구성 요소를 설정할 수 있습니다.
 
+![가로 탭](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+
 ### 스타일 탭 {#styles-tab}
 
-디자인 대화 상자는 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 가로 탭 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+이 탭은 구성 요소에 대한 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 가로 탭 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-**기본 CSS 클래스**: 적응형 양식 가로 탭 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+![스타일 탭](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
-**허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+* **기본 CSS 클래스**: 적응형 양식 가로 탭 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+
+* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.

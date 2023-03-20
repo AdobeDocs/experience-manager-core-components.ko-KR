@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 바닥글
 description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 93%
 
 ---
 
@@ -34,15 +34,13 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 바닥글 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
 
-|  |  |
-|---|---|
-| 구성 요소 버전 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+|---|---|---|
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -106,3 +104,4 @@ To experience the Accordion Component as well as see examples of its configurati
    * 비워 두면 고유 ID는 자동으로 * 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
+
