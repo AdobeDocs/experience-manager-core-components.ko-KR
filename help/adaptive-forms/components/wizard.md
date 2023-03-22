@@ -4,9 +4,9 @@ description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1847'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 90%
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
@@ -126,30 +126,30 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 기본 구성 요소 탭 {#default-component-tab}
 
-이 탭에서는 템플릿 편집기에서 적응형 Forms 편집기의 마법사 구성 요소의 패널에 항목으로 추가할 수 있는 구성 요소를 매핑할 수 있습니다.
+이 탭을 통해 템플릿 편집기에서 적응형 양식 편집기의 마법사 구성 요소 패널에 항목으로 추가할 수 있는 구성 요소를 매핑할 수 있습니다.
 
 ![패널 기본 구성 요소](/help/adaptive-forms/assets/panel_defaultcomponent.png)
 
 ### 응답형 설정 {#responsive-settings}
 
-이 탭에서는 템플릿 편집기에서 응답형 그리드에 표시할 열 수를 설정할 수 있습니다.
+이 탭을 통해 템플릿 편집기는 응답형 격자에 표시할 열 수를 설정할 수 있습니다.
 
 ![응답형 격자](/help/adaptive-forms/assets/panel_responsivesettings.png)
 
 ### 컨테이너 설정 탭 {#container-setting-tab}
 
-컨테이너 설정 탭에서는 응용 Forms 편집기에서 구성 요소의 위치를 설정할 수 있습니다.
+컨테이너 설정 탭을 통해 적응형 양식 편집기에서 구성 요소의 위치를 설정할 수 있습니다.
 
 ![컨테이너 설정](/help/adaptive-forms/assets/panel_settings.png)
 
-* **레이아웃**: 단순 레이아웃은 모든 것을 제자리에 고정하지만 응답형 그리드를 사용하면 필요에 따라 구성 요소의 위치를 변경할 수 있습니다.
-* **레이아웃 비활성화**: 편집 대화 상자에서 **레이아웃 비활성화** 확인란을 선택합니다.
-* **배경 이미지 사용**: 이 탭에서는 템플릿 편집기에서 배경 이미지와 색상을 설정할 수 있습니다.
-* **배경색 사용**: 이 탭에서는 템플릿 편집기에서 배경색을 설정할 수 있습니다.
+* **레이아웃**: 단순 레이아웃은 모든 요소를 제자리에 고정하고 반응형 격자를 사용하여 필요에 맞게 구성 요소의 위치를 변경할 수 있습니다.
+* **레이아웃 비활성화**: **레이아웃 비활성화** 확인란을 선택하여 편집 대화 상자의 레이아웃 선택 사항을 비활성화할 수도 있습니다.
+* **배경 이미지 활성화**: 이 탭을 통해 템플릿 편집기에서 배경 이미지와 색상을 설정할 수 있습니다.
+* **배경색 활성화**: 이 탭을 통해 템플릿 편집기에서 배경색을 설정할 수 있습니다.
 
 ### 스타일 탭 {#styles-tab}
 
-이 탭은 구성 요소에 대한 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 마법사 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 마법사 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ![스타일 탭](/help/adaptive-forms/assets/panel_style.png)
 
