@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 89%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
+적응형 양식 아코디언 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 <!-- ## Sample Component Output {#sample-component-output}
@@ -62,7 +62,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![기본 탭](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **미리 채우기 서비스** - 이 옵션을 사용하면 적응형 양식을 렌더링할 때 데이터를 검색할 미리 채우기 서비스를 선택할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
+* **미리 채우기 서비스** - 이 옵션을 사용하여 적응형 양식이 렌더링될 때 미리 채우기 서비스를 선택하여 데이터를 검색할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
 
 * **클라이언트 라이브러리 범주** - 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
 
