@@ -4,9 +4,9 @@ description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 90%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 Forms 아코디언 코어 구성 요소는 Cloud Service용 코어 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 용 코어 구성 요소 1.1.12의 일부로 2023년 2월에 출시되었습니다. 다음은 지원되는 모든 버전, AEM 호환성 및 해당 설명서 링크를 보여주는 표입니다.
+적응형 양식 아코디언 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | 호환 가능<br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 2.0.0보다 작음 |
+| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
@@ -72,7 +72,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 탭은 날짜-선택기 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
+디자인 탭은 날짜 선택기 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 제목
 
@@ -86,7 +86,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 스타일 탭 {#styles-tab}
 
-이 탭은 구성 요소에 대한 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 날짜 선택기 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 날짜 선택기 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ![디자인 대화 상자 제목 탭](/help/adaptive-forms/assets/title_styles.png)
 
@@ -98,6 +98,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 형식 탭에서는 기본 및 사용자 정의 날짜 형식을 지정할 수 있습니다.
 
-![서식 탭](/help/adaptive-forms/assets/title_styles.png)
+![형식 탭](/help/adaptive-forms/assets/title_styles.png)
 
 
