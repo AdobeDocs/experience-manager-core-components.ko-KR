@@ -3,9 +3,9 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1169'
 ht-degree: 86%
 
 ---
@@ -67,41 +67,6 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 * **접근성**: 적응형 양식 핵심 구성 요소는 접근성 표준 및 지침을 지원하여 화면 판독기와 같은 보조 기술을 사용하는 사용자를 포함하여 장애를 가진 사용자도 양식을 사용할 수 있도록 합니다
 
-
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
-
-*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
-
-<!-- Additionally, the following points further illustrate this alignment:
-
-    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
-
-    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
-
-    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
-    
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-
-
-
-## 요구 사항 {#requirements}
-
-적응형 양식 핵심 구성 요소에는 다음과 같은 요구 사항이 있습니다.
-
-| AEM | AEM Forms 추가 기능 | 핵심 구성 요소 |
-|---|---|---|
-| AEM as a Cloud Service | Forms - 디지털 등록 | [릴리스 2.20.8](version.md)+ |
-| AEM 6.5 | Forms 추가 기능 | [릴리스 1.1.12](version.md)+ |
-
-## 적응형 양식을 기반으로 코어 구성 요소 설정 및 만들기
-
-**AEM Forms as a Cloud Service**: 새 AEM Forms as a Cloud Service 프로그램을 만들면 Forms 핵심 구성 요소가 이미 사용자 환경에 대해 활성화되었습니다. Archetype 39 이하 버전을 기반으로 하는 Forms as a Cloud Service 환경이 있는 경우, [환경을 위한 적응형 Forms 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-환경에 대한 코어 구성 요소 활성화 시 **응용 Forms(핵심 구성 요소)** 템플릿 및 캔버스 테마가 환경에 추가됩니다. AEM SDK 버전이 2023.02.0보다 오래된 경우, [확인 `prerelease` 환경에 활성화된 플래그](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 적응형 Forms 코어 구성 요소는 2023.02.0 릴리스 전 사전 릴리스의 일부입니다.
-
-적응형 Forms 마법사 및 적응형 양식 편집기를 사용하여 적응형 양식을 만들려면 적응형 양식 만들기([핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
-
-
 ## 적응형 양식 핵심 구성 요소 {#components}
 
 현재 버전의 적응형 양식 핵심 구성 요소에는 아래 나열된 구성 요소가 포함되어 있습니다.
@@ -128,3 +93,39 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 * [텍스트](/help/adaptive-forms/components/text.md)
 * [제목](/help/adaptive-forms/components/title.md)
 * [마법사](/help/adaptive-forms/components/wizard.md)
+
+## 코어 구성 요소 설정
+
+
+적응형 양식 핵심 구성 요소에는 다음과 같은 요구 사항이 있습니다.
+
+| AEM | AEM Forms 추가 기능 | 핵심 구성 요소 |
+|---|---|---|
+| AEM as a Cloud Service | Forms - 디지털 등록 | [릴리스 2.20.8](version.md)+ |
+| AEM 6.5 | Forms 추가 기능 | [릴리스 1.1.12](version.md)+ |
+
+### 핵심 구성 요소를 기반으로 적응형 양식 만들기
+
+**AEM Forms as a Cloud Service:** 새 AEM Forms as a Cloud Service 프로그램을 만들면 Forms 핵심 구성 요소가 이미 사용자 환경에 대해 활성화되었습니다. Archetype 39 이하 버전을 기반으로 하는 Forms as a Cloud Service 환경이 있는 경우, [환경을 위한 적응형 Forms 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+환경에 대한 코어 구성 요소 활성화 시 **응용 Forms(핵심 구성 요소)** 템플릿 및 캔버스 테마가 환경에 추가됩니다. AEM SDK 버전이 2023.02.0보다 오래된 경우, [확인 `prerelease` 환경에 활성화된 플래그](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 적응형 Forms 코어 구성 요소는 2023.02.0 릴리스 전 사전 릴리스의 일부입니다.
+
+적응형 Forms 마법사 및 적응형 양식 편집기를 사용하여 적응형 양식을 만들려면 적응형 양식 만들기([핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
+
+
+
+
+
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+
+<!-- Additionally, the following points further illustrate this alignment:
+
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->

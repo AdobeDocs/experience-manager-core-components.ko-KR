@@ -4,10 +4,10 @@ user-guide-title: AEM 핵심 구성 요소
 breadcrumb-title: 핵심 구성 요소 안내서
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 99%
 
 ---
 
@@ -107,6 +107,7 @@ ht-degree: 100%
       + [적응형 양식 아코디언](/help/adaptive-forms/components/accordion.md)
       + [적응형 양식 버튼](/help/adaptive-forms/components/button.md)
       + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
+      + [적응형 Forms 컨테이너](/help/adaptive-forms/components/form-container.md)
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
       + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
       + [적응형 양식 이메일 입력](/help/adaptive-forms/components/email-input.md)
