@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 86%
 
 ---
 
@@ -90,32 +90,41 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 | AEM | AEM Forms 추가 기능 | 핵심 구성 요소 |
 |---|---|---|
-| AEM as a Cloud Service | Forms - 디지털 등록 | [릴리스 2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service | Forms - 디지털 등록 | [릴리스 2.20.8](version.md)+ |
+| AEM 6.5 | Forms 추가 기능 | [릴리스 1.1.12](version.md)+ |
+
+## 적응형 양식을 기반으로 코어 구성 요소 설정 및 만들기
+
+**AEM Forms as a Cloud Service**: 새 AEM Forms as a Cloud Service 프로그램을 만들면 Forms 핵심 구성 요소가 이미 사용자 환경에 대해 활성화되었습니다. Archetype 39 이하 버전을 기반으로 하는 Forms as a Cloud Service 환경이 있는 경우, [환경을 위한 적응형 Forms 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+환경에 대한 코어 구성 요소 활성화 시 **응용 Forms(핵심 구성 요소)** 템플릿 및 캔버스 테마가 환경에 추가됩니다. AEM SDK 버전이 2023.02.0보다 오래된 경우, [확인 `prerelease` 환경에 활성화된 플래그](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 적응형 Forms 코어 구성 요소는 2023.02.0 릴리스 전 사전 릴리스의 일부입니다.
+
+적응형 Forms 마법사 및 적응형 양식 편집기를 사용하여 적응형 양식을 만들려면 적응형 양식 만들기([핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
 
 
 ## 적응형 양식 핵심 구성 요소 {#components}
 
-[적응형 양식 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)를 사용하여 핵심 구성 요소 기반의 적응형 양식을 만들 수 있습니다. 현재 버전의 적응형 양식 핵심 구성 요소에는 아래 나열된 구성 요소가 포함되어 있습니다.
+현재 버전의 적응형 양식 핵심 구성 요소에는 아래 나열된 구성 요소가 포함되어 있습니다.
 
-* 아코디언
-* 버튼
-* 확인란 그룹
-* 날짜 선택기
-* 드롭다운 목록
-* 이메일 입력
-* 양식 컨테이너
-* 첨부 파일
-* 바닥글
-* 헤더
-* 가로 탭
-* 이미지
-* 숫자 입력
-* 패널 컨테이너
-* 라디오 버튼
-* 재설정 버튼
-* 제출 버튼
-* 전화번호 입력
-* 텍스트 입력
-* 텍스트
-* 제목
-* 마법사
+* [아코디언](/help/adaptive-forms/components/accordion.md)
+* [버튼](/help/adaptive-forms/components/button.md)
+* [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
+* [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
+* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+* [이메일 입력](/help/adaptive-forms/components/email-input.md)
+* [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
+* [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
+* [바닥글](/help/adaptive-forms/components/footer.md)
+* [헤더](/help/adaptive-forms/components/header.md)
+* [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
+* [이미지](/help/adaptive-forms/components/image.md)
+* [숫자 입력](/help/adaptive-forms/components/number-input.md)
+* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
+* [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
+* [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
+* [제출 버튼](/help/adaptive-forms/components/submit-button.md)
+* [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
+* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
+* [텍스트](/help/adaptive-forms/components/text.md)
+* [제목](/help/adaptive-forms/components/title.md)
+* [마법사](/help/adaptive-forms/components/wizard.md)
