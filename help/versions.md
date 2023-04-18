@@ -3,20 +3,20 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
-workflow-type: ht
-source-wordcount: '2873'
-ht-degree: 100%
+source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
+workflow-type: tm+mt
+source-wordcount: '2924'
+ht-degree: 98%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.22.0이며 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
+핵심 구성 요소의 현재 릴리스는 2.22.4이며 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
-핵심 구성 요소는 유연하고, 지원되는 모든 AEM 버전과 호환할 수 있도록 설계되었습니다. 이러한 이유로 구성 요소의 릴리스에는 동일한 구성 요소의 버전이 포함될 수 있습니다.
+핵심 구성 요소는 유연하고, 지원되는 모든 AEM 버전과 호환할 수 있도록 설계되었습니다. 이러한 이유로 구성 요소 릴리스에는 동일한 구성 요소의 여러 버전이 포함될 수 ©.
 
 다음 표는 릴리스에 포함된 구성 요소 버전과 함께 핵심 구성 요소 릴리스의 호환성을 보여 줍니다.
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 의 문제를 해결하는 패치 릴리스입니다. [컨텐츠 조각 목록 구성 요소.](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 4월 5일 |
+| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 이 릴리스는 2.22.0에 도입된 두 가지 문제를 해결하기 위한 유지 관리 릴리스입니다 | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 3월 31일 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 이 릴리스에는 [티저](/help/components/teaser.md)에 대한 개선 사항, [PDF 뷰어](/help/components/pdf-viewer.md) 및 [캐러셀](/help/components/carousel.md) 업데이트와 더불어 새로운 버전의 [목록 구성 요소](/help/components/list.md)가 도입되었습니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 2월 9일 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 이번 패치 릴리스에서는 v1 및 v2 [티저 구성 요소](/help/components/teaser.md)와 관련된 문제가 해결되었습니다. | - | 6.5.13.0+ * | Continual | 8, 11 | 2022년 9월 12일 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 이 릴리스에는 LinkHandler API의 게시, [이미지 구성 요소](/help/components/image.md) 및 [데이터 레이어](/help/developing/data-layer/overview.md)에 대한 개선 사항, 다중 패널 구성 요소에 대한 개선 사항을 비롯한 여러 개선 사항이 포함되어 있습니다. | - | 6.5.13.0+ * | Continual | 8, 11 | 2022년 9월 12일 |
