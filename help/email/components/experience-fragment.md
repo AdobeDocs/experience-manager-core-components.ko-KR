@@ -3,10 +3,10 @@ title: 이메일 경험 조각 구성 요소
 description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통해 콘텐츠에 경험 조각 변형을 배치하면서 현지화된 콘텐츠 구조를 지원할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '888'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 | - |
 
 이메일 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
 
@@ -104,10 +104,6 @@ ht-degree: 0%
 1. 검색되지 않는 경우 블루프린트 검색을 시도합니다.
 1. 검색되지 않는 경우 라이브 카피 검색을 시도합니다.
 1. 검색되지 않는 경우 구성 요소에 구성되는 경험 조각으로 기본 설정됩니다.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-이메일 경험 조각 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_xf_kr)를 참조하십시오.
 
 ## 기술 세부 사항 {#technical-details}
 

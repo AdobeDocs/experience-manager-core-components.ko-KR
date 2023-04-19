@@ -3,10 +3,10 @@ title: 이메일 제목 구성 요소
 description: 이메일 제목 구성 요소는 바로 편집 기능이 있는 이메일 섹션 머리말 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,9 @@ ht-degree: 0%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 이메일 구성 요소 버전](/help/versions.md)을 참조하십시오.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-제목 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_title_kr)를 참조하십시오.
 
 ### 기술 세부 사항 {#technical-details}
 

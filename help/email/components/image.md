@@ -3,10 +3,10 @@ title: 이메일 이미지 구성 요소
 description: 이메일 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1645'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
 
@@ -61,10 +61,6 @@ ht-degree: 0%
 ### 보안 {#security}
 
 보안상 이유로 이미지 편집기에서 바로 최초 SVG를 호출하지 않습니다. `<img src=“path-to-component”>`를 통해 호출됩니다. 이렇게 하면 브라우저는 SVG 파일에 임베드된 스크립트를 실행할 수 없습니다.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-이메일 이미지 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_image_kr)를 참조하십시오.
 
 ### 기술 세부 사항 {#technical-details}
 

@@ -3,10 +3,10 @@ title: 이메일 페이지 구성 요소
 description: 이메일 페이지 구성 요소
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 | - |
 
 이메일 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
 

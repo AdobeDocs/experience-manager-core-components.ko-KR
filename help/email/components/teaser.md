@@ -3,9 +3,9 @@ title: 이메일 티저 구성 요소
 description: 이메일 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-이메일 티저 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_teaser_kr)를 참조하십시오.
+| v1 | 호환 가능 | - |
 
 ### 기술 세부 사항 {#technical-details}
 

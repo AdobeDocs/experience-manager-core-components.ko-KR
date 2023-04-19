@@ -3,9 +3,9 @@ title: 이메일 세분화 구성 요소
 description: 이메일 세분화 구성 요소
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1133'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-이메일 세분화 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_segmentation_kr)를 참조하십시오.
+| v1 | 호환 가능 | - |
 
 ### 기술 세부 사항 {#technical-details}
 

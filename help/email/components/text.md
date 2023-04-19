@@ -3,10 +3,10 @@ title: 이메일 텍스트 구성 요소
 description: 이메일 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2291'
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,11 @@ ht-degree: 0%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
 
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-텍스트 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_text_kr)를 참조하십시오.
-
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 이메일 텍스트 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_email_text_v1_kr).
 

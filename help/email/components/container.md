@@ -3,7 +3,7 @@ title: 이메일 컨테이너 구성 요소
 description: 이메일 컨테이너 구성 요소를 통해 이메일 콘텐츠에서 다중 추가 구성 요소의 컨테이너를 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -32,13 +32,9 @@ ht-degree: 0%
 
 | 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능 | - |
 
 이메일 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
-
-## 샘플 구성 요소 출력 {#sample-component-output}
-
-이메일 컨테이너 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_email_container_kr)를 참조하십시오.
 
 ## 기술 세부 사항 {#technical-details}
 
