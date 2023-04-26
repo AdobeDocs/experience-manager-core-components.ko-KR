@@ -4,9 +4,9 @@ description: 이메일 컨테이너 구성 요소를 통해 이메일 콘텐츠�
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '797'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 이메일 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 구성 요소 버전](/help/email/versions.md)을 참조하십시오.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 컨테이너 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다.](https://adobe.com/go/aem_cmp_tech_email_container_v1_kr)
 
