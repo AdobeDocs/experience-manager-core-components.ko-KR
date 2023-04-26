@@ -4,7 +4,7 @@ description: 이메일 이미지 구성 요소는 바로 편집 기능이 있는
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1645'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 보안상 이유로 이미지 편집기에서 바로 최초 SVG를 호출하지 않습니다. `<img src=“path-to-component”>`를 통해 호출됩니다. 이렇게 하면 브라우저는 SVG 파일에 임베드된 스크립트를 실행할 수 없습니다.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 이메일 이미지 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다.](https://adobe.com/go/aem_cmp_tech_email_image_v1_kr)
 
@@ -137,9 +137,9 @@ ht-degree: 100%
 
 * **DM 기능 활성화** - 확인 표시가 되어 있으면 [Dynamic Media 기능](#dynamic-media)을 사용할 수 있습니다.
    * 이 옵션은 환경에서 Dynamic Media가 활성화된 경우에만 표시됩니다.
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 게재 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 게재 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **장식적 이미지** - 페이지에 이미지 구성 요소를 추가할 때 장식적 이미지 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 그림 설명 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 그림 설명을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 캡션 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 캡션을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
