@@ -3,9 +3,9 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: ht
-source-wordcount: '1678'
+source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+workflow-type: tm+mt
+source-wordcount: '1636'
 ht-degree: 100%
 
 ---
@@ -61,10 +61,6 @@ ht-degree: 100%
 ### 보안 {#security}
 
 보안상 이유로 이미지 편집기에서 바로 최초 SVG를 호출하지 않습니다. `<img src=“path-to-component”>`를 통해 호출됩니다. 이렇게 하면 브라우저는 SVG 파일에 임베드된 스크립트를 실행할 수 없습니다.
-
->[!NOTE]
->
->SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)가 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -141,7 +137,7 @@ ht-degree: 100%
 
 * **DM 기능 활성화** - 확인 표시가 되어 있으면 [Dynamic Media 기능](#dynamic-media)을 사용할 수 있습니다.
    * 이 옵션은 환경에서 Dynamic Media가 활성화된 경우에만 표시됩니다.
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 게재 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
    * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **소극적 로드 활성화** - 확인 표시가 되어 있으면 구성 요소가 소극적 로드 없이 모든 이미지를 미리 로드합니다.

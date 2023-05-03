@@ -3,9 +3,9 @@ title: 이미지 구성 요소 (v2)
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
-source-wordcount: '2115'
+source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+workflow-type: tm+mt
+source-wordcount: '2073'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 반응형 기능 {#responsive-features}
 
-이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 에셋의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 올바른 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
+이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 템플릿 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 에셋의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 올바른 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
 
 또한, 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 에셋 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
 
@@ -57,10 +57,6 @@ ht-degree: 100%
 ### 보안 {#security}
 
 보안상 이유로 이미지 편집기에서 바로 최초 SVG를 호출하지 않습니다. `<img src=“path-to-component”>`를 통해 호출됩니다. 이렇게 하면 브라우저는 SVG 파일에 임베드된 스크립트를 실행할 수 없습니다.
-
->[!CAUTION]
->
->SVG 지원에는 구성 요소 릴리스 2.1.0 이상이 필요하고, 이와 더불어 AEM 내 [이미지 편집기 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 지원에는 AEM 6.4 이상의 [서비스 팩 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)가 필요합니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -194,7 +190,7 @@ ht-degree: 100%
    * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **소극적 로드 활성화** - 페이지에 이미지 구성 요소를 추가할 때 소극적 로드 옵션이 자동으로 활성화되면 정의합니다.
 * **장식적 이미지** - 페이지에 이미지 구성 요소를 추가할 때 장식적 이미지 옵션이 자동으로 활성화되면 정의합니다.
-* **DAM에서 대체 텍스트 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 대체 텍스트를 검색하는 옵션이 자동으로 활성화되면 정의합니다.
+* **DAM에서 그림 설명 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 그림 설명을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 캡션 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 캡션을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **팝업으로 캡션 표** - 페이지에 이미지 구성 요소를 추가할 때 팝업으로 이미지 캡션을 표시하는 옵션이 자동으로 활성화되면 정의합니다.
 * **UUID 추적 비활성화** - 이미지 에셋의 UUID 추적 비활성화를 확인합니다.
