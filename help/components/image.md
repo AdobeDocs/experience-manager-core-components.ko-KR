@@ -4,7 +4,7 @@ description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 ### 기술 세부 사항 {#technical-details}
 
-이미지 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_image_v3_kr).
+이미지 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_image_v3_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -139,7 +139,7 @@ ht-degree: 100%
    * 이 옵션은 환경에서 Dynamic Media가 활성화된 경우에만 표시됩니다.
 * **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 게재 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 게재 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **소극적 로드 활성화** - 확인 표시가 되어 있으면 구성 요소가 소극적 로드 없이 모든 이미지를 미리 로드합니다.
 * **장식적 이미지** - 페이지에 이미지 구성 요소를 추가할 때 장식적 이미지 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 그림 설명 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 그림 설명을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
