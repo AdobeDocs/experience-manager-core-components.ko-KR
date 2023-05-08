@@ -4,7 +4,7 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2073'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ko#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 핵심 구성 요소가 내장된 웹 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 없습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ### 기술 세부 사항 {#technical-details}
 
-이미지 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_image_v2_kr).
+이미지 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_image_v2_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -178,23 +178,23 @@ ht-degree: 100%
 
 ### 메인 탭 {#main-tab}
 
-**메인** 탭에서 이미지에 대해 허용된 너비 목록을 픽셀 단위로 정의하면 구성 요소는 브라우저 크기에 따라 가장 적절한 너비를 자동으로 로드합니다. 이는 이미지 구성 요소 [반응형 기능](#responsive-features)의 주요 부분입니다.
+**메인** 탭에서 이미지에 대해 허용된 폭 목록을 픽셀 단위로 정의하면 구성 요소는 브라우저 크기에 따라 가장 적절한 폭을 자동으로 로드합니다. 이는 이미지 구성 요소 [반응형 기능](#responsive-features)의 주요 부분입니다.
 
 또한, 작성자가 페이지에 구성 요소를 추가할 때 자동으로 비활성화되는 일반 구성 요소 옵션을 정의할 수 있습니다.
 
 ![이미지 구성 요소의 디자인 대화 상자 메인 탭](/help/assets/image-design-main-v2.png)
 
 * **DM 기능 활성화** - 확인 표시가 되어 있으면 [Dynamic Media 기능](#dynamic-media)이 제공됩니다.
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 게재 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 게재 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 * **소극적 로드 활성화** - 페이지에 이미지 구성 요소를 추가할 때 소극적 로드 옵션이 자동으로 활성화되면 정의합니다.
 * **장식적 이미지** - 페이지에 이미지 구성 요소를 추가할 때 장식적 이미지 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 그림 설명 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 그림 설명을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 캡션 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 캡션을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **팝업으로 캡션 표** - 페이지에 이미지 구성 요소를 추가할 때 팝업으로 이미지 캡션을 표시하는 옵션이 자동으로 활성화되면 정의합니다.
 * **UUID 추적 비활성화** - 이미지 에셋의 UUID 추적 비활성화를 확인합니다.
-* **너비** 이미지에 대해 너비 목록을 픽셀 단위로 정의하면 구성 요소는 브라우저 크기에 따라 가장 적절한 너비를 자동으로 로드합니다.
+* **폭** 이미지에 대해 폭 목록을 픽셀 단위로 정의하면 구성 요소는 브라우저 크기에 따라 가장 적절한 폭을 자동으로 로드합니다.
    * **추가** 버튼을 탭하거나 클릭하여 다른 크기를 추가합니다.
       * 그랩 드래그 핸들을 사용하여 크기의 순서를 재배열합니다.
       * **삭제** 아이콘을 사용하여 폭을 삭제합니다.
@@ -244,7 +244,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >AEM에서 자르기 종횡비는 **높이/폭**&#x200B;으로 정의됩니다. 이는 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 종횡비 이름이 UI에 명확하게 표시되고 종황비 자체가 아니기 때문에 이름이 제공되어도 콘텐츠 작성자는 차이를 알 수 없습니다.
+   >AEM에서 자르기 종횡비는 **높이/폭**&#x200B;으로 정의됩니다. 이는 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 종횡비 이름이 UI에 명확하게 표시되고 종횡비 자체가 아니기 때문에 이름이 제공되어도 콘텐츠 작성자는 차이를 알 수 없습니다.
 
 ### 스타일 탭 {#styles-tab-1}
 
