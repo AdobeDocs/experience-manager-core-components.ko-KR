@@ -2,13 +2,13 @@
 title: AEM Forms 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 85d6efce6f661db2812f80a7815fd6902e77b440
+exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
+source-git-commit: aaf083cc4b479a97f750844c742581e1b243e036
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
 ---
-
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 

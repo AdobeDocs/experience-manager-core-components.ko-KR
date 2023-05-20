@@ -4,7 +4,7 @@ description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 �
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 100%
 
@@ -258,7 +258,7 @@ ht-degree: 100%
 
 텍스트 맞춤법을 검사하는 데 사용됩니다. 오자는 빨간색 점선으로 밑줄이 그어져 있습니다.
 
-맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 ### 특수 문자 {#special-characters}
 

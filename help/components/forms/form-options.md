@@ -4,7 +4,7 @@ description: 핵심 구성 요소의 양식 옵션 구성 요소를 통해 다�
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 

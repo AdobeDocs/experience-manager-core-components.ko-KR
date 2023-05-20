@@ -4,7 +4,7 @@ description: 프로젝트를 구현할 때 핵심 구성 요소로 성공하는 
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 

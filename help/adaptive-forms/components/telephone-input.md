@@ -4,7 +4,7 @@ description: 적응형 양식 전화번호 입력 핵심 구성 요소를 사용
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 100%
 

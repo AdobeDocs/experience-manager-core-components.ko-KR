@@ -4,7 +4,7 @@ description: 적응형 양식 텍스트 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 

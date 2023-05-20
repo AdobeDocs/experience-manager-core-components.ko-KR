@@ -4,7 +4,7 @@ description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 100%
 

@@ -2,15 +2,15 @@
 title: 구성 요소 다운로드 (v1)
 description: 핵심 구성 요소의 다운로드 구성 요소를 사용하여 페이지에서 다운로드 옵션을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: ht
+exl-id: ebd63522-218d-4784-bea0-1627c64f5230
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
 
 ---
 
-
-# 다운로드 구성 요소 (v1) {#download-component}
+# 구성 요소 다운로드 (v1) {#download-component}
 
 핵심 구성 요소의 다운로드 구성 요소를 사용하여 페이지에서 다운로드 옵션을 만들 수 있습니다.
 

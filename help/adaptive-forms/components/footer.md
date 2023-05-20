@@ -4,7 +4,7 @@ description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 

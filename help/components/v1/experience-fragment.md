@@ -2,13 +2,13 @@
 title: 경험 조각 구성 요소 (v1)
 description: 콘텐츠 작성자는 경험 조각 구성 요소를 통해 경험 조각 변형을 페이지에 추가할 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
 
 ---
-
 
 # 경험 조각 구성 요소 (v1) {#experience-fragment-component}
 

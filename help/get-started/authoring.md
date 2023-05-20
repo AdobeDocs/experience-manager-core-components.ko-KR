@@ -4,7 +4,7 @@ description: AEM에서 구성 요소는 작성 중인 페이지의 콘텐츠를 
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 

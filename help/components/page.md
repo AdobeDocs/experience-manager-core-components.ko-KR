@@ -4,7 +4,7 @@ description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 

@@ -5,8 +5,8 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
-workflow-type: ht
-source-wordcount: '710'
+workflow-type: tm+mt
+source-wordcount: '707'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 | `aem-env-var` | [변수 이름 지정 가이드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)에 따라 env vars의 사용을 확인합니다.<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `content-package-validation` | FileVault 유효성 검사기를 실행합니다. 기본적으로 jackrabbit-docviewparser가 활성화되며 배포 도중 설치될 내부 패키지의 xml에 대한 올바른 형식의 콘텐츠 구문을 검사합니다.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>이를 해결하려면 분석기에서 지정한 파일에 xml 문제가 있는지 확인하십시오. | 예 | 예 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 알려진 문제
 

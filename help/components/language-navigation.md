@@ -4,7 +4,7 @@ description: 방문자가 서로 다른 로케일에서 동일한 페이지로 �
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
 

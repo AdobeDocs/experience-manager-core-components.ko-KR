@@ -2,13 +2,13 @@
 title: 페이지 구성 요소 (v2)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # 페이지 구성 요소 (v2) {#page-component}
 

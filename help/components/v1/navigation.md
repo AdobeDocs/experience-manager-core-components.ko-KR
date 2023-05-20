@@ -2,13 +2,13 @@
 title: 탐색 구성 요소 (v1)
 description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
 
 ---
-
 
 # 탐색 구성 요소 (v1) {#navigation-component}
 

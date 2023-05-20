@@ -2,13 +2,13 @@
 title: 버튼 구성 요소 (v1)
 description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
 ---
-
 
 # 버튼 구성 요소 (v1) {#button-component}
 

@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 상단 탭
 description: 적응형 양식 상단 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: 핵심 이메일 구성 요소는 릴리스로 게시됩니다.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 이메일 핵심 구성 요소는 유연하고, 지원되는 모든 AEM 버전과 호환할 수 있도록 설계되었습니다. 이메일 핵심 구성 요소의 버전 내역에 대한 자세한 내용은 [GitHub에서 확인할 수 있습니다.](https://github.com/adobe/aem-core-email-components/releases) 단, 다음 표에 이메일 핵심 구성 요소 릴리스와 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요가 나와 있습니다.
 
-| 릴리스 | 설명 | AEM 6.5 | 핵심 구성 요소 | Java | 릴리스 날짜 |
+| 릴리스 | 설명 | AEM 6.5 | 핵심 구성 요소 | Java | 릴리스 일자 |
 |---|---|---|---|---|---|
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 첫 번째 공개 릴리스, 자세한 내용은 릴리스 정보 참조 | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8, 11 | 2022년 11월 29일 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 수정 사항 | 6.5.13.0+ |  | 8, 11 | 2022년 9월 30일 |

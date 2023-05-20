@@ -4,7 +4,7 @@ description: 핵심 구성 요소의 컨테이너 구성 요소를 통해 페이
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 100%
 

@@ -2,13 +2,13 @@
 title: 제목 구성 요소 (v2)
 description: 핵심 구성 요소의 제목 구성 요소는 바로 편집 기능이 있는 섹션 머리말 구성 요소입니다.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 100%
 
 ---
-
 
 # 제목 구성 요소 (v2) {#title-component}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ### 기술 세부 사항 {#technical-details}
 
-제목 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_title_v2_kr).
+제목 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_title_v2_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

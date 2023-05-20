@@ -4,7 +4,7 @@ description: 적응형 양식 라디오 버튼 핵심 구성 요소를 사용 �
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 100%
 

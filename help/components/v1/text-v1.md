@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -254,7 +254,7 @@ ht-degree: 100%
    ![](/help/assets/chlimage_1-79.png)
 
    * **열** - 표의 열 수(필수)
-   * **행** - 표의 행 수(필수)
+   * **행** - 표의 행 수 (필수)
    * **폭** - 표의 폭
    * **높이** - 표의 높이
    * **셀 패딩** - 셀 내용 앞뒤 공백

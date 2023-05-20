@@ -4,7 +4,7 @@ description: 빠른 검색 구성 요소는 웹 사이트에 검색 기능을 �
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 

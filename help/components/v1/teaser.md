@@ -4,7 +4,7 @@ description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 100%
 

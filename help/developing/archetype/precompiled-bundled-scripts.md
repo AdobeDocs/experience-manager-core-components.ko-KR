@@ -3,7 +3,7 @@ title: 미리 컴파일된 번들형 스크립트
 description: OSGi 번들을 통해 구성 요소 스크립트를 Adobe Experience Manager Cloud Service로 배포하는 방법을 살펴보십시오.
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 767f83fbad11a108aab25be2b77759af3c08b864
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 
