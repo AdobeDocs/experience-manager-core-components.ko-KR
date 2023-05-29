@@ -4,9 +4,9 @@ description: 핵심 이메일 구성 요소는 릴리스로 게시됩니다.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 | 릴리스 | 설명 | AEM 6.5 | 핵심 구성 요소 | Java | 릴리스 일자 |
 |---|---|---|---|---|---|
-| [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | 이 릴리스에는 Selenium e2e 테스트가 도입되었으며 많은 버그 수정이 포함되었습니다. | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 2022년 11월 29일 |
+| [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | 이 릴리스에는 Selenium e2e 테스트가 도입되었으며 다양한 버그 수정이 포함되었습니다. | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 2022년 11월 29일 |
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 첫 번째 공개 릴리스, 자세한 내용은 릴리스 정보 참조 | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 2022년 11월 29일 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 수정 사항 | 6.5.13.0+ |  | 8, 11 | 2022년 9월 30일 |
 | [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | 수정 사항 | 6.5.13.0+ |  | 8, 11 | 2022년 9월 27일 |
