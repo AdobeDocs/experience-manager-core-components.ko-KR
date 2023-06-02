@@ -1,0 +1,156 @@
+---
+sub-product: AEM Core Components
+user-guide-title: AEM 핵심 구성 요소
+breadcrumb-title: 핵심 구성 요소 안내서
+user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
+feature-set: Experience Manager Sites
+source-git-commit: 945ca958481f86d166c4d78d63ecd5011bc15f97
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 100%
+
+---
+
+
+# AEM 핵심 구성 요소 도움말 {#using}
+
++ [핵심 구성 요소 소개](/help/introduction.md)
++ [성공으로 가는 경로](/help/developing/success.md)
++ [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_kr)
++ [버전](/help/versions.md)
++ 시작하기 {#get-started}
+   + [핵심 구성 요소로 작성](/help/get-started/authoring.md)
+   + [핵심 구성 요소 사용](/help/get-started/using.md)
+   + [현지화 기능](/help/get-started/localization.md)
++ WCM 구성 요소 {#wcm-components}
+   + [아코디언](/help/components/accordion.md)
+   + [이동 경로](/help/components/breadcrumb.md)
+   + [버튼](/help/components/button.md)
+   + [슬라이드](/help/components/carousel.md)
+   + [컨테이너](/help/components/container.md)
+   + [콘텐츠 조각](/help/components/content-fragment-component.md)
+   + [콘텐츠 조각 목록](/help/components/content-fragment-list.md)
+   + [다운로드](/help/components/download.md)
+   + [임베드](/help/components/embed.md)
+   + [경험 조각](/help/components/experience-fragment.md)
+   + [이미지](/help/components/image.md)
+   + [언어 탐색](/help/components/language-navigation.md)
+   + [목록](/help/components/list.md)
+   + [탐색](/help/components/navigation.md)
+   + [페이지](/help/components/page.md)
+   + [PDF 뷰어](/help/components/pdf-viewer.md)
+   + [진행률 표시줄](/help/components/progress-bar.md)
+   + [빠른 검색](/help/components/quick-search.md)
+   + [분리자](/help/components/separator.md)
+   + [소셜 미디어 공유](/help/components/sharing.md)
+   + [목차](/help/components/tableofcontents.md)
+   + [텍스트](/help/components/text.md)
+   + [탭](/help/components/tabs.md)
+   + [티저](/help/components/teaser.md)
+   + [제목](/help/components/title.md)
+   + 양식 구성 요소 {#forms}
+      + [양식 버튼](/help/components/forms/form-button.md)
+      + [양식 컨테이너](/help/components/forms/form-container.md)
+      + [양식 숨김](/help/components/forms/form-hidden.md)
+      + [양식 옵션](/help/components/forms/form-options.md)
+      + [양식 텍스트](/help/components/forms/form-text.md)
+   + v1 구성 요소 {#v1-components}
+      + [이동 경로 (v1)](/help/components/v1/breadcrumb-v1.md)
+      + [버튼 (v1)](/help/components/v1/button.md)
+      + [콘텐츠 조각 목록 (v1)](/help/components/v1/content-fragment-list.md)
+      + [다운로드 (v1)](/help/components/v1/download.md)
+      + [임베드 (v1)](/help/components/v1/embed.md)
+      + [경험 조각 (v1)](/help/components/v1/experience-fragment.md)
+      + [이미지 (v1)](/help/components/v1/image-v1.md)
+      + [언어 탐색 (v1)](/help/components/v1/language-navigation.md)
+      + [목록 (v1)](/help/components/v1/list-v1.md)
+      + [탐색 (v1)](/help/components/v1/navigation.md)
+      + [페이지 (v1)](/help/components/v1/page-v1.md)
+      + [티저 (v1)](/help/components/v1/teaser.md)
+      + [빠른 검색 (v1)](/help/components/v1/quick-search.md)
+      + [텍스트 (v1)](/help/components/v1/text-v1.md)
+      + [제목 (v1)](/help/components/v1/title-v1.md)
+      + v1 양식 구성 요소 {#v1-forms}
+         + [양식 버튼 (v1)](/help/components/v1/form-button-v1.md)
+         + [양식 컨테이너 (v1)](/help/components/v1/form-container-v1.md)
+         + [양식 숨김 (v1)](/help/components/v1/form-hidden-v1.md)
+         + [양식 옵션 (v1)](/help/components/v1/form-options-v1.md)
+         + [양식 텍스트 (v1)](/help/components/v1/form-text-v1.md)
+   + v2 구성 요소 {#v2-components}
+      + [이동 경로 (v2)](/help/components/v2/breadcrumb.md)
+      + [이미지 (v2)](/help/components/v2/image.md)
+      + [목록 (v2)](/help/components/v2/list.md)
+      + [페이지 (v2)](/help/components/v2/page.md)
+      + [제목 (v2)](/help/components/v2/title.md)
+   + v3 구성 요소 {#v3-components}
+      + [목록 (v3)](/help/components/v3/list.md)
++ 이메일 구성 요소 {#email}
+   + [소개](/help/email/introduction.md)
+   + [이메일 핵심 구성 요소 사용](/help/email/using.md)
+   + [캠페인 변수](/help/email/campaign-variables.md)
+   + [버전](/help/email/versions.md)
+   + 이메일 구성 요소 {#components}
+      + [페이지](/help/email/components/page.md)
+      + [컨테이너](/help/email/components/container.md)
+      + [제목](/help/email/components/title.md)
+      + [텍스트](/help/email/components/text.md)
+      + [이미지](/help/email/components/image.md)
+      + [버튼](/help/email/components/button.md)
+      + [티저](/help/email/components/teaser.md)
+      + [경험 조각](/help/email/components/experience-fragment.md)
+      + [콘텐츠 조각](/help/email/components/content-fragment.md)
+      + [세분화](/help/email/components/segmentation.md)
++ 적응형 양식 {#adaptive-forms}
+   + [소개](/help/adaptive-forms/introduction.md)
+   + [버전 내역](/help/adaptive-forms/version.md)
+   + 적응형 양식 구성 요소 {#adaptive-forms-components}
+      + [적응형 양식 아코디언](/help/adaptive-forms/components/accordion.md)
+      + [적응형 양식 버튼](/help/adaptive-forms/components/button.md)
+      + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
+      + [적응형 양식 컨테이너](/help/adaptive-forms/components/form-container.md)
+      + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
+      + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+      + [적응형 양식 이메일 입력](/help/adaptive-forms/components/email-input.md)
+      + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
+      + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
+      + [적응형 양식 숫자 입력](/help/adaptive-forms/components/number-input.md)
+      + [적응형 양식 패널](/help/adaptive-forms/components/panel-container.md)
+      + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
+      + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
+      + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
+      + [적응형 양식 전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
+      + [적응형 양식 텍스트](/help/adaptive-forms/components/text.md)
+      + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-input.md)
+      + [적응형 양식 제목](/help/adaptive-forms/components/title.md)
+      + [적응형 양식 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
+      + [헤더](/help/adaptive-forms/components/header.md)
+      + [바닥글](/help/adaptive-forms/components/footer.md)
++ 개발 {#developing}
+   + [핵심 구성 요소 개발](/help/developing/overview.md)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
+   + [구성 요소 가이드라인](/help/developing/guidelines.md)
+   + [AMP 지원](/help/developing/amp.md)
+   + [텍스트 인식 구성](/help/developing/context-aware-configs.md)
+   + [클라이언트 라이브러리 포함](/help/developing/including-clientlibs.md)
+   + [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)
+   + [웹에 최적화된 이미지 게재](/help/developing/web-optimized-image-delivery.md)
+   + Adobe 클라이언트 데이터 레이어 {#data-layer}
+      + [데이터 레이어 개요](/help/developing/data-layer/overview.md)
+      + [데이터 레이어와 통합](/help/developing/data-layer/integrations.md)
+      + [데이터 레이어 확장](/help/developing/data-layer/extending.md)
+   + AEM Project Archetype {#archetype}
+      + [Archetype 개요](/help/developing/archetype/overview.md)
+      + [Archetype 사용](/help/developing/archetype/using.md)
+      + [핵심 모듈](/help/developing/archetype/core.md)
+      + [ui.apps 모듈](/help/developing/archetype/uiapps.md)
+      + [미리 컴파일된 번들형 스크립트](/help/developing/archetype/precompiled-bundled-scripts.md)
+      + [ui.content 모듈](/help/developing/archetype/uicontent.md)
+      + [ui.frontend.general 모듈](/help/developing/archetype/uifrontend.md)
+      + [ui.frontend.react 모듈](/help/developing/archetype/uifrontend-react.md)
+      + [ui.frontend.angular 모듈](/help/developing/archetype/uifrontend-angular.md)
+      + [ui.test 모듈](/help/developing/archetype/uitests.md)
+      + [it.tests 모듈](/help/developing/archetype/ittests.md)
+      + [Build Analyzer Maven Plugin](/help/developing/archetype/build-analyzer-maven-plugin.md)
