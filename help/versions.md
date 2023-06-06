@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3006'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
-| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 이 패치 릴리스에서는 두 가지 문제가 해결되었습니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 5월 25일 |
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 이 패치 릴리스는 두 가지 문제를 수정합니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 5월 25일 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 이 패치 릴리스는 두 가지 회귀를 수정합니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 5월 11일 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 이 패치 릴리스는 이전 릴리스에서 실수로 제거된 기능을 다시 가져옵니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 5월 9일 |
 | [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 이 패치 릴리스는 [컨테이너 구성 요소](/help/components/container.md)의 회귀를 수정합니다. | - | 6.5.14.0+ * | Continual | 8, 11 | 2023년 4월 21일 |
