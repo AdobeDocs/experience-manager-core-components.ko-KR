@@ -4,7 +4,7 @@ description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
 ht-degree: 100%
 
