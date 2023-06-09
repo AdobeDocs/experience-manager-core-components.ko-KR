@@ -3,10 +3,10 @@ title: 이메일 경험 조각 구성 요소
 description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통해 콘텐츠에 경험 조각 변형을 배치하면서 현지화된 콘텐츠 구조를 지원할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -105,9 +105,9 @@ ht-degree: 100%
 1. 검색되지 않는 경우 라이브 카피 검색을 시도합니다.
 1. 검색되지 않는 경우 구성 요소에 구성되는 경험 조각으로 기본 설정됩니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-경험 조각 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다.](https://adobe.com/go/aem_cmp_email_tech_xf_v1_kr)
+최신 항목 읽기 [경험 조각 구성 요소에 대한 기술 설명서](https://www.adobe.com/go/aem_cmp_xf_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
