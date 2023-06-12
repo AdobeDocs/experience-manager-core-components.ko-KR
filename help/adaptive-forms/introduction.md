@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
+source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 89%
+source-wordcount: '1147'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 | 클라우드 기반 | [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html)에 사용할 수 있습니다. |
 | 유연성 | 구성 요소는 양식 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반적인 개념을 나타냅니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)은 사용하거나 사용할 수 없는 기능이 무엇인지 정의합니다. |
-| 액세스 가능 | ARIA 레이블을 제공하고, 키보드 탐색([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))을 지원하며, 화면 판독기와 같은 보조 기술용 텍스트를 제공합니다. |
+| 액세스 가능 | ARIA 레이블을 제공하고 키보드 탐색을 지원하며 화면 판독기와 같은 보조 기술에 대한 텍스트를 제공합니다. |
 | 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
 | 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 간편한 맞춤화를 구현할 수 있습니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
@@ -94,9 +94,9 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 * [제목](/help/adaptive-forms/components/title.md)
 * [마법사](/help/adaptive-forms/components/wizard.md)
 
-## 적응형 Forms 핵심 구성 요소 설정
+## 적응형 양식 핵심 구성 요소 설정
 
-AEM Forms as a Cloud Service에서 적응형 Forms 핵심 구성 요소를 활성화하면 AEM Forms Cloud Service 인스턴스를 사용하여 적응형 Forms 및 Headless Forms 기반의 핵심 구성 요소를 만들고, 게시하고, 여러 채널에 전달할 수 있습니다. 적응형 양식 핵심 구성 요소 활성화에 대한 자세한 지침은 [AEM Forms as a Cloud Service 및 로컬 개발 환경에서 적응형 Forms 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+AEM Forms as a Cloud Service에서 적응형 양식 핵심 구성 요소를 활성화하면 여러 채널에 AEM Forms Cloud Service 인스턴스를 사용하여 핵심 구성 요소 기반 적응형 양식 및 Headless 양식을 만들고, 게시하고, 게재할 수 있습니다. 적응형 양식 핵심 구성 요소 활성화를 위한 자세한 지침은 [AEM Forms as a Cloud Service 및 로컬 개발 환경에서 적응형 양식 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)를 참조하십시오.
 
 적응형 양식 핵심 구성 요소에는 다음과 같은 요구 사항이 있습니다.
 
@@ -105,12 +105,12 @@ AEM Forms as a Cloud Service에서 적응형 Forms 핵심 구성 요소를 활�
 | AEM as a Cloud Service | Forms - 디지털 등록 | [릴리스 2.0.10](version.md)+ |
 | AEM 6.5 | Forms 추가 기능 | [릴리스 1.1.12](version.md)+ |
 
-AEM Cloud Service SDK 버전이 2023.02.0보다 오래된 경우 [다음을 수행했는지 확인 `prerelease` 환경에 활성화된 플래그](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ko#new-features) as Adaptive Forms 핵심 구성 요소는 2023.02.0 릴리스 이전 사전 릴리스의 일부입니다.
+적응형 양식 핵심 구성 요소는 2023.02.0 릴리스 이전의 프리릴리스 일부로 제공되었으므로 사용 중인 AEM Cloud Service SDK 버전이 2023.02.0 이전 버전이라면 [해당 환경에서 `prerelease` 플래그가 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ko#new-features)되어 있어야 합니다.
 
 
 ### 핵심 구성 요소 기반 적응형 양식 만들기
 
-AEM Forms as a Cloud Service에서 적응형 양식을 만들려면 다음을 참조하십시오. [적응형 양식 만들기(핵심 구성 요소)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?).
+AEM Forms as a Cloud Service에서 적응형 양식을 만들려면 [적응형 양식 만들기 (핵심 구성 요소)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)를 참조하십시오.
 
 
 
