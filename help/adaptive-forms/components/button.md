@@ -4,9 +4,9 @@ description: 적응형 양식 버튼 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1406'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 적응형 양식 규칙 편집기를 사용하면 버튼 구성 요소에 다양한 작업을 설정할 수 있습니다. 이러한 작업에는 웹 사이트 열기, 양식 구성 요소 표시 또는 숨기기, 패널 또는 구성 요소 인스턴스 추가, 양식 제출 또는 재설정 등이 포함됩니다.
 
-적응형 Forms 기능은에 대한 개별 구성 요소 [전송 단추](/help/adaptive-forms/components/submit-button.md) 및 [재설정 단추](/help/adaptive-forms/components/reset-button.md)를 사용하여 사용자가 편리하게 양식을 제출하거나 재설정할 수 있습니다. Button 구성 요소는 특정 요구 사항에 따라 이러한 작업을 실행하도록 유연하게 구성할 수 있습니다.
+적응형 양식은 [제출 버튼](/help/adaptive-forms/components/submit-button.md)과 [재설정 버튼](/help/adaptive-forms/components/reset-button.md)을 위한 별도의 구성 요소를 갖추고 있어 사용자가 편리하게 양식을 제출하거나 재설정할 수 있습니다. 버튼 구성 요소는 특정 요구 사항에 따라 이러한 작업을 실행하도록 유연하게 구성할 수 있습니다.
 
 사용자는 적응형 양식 규칙 편집기를 사용하여 버튼 구성 요소에 대해 지원되는 전체 작업 목록에 액세스할 수 있습니다. 규칙 편집기를 사용하면 버튼을 클릭할 때, 양식이 로드될 때 또는 필드 값이 변경될 때와 같은 다양한 이벤트에 의해 트리거되는 규칙을 만들 수 있습니다. 그런 다음 이러한 규칙을 사용하여 구성 요소 표시 또는 숨기기, 필드 값 설정 또는 양식 제출과 같은 다양한 작업을 수행할 수 있습니다.
 
