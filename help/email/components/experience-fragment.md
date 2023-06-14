@@ -4,9 +4,9 @@ description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 98%
 
 ## 기술 세부 정보 {#technical-details}
 
-최신 항목 읽기 [경험 조각 구성 요소에 대한 기술 설명서](https://www.adobe.com/go/aem_cmp_xf_v1).
+[경험 조각 구성 요소에 대한 최신 기술 설명서](https://www.adobe.com/go/aem_cmp_xf_v1_kr)를 참조하십시오.
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
