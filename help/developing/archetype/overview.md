@@ -4,7 +4,7 @@ description: AEM 기반 애플리케이션용 프로젝트 템플릿
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
+source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 100%
@@ -62,7 +62,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 * `XX`를 최신 [Archetype 버전 번호로 대체합니다.](#requirements)
 * [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)에 대해 `aemVersion=cloud`를 설정합니다.\
-   [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스를 위한 `aemVersion=6.5.0`를 설정합니다.
+  [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스를 위한 `aemVersion=6.5.0`를 설정합니다.
 AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이 아닌 버전에는 핵심 구성 요소 종속성만 추가됩니다.
 * `appTitle="My Site"`를 조정하여 웹 사이트 제목과 구성 요소 그룹을 정의합니다.
 * `appId="mysite"`를 조정하여 Maven artifactId, 구성 요소 config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름을 정의합니다.
@@ -73,10 +73,10 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 
 | 이름 | 기본값 | 설명 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
-| `appId` |  | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
+| `appTitle` |                | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
+| `appId` |                | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
 | `artifactId` | *`${appId}`* | 기본 Maven 아티팩트 ID (예: `"mysite"`) |
-| `groupId` |  | 기본 Maven 그룹 ID (예: `"com.mysite"`) 이 값은 [유효한 Java 패키지 이름](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)이어야 합니다. |
+| `groupId` |                | 기본 Maven 그룹 ID (예: `"com.mysite"`) 이 값은 [유효한 Java 패키지 이름](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)이어야 합니다. |
 | `package` | *`${groupId}`* | Java 소스 패키지 (예: `"com.mysite"`) |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전 (예: `1.0-SNAPSHOT`) |
 | `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
@@ -89,7 +89,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예시 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeErrorHandler` | `n` | 전체 인스턴스 전역의 사용자 정의 404 반응형 페이지(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
-| `commerceEndpoint` |  | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 엔드포인트(예: `https://hostname.com/grapql`). |
+| `commerceEndpoint` |                | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 엔드포인트(예: `https://hostname.com/grapql`). |
 | `includeFormscommunications` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 커뮤니케이션 프로그램에 해당하는 아티팩트를 생성합니다. |
 | `includeFormsenrollment` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 등록 프로그램에 해당하는 아티팩트를 생성합니다. |
 | `sdkFormsVersion` | `latest` | `aemVersion=cloud` 및 `includeFormsenrollment=y` 또는 `includeFormscommunications=y` 중 하나이면 Forms SDK 버전을 지정할 수 있습니다(예: `2020.12.17.02`). |
@@ -104,7 +104,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 
 | Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [41](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-41) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ko-KR) 또는 [기존 버전의 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)용 로컬 개발 환경을 설정합니다.
 
