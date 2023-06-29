@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 가로 탭
 description: 적응형 양식 가로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 100%
+source-wordcount: '1733'
+ht-degree: 88%
 
 ---
 
@@ -30,18 +30,20 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 아코디언 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 가로 탭 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
-| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
-|---|---|---|
-| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
+|  |  |
+|---|---|
+| 구성 요소 버전 | AEM as a Cloud Service |
+| --- | --- |
+| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
 
 
 ## 기술 세부 정보 {#technical-details}
@@ -54,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 기본 탭 {#basic-tab}
 
-![기본 탭](/help/adaptive-forms/assets/tabsontop_basictab.png)
+![기본 탭](/help/adaptive-forms/assets/tabs-on-top-basic.png)
 
 * **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
@@ -70,20 +72,32 @@ To experience the Accordion Component as well as see examples of its configurati
 * **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 * **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 
+### 상단탭 반복 {#repeat-tabs-on-top}
+
+![접근성 탭](/help/adaptive-forms/assets/repeat-tabsontop.png)
+
+반복 옵션을 사용하여 수평 탭 구성 요소와 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하며, 양식 내에서 유사한 섹션을 쉽게 복제할 수 있습니다. 수평 탭 구성 요소와 상호 작용하고 해당 설정에 액세스할 때 다음 옵션이 표시됩니다.
+
+* **가로 탭을 반복 가능하게 설정**: 사용자가 반복 기능을 활성화하거나 비활성화할 수 있는 전환 기능입니다.
+* **최소 반복**: 수평 탭 구성 요소를 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 가로 탭 구성 요소가 반복되지 않음을 나타냅니다. 기본값은 0입니다.
+* **최대 반복**: 수평 탭 구성 요소가 반복될 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
+
+가로 탭 내에서 반복 가능한 섹션을 효과적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 기사.
+
 ### 항목 탭 {#items-tab}
 
-![항목 탭](/help/adaptive-forms/assets/tabsontop_itemstab.png)
+![항목 탭](/help/adaptive-forms/assets/items-tabs-on-top.png)
 
 **추가** 버튼을 사용하면 구성 요소 선택 창에서 패널로 추가할 구성 요소를 선택할 수 있습니다. 구성 요소를 추가하면 다음 옵션이 표시됩니다.
 
 * **아이콘** - 목록에서 패널 구성 요소를 식별하는 아이콘입니다. 아이콘 위에 마우스를 가져다 대면 전체 구성 요소 이름을 툴팁으로 조회할 수 있습니다.
 * **설명** - 패널의 텍스트로 사용되는 설명입니다. 기본적으로 구성 요소의 이름이 패널에 대해 선택되어 있습니다.
-* **삭제** - 탭하거나 클릭하여 가로 탭 구성 요소에서 패널을 삭제합니다.
+* **삭제** - 탭하거나 클릭하여 수평 탭 구성 요소에서 패널을 삭제합니다.
 * **재배열** - 패널의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
 
 ### 도움말 콘텐츠 탭 {#help-content}
 
-![도움말 콘텐츠 탭](/help/adaptive-forms/assets/tabsontop_helptab.png)
+![도움말 콘텐츠 탭](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
 
 * **간단한 설명** - 간단한 설명은 특정 양식 필드의 용도에 대한 추가 정보 또는 설명을 제공하는 간단한 텍스트 설명입니다. 사용자가 필드에 입력해야 하는 데이터 유형을 이해하는 데 도움이 되며 입력된 정보가 유효하고 원하는 기준을 충족하는지 확인하는 데 도움이 되는 지침 또는 예시를 제공할 수 있습니다. 기본적으로 간단한 설명은 숨겨진 상태로 유지됩니다. **간단한 설명 항상 표시** 옵션을 활성화하여 구성 요소 아래에 표시할 수 있습니다.
 
@@ -93,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 접근성 탭 {#accessibility}
 
-![접근성 탭](/help/adaptive-forms/assets/tabsontop_accessibilitytab.png)
+![접근성 탭](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 * **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
 
@@ -101,10 +115,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 구성 요소의 경우 다음을 설정할 수 있습니다.
+디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 Forms 수평 탭 구성 요소의 경우 다음을 설정할 수 있습니다.
 
-* 양식 작성자가 적응형 양식 편집기에서 가로 탭에 추가할 수 있는 핵심 구성 요소
-* 적응형 양식 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 스타일(CSS 클래스)의 간단한 이름
+* 양식 작성자가 적응형 Forms 편집기의 가로 탭에 추가할 수 있는 핵심 구성 요소
+* 적응형 Forms 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 간단한 스타일 이름(CSS 클래스).
 
 이렇게 하면 양식을 만들고 사용자 정의하는 프로세스를 보다 간단하고 효율적으로 만들 수 있습니다.
 
@@ -112,14 +126,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 **허용된 구성 요소** 탭을 사용하면 템플릿 편집기에서 적응형 양식 편집기의 가로 탭 구성 요소 패널에 항목으로 추가할 수 있는 구성 요소를 설정할 수 있습니다.
 
-![가로 탭](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
-
 ### 스타일 탭 {#styles-tab}
 
-탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 가로 탭 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+디자인 대화 상자는 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 가로 탭 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-![스타일 탭](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+**기본 CSS 클래스**: 적응형 양식 가로 탭 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
-* **기본 CSS 클래스**: 적응형 양식 가로 탭 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
-
-* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+**허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
