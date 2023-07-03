@@ -2,10 +2,10 @@
 title: 적응형 양식 핵심 구성 요소 - 패널 컨테이너
 description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 89%
+source-wordcount: '1402'
+ht-degree: 98%
 
 ---
 
@@ -79,13 +79,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![반복 탭](/help/adaptive-forms/assets/repeat-panel.png)
 
-반복 옵션을 사용하여 패널 컨테이너와 하위 구성 요소를 복제하고 최소 및 최대 반복 횟수를 정의하며 양식 내에서 유사한 섹션을 쉽게 복제할 수 있습니다. 패널 컨테이너 구성 요소와 상호 작용하고 해당 설정에 액세스할 때 다음 옵션이 표시됩니다.
+반복 옵션을 사용하여 패널 컨테이너와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수 있습니다. 패널 컨테이너 구성 요소와 상호 작용하고 설정에 액세스할 때 다음 옵션이 표시됩니다.
 
-* **마법사를 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화하거나 비활성화할 수 있는 전환 기능입니다.
+* **마법사가 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
 * **최소 반복**: 패널 컨테이너를 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 마법사 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
-* **최대 반복**: 패널 컨테이너가 반복될 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
+* **최대 반복**: 패널 컨테이너를 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-패널 컨테이너 내에서 반복 가능한 섹션을 효과적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 기사.
+패널 컨테이너 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 제공된 단계를 따르십시오.
 
 ### 도움말 콘텐츠 탭 {#help-content}
 
@@ -107,3 +107,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **화면 판독기가 알릴 HTML 역할** - HTML 역할은 화면 판독기와 같은 보조 기술에 대한 HTML 요소의 용도를 지정하는 데 사용되는 속성입니다. 역할 속성은 요소에 추가 컨텍스트 및 의미를 제공하는 데 사용되며, 이를 통해 화면 판독기는 콘텐츠를 더 쉽게 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 “레이블”이라는 역할을 가질 수 있으며 해당 입력 필드는 “텍스트 상자”라는 역할을 가질 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알릴 수 있습니다.
 
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

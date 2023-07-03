@@ -3,10 +3,10 @@ title: 적응형 양식 아코디언
 description: 아코디언을 사용하여 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화합니다.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 92%
+source-wordcount: '1950'
+ht-degree: 98%
 
 ---
 
@@ -81,15 +81,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 아코디언 반복 {#repeat-accordion}
 
-![반복 아코디언](/help/adaptive-forms/assets/repeat-accordion.png)
+![repeat-accordion](/help/adaptive-forms/assets/repeat-accordion.png)
 
-반복 옵션을 사용하여 아코디언 패널 및 하위 구성 요소를 복제하고 최소 및 최대 반복 횟수를 정의하며 양식 내에서 유사한 섹션을 쉽게 복제할 수 있습니다. 아코디언 구성 요소와 상호 작용하고 해당 설정에 액세스할 때 다음 옵션이 표시됩니다.
+반복 옵션을 사용하여 아코디언 패널과 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수 있습니다. 아코디언 구성 요소와 상호 작용하고 설정에 액세스할 때 다음 옵션이 표시됩니다.
 
-* **아코디언을 반복 가능하게 만들기**: 사용자가 반복 기능을 활성화하거나 비활성화할 수 있는 전환 기능입니다.
+* **아코디언이 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
 * **최소 반복**: 아코디언 패널을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 아코디언 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 * **최대 반복**: 아코디언 패널을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-아코디언 내에서 반복 가능한 섹션을 효과적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 기사.
+아코디언 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 제공된 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 
@@ -187,7 +187,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
 
-<!-- 
+<!--- 
 
 The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
 
@@ -211,6 +211,14 @@ The Accordion Component supports the AEM [Style System](/help/get-started/author
 
 ## Adobe Client Data Layer {#data-layer}
 
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md) 
+
 
 -->
+
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+

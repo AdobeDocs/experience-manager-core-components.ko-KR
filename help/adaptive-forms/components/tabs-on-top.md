@@ -2,10 +2,10 @@
 title: 적응형 양식 핵심 구성 요소 - 상단 탭
 description: 적응형 양식 상단 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 94%
 
 ---
 
@@ -54,4 +54,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 구성 대화 상자를 사용하여 방문자를 위한 상단 탭 경험을 손쉽게 사용자 정의할 수 있습니다. 상단 탭 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
 
-## 디자인 대화 상자 {#design-dialog}
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

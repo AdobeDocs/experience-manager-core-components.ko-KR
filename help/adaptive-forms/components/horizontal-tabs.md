@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 가로 탭
 description: 적응형 양식 가로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 88%
+source-wordcount: '1769'
+ht-degree: 98%
 
 ---
 
@@ -72,17 +72,17 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 * **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 * **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 
-### 상단탭 반복 {#repeat-tabs-on-top}
+### 상단의 반복 탭 {#repeat-tabs-on-top}
 
 ![접근성 탭](/help/adaptive-forms/assets/repeat-tabsontop.png)
 
-반복 옵션을 사용하여 수평 탭 구성 요소와 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하며, 양식 내에서 유사한 섹션을 쉽게 복제할 수 있습니다. 수평 탭 구성 요소와 상호 작용하고 해당 설정에 액세스할 때 다음 옵션이 표시됩니다.
+반복 옵션을 사용하여 가로 탭 구성 요소와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수 있습니다. 가로 탭 구성 요소와 상호 작용하고 설정에 액세스할 때 다음 옵션이 표시됩니다.
 
-* **가로 탭을 반복 가능하게 설정**: 사용자가 반복 기능을 활성화하거나 비활성화할 수 있는 전환 기능입니다.
-* **최소 반복**: 수평 탭 구성 요소를 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 가로 탭 구성 요소가 반복되지 않음을 나타냅니다. 기본값은 0입니다.
-* **최대 반복**: 수평 탭 구성 요소가 반복될 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
+* **가로 탭이 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
+* **최소 반복**: 가로 탭을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 가로 탭이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
+* **최대 반복**: 가로 탭을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-가로 탭 내에서 반복 가능한 섹션을 효과적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 기사.
+가로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 제공된 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 
@@ -92,7 +92,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 * **아이콘** - 목록에서 패널 구성 요소를 식별하는 아이콘입니다. 아이콘 위에 마우스를 가져다 대면 전체 구성 요소 이름을 툴팁으로 조회할 수 있습니다.
 * **설명** - 패널의 텍스트로 사용되는 설명입니다. 기본적으로 구성 요소의 이름이 패널에 대해 선택되어 있습니다.
-* **삭제** - 탭하거나 클릭하여 수평 탭 구성 요소에서 패널을 삭제합니다.
+* **삭제** - 탭하거나 클릭하여 가로 탭 구성 요소에서 패널을 삭제합니다.
 * **재배열** - 패널의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
 
 ### 도움말 콘텐츠 탭 {#help-content}
@@ -115,10 +115,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 Forms 수평 탭 구성 요소의 경우 다음을 설정할 수 있습니다.
+디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 가로 탭 구성 요소의 경우 다음을 설정할 수 있습니다.
 
-* 양식 작성자가 적응형 Forms 편집기의 가로 탭에 추가할 수 있는 핵심 구성 요소
-* 적응형 Forms 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 간단한 스타일 이름(CSS 클래스).
+* 양식 작성자가 적응형 양식 편집기에서 가로 탭에 추가할 수 있는 핵심 구성 요소
+* 적응형 양식 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 스타일(CSS 클래스)의 간단한 이름
 
 이렇게 하면 양식을 만들고 사용자 정의하는 프로세스를 보다 간단하고 효율적으로 만들 수 있습니다.
 
@@ -132,4 +132,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 **기본 CSS 클래스**: 적응형 양식 가로 탭 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
-**허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

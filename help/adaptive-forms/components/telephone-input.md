@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 전화번호 입력
 description: 적응형 양식 전화번호 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 100%
+source-wordcount: '1757'
+ht-degree: 98%
 
 ---
 
@@ -128,3 +128,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![형식 탭](/help/adaptive-forms/assets/telephoneinput_format.png)
 
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

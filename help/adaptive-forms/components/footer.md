@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 바닥글
 description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '806'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
       1. 선택 열기 대화 상자를 통해 AEM의 경로를 선택합니다.
       1. 링크가 AEM 내에 없는 경우 절대 URL을 입력합니다.
       1. 절대 경로가 아닌 경로는 AEM의 상대 경로로 해석됩니다.
+
    * **대체 텍스트** - 링크에 대한 대체 설명 텍스트를 입력합니다.
 
    * **대상** - 링크 동작을 선택합니다.
@@ -93,11 +94,10 @@ To experience the Accordion Component as well as see examples of its configurati
       * 새 탭
       * 상위 프레임
       * 맨 위 프레임
+
    * **연결 해제 아이콘** - 이 옵션을 사용하여 선택한 텍스트에 이미 적용된 링크를 제거합니다. 이 옵션은 링크가 이미 선택된 경우에만 활성화됩니다.
 
    * **단락 형식 아이콘** - 이 옵션을 사용하면 선택한 텍스트에 단락 형식을 적용할 수 있습니다. 또한 커서 뒤에 삽입된 텍스트의 서식을 지정하는 데 도움이 됩니다. 제목의 머리말 수준을 정의합니다.
-
-
 
 * **ID**: 이 옵션을 통해 HTML과 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
@@ -105,3 +105,8 @@ To experience the Accordion Component as well as see examples of its configurati
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

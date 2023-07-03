@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 마법사
 description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 91%
+source-wordcount: '1865'
+ht-degree: 98%
 
 ---
 
@@ -93,15 +93,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 반복 마법사 탭 {#repeat-wizard-tab}
 
-![마법사 반복](/help/adaptive-forms/assets/wizard-repeat.png)
+![반복 마법사](/help/adaptive-forms/assets/wizard-repeat.png)
 
-반복 옵션을 사용하여 마법사와 하위 구성 요소를 복제하고 최소 및 최대 반복 횟수를 정의하며 양식 내에서 유사한 섹션을 쉽게 복제할 수 있습니다. 마법사 구성 요소와 상호 작용하고 해당 설정에 액세스할 때 다음 옵션이 표시됩니다.
+반복 옵션을 사용하여 마법사와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수 있습니다. 마법사 구성 요소와 상호 작용하고 설정에 액세스할 때 다음 옵션이 표시됩니다.
 
-* **마법사를 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화하거나 비활성화할 수 있는 전환 기능입니다.
+* **마법사가 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
 * **최소 반복**: 마법사 패널을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 마법사 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 * **최대 반복**: 마법사 패널을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-마법사 내에서 반복 가능한 섹션을 효과적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 기사.
+마법사 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 제공된 단계를 따르십시오.
 
 ### 도움말 탭 {#help-tab}
 
@@ -116,7 +116,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 접근성 탭 {#accessibility}
 
-![액세스 가능성 탭](/help/adaptive-forms/assets/wizard-accessibility.png)
+![접근성 탭](/help/adaptive-forms/assets/wizard-accessibility.png)
 
 * **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
 
@@ -143,4 +143,11 @@ To experience the Accordion Component as well as see examples of its configurati
 **기본 CSS 클래스**: 마법사 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+
+## 관련 문서 {#related-article}
+
+* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
 

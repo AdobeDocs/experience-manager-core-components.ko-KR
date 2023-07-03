@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 100%
+source-wordcount: '1262'
+ht-degree: 88%
 
 ---
 
@@ -100,7 +100,7 @@ AEM Forms as a Cloud Service에서 적응형 양식 핵심 구성 요소를 활�
 
 적응형 양식 핵심 구성 요소에는 다음과 같은 요구 사항이 있습니다.
 
-| AEM | AEM Forms 추가 기능 | 적응형 양식 핵심 구성 요소 |
+| AEM 버전 | AEM Forms 추가 기능 | 적응형 양식 핵심 구성 요소 |
 |---|---|---|
 | AEM as a Cloud Service | Forms - 디지털 등록 | [릴리스 2.0.10](version.md)+ |
 | AEM 6.5 | Forms 추가 기능 | [릴리스 1.1.12](version.md)+ |
@@ -108,9 +108,16 @@ AEM Forms as a Cloud Service에서 적응형 양식 핵심 구성 요소를 활�
 적응형 양식 핵심 구성 요소는 2023.02.0 릴리스 이전의 프리릴리스 일부로 제공되었으므로 사용 중인 AEM Cloud Service SDK 버전이 2023.02.0 이전 버전이라면 [해당 환경에서 `prerelease` 플래그가 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ko#new-features)되어 있어야 합니다.
 
 
-### 핵심 구성 요소 기반 적응형 양식 만들기
+## 적응형 양식 기반의 핵심 구성 요소 만들기
 
-AEM Forms as a Cloud Service에서 적응형 양식을 만들려면 [적응형 양식 만들기 (핵심 구성 요소)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)를 참조하십시오.
+AEM Forms as a Cloud Service 또는 AEM 6.5 Forms 환경 모두에서 다음 작업을 수행할 수 있습니다.
+
+| 작업 | AEM Forms 버전 |
+|--------|------------------|
+| 독립 실행형 적응형 양식 만들기 | [Cloud Service으로 AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) |
+| AEM Sites 페이지에서 적응형 양식 만들기 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-sites-editor-or-experience-fragment), [Cloud Service으로 AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-sites-editor-or-experience-fragment) |
+| AEM 경험 조각에서 적응형 양식 만들기 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-experience-fragment), [Cloud Service으로 AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-experience-fragment) |
+| 적응형 양식을 경험 조각으로 변환 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment), [Cloud Service으로 AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment) |
 
 
 
