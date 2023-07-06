@@ -82,7 +82,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 * **최소 반복**: 가로 탭을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 가로 탭이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 * **최대 반복**: 가로 탭을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-가로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 제공된 단계를 따르십시오.
+가로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 
@@ -115,7 +115,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 가로 탭 구성 요소의 경우 다음을 설정할 수 있습니다.
+디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 가로 탭 구성 요소의 경우 다음과 같은 옵션을 설정할 수 있습니다.
 
 * 양식 작성자가 적응형 양식 편집기에서 가로 탭에 추가할 수 있는 핵심 구성 요소
 * 적응형 양식 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 스타일(CSS 클래스)의 간단한 이름

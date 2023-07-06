@@ -26,7 +26,7 @@ ht-degree: 98%
 
 * **긴 양식**: 아코디언은 긴 양식을 처리하는 데 이상적인 구성 요소입니다. 한 번에 많은 정보를 처리하지 않고 한 번에 한 섹션에 집중할 수 있기 때문입니다.
 
-다음을 사용할 수 있습니다.
+다음과 같은 기능을 사용할 수 있습니다.
 
 * [구성 대화 상자](#configure-dialog): 아코디언 구성 요소의 속성을 지정합니다.
 
@@ -89,7 +89,7 @@ To experience the Accordion Component as well as see examples of its configurati
 * **최소 반복**: 아코디언 패널을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 아코디언 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 * **최대 반복**: 아코디언 패널을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-아코디언 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 제공된 단계를 따르십시오.
+아코디언 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 
@@ -156,7 +156,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 아코디언 구성 요소의 경우 다음을 설정할 수 있습니다.
+디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 아코디언 구성 요소의 경우 다음과 같은 옵션을 설정할 수 있습니다.
 
 * 허용되고 기본값으로 설정된 HTML 제목 요소의 유형 (예: H1, H2, H3 등)
 * 양식 작성자가 적응형 양식 편집기에서 아코디언에 추가할 수 있는 핵심 구성 요소
