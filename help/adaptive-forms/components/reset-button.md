@@ -4,9 +4,9 @@ description: 적응형 양식 재설정 버튼 핵심 구성 요소를 사용 �
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
-* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
