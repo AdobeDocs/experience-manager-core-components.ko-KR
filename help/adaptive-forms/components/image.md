@@ -4,9 +4,9 @@ description: 적응형 양식 이미지 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1014'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,10 +68,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **설명** - 설명은 특정 이미지의 용도에 대한 추가 정보 또는 설명을 제공하는 간단한 텍스트 설명입니다.
 
-* **여기에 에셋을 놓거나 업로드할 파일 검색** - 이 옵션을 사용하면 마우스 드래그 앤 드롭으로 이미지와 같은 에셋을 놓을 수 있습니다. **검색** 버튼을 사용하여 로컬 파일 시스템에서 파일을 업로드할 수도 있습니다. 이미지를 추가하면 이미지 하단에 세 개의 버튼이 나타납니다.
-   * **편집** - 에셋 편집기에서 에셋 렌디션을 관리하려면 **편집**&#x200B;을 탭하거나 클릭합니다.
+* **여기에 자산을 놓거나 업로드할 파일 검색** - 이 옵션을 사용하면 마우스 드래그 앤 드롭으로 이미지와 같은 자산을 놓을 수 있습니다. **검색** 버튼을 사용하여 로컬 파일 시스템에서 파일을 업로드할 수도 있습니다. 이미지를 추가하면 이미지 하단에 세 개의 버튼이 나타납니다.
+   * **편집** - 자산 편집기에서 자산 렌디션을 관리하려면 **편집**&#x200B;을 탭하거나 클릭합니다.
    * **지우기** - 현재 선택된 이미지의 선택을 해제하려면 **지우기**&#x200B;를 탭하거나 클릭합니다.
-   * **선택** - 에셋 폴더에서 다른 이미지를 선택하려면 **선택**&#x200B;을 탭하거나 클릭합니다.
+   * **선택** - 자산 폴더에서 다른 이미지를 선택하려면 **선택**&#x200B;을 탭하거나 클릭합니다.
 
 * **대체 텍스트** - 이 옵션은 시각 장애가 있는 사용자에게 이미지를 설명해 주는 이미지에 대한 간단한 대체 텍스트를 제공하는 텍스트를 입력하는 데 사용됩니다.
 
@@ -97,4 +97,4 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
-* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
