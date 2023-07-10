@@ -4,9 +4,9 @@ description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **최대 파일 크기 오류 메시지** - **최대 파일 크기(MB)** 옵션에 지정된 파일 크기보다 큰 크기의 파일을 업로드할 경우 표시되는 이 옵션은 오류 메시지를 입력하는 데 사용됩니다.
 
-* **허용된 파일 유형** - **첨부 파일** 버튼을 사용하여 업로드할 수 있는 다양한 유형의 파일이 여기에 추가됩니다. 또한 **추가** 버튼을 클릭하여 새 파일 형식을 추가할 수 있습니다. 지원되는 파일 형식은 오디오, 비디오, 이미지, 텍스트 또는 PDF입니다. 다음을 사용하여 허용된 파일 형식을 삭제하거나 재배열할 수도 있습니다.
+* **허용된 파일 유형** - **첨부 파일** 버튼을 사용하여 업로드할 수 있는 다양한 유형의 파일이 여기에 추가됩니다. 또한 **추가** 버튼을 클릭하여 새 파일 형식을 추가할 수 있습니다. 지원되는 파일 형식은 오디오, 비디오, 이미지, 텍스트 또는 PDF입니다. 다음 옵션을 사용하여 허용된 파일 형식을 삭제하거나 재배열할 수도 있습니다.
    * **삭제** - 특정 파일 유형을 제거하려면 탭하거나 클릭합니다.
    * **재배열** - 허용된 파일 유형의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
 
@@ -133,4 +133,4 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
-* [독립 실행형 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
