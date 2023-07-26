@@ -4,10 +4,10 @@ description: AEM Project Archetype에 대한 자세한 사용량 지침
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
+source-git-commit: e0dff3b15c9637292eb2bb89836215afc0fcf8f9
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 100%
+source-wordcount: '2201'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ AEM Project Archetype은 모듈로 구성됩니다.
 * **all**: 공급업체 종속성 등 컴파일된 모든 모듈(번들 및 콘텐츠 패키지)을 임베드하는 단일 콘텐츠 패키지입니다.
 * **analyse**: 프로젝트에서 AEM as a Cloud Service 배포를 다시 확인하는 분석을 실행합니다.
 
-![](/help/assets/archetype-structure.png)
+![콘텐츠 패키지 조직](/help/assets/content-package-organization.png)
 
 애플리케이션, 콘텐츠와 필요한 OSGi 번들을 표시하는 콘텐츠 패키지로서 Maven에 표시된 AEM Archetype 모듈을 AEM으로 배포합니다.
 
@@ -76,7 +76,7 @@ mvn -B archetype:generate \
 
 * `XX`를 [최신 AEM Project Archetype의 버전 번호](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)로 설정합니다.
 * [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)에 대해 `aemVersion=cloud`를 설정합니다.\
-   [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스를 위한 `aemVersion=6.5.0`를 설정합니다.
+  [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스를 위한 `aemVersion=6.5.0`를 설정합니다.
 AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이 아닌 버전에는 핵심 구성 요소 종속성만 추가됩니다.
 * `appTitle="My Site"`를 조정하여 웹 사이트 제목과 구성 요소 그룹을 정의합니다.
 * `appId="mysite"`를 조정하여 Maven artifactId, 구성 요소 config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름을 정의합니다.
@@ -95,10 +95,10 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 
 | 이름 | 기본값 | 설명 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
-| `appId` |  | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
+| `appTitle` |                | 웹 사이트 제목과 구성 요소 그룹(예: `"My Site"`)에 애플리케이션 제목을 사용합니다. |
+| `appId` |                | 구성 요소, config 및 콘텐츠 폴더 이름과 클라이언트 라이브러리 이름(예: `"mysite"`)에 기술적 용어가 사용됩니다. |
 | `artifactId` | *`${appId}`* | 기본 Maven 아티팩트 ID (예: `"mysite"`) |
-| `groupId` |  | 기본 Maven 그룹 ID (예: `"com.mysite"`) |
+| `groupId` |                | 기본 Maven 그룹 ID (예: `"com.mysite"`) |
 | `package` | *`${groupId}`* | Java 소스 패키지 (예: `"com.mysite"`) |
 | `version` | `1.0-SNAPSHOT` | 프로젝트 버전 (예: `1.0-SNAPSHOT`) |
 | `aemVersion` | `cloud` | 대상 AEM 버전 ([AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)나 `6.5.0`용 `cloud` 또는 [Adobe 관리 서비스](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)나 온프레미스용 `6.4.4`일 수 있음) |
@@ -111,7 +111,7 @@ Archetype을 사용하여 프로젝트를 제작할 때 다음 속성을 사용�
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예시 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeErrorHandler` | `n` | 전체 인스턴스 전역의 사용자 정의 404 반응형 페이지(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
-| `commerceEndpoint` |  | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 끝점(예: `https://hostname.com/grapql`). |
+| `commerceEndpoint` |                | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 끝점(예: `https://hostname.com/grapql`). |
 | `datalayer` | `y` | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)와의 통합 기능을 활성화합니다. |
 | `amp` | `n` | 생성된 프로젝트 템플릿에 대한 [AMP](/help/developing/amp.md) 지원을 활성화합니다. |
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
