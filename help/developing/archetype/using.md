@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: e0dff3b15c9637292eb2bb89836215afc0fcf8f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ AEM Project Archetype은 모듈로 구성됩니다.
 * **all**: 공급업체 종속성 등 컴파일된 모든 모듈(번들 및 콘텐츠 패키지)을 임베드하는 단일 콘텐츠 패키지입니다.
 * **analyse**: 프로젝트에서 AEM as a Cloud Service 배포를 다시 확인하는 분석을 실행합니다.
 
-![콘텐츠 패키지 조직](/help/assets/content-package-organization.png)
+![콘텐츠 패키지 구성](/help/assets/content-package-organization.png)
 
 애플리케이션, 콘텐츠와 필요한 OSGi 번들을 표시하는 콘텐츠 패키지로서 Maven에 표시된 AEM Archetype 모듈을 AEM으로 배포합니다.
 
