@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: b39cd395d17f6aab7376e01fc01a7c0e98b2460f
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 97%
 
 ---
 
@@ -103,6 +103,7 @@ ht-degree: 100%
       + [세분화](/help/email/components/segmentation.md)
 + 적응형 양식 {#adaptive-forms}
    + [소개](/help/adaptive-forms/introduction.md)
+   + [핵심 구성 요소의 샘플 테마, 템플릿 및 양식 데이터 모델](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [버전 내역](/help/adaptive-forms/version.md)
    + 적응형 양식 구성 요소 {#adaptive-forms-components}
       + [적응형 양식 아코디언](/help/adaptive-forms/components/accordion.md)
