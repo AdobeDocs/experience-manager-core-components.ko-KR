@@ -4,9 +4,9 @@ description: 아코디언을 사용하여 길거나 복잡한 양식을 더 작�
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2051'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -71,11 +71,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
-* **양식 제출에 하위 구성 요소 데이터 그룹화(개체에 데이터 래핑)** - 옵션을 선택하면 해당 하위 구성 요소의 데이터가 상위 구성 요소의 JSON 오브젝트 내에 중첩됩니다. 그러나 이 옵션을 선택하지 않으면 제출된 JSON 데이터는 상위 구성 요소에 대한 개체가 없는 플랫 구조를 갖습니다. 예:
+* **양식 제출 시 하위 구성 요소의 데이터 그룹화(오브젝트에 데이터 래핑)** - 이 옵션을 선택하면 하위 구성 요소의 데이터가 상위 구성 요소의 JSON 오브젝트 내에 중첩됩니다. 그러나 이 옵션을 선택하지 않으면 제출된 JSON 데이터는 상위 구성 요소에 대한 오브젝트가 없는 평면 구조를 갖습니다. 예:
 
-   * 옵션을 선택하면 하위 구성 요소의 데이터(예: 거리, 도시 및 우편번호)가 상위 구성 요소(주소) 내에 JSON 개체로 중첩됩니다. 이렇게 하면 계층 구조가 만들어지고 데이터는 상위 구성 요소 아래에 구성됩니다.
+   * 이 옵션을 선택하면 하위 구성 요소(예: 도로 번호, 구/군/시 및 우편 번호)의 데이터가 상위 구성 요소(주소) 내에 JSON 오브젝트로 중첩됩니다. 이렇게 하면 계층 구조가 생성되고 데이터는 상위 구성 요소 아래에 구성됩니다.
 
-     제출된 데이터 구조:
+     제출된 데이터의 구조:
 
      ```JSON
      { "Address":
@@ -85,10 +85,10 @@ To experience the Accordion Component as well as see examples of its configurati
      }
      ```
 
-   * 옵션을 선택하지 않으면 제출된 JSON 데이터의 구조가 상위 구성 요소 (주소)에 대한 오브젝트가 없는 것으로 표시됩니다. 모든 데이터는 계층 구조 없이 동일한 수준에 있습니다.
+   * 이 옵션을 선택하지 않으면 제출된 JSON 데이터는 상위 구성 요소(주소)에 대한 오브젝트가 없는 평면 구조를 갖습니다. 모든 데이터는 계층 구조 없이 동일한 수준에 있습니다.
 
 
-     제출된 데이터 구조:
+     제출된 데이터의 구조:
 
      ```JSON
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
