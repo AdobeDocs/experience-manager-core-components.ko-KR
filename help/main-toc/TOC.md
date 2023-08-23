@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [적응형 양식 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
       + [헤더](/help/adaptive-forms/components/header.md)
       + [바닥글](/help/adaptive-forms/components/footer.md)
-   + [적응형 Forms 핵심 구성 요소 맞춤화](/help/developing/customize-adaptive-forms-core-components.md)
+   + [적응형 양식 핵심 구성 요소 사용자 정의](/help/developing/customize-adaptive-forms-core-components.md)
    + [샘플 테마 및 템플릿](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
