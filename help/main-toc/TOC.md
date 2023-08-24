@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 99%
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
       + [적응형 양식 숫자 입력](/help/adaptive-forms/components/number-input.md)
       + [적응형 양식 패널](/help/adaptive-forms/components/panel-container.md)
-      + [적응형 Forms CAPTCHA](/help/adaptive-forms/components/captcha.md)
+      + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
