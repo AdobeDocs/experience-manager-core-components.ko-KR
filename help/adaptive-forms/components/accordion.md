@@ -4,9 +4,9 @@ description: 아코디언을 사용하여 길거나 복잡한 양식을 더 작�
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2088'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -245,7 +245,7 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 
 * [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
-## 참조: {#see-also}
+## 추가 참조 {#see-also}
 
 * [버튼](/help/adaptive-forms/components/button.md)
 * [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
