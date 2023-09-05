@@ -4,9 +4,9 @@ description: 프로젝트를 구현할 때 핵심 구성 요소로 성공하는 
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
 
 ### Adobe XD용 UI 키트 사용 {#ui-kit}
 
-맞춤형 구성 요소에 대한 필요성이 입증되면 즉시 Adobe XD용 UI 키트 활용 [여기서 다운로드할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) 따라서 디자이너는 핵심 구성 요소를 빌딩 블록으로 사용하여 와이어프레임 및 디자인 빌드를 시작할 수 있습니다.
+사용자 정의 구성 요소에 대한 필요성이 입증되면 디자이너가 핵심 구성 요소를 빌딩 블록으로서 사용하여 와이어프레임 및 디자인 빌드를 시작할 수 있도록 [여기에서 다운로드할 수 있는](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) Adobe XD용 UI 키트를 활용하십시오.
 
 ## 강력한 기능에 주목하십시오. {#powerful-features}
 
