@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 98%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
    + [클라이언트 라이브러리 포함](/help/developing/including-clientlibs.md)
    + [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)
    + [웹에 최적화된 이미지 게재](/help/developing/web-optimized-image-delivery.md)
+   + [차세대 Dynamic Media 지원](/help/developing/next-gen-dm.md)
    + Adobe 클라이언트 데이터 레이어 {#data-layer}
       + [데이터 레이어 개요](/help/developing/data-layer/overview.md)
       + [데이터 레이어와 통합](/help/developing/data-layer/integrations.md)

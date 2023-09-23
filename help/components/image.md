@@ -3,20 +3,23 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 100%
+source-wordcount: '2084'
+ht-degree: 85%
 
 ---
 
-# 이미지 구성 요소{#image-component}
+
+# 이미지 구성 요소 {#image-component}
 
 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
 
 ## 사용 {#usage}
 
 이미지 구성 요소에는 페이지 방문자의 소극적 로드와 콘텐츠 작성자의 간단한 이미지 배치 옵션이 있는 적응형 이미지 선택 기능과 반응 동작이 포함됩니다.
+
+콘텐츠 작성자는 [편집 대화 상자](#edit-dialog) 자르기 적용 또는 이미지 회전과 같은 이미지 에셋 편집
 
 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 이미지 폭 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 에셋을 업로드하거나 선택할 수 있습니다.
 
@@ -50,6 +53,12 @@ ht-degree: 100%
 
 핵심 구성 요소가 내장된 웹 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
+## 차세대 Dynamic Media 지원 {#next-gen-dm}
+
+이미지 구성 요소( 의 경우) [릴리스 2.23.2](/help/versions.md))는 차세대 Dynamic Media 원격 자산을 지원합니다.
+
+[구성이 완료되면](/help/developing/next-gen-dm.md) 이미지 구성 요소에 대한 원격 차세대 Dynamic Media 서비스에서 자산을 선택할 수 있습니다.
+
 ## SVG 지원 {#svg-support}
 
 이미지 구성 요소는 확장 가능한 벡터 그래픽(SVG)을 지원합니다.
@@ -74,6 +83,76 @@ ht-degree: 100%
 
 이미지 구성 요소는 [schema.org microdata](https://schema.org)를 지원합니다.
 
+## 편집 대화 상자 {#edit-dialog}
+
+콘텐츠 작성자는 편집 대화 상자를 통해 이미지를 자르고 확대/축소할 수 있습니다.
+
+다음을 보유하고 있는지 여부에 따라 [Dynamic Media](#dynamic-media) 활성화 또는 [차세대 Dynamic Media](#next-gen-dm) 기능을 활성화한 경우 이미지 편집에 사용할 수 있는 옵션이 달라집니다.
+
+### 표준 자산 편집 {#standard-assets}
+
+표준 AEM 에셋을 편집하는 경우 **편집** 이미지 구성 요소의 상황에 맞는 메뉴에 있는 아이콘입니다.
+
+![이미지 구성 요소의 편집 대화 상자](/help/assets/image-edit.png)
+
+* 자르기 시작
+
+  ![자르기 시작 아이콘](/help/assets/image-start-crop.png)
+
+  이 옵션을 선택하면 자르기 비율을 사전 정의하는 드롭다운이 열립니다.
+
+   * **자르기 제거** 옵션을 선택하면 원본 에셋이 표시됩니다.
+
+  자르기 옵션이 선택되면 파란색 핸들이 사용하여 이미지에서 자르기 크기를 조정합니다.
+
+  ![자르기 옵션](/help/assets/image-crop-options.png)
+
+* 오른쪽 회전
+
+  ![오른쪽 회전 아이콘](/help/assets/image-rotate-right.png)
+
+  이 옵션을 사용하여 오른쪽으로(시계 방향으로) 이미지를 90° 회전합니다.
+
+* 확대/축소 재설정
+
+  ![확대/축소 재설정 아이콘](/help/assets/image-reset-zoom.png)
+
+  이미지가 이미 확대/축소되었다면 이 옵션을 사용하여 확대/축소 레벨을 재설정합니다.
+
+* 확대/축소 슬라이더 열기
+
+  ![확대/축소 슬라이더 아이콘](/help/assets/image-zoom.png)
+
+  이 옵션을 사용하여 이미지의 확대/축소 레벨을 제어하는 슬라이더를 표시합니다.
+
+  ![확대/축소 슬라이더 컨트롤](/help/assets/image-zoom-slider.png)
+
+바로 편집 기능을 가진 편집기를 사용하여 이미지를 수정합니다. 공간 제약으로 인라인에서는 기본 옵션만 제공됩니다. 전체 편집 옵션의 경우 전체 화면 모드를 사용합니다.
+
+![이미지 바로 편집 기능 옵션](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>GIF 이미지에 대해서는 이미지 편집 작업이 지원되지 않습니다. 편집 모드에 변경 사항이 발생하면 지속되지 않습니다.
+
+### Dynamic Media 자산 편집 {#dynamic-media-assets}
+
+다음을 보유한 경우: [Dynamic Media 기능 활성화됨,](#dynamic-media) 이미지 자체의 편집은 에셋 콘솔에서 수행해야 합니다.
+
+### 차세대 Dynamic Media 에셋 편집 {#next-gen-dm-assets}
+
+다음을 보유한 경우: [차세대 Dynamic Media 구성,](#next-gen-dm) 다음 **스마트 자르기** 옵션은 구성 요소의 컨텍스트 메뉴에서 사용할 수 있습니다.
+
+![스마트 자르기](/help/assets/image-smart-crop.png)
+
+대화 상자를 사용하여 스마트 자르기를 조정합니다.
+
+![스마트 자르기 대화 상자](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>스마트 자르기에 대한 자세한 내용은 [이 비디오에서는 기능을 다룹니다.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+
 ## 구성 대화 상자 {#configure-dialog}
 
 이미지 구성 요소는 설명 및 기본 속성과 함께 이미지 자체를 정의하는 구성 대화 상자를 제공합니다.
@@ -84,16 +163,21 @@ ht-degree: 100%
 
 * **페이지에서 추천 이미지 상속** 옵션은 [링크된 페이지의 추천 이미지](page.md)를 사용하거나 이미지가 링크되지 않은 경우 현재 페이지의 추천 이미지를 사용합니다.
 
-* **접근성을 위한 그림 설명** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
+* **이미지 자산** - 다음과 같은 경우 자동으로 채워집니다. **페이지에서 추천 이미지 상속** 이(가) 선택되어 있습니다. 다음 옵션을 설정하여 이미지를 수동으로 정의하려면 선택을 해제합니다.
+
+   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
+   * 탭 또는 클릭 **선택** 을(를) 열려면 [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 이미지를 선택합니다.
+      * If [차세대 Dynamic Media 기능](#next-gen-dm) 이 활성화되고 나면 자산을 선택할 수 있는 여러 옵션이 생깁니다.
+         * **로컬** 는 로컬 AEM 에셋 라이브러리에서 를 선택합니다.
+         * **원격** AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 를 선택합니다.
+   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
+
+* **접근성을 위한 대체 텍스트** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
 
    * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 에셋이 없는 경우 현재 페이지의 연결된 에셋 값에 대한 대체 설명을 사용합니다.
 
-* **이미지 에셋**
-   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
-   * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
-
-* **대체 텍스트를 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
+* **그림 설명을 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
 
 ### 메타데이터 탭 {#metadata-tab}
 
@@ -101,7 +185,7 @@ ht-degree: 100%
 
 * **사전 설정 유형** - 이는 사용 가능한 이미지 사전 설정 유형, **이미지 사전 설정** 또는 **스마트 자르기** 중 하나를 정의하고, [Dynamic Media 기능](#dynamic-meida)이 활성화되는 경우에만 사용할 수 있습니다.
    * **이미지 사전 설정** - **이미지 사전 설정**&#x200B;의 **사전 설정 유형**&#x200B;이 설정되면 사용 가능한 Dynamic Media 사전 설정을 선택하면서 드롭다운 **이미지 사전 설정**&#x200B;을 사용할 수 있습니다. 선택한 에셋에 대한 사전 설정이 정의되는 경우에만 사용할 수 있습니다.
-   * **스마트 자르기** - **스마트 자르기**&#x200B;의 **사전 설정 유형**&#x200B;이 설정되면 선택한 에셋에 대해 사용 가능한 렌디션을 선택하면서 드롭다운 **렌디션**&#x200B;을 사용할 수 있습니다. 선택한 에셋에 대해 렌디션이 정의되는 경우에만 사용할 수 있습니다.
+   * **스마트 자르기** - 다음의 경우 **사전 설정 유형** / **스마트 자르기** 이(가) 선택됨, 드롭다운 **렌디션** 를 사용할 수 있으며, 선택한 에셋에 대해 사용 가능한 렌디션을 선택할 수 있습니다. 선택한 에셋에 대해 렌디션이 정의되는 경우에만 사용할 수 있습니다.
    * **이미지 수정자** - **사전 설정 유형** 선택에 관계없이 명령을 제공하는 추가 Dynamic Media 이미지를 `&`로 구분하여 정의할 수 있습니다.
 * **캡션** - 기본적으로 이미지에 대한 추가 정보가 이미지 아래에 표시됩니다.
    * **DAM에서 캡션 다운로드** - 확인 표시가 되어 있으면 이미지의 캡션 텍스트가 DAM의 `dc:title` 메타데이터 값으로 채워집니다.
