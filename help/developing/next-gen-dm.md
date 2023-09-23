@@ -2,7 +2,7 @@
 title: 차세대 Dynamic Media 지원
 description: 원격 차세대 Dynamic Media 에셋을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법을 알아봅니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -70,7 +70,7 @@ OSGi 구성 방법에 대한 자세한 내용은 다음 문서를 참조하십�
 
 1. 인증되면 원격 서비스의 자산 브라우저가 열립니다. 원하는 에셋을 선택하고 을 탭하거나 클릭합니다 **선택**.
 
-   ![원격 자산 선택](/help/assets/remote-asset-selection.png)
+   ![원격 자산 선택](/help/assets/remote-asset-picker.png)
 
 원격 자산이 로컬 AEM 페이지에 추가되고 기능이 올바르게 구성되었는지 확인했습니다.
 
