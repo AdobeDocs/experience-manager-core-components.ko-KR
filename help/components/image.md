@@ -4,9 +4,9 @@ description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2084'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 85%
 
 이미지 구성 요소에는 페이지 방문자의 소극적 로드와 콘텐츠 작성자의 간단한 이미지 배치 옵션이 있는 적응형 이미지 선택 기능과 반응 동작이 포함됩니다.
 
-콘텐츠 작성자는 [편집 대화 상자](#edit-dialog) 자르기 적용 또는 이미지 회전과 같은 이미지 에셋 편집
+콘텐츠 작성자는 [편집 대화 상자](#edit-dialog)를 사용하여 자르기를 적용하거나 이미지를 회전하는 등 이미지 자산을 편집할 수 있습니다.
 
-템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 이미지 폭 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 에셋을 업로드하거나 선택할 수 있습니다.
+템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 이미지 폭 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 자산을 업로드하거나 선택할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -39,9 +39,9 @@ ht-degree: 85%
 
 ## 반응형 기능 {#responsive-features}
 
-이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 템플릿 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 에셋의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 올바른 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
+이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 템플릿 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 자산의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 올바른 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
 
-또한, 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 에셋 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
+또한, 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 자산 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
 
 >[!TIP]
 >
@@ -49,21 +49,21 @@ ht-degree: 85%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 자산을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 핵심 구성 요소가 내장된 웹 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
 ## 차세대 Dynamic Media 지원 {#next-gen-dm}
 
-이미지 구성 요소( 의 경우) [릴리스 2.23.2](/help/versions.md))는 차세대 Dynamic Media 원격 자산을 지원합니다.
+이미지 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 차세대 Dynamic Media 원격 자산을 지원합니다.
 
-[구성이 완료되면](/help/developing/next-gen-dm.md) 이미지 구성 요소에 대한 원격 차세대 Dynamic Media 서비스에서 자산을 선택할 수 있습니다.
+[구성한 다음](/help/developing/next-gen-dm.md) 이미지 구성 요소에 대해 원격 차세대 Dynamic Media 서비스에서 자산을 선택할 수 있습니다.
 
 ## SVG 지원 {#svg-support}
 
 이미지 구성 요소는 확장 가능한 벡터 그래픽(SVG)을 지원합니다.
 
-* DAM에서의 SVG 에셋 드래그 앤 드롭과 로컬 파일 시스템에서의 SVG 파일 업로드를 모두 지원합니다.
+* DAM에서의 SVG 자산 드래그 앤 드롭과 로컬 파일 시스템에서의 SVG 파일 업로드를 모두 지원합니다.
 * 원본 SVG 파일이 스트리밍됩니다(변환은 건너뜀).
 * SVG 이미지의 경우 “스마트 이미지”와 “스마트 크기”를 이미지 모델에서 빈 배열로 설정합니다.
 
@@ -85,13 +85,13 @@ ht-degree: 85%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-콘텐츠 작성자는 편집 대화 상자를 통해 이미지를 자르고 확대/축소할 수 있습니다.
+콘텐츠 작성자는 편집 대화 상자를 통해 이미지를 자르고, 확대/축소할 수 있습니다.
 
-다음을 보유하고 있는지 여부에 따라 [Dynamic Media](#dynamic-media) 활성화 또는 [차세대 Dynamic Media](#next-gen-dm) 기능을 활성화한 경우 이미지 편집에 사용할 수 있는 옵션이 달라집니다.
+[Dynamic Media](#dynamic-media)를 활성화했는지 또는 [차세대 Dynamic Media](#next-gen-dm) 기능을 활성화했는지에 따라 이미지 편집에 사용할 수 있는 옵션이 달라집니다.
 
 ### 표준 자산 편집 {#standard-assets}
 
-표준 AEM 에셋을 편집하는 경우 **편집** 이미지 구성 요소의 상황에 맞는 메뉴에 있는 아이콘입니다.
+표준 AEM 자산을 편집하는 경우 이미지 구성 요소의 컨텍스트 메뉴에서 **편집** 아이콘을 클릭할 수 있습니다.
 
 ![이미지 구성 요소의 편집 대화 상자](/help/assets/image-edit.png)
 
@@ -101,7 +101,7 @@ ht-degree: 85%
 
   이 옵션을 선택하면 자르기 비율을 사전 정의하는 드롭다운이 열립니다.
 
-   * **자르기 제거** 옵션을 선택하면 원본 에셋이 표시됩니다.
+   * **자르기 제거** 옵션을 선택하면 원본 자산이 표시됩니다.
 
   자르기 옵션이 선택되면 파란색 핸들이 사용하여 이미지에서 자르기 크기를 조정합니다.
 
@@ -133,15 +133,15 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->GIF 이미지에 대해서는 이미지 편집 작업이 지원되지 않습니다. 편집 모드에 변경 사항이 발생하면 지속되지 않습니다.
+>GIF 이미지의 경우 이미지 편집 작업이 지원되지 않습니다. 편집 모드에 변경 사항이 발생하면 지속되지 않습니다.
 
 ### Dynamic Media 자산 편집 {#dynamic-media-assets}
 
-다음을 보유한 경우: [Dynamic Media 기능 활성화됨,](#dynamic-media) 이미지 자체의 편집은 에셋 콘솔에서 수행해야 합니다.
+[Dynamic Media 기능이 활성화](#dynamic-media)된 경우 자산 콘솔에서 이미지 자체 편집을 수행해야 합니다.
 
-### 차세대 Dynamic Media 에셋 편집 {#next-gen-dm-assets}
+### 차세대 Dynamic Media 자산 편집 {#next-gen-dm-assets}
 
-다음을 보유한 경우: [차세대 Dynamic Media 구성,](#next-gen-dm) 다음 **스마트 자르기** 옵션은 구성 요소의 컨텍스트 메뉴에서 사용할 수 있습니다.
+[차세대 Dynamic Media가 구성](#next-gen-dm)된 경우 구성 요소의 컨텍스트 메뉴에서 **스마트 자르기** 옵션을 사용할 수 있습니다.
 
 ![스마트 자르기](/help/assets/image-smart-crop.png)
 
@@ -151,31 +151,31 @@ ht-degree: 85%
 
 >[!TIP]
 >
->스마트 자르기에 대한 자세한 내용은 [이 비디오에서는 기능을 다룹니다.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+>스마트 자르기에 대한 자세한 내용은 [해당 기능에 대한 이 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)를 참조하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
 이미지 구성 요소는 설명 및 기본 속성과 함께 이미지 자체를 정의하는 구성 대화 상자를 제공합니다.
 
-### 에셋 탭 {#asset-tab}
+### 자산 탭 {#asset-tab}
 
-![이미지 구성 요소의 구성 대화 상자 에셋 탭](/help/assets/image-configure-asset.png)
+![이미지 구성 요소의 구성 대화 상자 자산 탭](/help/assets/image-configure-asset.png)
 
 * **페이지에서 추천 이미지 상속** 옵션은 [링크된 페이지의 추천 이미지](page.md)를 사용하거나 이미지가 링크되지 않은 경우 현재 페이지의 추천 이미지를 사용합니다.
 
-* **이미지 자산** - 다음과 같은 경우 자동으로 채워집니다. **페이지에서 추천 이미지 상속** 이(가) 선택되어 있습니다. 다음 옵션을 설정하여 이미지를 수동으로 정의하려면 선택을 해제합니다.
+* **이미지 자산** - **페이지에서 추천 이미지 상속**&#x200B;을 선택한 경우 자동으로 채워집니다. 다음 옵션을 설정하여 이미지를 수동으로 정의하려면 선택 해제합니다.
 
-   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * 탭 또는 클릭 **선택** 을(를) 열려면 [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 이미지를 선택합니다.
-      * If [차세대 Dynamic Media 기능](#next-gen-dm) 이 활성화되고 나면 자산을 선택할 수 있는 여러 옵션이 생깁니다.
-         * **로컬** 는 로컬 AEM 에셋 라이브러리에서 를 선택합니다.
-         * **원격** AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 를 선택합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
+   * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택합니다.
+      * [차세대 Dynamic Media 기능](#next-gen-dm)이 활성화된 경우 자산을 선택할 수 있는 여러 옵션이 있습니다.
+         * **로컬**&#x200B;은 로컬 AEM 자산 라이브러리에서 선택할 수 있습니다.
+         * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 * **접근성을 위한 대체 텍스트** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
 
-   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 에셋이 없는 경우 현재 페이지의 연결된 에셋 값에 대한 대체 설명을 사용합니다.
+   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 자산이 없는 경우 현재 페이지의 연결된 자산 값에 대한 대체 설명을 사용합니다.
 
 * **그림 설명을 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
 
@@ -184,8 +184,8 @@ ht-degree: 85%
 ![이미지 구성 요소의 구성 대화 상자 메타데이터 탭](/help/assets/image-configure-metadata.png)
 
 * **사전 설정 유형** - 이는 사용 가능한 이미지 사전 설정 유형, **이미지 사전 설정** 또는 **스마트 자르기** 중 하나를 정의하고, [Dynamic Media 기능](#dynamic-meida)이 활성화되는 경우에만 사용할 수 있습니다.
-   * **이미지 사전 설정** - **이미지 사전 설정**&#x200B;의 **사전 설정 유형**&#x200B;이 설정되면 사용 가능한 Dynamic Media 사전 설정을 선택하면서 드롭다운 **이미지 사전 설정**&#x200B;을 사용할 수 있습니다. 선택한 에셋에 대한 사전 설정이 정의되는 경우에만 사용할 수 있습니다.
-   * **스마트 자르기** - 다음의 경우 **사전 설정 유형** / **스마트 자르기** 이(가) 선택됨, 드롭다운 **렌디션** 를 사용할 수 있으며, 선택한 에셋에 대해 사용 가능한 렌디션을 선택할 수 있습니다. 선택한 에셋에 대해 렌디션이 정의되는 경우에만 사용할 수 있습니다.
+   * **이미지 사전 설정** - **이미지 사전 설정**&#x200B;의 **사전 설정 유형**&#x200B;이 설정되면 사용 가능한 Dynamic Media 사전 설정을 선택하면서 드롭다운 **이미지 사전 설정**&#x200B;을 사용할 수 있습니다. 선택한 자산에 대한 사전 설정이 정의되는 경우에만 사용할 수 있습니다.
+   * **스마트 자르기** - **스마트 자르기**&#x200B;의 **사전 설정 유형**&#x200B;이 설정되면 선택한 자산에 대해 사용 가능한 렌디션을 선택하면서 드롭다운 **렌디션**&#x200B;을 사용할 수 있습니다. 선택한 자산에 대해 렌디션이 정의되는 경우에만 사용할 수 있습니다.
    * **이미지 수정자** - **사전 설정 유형** 선택에 관계없이 명령을 제공하는 추가 Dynamic Media 이미지를 `&`로 구분하여 정의할 수 있습니다.
 * **캡션** - 기본적으로 이미지에 대한 추가 정보가 이미지 아래에 표시됩니다.
    * **DAM에서 캡션 다운로드** - 확인 표시가 되어 있으면 이미지의 캡션 텍스트가 DAM의 `dc:title` 메타데이터 값으로 채워집니다.
@@ -229,7 +229,7 @@ ht-degree: 85%
 * **DAM에서 그림 설명 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 그림 설명을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 캡션 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 캡션을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **팝업으로 캡션 표** - 페이지에 이미지 구성 요소를 추가할 때 팝업으로 이미지 캡션을 표시하는 옵션이 자동으로 활성화되면 정의합니다.
-* **폭 조정** - 이 값은 DAM 에셋인 베이스 이미지의 폭을 조정하는 데 사용됩니다.
+* **폭 조정** - 이 값은 DAM 자산인 베이스 이미지의 폭을 조정하는 데 사용됩니다.
    * 이미지의 종횡비가 유지됩니다.
    * 값이 이미지의 실제 폭보다 크면 이 값은 효과가 없습니다.
    * 이 값은 SVG 이미지에 영향을 주지 않습니다.
@@ -238,7 +238,7 @@ ht-degree: 85%
 
 * **폭** 이미지에 대해 폭 목록을 픽셀 단위로 정의하면 구성 요소는 브라우저 크기에 따라 가장 적절한 폭을 자동으로 로드합니다.
    * **추가** 버튼을 탭하거나 클릭하여 다른 크기를 추가합니다.
-      * 그랩 드래그 핸들을 사용하여 크기의 순서를 재배열합니다.
+      * 그랩 핸들을 사용하여 크기의 순서를 재배열합니다.
       * **삭제** 아이콘을 사용하여 폭을 삭제합니다.
    * 기본적으로 이미지가 표시될 때까지 이미지 로드를 연기합니다.
       * **소극적 로드 활성화** 옵션을 사용하여 페이지 로드에서 이미지를 로드합니다.
