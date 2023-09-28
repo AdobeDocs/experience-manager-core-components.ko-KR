@@ -3,7 +3,7 @@ title: 차세대 Dynamic Media 지원
 description: 원격 차세대 Dynamic Media 자산을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
