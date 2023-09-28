@@ -4,9 +4,9 @@ description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 핵심 구성 요소의 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 
-## 사용량 {#usage}
+## 사용 {#usage}
 
 콘텐츠 작성자는 티저 구성 요소를 통해 이미지, 제목이나 서식 있는 텍스트와 추가 콘텐트 링크 또는 기타 작업을 통해 티저를 손쉽게 제작할 수 있습니다.
 
@@ -33,9 +33,9 @@ ht-degree: 92%
 
 ## 차세대 Dynamic Media 지원 {#next-gen-dm}
 
-티저 구성 요소( 의 경우) [릴리스 2.23.2](/help/versions.md))는 차세대 Dynamic Media 원격 자산을 지원합니다.
+티저 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 차세대 Dynamic Media 원격 자산을 지원합니다.
 
-[구성이 완료되면](/help/developing/next-gen-dm.md) 티저 구성 요소의 원격 차세대 Dynamic Media 서비스에서 자산을 선택할 수 있습니다.
+[구성한 다음](/help/developing/next-gen-dm.md) 티저 구성 요소에 대해 원격 차세대 Dynamic Media 서비스에서 자산을 선택할 수 있습니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -43,7 +43,7 @@ ht-degree: 92%
 
 ### 기술 세부 사항 {#technical-details}
 
-티저 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_teaser_v1_kr).
+티저 구성 요소에 대한 최신 기술 설명서는 [GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_kr)에서 찾아볼 수 있습니다.
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -76,20 +76,20 @@ ht-degree: 92%
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-### 에셋 탭 {#asset-tab}
+### 자산 탭 {#asset-tab}
 
 ![티저 구성 요소의 편집 대화 상자 이미지 탭](/help/assets/teaser-edit-image.png)
 
 * **페이지에서 추천 이미지 상속** - 링크된 페이지의 페이지 속성에 정의된 이미지를 사용하거나 찾을 수 없는 경우 현재 페이지를 사용합니다.
-* **이미지 에셋** - [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+* **이미지 자산** - [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * 탭 또는 클릭 **선택** 을(를) 열려면 [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 이미지를 선택합니다.
-      * If [차세대 Dynamic Media 기능](#next-gen-dm) 이 활성화되고 나면 자산을 선택할 수 있는 여러 옵션이 생깁니다.
-         * **로컬** 는 로컬 AEM 에셋 라이브러리에서 를 선택합니다.
-         * **원격** AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 를 선택합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
+   * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택합니다.
+      * [차세대 Dynamic Media 기능](#next-gen-dm)이 활성화된 경우 자산을 선택할 수 있는 여러 옵션이 있습니다.
+         * **로컬**&#x200B;은 로컬 AEM 자산 라이브러리에서 선택할 수 있습니다.
+         * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 * **접근성을 위한 대체 텍스트** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
-   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 에셋이 없는 경우 현재 페이지의 연결된 에셋 값에 대한 대체 설명을 사용합니다.
+   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 자산이 없는 경우 현재 페이지의 연결된 자산 값에 대한 대체 설명을 사용합니다.
 * **그림 설명을 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
 
 ### 스타일 탭 {#styles-tab-edit}
@@ -104,7 +104,7 @@ ht-degree: 92%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image.md)로 전달합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자](image.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
+티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image.md)로 위임합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자](image.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -122,7 +122,7 @@ ht-degree: 92%
       * 선택한 경우 **제목 유형**&#x200B;을 숨깁니다.
    * **설명 숨기기** - 콘텐츠 작성자를 위한 **설명**&#x200B;을 숨깁니다.
 * **기본 제목 유형** - 티저의 제목에 사용될 H 태그를 정의합니다.
-* **이미지 전달** - 이미지 처리 시 티저가 전달하는 구성 요소의 정보가 표시됩니다.
+* **이미지 위임** - 이미지 처리 시 티저가 위임하는 구성 요소의 정보가 표시됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
