@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '755'
 ht-degree: 100%
 
 ---
@@ -80,11 +80,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **제출 액션** - 사용자가 적응형 양식에서 [제출] 버튼을 클릭하면 제출 액션이 트리거됩니다. 사용자는 기본적으로 지원되는 드롭다운 목록에서 [제출 작업]을 선택할 수 있습니다. [[제출] 탭에서 제출 액션을 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)하는 방법에 대해 알아보십시오.
 
-## 관련 문서 {#related-article}
+<!--
 
-* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -110,6 +112,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [텍스트](/help/adaptive-forms/components/text.md)
 >* [제목](/help/adaptive-forms/components/title.md)
 >* [마법사](/help/adaptive-forms/components/wizard.md)
+
 
 ## 추가 참조 {#see-also}
 

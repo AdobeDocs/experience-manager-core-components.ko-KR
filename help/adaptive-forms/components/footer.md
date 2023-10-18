@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 바닥글
 description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -105,11 +105,13 @@ To experience the Accordion Component as well as see examples of its configurati
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-## 관련 문서 {#related-article}
+<!--
 
-* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -135,6 +137,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [텍스트](/help/adaptive-forms/components/text.md)
 >* [제목](/help/adaptive-forms/components/title.md)
 >* [마법사](/help/adaptive-forms/components/wizard.md)
+
 
 ## 추가 참조 {#see-also}
 

@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 헤더
 description: 적응형 양식 헤더 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '712'
 ht-degree: 100%
 
 ---
@@ -80,11 +80,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 이 섹션에서는 헤더에 포함할 텍스트를 입력할 수 있습니다.
 
-## 관련 문서 {#related-article}
+<!--
 
-* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 
 >[!MORELIKETHIS]
 >

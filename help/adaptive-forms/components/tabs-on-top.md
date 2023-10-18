@@ -2,9 +2,9 @@
 title: 적응형 양식 핵심 구성 요소 - 상단 탭
 description: 적응형 양식 상단 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '473'
 ht-degree: 100%
 
 ---
@@ -54,11 +54,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 구성 대화 상자를 사용하여 방문자를 위한 상단 탭 경험을 손쉽게 사용자 정의할 수 있습니다. 상단 탭 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
 
-## 관련 문서 {#related-article}
+<!--
 
-* [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 
 >[!MORELIKETHIS]
 >
