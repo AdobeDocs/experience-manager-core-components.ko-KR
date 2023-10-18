@@ -3,9 +3,9 @@ title: AEM Forms 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '316'
 ht-degree: 100%
 
 ---
@@ -32,5 +32,7 @@ ht-degree: 100%
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | Java | 릴리스 일자 |
 |---|---|---|---|---|---|
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | 이 릴리스에는 AEM Forms 온프레미스 및 AMS에 대한 핵심 구성 요소 지원이 제공됩니다. | - | 6.5.16.0+ | 8, 11 | 2023년 2월 8일 |
+
+## 추가 참조 {#see-also}
 
 {{see-also}}

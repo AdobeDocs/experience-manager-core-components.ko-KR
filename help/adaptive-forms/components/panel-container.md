@@ -2,10 +2,11 @@
 title: 적응형 양식 핵심 구성 요소 - 패널 컨테이너
 description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
-source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: ht
-source-wordcount: '1539'
-ht-degree: 100%
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
+source-wordcount: '1725'
+ht-degree: 90%
 
 ---
 
@@ -128,14 +129,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **화면 판독기가 알릴 HTML 역할** - HTML 역할은 화면 판독기와 같은 보조 기술에 대한 HTML 요소의 용도를 지정하는 데 사용되는 속성입니다. 역할 속성은 요소에 추가 컨텍스트 및 의미를 제공하는 데 사용되며, 이를 통해 화면 판독기는 콘텐츠를 더 쉽게 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 “레이블”이라는 역할을 가질 수 있으며 해당 입력 필드는 “텍스트 상자”라는 역할을 가질 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알릴 수 있습니다.
 
-## 관련 문서 {#related-article}
-
-- [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-
-- [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-
-
-## 추가 참조 {#see-also}
+## 관련 문서 {#related-articles}
 
 - [아코디언](/help/adaptive-forms/components/accordion.md)
 - [버튼](/help/adaptive-forms/components/button.md)
@@ -158,3 +152,16 @@ To experience the Accordion Component as well as see examples of its configurati
 - [텍스트](/help/adaptive-forms/components/text.md)
 - [제목](/help/adaptive-forms/components/title.md)
 - [마법사](/help/adaptive-forms/components/wizard.md)
+
+## 추가 참조 {#see-also}
+
+- [적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+- [AEM Sites 페이지 또는 경험 조각에서 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+- [적응형 양식 번역](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+- [적응형 양식의 PDF 버전(DoR) 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
+- [적응형 양식에 대한 새 로케일 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
+- [적응형 양식을 Microsoft® SharePoint에 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration) [Microsoft® 전원 자동화,](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate) [Microsoft® OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive) [또는 Azure Blob 저장소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
+- [적응형 양식 데이터를 AEM Workflow 또는 비즈니스 프로세스 관리자로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
+- [적응형 양식 데이터를 데이터베이스 또는 REST 끝점으로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
+- [적응형 양식에 Adobe Analytics을 활성화하여 양식 사용 추적](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
+- [적응형 양식에서 Adobe Sign 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)

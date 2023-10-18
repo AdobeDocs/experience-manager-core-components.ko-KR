@@ -3,8 +3,8 @@ title: 적응형 양식 핵심 구성 요소 - 헤더
 description: 적응형 양식 헤더 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: ht
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -86,26 +86,30 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * [독립 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+>[!MORELIKETHIS]
+>
+>* [아코디언](/help/adaptive-forms/components/accordion.md)
+>* [버튼](/help/adaptive-forms/components/button.md)
+>* [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
+>* [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
+>* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+>* [이메일 입력](/help/adaptive-forms/components/email-input.md)
+>* [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
+>* [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
+>* [바닥글](/help/adaptive-forms/components/footer.md)
+>* [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [이미지](/help/adaptive-forms/components/image.md)
+>* [숫자 입력](/help/adaptive-forms/components/number-input.md)
+>* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
+>* [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
+>* [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
+>* [제출 버튼](/help/adaptive-forms/components/submit-button.md)
+>* [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
+>* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
+>* [텍스트](/help/adaptive-forms/components/text.md)
+>* [제목](/help/adaptive-forms/components/title.md)
+>* [마법사](/help/adaptive-forms/components/wizard.md)
+
 ## 추가 참조 {#see-also}
 
-* [아코디언](/help/adaptive-forms/components/accordion.md)
-* [버튼](/help/adaptive-forms/components/button.md)
-* [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
-* [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
-* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
-* [이메일 입력](/help/adaptive-forms/components/email-input.md)
-* [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
-* [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
-* [바닥글](/help/adaptive-forms/components/footer.md)
-* [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
-* [이미지](/help/adaptive-forms/components/image.md)
-* [숫자 입력](/help/adaptive-forms/components/number-input.md)
-* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
-* [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
-* [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
-* [제출 버튼](/help/adaptive-forms/components/submit-button.md)
-* [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
-* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
-* [텍스트](/help/adaptive-forms/components/text.md)
-* [제목](/help/adaptive-forms/components/title.md)
-* [마법사](/help/adaptive-forms/components/wizard.md)
+{{see-also}}
