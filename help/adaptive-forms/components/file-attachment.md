@@ -4,7 +4,7 @@ description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
 ht-degree: 100%
 
