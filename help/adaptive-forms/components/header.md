@@ -4,7 +4,7 @@ description: 적응형 양식 헤더 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
 ht-degree: 100%
 
