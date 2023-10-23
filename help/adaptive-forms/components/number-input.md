@@ -4,7 +4,7 @@ description: 적응형 양식 숫자 입력 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1834'
 ht-degree: 100%
 
