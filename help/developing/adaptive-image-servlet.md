@@ -3,10 +3,10 @@ title: 적응형 이미지 서블릿
 description: 핵심 구성 요소가 이미지 제공을 위해 적응형 이미지 서블릿을 사용하는 방법과 해당 사용을 최적화하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
