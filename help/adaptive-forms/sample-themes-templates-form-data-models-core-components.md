@@ -1,5 +1,5 @@
 ---
-title: AEM Forms 핵심 구성 요소에 대한 샘플 테마 및 템플릿을 가져오는 방법
+title: AEM Forms 핵심 구성 요소용 샘플 테마 및 템플릿을 가져오는 방법은 무엇입니까?
 description: AEM Forms 핵심 구성 요소는 샘플 적응형 양식 테마, 템플릿 및 양식 데이터 모델을 제공합니다.
 solution: Experience Manager Forms
 topic: Administration
@@ -7,15 +7,15 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1349'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # 샘플 테마, 템플릿 및 양식 데이터 모델 {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] 코어 구성 요소는 바로 사용할 수 있는 샘플 테마, 템플릿 및 양식 데이터 모델을 제공하여 다목적 적응형 양식을 빠르게 생성합니다. 또한 양식 작성자가 의 확장성, 적응성 및 응답성을 학습하는 데 도움이 됩니다 [적응형 Forms 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 간단한 양식을 신속하게 만들고 복잡한 양식을 쉽게 만들 수 있으며 데이터베이스와 원활하게 연결할 수 있습니다.
+[!DNL AEM Forms] 핵심 구성 요소는 바로 사용할 수 있는 샘플 테마, 템플릿 및 양식 데이터 모델을 제공하여 다목적 적응형 양식을 빠르게 생성합니다. 또한 양식 작성자가 [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)의 확장성, 적응성 및 응답성을 학습하여 데이터베이스와 원활하게 연결하면서 즉시 간단한 양식을 만들고 복잡한 양식을 쉽게 만들 수 있도록 합니다.
 
 참조 콘텐츠 패키지에 포함된 샘플 테마, 템플릿 및 양식 데이터 모델은 다음과 같습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 68%
 | [문의하기](#Contact-Us) | [WKND](#WKND) | Salesforce |
 | [연락처 세부 정보 업데이트](#Contact-Details-Update) | [이젤](#Easel) |   |
 | [동의서 양식](#Consent-Form) | [FSI](#FSI) |  |
-| [로그 서비스 요청](#Log-Service-Request) | [건강 관리](#Healthcare) |  |
+| [로그 서비스 요청](#Log-Service-Request) | [헬스 케어](#Healthcare) |  |
 | [피드백 제공](#Give-Feedback) |  |  |
 | [혜택 등록](#Benefits-Enrollment) |  |   |
 | [직원 혜택 요약](#Employee-Benefits-Summary) |   |   |
@@ -36,20 +36,20 @@ ht-degree: 68%
 
 ## 샘플 테마 {#Sample-Themes}
 
-참조 샘플 테마를 사용하면 작성자가 양식을 사용, 정의 및 사용자 정의할 수 있으며 CSS에 대한 기본 지식을 갖춘 작성자가 요구 사항에 따라 테마를 사용자 정의할 수 있습니다.
+참조 샘플 테마는 작성자가 양식에 대한 스타일을 사용하고, 정의하고, 맞춤화하는 데 도움이 되며 CSS에 대해 기본적인 지식만 있는 작성자도 필요에 따라 테마를 맞춤화할 수 있습니다.
 
-**이 테마를 가져오는 방법은 무엇입니까?**
-에 대해 아래에 제공된 다음 단계를 사용하여 이러한 테마를 얻을 수 있습니다 **AEM as a Cloud Service** 환경:
+**이들 테마를 가져오는 방법은 무엇입니까?**
+**AEM as a Cloud Service** 환경에 대해 아래에 기재된 단계에 따라 이들 테마를 가져올 수 있습니다.
 
 1. [적응형 양식 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
-1. [환경에 AEM Archetype 45 프로젝트 배포](https://github.com/adobe/aem-project-archetype)
+1. [AEM Archetype 45 프로젝트를 내 환경에 배포](https://github.com/adobe/aem-project-archetype)
 
 
-AEM Archetype을 배포할 때 양식의 OOTB 테마만 사용할 수 있습니다. 요구 사항에 따라 테마를 사용자 지정하려면 다음을 수행하십시오. [프론트엔드 파이프라인 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) 를 클릭하여 테마를 배포합니다.
+AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 있습니다. 요구 조건에 따라 테마를 맞춤화하려면 [프론트엔드 파이프라인을 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)하여 테마를 배포하십시오.
 
 >[!NOTE]
 >
-> * 테마는 다음에 사용할 수 없습니다. **AEM 6.5** 환경.
+> * **AEM 6.5** 환경에 대해서는 테마를 사용할 수 없습니다.
 
 <!--
 
@@ -82,41 +82,41 @@ You can get these themes by deploying an [AEM Archetype 45](https://github.com/a
 
 -->
 
-**즉시 사용 가능한** [적응형 양식 코어 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 테마:
+**즉시 사용 가능한** [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 테마:
 
 ![OOTB 테마](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
 ### 캔버스 {#Canvas}
 
-캔버스 테마는 양식의 기본 테마이며 기본 색상, 투명도 및 플랫 아이콘 사용을 강조합니다. 아래 스크린샷에서 캔버스 테마의 외형을 확인할 수 있습니다.
+캔버스 테마는 양식의 기본 테마이며 기본 색상, 투명도 및 플랫 아이콘의 사용을 강조합니다. 아래 스크린샷에서 캔버스 테마의 외형을 확인할 수 있습니다.
 
 ![캔버스 테마](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
 ### WKND {#WKND}
 
-WKND 테마는 생동감 있고 창의적이며 매력적인 디자인을 구현하여 양식을 세련되게 만듭니다. 테마는 [Adobe Experience Manager 코어 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)를 기반으로 구축된 여행 및 모험 웹 사이트인 [WKND 사이트](https://wknd.site/us/en.html)의 모양과 스타일을 기반으로 합니다.
+WKND 테마는 생동감 있고 창의적이며 매력적인 디자인을 구현하여 양식을 세련되게 만듭니다. 테마는 [Adobe Experience Manager 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)를 기반으로 구축된 여행 및 모험 웹 사이트인 [WKND 사이트](https://wknd.site/us/en.html)의 모양과 스타일을 기반으로 합니다.
 
 ![WKND 테마](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
 
 
 ### 이젤 {#Easel}
 
-이젤 테마를 사용하여 매력적이고 간단하게 설정할 수 있는 양식 모양을 만들 수 있습니다. 이 테마는 단순성과 사용자 친화성을 위해 맞춤화됩니다. 이젤 테마는 작가들이 그림을 그리는 동안 캔버스를 지탱하기 위해 휴대용 스탠드를 사용하는 개념에 기반을 두고 있습니다.
+이젤 테마를 사용하여 매력적이고 간단하게 설정할 수 있는 양식 모양을 만들 수 있습니다. 이 테마는 단순성과 사용자 친화성을 위해 맞춤화됩니다. 이젤 테마는 아티스트가 페인팅 작업을 수행할 때 캔버스를 지지하기 위해 사용하는 휴대용 스탠드의 개념을 기반으로 합니다.
 
 ![이젤 테마](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
-### FSI(금융 서비스 및 보험) {#FSI}
+### FSI (금융 서비스 및 보험) {#FSI}
 
-FSI 테마는 귀하의 양식에 깔끔하고 실용적인 모양을 제공하는 데 중점을 둡니다. 이미지에서 볼 수 있듯이 FSI 테마를 적용할 때 파란색의 부드러운 색조가 폼에 적용됩니다.
+FSI 테마는 양식에 깔끔하고 실용적인 느낌을 주는 데 중점을 둡니다. 이미지에서 볼 수 있듯이 FSI 테마를 적용하면 양식에 부드러운 파란색 색조가 적용됩니다.
 
 ![FSI 테마](/help/adaptive-forms/assets/fsi-theme-new1.png)
 
 
-### 건강 관리 {#Healthcare}
+### 헬스 케어 {#Healthcare}
 
-헬스케어 테마는 풍부하고 다양한 색조를 사용하여 양식 내에 탭, 패널, 텍스트 상자 및 버튼과 같은 요소를 강조합니다.
+헬스 케어 테마는 풍부하고 푸른 톤을 사용하여 양식 내의 탭, 패널, 텍스트 상자 및 버튼과 같은 요소를 강조합니다.
 
-![의료 테마](/help/adaptive-forms/assets/healthcare-new-theme.png)
+![헬스 케어 테마](/help/adaptive-forms/assets/healthcare-new-theme.png)
 
 
 ## 샘플 템플릿 {#Sample-templates}
@@ -124,7 +124,7 @@ FSI 테마는 귀하의 양식에 깔끔하고 실용적인 모양을 제공하�
 템플릿은 초기 양식 구조, 콘텐츠 및 작업을 정의하여 양식에 복제하거나 동의서 양식, 혜택 등록 양식 등 양식과 유사한 템플릿 구조를 사용합니다.
 
 **이 템플릿을 가져오는 방법은 무엇입니까?**
-다음 템플릿은 [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) (으)로 **AEM Forms as a Cloud Service** 환경 또는 **AEM 6.5 Forms** 환경.
+[AEM Archetype 45](https://github.com/adobe/aem-project-archetype)를 **AEM Forms as a Cloud Service** 환경이나 **AEM 6.5 Forms** 환경에 배포하여 이들 템플릿을 가져올 수 있습니다.
 
 <!--
 
@@ -136,13 +136,13 @@ FSI 테마는 귀하의 양식에 깔끔하고 실용적인 모양을 제공하�
 -->
 
 
-**즉시 사용 가능한** [적응형 양식 코어 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 템플릿:
+**즉시 사용 가능한** [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 템플릿:
 
 ![참조 템플릿](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
 ### 기본 {#Basic}
 
-기본 템플릿을 사용하면 등록 경험 양식을 신속하게 만들 수 있습니다. 이 구성 요소를 사용하여 의 기능을 미리 볼 수도 있습니다. [적응형 Forms 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). 데이터를 섹션별로 표시하기 위한 마법사 레이아웃이 제공됩니다.
+기본 템플릿을 사용하면 등록 경험 양식을 빠르게 생성할 수 있습니다. 또한 이를 사용하여 [Adaptive Forms 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)의 기능을 미리 볼 수도 있습니다. 데이터를 섹션별로 표시하기 위한 마법사 레이아웃이 제공됩니다.
 
 ![기본 템플릿](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -166,20 +166,20 @@ FSI 테마는 귀하의 양식에 깔끔하고 실용적인 모양을 제공하�
 
 ### 동의서 양식 {#Consent-Form}
 
-동의 양식 템플릿은 특정 활동, 연구 연구, 의료 절차 또는 개인 정보나 권리가 개입될 수 있는 모든 상황에 참여하는 참여자로부터 법적 문서를 받을 수 있는 양식을 만드는 데 사용됩니다. 이 양식은 투명성을 보장하고 참가자의 권리를 보호하며 개인이 동의하게 되는 내용에 대해 명확히 이해하도록 합니다.
+동의 양식 템플릿은 특정 활동, 연구, 의료 절차 또는 개인 정보나 권리에 관련될 수 있는 상황에 참여하는 참가자로부터 법적 문서를 제공받기 위한 양식을 만드는 데 사용됩니다. 이 양식은 투명성을 보장하고 참가자의 권리를 보호하며 개인이 동의하게 되는 내용에 대해 명확히 이해하도록 합니다.
 
 ![동의서 양식](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### 로그 서비스 요청 {#Log-Service-Request}
 
-로그 서비스 요청 템플릿을 사용하여 서비스 공급자에게 로그별 로깅 서비스를 요청하는 양식을 만들 수 있습니다. 이 양식은 상태 모니터링 또는 추적을 위한 이벤트, 활동 또는 데이터 로그에 대한 티켓을 만드는 공식적인 요청 역할을 합니다.
+로그 서비스 요청 템플릿을 사용하여 서비스 공급자에게 로그별 로깅 서비스를 요청하는 양식을 만들 수 있습니다. 이 양식은 모니터링 또는 추적 상태에 대해 기록되는 이벤트, 활동 또는 데이터에 대한 티켓을 생성하기 위한 공식 요청으로 사용됩니다.
 
 ![로그 서비스 요청 템플릿](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### 피드백 제공 {#Give-Feedback}
 
-피드백 제공 양식 템플릿을 사용하여 다른 사용자 또는 팀에 건설적인 피드백을 제공하기 위한 양식을 작성할 수 있습니다. 양식은 피드백이 명확하고 구체적이며 실행 가능하고 개방형 커뮤니케이션 및 개선을 촉진하도록 하는 데 도움이 됩니다.
+피드백 제공 양식 템플릿을 사용하여 다른 사용자 또는 팀에 건설적인 피드백을 제공하기 위한 양식을 작성할 수 있습니다. 이 양식은 피드백이 명확하고, 구체적이며, 실행 가능하도록 보장하여 개방적인 커뮤니케이션과 개선을 촉진합니다.
 
 ![피드백 제공 템플릿](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -199,7 +199,7 @@ FSI 테마는 귀하의 양식에 깔끔하고 실용적인 모양을 제공하�
 
 ### 계정 명세서 요청 {#Request-for-Account-Statement}
 
-계정 명세서 템플릿에 대한 요청은 고객의 정확한 최신 명세서를 가져오는 프로세스를 시작하는 양식을 만드는 데 도움이 됩니다. 이 명세서는 금융 거래, 활동 또는 이 양식을 사용하는 고객의 기타 관련 정보에 대한 자세한 기록을 제공합니다.
+계정 명세서 요청 템플릿을 사용하여 고객의 정확한 최신 명세서를 제공받는 프로세스를 시작하기 위한 양식을 만들 수 있습니다. 이 명세서는 금융 거래, 활동 또는 이 양식을 사용하는 고객의 기타 관련 정보에 대한 자세한 기록을 제공합니다.
 
 ![계정 명세서 요청](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
@@ -224,7 +224,7 @@ FSI 테마는 귀하의 양식에 깔끔하고 실용적인 모양을 제공하�
 
 ## 참조 양식 데이터 모델 {#reference-models}
 
-[코어 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)를 기반으로 적응형 양식을 만든 후 양식을 데이터베이스 Microsoft® Dynamics 365 및 Salesforce 서버와 연결하여 비즈니스 워크플로를 활성화할 수 있습니다. 예:
+[핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)를 기반으로 적응형 양식을 만든 후 양식을 데이터베이스 Microsoft® Dynamics 365 및 Salesforce 서버와 연결하여 비즈니스 워크플로를 활성화할 수 있습니다. 예:
 
 * 적응형 양식 제출 시 Microsoft® Dynamics 365 및 Salesforce에 데이터를 씁니다.
 * 양식 데이터 모델에 정의된 사용자 정의 엔티티를 통해 Microsoft® Dynamics 365 및 Salesforce에 데이터를 작성하며 그 반대의 경우도 마찬가지입니다.
