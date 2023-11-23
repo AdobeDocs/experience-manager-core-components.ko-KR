@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 헤더
 description: 적응형 양식 헤더 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 100%
 
 ## 사용 {#reasons-to-use-header}
 
-* **브랜딩**: 헤더를 사용하여 양식을 만든 조직의 로고나 이름을 표시할 수 있으므로 브랜드 인지도와 신뢰성을 확립하는 데 도움이 됩니다.
+- **브랜딩**: 헤더를 사용하여 양식을 만든 조직의 로고나 이름을 표시할 수 있으므로 브랜드 인지도와 신뢰성을 확립하는 데 도움이 됩니다.
 
-* **컨텍스트**: 헤더는 양식의 용도에 대한 간략한 설명을 제공하여 사용자가 양식이 사용되는 컨텍스트를 이해하는 데 도움을 줍니다.
+- **컨텍스트**: 헤더는 양식의 용도에 대한 간략한 설명을 제공하여 사용자가 양식이 사용되는 컨텍스트를 이해하는 데 도움을 줍니다.
 
-* **탐색**: 헤더에는 사용자가 웹 사이트 또는 애플리케이션의 다른 부분으로 이동할 수 있는 링크 또는 버튼이 포함될 수 있습니다.
+- **탐색**: 헤더에는 사용자가 웹 사이트 또는 애플리케이션의 다른 부분으로 이동할 수 있는 링크 또는 버튼이 포함될 수 있습니다.
 
-* **정보**: 헤더에는 연락처 정보 또는 도움말 리소스에 대한 링크가 포함되어 사용자가 필요한 경우 도움을 쉽게 받을 수 있습니다.
+- **정보**: 헤더에는 연락처 정보 또는 도움말 리소스에 대한 링크가 포함되어 사용자가 필요한 경우 도움을 쉽게 받을 수 있습니다.
 
-* **사용자 경험**: 헤더를 사용하면 사용자가 명확하고 직관적으로 양식 필드에 액세스하고 채울 수 있으므로 양식을 보다 사용자 친화적으로 만들 수 있습니다.
+- **사용자 경험**: 헤더를 사용하면 사용자가 명확하고 직관적으로 양식 필드에 액세스하고 채울 수 있으므로 양식을 보다 사용자 친화적으로 만들 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![이미지 탭](/help/adaptive-forms/assets/header_image.png)
 
-* **이미지 자산** - 이 옵션을 사용하면 마우스 드래그 앤 드롭으로 이미지와 같은 자산을 놓을 수 있습니다. **검색** 버튼을 사용하여 로컬 파일 시스템에서 파일을 업로드할 수도 있습니다. 이미지를 추가하면 이미지 하단에 세 개의 버튼이 나타납니다. 이미지를 추가하면 이미지 하단에 세 개의 버튼이 나타납니다.
-   * **편집** - 자산 편집기에서 자산 렌디션을 관리하려면 **편집**&#x200B;을 탭하거나 클릭합니다.
-   * **지우기** - 현재 선택된 이미지의 선택을 해제하려면 **지우기**&#x200B;를 탭하거나 클릭합니다.
-   * **선택** - 자산 폴더에서 다른 이미지를 선택하려면 **선택**&#x200B;을 탭하거나 클릭합니다.
+- **이미지 자산** - 이 옵션을 사용하면 마우스 드래그 앤 드롭으로 이미지와 같은 자산을 놓을 수 있습니다. **검색** 버튼을 사용하여 로컬 파일 시스템에서 파일을 업로드할 수도 있습니다. 이미지를 추가하면 이미지 하단에 세 개의 버튼이 나타납니다. 이미지를 추가하면 이미지 하단에 세 개의 버튼이 나타납니다.
+   - **편집** - 자산 편집기에서 자산 렌디션을 관리하려면 **편집**&#x200B;을 탭하거나 클릭합니다.
+   - **지우기** - 현재 선택된 이미지의 선택을 해제하려면 **지우기**&#x200B;를 탭하거나 클릭합니다.
+   - **선택** - 자산 폴더에서 다른 이미지를 선택하려면 **선택**&#x200B;을 탭하거나 클릭합니다.
 
-* **제목** - 이 옵션은 헤더에 제목을 추가하는 데 사용됩니다. 대화 상자에는 사전 정의된 텍스트가 포함되며 사용자는 이를 수정할 수 있습니다.
-* **연결 대상** - **검색** 아이콘을 사용하여 제목을 폴더에 연결할 수 있습니다.
-* **설명** - 설명은 특정 이미지의 용도에 대한 추가 정보 또는 설명을 제공하는 간단한 텍스트 설명입니다.
-* **크기(px)** - 픽셀을 늘리거나 줄여 이미지의 길이와 폭을 조정하는 데 도움이 됩니다.
+- **제목** - 이 옵션은 헤더에 제목을 추가하는 데 사용됩니다. 대화 상자에는 사전 정의된 텍스트가 포함되며 사용자는 이를 수정할 수 있습니다.
+- **연결 대상** - **검색** 아이콘을 사용하여 제목을 폴더에 연결할 수 있습니다.
+- **설명** - 설명은 특정 이미지의 용도에 대한 추가 정보 또는 설명을 제공하는 간단한 텍스트 설명입니다.
+- **크기(px)** - 픽셀을 늘리거나 줄여 이미지의 길이와 폭을 조정하는 데 도움이 됩니다.
 
 ![접근성 탭](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **대체 텍스트** - 이 옵션은 시각 장애가 있는 사용자에게 이미지를 설명해 주는 이미지에 대한 간단한 대체 텍스트를 제공하는 텍스트를 입력하는 데 사용됩니다.
+- **대체 텍스트** - 이 옵션은 시각 장애가 있는 사용자에게 이미지를 설명해 주는 이미지에 대한 간단한 대체 텍스트를 제공하는 텍스트를 입력하는 데 사용됩니다.
 
-* **장식적 이미지** - 이미지가 보조 기술에서 무시되어 대체 텍스트가 필요한지 확인합니다. 이는 장식적 이미지에만 적용됩니다.
+- **장식적 이미지** - 이미지가 보조 기술에서 무시되어 대체 텍스트가 필요한지 확인합니다. 이는 장식적 이미지에만 적용됩니다.
 
 ### 텍스트 탭 {#text-tab}
 
@@ -88,30 +88,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 관련 문서 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [아코디언](/help/adaptive-forms/components/accordion.md)
->* [버튼](/help/adaptive-forms/components/button.md)
->* [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
->* [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
->* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
->* [이메일 입력](/help/adaptive-forms/components/email-input.md)
->* [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
->* [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
->* [바닥글](/help/adaptive-forms/components/footer.md)
->* [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
->* [이미지](/help/adaptive-forms/components/image.md)
->* [숫자 입력](/help/adaptive-forms/components/number-input.md)
->* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
->* [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
->* [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
->* [제출 버튼](/help/adaptive-forms/components/submit-button.md)
->* [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
->* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
->* [텍스트](/help/adaptive-forms/components/text.md)
->* [제목](/help/adaptive-forms/components/title.md)
->* [마법사](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 추가 참조 {#see-also}
 

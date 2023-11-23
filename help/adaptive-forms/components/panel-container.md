@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 패널 컨테이너
 description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1828'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 **예**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![예](/help/adaptive-forms/assets/panel-container.png)
 
 ## 사용 {#reasons-to-use-panel-container}
 
@@ -91,8 +91,6 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **레이아웃** - 마법사에 대해 고정 레이아웃(단순) 또는 유연한 레이아웃(반응형 격자)을 설정할 수 있습니다. 단순 레이아웃은 모든 요소를 제자리에 고정하고 반응형 격자를 사용하면 필요에 맞게 구성 요소의 위치를 조정할 수 있습니다. 예를 들어 반응형 격자를 사용하여 양식의 “이름”, “중간 이름” 및 “성”을 단일 행에 정렬할 수 있습니다.
-
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
@@ -129,50 +127,76 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **화면 판독기가 알릴 HTML 역할** - HTML 역할은 화면 판독기와 같은 보조 기술에 대한 HTML 요소의 용도를 지정하는 데 사용되는 속성입니다. 역할 속성은 요소에 추가 컨텍스트 및 의미를 제공하는 데 사용되며, 이를 통해 화면 판독기는 콘텐츠를 더 쉽게 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 “레이블”이라는 역할을 가질 수 있으며 해당 입력 필드는 “텍스트 상자”라는 역할을 가질 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알릴 수 있습니다.
 
+## 디자인 대화 상자 {#design-dialog}
+
+디자인 대화 상자 를 사용하여 양식 컨테이너 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+
+### 허용된 구성 요소 탭 {#allowed-components-tab}
+
+![디자인 대화 상자 허용된 구성 요소 탭](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+다음 **허용된 구성 요소** 탭 을 사용하면 템플릿 편집기에서 구성 요소의 패널에 항목으로 추가할 수 있는 구성 요소를 적응형 Forms 편집기에서 설정할 수 있습니다.
+
+### 기본 구성 요소 탭 {#default-components-tab}
+
+![디자인 대화 상자 기본 구성 요소 탭](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+다음 **기본 구성 요소** 템플릿 편집기에서는 적응형 Forms 편집기에서 양식 컨테이너 구성 요소에 항목으로 기본적으로 표시되는 구성 요소를 지정할 수 있습니다.
+
+### 반응형 설정 탭 {#responsive-tab}
+
+![디자인 대화 상자 반응형 설정 탭](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+다음 **응답형 설정** 템플릿 편집기에서 탭 을 사용하면 적응형 Forms 편집기의 양식 컨테이너 구성 요소 내에 있는 그리드의 열 수를 지정할 수 있습니다.
+
+### 컨테이너 설정 탭
+
+![컨테이너 설정 탭](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **레이아웃** - 마법사에 대해 고정 레이아웃(단순) 또는 유연한 레이아웃(반응형 격자)을 설정할 수 있습니다. 단순 레이아웃은 모든 요소를 제자리에 고정하고 반응형 격자를 사용하면 필요에 맞게 구성 요소의 위치를 조정할 수 있습니다. 예를 들어 반응형 격자를 사용하여 양식의 “이름”, “중간 이름” 및 “성”을 단일 행에 정렬할 수 있습니다.
+
+- **레이아웃 비활성화**: 구성 요소의 편집 대화 상자에서 레이아웃 선택을 비활성화하려면 이 옵션을 선택합니다.
+
+- **배경 이미지 활성화**: 이 옵션을 사용하면 시각적 효과를 높이기 위해 시각적 배경을 포함하도록 패널의 설정을 구성할 수 있습니다.
+
+- **배경색 활성화**: 이 옵션을 사용하면 패널의 배경색을 설정하거나 변경할 수 있습니다. 이 기능은 일반적으로 사용자 인터페이스 디자인에서 더 큰 인터페이스 내의 패널 모양을 사용자 지정하는 데 사용됩니다. 다음을 선택하면 **배경색 활성화** 옵션, **색상 견본 전용** 옵션이 나타납니다. 다음 **색상 견본 전용** 옵션을 사용하면 패널 내에서 배경, 텍스트 또는 기타 시각적 요소의 색상을 지정하거나 선택할 수 있습니다 **추가** 단추
+
+### 스타일 탭 {#styles-tab}
+
+적응형 양식 첨부 파일 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+![디자인 대화 상자](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **기본 CSS 클래스**: 적응형 양식 확인란 그룹 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+
+- **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+
+### 사용자 정의 속성 탭
+
+![사용자 지정 속성 대화 상자](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+사용자 지정 속성을 사용하면 양식 템플릿을 사용하여 사용자 지정 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 지정 속성은 구성 요소의 헤드리스 렌디션의 속성 섹션에 반영됩니다. 이를 통해 사용자 지정 속성 값에 따라 조정되는 동적 양식 비헤이비어를 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼용 Headless Forms 구성 요소의 다양한 표현물을 디자인할 수 있으므로 다양한 장치에서 사용자 경험을 크게 향상시킬 수 있습니다.
+
+- **그룹 이름**: 사용자 지정 속성 그룹을 식별하는 이름을 제공할 수 있습니다. 여러 사용자 지정 속성 그룹을 추가, 삭제 또는 다시 정렬할 수 있습니다. 사용자 지정 속성 그룹을 추가하면 다음 옵션을 볼 수 있습니다.
+
+   - **키-값 쌍**: 다음을 클릭하여 여러 사용자 지정 속성 이름과 사용자 지정 속성 값을 추가할 수 있습니다. **추가** 각 사용자 지정 속성 그룹에 대한 단추입니다.
+
+   - **삭제**: 탭하거나 클릭하여 사용자 지정 속성 이름 및 사용자 지정 속성 값을 삭제합니다.
+
+   - **재배열**: 탭하거나 클릭하고 드래그하여 사용자 지정 속성 이름 및 사용자 지정 속성 값의 순서를 재배열합니다.
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 ## 관련 문서 {#related-articles}
 
-- [아코디언](/help/adaptive-forms/components/accordion.md)
-- [버튼](/help/adaptive-forms/components/button.md)
-- [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
-- [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
-- [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
-- [이메일 입력](/help/adaptive-forms/components/email-input.md)
-- [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
-- [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
-- [바닥글](/help/adaptive-forms/components/footer.md)
-- [헤더](/help/adaptive-forms/components/header.md)
-- [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
-- [이미지](/help/adaptive-forms/components/image.md)
-- [숫자 입력](/help/adaptive-forms/components/number-input.md)
-- [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
-- [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
-- [제출 버튼](/help/adaptive-forms/components/submit-button.md)
-- [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
-- [텍스트 입력](/help/adaptive-forms/components/text-input.md)
-- [텍스트](/help/adaptive-forms/components/text.md)
-- [제목](/help/adaptive-forms/components/title.md)
-- [마법사](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## 추가 참조 {#see-also}
 
-- [AEM 적응형 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-- [AEM 적응형 양식을 AEM Sites 페이지에 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-- [AEM 적응형 양식에 테마 적용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)
-- [AEM 적응형 양식에 구성 요소 추가](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [AEM 적응형 양식에서 reCAPTCHA 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html)
-- [AEM 적응형 양식의 PDF 버전(DoR) 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
-- [AEM 적응형 양식 번역](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html)
-- [적응형 양식에 대해 Adobe Analytics를 활성화하여 양식 사용 추적](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
-- [Microsoft SharePoint에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration)
-- [Microsoft Power Automate에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate)
-- [Microsoft OneDrive에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive)
-- [Microsoft Azure Blob Storage에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
-- [Salesforce에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
-- [AEM 적응형 양식에서 Adobe Sign 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
-- [적응형 양식에 대해 새 로케일 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
-- [적응형 양식 데이터를 데이터베이스로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
-- [적응형 양식 데이터를 REST 엔드포인트로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
-- [적응형 양식 데이터를 AEM 워크플로로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
-- [양식 포털을 사용하여 AEM 웹 사이트에 AEM 적응형 양식 나열](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
-
+{{see-also}}

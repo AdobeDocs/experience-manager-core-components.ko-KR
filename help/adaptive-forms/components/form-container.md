@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1243'
+ht-degree: 70%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 100%
 
 웹 사이트에 양식을 추가하는 데에는 다음과 같은 몇 가지 이유가 있습니다.
 
-* **데이터 수집**: 양식을 사용하여 시장 조사, 사용자 행동 분석 등과 같은 다양한 용도를 위해 웹 사이트 방문자로부터 데이터를 수집할 수 있습니다.
+- **데이터 수집**: 양식을 사용하여 시장 조사, 사용자 행동 분석 등과 같은 다양한 용도를 위해 웹 사이트 방문자로부터 데이터를 수집할 수 있습니다.
 
-* **리드 생성**: 양식을 사용하여 잠재 고객으로부터 이름 및 이메일 주소와 같은 정보를 수집하여 판매 및 마케팅 활동을 위한 리드를 생성할 수 있습니다.
+- **리드 생성**: 양식을 사용하여 잠재 고객으로부터 이름 및 이메일 주소와 같은 정보를 수집하여 판매 및 마케팅 활동을 위한 리드를 생성할 수 있습니다.
 
-* **전자 상거래**: 온라인 쇼핑에 양식을 사용할 수 있으므로 고객은 웹 사이트를 통해 주문하고 결제할 수 있습니다.
+- **전자 상거래**: 온라인 쇼핑에 양식을 사용할 수 있으므로 고객은 웹 사이트를 통해 주문하고 결제할 수 있습니다.
 
-* **연락처**: 연락처 양식을 사용하면 웹 사이트 방문자가 웹 사이트 소유자 또는 조직에 쉽게 연락할 수 있습니다.
+- **연락처**: 연락처 양식을 사용하면 웹 사이트 방문자가 웹 사이트 소유자 또는 조직에 쉽게 연락할 수 있습니다.
 
-* **설문 조사**: 양식을 사용하여 설문 조사를 통해 웹 사이트 방문자로부터 피드백과 의견을 수집할 수 있습니다.
+- **설문 조사**: 양식을 사용하여 설문 조사를 통해 웹 사이트 방문자로부터 피드백과 의견을 수집할 수 있습니다.
 
-* **이벤트 등록**: 웹 사이트 방문자가 이벤트나 웨비나에 등록할 수 있도록 이벤트 등록에 양식을 사용할 수 있습니다.
+- **이벤트 등록**: 웹 사이트 방문자가 이벤트나 웨비나에 등록할 수 있도록 이벤트 등록에 양식을 사용할 수 있습니다.
 
-* **구독**: 방문자가 뉴스레터 또는 기타 정기 커뮤니케이션에 등록할 수 있도록 웹 사이트 구독에 양식을 사용할 수 있습니다.
+- **구독**: 방문자가 뉴스레터 또는 기타 정기 커뮤니케이션에 등록할 수 있도록 웹 사이트 구독에 양식을 사용할 수 있습니다.
 
-* **사용자 인증**: 웹 사이트 방문자가 계정을 만들고 로그인하여 독점 콘텐츠 또는 기능에 액세스할 수 있도록 사용자 인증에 양식을 사용할 수 있습니다.
+- **사용자 인증**: 웹 사이트 방문자가 계정을 만들고 로그인하여 독점 콘텐츠 또는 기능에 액세스할 수 있도록 사용자 인증에 양식을 사용할 수 있습니다.
 
-* **전환율 증가**: 잘 디자인된 양식은 사용자가 제품 구매 또는 서비스 가입과 같은 원하는 작업을 쉽게 완료할 수 있도록 하여 전환율을 높일 수 있습니다.
+- **전환율 증가**: 잘 디자인된 양식은 사용자가 제품 구매 또는 서비스 가입과 같은 원하는 작업을 쉽게 완료할 수 있도록 하여 전환율을 높일 수 있습니다.
 
 
 ## 버전 및 호환성 {#version-and-compatibility}
@@ -62,9 +62,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![기본 탭](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **미리 채우기 서비스** - 이 옵션을 사용하여 적응형 양식이 렌더링될 때 미리 채우기 서비스를 선택하여 데이터를 검색할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
+- **미리 채우기 서비스** - 이 옵션을 사용하여 적응형 양식이 렌더링될 때 미리 채우기 서비스를 선택하여 데이터를 검색할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
 
-* **클라이언트 라이브러리 범주** - 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
+- **클라이언트 라이브러리 범주** - 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
+
+### 데이터 모델 탭 {#data-model-tab}
+
+![전송 탭](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+
+양식 데이터 모델을 사용하여 사용자 작업에 따라 데이터를 보내고 받기 위해 양식을 데이터 소스에 연결할 수 있습니다. 양식을 JSON 스키마에 연결하여 사전 정의된 형식으로 제출된 데이터를 받을 수도 있습니다. 요구 사항에 따라 양식을 JSON 스키마 또는 양식 데이터 모델에 연결합니다.
+- JSON 스키마 만들기 및 환경에 업로드
+- 양식 데이터 모델 만들기
 
 ### 전송 탭 {#submission-tab}
 
@@ -72,13 +80,59 @@ To experience the Accordion Component as well as see examples of its configurati
 
 사용자는 적응형 양식 제출에 대해 다양한 작업을 구성할 수 있습니다.
 
-* **리디렉션 URL/경로** - 이 옵션을 사용하면 사용자가 적응형 양식을 제출한 후 양식 사용자가 리디렉션되는 각 양식에 대한 페이지를 구성할 수 있습니다. [리디렉션 페이지 구성 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
+- **리디렉션 URL/경로** - 이 옵션을 사용하면 사용자가 적응형 양식을 제출한 후 양식 사용자가 리디렉션되는 각 양식에 대한 페이지를 구성할 수 있습니다. [리디렉션 페이지 구성 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
 
 ![메시지 표시 탭](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-* **메시지 표시** - 이 옵션을 사용하면 적응형 양식이 정상적으로 제출될 때 표시되는 메시지를 추가할 수 있습니다. 대화 상자에는 사전 정의된 텍스트가 포함되며 사용자는 이를 수정할 수 있습니다. 메시지 표시 대화 상자는 사용자가 추가된 텍스트의 서식을 지정할 수 있도록 하는 서식 있는 텍스트 서식 도구를 지원합니다.
+- **메시지 표시** - 이 옵션을 사용하면 적응형 양식이 정상적으로 제출될 때 표시되는 메시지를 추가할 수 있습니다. 대화 상자에는 사전 정의된 텍스트가 포함되며 사용자는 이를 수정할 수 있습니다. 메시지 표시 대화 상자는 사용자가 추가된 텍스트의 서식을 지정할 수 있도록 하는 서식 있는 텍스트 서식 도구를 지원합니다.
 
-* **제출 액션** - 사용자가 적응형 양식에서 [제출] 버튼을 클릭하면 제출 액션이 트리거됩니다. 사용자는 기본적으로 지원되는 드롭다운 목록에서 [제출 작업]을 선택할 수 있습니다. [[제출] 탭에서 제출 액션을 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)하는 방법에 대해 알아보십시오.
+- **제출 액션** - 사용자가 적응형 양식에서 [제출] 버튼을 클릭하면 제출 액션이 트리거됩니다. 사용자는 기본적으로 지원되는 드롭다운 목록에서 [제출 작업]을 선택할 수 있습니다. [[제출] 탭에서 제출 액션을 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)하는 방법에 대해 알아보십시오.
+
+## 디자인 대화 상자 {#design-dialog}
+
+디자인 대화 상자 를 사용하여 양식 컨테이너 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+
+### 허용된 구성 요소 탭 {#allowed-components-tab}
+
+![디자인 대화 상자 허용된 구성 요소 탭](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
+
+다음 **허용된 구성 요소** 탭 을 사용하면 템플릿 편집기에서 구성 요소의 패널에 항목으로 추가할 수 있는 구성 요소를 적응형 Forms 편집기에서 설정할 수 있습니다.
+
+### 기본 구성 요소 탭 {#default-components-tab}
+
+![디자인 대화 상자 기본 구성 요소 탭](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+
+다음 **기본 구성 요소** 템플릿 편집기에서는 적응형 Forms 편집기에서 양식 컨테이너 구성 요소에 항목으로 기본적으로 표시되는 구성 요소를 지정할 수 있습니다.
+
+### 반응형 설정 탭 {#responsive-tab}
+
+![디자인 대화 상자 반응형 설정 탭](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
+
+다음 **응답형 설정** 템플릿 편집기에서 탭 을 사용하면 적응형 Forms 편집기의 양식 컨테이너 구성 요소 내에 있는 그리드의 열 수를 지정할 수 있습니다.
+
+### 스타일 탭 {#styles-tab}
+
+적응형 양식 첨부 파일 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+
+![디자인 대화 상자](/help/adaptive-forms/assets/formcontainer-styletab.png)
+
+- **기본 CSS 클래스**: 적응형 양식 확인란 그룹 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+
+- **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+
+### 사용자 정의 속성 탭
+
+![사용자 지정 속성 대화 상자](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
+
+사용자 지정 속성을 사용하면 양식 템플릿을 사용하여 사용자 지정 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 지정 속성은 구성 요소의 헤드리스 렌디션의 속성 섹션에 반영됩니다. 이를 통해 사용자 지정 속성 값에 따라 조정되는 동적 양식 비헤이비어를 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼용 Headless Forms 구성 요소의 다양한 표현물을 디자인할 수 있으므로 다양한 장치에서 사용자 경험을 크게 향상시킬 수 있습니다.
+
+- **그룹 이름**: 사용자 지정 속성 그룹을 식별하는 이름을 제공할 수 있습니다. 여러 사용자 지정 속성 그룹을 추가, 삭제 또는 다시 정렬할 수 있습니다. 사용자 지정 속성 그룹을 추가하면 다음 옵션을 볼 수 있습니다.
+
+   - **키-값 쌍**: 다음을 클릭하여 여러 사용자 지정 속성 이름과 사용자 지정 속성 값을 추가할 수 있습니다. **추가** 각 사용자 지정 속성 그룹에 대한 단추입니다.
+
+   - **삭제**: 탭하거나 클릭하여 사용자 지정 속성 이름 및 사용자 지정 속성 값을 삭제합니다.
+
+   - **재배열**: 탭하거나 클릭하고 드래그하여 사용자 지정 속성 이름 및 사용자 지정 속성 값의 순서를 재배열합니다.
 
 <!--
 
@@ -88,31 +142,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 관련 문서 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [아코디언](/help/adaptive-forms/components/accordion.md)
->* [버튼](/help/adaptive-forms/components/button.md)
->* [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
->* [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
->* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
->* [이메일 입력](/help/adaptive-forms/components/email-input.md)
->* [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
->* [바닥글](/help/adaptive-forms/components/footer.md)
->* [헤더](/help/adaptive-forms/components/header.md)
->* [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
->* [이미지](/help/adaptive-forms/components/image.md)
->* [숫자 입력](/help/adaptive-forms/components/number-input.md)
->* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
->* [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
->* [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
->* [제출 버튼](/help/adaptive-forms/components/submit-button.md)
->* [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
->* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
->* [텍스트](/help/adaptive-forms/components/text.md)
->* [제목](/help/adaptive-forms/components/title.md)
->* [마법사](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## 추가 참조 {#see-also}
 

@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 제목
 description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '899'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 99%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 100%
 
 **예**
 
-![](/help/adaptive-forms/assets/title.png)
+![예](/help/adaptive-forms/assets/title.png)
 
 ## 사용 {#reasons-to-use-title-in-an-adaptive-form}
 
 양식에서 제목을 사용하는 것이 좋은 것에는 다음과 같은 몇 가지 이유가 있습니다.
 
-* **명확성**: 제목은 양식의 용도를 명확하게 식별하여 사용자가 제공해야 하는 정보를 이해하는 데 도움을 줍니다.
+- **명확성**: 제목은 양식의 용도를 명확하게 식별하여 사용자가 제공해야 하는 정보를 이해하는 데 도움을 줍니다.
 
-* **구성**: 제목을 사용하여 주제나 용도별로 양식을 구성할 수 있으므로 사용자가 필요한 양식을 쉽게 찾을 수 있습니다.
+- **구성**: 제목을 사용하여 주제나 용도별로 양식을 구성할 수 있으므로 사용자가 필요한 양식을 쉽게 찾을 수 있습니다.
 
-* **접근성**: 제목은 접근성이 필요한 사용자에게 중요한 요소입니다. 화면 판독기에서 제목을 큰 소리로 읽어 주면 사용자가 양식의 컨텍스트를 이해하는 데 도움이 되기 때문입니다.
+- **접근성**: 제목은 접근성이 필요한 사용자에게 중요한 요소입니다. 화면 판독기에서 제목을 큰 소리로 읽어 주면 사용자가 양식의 컨텍스트를 이해하는 데 도움이 되기 때문입니다.
 
-* **브랜딩**: 제목을 사용하여 회사 또는 조직의 이름을 표시할 수도 있으며, 이는 사용자의 신뢰감과 친숙함을 형성하는 데 도움이 됩니다.
+- **브랜딩**: 제목을 사용하여 회사 또는 조직의 이름을 표시할 수도 있으며, 이는 사용자의 신뢰감과 친숙함을 형성하는 데 도움이 됩니다.
 
-* **탐색**: 제목은 특히 양식이 길거나 복잡한 경우 양식을 탐색하는 데 유용할 수 있습니다.
+- **탐색**: 제목은 특히 양식이 길거나 복잡한 경우 양식을 탐색하는 데 유용할 수 있습니다.
 
-* **검색 엔진 최적화(SEO)**: 검색 엔진이 제목을 사용하여 검색 쿼리에 대한 웹 페이지의 관련성을 결정하기 때문에, 양식에 제목을 지정하는 것도 SEO에 도움이 됩니다.
+- **검색 엔진 최적화(SEO)**: 검색 엔진이 제목을 사용하여 검색 쿼리에 대한 웹 페이지의 관련성을 결정하기 때문에, 양식에 제목을 지정하는 것도 SEO에 도움이 됩니다.
 
 전체적으로 볼 때 양식의 제목은 사용자 경험의 중요한 측면이며, 제목을 사용하여 양식에 대한 명확하고 간결한 레이블을 제공하여 사용자가 양식의 컨텍스트와 목적을 이해하는 데 도움을 주어야 합니다.
 
@@ -63,12 +63,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 제목 수준을 선택할 수 있습니다.
 
-* **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
-* **유형/크기** - 제목의 제목 수준을 정의합니다.
-* **ID** - 이 옵션을 통해 HTML과 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
-   * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
-   * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
-   * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
+- **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
+- **유형/크기** - 제목의 제목 수준을 정의합니다.
+- **ID** - 이 옵션을 통해 HTML과 데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+   - 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
+   - ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
+   - ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -80,9 +80,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![디자인 대화 상자 제목 탭](/help/adaptive-forms/assets/title_heading.png)
 
-* **허용된 제목 요소**: 템플릿 작성자가 양식 작성자가 제목에 사용할 수 있는 제목 요소를 선택할 수 있도록 하는 여러 옵션을 제공하는 목록입니다.
+- **허용된 제목 요소**: 템플릿 작성자가 양식 작성자가 제목에 사용할 수 있는 제목 요소를 선택할 수 있도록 하는 여러 옵션을 제공하는 목록입니다.
 
-* **기본 제목 요소** - 제목 구성 요소의 기본 제목 요소를 설정하는 드롭다운 목록입니다.
+- **기본 제목 요소** - 제목 구성 요소의 기본 제목 요소를 설정하는 드롭다운 목록입니다.
 
 ### 스타일 탭 {#styles-tab}
 
@@ -90,9 +90,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![디자인 대화 상자 제목 탭](/help/adaptive-forms/assets/title_styles.png)
 
-* **기본 CSS 클래스**: 적응형 양식 날짜 선택기 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 날짜 선택기 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
-* **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
+- **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
 ### 형식 탭 {#format-tab}
 
@@ -108,30 +108,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 관련 문서 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [아코디언](/help/adaptive-forms/components/accordion.md)
->* [버튼](/help/adaptive-forms/components/button.md)
->* [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
->* [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
->* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
->* [이메일 입력](/help/adaptive-forms/components/email-input.md)
->* [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
->* [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
->* [바닥글](/help/adaptive-forms/components/footer.md)
->* [헤더](/help/adaptive-forms/components/header.md)
->* [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
->* [이미지](/help/adaptive-forms/components/image.md)
->* [숫자 입력](/help/adaptive-forms/components/number-input.md)
->* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
->* [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
->* [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
->* [제출 버튼](/help/adaptive-forms/components/submit-button.md)
->* [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
->* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
->* [텍스트](/help/adaptive-forms/components/text.md)
->* [마법사](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 추가 참조 {#see-also}
 
