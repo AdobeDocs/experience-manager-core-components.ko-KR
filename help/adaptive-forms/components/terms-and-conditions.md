@@ -2,15 +2,13 @@
 title: 적응형 Forms 핵심 구성 요소 - 약관
 description: 적응형 Forms 약관 핵심 구성 요소 사용 또는 사용자 지정.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 66%
 
 ---
-
 
 # 사용 약관 구성 요소
 
@@ -222,4 +220,3 @@ A **약관** 구성 요소는 서비스를 사용하거나 콘텐츠에 액세�
 ## 추가 참조 {#see-also}
 
 {{see-also}}
-

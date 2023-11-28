@@ -2,15 +2,13 @@
 title: 적응형 Forms 핵심 구성 요소 - 수직 탭
 description: 적응형 Forms 세로 탭 핵심 구성 요소 사용 또는 맞춤화
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 65%
 
 ---
-
 
 # 세로탭 {#vertical-tabs-adaptive-forms-core-component}
 
