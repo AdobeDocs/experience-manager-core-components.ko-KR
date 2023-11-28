@@ -3,10 +3,10 @@ title: 웹에 최적화된 이미지 제공
 description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화된 이미지 제공 기능을 활용하여 이미지를 보다 효율적으로 전달하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
@@ -96,17 +96,7 @@ WebP 형식을 제공하기 위해 웹에 최적화된 이미지 제공 서비�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-이 서비스는 에셋 리소스를 첫 번째 필수 매개변수로 사용하며, 적용되는 원하는 이미지 변환의 추가 맵을 가져올 수 있으며, 여기에는 다음과 같은 매개변수가 포함될 수 있습니다.
-
-* `path` - 전달할 에셋 ID는 `([^:\[\]\|\*\/]+)` 패턴이어야 합니다(예: `unicorn–1234`).
-* `seoname` - 이미지 URL에 추가할 SEO 중심의 사용자 정의 이름으로, 하이픈을 포함할 수 있으며 `([\w-]+)` 패턴이어야 합니다(예: `my-friend-the-unicorn`).
-* `format` - 원하는 이미지 형식이며, `gif`, `png`, `png8`, `jpg`, `pjpg`, `bjpg`, `webp`, `webpll`, `webply`와 같은 형식일 수 있습니다(예: `webp`).
-* `preferwebp` - 가능한 경우 WebP 출력을 전달하고 `format` 매개변수를 무시하며([콘텐츠 협상 FAQ 참조](#content-negotiation)) 부울입니다(예: `true`).
-* `width` - 원하는 이미지 해상도(픽셀 단위)이며, 1보다 커야 합니다(예: `400`).
-* `quality` - 원하는 압축이며, `1`에서 `100` 사이입니다(예: `75`).
-* `c` - 원하는 이미지 자르기 좌표이며, 쉼표로 구분된 픽셀 값입니다(예: `100,100,400,200`).
-* `r` - 원하는 이미지 회전각이며, `90`, `180`, `270`일 수 있습니다(예: `90`).
-* `flip` - 원하는 이미지 뒤집기이며, `h`, `v`, `hv`일 수 있습니다(예: `h`).
+**AEM Sites CS에서 실행되는 핵심 구성 요소를 통해 빌드되지 않은 경험에 직접 URL이 임베드되는 것은 Media Library 라이선스 조건을 위반하는 것입니다.**
 
 ### 새 이미지 서비스에서 제공하는 이미지의 URL은 무엇입니까? {#url}
 
