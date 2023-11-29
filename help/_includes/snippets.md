@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # 스니펫 {#snippets}
@@ -79,6 +79,6 @@ ht-degree: 97%
 - [텍스트 입력](/help/adaptive-forms/components/text-input.md)
 - [텍스트](/help/adaptive-forms/components/text.md)
 - [제목](/help/adaptive-forms/components/title.md)
-- [사용 약관 탭](/help/adaptive-forms/components/terms-and-conditions.md)
+- [약관 탭](/help/adaptive-forms/components/terms-and-conditions.md)
 - [마법사](/help/adaptive-forms/components/wizard.md)
 
