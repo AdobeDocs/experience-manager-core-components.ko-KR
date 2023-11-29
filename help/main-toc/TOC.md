@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
 source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -103,18 +103,18 @@ ht-degree: 96%
       + [세분화](/help/email/components/segmentation.md)
 + 적응형 양식 {#adaptive-forms}
    + [소개](/help/adaptive-forms/introduction.md)
-   + [버전 내역](/help/adaptive-forms/version.md)
+   + [버전 기록](/help/adaptive-forms/version.md)
    + 적응형 양식 구성 요소 {#adaptive-forms-components}
       + [적응형 양식 아코디언](/help/adaptive-forms/components/accordion.md)
       + [적응형 양식 버튼](/help/adaptive-forms/components/button.md)
-      + [적응형 Forms 확인란](/help/adaptive-forms/components/checkbox.md)
+      + [적응형 양식 확인란](/help/adaptive-forms/components/checkbox.md)
       + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
       + [적응형 양식 컨테이너](/help/adaptive-forms/components/form-container.md)
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
       + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
       + [적응형 양식 이메일 입력](/help/adaptive-forms/components/email-input.md)
       + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
-      + [적응형 Forms 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
+      + [적응형 양식 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
       + [적응형 양식 숫자 입력](/help/adaptive-forms/components/number-input.md)
@@ -128,7 +128,7 @@ ht-degree: 96%
       + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-input.md)
       + [적응형 양식 제목](/help/adaptive-forms/components/title.md)
       + [적응형 양식 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
-      + [적응형 Forms 약관](/help/adaptive-forms/components/terms-and-conditions.md)
+      + [적응형 양식 약관](/help/adaptive-forms/components/terms-and-conditions.md)
       + [헤더](/help/adaptive-forms/components/header.md)
       + [바닥글](/help/adaptive-forms/components/footer.md)
    + [적응형 양식 핵심 구성 요소 사용자 정의](/help/developing/customize-adaptive-forms-core-components.md)
