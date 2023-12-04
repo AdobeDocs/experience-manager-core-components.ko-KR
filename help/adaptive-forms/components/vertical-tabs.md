@@ -3,14 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 세로 탭
 description: 적응형 양식 세로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
-ht-degree: 98%
+source-wordcount: '1904'
+ht-degree: 97%
 
 ---
 
-# 세로 탭 {#vertical-tabs-adaptive-forms-core-component}
+# 세로 탭 구성 요소{#vertical-tabs-adaptive-forms-core-component}
 
 적응형 양식의 세로 탭은 양식의 여러 섹션이 함께 그룹화되고 세로로 정렬된 별도의 탭으로 표시되는 디자인 패턴을 나타냅니다. 사용자는 탭 사이를 전환하여 양식의 다른 섹션에 액세스할 수 있습니다. 각 탭은 관련 양식 콘텐츠를 표시하고 숨기는 트리거 역할을 합니다. 세로 탭은 긴 양식을 관리 가능한 섹션으로 구성하고 사용자 경험을 개선하는 데 도움이 됩니다. 탭은 장애가 있는 사용자가 키보드 탐색을 사용하여 섹션 간에 전환할 수 있으므로 양식에 더 쉽게 액세스할 수 있도록 도와줍니다.
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 |---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 호환 가능 <br>[2.0.18](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능<br>[릴리스 2.0.18](/help/versions.md) 및 나중에 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
 
