@@ -6,7 +6,7 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
+source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 96%
@@ -56,7 +56,7 @@ AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 �
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 �
 
 <!--
 
-### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 47 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 47 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -123,8 +123,9 @@ FSI 테마는 양식에 깔끔하고 실용적인 느낌을 주는 데 중점을
 
 템플릿은 초기 양식 구조, 콘텐츠 및 작업을 정의하여 양식에 복제하거나 동의서 양식, 혜택 등록 양식 등 양식과 유사한 템플릿 구조를 사용합니다.
 
-**이 템플릿을 가져오는 방법은 무엇입니까?**
-다음 템플릿은 [AEM Archetype 45 이상](https://github.com/adobe/aem-project-archetype) (으)로 **AEM Forms as a Cloud Service** 환경 또는 **AEM 6.5 Forms** 환경.
+**이러한 템플릿을 가져오는 방법**
+
+다음 템플릿은 [AEM Archetype 47 이상](https://github.com/adobe/aem-project-archetype) (으)로 **AEM Forms as a Cloud Service** 환경 또는 **AEM 6.5 Forms** 환경.
 
 <!--
 
