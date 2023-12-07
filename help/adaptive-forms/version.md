@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 86%
+source-wordcount: '821'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 핵심 구성 요소 2.0.10의 현재 릴리스는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR)와 호환되고 핵심 구성 요소 릴리스 1.1.12는 [AEM 6.5 Form 온프레미스 및 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
 
-## AEM as Cloud Service 버전 내역 {#aem-as-cs-version-history}
+## AEM as Cloud Service 버전 기록 {#aem-as-cs-version-history}
 
 후속 표에서는 [전체 릴리스 정보와 함께 GitHub](https://github.com/adobe/aem-core-forms-components/releases)에서 제공하는 AEM as a Cloud Service과 호환되는 핵심 구성 요소 릴리스 목록을 제공합니다.
 
@@ -42,7 +42,7 @@ ht-degree: 86%
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 이 릴리스에는 숫자 입력 핵심 구성 요소의 다양한 형식이 제공됩니다. | 반복 | 8, 11 | 2023년 2월 8일 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 이 릴리스에는 AEM as a Cloud Service 에 대한 핵심 구성 요소 지원이 제공됩니다. | 반복 | 8, 11 | 2023년 1월 30일 |
 
-## AEM 6.5 Forms 버전 내역 {#aem-as-form-version-history}
+## AEM 6.5 Forms 버전 기록 {#aem-as-form-version-history}
 
 후속 표에서는 [전체 릴리스 정보와 함께 GitHub](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)에서 제공하는 AEM 6.5 Form 온프레미스와 호환되는 핵심 구성 요소 릴리스 목록을 제공합니다.
 

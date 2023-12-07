@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '2639'
-ht-degree: 100%
+source-wordcount: '2633'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 - **등록 프로세스**: 등록 또는 가입 양식에는 **약관** 구성 요소가 포함되며, 이는 사용자가 계정을 만들거나 서비스를 사용하기 전에 약관에 명시적으로 동의하도록 요구하는 역할을 합니다.
 
-- **e커머스**: 온라인 웹 사이트에는 **약관** 구성 요소가 포함되어 있으며, 이를 통해 사용자가 온라인으로 구매하기 전에 체크아웃 프로세스의 일부로 약관에 동의하라는 메시지가 표시됩니다.
+- **전자 상거래**: 온라인 웹 사이트에는 **약관** 구성 요소가 포함되어 있으며, 이를 통해 사용자가 온라인으로 구매하기 전에 체크아웃 프로세스의 일부로 약관에 동의하라는 메시지가 표시됩니다.
 
 - **보안 및 개인 정보 보호 계약**: **약관** 구성 요소에는 사용자 데이터가 수집, 저장 및 사용되는 방법에 대한 세부 정보가 포함되어 있으며, 흔히 별도의 개인정보 처리방침으로 보완됩니다.
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | 호환 가능 <br>[2.0.62](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.28](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
+| v1 | 호환 가능<br>[릴리스 2.0.62](/help/adaptive-forms/version.md) 및 나중에 | <br>[릴리스 1.1.28](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
