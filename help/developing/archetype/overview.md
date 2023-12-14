@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: b753764125b84c5256b80a949e1188b0afbbf88f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `includeExamples` | `n` | [구성 요소 라이브러리](https://www.aemcomponents.dev/) 예시 사이트(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeErrorHandler` | `n` | 전체 인스턴스 전역의 사용자 정의 404 반응형 페이지(`y` 또는 `n`일 수 있음)를 포함합니다. |
 | `includeCommerce` | `n` | [CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components) 종속성을 포함하고 해당 아티팩트를 생성합니다. |
-| `commerceEndpoint` |                | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQ 서비스 엔드포인트(예: `https://hostname.com/grapql`). |
+| `commerceEndpoint` |                | CIF에만 필요합니다. 옵션: 아직 사용하지 않은 상거래 시스템 GraphQL 서비스 엔드포인트(예: `https://hostname.com/grapql`). |
 | `includeFormscommunications` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 커뮤니케이션 프로그램에 해당하는 아티팩트를 생성합니다. |
 | `includeFormsenrollment` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, 템플릿, 양식 데이터 모델, 테마를 포함하며 Forms 등록 프로그램에 해당하는 아티팩트를 생성합니다. |
 | `sdkFormsVersion` | `latest` | `aemVersion=cloud` 및 `includeFormsenrollment=y` 또는 `includeFormscommunications=y` 중 하나이면 Forms SDK 버전을 지정할 수 있습니다(예: `2020.12.17.02`). |
@@ -98,7 +98,7 @@ AEM as a Cloud Service용 OOTB에 핵심 구성 요소가 제공되므로 AEM이
 | `enableDynamicMedia` | `n` | 프로젝트 정책 설정으로 기초 Dynamic Media 구성 요소를 활성화하고 핵심 이미지 구성 요소 정책으로 Dynamic Media 기능을 작동합니다. |
 | `enableSSR` | `n` | 프론트엔드 프로젝트용 SSR을 활성화하는 옵션 |
 | `precompiledScripts` | `n` | `ui.apps`의 서버측 스크립트를 [미리 컴파일](/help/developing/archetype/precompiled-bundled-scripts.md)하고 `ui.apps` 프로젝트에서 빌드에 보조 번들 아티팩트로 스크립트를 첨부하는 옵션. `aemVersion`을 `cloud`로 설정해야 합니다. |
-| `includeFormsheadless` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, `ui.frontend.react.forms.af` 및 헤드리스 아티팩트를 포함합니다. |
+| `includeFormsheadless` | `n` | [Forms 핵심 구성 요소](https://github.com/adobe/aem-core-forms-components) 종속성, `ui.frontend.react.forms.af` 및 Headless 아티팩트를 포함합니다. |
 
 ## 시스템 요구 사항 {#requirements}
 
