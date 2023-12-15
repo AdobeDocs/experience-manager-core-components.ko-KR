@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 이메일 입력
 description: 적응형 양식 이메일 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
+| v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
@@ -96,9 +96,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **최소 문자 오류 메시지** - **최소 문자 수** 옵션에 지정된 값보다 작은 문자를 입력한 경우, **최소 문자 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
 <br>
 
-    **유효성 검사 패턴** 옵션을 사용하면 입력한 이메일 ID의 유효성을 검사하는 패턴을 입력할 수 있습니다. 이메일 ID가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패한 경우 화면에 오류 메시지가 표시됩니다.
-    - **패턴** - 이 옵션을 사용하면 이메일에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규 표현식도 허용됩니다.
-    - **오류 메시지** - 이 옵션을 사용하면 이메일 ID가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패할 경우 화면에 표시되는 메시지를 입력할 수 있습니다.
+다음 **유효성 검사 패턴** 옵션을 사용하면 입력한 이메일 ID의 유효성을 검사하는 패턴을 입력할 수 있습니다. 이메일 ID가에 입력한 값으로 유효성을 검사하지 못하는 경우 **패턴** 옵션, 오류 메시지가 화면에 표시됩니다.
+
+- **패턴** - 이 옵션을 사용하면 전자 메일에 대해 허용되는 확인 패턴을 입력할 수 있습니다. 정규 표현식도 허용됩니다.
+- **오류 메시지** - 이 옵션을 사용하면 이메일 ID가 다음에 입력한 값으로 유효성을 검사하지 못할 경우 화면에 표시되는 메시지를 입력할 수 있습니다. **패턴** 옵션
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
@@ -134,7 +135,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![사용자 정의 속성 대화 상자](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
-사용자 정의 속성을 사용하면 양식 템플릿을 사용하여 사용자 정의 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 헤드리스 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 헤드리스 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
+사용자 정의 속성을 사용하면 양식 템플릿을 사용하여 사용자 정의 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 Headless 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 Headless 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
 
 - **그룹 이름**: 사용자 정의 속성 그룹을 식별하기 위해 이름을 제공할 수 있습니다. 여러 사용자 정의 속성 그룹을 추가, 삭제 또는 재배열할 수 있습니다. 사용자 정의 속성 그룹을 추가하면 다음 옵션이 표시됩니다.
 
