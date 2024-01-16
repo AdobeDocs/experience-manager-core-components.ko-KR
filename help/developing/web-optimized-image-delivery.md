@@ -4,9 +4,9 @@ description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ WebP 형식을 제공하기 위해 웹에 최적화된 이미지 게재 서비�
 
 ### 내 구성 요소와 함께 웹에 최적화된 이미지 게재 옵션을 사용할 수 있습니까?
 
-예. 웹에 최적화된 이미지 제공 서비스는 다음을 통해 빌드된 사용자 정의 구성 요소에서 사용할 수 있습니다. [이미지 구성 요소 확장,](/help/developing/customizing.md)
+예, 웹에 최적화된 이미지 게재 서비스는 [이미지 구성 요소를 확장](/help/developing/customizing.md)하여 구축된 사용자 정의 구성 요소에서 사용할 수 있습니다.
 
 다음은 자산 URL을 생성하는 데 사용할 수 있는 서비스 인터페이스입니다.
 
@@ -98,7 +98,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->AEM Sites CS에서 실행되는 핵심 구성 요소를 통해 빌드되지 않은 경험에 임베드되는 직접 URL은 Media Library 라이선스 조건을 위반합니다.
+>AEM Sites CS에서 실행되는 핵심 구성 요소를 통해 빌드되지 않은 경험에 URL을 바로 임베드하는 것은 미디어 라이브러리 라이선스 약관을 위반하는 것입니다.
 
 ### 새 이미지 서비스에서 제공하는 이미지의 URL은 무엇입니까? {#url}
 
