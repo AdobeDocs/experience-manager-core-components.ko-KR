@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 세로 탭
 description: 적응형 양식 세로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
 source-wordcount: '1904'
 ht-degree: 100%
@@ -38,9 +38,9 @@ ht-degree: 100%
 |---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[릴리스 2.0.18](/help/versions.md) 이상 버전과 호환 가능 | 호환 가능 | 호환 가능 |
+| v1 | <br>[릴리스 2.0.18](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | 호환 가능 | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
 ## 기술 세부 정보 {#technical-details}
 
