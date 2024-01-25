@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 99%
 
 ---
 # 스니펫 {#snippets}
@@ -65,6 +65,7 @@ ht-degree: 100%
 - [이메일 입력](/help/adaptive-forms/components/email-input.md)
 - [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
 - [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
+- [양식 단편](/help/adaptive-forms/components/form-fragment.md)
 - [바닥글](/help/adaptive-forms/components/footer.md)
 - [헤더](/help/adaptive-forms/components/header.md)
 - [이미지](/help/adaptive-forms/components/image.md)
@@ -75,6 +76,7 @@ ht-degree: 100%
 - [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
 - [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
 - [제출 버튼](/help/adaptive-forms/components/submit-button.md)
+- [전환](/help/adaptive-forms/components/switch.md)
 - [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
 - [텍스트 입력](/help/adaptive-forms/components/text-input.md)
 - [텍스트](/help/adaptive-forms/components/text.md)

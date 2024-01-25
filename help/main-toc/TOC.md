@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -113,6 +113,7 @@ ht-degree: 100%
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
       + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
       + [적응형 양식 이메일 입력](/help/adaptive-forms/components/email-input.md)
+      + [적응형 Forms 양식 단편](/help/adaptive-forms/components/form-fragment.md)
       + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
       + [적응형 양식 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 100%
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
+      + [적응형 Forms 스위치](/help/adaptive-forms/components/switch.md)
       + [적응형 양식 전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
       + [적응형 양식 텍스트](/help/adaptive-forms/components/text.md)
       + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-input.md)
