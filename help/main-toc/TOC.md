@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 98%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -154,13 +154,6 @@ ht-degree: 98%
    + AEM Project Archetype {#archetype}
       + [Archetype 개요](/help/developing/archetype/overview.md)
       + [Archetype 사용](/help/developing/archetype/using.md)
-      + [핵심 모듈](/help/developing/archetype/core.md)
-      + [ui.apps 모듈](/help/developing/archetype/uiapps.md)
+      + [프론트엔드 개발](/help/developing/archetype/front-end.md)
       + [미리 컴파일된 번들형 스크립트](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [ui.content 모듈](/help/developing/archetype/uicontent.md)
-      + [ui.frontend.general 모듈](/help/developing/archetype/uifrontend.md)
-      + [ui.frontend.react 모듈](/help/developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular 모듈](/help/developing/archetype/uifrontend-angular.md)
-      + [ui.test 모듈](/help/developing/archetype/uitests.md)
-      + [it.tests 모듈](/help/developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](/help/developing/archetype/build-analyzer-maven-plugin.md)

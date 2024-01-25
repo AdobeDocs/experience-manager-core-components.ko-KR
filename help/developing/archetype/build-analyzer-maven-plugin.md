@@ -4,10 +4,10 @@ description: 로컬 Maven Build Analyzer Plugin 설명서
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
+source-git-commit: 554be9539428cd75462a38fc45f1bece04baf066
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 
 >[!NOTE]
 >
->Maven 중앙 저장소(https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/)에 있는 최신 버전의 플러그를 참조하기 위해 Maven 프로젝트를 업데이트하는 것이 좋습니다.
+>에 있는 최신 버전의 플러그인을 참조하도록 Maven 프로젝트를 업데이트하는 것이 좋습니다. [Maven 중앙 저장소.](https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/)
 
 플러그인은 프로젝트에서 구성한 SDK가 아닌 사용 가능한 최신 SDK를 사용합니다.
 
@@ -27,15 +27,15 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 
 | 모듈 | 기능, 예제 및 문제 해결 | 로컬 SDK | Cloud Manager |
 |---|---|---|---|
-| `api-regions-exportsimports` | Maven 프로젝트에 포함된 다른 번들의 패키지 내보내기 선언이 충족하는 패키지 가져오기 선언이 모든 OSGI 번들에 있는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>문제를 해결하려면 배포에 패키지를 제공하는 번들이 포함되어 있는지 확인합니다. 아니면 내보내려는 번들의 매니페스트를 살펴봄으로써 잘못된 이름 또는 잘못된 버전이 사용되었는지를 확인할 수 있습니다. | 예 | 예 |
+| `api-regions-exportsimports` | Maven 프로젝트에 포함된 다른 번들의 패키지 내보내기 선언이 충족하는 패키지 가져오기 선언이 모든 OSGi 번들에 있는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>문제를 해결하려면 배포에 패키지를 제공하는 번들이 포함되어 있는지 확인합니다. 아니면 내보내려는 번들의 매니페스트를 살펴봄으로써 잘못된 이름 또는 잘못된 버전이 사용되었는지를 확인할 수 있습니다. | 예 | 예 |
 | `bundle-unversioned-packages` | OSGi 번들이 Export-Package 선언이 있는 버전과 Import-Package 선언이 있는 버전 범위를 지정하는지 확인하십시오. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>문제를 해결하려면 내보낼 버전을 지정하는 해당 패키지에 `package-info.java`를 추가하십시오. | 예 | 예 |
-| `requirements-capabilities` | Maven 프로젝트에 포함된 다른 번들의 기능 선언이 OSGI 번들로 제작된 요구 사항 선언을 모두 충족하는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> 문제를 해결하려면 기능을 선언하려는 번들의 매니페스트를 살펴봄으로써 누락된 이유를 확인하거나, 필요한 번들의 매니페스트를 체크인하여 해당 요구 사항이 정확한지 확인합니다. | 예 | 예 |
+| `requirements-capabilities` | Maven 프로젝트에 포함된 다른 번들의 기능 선언이 OSGi 번들로 제작된 요구 사항 선언을 모두 충족하는지 확인합니다. 오류의 형태는 다음과 같습니다. <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> 문제를 해결하려면 기능을 선언하려는 번들의 매니페스트를 살펴봄으로써 누락된 이유를 확인하거나, 필요한 번들의 매니페스트를 체크인하여 해당 요구 사항이 정확한지 확인합니다. | 예 | 예 |
 | `bundle-content` | 번들에 포함된 최초 콘텐츠가 AEM as a Cloud Service 클러스터된 환경에 문제가 되는 최초 콘텐츠 슬링으로 지정되는 경우 경고 메시지가 나타납니다. 경고 형태는 다음과 같습니다. <p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found initial content : [/]` <p> </p>문제를 해결하려면 최초 콘텐츠를 Repoinit 선언으로 변환하고 Repoinit 설명서를 참조하십시오. | 예 | 예 |
 | `bundle-resources` | 번들에 포함된 리소스가 AEM as a Cloud Service 클러스터된 환경에 문제가 되는 번들 리소스 슬링으로 지정되는 경우 경고 메시지가 나타납니다. 경고 형태는 다음과 같습니다.<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> 문제를 해결하려면 리소스를 Repoinit 선언으로 변환하고 [Repoinit 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ko#repo-init)를 참조하십시오. | 예 | 예 |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | 이 분석기를 사용하여 기능 슬링 모드에 따라 아티팩트를 만드는 [모델 변환 프로세스](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ko#deploying)를 보여 주는 콘텐츠 패키지 관련 세부 정보를 확인합니다. 오류가 발생하면 Adobe 고객 지원 센터에 보고해야 합니다. | 예 | 예 |
-| `api-regions-crossfeature-dups` | 고객 OSGI 번들에 AEM as a Cloud Service의 공개 API를 오버라이드하는 패키지 내보내기 선언이 없는지 확인합니다.<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>문제를 해결하려면 AEM 공개 API의 일부인 패키지 내보내기를 중단합니다. | 예 | 예 |
+| `api-regions-crossfeature-dups` | 고객 OSGi 번들에 AEM as a Cloud Service의 공개 API를 오버라이드하는 패키지 내보내기 선언이 없는지 확인합니다.<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>문제를 해결하려면 AEM 공개 API의 일부인 패키지 내보내기를 중단합니다. | 예 | 예 |
 | `repoinit` | Repoinit 섹션의 구문을 모두 확인합니다. | 예 | 예 |
-| `bundle-nativecode` | OSGI 번들이 기존 코드를 설치하지 않은지 확인합니다. | 예 | 예 |
+| `bundle-nativecode` | OSGi 번들이 네이티브 코드를 설치하지 않는지 확인합니다. | 예 | 예 |
 | `configuration-api` | 중요 OSGi 구성을 확인합니다. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `region-deprecated-api` | [더 이상 사용되지 않는 API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=ko)가 사용되고 있는지 확인합니다. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `artifact-rules` | 아티팩트의 알려진 문제를 사전에 방지하기 위해 번들 및 패키지와 같은 종속 항목을 확인합니다.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
