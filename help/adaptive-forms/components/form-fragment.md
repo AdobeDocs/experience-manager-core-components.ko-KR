@@ -2,9 +2,7 @@
 title: 적응형 양식 단편
 description: 양식 조각을 사용하여 양식 세그먼트나 필드 그룹을 만들고 적응형 Forms에서 재사용하여 효율성과 재사용성을 향상시킬 수 있습니다.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: 9b97ea68d176d5194844093afdc41b82bdb45fee
+source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
 workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 66%
