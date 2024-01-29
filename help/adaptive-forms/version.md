@@ -4,9 +4,9 @@ description: AEM 핵심 구성 요소는 두 개 이상의 동일한 핵심 구�
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 5ba402a0f781f73fe7eb5afc9b4beb47ba28851e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 91%
 
 | 릴리스 | 설명 | AEM as a Cloud Service | Java™ | 릴리스 일자 |
 |---|---|---|---|---|
-| [2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | 이번 릴리스에서는 약관 구성 요소에 대해 스타일 탭과 사용자 지정 속성 탭이 수정되었습니다. 또한 이 릴리스에서는 첫 번째 클릭에 대해 부울 값을 저장하는 라디오 버튼 구성 요소를 수정했습니다. | 반복 | 8, 11 | 2023년 11월 15일 |
+| [2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | 이 릴리스에서는 약관 구성 요소에 대한 스타일 탭과 사용자 정의 속성 탭이 수정되었습니다. 또한 이 릴리스에서는 라디오 버튼 구성 요소가 처음 클릭에 대한 부울 값을 저장하도록 수정되었습니다. | 반복 | 8, 11 | 2023년 11월 15일 |
 | [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | 이 릴리스에서는 AEM Forms에서의 제출 작업에 대한 제출 오류가 업데이트되었습니다. | 반복 | 8, 11 | 2023년 11월 15일 |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | 이 릴리스에서는 양식 컨테이너에서 사이트 페이지 언어를 처리하는 지원이 추가되었습니다. | 반복 | 8, 11 | 2023년 11월 10일 |
-| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | 라디오/확인란 구성 요소의 레이블에서 서식 있는 텍스트를 지원합니다. 이번 릴리스에서는 스위치 구성 요소에 대한 지원도 추가되었습니다. 이 릴리스에는 약관 구성 요소에 대한 수정 사항도 포함되어 있습니다. | 반복 | 8, 11 | 2023년 11월 6일 |
+| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | 라디오/확인란 구성 요소의 레이블에서 서식 있는 텍스트를 지원합니다. 이번 릴리스에서는 전환 구성 요소에 대한 지원도 추가되었습니다. 이 릴리스에는 약관 구성 요소에 대한 수정 사항도 포함되어 있습니다. | 반복 | 8, 11 | 2023년 11월 6일 |
 | [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | 이 릴리스에서는 약관 구성 요소에 대한 지원이 추가되었습니다. 또한 핵심 구성 요소에 적격 이름에 대한 지원이 추가되었습니다. | 반복 | 8, 11 | 2023년 16월 10일 |
 | [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | 이 릴리스에는 사용자 정의 속성 기능, 마법사 및 날짜 선택기 구성 요소와 관련된 수정 사항이 포함되어 있습니다. | 반복 | 8, 11 | 2023년 9월 12일 |
 | [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | 이 릴리스에서는 모든 핵심 구성 요소에 대한 사용자 정의 속성 지원이 추가되었습니다. | 반복 | 8, 11 | 2023년 9월 12일 |
@@ -50,8 +50,8 @@ ht-degree: 91%
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | Java™ | 릴리스 일자 |
 |---|---|---|---|---|---|
 | [1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32) | 이 릴리스에서는 AEM 서비스 팩 6.5.18.0의 패키지 정보에 대한 정보가 업데이트되었습니다. | - | 6.5.16.0+ | 8, 11 | 2023년 10월 15일 |
-| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | 라디오/확인란 구성 요소의 레이블에서 서식 있는 텍스트를 지원합니다. 이 릴리스에는 사용 약관 구성 요소 및 스위치 구성 요소에 대한 지원도 포함됩니다. | - | 6.5.16.0+ | 8, 11 | 2023년 10월 15일 |
-| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | 이 릴리스에서는 적응형 양식 및 양식 조각에 대한 확인란 구성 요소에 대한 지원이 추가되었습니다. 또한 Lighthouse 성능도 향상되었습니다. 규칙 편집기의 호출 서비스를 사용하는 사용자 정의 오류 핸들러도 이 릴리스에 포함되어 있습니다. | - | 6.5.16.0+ | 8, 11 | 2023년 10월 15일 |
+| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | 라디오/확인란 구성 요소의 레이블에서 서식 있는 텍스트를 지원합니다. 이 릴리스에는 약관 구성 요소 및 전환 구성 요소에 대한 지원도 포함되어 있습니다. | - | 6.5.16.0+ | 8, 11 | 2023년 10월 15일 |
+| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | 이 릴리스에서는 적응형 양식 및 양식 조각의 확인란 구성 요소에 대한 지원이 추가되었습니다. 또한 Lighthouse 성능도 향상되었습니다. 규칙 편집기의 호출 서비스를 사용하는 사용자 정의 오류 핸들러도 이 릴리스에 포함되어 있습니다. | - | 6.5.16.0+ | 8, 11 | 2023년 10월 15일 |
 | [1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24) | 반복 가능한 구성 요소에 대한 추가/제거 버튼과 함께 기본 오류 메시지에 대한 현지화 지원이 추가되었습니다. 또한 적응형 양식에 recaptcha에 대한 지원이 추가되었습니다. | - | 6.5.16.0+ | 8, 11 | 2023년 6월 29일 |
 | [1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22) | AEM Sites에서 적응형 양식 추가를 지원합니다. 마법사 및 세로 탭 구성 요소의 편집 대화 상자에 항목 탭이 추가되었습니다. | - | 6.5.16.0+ | 8, 11 | 2023년 07월 6일 |
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | 이 릴리스에는 AEM Forms 온프레미스 및 AMS에 대한 핵심 구성 요소 지원이 제공됩니다. | - | 6.5.16.0+ | 8, 11 | 2023년 2월 8일 |
