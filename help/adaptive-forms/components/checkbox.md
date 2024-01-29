@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 확인란
 description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1691'
-ht-degree: 100%
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
+workflow-type: tm+mt
+source-wordcount: '1746'
+ht-degree: 96%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 확인란은 소프트웨어 애플리케이션 및 양식에서 일반적으로 사용되는 그래픽 사용자 인터페이스 요소로서, 사용자가 선택 또는 선택 해제의 두 가지 옵션 중에서 이진 선택을 할 수 있도록 합니다.
 
 확인란은 일반적으로 클릭하거나 탭하여 켜거나 끌 수 있는 작은 사각형으로 표시됩니다. 확인란을 선택하면 관련 옵션이나 기능이 활성 상태이거나 활성화되었음을 나타내는 확인 표시가 표시됩니다.
+
+>[!NOTE]
+>
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)와 함께 도입되었습니다. 이 구성 요소를 활성화하려면 필요한 버전의 Forms 핵심 구성 요소와 WCM 핵심 구성 요소가 모두 설치되어 있는지 확인하십시오. 적응형 Forms 핵심 구성 요소 릴리스에 대한 자세한 내용은 을 참조하십시오. [적응형 Forms 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)
 
 **예**
 

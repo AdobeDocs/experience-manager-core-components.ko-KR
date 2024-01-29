@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 약관
 description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2635'
-ht-degree: 100%
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
+workflow-type: tm+mt
+source-wordcount: '2690'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 **약관** 구성 요소는 사용자가 서비스를 사용하거나 콘텐츠에 액세스할 때 동의하거나 준수해야 하는 약관, 규칙 및 조건을 설명하는 양식 내 섹션을 나타냅니다.
 
 **약관** 구성 요소는 텍스트, 확인란 및 링크 구성 요소로 구성된 복합 구성 요소입니다. 텍스트 구성 요소에는 제목과 함께 약관의 목적과 범위에 대한 간략한 개요가 포함되어 있습니다. 또한 사용자로부터 명시적인 동의를 얻는 데 사용되는 확인란도 포함되어 있습니다. 동의 텍스트를 링크로 바꿀 수도 있습니다.
+
+>[!NOTE]
+>
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)와 함께 도입되었습니다. 이 구성 요소를 활성화하려면 필요한 버전의 Forms 핵심 구성 요소와 WCM 핵심 구성 요소가 모두 설치되어 있는지 확인하십시오. 적응형 Forms 핵심 구성 요소 릴리스에 대한 자세한 내용은 을 참조하십시오. [적응형 Forms 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)
 
 **예**
 

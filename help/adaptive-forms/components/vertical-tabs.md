@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 세로 탭
 description: 적응형 양식 세로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 100%
+source-wordcount: '1959'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 적응형 양식의 세로 탭은 양식의 여러 섹션이 함께 그룹화되고 세로로 정렬된 별도의 탭으로 표시되는 디자인 패턴을 나타냅니다. 사용자는 탭 사이를 전환하여 양식의 다른 섹션에 액세스할 수 있습니다. 각 탭은 관련 양식 콘텐츠를 표시하고 숨기는 트리거 역할을 합니다. 세로 탭은 긴 양식을 관리 가능한 섹션으로 구성하고 사용자 경험을 개선하는 데 도움이 됩니다. 탭은 장애가 있는 사용자가 키보드 탐색을 사용하여 섹션 간에 전환할 수 있으므로 양식에 더 쉽게 액세스할 수 있도록 도와줍니다.
 
 사용자가 탭을 클릭하면 양식 콘텐츠가 해당 섹션을 표시하도록 동적으로 업데이트됩니다.
+
+>[!NOTE]
+>
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)와 함께 도입되었습니다. 이 구성 요소를 활성화하려면 필요한 버전의 Forms 핵심 구성 요소와 WCM 핵심 구성 요소가 모두 설치되어 있는지 확인하십시오. 적응형 Forms 핵심 구성 요소 릴리스에 대한 자세한 내용은 을 참조하십시오. [적응형 Forms 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)
 
 ![예](/help/adaptive-forms/assets/horizontal-example.png)
 
