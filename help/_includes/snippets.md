@@ -1,8 +1,8 @@
 ---
 source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # 스니펫 {#snippets}
@@ -65,7 +65,7 @@ ht-degree: 99%
 - [이메일 입력](/help/adaptive-forms/components/email-input.md)
 - [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
 - [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
-- [양식 단편](/help/adaptive-forms/components/form-fragment.md)
+- [양식 조각](/help/adaptive-forms/components/form-fragment.md)
 - [바닥글](/help/adaptive-forms/components/footer.md)
 - [헤더](/help/adaptive-forms/components/header.md)
 - [이미지](/help/adaptive-forms/components/image.md)
