@@ -3,12 +3,13 @@ title: 아코디언 구성 요소
 description: 핵심 구성 요소의 아코디언 구성 요소를 통해 페이지에서 아코디언으로 배열되는 패널 컬렉션을 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 93%
 
 ---
+
 
 # 아코디언 구성 요소{#accordion-component}
 
@@ -30,7 +31,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능<br>[릴리스 2.17.4](/help/versions.md) 및 이전 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
@@ -57,6 +58,12 @@ ht-degree: 100%
    * 예 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 패널 ID를 앵커로 사용하여 URL로 이동하면 브라우저는 특정 구성 요소로 바로 스크롤하고 지정 패널을 표시합니다. 패널 확장이 기본 구성되어 있지 않으면 패널은 자동으로 확장됩니다.
+
+## 아코디언 및 반응형 디자인 {#responsive-design}
+
+모든 핵심 구성 요소는 완벽한 응답을 제공하도록 설계되어 장치 간에 원활한 경험을 제공합니다.
+
+아코디언 구성 요소와 같은 일부 고급 구성 요소는 모든 조건에서 응답성을 유지하기 위해 구현 프로젝트 컨텍스트 내에서 특정 고려 사항이 필요할 수 있습니다. 문서를 참조하십시오. [핵심 구성 요소의 응답형 디자인](/help/responsive.md) 추가 정보.
 
 ## 구성 대화 상자 {#configure-dialog}
 

@@ -3,12 +3,13 @@ title: 핵심 구성 요소 소개
 description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 1d16628d8a85edff8c079421204d8cf0ca3e807a
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 97%
 
 ---
+
 
 # 핵심 구성 요소 소개{#core-components-introduction}
 
@@ -35,6 +36,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko-KR#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
+| [반응형](responsive.md) | 모든 핵심 구성 요소는 완벽한 응답성을 제공하도록 설계되어 장치 간에 원활한 경험을 제공합니다 |
 | 추적 가능 | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md) 통합 기능을 통해 모든 측면의 방문자 경험을 추적할 수 있습니다. |
 | 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고 ARIA 레이블을 제공하며 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO 친화도 | HTML 출력은 의미가 있으며 [schema.org](https://schema.org) 마이크로 데이터 주석을 제공합니다. |
@@ -46,6 +48,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
 | 현지화 가능 | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 [현지화된 해당 콘텐츠를 자동으로 검색하여 렌더링할 수 있습니다](get-started/localization.md). |
 | 오픈 소스 | 매출이 평소와 같지 않다면 [자신의 성과를 공개하십시오](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md). |
+
 
 ## WCM 구성 요소 {#the-wcm-components}
 

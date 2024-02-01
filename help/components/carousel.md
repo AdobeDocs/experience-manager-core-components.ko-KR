@@ -3,12 +3,13 @@ title: 슬라이드 구성 요소
 description: 콘텐츠 작성자는 회전하는 슬라이드 구성 요소를 통해 콘텐츠를 제공할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 94%
 
 ---
+
 
 # 슬라이드 구성 요소{#carousel-component}
 
@@ -28,7 +29,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능 | 호환 가능 |
+| v1 | 호환 가능<br>[릴리스 2.17.4](/help/versions.md) 및 이전 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
@@ -55,6 +56,12 @@ ht-degree: 100%
    * 예 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 패널 ID를 앵커로 사용하여 URL로 이동하면 브라우저는 특정 구성 요소로 바로 스크롤하고 지정 패널을 표시합니다. 패널이 기본적으로 표시되지 않도록 구성되면 패널은 자동으로 스크롤됩니다.
+
+## 회전 및 응답형 디자인 {#responsive-design}
+
+모든 핵심 구성 요소는 완벽한 응답을 제공하도록 설계되어 장치 간에 원활한 경험을 제공합니다.
+
+슬라이드 구성 요소와 같은 일부 고급 구성 요소는 모든 조건에서 응답성을 유지하기 위해 구현 프로젝트 컨텍스트 내에서 특정 고려 사항이 필요할 수 있습니다. 문서를 참조하십시오. [핵심 구성 요소의 응답형 디자인](/help/responsive.md) 추가 정보.
 
 ## 편집 대화 상자 {#edit-dialog}
 
