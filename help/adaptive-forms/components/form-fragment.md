@@ -1,43 +1,43 @@
 ---
-title: 적응형 양식 단편
-description: 양식 조각을 사용하여 양식 세그먼트나 필드 그룹을 만들고 적응형 Forms에서 재사용하여 효율성과 재사용성을 향상시킬 수 있습니다.
+title: 적응형 양식 조각
+description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그룹을 생성하고 이를 적응형 양식 전체에서 재사용하여 효율성과 재사용성을 개선할 수 있습니다.
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1675'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
-# 양식 단편 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
+# 양식 조각 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
 
-적응형 Forms은 패널이나 필드 그룹과 같은 양식 세그먼트를 편리하게 만들어 다른 적응형 Forms에서 재사용할 수 있도록 합니다. 이러한 재사용 가능한 독립 세그먼트를 라고 합니다. [적응형 양식 단편](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)이라고 합니다.
 
-다음을 수행할 수 있습니다. [문서에 조각을 여러 번 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) 구성 요소의 데이터 바인딩 속성을 사용하여 다른 데이터 소스 또는 스키마에 연결합니다. 예를 들어 영구, 통신 및 청구 주소에 동일한 주소 조각을 사용하여 데이터 소스 또는 스키마의 다른 필드에 연결할 수 있습니다.
+[문서에 조각을 여러 번 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)하고 해당 구성 요소의 데이터 바인딩 속성을 사용하여 조각을 다른 데이터 소스나 스키마에 연결할 수 있습니다. 예를 들어 영구, 통신 및 청구 주소에 동일한 주소 조각을 사용하고 이를 데이터 소스 또는 스키마의 다른 필드에 연결할 수 있습니다.
 
 ![예](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-다음을 사용할 수도 있습니다 [반복 옵션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 양식 조각 구성 요소와 하위 구성 요소를 복제하려면 최소 및 최대 반복 횟수를 정의하고 양식 내에서 유사한 섹션을 쉽게 복제할 수 있습니다.
+또한 [반복 옵션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)을 사용하여 양식 조각 구성 요소와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수도 있습니다.
 
 >[!NOTE]
 >
-> 다음을 수행할 수 있습니다. [적응형 양식 단편 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) 기존 적응형 양식에 패널을 처음부터 새로 만들거나 조각으로 저장합니다.
+> [적응형 양식 조각을 처음부터 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)하거나 기존 적응형 양식의 패널을 조각으로 저장할 수 있습니다.
 
 ## 사용 {#usage}
 
-- **재사용 가능성**: 여러 적응형 Forms에서 양식 조각을 재사용할 수 있는 기능은 양식 조각 사용의 주요 이점입니다. 조각에 대한 변경 사항은 사용된 모든 인스턴스에 반영되므로 디자인과 기능의 일관성을 유지하는 데 도움이 됩니다.
+- **재사용성**: 여러 적응형 양식 전체에서 양식 조각을 재사용할 수 있다는 점은 양식 조각 사용의 주요 이점입니다. 조각에 대한 변경 사항이 조각이 사용되는 모든 인스턴스에 반영되므로 디자인과 기능의 일관성을 유지할 수 있습니다.
 
-- **일관된 사용자 경험**: 머리글이나 바닥글과 같은 일반적인 요소에 양식 조각을 사용하면 일관되고 일관된 사용자 경험을 확보할 수 있습니다.
+- **일관된 사용자 경험**: 머리글이나 바닥글과 같은 공통 요소에 양식 조각을 사용하면 일관되고 응집력 있는 사용자 경험이 보장됩니다.
 
-- **손쉬운 유지 관리**: 양식 조각에 수행된 변경 또는 수정 사항은 이 조각이 사용되는 모든 인스턴스에 반영됩니다. 유지 관리를 단순화하고 오류 가능성을 줄입니다.
+- **손쉬운 유지 관리**: 양식 조각에 대한 변경 사항이나 수정 사항은 해당 양식 조각이 사용되는 모든 인스턴스에 반영됩니다. 이를 통해 유지 관리가 단순화되고 오류 가능성이 줄어듭니다.
 
-- **효율성**: 디자이너와 개발자는 양식 조각을 한 번만 빌드하고 테스트하여 시간을 절약합니다. 그런 다음 양식 조각을 중복 작업 없이 여러 적응형 Forms에 쉽게 통합할 수 있습니다.
+- **효율성**: 디자이너와 개발자는 양식 조각을 한 번만 작성하고 테스트하여 시간을 절약할 수 있습니다. 그런 다음 중복 작업 없이 양식 조각을 여러 적응형 양식에 쉽게 통합할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 Forms 조각 핵심 구성 요소는 Cloud Service을 위한 핵심 구성 요소 2.0.50 및 AEM 6.5.16.0 Forms 이상을 위한 핵심 구성 요소 1.1.26의 일부로 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 조각 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.50 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.26 일부로 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -47,11 +47,11 @@ ht-degree: 66%
 
 ## 기술 세부 정보 {#technical-details}
 
-의 기술 설명서에서 적응형 Forms 조각 핵심 구성 요소에 대한 최신 정보를 알아보십시오 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
+적응형 양식 조각 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
-구성 대화 상자를 통해 방문자의 조각 경험을 손쉽게 맞춤화할 수 있습니다. 또한 원활한 사용자 경험을 위해 조각 속성을 쉽게 정의할 수 있습니다.
+구성 대화 상자를 사용하여 방문자를 위한 조각 경험을 손쉽게 사용자 정의할 수 있습니다. 조각 속성을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
 
 ### 기본 탭 {#basic-tab}
 
@@ -94,11 +94,11 @@ ht-degree: 66%
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 
-### 단편 반복 탭 {#repeat-tab}
+### 조각 반복 탭 {#repeat-tab}
 
-![단편 반복 탭](/help/adaptive-forms/assets/fragment-repeattab.png)
+![조각 반복 탭](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-- **반복 가능한 조각 만들기**: 사용자가 반복 기능을 활성화하거나 비활성화할 수 있는 전환 기능입니다.
+- **조각을 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
 - **최소 반복**: 조각 구성 요소를 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 조각 구성 요소가 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 조각 구성 요소를 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
@@ -120,15 +120,15 @@ ht-degree: 66%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자 를 사용하여 양식 단편 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 대화 상자는 양식 조각 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
-적응형 양식 단편 핵심 구성 요소는 AEM을 지원합니다. [스타일 시스템](/help/get-started/authoring.md#component-styling).
+적응형 양식 양식 조각 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ![디자인 대화 상자](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **기본 CSS 클래스**: 적응형 양식 단편 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 양식 조각 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
@@ -136,7 +136,7 @@ ht-degree: 66%
 
 ![사용자 정의 속성 대화 상자](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-사용자 지정 속성을 사용하면 양식 템플릿을 사용하여 사용자 지정 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 Headless 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 Headless 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
+사용자 정의 속성을 사용하면 양식 템플릿을 사용하여 사용자 정의 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 Headless 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 Headless 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
 
 - **그룹 이름**: 사용자 정의 속성 그룹을 식별하기 위해 이름을 제공할 수 있습니다. 여러 사용자 정의 속성 그룹을 추가, 삭제 또는 재배열할 수 있습니다. 사용자 정의 속성 그룹을 추가하면 다음 옵션이 표시됩니다.
 
@@ -144,7 +144,7 @@ ht-degree: 66%
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 탭하거나 클릭하고 드래그하여 사용자 지정 속성 이름과 사용자 지정 속성 값을 재배열합니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 재배열할 수 있습니다.
 
 ## 관련 문서 {#related-articles}
 
