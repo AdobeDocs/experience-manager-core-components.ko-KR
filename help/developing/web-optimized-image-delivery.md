@@ -3,9 +3,9 @@ title: 웹에 최적화된 이미지 게재
 description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화된 이미지 게재 옵션을 활용하여 이미지를 보다 효율적으로 전달하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 54%
 
 ---
@@ -95,4 +95,5 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 * HTML에서 웹에 최적화된 이미지를 활성화할 때 마크업은 변경되지 않고 `src` image 요소의 속성이 변경됩니다.
 * 새 이미지 서비스를 사용할 수 없거나 원하는 이미지를 처리할 수 없을 때마다, 생성된 URL은 [적응형 이미지 서블릿으로 돌아갑니다](#fallback).
-* Dispatcher 규칙은 웹에 최적화된 이미지 제공 서비스를 차단할 수 있습니다. 이미지 게재 서비스의 URL이 다음으로 시작 `/adobe`, 및 검사 [거부된 요청에 대한 Dispatcher 로그](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 는 이미지를 브라우저에 전달할 때 발생하는 오류를 해결하는 데 도움이 됩니다.
+
+그러나 Dispatcher 규칙은 웹에 최적화된 이미지 제공 서비스를 차단할 수 있습니다. 이미지 게재 서비스의 URL이 다음으로 시작 `/adobe`, 그리고 거부된 요청에 대한 Dispatcher 로그 검사 [여기에 설명됨](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 는 이미지를 브라우저에 전달할 때 발생하는 오류를 해결하는 데 도움이 됩니다.
