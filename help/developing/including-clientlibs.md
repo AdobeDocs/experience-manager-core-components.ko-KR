@@ -1,34 +1,34 @@
 ---
 title: 클라이언트 라이브러리 및 핵심 구성 요소
-description: 핵심 구성 요소에는 다양한 클라이언트 라이브러리가 포함되어 있으며 자체 구성 요소를 포함할 수 있는 기능을 제공합니다.
+description: 핵심 구성 요소는 다양한 클라이언트 라이브러리와 함께 제공되며 자체 라이브러리를 포함할 수 있는 기능을 제공합니다.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
 # 클라이언트 라이브러리 및 핵심 구성 요소 {#client-libraries}
 
-핵심 구성 요소에는 다양한 클라이언트 라이브러리가 포함되어 있으며 자체 구성 요소를 포함할 수 있는 기능을 제공합니다.
+핵심 구성 요소는 다양한 클라이언트 라이브러리와 함께 제공되며 자체 라이브러리를 포함할 수 있는 기능을 제공합니다.
 
-## 제공된 클라이언트 라이브러리 {#provided}
+## 제공되는 클라이언트 라이브러리 {#provided}
 
-핵심 구성 요소는 즉시 사용할 수 있는 다음과 같은 클라이언트 라이브러리를 제공합니다.
+핵심 구성 요소는 기본적으로 다음과 같은 클라이언트 라이브러리를 제공합니다.
 
-* 다음 **사이트** clientlibs는 사이트에 적용할 구성 요소의 기능 동작을 최소한으로 제공합니다.
-   * 이 확장 및 확장을 권장하는 구현을 통해 프로젝트를 가속화하는 시작점 역할을 합니다 [사용자 정의](/help/developing/customizing.md) 원하는 모양과 기능을 구현할 수 있습니다.
-* 다음 **편집자** clientlib은 작성 대화 상자에 적용되어 필요한 기능과 모양을 유지합니다.
-* 다음 **editorhook** clientlib은 편집 모드로 로드될 때 사이트에 적용됩니다.
-   * 여기에는 편집기에서 트리거된 이벤트에서 실행되는 JavaScript 코드가 포함되어 있어 동적 기능의 초기화를 용이하게 합니다.
-* 일부 구성 요소에는 특정 상황에서 사용하도록 설계된 특정 추가 clientlib이 있을 수 있습니다(예: 함께 사용되는 경우) [Dynamic Media](/help/components/image.md#dynamic-media) 예.
+* **site** clientlib는 사이트에 적용할 구성 요소의 최소한의 기능적 동작을 제공합니다.
+   * 이는 구현이 프로젝트를 확장하고 [맞춤화](/help/developing/customizing.md)하여 원하는 모양과 기능을 달성하도록 장려하여 프로젝트를 가속화하는 출발점 역할을 합니다.
+* **editor** clientlib는 작성 대화 상자에 적용되어 예상되는 기능과 모양을 보장합니다.
+* **editorhook** clientlib는 편집 모드로 로드 시 사이트에 적용됩니다.
+   * 여기에는 편집기가 트리거한 이벤트에서 실행되는 JavaScript 코드가 포함되어 있어 동적 기능의 초기화를 용이하게 합니다.
+* 일부 구성 요소에는 [Dynamic Media](/help/components/image.md#dynamic-media)와 함께 사용하는 경우와 같이 특정 상황에서 사용하도록 설계된 특정 추가 clientlib가 포함될 수 있습니다.
 
 ## 클라이언트 라이브러리 포함 {#including}
 
-사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/front-end.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 다음은 샘플을 사용하는 예제입니다 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) 각.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/front-end.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 다음은 각각 샘플 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)이 포함된 예시입니다.
 
 ### 권장 기본 사용 {#recommended-default-usage}
 
