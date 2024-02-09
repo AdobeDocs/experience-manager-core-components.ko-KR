@@ -1,28 +1,28 @@
 ---
-title: AEM 적응형 Forms 핵심 구성 요소 버전
+title: AEM 적응형 양식 핵심 구성 요소 버전
 description: AEM 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
-# 적응형 Forms 핵심 구성 요소 릴리스 {#core-components-versions}
+# 적응형 양식 핵심 구성 요소 릴리스 {#core-components-versions}
 
-환경에서 최신 적응형 Forms 핵심 구성 요소를 활성화하는 데 필요한 Forms 핵심 구성 요소 및 WCM 핵심 구성 요소 종속 항목의 정확한 버전을 식별합니다. 또한 적응형 Forms 핵심 구성 요소의 각 릴리스에서 활성화된 구성 요소 및 기능을 숙지하십시오.
+사용자 환경에서 최신 적응형 양식 핵심 구성 요소를 활성화하는 데 필요한 양식 핵심 구성 요소와 WCM 핵심 구성 요소 종속성의 정확한 버전을 확인하십시오. 또한 적응형 양식 핵심 구성 요소의 각 릴리스에서 활성화되는 구성 요소와 기능을 숙지하십시오.
 
-## Cloud Service 버전 기록으로서의 AEM Forms {#aem-as-cs-version-history}
+## AEM Forms as Cloud Service 버전 기록 {#aem-as-cs-version-history}
 
 후속 표에서는 [전체 릴리스 정보와 함께 GitHub](https://github.com/adobe/aem-core-forms-components/releases)에서 제공하는 AEM as a Cloud Service과 호환되는 핵심 구성 요소 릴리스 목록을 제공합니다.
 
 
 
 
-| Forms 핵심 구성 요소 | WCM 코어 구성 요소 | AEM Forms as a cloud service | Java | Maven |
+| 양식 핵심 구성 요소 | WCM 코어 구성 요소 | AEM Forms as a Cloud Service | Java | Maven |
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
 | 2.0.86 | 2.23.4 | 반복 | 8, 11 | 3.3.9+ |
 | 2.0.76 | 2.23.4 | 반복 | 8, 11 | 3.3.9+ |
@@ -113,7 +113,7 @@ ht-degree: 54%
 후속 표에서는 [전체 릴리스 정보와 함께 GitHub](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)에서 제공하는 AEM 6.5 Form 온프레미스와 호환되는 핵심 구성 요소 릴리스 목록을 제공합니다.
 
 
-| Forms 핵심 구성 요소 | WCM 코어 구성 요소 | AEM 6.5 | Java | Maven |
+| 양식 핵심 구성 요소 | WCM 코어 구성 요소 | AEM 6.5 | Java | Maven |
 |-----------------------|---------------------|---------| ----- | ------ |
 | 1.1.32 | 2.23.2 | 6.5.18+ | 8, 11 | 3.3.9+ |
 | 1.1.28 | 2.23.2 | 6.5.19+ | 8, 11 | 3.3.9+ |
