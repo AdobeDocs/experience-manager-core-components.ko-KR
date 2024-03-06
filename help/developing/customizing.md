@@ -4,7 +4,7 @@ description: 핵심 구성 요소는 간단한 스타일링부터 고급 기능 
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 
