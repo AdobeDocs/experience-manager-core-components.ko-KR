@@ -3,9 +3,9 @@ title: 핵심 구성 요소 맞춤화
 description: 핵심 구성 요소는 간단한 스타일링부터 고급 기능 재사용까지 간편하게 맞춤화할 수 있는 몇 가지 패턴을 구현합니다.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
-source-wordcount: '1100'
+source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+workflow-type: ht
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
@@ -59,15 +59,16 @@ ht-degree: 100%
                         <originalTab
                                 jcr:primaryType="nt:unstructured"
                                 sling:hideResource="true"/>
-                        </originalTab>
                         <myTab
                                jcr:primaryType="nt:unstructured"
                                jcr:title="My Tab"
-                               sling:resourceType="granite/ui/components/coral/foundation/container"/>
+                               sling:resourceType="granite/ui/components/coral/foundation/container">
+                                  
                                <!-- myTab content -->
+                                  
                         </myTab>
                 </items>
-            </basic>
+            </tabs>
         </items>
     </content>
 </jcr:root>
@@ -86,12 +87,16 @@ ht-degree: 100%
        adapters = Title.class,
        resourceType = "myproject/components/pageHeadline")
 public class PageHeadline implements Title {
+    
     @ScriptVariable private Page currentPage;
+    
     @Self @Via(type = ResourceSuperType.class)
+
     private Title title;
     @Override public String getText() {
         return currentPage.getTitle();
     }
+    
     @Override public String getType() {
         return title.getType();
     }
