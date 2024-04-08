@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 숫자 입력
 description: 적응형 양식 숫자 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2035'
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1989'
 ht-degree: 100%
 
 ---
@@ -65,6 +65,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -121,9 +125,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **형식 표시** - 이 옵션을 통해 다양한 정수 숫자 형식에서 표시할 옵션을 선택할 수 있습니다. 사용자가 **유형** 드롭다운 메뉴에서 옵션을 선택하면 패널에 **형식** 옵션이 표시됩니다. 숫자가 사용자에게 표시되는 특정 형식을 선택할 수 있습니다.
 
-- **소수점 구분 기호 앞 자릿수(1234.000)** - 소수점 앞에 표시할 자릿수를 지정하려면 이 옵션을 사용합니다.
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **소수점 구분 기호 뒷 자릿수(1234.000)** - 소수점 뒤에 표시할 자릿수를 지정하려면 이 옵션을 사용합니다.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## 디자인 대화 상자 {#design-dialog}
 

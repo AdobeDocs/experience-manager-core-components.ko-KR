@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 첨부 파일
 description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
+source-wordcount: '1726'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -73,6 +77,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **여러 첨부 파일 허용** - **첨부 파일** 버튼을 사용하여 여러 첨부 파일을 업로드하려면 이 옵션을 선택합니다.
+- **드롭 텍스트 드래그** - 텍스트 맨 위에 표시되는 텍스트입니다. **첨부** 사용자에게 파일을 첨부하거나 드래그 앤 드롭하라는 메시지를 표시하는 단추입니다. 의 맨 위에 표시되는 텍스트를 사용자 지정할 수 있습니다. **첨부** 단추를 클릭합니다. <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### 유효성 검사 탭 {#validation-tab}
 
@@ -84,11 +89,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **스크립트 유효성 검사 메시지** - 이 옵션을 사용하면 스크립트 유효성 검사가 실패할 경우 표시할 메시지를 입력할 수 있습니다.
 
-- **최소 파일 오류 메시지** - 이 옵션은 지정된 최소 파일 수보다 적은 파일을 업로드할 경우 표시되는 오류 메시지를 입력하는 데 사용됩니다.
-
-- **최대 파일 오류 메시지** - 이 옵션은 지정된 최대 파일 수보다 많은 파일을 업로드할 경우 표시되는 오류 메시지를 입력하는 데 사용됩니다.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **최대 파일 크기(MB)** - 이 옵션을 사용하면 최대 파일 크기를 지정할 수 있습니다. 파일 크기는 MB로 지정되어 있습니다.
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **최대 파일 크기 오류 메시지** - **최대 파일 크기(MB)** 옵션에 지정된 파일 크기보다 큰 크기의 파일을 업로드할 경우 표시되는 이 옵션은 오류 메시지를 입력하는 데 사용됩니다.
 

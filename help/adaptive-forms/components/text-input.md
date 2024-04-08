@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 텍스트 입력 (텍스트 상�
 description: 적응형 양식 텍스트 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1984'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1949'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -75,9 +79,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **여러 줄 허용** - 이 옵션을 사용하면 사용자가 양식 필드에 여러 줄을 입력할 수 있습니다.
 
-- **서식 있는 텍스트 허용** - 편집 대화 상자는 사용자가 텍스트에 서식을 지정할 수 있는 서식 있는 표준 텍스트 서식 도구를 제공합니다.
-
-- **자동 채우기 속성** - 자동 채우기 옵션은 패턴이나 이전에 입력한 텍스트에 따라 양식 필드를 채웁니다. 사용자가 양식 필드에 텍스트를 입력하기 시작하면 적절한 옵션을 선택할 수 있는 드롭다운 목록에 제안이 표시됩니다.
+- **자동 채우기 속성** - 옵션을 사용하면 저장된 정보를 기반으로 양식 필드 내에 자동으로 채워지는 값을 입력할 수 있습니다.
 
 ### 유효성 검사 탭 {#validation-tab}
 

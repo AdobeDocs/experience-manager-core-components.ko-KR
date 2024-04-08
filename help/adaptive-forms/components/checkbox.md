@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 확인란
 description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,11 @@ ht-degree: 100%
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 옆에 나타납니다. 제목을 추가하지 않으면 구성 요소가 표시되지 않습니다.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
@@ -73,12 +78,9 @@ ht-degree: 100%
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 
 - **구성 요소 비활성화** - 구성 요소를 비활성화하거나 잠그려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
-- **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **체크하는 경우 값 반환** - 확인란을 체크하거나 선택할 때 확인란과 연결되어야 하는 값을 지정하려면 이 옵션을 선택합니다. 확인란을 선택하거나 체크하면 발생하는 동작입니다.
-- **선택 해제를 활성화합니다.** - 이전에 선택한 확인란을 선택 해제하는 기능을 활성화하거나 비활성화하려면 옵션을 선택합니다.
-   - **선택 해제 활성화**&#x200B;를 활성화하거나 true로 설정하면 사용자가 재량에 따라 확인란을 선택하거나 선택 해제할 수 있습니다. 필요에 따라 확인란을 켜거나 끌 수 있습니다.
-
-   - **선택 해제 활성화**&#x200B;를 비활성화하거나 false로 설정하면 확인란이 선택된 후 사용자가 선택을 해제할 수 없습니다.
+- **선택 취소 상태 값 유지**- 이 옵션을 선택하면 확인란 구성 요소를 선택하지 않았을 때 반환할 값을 지정할 수 있습니다. If **선택 취소 상태 값 유지** 활성화되거나 true로 설정된 경우, **선택 취소하면 값을 반환합니다.** 옵션이 나타납니다.
 - **체크하지 않는 경우 값 반환** - 이 옵션을 사용하면 확인란이 선택 해제되거나 선택 취소된 상태일 때 확인란과 연결되어야 하는 값을 지정할 수 있습니다.
 
 - **기본값**: 이 옵션을 사용하면 양식 필드에 기본값을 추가할 수 있습니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택하면 화면에 기본값이 표시됩니다. 사용자가 양식 필드에 값을 입력하지 않으면 이 값이 양식 제출 시 함께 제출됩니다.

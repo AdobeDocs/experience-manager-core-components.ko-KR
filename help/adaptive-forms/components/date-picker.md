@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
 description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1901'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ To experience the Accordion Component as well as see examples of its configurati
 - **이름** - 이름은 규칙 편집기에서 구성 요소를 고유하게 식별합니다. 이름 문자열에는 특수 문자나 공백이 포함되어서는 안 됩니다.
 
 - **제목** - 제목은 적응형 양식의 구성 요소 상단에 표시되는 문자열입니다. 제목은 적응형 양식의 트리 구조에서 구성 요소를 고유하게 식별합니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **제목 숨기기** - 적응형 양식에서 구성 요소 유형의 제목을 숨기려면 이 옵션을 선택합니다.
 
 - **플레이스홀더 텍스트** - 양식 구성 요소의 플레이스홀더 텍스트는 입력 필드에 입력할 것으로 예상되는 정보 유형에 대한 힌트로 입력 필드 내에 표시되는 간단한 레이블 또는 프롬프트를 나타냅니다. 플레이스홀더 텍스트는 사용자가 필드에 입력을 시작하면 사라지고 필드가 비어 있으면 다시 나타납니다. 사용자에게 시각적인 단서를 제공하지만 필드에 대한 영구적인 레이블 또는 값으로 작동하지는 않습니다.
+
+- **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
 
 - **언바운드 양식 요소로 표시**: 어떤 스키마에도 연결되지 않은 양식 필드를 구성하려면 이 옵션을 선택합니다. 이 옵션을 사용하면 데이터 소스를 업데이트하지 않고도 데이터를 저장할 수 있습니다. 또한 표준 데이터베이스 통합과 별도로 사용자 정의 방식으로 데이터를 처리할 수 있습니다.
 
@@ -90,11 +96,13 @@ To experience the Accordion Component as well as see examples of its configurati
 - **최소 날짜** - 이 옵션을 사용하면 최소 필수 날짜를 입력할 수 있습니다. 최소 날짜에 지정된 날짜 이전의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최소 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
 - **최소 오류 메시지** - **최소 날짜** 옵션에 지정된 날짜 이전의 날짜를 입력한 경우, **최소 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
+- **최소 일자 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 세트에서 최소 날짜를 생략할 수 있습니다.
 
 - **최대 날짜** - 이 옵션을 사용하면 최대 필수 날짜를 입력할 수 있습니다. 최대 날짜에 지정된 날짜 이후의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최대 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
 - **최대 오류 메시지** - **최대 날짜** 옵션에 지정된 날짜 이후의 날짜를 입력한 경우, **최대 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
+- **최대 일자 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 세트에서 최대 날짜를 생략할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
@@ -120,10 +128,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **표시 형식** - 사용자에게 표시되는 날짜 형식을 나타냅니다. **유형** 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
 
 - **편집 형식** - 사용자가 날짜를 편집할 수 있는 날짜 형식을 나타냅니다. **유형** 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
-
-- **표시 형식** - 사용자에게 표시되는 날짜 형식을 나타냅니다. 유형 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
-
-- **편집 형식** - 사용자가 날짜를 편집하는 날짜 형식을 나타냅니다. 유형 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
