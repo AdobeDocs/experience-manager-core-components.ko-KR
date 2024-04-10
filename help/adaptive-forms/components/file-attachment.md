@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 첨부 파일
 description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 97%
@@ -84,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
 ![유효성 검사 탭](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **필수** - 적응형 양식에 구성 요소를 표시하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 양식 제출을 진행하기 전에 첨부 파일을 첨부해야 합니다. 이 옵션이 선택되어 있으면 **기본** 탭에서 **구성 요소 숨기기** 또는 **구성 요소 비활성화**&#x200B;를 선택할 수 없습니다.
-
 - **오류 메시지** - 이 옵션을 사용하면 **필수** 확인란이 선택되어 있고 필드가 비어 있는 경우 표시되는 메시지를 입력할 수 있습니다.
 
 - **스크립트 유효성 검사 메시지** - 이 옵션을 사용하면 스크립트 유효성 검사가 실패할 경우 표시할 메시지를 입력할 수 있습니다.

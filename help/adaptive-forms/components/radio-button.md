@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 라디오 버튼
 description: 적응형 양식 라디오 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ To experience the Accordion Component as well as see examples of its configurati
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
 - **옵션** - 다음을 사용하여 데이터 값을 추가하고 텍스트 쌍을 표시할 수 있습니다. **추가** 단추를 클릭합니다.
@@ -85,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   새 옵션이 추가되면 다음 작업을 수행할 수 있습니다.
-
    - **데이터 값** - 이 옵션을 선택하면 제출할 콘텐츠를 입력할 수 있습니다.
    - **표시 텍스트** - 이 옵션을 사용하면 적응형 양식에 표시할 콘텐츠를 입력할 수 있습니다.
    - **삭제** - 라디오 버튼 옵션을 삭제하려면 탭하거나 클릭합니다.

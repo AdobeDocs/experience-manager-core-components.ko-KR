@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -17,7 +17,6 @@ ht-degree: 100%
 ## 사용 {#reasons-to-use-forms-container}
 
 웹 사이트에 양식을 추가하는 데에는 다음과 같은 몇 가지 이유가 있습니다.
-
 - **데이터 수집**: 양식을 사용하여 시장 조사, 사용자 행동 분석 등과 같은 다양한 용도를 위해 웹 사이트 방문자로부터 데이터를 수집할 수 있습니다.
 
 - **리드 생성**: 양식을 사용하여 잠재 고객으로부터 이름 및 이메일 주소와 같은 정보를 수집하여 판매 및 마케팅 활동을 위한 리드를 생성할 수 있습니다.

@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 확인란 그룹
 description: 적응형 양식 확인란 그룹 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: db65bd4dd2190ea034799ae209edd78598ac8a48
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 98%

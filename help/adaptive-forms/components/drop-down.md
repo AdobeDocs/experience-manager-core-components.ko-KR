@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 드롭다운 목록
 description: 적응형 양식 드롭다운 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
 - **다중 선택 허용** - 드롭다운 목록에서 여러 옵션을 선택하려면 이 옵션을 선택합니다.
-
 - **다음으로 값 저장** - 이 옵션을 선택하면 전송되는 값의 데이터 유형이 지정됩니다. **다음으로 값 저장**&#x200B;이 `Number`로 설정되어 있고 **옵션** 탭의 **데이터 값**&#x200B;에 문자열 데이터를 추가하면 화면에 `Value type mismatch` 오류 메시지가 표시됩니다.
 
   **옵션** 탭에서 **추가** 버튼을 사용하여 데이터 값을 추가하고 텍스트 쌍을 표시할 수 있습니다. 새 옵션이 추가되면 다음 작업이 수행됩니다.

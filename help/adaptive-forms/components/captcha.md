@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1048'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ CAPTCHA(컴퓨터와 인간을 구분하기 위해 완전히 자동화된 공공
 AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 지원합니다. 양식 제출 시 CAPTCHA 문제를 표시하는 데 사용할 수 있습니다.
 
 ## 사용 {#reasons-to-use-google-recaptcha}
-
 
 - **스팸 및 봇 방지**: reCAPTCHA를 사용하는 주요 이유 중 하나는 스팸 제출을 방지하고 악성 봇이 양식을 넘치게 하도록 방지하기 위함입니다. reCAPTCHA의 고급 알고리즘은 양식을 제출하려는 자동화된 시도를 감지할 수 있으므로 적합한 사용자만 양식과 상호 작용할 수 있습니다.
 
@@ -39,7 +38,7 @@ AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 �
 |---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 호환 가능 <br>[2.0.4](/help/versions.md) 및 이후 릴리스 | 호환 가능 | 호환 가능 |
+| v1 | <br>[릴리스 2.0.4](/help/versions.md) 이상 버전과 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md) 문서를 참조하십시오.
 
