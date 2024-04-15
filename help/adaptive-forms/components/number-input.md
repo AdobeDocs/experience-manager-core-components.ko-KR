@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 숫자 입력
 description: 적응형 양식 숫자 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 94%
@@ -35,7 +35,6 @@ ht-degree: 94%
 - **데이터 범위**: 숫자 필드를 사용하여 최소, 최대 및 단계 속성을 통해 유효한 값의 범위를 설정할 수 있습니다.
 
 - **동적 콘텐츠**: 숫자 구성 요소를 사용하여 양식 필드를 기반으로 동적 데이터를 표시할 수 있습니다.
-
 
 ## 버전 및 호환성 {#version-and-compatibility}
 

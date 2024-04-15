@@ -3,7 +3,7 @@ title: AEM 적응형 양식 핵심 구성 요소 버전
 description: AEM 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ddb234ee5551fa3ecd47b4df073b97bef9a882f
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 55%
@@ -20,6 +20,7 @@ ht-degree: 55%
 AEMas a Cloud Service 과 호환되는 핵심 구성 요소 릴리스는 다음에서 사용할 수 있습니다. [GitHub 및 해당 릴리스에 대한 포괄적인 세부 정보](https://github.com/adobe/aem-core-forms-components/releases).
 
 AEM에 대한 핵심 구성 요소 버전 기록을 as a Cloud Service으로 보려면 다음을 수행하십시오. [여기를 클릭하십시오](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+
 
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  

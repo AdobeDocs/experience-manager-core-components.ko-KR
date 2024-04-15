@@ -3,7 +3,7 @@ title: 적응형 양식 조각
 description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그룹을 생성하고 이를 적응형 양식 전체에서 재사용하여 효율성과 재사용성을 개선할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 94%
@@ -152,6 +152,7 @@ ht-degree: 94%
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
    - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 재배열할 수 있습니다.
+
 
 ## 관련 문서 {#related-articles}
 

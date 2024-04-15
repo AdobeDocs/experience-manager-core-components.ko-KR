@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 마법사
 description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 99%
@@ -20,7 +20,6 @@ ht-degree: 99%
 
 단, 이렇게 하면 사용자가 양식을 완성하기 위해 여러 페이지를 거쳐야 하므로 양식의 복잡성이 증가할 수도 있습니다. 따라서 마법사 레이아웃을 사용하기 전에 양식 요구 사항과 사용자 요구 사항을 평가해야 합니다.
 적응형 양식에서 마법사 레이아웃 핵심 구성 요소를 사용하여 마법사 레이아웃을 만들 수 있습니다.
-
 
 **예**
 
@@ -190,7 +189,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
 ## 관련 문서 {#related-articles}
 

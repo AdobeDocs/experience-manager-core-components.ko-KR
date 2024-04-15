@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 텍스트 입력 (텍스트 상�
 description: 적응형 양식 텍스트 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 94%
@@ -15,7 +15,6 @@ ht-degree: 94%
 <span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 텍스트 입력(텍스트 상자) 구성 요소를 사용하면 입력 요소의 유형 속성에 따라 한 줄 또는 여러 줄의 텍스트를 입력하고 편집할 수 있습니다. 텍스트 입력 구성 요소는 양식 내에 배치할 수 있으며 일반적으로 용도를 쉽게 식별할 수 있는 유용한 텍스트로 레이블이 지정됩니다. 이는 사용자로부터 다양한 유형의 데이터를 수집하는 데 널리 사용되는 모든 형식의 기본 요소로, 간단하고 유연하며 입력 내용의 유효성을 검사하고 데이터 수집의 정확성을 개선하도록 구성할 수 있습니다.
-
 
 **예**
 

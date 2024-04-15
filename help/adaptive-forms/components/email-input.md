@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 이메일 입력
 description: 적응형 양식 이메일 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 94%
@@ -79,7 +79,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 
 - **기본값** - 이 옵션을 사용하면 양식 필드에 기본값을 추가할 수 있습니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택하면 화면에 기본값이 표시됩니다. 사용자가 양식 필드에 값을 입력하지 않으면 이 값이 양식 제출 시 함께 제출됩니다.
-
 - **자동 채우기 속성**: 이 옵션을 사용하면 저장된 정보를 기반으로 양식 필드 내에 자동으로 채워지는 값을 사용자가 입력할 수 있습니다.
 
 ### 유효성 검사 탭 {#validation-tab}

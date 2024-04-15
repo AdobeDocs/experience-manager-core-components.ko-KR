@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 드롭다운 목록
 description: 적응형 양식 드롭다운 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 94%
@@ -32,7 +32,6 @@ ht-degree: 94%
 - **사용자 경험**: 드롭다운 목록을 사용하면 사용자가 명확하고 직관적으로 옵션을 선택할 수 있으므로 양식을 보다 사용자 친화적으로 만들 수 있습니다.
 
 - **데이터 분석**: 드롭다운 목록을 사용하여 다양한 소스에서 데이터를 수집하고 분석하거나 추가 처리를 위한 입력으로 사용할 수 있습니다.
-
 
 **속성 대화 상자**
 

@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 텍스트
 description: 적응형 양식 텍스트 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 **예**
 
-![예](/help/adaptive-forms/assets/text.png)
+![텍스트 예](/help/adaptive-forms/assets/text.png)
 
 ## 사용 {#reasons-to-use-text-label}
 
@@ -89,7 +89,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
 ## 관련 문서 {#related-articles}
 

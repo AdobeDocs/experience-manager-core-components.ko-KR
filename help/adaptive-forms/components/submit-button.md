@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 제출 버튼
 description: 적응형 양식 제출 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ ht-degree: 92%
 - **사용자 경험 개선**: 잘 디자인된 제출 버튼은 양식 제출 프로세스에 대한 명확한 피드백을 제공하고 양식이 정상적으로 제출된 시기를 표시하여 사용자 경험을 개선할 수 있습니다.
 
 - **데이터 유효성 검사**: 제출 버튼을 사용하여 데이터 유효성 검사를 트리거하면 양식 데이터가 서버로 전송되기 전에 완전하고 정확한지 확인할 수 있습니다.
-
 
 ## 버전 및 호환성 {#version-and-compatibility}
 

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -33,6 +33,7 @@ AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 �
 ## 버전 및 호환성 {#version-and-compatibility}
 
 적응형 양식 Google reCAPTCHA 핵심 구성 요소는 핵심 구성 요소 “버전”의 일부로 2023년 8월에 출시되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+
 
 |  |  |
 |---|---|
