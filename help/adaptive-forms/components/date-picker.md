@@ -3,14 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
 description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 98%
+source-wordcount: '2094'
+ht-degree: 94%
 
 ---
 
 # 날짜 선택기 {#date-picker-adaptive-forms-core-component}
+
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 날짜 선택기 구성 요소는 사용자가 달력에서 날짜를 선택하거나 특정 형식으로 날짜를 수동으로 입력할 수 있도록 하는 사용자 인터페이스 요소입니다. 다른 형식 지정, 유효성 검사 및 기본값을 갖도록 날짜 선택기 구성 요소를 구성할 수 있습니다.
 
@@ -64,10 +66,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **이름** - 이름은 규칙 편집기에서 구성 요소를 고유하게 식별합니다. 이름 문자열에는 특수 문자나 공백이 포함되어서는 안 됩니다.
 
 - **제목** - 제목은 적응형 양식의 구성 요소 상단에 표시되는 문자열입니다. 제목은 적응형 양식의 트리 구조에서 구성 요소를 고유하게 식별합니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 적응형 양식에서 구성 요소 유형의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -95,13 +97,13 @@ To experience the Accordion Component as well as see examples of its configurati
 - **최소 날짜** - 이 옵션을 사용하면 최소 필수 날짜를 입력할 수 있습니다. 최소 날짜에 지정된 날짜 이전의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최소 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
 - **최소 오류 메시지** - **최소 날짜** 옵션에 지정된 날짜 이전의 날짜를 입력한 경우, **최소 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
-- **최소 일자 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 세트에서 최소 날짜를 생략할 수 있습니다.
+- **최소 날짜 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 집합에서 최소 날짜를 생략할 수 있습니다.
 
 - **최대 날짜** - 이 옵션을 사용하면 최대 필수 날짜를 입력할 수 있습니다. 최대 날짜에 지정된 날짜 이후의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최대 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
 - **최대 오류 메시지** - **최대 날짜** 옵션에 지정된 날짜 이후의 날짜를 입력한 경우, **최대 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-- **최대 일자 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 세트에서 최대 날짜를 생략할 수 있습니다.
+- **최대 날짜 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 집합에서 최대 날짜를 생략할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
@@ -154,7 +156,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
 ### 형식 탭 {#formats-tab}
 

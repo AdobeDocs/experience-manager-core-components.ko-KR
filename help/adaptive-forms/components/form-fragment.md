@@ -3,14 +3,16 @@ title: 적응형 양식 조각
 description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그룹을 생성하고 이를 적응형 양식 전체에서 재사용하여 효율성과 재사용성을 개선할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 100%
+source-wordcount: '1894'
+ht-degree: 94%
 
 ---
 
 # 양식 조각 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
+
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)이라고 합니다.
 
@@ -60,10 +62,10 @@ ht-degree: 100%
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 - **양식 제출 시 하위 구성 요소의 데이터 그룹화(오브젝트에 데이터 래핑)** - 이 옵션을 선택하면 하위 구성 요소의 데이터가 상위 구성 요소의 JSON 오브젝트 내에 중첩됩니다. 그러나 이 옵션을 선택하지 않으면 제출된 JSON 데이터는 상위 구성 요소에 대한 오브젝트가 없는 평면 구조를 갖습니다. 예:

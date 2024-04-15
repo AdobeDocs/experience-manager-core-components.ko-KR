@@ -3,14 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 약관
 description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2862'
-ht-degree: 98%
+source-wordcount: '3115'
+ht-degree: 91%
 
 ---
 
 # 약관 구성 요소
+
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 및 **옵션에 대해 리치 텍스트 허용**  기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 **약관** 구성 요소는 사용자가 서비스를 사용하거나 콘텐츠에 액세스할 때 동의하거나 준수해야 하는 약관, 규칙 및 조건을 설명하는 양식 내 섹션을 나타냅니다.
 
@@ -63,10 +65,10 @@ ht-degree: 98%
 - **이름** - 이름은 규칙 편집기에서 구성 요소를 고유하게 식별합니다. 이름 문자열에는 특수 문자나 공백이 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **승인 옵션 표시** - 사용자로부터 명시적인 동의를 얻기 위한 동의 확인란을 표시하려면 이 옵션을 선택합니다.
 
@@ -149,7 +151,7 @@ ht-degree: 98%
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
 ## 약관 구성 요소의 하위 구성 요소 {#sub-component}
 
@@ -169,23 +171,23 @@ ht-degree: 98%
 - **이름** - 이름은 규칙 편집기에서 구성 요소를 고유하게 식별합니다. 이름 문자열에는 특수 문자나 공백이 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
-<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 글꼴 스타일, 색상 및 정렬 등의 옵션을 사용하여 제목의 서식을 지정할 수 있으므로 시각적 표시와 사용자 지정이 향상됩니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
-- **링크** - 동의 텍스트 대신 사용되는 링크와 해당 표시 텍스트를 지정합니다. 다음을 클릭하여 여러 링크를 추가할 수 있습니다. **추가** 단추를 클릭합니다.
-새 옵션이 추가되면 다음 작업을 수행할 수 있습니다.
-   - **링크** - 이 옵션을 선택하면 옵션을 선택할 때 리디렉션할 URL을 입력할 수 있습니다.
+- **링크** - 동의 텍스트 대신 사용되는 링크와 해당 표시 텍스트를 지정합니다. **추가** 버튼을 클릭하여 여러 링크를 추가할 수 있습니다.
+새 옵션이 추가되고 나면 다음과 같은 작업을 수행할 수 있습니다.
+   - **링크** - 이 옵션을 사용하면 옵션 선택 시 리디렉션할 URL을 입력할 수 있습니다.
    - **표시 텍스트** - 이 옵션을 사용하면 적응형 양식에 표시할 콘텐츠를 입력할 수 있습니다.
    - **삭제** - 라디오 버튼 옵션을 삭제하려면 탭하거나 클릭합니다.
    - **재배열** - 옵션의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
+  을 사용하여 확인란 그룹의 옵션 서식을 지정할 수도 있습니다. **옵션에 대해 리치 텍스트 허용**. 다음에 대한 확인란을 선택하면 **옵션에 대해 리치 텍스트 허용** 구성 요소 옵션의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 `Fullscreen` ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![옵션에 대한 리치 텍스트 지원](/help/adaptive-forms/assets/link-options.png)
 
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
 

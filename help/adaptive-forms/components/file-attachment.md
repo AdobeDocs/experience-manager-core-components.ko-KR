@@ -3,14 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 첨부 파일
 description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 97%
+source-wordcount: '1851'
+ht-degree: 92%
 
 ---
 
 # 첨부 파일 {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 첨부 파일 구성 요소를 사용하면 사용자가 로컬 컴퓨터나 디바이스에서 파일을 선택하고 업로드할 수 있습니다. 첨부 파일 구성 요소는 특정 파일 유형, 크기 제한 및 여러 첨부 파일을 허용하도록 구성할 수 있습니다.
 
@@ -62,10 +64,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -77,7 +79,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **여러 첨부 파일 허용** - **첨부 파일** 버튼을 사용하여 여러 첨부 파일을 업로드하려면 이 옵션을 선택합니다.
-- **드롭 텍스트 드래그** - 텍스트 맨 위에 표시되는 텍스트입니다. **첨부** 사용자에게 파일을 첨부하거나 드래그 앤 드롭하라는 메시지를 표시하는 단추입니다. 의 맨 위에 표시되는 텍스트를 사용자 지정할 수 있습니다. **첨부** 단추를 클릭합니다. <!-- Additionally, you can format the text using the rich text menu. -->
+- **텍스트 드래그 앤 드롭** - 사용자에게 파일을 첨부하거나 드래그 앤 드롭하라는 메시지를 표시하기 위해 **첨부** 버튼의 상단에 표시되는 텍스트입니다. 의 맨 위에 표시되는 텍스트를 사용자 지정할 수 있습니다. **첨부** 단추를 클릭합니다. 또한 서식 있는 텍스트 메뉴를 사용하여 텍스트 서식을 지정할 수 있습니다.
 
 ### 유효성 검사 탭 {#validation-tab}
 
@@ -144,7 +146,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 <!--
 
 ## Related article {#related-article}

@@ -3,14 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 전환 구성 요소
 description: 적응형 양식 전환 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 100%
+source-wordcount: '1867'
+ht-degree: 90%
 
 ---
 
 # 전환 구성 요소{#switch-adaptive-forms-core-component}
+
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 및 **옵션에 대해 리치 텍스트 허용**  기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 전환 구성 요소는 사용자가 두 가지 옵션 중에서 선택할 수 있도록 하는 양식에 사용되는 그래픽 사용자 인터페이스입니다. 이는 일반적으로 사용자가 기능 또는 설정을 활성화하거나 비활성화하는 두 가지 상태 중에서 선택할 수 있도록 하는 2가지 상태 토글입니다. 전환 구성 요소는 현재 상태를 시각적으로 나타내고 특정 기능이 켜져 있는지 여부를 표시하도록 설계되었습니다.
 
@@ -57,10 +59,10 @@ ht-degree: 100%
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 옆에 나타납니다. 제목을 추가하지 않으면 구성 요소가 표시되지 않습니다.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -71,13 +73,13 @@ ht-degree: 100%
    - **꺼짐 데이터 값** - 적응형 양식에서 전환이 비활성화될 때 제출할 값을 지정합니다. 이 옵션은 **선택 해제 상태 값 유지** 전환이 활성화된 경우에만 표시됩니다.
    - **꺼짐 표시 텍스트** - 적응형 양식에서 전환이 비활성화될 때 레이블로 표시할 텍스트를 지정합니다. 이 옵션은 **선택 해제 상태 값 유지** 전환이 활성화된 경우에만 표시됩니다.
 
-<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+  다음을 사용하여 스위치 구성 요소에 대한 옵션의 형식을 지정할 수도 있습니다. **옵션에 대해 리치 텍스트 허용**.
 
-    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+  ![옵션에 대한 리치 텍스트 지원](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+  다음에 대한 확인란을 선택하면 **옵션에 대해 리치 텍스트 허용** 구성 요소 옵션의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 `Fullscreen` ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![옵션에 대한 리치 텍스트 지원](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
 - **언바운드 양식 요소로 표시**: 어떤 스키마에도 연결되지 않은 양식 필드를 구성하려면 이 옵션을 선택합니다. 이 옵션을 사용하면 데이터 소스를 업데이트하지 않고도 데이터를 저장할 수 있습니다. 또한 표준 데이터베이스 통합과 별도로 사용자 정의 방식으로 데이터를 처리할 수 있습니다.

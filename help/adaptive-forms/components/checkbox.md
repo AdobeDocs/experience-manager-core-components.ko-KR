@@ -3,18 +3,21 @@ title: 적응형 양식 핵심 구성 요소 - 확인란
 description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1780'
+ht-degree: 93%
 
 ---
 
 # 확인란 구성 요소{#checkbox-component}
 
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
+
 확인란은 소프트웨어 애플리케이션 및 양식에서 일반적으로 사용되는 그래픽 사용자 인터페이스 요소로서, 사용자가 선택 또는 선택 해제의 두 가지 옵션 중에서 이진 선택을 할 수 있도록 합니다.
 
-확인란은 일반적으로 클릭하거나 탭하여 켜거나 끌 수 있는 작은 사각형으로 표시됩니다. 확인란을 선택하면 관련 옵션이나 기능이 활성 상태이거나 활성화되었음을 나타내는 확인 표시가 표시됩니다.
+확인란은 일반적으로 클릭하거나 탭하여 켜거나 끌 수 있는 작은 사각형으로 표시됩니다. 확인란을 선택하면 관련 옵션이나 기능이 활성 상태이거나 활성화되었음을 나타내는 체크 표시가 표시됩니다.
 
 >[!NOTE]
 >
@@ -62,10 +65,10 @@ ht-degree: 97%
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 옆에 나타납니다. 제목을 추가하지 않으면 구성 요소가 표시되지 않습니다.
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
+  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+
+  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 
@@ -80,7 +83,7 @@ ht-degree: 97%
 - **구성 요소 비활성화** - 구성 요소를 비활성화하거나 잠그려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **체크하는 경우 값 반환** - 확인란을 체크하거나 선택할 때 확인란과 연결되어야 하는 값을 지정하려면 이 옵션을 선택합니다. 확인란을 선택하거나 체크하면 발생하는 동작입니다.
-- **선택 취소 상태 값 유지**- 이 옵션을 선택하면 확인란 구성 요소를 선택하지 않았을 때 반환할 값을 지정할 수 있습니다. If **선택 취소 상태 값 유지** 활성화되거나 true로 설정된 경우, **선택 취소하면 값을 반환합니다.** 옵션이 나타납니다.
+- **선택 해제 상태 값 유지** - 이 옵션을 선택하면 확인란 구성 요소가 선택되지 않은 경우 반환될 값을 지정할 수 있습니다. **선택 해제 상태 값 유지**&#x200B;가 활성화되거나 true로 설정된 경우 **선택 해제 시 값 반환** 옵션이 표시됩니다.
 - **체크하지 않는 경우 값 반환** - 이 옵션을 사용하면 확인란이 선택 해제되거나 선택 취소된 상태일 때 확인란과 연결되어야 하는 값을 지정할 수 있습니다.
 
 - **기본값**: 이 옵션을 사용하면 양식 필드에 기본값을 추가할 수 있습니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택하면 화면에 기본값이 표시됩니다. 사용자가 양식 필드에 값을 입력하지 않으면 이 값이 양식 제출 시 함께 제출됩니다.
@@ -136,7 +139,7 @@ ht-degree: 97%
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
 ## 관련 문서 {#related-articles}
 
