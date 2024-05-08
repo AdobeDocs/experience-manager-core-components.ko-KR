@@ -3,9 +3,9 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
-workflow-type: ht
-source-wordcount: '2061'
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+workflow-type: tm+mt
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ ht-degree: 100%
 ### Dynamic Media 자산 편집 {#dynamic-media-assets}
 
 [Dynamic Media 기능이 활성화](#dynamic-media)된 경우 자산 콘솔에서 이미지 자체 편집을 수행해야 합니다.
-
-### 차세대 Dynamic Media 자산 편집 {#next-gen-dm-assets}
-
-[차세대 Dynamic Media가 구성](#next-gen-dm)된 경우 구성 요소의 컨텍스트 메뉴에서 **스마트 자르기** 옵션을 사용할 수 있습니다.
-
-![스마트 자르기](/help/assets/image-smart-crop.png)
-
-대화 상자를 사용하여 스마트 자르기를 조정합니다.
-
-![스마트 자르기 대화 상자](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->스마트 자르기에 대한 자세한 내용은 [해당 기능에 대한 이 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)를 참조하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
