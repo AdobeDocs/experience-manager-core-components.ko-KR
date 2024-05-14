@@ -3,16 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 약관
 description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 91%
 
 ---
 
-# 약관 구성 요소
+# 사용 약관 구성 요소
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 및 **옵션에 대해 리치 텍스트 허용**  기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  및  **옵션에 대해 리치 텍스트 허용**  기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 **약관** 구성 요소는 사용자가 서비스를 사용하거나 콘텐츠에 액세스할 때 동의하거나 준수해야 하는 약관, 규칙 및 조건을 설명하는 양식 내 섹션을 나타냅니다.
 

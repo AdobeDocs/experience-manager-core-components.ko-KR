@@ -3,14 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 마법사
 description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 99%
 
 ---
 
-# 마법사 {#wizard-adaptive-forms-core-component}
+# 마법사 구성 요소{#wizard-adaptive-forms-core-component}
 
 적응형 양식의 마법사 레이아웃은 사용자가 양식을 한 번에 한 단계씩 이동함에 따라 여러 단계 또는 페이지로 나누어지는 양식을 나타냅니다. 이 레이아웃은 단계별 프로세스에서 양식을 통해 사용자를 안내하기 때문에 “마법사”라고 합니다.
 

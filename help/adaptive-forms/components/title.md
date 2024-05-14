@@ -3,14 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 제목
 description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 99%
 
 ---
 
-# 제목 {#title-input-adaptive-forms-core-component}
+# 제목 구성 요소{#title-input-adaptive-forms-core-component}
 
 적응형 양식에서 “제목”은 양식 상단, 일반적으로 헤더 아래에 표시되는 텍스트를 나타냅니다. 제목은 제목 구성 요소를 사용하여 지정됩니다. 이 구성 요소는 양식 레이아웃에 추가할 수 있으며 양식의 용도나 주제에 맞게 해당 텍스트를 편집할 수 있습니다. 제목은 사용자를 위한 양식에 대한 레이블 또는 간략한 설명 역할을 하며 양식을 다른 양식과 구별하는 데 도움이 됩니다.
 

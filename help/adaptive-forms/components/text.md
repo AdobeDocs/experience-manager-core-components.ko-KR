@@ -3,14 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 텍스트
 description: 적응형 양식 텍스트 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 99%
 
 ---
 
-# 텍스트 {#text-adaptive-forms-core-component}
+# 텍스트 구성 요소 {#text-adaptive-forms-core-component}
 
 적응형 양식에서 텍스트는 사용자가 읽을 수 있도록 양식에 표시되는 콘텐츠를 나타냅니다. 여기에는 텍스트 필드와 같은 양식 요소 그룹에 레이블을 지정하는 데 사용되는 텍스트와 사용자에게 제공되는 추가 지침 또는 정보가 포함될 수 있습니다.
 

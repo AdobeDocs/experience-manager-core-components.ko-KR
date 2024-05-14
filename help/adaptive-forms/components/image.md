@@ -3,14 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 이미지
 description: 적응형 양식 이미지 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
 
-# 이미지 {#image-adaptive-forms-core-component}
+# 이미지 구성 요소{#image-adaptive-forms-core-component}
 
 적응형 양식의 이미지 구성 요소를 사용하여 양식에 이미지를 포함할 수 있습니다. 이러한 이미지를 사용하여 양식의 전반적인 디자인을 개선하거나, 추가 정보를 제공하거나, 사용자가 양식의 용도를 이해하는 데 도움이 되는 시각 자료로 사용할 수 있습니다. 이미지 구성 요소를 사용하여 양식에 로고, 사진 또는 그래픽을 추가할 수 있습니다.
 
@@ -107,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **삭제**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하여 삭제할 수 있습니다.
 
-   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 누르거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
+   - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
 ## 관련 문서 {#related-articles}
 

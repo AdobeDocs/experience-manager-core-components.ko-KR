@@ -3,16 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 확인란 그룹
 description: 적응형 양식 확인란 그룹 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2048'
 ht-degree: 89%
 
 ---
 
-# 확인란 그룹 {#button-component-adaptive-forms-core-component}
+# 확인란 그룹 구성 요소 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 및 **옵션에 대해 리치 텍스트 허용**  기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  및  **옵션에 대해 리치 텍스트 허용**  기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 확인란 그룹은 사용자가 목록에서 하나 이상의 옵션을 선택할 수 있도록 하는 관련 확인란 세트입니다. 각 확인란은 데이터 값(확인란 그룹의 항목을 처리하는 데 사용되는 값)과 표시 값(용도를 설명하는 각 확인란 항목에 대한 레이블)으로 표시됩니다
 **예**

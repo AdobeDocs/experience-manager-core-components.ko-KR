@@ -3,16 +3,16 @@ title: 적응형 양식 핵심 구성 요소 - 재설정 버튼
 description: 적응형 양식 재설정 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1491'
 ht-degree: 92%
 
 ---
 
-# 재설정 {#reset-button}
+# 재설정 단추 구성 요소 {#reset-button}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 재설정 버튼은 사용자가 모든 양식 필드를 지우거나 기본값으로 재설정할 수 있도록 하는 버튼입니다. 재설정 버튼을 클릭하면 양식 필드에 입력된 모든 데이터가 삭제되고 필드가 원래 상태로 돌아갑니다. 재설정 버튼은 일반적으로 제출 버튼의 대안으로 사용되며 사용자가 양식에 부정확하거나 원치 않는 데이터를 입력한 경우 다시 시작할 수 있는 방법을 제공합니다.
 

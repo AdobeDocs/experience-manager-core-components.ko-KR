@@ -3,17 +3,17 @@ title: 적응형 양식 핵심 구성 요소 - 전화번호 입력
 description: 적응형 양식 전화번호 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2142'
 ht-degree: 94%
 
 ---
 
 
-# 전화번호 입력 {#telephone-input-adaptive-forms-core-component}
+# 전화 입력 구성 요소{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식 전화번호 입력 핵심 구성 요소는 사용자가 전화번호를 입력할 수 있도록 합니다. 전화번호 입력 필드에는 전화번호와 관련된 모바일 디바이스의 키보드가 표시됩니다. 전화번호의 형식과 설명을 지정하기 위해 “패턴” 및 “플레이스홀더”와 같은 추가 속성으로 사용자 정의할 수 있습니다.
 
