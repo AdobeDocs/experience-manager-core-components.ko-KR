@@ -3,10 +3,10 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '3044'
-ht-degree: 100%
+source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+workflow-type: tm+mt
+source-wordcount: '3041'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 100%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
+| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 이 릴리스는 Dynamic Media에서 명명된 smartcrops에 대한 지원을 추가하고 성능 및 접근성 개선 사항과 다양한 버그 수정이 포함됩니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 2일 |
+| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 이 패치 릴리스에는 데이터 레이어 초기화에 대한 개선 사항이 포함되어 있습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 22일 |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 이 패치 릴리스에서는 Sling 모델 초기화가 수정되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 1일 |
+| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 이 패치 릴리스는 통합 테스트의 안정성을 개선합니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 22일 |
+| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 이 릴리스에는 Google Tag Manager 데이터 레이어에 대한 지원이 추가되었으며 다양한 버그 수정이 포함되어 있습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 14일 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 이번 패치 릴리스에는 다양한 버그 수정이 포함됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 9월 15일 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 이 패치에서는 [이미지](/help/components/image.md) 및 [티저 구성 요소](/help/components/teaser.md)에 원격 자산에 대한 Dynamic Media 스마트 자르기가 추가되며 여러 버그가 수정됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 8월 4일 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 이 릴리스에는 [차세대 Dynamic Media 원격 자산](/help/developing/next-gen-dm.md)에 대한 지원이 추가됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 6월 6일 |
