@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
-source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
-workflow-type: ht
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -112,15 +112,15 @@ ht-degree: 100%
       + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
       + [적응형 양식 컨테이너](/help/adaptive-forms/components/form-container.md)
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
-      + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+      + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
       + [적응형 양식 이메일 입력](/help/adaptive-forms/components/email-input.md)
-      + [적응형 양식 양식 조각](/help/adaptive-forms/components/form-fragment.md)
+      + [적응형 양식 양식 조각](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
       + [적응형 양식 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
-      + [적응형 양식 숫자 입력](/help/adaptive-forms/components/number-input.md)
-      + [적응형 양식 패널](/help/adaptive-forms/components/panel-container.md)
+      + [적응형 Forms 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
+      + [적응형 양식 패널](/help/adaptive-forms/components/panel.md)
       + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
@@ -128,7 +128,7 @@ ht-degree: 100%
       + [적응형 양식 스위치](/help/adaptive-forms/components/switch.md)
       + [적응형 양식 전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
       + [적응형 양식 텍스트](/help/adaptive-forms/components/text.md)
-      + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-input.md)
+      + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-box.md)
       + [적응형 양식 제목](/help/adaptive-forms/components/title.md)
       + [적응형 양식 마법사 레이아웃](/help/adaptive-forms/components/wizard.md)
       + [적응형 양식 약관](/help/adaptive-forms/components/terms-and-conditions.md)

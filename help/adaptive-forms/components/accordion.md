@@ -3,7 +3,7 @@ title: 적응형 양식 아코디언
 description: 아코디언을 사용하여 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화합니다.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 95%
@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # 아코디언 구성 요소 {#accordion-component-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다. **제목의 리치 텍스트 허용** 기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 아코디언 구성 요소를 사용하면 적응형 양식에서 확장 및 축소 가능한 섹션을 만들 수 있습니다. 아코디언 구성 요소는 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화하는 데 사용됩니다. 아코디언의 각 섹션은 일반적으로 헤더로 표시되며 사용자는 헤더를 클릭하여 해당 콘텐츠를 확장하거나 축소할 수 있습니다. 콘텐츠는 모든 핵심 구성 요소가 될 수 있습니다.
 

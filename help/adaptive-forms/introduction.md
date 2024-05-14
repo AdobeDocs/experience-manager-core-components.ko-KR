@@ -3,9 +3,9 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 * [버튼](/help/adaptive-forms/components/button.md)
 * [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
 * [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
-* [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+* [드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
 * [이메일 입력](/help/adaptive-forms/components/email-input.md)
 * [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
 * [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 * [헤더](/help/adaptive-forms/components/header.md)
 * [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
 * [이미지](/help/adaptive-forms/components/image.md)
-* [숫자 입력](/help/adaptive-forms/components/number-input.md)
-* [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
+* [숫자 상자](/help/adaptive-forms/components/numeric-box.md)
+* [패널](/help/adaptive-forms/components/panel.md)
 * [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
 * [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
 * [제출 버튼](/help/adaptive-forms/components/submit-button.md)
 * [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
-* [텍스트 입력](/help/adaptive-forms/components/text-input.md)
+* [텍스트 상자](/help/adaptive-forms/components/text-box.md)
 * [텍스트](/help/adaptive-forms/components/text.md)
 * [제목](/help/adaptive-forms/components/title.md)
 * [마법사](/help/adaptive-forms/components/wizard.md)

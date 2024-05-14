@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 # 스니펫 {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 100%
 - [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
 - [확인란](/help/adaptive-forms/components/checkbox.md)
 - [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
-- [드롭다운 목록](/help/adaptive-forms/components/drop-down.md)
+- [드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
 - [이메일 입력](/help/adaptive-forms/components/email-input.md)
 - [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
 - [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
-- [양식 조각](/help/adaptive-forms/components/form-fragment.md)
+- [적응형 양식 단편](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [바닥글](/help/adaptive-forms/components/footer.md)
 - [헤더](/help/adaptive-forms/components/header.md)
 - [이미지](/help/adaptive-forms/components/image.md)
-- [숫자 입력](/help/adaptive-forms/components/number-input.md)
-- [패널 컨테이너](/help/adaptive-forms/components/panel-container.md)
+- [숫자 상자](/help/adaptive-forms/components/numeric-box.md)
+- [패널](/help/adaptive-forms/components/panel.md)
 - [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
 - [세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
 - [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
 - [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
 - [제출 버튼](/help/adaptive-forms/components/submit-button.md)
-- [전환](/help/adaptive-forms/components/switch.md)
-- [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
-- [텍스트 입력](/help/adaptive-forms/components/text-input.md)
+- [전화 입력](/help/adaptive-forms/components/telephone-input.md)
+- [텍스트 상자](/help/adaptive-forms/components/text-box.md)
 - [텍스트](/help/adaptive-forms/components/text.md)
 - [제목](/help/adaptive-forms/components/title.md)
 - [약관 탭](/help/adaptive-forms/components/terms-and-conditions.md)
