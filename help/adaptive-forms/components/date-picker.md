@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
 description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2095'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 날짜 선택기 구성 요소{#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 날짜 선택기 구성 요소는 사용자가 달력에서 날짜를 선택하거나 특정 형식으로 날짜를 수동으로 입력할 수 있도록 하는 사용자 인터페이스 요소입니다. 다른 형식 지정, 유효성 검사 및 기본값을 갖도록 날짜 선택기 구성 요소를 구성할 수 있습니다.
 

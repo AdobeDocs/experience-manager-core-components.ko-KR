@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 패널 컨테이너
 description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 패널 구성 요소{#panel-container-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식에서 패널은 관련 양식 요소를 함께 그룹화하는 데 사용할 수 있는 컨테이너 요소입니다. 패널 컨테이너를 사용하면 논리적이고 의미 있는 방식으로 다양한 양식 요소를 그룹화하고 구성할 수 있습니다. 이렇게 하면 양식의 전체 구조와 가독성을 개선하여 사용자가 더 쉽게 이해하고 탐색할 수 있습니다.
 

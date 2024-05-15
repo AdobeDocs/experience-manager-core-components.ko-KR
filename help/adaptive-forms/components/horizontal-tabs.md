@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 가로 탭
 description: 적응형 양식 가로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 가로 탭(상단 탭) 구성 요소{#horizontal-tabs-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 가로 탭은 양식의 여러 섹션이 함께 그룹화되고 가로로 정렬된 별도의 탭으로 표시되는 디자인 패턴을 나타냅니다. 사용자는 탭 사이를 전환하여 양식의 다른 섹션에 액세스할 수 있습니다. 각 탭은 관련 양식 콘텐츠를 표시하고 숨기는 트리거 역할을 합니다. 가로 탭은 긴 양식을 관리 가능한 섹션으로 구성하고 사용자 경험을 개선하는 데 도움이 됩니다. 탭은 장애가 있는 사용자가 키보드 탐색을 사용하여 섹션 간에 전환할 수 있으므로 양식에 더 쉽게 액세스할 수 있도록 도와줍니다.
 

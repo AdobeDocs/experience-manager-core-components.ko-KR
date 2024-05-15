@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 이메일 입력
 description: 적응형 양식 이메일 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 이메일 입력 구성 요소 {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식 이메일 입력 핵심 구성 요소는 사용자로부터 이메일 주소를 수집하는 데 사용됩니다. 이메일 입력 필드를 통해 브라우저는 입력된 데이터가 유효한 이메일 주소 형식인지 확인할 수 있습니다. 일반적으로 텍스트 상자로 표시되며 유효한 이메일 주소만 허용하는 패턴 유효성 검사가 있습니다. 이메일 입력 필드를 추가로 사용자 정의하여 입력 데이터에 대한 유효성 검사를 설정하기 위해 “필수”, “플레이스홀더” 및 “패턴”과 같은 추가 속성을 사용할 수 있습니다.
 

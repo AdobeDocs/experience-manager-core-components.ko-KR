@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 첨부 파일
 description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # 첨부 파일 구성 요소 {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 첨부 파일 구성 요소를 사용하면 사용자가 로컬 컴퓨터나 디바이스에서 파일을 선택하고 업로드할 수 있습니다. 첨부 파일 구성 요소는 특정 파일 유형, 크기 제한 및 여러 첨부 파일을 허용하도록 구성할 수 있습니다.
 

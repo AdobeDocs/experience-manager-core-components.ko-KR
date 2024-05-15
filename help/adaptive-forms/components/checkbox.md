@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 확인란
 description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 확인란 구성 요소{#checkbox-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 확인란은 소프트웨어 애플리케이션 및 양식에서 일반적으로 사용되는 그래픽 사용자 인터페이스 요소로서, 사용자가 선택 또는 선택 해제의 두 가지 옵션 중에서 이진 선택을 할 수 있도록 합니다.
 

@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 숫자 입력
 description: 적응형 양식 숫자 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 숫자 상자 구성 요소{#number-input-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 숫자 입력 구성 요소는 사용자가 숫자 값을 입력할 수 있는 양식 필드 유형입니다. 구성 요소는 일반적으로 숫자를 늘리거나 줄이기 위한 위쪽 및 아래쪽 화살표가 있는 텍스트 필드로 표시됩니다.
 

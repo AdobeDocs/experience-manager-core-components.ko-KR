@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 버튼
 description: 적응형 양식 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # 버튼 구성 요소 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 버튼은 사용자가 클릭하여 작업을 시작할 수 있는 UI 요소입니다. 버튼 요소를 사용하여 양식을 제출하거나, 양식을 재설정하거나, 다른 작업을 수행(예: 다른 페이지로 이동 또는 사용자 정의 코드 트리거)할 수 있습니다. 버튼은 버튼 핵심 구성 요소를 사용하여 만들 수 있습니다.
 

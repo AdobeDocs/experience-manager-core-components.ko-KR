@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 드롭다운 목록
 description: 적응형 양식 드롭다운 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 드롭다운 목록 구성 요소{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 드롭다운 목록을 사용하면 미리 정의된 옵션 목록에서 하나 이상의 옵션을 선택할 수 있습니다. 옵션은 문자열, 숫자 또는 부울 유형일 수 있습니다. 또한 다른 유효성 검사 및 기본값을 갖도록 드롭다운 목록 구성 요소를 구성할 수 있습니다.
 

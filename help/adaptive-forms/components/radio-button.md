@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 - 라디오 버튼
 description: 적응형 양식 라디오 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 90%
@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # 라디오 버튼 구성 요소 {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  및  **옵션에 대해 리치 텍스트 허용**   기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**   및   **옵션에 대해 리치 텍스트 허용**   기능, 프리릴리스 기능. 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식의 라디오 버튼은 사용자가 관련 옵션 그룹에서 하나의 옵션을 선택할 수 있도록 하는 입력 요소 유형입니다. 옵션이 선택되었는지 여부를 나타내기 위해 채워지거나 비어 있는 작은 원형 버튼으로 표시됩니다. 사용자가 하나의 라디오 버튼을 선택하면 그룹의 다른 버튼은 선택 해제됩니다. 라디오 버튼은 일반적으로 상호 배타적인 옵션이 여러 개 있고 한 번에 하나만 선택할 수 있는 경우에 사용됩니다.
 

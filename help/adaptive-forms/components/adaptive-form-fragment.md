@@ -3,7 +3,7 @@ title: 적응형 양식 조각
 description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그룹을 생성하고 이를 적응형 양식 전체에서 재사용하여 효율성과 재사용성을 개선할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 적응형 양식 단편 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.  **제목의 리치 텍스트 허용**  기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)이라고 합니다.
 
