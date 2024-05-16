@@ -3,18 +3,18 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
+source-git-commit: e15254b119194e14b5719de10a00b2990264756f
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 51%
+source-wordcount: '2175'
+ht-degree: 48%
 
 ---
 
-# 적응형 양식 핵심 구성 요소 소개 {#adaptive-forms-core-components-introduction}
+# 적응형 양식 핵심 구성 요소  {#adaptive-forms-core-components-introduction}
 
-Adobe Experience Manager의 적응형 양식 핵심 구성 요소를 사용하면 유연성과 사용 가능한 맞춤화 옵션을 활용하여 매력적인 등록 경험을 만들 수 있습니다.
+Adobe Experience Manager의 적응형 Forms 핵심 구성 요소를 사용하여 매력적인 등록 경험을 만들 수 있습니다.
 
-## 핵심 구성 요소  {#overview}
+## 핵심 구성 요소 {#overview}
 
 Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작성하는 데 사용되는 빌딩 블록입니다. 작성자가 콘텐츠를 만들고 관리할 수 있는 간단하고 강력한 방법을 제공하는 동시에 개발자에게 사용자 정의 구성 요소를 만드는 데 필요한 유연성과 확장성을 제공합니다. 이는 개발을 가속화하고 웹 사이트 및 양식의 유지 관리 비용을 절감하도록 설계되었으며, 유연하고 웹 사이트 및 양식의 특정 요구 사항에 맞게 쉽게 사용자 정의할 수 있습니다.
 
@@ -28,7 +28,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 이러한 구성 요소를 사용하면 텍스트 필드, 확인란, 드롭다운 메뉴 등을 포함한 다양한 양식 필드 옵션을 제공하여 탁월한 데이터 캡처 및 등록 경험을 만들 수 있습니다. 또한 여기에는 사용자 친화적이고 사용하기 쉬운 양식을 만드는 데 사용할 수 있는 유효성 검사, 조건부 논리 및 반응형 디자인과 같은 기능이 포함되어 있습니다.
 
-이와 더불어 이러한 구성 요소는 오픈 소스이므로 개발자가 조직의 특정 요구 사항에 맞게 구성 요소를 쉽게 사용자 정의하고 확장할 수 있습니다. 그리고 이러한 구성 요소는 BEM 방법론을 기반으로 구축되어 있으므로 확장 및 유지 관리가 가능합니다.
+이와 더불어 이러한 구성 요소는 오픈 소스이므로 개발자가 조직의 특정 요구 사항에 맞게 구성 요소를 쉽게 사용자 정의하고 확장할 수 있습니다. 또한 이러한 구성 요소는 BEM 방법론을 기반으로 구축되어 확장 및 유지 관리가 가능합니다.
 
 ![적응형 양식 이미지](assets/sample-adaptive-form.png)
 
@@ -37,10 +37,10 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 |  |  |
 |---|---|
 | 제작 준비 | 반응형 양식 핵심 구성 요소는 24개의 강력한 WCM 구성 요소입니다. |
-| 클라우드 기반 | [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html)에 사용할 수 있습니다. |
+| 클라우드 기반 | 다음에 사용 가능: [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 유연성 | 구성 요소는 양식 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반적인 개념을 나타냅니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)은 사용하거나 사용할 수 없는 기능이 무엇인지 정의합니다. |
-| 액세스 가능 | ARIA 레이블을 제공하고, 키보드 탐색을 지원하며, 화면 판독기와 같은 보조 기술용 텍스트를 제공합니다. |
+| 액세스 가능 | ARIA 레이블을 제공하고 키보드 탐색을 지원하며 화면 판독기와 같은 보조 기술에 대한 텍스트를 제공합니다. |
 | 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
 | 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 간편한 맞춤화를 구현할 수 있습니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
@@ -71,20 +71,20 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 ## 핵심 구성 요소, 기초 구성 요소 및 양식 블록 구성 요소 비교 {#components}
 
-현재 버전의 AEM에는 다음과 같은 핵심 구성 요소 및 기초 구성 요소가 있습니다.
+현재 버전의 AEM에는 다음과 같은 핵심 구성 요소, 기초 구성 요소 및 양식 블록 구성 요소(Edge Delivery Services)가 있습니다.
 
 | 구성 요소 | 기초 구성 요소 | 핵심 구성 요소 | 양식 블록 구성 요소 | 추가 정보 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
-| Adobe Sign 차단 | ✔️ | | | Adobe Sign 통합은 기초 구성 요소에만 사용할 수 있습니다. |
-| 아코디언 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 아코디언 레이아웃을 구성할 수 있습니다 |
-| 적응형 양식 조각 | ✔️ | ✔️ | | 기초 구성 요소의 경우 패널 구성 요소의 속성에서 조각을 추가할 수 있습니다. |
-| 적응형 양식 reCAPTCHA | ✔️ | ✔️ | ✔️ | Foundation 구성 요소의 경우 Captcha 구성 요소를 사용하여 Google reCaptcha를 양식에 추가합니다. |
+| Adobe Sign 차단 | ✔️ | | | [Adobe Sign 통합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) 는 기초 구성 요소에만 사용할 수 있습니다. |
+| 아코디언 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Foundation 구성 요소의 경우에서 아코디언 레이아웃을 구성할 수 있습니다 [패널 구성 요소 속성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
+| 적응형 양식 조각 | ✔️ | ✔️ | | 기초 구성 요소의 경우 다음을 수행할 수 있습니다. [조각 추가](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) 자산 브라우저에서. |
+| 적응형 양식 reCAPTCHA | ✔️ | ✔️ | ✔️ | Foundation 구성 요소의 경우 Captcha 구성 요소를 사용하여 다음을 수행합니다 [양식에 Google reCaptcha 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | Foundation 구성 요소의 경우 Captcha 구성 요소를 사용하여 Google reCaptcha를 양식에 추가합니다. |
+| Captcha | ✔️ | | | Foundation 구성 요소의 경우 Captcha 구성 요소를 사용하여 다음을 수행합니다 [양식에 Google reCaptcha 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | 차트 | ✔️ | | | |
 | 체크 상자 | ✔️ | ✔️ | | |
 | 확인란 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 기초 구성 요소의 경우 확인란 구성 요소를 사용하여 여러 확인란을 추가합니다 |
-| 데이터 입력 필드 | ✔️ | | | 핵심 구성 요소의 경우 날짜 선택기를 사용하거나 별도의 텍스트 상자 또는 숫자 상자 구성 요소를 사용하여 일, 월 및 연도를 캡처합니다. |
+| 데이터 입력 필드 | ✔️ | | | 핵심 구성 요소의 경우 [날짜 선택](/help/adaptive-forms/components/date-picker.md) 구성 요소. 별도로 추가할 수도 있습니다 [텍스트 상자](/help/adaptive-forms/components/text-box.md) 또는 [숫자 상자](/help/adaptive-forms/components/numeric-box.md) 일, 월 및 연도를 캡처할 구성 요소입니다. |
 | 날짜 선택기 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | 드롭다운 목록 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | 이메일 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
@@ -92,19 +92,19 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 | 첨부 파일 나열 | ✔️ | | | |
 | 바닥글 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | 각주 플레이스홀더 | ✔️ | | | |
-| 양식 컨테이너 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 기초 구성 요소의 경우 루트 패널 구성 요소를 사용합니다. |
+| 양식 컨테이너 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 기초 구성 요소의 경우 [루트 패널 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | 양식 제목 | ✔️ | ✔️ | | 기초 구성 요소의 경우 제목 구성 요소를 사용합니다. |
 | 헤더 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
-| 가로 탭 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 상단(가로 탭) 레이아웃의 탭을 구성할 수 있습니다 |
+| 가로 탭 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 기초 구성 요소의 경우 다음을 구성할 수 있습니다. [상단(가로 탭) 레이아웃의 탭](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 패널 구성 요소 속성에서 참조하십시오. |
 | 이미지 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
 | 이미지 선택 | ✔️ | | | |
-| 다음 버튼 | ✔️ | ✔️ | | 다음 및 이전 단추에 마법사 구성 요소를 사용하여 여러 패널 사이를 이동합니다. |
+| 다음 버튼 | ✔️ | ✔️ | | 사용 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md) 다음 및 이전 단추를 사용하여 여러 패널 간에 이동할 수 있습니다. |
 | 숫자 상자 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 숫자 스텝퍼 | ✔️ | | | |
 | 패널 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 암호 상자 | ✔️ | | ✔️ | |
 | 전화/전화 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
-| 이전 버튼 | ✔️ | | | 다음 및 이전 단추에 마법사 구성 요소를 사용하여 여러 패널 사이를 이동합니다. |
+| 이전 버튼 | ✔️ | | | 사용 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md) 다음 및 이전 단추를 사용하여 여러 패널 간에 이동할 수 있습니다. |
 | 라디오 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | 라디오 단추 그룹 | | | ✔️ | |
 | 재설정 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
@@ -112,14 +112,14 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 | 분리자 | ✔️ | | | |
 | 제출 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 요약 단계 | ✔️ | | | |
-| 전환 | ✔️ | ✔️ | | |
+| 전환 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
 | 표 | ✔️ | | | |
 | 약관 | ✔️ | ✔️ | | |
 | 텍스트 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 텍스트 상자 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 제목 | ✔️ | | | 핵심 구성 요소의 경우 양식 제목 구성 요소를 사용합니다. |
-| 세로 탭 | ✔️ | ✔️ | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 왼쪽(세로 탭) 레이아웃의 탭을 구성할 수 있습니다 |
-| 마법사 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 기초 구성 요소의 경우 패널 구성 요소 속성에서 마법사 레이아웃을 구성할 수 있습니다 |
+| 제목 | ✔️ | | | 핵심 구성 요소의 경우 [양식 제목](/help/adaptive-forms/components/title.md) 구성 요소. |
+| 세로 탭 | ✔️ | ✔️ | | 기초 구성 요소의 경우 다음을 구성할 수 있습니다. [왼쪽(세로 탭) 레이아웃의 탭](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 패널 구성 요소 속성 |
+| 마법사 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 기초 구성 요소의 경우 다음을 구성할 수 있습니다. [마법사 레이아웃](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 패널 구성 요소 속성 |
 
 
 
@@ -162,7 +162,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 적응형 Forms 기반의 핵심 구성 요소 편집기는 AEM Sites 페이지를 생성하는 데 이미 사용하는 편집기와 유사합니다. 제공되는 항목:
 
 
-* **익숙한 UI 요소 및 설정**: 양식 구성 요소에 대한 속성을 구성할 때 속성 대화 상자는 WCM 코어 구성 요소에 대해 를 사용하는 것과 같은 모습입니다. 이렇게 하면 필요한 옵션을 더 빨리 찾을 수 있습니다. WCM 핵심 구성 요소와 마찬가지로 양식 구성 요소의 경우 속성 대화 상자가 편집기 중앙에 나타나며, 기본 및 고급 옵션, 도움말 텍스트 및 접근성 정보를 탭 형식으로 구분해 쉽게 탐색할 수 있습니다.
+* **익숙한 UI 요소 및 설정**: 양식 구성 요소에 대한 속성을 구성할 때 속성 대화 상자는 WCM 코어 구성 요소에 대해 를 사용하는 것과 같은 모습입니다. 이렇게 하면 필요한 옵션을 더 빨리 찾을 수 있습니다. WCM 핵심 구성 요소와 마찬가지로 양식 구성 요소의 경우 속성 대화 상자가 편집기 중앙에 나타나며, 기본 및 고급 옵션, 도움말 텍스트 및 접근성 정보를 탭 형식으로 구분하여 쉽게 탐색할 수 있습니다.
 
 * **[규칙 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: 코드를 작성하지 않고도 양식에 논리 및 동적 기능을 추가할 수 있습니다. 기본 제공 규칙 편집기를 사용하여 다음을 수행할 수 있습니다.
    * 사용자 선택 사항을 기반으로 필드 표시 또는 숨기기
@@ -182,7 +182,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
    * 다른 규칙 만들기(체인 작업 및 논리)
    * 등!
 
-  규칙 편집기에는 코드 편집기가 없습니다. 다음을 사용할 수 있습니다. [사용자 정의 함수](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) 특정 요구 사항을 위해 자신만의 코드를 추가하려면 를 사용하십시오.
+  규칙 편집기에는 코드 편집기가 없습니다. 다음을 사용할 수 있습니다. [사용자 정의 함수](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) 특정 요구 사항에 대한 자체 코드를 규칙 편집기에 추가합니다.
 
 
 
