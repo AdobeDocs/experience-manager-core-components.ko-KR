@@ -3,16 +3,16 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
 workflow-type: tm+mt
-source-wordcount: '3041'
-ht-degree: 96%
+source-wordcount: '3079'
+ht-degree: 95%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소의 현재 릴리스는 2.23.4이며 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
+핵심 구성의 현재 릴리스는 2.25.4이고 과 호환됩니다. [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [On-Premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 일부 IT 오류를 수정하는 마이너 릴리스입니다. | - | 6.5.22.0+ | 반복 | 8, 11 | 2024년 5월 10일 |
+| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 일부 IT 오류를 수정하는 마이너 릴리스입니다. | - | 6.5.22.0+ | 반복 | 8, 11 | 2024년 5월 9일 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 이 릴리스는 Dynamic Media에서 명명된 smartcrops에 대한 지원을 추가하고 성능 및 접근성 개선 사항과 다양한 버그 수정이 포함됩니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 2일 |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 이 패치 릴리스에는 데이터 레이어 초기화에 대한 개선 사항이 포함되어 있습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 22일 |
 | [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 이 패치 릴리스에서는 Sling 모델 초기화가 수정되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 1일 |
