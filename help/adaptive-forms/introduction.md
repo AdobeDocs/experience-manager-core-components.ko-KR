@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: e15254b119194e14b5719de10a00b2990264756f
+source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 48%
+source-wordcount: '2215'
+ht-degree: 47%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 ## 핵심 구성 요소, 기초 구성 요소 및 양식 블록 구성 요소 비교 {#components}
 
-현재 버전의 AEM에는 다음과 같은 핵심 구성 요소, 기초 구성 요소 및 양식 블록 구성 요소(Edge Delivery Services)가 있습니다.
+현재 버전의 AEM에는 다음 핵심 구성 요소 가 있습니다. [기초 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), 및 [양식 블록 구성 요소(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | 구성 요소 | 기초 구성 요소 | 핵심 구성 요소 | 양식 블록 구성 요소 | 추가 정보 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
@@ -203,6 +203,11 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
    * [REST 끝점에 제출](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
    * [OneDrive에 제출](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
    * [AEM 워크플로우 호출](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+* [사이트 페이지 편집기의 적응형 Forms 핵심 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): AEM 페이지 편집기 및 AEM Experience Fragments에서 적응형 Forms 핵심 구성 요소를 활성화하고 사용하여 Sites 페이지를 작성하는 동시에 데이터 캡처 경험을 직접 만들 수 있습니다.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
