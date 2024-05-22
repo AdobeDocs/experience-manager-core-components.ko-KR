@@ -4,15 +4,15 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3079'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성의 현재 릴리스는 2.25.4이고 과 호환됩니다. [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [On-Premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치.
+핵심 구성의 현재 릴리스는 2.25.4이고 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,13 +26,13 @@ ht-degree: 95%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
-| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 일부 IT 오류를 수정하는 마이너 릴리스입니다. | - | 6.5.22.0+ | 반복 | 8, 11 | 2024년 5월 10일 |
-| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 일부 IT 오류를 수정하는 마이너 릴리스입니다. | - | 6.5.22.0+ | 반복 | 8, 11 | 2024년 5월 9일 |
-| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 이 릴리스는 Dynamic Media에서 명명된 smartcrops에 대한 지원을 추가하고 성능 및 접근성 개선 사항과 다양한 버그 수정이 포함됩니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 2일 |
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.22.0+ | 반복 | 8, 11 | 2024년 5월 10일 |
+| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.22.0+ | 반복 | 8, 11 | 2024년 5월 9일 |
+| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 이 릴리스에는 Dynamic Media에서 명명된 스마트 자르기에 대한 지원이 추가되었으며 성능 및 접근성 개선 사항과 다양한 버그 수정이 포함되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 2일 |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 이 패치 릴리스에는 데이터 레이어 초기화에 대한 개선 사항이 포함되어 있습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 22일 |
-| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 이 패치 릴리스에서는 Sling 모델 초기화가 수정되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 1일 |
-| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 이 패치 릴리스는 통합 테스트의 안정성을 개선합니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 22일 |
-| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 이 릴리스에는 Google Tag Manager 데이터 레이어에 대한 지원이 추가되었으며 다양한 버그 수정이 포함되어 있습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 14일 |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 이 패치 릴리스는 Sling 모델 초기화를 수정합니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 4월 1일 |
+| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 이번 패치 릴리스는 통합 테스트의 안정성을 향상합니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 22일 |
+| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 이번 릴리스에는 Google 태그 관리자 데이터 레이어에 대한 지원이 추가되었으며 다양한 버그 수정이 포함되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 14일 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 이번 패치 릴리스에는 다양한 버그 수정이 포함됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 9월 15일 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 이 패치에서는 [이미지](/help/components/image.md) 및 [티저 구성 요소](/help/components/teaser.md)에 원격 자산에 대한 Dynamic Media 스마트 자르기가 추가되며 여러 버그가 수정됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 8월 4일 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 이 릴리스에는 [차세대 Dynamic Media 원격 자산](/help/developing/next-gen-dm.md)에 대한 지원이 추가됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 6월 6일 |
@@ -80,8 +80,8 @@ ht-degree: 95%
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 이 릴리스에는 새 [경험 조각 구성 요소](/help/components/experience-fragment.md)가 도입되었습니다. | 6.4.4.0+ | 6.5.0.0+ | 반복 | 8, 11 | 2019년 9월 6일 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 이 릴리스에는 새 [아코디언](/help/components/accordion.md), [버튼](/help/components/button.md) [컨테이너](/help/components/container.md) 및 [다운로드 구성 요소](/help/components/download.md)가 도입되었습니다. | 6.4.2.0+ | 6.5.0.0+ | 반복 | 8, 11 | 2019년 6월 25일 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 이 릴리스에는 새 [콘텐츠 조각 목록 구성 요소](/help/components/content-fragment-list.md)가 도입되었습니다. | 6.4.2.0+ | 6.5.0.0+ | 반복 | 8, 11 | 2019년 5월 7일 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 이 릴리스는 [구성 요소 라이브러리](https://aemcomponents.dev)에 대한 세분화 내용에 중점을 두고 있으며, 릴리스에는 [분리자 구성 요소](/help/components/separator.md)에 대한 몇 가지 기능 개선이 포함됩니다. | 6.4.2.0+ | 6.5.0.0+ | 반복 | 8 | 2019년 3월 14일 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 이 릴리스는 [구성 요소 라이브러리](https://aemcomponents.dev)와 새로운 [분리자 구성 요소](/help/components/separator.md) 도입에 중점을 두고 있으며, 릴리스에는 [이미지 구성 요소](/help/components/image.md)에 대한 몇 가지 기능 개선이 포함됩니다. | 6.4.2.0+ | - | - | 8 | 2019년 2월 11일 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 이 릴리스는 [구성 요소 라이브러리](https://aemcomponents.dev)에 대한 세분화 내용에 중점을 두고 있으며, 릴리스에는 [구분자 구성 요소](/help/components/separator.md)에 대한 몇 가지 기능 개선이 포함됩니다. | 6.4.2.0+ | 6.5.0.0+ | 반복 | 8 | 2019년 3월 14일 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 이 릴리스는 [구성 요소 라이브러리](https://aemcomponents.dev)와 새로운 [구분자 구성 요소](/help/components/separator.md) 도입에 중점을 두고 있으며, 릴리스에는 [이미지 구성 요소](/help/components/image.md)에 대한 몇 가지 기능 개선이 포함됩니다. | 6.4.2.0+ | - | - | 8 | 2019년 2월 11일 |
 | [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 이 릴리스는 주로 버그 수정에 중점을 두고 있으며, 릴리스에는 [슬라이드 구성 요소](/help/components/carousel.md)에 대한 몇 가지 기능 개선이 포함됩니다. | 6.4.2.0+ | - | - | 8 | 2018년 11월 27일 |
 | [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 이 릴리스에는 [탭 구성 요소](/help/components/tabs.md) 및 [슬라이드 구성 요소](/help/components/carousel.md)뿐만 아니라 [이미지 구성 요소](/help/components/image.md), [페이지 구성 요소](/help/components/page.md) 및 [제목 구성 요소](/help/components/title.md)에 대한 개선 사항과 강화 추적 기능이 포함됩니다. | 6.4.2.0+ | - | - | 8 | 2018년 10월 16일 |
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 이 릴리스에는 [이미지 구성 요소](/help/components/image.md)에 대한 개선 사항 및 버그 수정과 함께 [티저 구성 요소](/help/components/teaser.md)가 도입되었습니다. | 6.4.2.0+ | - | - | 8 | 2018년 7월 13일 |
@@ -123,7 +123,7 @@ ht-degree: 95%
 | **[티저](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 v2 | v1 v2 | v1 v2 | v1 v2 |
 | **[탭](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[슬라이드](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[분리자](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[구분자](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[콘텐츠 조각 목록](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 v2 | v1 v2 | v1 v2 | v1 v2 |
 | **[아코디언](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[버튼](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 v2 | v1 v2 | v1 v2 | v1 v2 |

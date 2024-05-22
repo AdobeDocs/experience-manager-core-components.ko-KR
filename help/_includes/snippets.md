@@ -1,8 +1,8 @@
 ---
 source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # 스니펫 {#snippets}
@@ -76,7 +76,7 @@ ht-degree: 99%
 - [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
 - [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
 - [제출 버튼](/help/adaptive-forms/components/submit-button.md)
-- [전화 입력](/help/adaptive-forms/components/telephone-input.md)
+- [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
 - [텍스트 상자](/help/adaptive-forms/components/text-box.md)
 - [텍스트](/help/adaptive-forms/components/text.md)
 - [제목](/help/adaptive-forms/components/title.md)

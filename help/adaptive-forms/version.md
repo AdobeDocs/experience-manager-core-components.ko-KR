@@ -4,9 +4,9 @@ description: AEM 핵심 구성 요소는 두 개 이상의 동일한 핵심 구�
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 55%
 
 ## AEM Forms as Cloud Service 버전 기록 {#aem-as-cs-version-history}
 
-AEMas a Cloud Service 과 호환되는 핵심 구성 요소 릴리스는 다음에서 사용할 수 있습니다. [GitHub 및 해당 릴리스에 대한 포괄적인 세부 정보](https://github.com/adobe/aem-core-forms-components/releases).
+[전체 릴리스 정보와 함께 GitHub](https://github.com/adobe/aem-core-forms-components/releases)에서 제공하는 AEM as a Cloud Service과 호환되는 핵심 구성 요소 릴리스입니다.
 
-AEM에 대한 핵심 구성 요소 버전 기록을 as a Cloud Service으로 보려면 다음을 수행하십시오. [여기를 클릭하십시오](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+AEM as a Cloud Service에 대한 핵심 구성 요소 버전 기록을 보려면 [여기를 클릭](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md)하십시오.
 
 
 <!--
@@ -117,9 +117,9 @@ AEM에 대한 핵심 구성 요소 버전 기록을 as a Cloud Service으로 보
 
 ## AEM 6.5 Forms 버전 기록 {#aem-as-form-version-history}
 
-AEM 6.5 Form On-Premise 및 AMS와 호환되는 핵심 구성 요소 릴리스는에서 사용할 수 있습니다. [GitHub 및 해당 릴리스에 대한 포괄적인 세부 정보](https://github.com/adobe/aem-core-forms-components/releases).
+[전체 릴리스 정보와 함께 GitHub](https://github.com/adobe/aem-core-forms-components/releases)에서 제공하는 AEM 6.5 Form 온프레미스와 호환되는 핵심 구성 요소 릴리스입니다.
 
-AEM 6.5 Form On-Premise 및 AMS에 대한 핵심 구성 요소 버전 내역을 보려면 다음을 수행하십시오. [여기를 클릭하십시오](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+AEM 6.5 Form 온프레미스 및 AMS의 핵심 구성 요소 버전 기록을 보려면 [여기를 클릭](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md)하십시오.
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

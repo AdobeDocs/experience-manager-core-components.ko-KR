@@ -4,15 +4,15 @@ description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1780'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 확인란 구성 요소{#checkbox-component}
 
-<span class="preview"> 이 문서에는 다음 내용에 대한 내용이 포함되어 있습니다.   **제목의 리치 텍스트 허용**    기능, 프리릴리스 기능 프리릴리스 기능은 다음을 통해서만 액세스할 수 있습니다. [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 이 문서에는 프리릴리스 기능인 **제목에 대해 서식 있는 텍스트 허용** 기능에 대한 내용이 포함되어 있습니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해서만 액세스할 수 있습니다.</span>
 
 확인란은 소프트웨어 애플리케이션 및 양식에서 일반적으로 사용되는 그래픽 사용자 인터페이스 요소로서, 사용자가 선택 또는 선택 해제의 두 가지 옵션 중에서 이진 선택을 할 수 있도록 합니다.
 
@@ -64,10 +64,10 @@ ht-degree: 93%
 
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 옆에 나타납니다. 제목을 추가하지 않으면 구성 요소가 표시되지 않습니다.
 
-- **제목의 리치 텍스트 허용** - 이 기능을 사용하면 굵게, 기울임꼴, 밑줄이 그어진 텍스트, 다양한 글꼴, 글꼴 크기, 색상 및 추가 옵션과 같은 기능을 통합하여 일반 텍스트 제목의 서식을 지정할 수 있어 시각적 프레젠테이션 및 맞춤화를 향상시킬 수 있습니다. 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 때 더 큰 유연성과 창의적인 제어를 제공합니다.\
-  에 대한 확인란을 선택하면 **제목의 리치 텍스트 허용** 를 클릭하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭.
+- **제목에 대해 서식 있는 텍스트 허용** - 이 기능을 사용하면 사용자가 굵게, 기울임꼴, 밑줄 친 텍스트, 다양한 글꼴, 글꼴 크기, 색상, 추가 옵션과 같은 기능을 통합해 일반 텍스트 제목의 서식을 지정하여 시각적 표현 및 사용자 정의를 향상할 수 있습니다. 더 큰 유연성과 창의적인 제어 기능으로 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 수 있습니다.\
+  **제목에 대해 서식 있는 텍스트 허용** 확인란을 선택하면 구성 요소 제목의 스타일을 지정할 수 있는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭을 클릭하면 됩니다.
 
-  ![리치 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![서식 있는 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 

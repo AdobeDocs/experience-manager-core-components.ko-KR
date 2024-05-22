@@ -4,9 +4,9 @@ description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 **예**
 
-![제목 예](/help/adaptive-forms/assets/title.png)
+![제목의 예](/help/adaptive-forms/assets/title.png)
 
 ## 사용 {#reasons-to-use-title-in-an-adaptive-form}
 

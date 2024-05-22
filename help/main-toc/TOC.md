@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
    + [PDF 뷰어](/help/components/pdf-viewer.md)
    + [진행률 표시줄](/help/components/progress-bar.md)
    + [빠른 검색](/help/components/quick-search.md)
-   + [분리자](/help/components/separator.md)
+   + [구분자](/help/components/separator.md)
    + [소셜 미디어 공유](/help/components/sharing.md)
    + [목차](/help/components/tableofcontents.md)
    + [텍스트](/help/components/text.md)
@@ -119,7 +119,7 @@ ht-degree: 98%
       + [적응형 양식 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
-      + [적응형 Forms 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
+      + [적응형 양식 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
       + [적응형 양식 패널](/help/adaptive-forms/components/panel.md)
       + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [적응형 양식 텍스트](/help/adaptive-forms/components/text.md)
       + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-box.md)
       + [적응형 양식 제목](/help/adaptive-forms/components/title.md)
-      + [적응형 Forms 마법사](/help/adaptive-forms/components/wizard.md)
+      + [적응형 양식 마법사](/help/adaptive-forms/components/wizard.md)
       + [적응형 양식 약관](/help/adaptive-forms/components/terms-and-conditions.md)
       + [헤더](/help/adaptive-forms/components/header.md)
       + [바닥글](/help/adaptive-forms/components/footer.md)

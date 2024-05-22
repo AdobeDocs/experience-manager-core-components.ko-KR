@@ -4,9 +4,9 @@ description: 적응형 양식 텍스트 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 **예**
 
-![텍스트 예](/help/adaptive-forms/assets/text.png)
+![텍스트의 예](/help/adaptive-forms/assets/text.png)
 
 ## 사용 {#reasons-to-use-text-label}
 
