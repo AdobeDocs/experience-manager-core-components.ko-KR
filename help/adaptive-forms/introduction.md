@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
-workflow-type: ht
-source-wordcount: '2215'
-ht-degree: 100%
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
+workflow-type: tm+mt
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -69,9 +69,9 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 * **[버전 관리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: 핵심 구성 요소 기반 적응형 양식의 여러 버전을 만들고 관리하고, 주석을 통해 공동 작업 토론에 참여하고, 특정 양식 구성 요소에 주석을 첨부하여 전반적인 양식 작성 경험을 향상할 수 있습니다.
 
-## 핵심 구성 요소, 기초 구성 요소 및 양식 블록 구성 요소 비교 {#components}
+## 사용 가능한 구성 요소: 구성 요소 유형별 분류
 
-AEM의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar) 및 [양식 블록 구성 요소(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components)가 있습니다.
+현재 버전의 AEM Forms에는 다음과 같은 핵심 구성 요소가 있습니다. [기초 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), 및 [양식 블록 구성 요소(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | 구성 요소 | 기초 구성 요소 | 핵심 구성 요소 | 양식 블록 구성 요소 | 추가 정보 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
