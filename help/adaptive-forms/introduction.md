@@ -4,9 +4,9 @@ description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 ## 사용 가능한 구성 요소: 구성 요소 유형별 분류
 
-현재 버전의 AEM Forms에는 다음과 같은 핵심 구성 요소가 있습니다. [기초 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), 및 [양식 블록 구성 요소(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 구성 요소](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar) 및 [양식 블록 구성 요소(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components)가 있습니다.
 
 | 구성 요소 | 기초 구성 요소 | 핵심 구성 요소 | 양식 블록 구성 요소 | 추가 정보 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
@@ -164,7 +164,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 * **친숙한 UI 요소 및 설정**: 양식 구성 요소에 대한 속성을 구성할 때 WCM 핵심 구성 요소에 사용하는 것과 동일한 속성 대화 상자가 표시됩니다. 덕분에 필요한 옵션을 더 빨리 찾을 수 있습니다. WCM 핵심 구성 요소와 마찬가지로 양식 구성 요소의 경우 기본 및 고급 옵션, 도움말 텍스트 및 접근성 정보를 구분하는 명확한 탭과 함께 편집기 중앙에 속성 대화 상자가 표시되며, 모두 쉽게 탐색할 수 있도록 탭 형식을 취합니다.
 
-* **[규칙 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: 코드를 작성하지 않고도 양식에 로직 및 동적 기능을 추가할 수 있습니다. 기본 제공 규칙 편집기를 사용하여 다음을 수행할 수 있습니다.
+* **[규칙 편집기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: 코드를 작성하지 않고도 양식에 로직 및 동적 기능을 추가할 수 있습니다. 기본 제공 규칙 편집기를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
    * 사용자 선택에 따라 필드 표시 또는 숨기기
    * 오브젝트 활성화 또는 비활성화
    * 오브젝트의 값 설정
