@@ -3,10 +3,10 @@ title: 티저 구성 요소
 description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 95%
 
 ---
 
@@ -31,11 +31,9 @@ ht-degree: 100%
 | v2 | - | 호환 가능 | 호환 가능 |
 | [v1](v1/teaser.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
-## 차세대 Dynamic Media 지원 {#next-gen-dm}
+## 원격 자산 지원 {#remote-assets}
 
-티저 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 차세대 Dynamic Media 원격 자산을 지원합니다.
-
-[구성한 다음](/help/developing/next-gen-dm.md) 티저 구성 요소에 대해 원격 차세대 Dynamic Media 서비스에서 자산을 선택할 수 있습니다.
+티저 구성 요소( 의 경우) [릴리스 2.23.2](/help/versions.md))에서 원격 자산을 지원합니다. [구성이 완료되면](/help/developing/remote-assets.md) 티저 구성 요소의 원격 서비스에서 자산을 선택할 수 있습니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -84,7 +82,7 @@ ht-degree: 100%
 * **이미지 자산** - [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
    * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택합니다.
-      * [차세대 Dynamic Media 기능](#next-gen-dm)이 활성화된 경우 자산을 선택할 수 있는 여러 옵션이 있습니다.
+      * If [원격 자산 지원](#remote-assets) 이 활성화되어 있으면 에셋을 선택하는 여러 옵션이 있습니다.
          * **로컬**&#x200B;은 로컬 AEM 자산 라이브러리에서 선택할 수 있습니다.
          * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
    * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).

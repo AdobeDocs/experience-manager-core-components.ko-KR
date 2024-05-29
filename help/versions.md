@@ -3,8 +3,8 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: ht
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 이번 릴리스에는 Google 태그 관리자 데이터 레이어에 대한 지원이 추가되었으며 다양한 버그 수정이 포함되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 2월 14일 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 이번 패치 릴리스에는 다양한 버그 수정이 포함됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 9월 15일 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 이 패치에서는 [이미지](/help/components/image.md) 및 [티저 구성 요소](/help/components/teaser.md)에 원격 자산에 대한 Dynamic Media 스마트 자르기가 추가되며 여러 버그가 수정됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 8월 4일 |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 이 릴리스에는 [차세대 Dynamic Media 원격 자산](/help/developing/next-gen-dm.md)에 대한 지원이 추가됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 6월 6일 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 이 릴리스에는 [차세대 Dynamic Media 원격 자산](/help/developing/remote-assets.md)에 대한 지원이 추가됩니다. | - | 6.5.17.0+ | 반복 | 8, 11 | 2023년 6월 6일 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 이 패치 릴리스는 두 가지 문제를 수정합니다. | - | 6.5.14.0+ | 반복 | 8, 11 | 2023년 5월 25일 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 이 패치 릴리스는 두 가지 회귀를 수정합니다. | - | 6.5.14.0+ | 반복 | 8, 11 | 2023년 5월 11일 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 이 패치 릴리스는 이전 릴리스에서 실수로 제거된 기능을 다시 가져옵니다. | - | 6.5.14.0+ | 반복 | 8, 11 | 2023년 5월 9일 |
