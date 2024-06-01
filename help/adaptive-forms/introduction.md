@@ -3,9 +3,9 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: d3a887338387b4d46c1f81c4a6ddf040a82a48b7
+source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2229'
 ht-degree: 99%
 
 ---
@@ -78,8 +78,9 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | Adobe Sign 차단 | ✔️ | | | [Adobe Sign 통합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government)은 기초 구성 요소에만 사용할 수 있습니다. |
 | 아코디언 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 기초 구성 요소의 경우 [패널 구성 요소 속성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)에서 아코디언 레이아웃을 구성할 수 있습니다. |
 | 적응형 양식 조각 | ✔️ | ✔️ | | 기초 구성 요소의 경우 자산 브라우저에서 [조각을 추가](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)할 수 있습니다. |
-| reCAPTCHA | ✔️ | ✔️ | ✔️ | 기초 구성 요소의 경우 Captcha 구성 요소를 사용하여 [양식에 Google reCaptcha를 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)합니다. |
+| 적응형 양식 reCAPTCHA | ✔️ | ✔️ | ✔️ | 기초 구성 요소의 경우 Captcha 구성 요소를 사용하여 [양식에 Google reCaptcha를 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)합니다. |
 | 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| CAPTCHA | ✔️ |  |  | 기초 구성 요소의 경우 Captcha 구성 요소를 사용하여 [양식에 Google reCaptcha를 추가](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)합니다. |
 | 차트 | ✔️ | | | |
 | 확인란 | ✔️ | ✔️ | | |
 | 확인란 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 기초 구성 요소의 경우 확인란 구성 요소를 사용하여 여러 확인란을 추가합니다. |
