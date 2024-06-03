@@ -4,9 +4,9 @@ description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 ## 원격 자산 지원 {#remote-assets}
 
-이미지 구성 요소( 의 경우) [릴리스 2.23.2](/help/versions.md))에서 원격 자산을 지원합니다. [구성이 완료되면](/help/developing/remote-assets.md) 이미지 구성 요소에 대해 원격 서비스에서 자산을 선택할 수 있습니다.
+이미지 구성 요소([릴리스 2.23.2](/help/versions.md)부터)는 원격 자산을 지원합니다. [구성한 다음](/help/developing/remote-assets.md) 이미지 구성 요소에 대해 원격 서비스에서 자산을 선택할 수 있습니다.
 
 ## SVG 지원 {#svg-support}
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 콘텐츠 작성자는 편집 대화 상자를 통해 이미지를 자르고, 확대/축소할 수 있습니다.
 
-다음을 보유하고 있는지 여부에 따라 [Dynamic Media](#dynamic-media) 활성화 또는 [원격 자산 지원](#remote-assets) 이 활성화되어 있으면 이미지 편집에 사용할 수 있는 옵션이 달라집니다.
+[Dynamic Media](#dynamic-media)를 활성화했는지 또는 [원격 자산 지원](#remote-assets)이 활성화되었는지에 따라 이미지 편집 작업에 사용할 수 있는 옵션이 달라집니다.
 
 ### 표준 자산 편집 {#standard-assets}
 
@@ -152,7 +152,7 @@ ht-degree: 96%
    * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)에서 자산을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
    * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택할 수 있습니다.
-      * If [원격 어설션 지원](#remote-assets) 이 활성화되어 있으면 에셋을 선택하는 여러 옵션이 있습니다.
+      * [원격 자산 지원](#remote-assets)이 활성화된 경우 자산 선택을 위한 여러 옵션이 있습니다.
          * **로컬**&#x200B;은 로컬 AEM 자산 라이브러리에서 선택할 수 있습니다.
          * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
    * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html).

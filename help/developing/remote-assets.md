@@ -1,34 +1,34 @@
 ---
 title: 원격 자산 지원
-description: OpenAPI와 함께 Dynamic Media을 사용하여 원격 자산을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법을 알아봅니다.
+description: OpenAPI가 포함된 Dynamic Media를 사용하여 원격 자산을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # 원격 자산 지원 {#remote-assets-support}
 
-OpenAPI와 함께 Dynamic Media을 사용하여 원격 자산을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법을 알아봅니다.
+OpenAPI가 포함된 Dynamic Media를 사용하여 원격 자산을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법에 대해 알아봅니다.
 
 >[!NOTE]
 >
->OpenAPI가 포함된 Dynamic Media은 이전에 차세대 Dynamic Media으로 불렸습니다. 기능과 사용법은 동일합니다.
+>OpenAPI가 포함된 Dynamic Media는 이전에 차세대 Dynamic Media로 알려졌습니다. 기능과 사용법은 동일합니다.
 
 ## 최신 AEM 버전 다운로드 {#latest}
 
-OpenAPI와 함께 Dynamic Media을 사용하여 원격 자산을 지원하려면 다음이 필요합니다.
+OpenAPI가 포함된 Dynamic Media를 사용하여 원격 자산을 지원하려면 다음과 같은 사항이 필요합니다.
 
 * AEM 6.5 SP 18+ 또는 AEM as a Cloud Service
 * 코어 구성 요소 릴리스 2.23.2 이상
 
 ## HTTPS 구성 {#https}
 
-일반적으로 HTTP를 사용하여 모든 프로덕션 AEM 인스턴스를 실행하는 것이 좋습니다. 단, 로컬 개발 환경은 이와 같이 설정되지 않을 수 있습니다. 그러나 OpenAPI와 함께 Dynamic Media을 사용하는 원격 자산이 작동하려면 HTTPS가 필요합니다.
+일반적으로 HTTP를 사용하여 모든 프로덕션 AEM 인스턴스를 실행하는 것이 좋습니다. 단, 로컬 개발 환경은 이와 같이 설정되지 않을 수 있습니다. 그러나 OpenAPI가 포함된 Dynamic Media를 사용하는 원격 자산이 작동하려면 HTTPS가 필요합니다.
 
 개발 환경을 포함하여 원격 자산을 사용하려는 곳에서 [이 안내서를 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)하여 HTTPS를 구성하십시오.
 
@@ -52,7 +52,7 @@ OSGi 구성 방법에 대한 자세한 내용은 다음 문서를 참조하십�
 
 ## 구성 확인 {#verify}
 
-이제 OpenAPI와 함께 Dynamic Media을 사용하는 원격 자산 기능이 작동하는지 확인할 수 있습니다. 이를 위해 WKND 샘플 사이트 및 코어 구성 요소를 설치할 수 있습니다.
+이제 OpenAPI가 포함된 Dynamic Media를 사용하는 원격 자산 기능이 작동하는지 확인할 수 있습니다. 이를 위해 WKND 샘플 사이트 및 코어 구성 요소를 설치할 수 있습니다.
 
 * [코어 구성 요소](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) 릴리스 2.23.2 이상이 필요합니다.
 * [WKND 샘플 사이트](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) 릴리스 3.2.0 이상이 필요합니다.
