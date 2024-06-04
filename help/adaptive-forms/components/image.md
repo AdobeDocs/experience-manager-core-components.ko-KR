@@ -3,8 +3,8 @@ title: 적응형 양식 핵심 구성 요소 - 이미지
 description: 적응형 양식 이미지 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: ht
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 100%
 

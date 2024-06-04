@@ -3,16 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
 description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2095'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
 # 날짜 선택기 구성 요소{#date-picker-adaptive-forms-core-component}
-
-<span class="preview"> 이 문서에는 프리릴리스 기능인 **제목에 대해 서식 있는 텍스트 허용** 기능에 대한 내용이 포함되어 있습니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해서만 액세스할 수 있습니다.</span>
 
 적응형 양식의 날짜 선택기 구성 요소는 사용자가 달력에서 날짜를 선택하거나 특정 형식으로 날짜를 수동으로 입력할 수 있도록 하는 사용자 인터페이스 요소입니다. 다른 형식 지정, 유효성 검사 및 기본값을 갖도록 날짜 선택기 구성 요소를 구성할 수 있습니다.
 
@@ -119,7 +117,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![접근성 탭](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
 
-**화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
+- **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
+   - **사용자 정의 텍스트**: ARIA 접근성 레이블에 사용자 정의 텍스트를 사용하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 사용자 정의 텍스트 대화 상자가 표시됩니다. 사용자 정의 텍스트 대화 상자에서 관련 정보를 추가할 수 있습니다.
+   - **설명**: ARIA 접근성 레이블에 설명을 사용하려면 이 옵션을 선택합니다.
+   - **제목**: ARIA 접근성 레이블에 제목을 사용하려면 이 옵션을 선택합니다.
+   - **이름**: ARIA 접근성 레이블에 이름을 사용하려면 이 옵션을 선택합니다.
+   - **없음**: ARIA 접근성 레이블에 아무 것도 추가하지 않으려면 이 옵션을 선택합니다.
 
 ### 형식 탭 {#format-tab}
 

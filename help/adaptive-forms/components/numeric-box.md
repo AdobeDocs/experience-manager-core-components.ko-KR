@@ -3,16 +3,14 @@ title: 적응형 양식 핵심 구성 요소 - 숫자 입력
 description: 적응형 양식 숫자 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2104'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2163'
+ht-degree: 98%
 
 ---
 
 # 숫자 상자 구성 요소{#number-input-adaptive-forms-core-component}
-
-<span class="preview"> 이 문서에는 프리릴리스 기능인 **제목에 대해 서식 있는 텍스트 허용** 기능에 대한 내용이 포함되어 있습니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해서만 액세스할 수 있습니다.</span>
 
 적응형 양식의 숫자 입력 구성 요소는 사용자가 숫자 값을 입력할 수 있는 양식 필드 유형입니다. 구성 요소는 일반적으로 숫자를 늘리거나 줄이기 위한 위쪽 및 아래쪽 화살표가 있는 텍스트 필드로 표시됩니다.
 
@@ -117,7 +115,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![접근성 탭](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
+- **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
+   - **사용자 정의 텍스트**: ARIA 접근성 레이블에 사용자 정의 텍스트를 사용하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 사용자 정의 텍스트 대화 상자가 표시됩니다. 사용자 정의 텍스트 대화 상자에서 관련 정보를 추가할 수 있습니다.
+   - **설명**: ARIA 접근성 레이블에 설명을 사용하려면 이 옵션을 선택합니다.
+   - **제목**: ARIA 접근성 레이블에 제목을 사용하려면 이 옵션을 선택합니다.
+   - **이름**: ARIA 접근성 레이블에 이름을 사용하려면 이 옵션을 선택합니다.
+   - **없음**: ARIA 접근성 레이블에 아무 것도 추가하지 않으려면 이 옵션을 선택합니다.
 
 ### 형식 탭 {#formats-configure-tab}
 
@@ -131,7 +134,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자는 숫자 입력 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
+디자인 대화 상자 를 사용하여 숫자 상자 구성 요소의 CSS 스타일을 정의하고 관리합니다.
 
 ### 스타일 탭 {#styles-tab}
 
@@ -139,7 +142,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![스타일 탭](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **기본 CSS 클래스**: 적응형 양식 숫자 입력 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 Forms 숫자 상자 핵심 구성 요소에 대한 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 

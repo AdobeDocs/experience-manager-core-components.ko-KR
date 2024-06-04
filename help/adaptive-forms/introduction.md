@@ -2,7 +2,7 @@
 title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
-source-git-commit: ae81102adafef131b013425465ad56af41f604bf
+source-git-commit: e1ee09854a40c960f8a907149240b755c95fe176
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 99%
@@ -86,7 +86,7 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 데이터 입력 필드 | ✔️ | | | 핵심 구성 요소의 경우 [날짜 선택기](/help/adaptive-forms/components/date-picker.md) 구성 요소를 사용합니다. 별도의 [텍스트 상자](/help/adaptive-forms/components/text-box.md) 또는 [숫자 상자](/help/adaptive-forms/components/numeric-box.md) 구성 요소를 추가하여 일, 월 및 연도를 캡처할 수도 있습니다. |
 | 날짜 선택기 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | 드롭다운 목록 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
-| 이메일 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
+| 이메일 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email.md)</span> | ✔️ | |
 | 첨부 파일 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
 | 첨부 파일 나열 | ✔️ | | | |
 | 바닥글 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
@@ -103,7 +103,7 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 숫자 스텝퍼 | ✔️ | | | |
 | 패널 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 암호 상자 | ✔️ | | ✔️ | |
-| 전화 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
+| 전화 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | 이전 버튼 | ✔️ | | | 여러 패널 사이를 이동하려면 다음 및 이전 버튼에 대해 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md)를 사용합니다. |
 | 라디오 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | 라디오 버튼 그룹 | | | ✔️ | |
@@ -112,12 +112,12 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 구분자 | ✔️ | | | |
 | 제출 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 요약 단계 | ✔️ | | | |
-| 전환 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
+| 전환 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
 | 표 | ✔️ | | | |
 | 약관 | ✔️ | ✔️ | | |
 | 텍스트 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 텍스트 상자 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 제목 | ✔️ | | | 핵심 구성 요소의 경우 [양식 제목](/help/adaptive-forms/components/title.md) 구성 요소를 사용합니다. |
+| 제목 | ✔️ | | | 핵심 구성 요소의 경우 [양식 제목](/help/adaptive-forms/components/form-title.md) 구성 요소를 사용합니다. |
 | 턴스타일 캡차 | ✔️ | | | [턴스타일 캡차](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) 는 기초 구성 요소에만 사용할 수 있습니다. |
 | 세로 탭 | ✔️ | ✔️ | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [왼쪽 탭(세로 탭) 레이아웃](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 | 마법사 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [마법사 레이아웃](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
@@ -134,11 +134,13 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 
 <!-- >
 * [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Adaptive Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
+* [Adaptive Form Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
 * [Button](/help/adaptive-forms/components/button.md)
 * [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
 * [Date Picker](/help/adaptive-forms/components/date-picker.md)
 * [Drop-down list](/help/adaptive-forms/components/drop-down-list.md)
-* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Email](/help/adaptive-forms/components/email.md)
 * [Form Container](/help/adaptive-forms/components/form-container.md)
 * [File Attachment](/help/adaptive-forms/components/file-attachment.md)
 * [Footer](/help/adaptive-forms/components/footer.md)
@@ -147,13 +149,14 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 * [Image](/help/adaptive-forms/components/image.md)
 * [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
 * [Panel](/help/adaptive-forms/components/panel.md)
+* [Phone](/help/adaptive-forms/components/phone.md)
 * [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Adaptive Form reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 * [Reset Button](/help/adaptive-forms/components/reset-button.md)
 * [Submit Button](/help/adaptive-forms/components/submit-button.md)
-* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
 * [Text Box](/help/adaptive-forms/components/text-box.md)
 * [Text](/help/adaptive-forms/components/text.md)
-* [Title](/help/adaptive-forms/components/title.md)
+* [Form Title](/help/adaptive-forms/components/form-title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
 
 -->

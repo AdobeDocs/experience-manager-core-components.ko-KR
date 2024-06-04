@@ -3,16 +3,14 @@ title: 적응형 양식 아코디언
 description: 아코디언을 사용하여 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화합니다.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2263'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2237'
+ht-degree: 98%
 
 ---
 
 # 아코디언 구성 요소 {#accordion-component-adaptive-forms-core-component}
-
-<span class="preview"> 이 문서에는 프리릴리스 기능인 **제목에 대해 서식 있는 텍스트 허용** 기능에 대한 내용이 포함되어 있습니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해서만 액세스할 수 있습니다.</span>
 
 아코디언 구성 요소를 사용하면 적응형 양식에서 확장 및 축소 가능한 섹션을 만들 수 있습니다. 아코디언 구성 요소는 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화하는 데 사용됩니다. 아코디언의 각 섹션은 일반적으로 헤더로 표시되며 사용자는 헤더를 클릭하여 해당 콘텐츠를 확장하거나 축소할 수 있습니다. 콘텐츠는 모든 핵심 구성 요소가 될 수 있습니다.
 
@@ -154,7 +152,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
 
-
    - **사용자 정의 텍스트**: ARIA 접근성 레이블에 사용자 정의 텍스트를 사용하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 사용자 정의 텍스트 대화 상자가 표시됩니다. 사용자 정의 텍스트 대화 상자에서 관련 정보를 추가할 수 있습니다.
    - **설명**: ARIA 접근성 레이블에 설명을 사용하려면 이 옵션을 선택합니다.
    - **제목**: ARIA 접근성 레이블에 제목을 사용하려면 이 옵션을 선택합니다.
@@ -226,9 +223,8 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 ### 사용자 정의 속성
 
-![아코디언 사용자 정의 속성 탭](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
-
-사용자 정의 속성을 사용하면 양식 템플릿을 사용하여 사용자 정의 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 Headless 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 Headless 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
+![아코디언-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
+사용자 지정 속성을 사용하면 양식 템플릿을 사용하여 사용자 지정 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 Headless 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 Headless 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
 
 - **그룹 이름**: 사용자 정의 속성 그룹을 식별하기 위해 이름을 제공할 수 있습니다. 여러 사용자 정의 속성 그룹을 추가, 삭제 또는 재배열할 수 있습니다. 사용자 정의 속성 그룹을 추가하면 다음 옵션이 표시됩니다.
 

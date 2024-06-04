@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '1340'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![디자인 대화 상자 허용된 구성 요소 탭](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-**허용된 구성 요소** 탭을 사용하면 템플릿 편집기에서 적응형 양식 편집기의 구성 요소 패널에 항목으로 추가할 수 있는 구성 요소를 설정할 수 있습니다.
+다음 **허용된 구성 요소** 탭 을 사용하면 템플릿 편집기에서 항목으로 구성 요소의 패널에 추가 가능한 구성 요소를 적응형 Forms 편집기에서 설정할 수 있습니다.
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 

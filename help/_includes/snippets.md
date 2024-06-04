@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 100%
 ## 다음과 같음 {#more-like-this}
 
 - [아코디언](/help/adaptive-forms/components/accordion.md)
+- [적응형 양식 단편](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [적응형 양식 reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [버튼](/help/adaptive-forms/components/button.md)
 - [확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
 - [확인란](/help/adaptive-forms/components/checkbox.md)
 - [날짜 선택기](/help/adaptive-forms/components/date-picker.md)
 - [드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
-- [이메일 입력](/help/adaptive-forms/components/email-input.md)
+- [이메일](/help/adaptive-forms/components/email.md)
 - [양식 컨테이너](/help/adaptive-forms/components/form-container.md)
+- [양식 제목](/help/adaptive-forms/components/form-title.md)
 - [첨부 파일](/help/adaptive-forms/components/file-attachment.md)
-- [적응형 양식 단편](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [바닥글](/help/adaptive-forms/components/footer.md)
 - [헤더](/help/adaptive-forms/components/header.md)
 - [이미지](/help/adaptive-forms/components/image.md)
 - [숫자 상자](/help/adaptive-forms/components/numeric-box.md)
 - [패널](/help/adaptive-forms/components/panel.md)
+- [모바일](/help/adaptive-forms/components/phone.md)
 - [가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
 - [세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
 - [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
 - [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
 - [제출 버튼](/help/adaptive-forms/components/submit-button.md)
-- [전화번호 입력](/help/adaptive-forms/components/telephone-input.md)
 - [텍스트 상자](/help/adaptive-forms/components/text-box.md)
 - [텍스트](/help/adaptive-forms/components/text.md)
-- [제목](/help/adaptive-forms/components/title.md)
 - [약관 탭](/help/adaptive-forms/components/terms-and-conditions.md)
 - [마법사](/help/adaptive-forms/components/wizard.md)
 
