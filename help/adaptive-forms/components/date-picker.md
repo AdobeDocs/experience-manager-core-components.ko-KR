@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
 description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 99%
+source-wordcount: '2299'
+ht-degree: 93%
 
 ---
 
@@ -131,6 +131,21 @@ To experience the Accordion Component as well as see examples of its configurati
 - **표시 형식** - 사용자에게 표시되는 날짜 형식을 나타냅니다. **유형** 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
 
 - **편집 형식** - 사용자가 날짜를 편집할 수 있는 날짜 형식을 나타냅니다. **유형** 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
+- **오류 메시지 포맷** - 이 옵션을 사용하면 입력한 날짜가 올바른 형식이 아닐 때 화면에 표시되는 메시지를 입력할 수 있습니다.
+- **언어** - 이 기능은 특정 필드의 형식을 지정하는 데 사용됩니다. 사용자가 다음에서 언어 옵션을 선택하면 **유형** 드롭다운 메뉴, **IETF BCP 47 언어 태그** 패널에 옵션이 나타납니다. 적응형 양식을 특정 언어로 번역할 때 필드 서식의 언어를 선택할 수 있습니다.
+
+언어 세트는 기본적으로 표시되지 않지만 사용자가 사용자 지정을 입력할 수 있습니다 **IETF BCP 47 언어 태그** 템플릿 정책을 업데이트하여 다음을 수행합니다.
+
+1. 템플릿 편집기에서 적응형 양식과 연결된 해당 템플릿을 엽니다.
+2. 기존 정책을 다음으로 선택 `datepicker-default-policy` 드롭다운 메뉴에서 을(를) 선택합니다.
+
+   ![날짜 선택 템플릿 정책](/help/adaptive-forms/assets/date-picker-template-policy.png)
+
+3. **완료**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   >
+   > 적응형 양식을 특정 로케일로 변환하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [여기를 클릭하십시오](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## 디자인 대화 상자 {#design-dialog}
 
