@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 96%
       + [적응형 양식 양식 조각](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
       + [적응형 양식 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
-      + [적응형 Forms Captcha](/help/adaptive-forms/components/hcaptcha.md)
+      + [적응형 양식 hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
       + [적응형 양식 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
