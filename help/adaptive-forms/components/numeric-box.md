@@ -4,15 +4,15 @@ description: 적응형 양식 숫자 입력 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2283'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 숫자 상자 구성 요소{#number-input-adaptive-forms-core-component}
 
-적응형 양식의 Numeric Box 구성 요소는 사용자가 숫자 값을 입력할 수 있는 양식 필드 유형입니다. 구성 요소는 일반적으로 숫자를 늘리거나 줄이기 위한 위쪽 및 아래쪽 화살표가 있는 텍스트 필드로 표시됩니다.
+적응형 양식의 숫자 상자 구성 요소는 사용자가 숫자 값을 입력할 수 있는 양식 필드 유형입니다. 구성 요소는 일반적으로 숫자를 늘리거나 줄이기 위한 위쪽 및 아래쪽 화살표가 있는 텍스트 필드로 표시됩니다.
 
 최소, 최대, 단계, 값 등과 같은 속성과 함께 사용할 수도 있습니다. 이러한 속성을 사용하여 필드에 허용되는 최솟값과 최댓값, 숫자를 늘리거나 줄이기 위한 단계 간격 및 필드의 기본값을 설정할 수 있습니다.
 
@@ -127,25 +127,25 @@ To experience the Accordion Component as well as see examples of its configurati
 ![접근성 탭](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **형식 표시** - 이 옵션을 통해 다양한 정수 숫자 형식에서 표시할 옵션을 선택할 수 있습니다. 사용자가 **유형** 드롭다운 메뉴에서 옵션을 선택하면 패널에 **형식** 옵션이 표시됩니다. 숫자가 사용자에게 표시되는 특정 형식을 선택할 수 있습니다.
-- **언어** - 이 기능은 특정 필드의 형식을 지정하는 데 사용됩니다. 사용자가 다음에서 언어 옵션을 선택하면 **유형** 드롭다운 메뉴, **IETF BCP 47 언어 태그** 패널에 옵션이 나타납니다. 적응형 양식을 특정 언어로 번역할 때 필드 서식의 언어를 선택할 수 있습니다.
+- **언어** - 이 기능은 특정 필드의 형식을 지정하는 데 사용됩니다. 사용자가 **유형** 드롭다운 메뉴에서 언어 옵션을 선택하면 패널에 **IETF BCP 47 언어 태그** 옵션이 나타납니다. 적응형 양식을 특정 언어로 번역할 때 필드 서식에 사용할 언어를 선택할 수 있습니다.
 
-언어 세트는 기본적으로 표시되지 않지만 사용자가 사용자 지정을 입력할 수 있습니다 **IETF BCP 47 언어 태그** 템플릿 정책을 업데이트하여 다음을 수행합니다.
+언어 세트는 기본적으로 표시되지 않지만 사용자는 템플릿 정책을 업데이트하여 사용자 정의 **IETF BCP 47 언어 태그**&#x200B;를 입력할 수 있습니다.
 
 1. 템플릿 편집기에서 적응형 양식과 연결된 해당 템플릿을 엽니다.
-2. 기존 정책을 다음으로 선택 `numberinput-default-policy` 드롭다운 메뉴에서 을(를) 선택합니다.
+2. 드롭다운 메뉴에서 기존 정책을 `numberinput-default-policy`로 선택합니다.
 
-   ![날짜 선택 템플릿 정책](/help/adaptive-forms/assets/numberinput-template-policy.png)
+   ![날짜 선택기 템플릿 정책](/help/adaptive-forms/assets/numberinput-template-policy.png)
 
 3. **완료**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
-   > 적응형 양식을 특정 로케일로 변환하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [여기를 클릭하십시오](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > 적응형 양식을 특정 로케일로 번역하는 방법에 대한 자세한 내용은 [여기를 클릭하십시오](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자 를 사용하여 숫자 상자 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 대화 상자는 숫자 상자 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
@@ -153,7 +153,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![스타일 탭](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **기본 CSS 클래스**: 적응형 Forms 숫자 상자 핵심 구성 요소에 대한 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 숫자 상자 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 

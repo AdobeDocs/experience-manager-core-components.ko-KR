@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [적응형 양식 컨테이너](/help/adaptive-forms/components/form-container.md)
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
       + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
-      + [적응형 Forms 이메일](/help/adaptive-forms/components/email.md)
+      + [적응형 양식 이메일](/help/adaptive-forms/components/email.md)
       + [적응형 양식 양식 조각](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [적응형 양식 첨부 파일](/help/adaptive-forms/components/file-attachment.md)
       + [적응형 양식 세로 탭](/help/adaptive-forms/components/vertical-tabs.md)
@@ -127,10 +127,10 @@ ht-degree: 97%
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
       + [적응형 양식 스위치](/help/adaptive-forms/components/adaptive-form-switch.md)
-      + [적응형 Forms Phone](/help/adaptive-forms/components/phone.md)
+      + [적응형 양식 모바일](/help/adaptive-forms/components/phone.md)
       + [적응형 양식 텍스트](/help/adaptive-forms/components/text.md)
       + [적응형 양식 텍스트 상자](/help/adaptive-forms/components/text-box.md)
-      + [적응형 Forms 양식 제목](/help/adaptive-forms/components/form-title.md)
+      + [적응형 양식 양식 제목](/help/adaptive-forms/components/form-title.md)
       + [적응형 양식 마법사](/help/adaptive-forms/components/wizard.md)
       + [적응형 양식 약관](/help/adaptive-forms/components/terms-and-conditions.md)
       + [헤더](/help/adaptive-forms/components/header.md)

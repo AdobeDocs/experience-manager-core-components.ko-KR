@@ -4,13 +4,13 @@ description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 적응형 양식 단편 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
+# 적응형 양식 조각 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
 
 적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)이라고 합니다.
 

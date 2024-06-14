@@ -4,13 +4,13 @@ description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 사용 약관 구성 요소
+# 약관 구성 요소
 
 **약관** 구성 요소는 사용자가 서비스를 사용하거나 콘텐츠에 액세스할 때 동의하거나 준수해야 하는 약관, 규칙 및 조건을 설명하는 양식 내 섹션을 나타냅니다.
 

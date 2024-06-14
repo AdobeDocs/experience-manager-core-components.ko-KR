@@ -4,9 +4,9 @@ description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

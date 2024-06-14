@@ -4,13 +4,13 @@ description: 적응형 양식 가로 탭 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 수평 탭 구성 요소 (상단 탭) 구성 요소{#horizontal-tabs-adaptive-forms-core-component}
+# 가로 탭 구성 요소(상단 탭) 구성 요소{#horizontal-tabs-adaptive-forms-core-component}
 
 적응형 양식의 가로 탭은 양식의 여러 섹션이 함께 그룹화되고 가로로 정렬된 별도의 탭으로 표시되는 디자인 패턴을 나타냅니다. 사용자는 탭 사이를 전환하여 양식의 다른 섹션에 액세스할 수 있습니다. 각 탭은 관련 양식 콘텐츠를 표시하고 숨기는 트리거 역할을 합니다. 가로 탭은 긴 양식을 관리 가능한 섹션으로 구성하고 사용자 경험을 개선하는 데 도움이 됩니다. 탭은 장애가 있는 사용자가 키보드 탐색을 사용하여 섹션 간에 전환할 수 있으므로 양식에 더 쉽게 액세스할 수 있도록 도와줍니다.
 
@@ -50,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 기술 세부 정보 {#technical-details}
 
-의 기술 설명서에서 적응형 Forms 수평 탭 핵심 구성 요소에 대한 최신 정보를 알아봅니다 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
+적응형 양식 가로 탭 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
@@ -146,10 +146,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 Forms 수평 탭 구성 요소의 경우 다음을 설정할 수 있습니다.
+디자인 대화 상자를 사용하면 템플릿 작성자가 요소들이 기본적으로 표시되는 방식을 제어할 수 있습니다. 적응형 양식 가로 탭 구성 요소의 경우 다음과 같은 옵션을 설정할 수 있습니다.
 
-- 양식 작성자가 적응형 Forms 편집기의 가로 탭에 추가할 수 있는 핵심 구성 요소
-- 적응형 Forms 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 간단한 스타일 이름(CSS 클래스).
+- 양식 작성자가 적응형 양식 편집기에서 가로 탭에 추가할 수 있는 핵심 구성 요소
+- 적응형 양식 편집기에서 가로 탭 구성 요소의 속성 대화 상자에 적용할 수 있는 스타일(CSS 클래스)의 간단한 이름입니다.
 
 이렇게 하면 양식을 만들고 사용자 정의하는 프로세스를 보다 간단하고 효율적으로 만들 수 있습니다.
 

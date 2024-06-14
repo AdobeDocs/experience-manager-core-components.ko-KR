@@ -4,9 +4,9 @@ description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,13 +138,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자 를 사용하여 패널 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 대화 상자는 패널 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 허용된 구성 요소 탭 {#allowed-components-tab}
 
 ![디자인 대화 상자 허용된 구성 요소 탭](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-다음 **허용된 구성 요소** 탭 을 사용하면 템플릿 편집기에서 항목으로 구성 요소의 패널에 추가 가능한 구성 요소를 적응형 Forms 편집기에서 설정할 수 있습니다.
+**허용된 구성 요소** 탭을 사용하면 템플릿 편집기에서 적응형 양식 편집기의 구성 요소 패널에 항목으로 추가할 수 있는 구성 요소를 설정할 수 있습니다.
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 

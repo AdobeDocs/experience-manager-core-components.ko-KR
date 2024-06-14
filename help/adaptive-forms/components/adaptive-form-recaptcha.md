@@ -1,18 +1,18 @@
 ---
-title: 적응형 Forms 핵심 구성 요소 - Google reCAPTCHA
-description: AEM Forms을 사용하여 Google reCAPTCHA 서비스를 통해 손쉽게 양식 보안을 강화할 수 있습니다. 적응형 양식 reCaptcha 속성 설명
+title: 적응형 양식 핵심 구성 요소 - Google reCAPTCHA
+description: AEM Forms를 사용하면 Google reCAPTCHA 서비스를 통해 양식 보안을 손쉽게 강화할 수 있습니다. 적응형 양식 reCaptcha의 속성 설명
 role: Architect, Developer, Admin, User
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
+source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-
 # 적응형 양식 reCAPTCHA {#google-recaptcha}
 
-CAPTCHA(Complete Automated Public Turning Test to tell Computers and Humans Apart)는 온라인 거래에서 일반적으로 사용되는 프로그램으로 인간과 자동화된 프로그램 또는 봇을 구별합니다. 문제를 제기하고 사용자 응답을 평가하여 사이트와 상호 작용하는 것이 인간인지 봇인지 판단합니다. 테스트가 실패할 경우 사용자가 진행하지 못하도록 차단하고 봇이 스팸을 게시하거나 악의적인 목적으로 상호 작용하는 것을 방지하여 온라인 거래를 안전하게 할 수 있도록 도와줍니다.
+CAPTCHA(컴퓨터와 인간을 구분하기 위해 완전히 자동화된 공개 튜링 테스트)는 인간과 자동화된 프로그램 또는 봇을 구별하기 위해 온라인 거래에서 일반적으로 사용되는 프로그램입니다. 문제를 제기하고 사용자 응답을 평가하여 사이트와 상호 작용하는 것이 인간인지 봇인지 판단합니다. 테스트가 실패할 경우 사용자가 진행하지 못하도록 차단하고 봇이 스팸을 게시하거나 악의적인 목적으로 상호 작용하는 것을 방지하여 온라인 거래를 안전하게 할 수 있도록 도와줍니다.
 
 AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 지원합니다. 양식 제출 시 CAPTCHA 문제를 표시하는 데 사용할 수 있습니다.
 
@@ -57,21 +57,21 @@ AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 �
 - **제목** - 제목을 사용하면 양식에서 구성 요소를 쉽게 식별할 수 있으며, 기본적으로 제목은 구성 요소 상단에 나타납니다. 제목을 추가하지 않으면 제목 텍스트 대신 구성 요소의 이름이 표시됩니다.
 
 - **제목에 대해 서식 있는 텍스트 허용** - 이 기능을 사용하면 사용자가 굵게, 기울임꼴, 밑줄 친 텍스트, 다양한 글꼴, 글꼴 크기, 색상, 추가 옵션과 같은 기능을 통합해 일반 텍스트 제목의 서식을 지정하여 시각적 표현 및 사용자 정의를 향상할 수 있습니다. 더 큰 유연성과 창의적인 제어 기능으로 문서, 웹 사이트 또는 애플리케이션 내에서 제목을 돋보이게 할 수 있습니다.\
-  **제목의 리치 텍스트 허용] 확인란을 선택하면 구성 요소 제목의 스타일을 지정하는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭을 클릭하면 됩니다.
+  **제목에 대해 서식 있는 텍스트 허용 확인란을 선택하면 구성 요소 제목의 스타일을 지정할 수 있는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭을 클릭하면 됩니다.
 
   ![서식 있는 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
 - **언바운드 양식 요소로 표시**: 어떤 스키마에도 연결되지 않은 양식 필드를 구성하려면 이 옵션을 선택합니다. 이 옵션을 사용하면 데이터 소스를 업데이트하지 않고도 데이터를 저장할 수 있습니다. 또한 표준 데이터베이스 통합과 별도로 사용자 정의 방식으로 데이터를 처리할 수 있습니다.
-- **구성 설정**: AEM Forms을 Google의 reCAPTCHA 서비스와 연결하는 클라우드 구성이 포함된 구성 컨테이너를 선택합니다.
+- **구성 설정**: AEM Forms를 Google에서 제공하는 reCAPTCHA 서비스와 연결하는 클라우드 구성이 포함된 구성 컨테이너를 선택합니다.
 
   >[!NOTE]
   >
-  > 다음을 참조하십시오. [핵심 구성 요소를 기반으로 하는 AEM 적응형 양식에서 Google reCAPTCHA 사용](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) 사용자 환경에 맞는 Google reCAPTCHA를 만들고 구성하는 방법에 대해 알아보려면 이 문서를 참조하십시오.
+  > 환경에 맞게 Google reCAPTCHA를 만들고 구성하는 방법을 알아보려면 [핵심 구성 요소 기반 AEM 적응형 양식에서 Google reCAPTCHA 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) 문서를 참조하십시오.
 
-- **유형**: reCAPTCHA 크기를 선택하려면 이 옵션을 선택하십시오.
-   - **기본**: 사용자가 특히 화면이 더 큰 디바이스에서 보다 잘 보이고 쉽게 상호 작용할 수 있는 표준 버전의 reCAPTCHA 위젯을 참조합니다.
-   - **콤팩트**: 더 작은 버전의 reCAPTCHA 위젯을 나타냅니다. 이 옵션은 모바일 장치나 웹 페이지의 타이트한 레이아웃과 같이 공간이 제한된 상황에 적합합니다.
+- **유형**: reCAPTCHA 크기를 선택하려면 이 옵션을 선택합니다.
+   - **일반**: 더 큰 표준 reCAPTCHA 위젯 버전을 의미하며, 특히 화면이 큰 디바이스에서 눈에 더 잘 띄어 사용자가 더 쉽게 상호 작용할 수 있습니다.
+   - **작게**: 더 작은 reCAPTCHA 위젯 버전을 나타냅니다. 이 옵션은 모바일 디바이스에서나 웹 페이지의 레이아웃이 좁은 경우와 같이 공간이 제한된 상황에 적합합니다.
 
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 
@@ -89,15 +89,15 @@ AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 �
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자 를 사용하여 reCAPTCHA 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 대화 상자는 reCAPTCHA 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 스타일 탭 {#styles-design-tab}
 
-적응형 Forms reCAPTCHA 핵심 구성 요소는 AEM을 지원합니다 [스타일 시스템](/help/get-started/authoring.md#component-styling).
+적응형 양식 reCAPTCHA 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ![디자인 대화 상자](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **기본 CSS 클래스**: 적응형 Forms reCAPTCHA 핵심 구성 요소에 대한 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 reCAPTCHA 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 

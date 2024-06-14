@@ -1,19 +1,19 @@
 ---
-title: 적응형 Forms 핵심 구성 요소 - 전화 입력, 전화
+title: 적응형 양식 핵심 구성 요소 - 전화번호 입력, 모바일
 description: 적응형 양식 전화번호 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2197'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 전화 구성 요소{#telephone-input-adaptive-forms-core-component}
+# 모바일 구성 요소{#telephone-input-adaptive-forms-core-component}
 
-적응형 양식 전화 핵심 구성 요소를 사용하여 전화 번호를 입력할 수 있습니다. 전화번호 입력 필드에는 전화번호와 관련된 모바일 디바이스의 키보드가 표시됩니다. 전화번호의 형식과 설명을 지정하기 위해 “패턴” 및 “플레이스홀더”와 같은 추가 속성으로 사용자 정의할 수 있습니다.
+적응형 양식 모바일 핵심 구성 요소는 사용자가 전화번호를 입력할 수 있도록 합니다. 전화번호 입력 필드에는 전화번호와 관련된 모바일 디바이스의 키보드가 표시됩니다. 전화번호의 형식과 설명을 지정하기 위해 “패턴” 및 “플레이스홀더”와 같은 추가 속성으로 사용자 정의할 수 있습니다.
 
 전화번호 입력 필드는 일반적으로 연락처 양식, 등록 양식 및 연락 수단으로 전화번호가 필요한 기타 양식에서 사용됩니다. 브라우저가 “패턴” 속성을 기반으로 전화번호의 길이 및 형식과 같은 특정 제한 사항을 적용할 수 있으므로, 전화 입력 필드를 사용하여 사용자가 유효한 전화번호를 입력했는지 확인할 수도 있습니다.
 
@@ -123,15 +123,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자 를 사용하여 휴대폰 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 대화 상자는 모바일 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
-탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 Forms Phone 핵심 구성 요소는 AEM을 지원합니다 [스타일 시스템](/help/get-started/authoring.md#component-styling).
+탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 모바일 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ![디자인 대화 상자](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
-- **기본 CSS 클래스**: 적응형 Forms Phone 핵심 구성 요소에 대한 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 모바일 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 

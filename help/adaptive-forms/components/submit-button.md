@@ -4,13 +4,13 @@ description: 적응형 양식 제출 버튼 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1509'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 제출 단추 구성 요소 {#submit-button}
+# 제출 버튼 구성 요소 {#submit-button}
 
 적응형 양식의 제출 버튼은 사용자가 처리를 위해 양식 데이터를 서버에 제출할 수 있도록 하는 버튼입니다. 제출 버튼을 클릭하면 양식 데이터가 서버로 전송되어 저장되거나, 처리되거나, 이메일 전송 또는 데이터베이스 업데이트와 같은 다양한 용도로 사용될 수 있습니다.
 

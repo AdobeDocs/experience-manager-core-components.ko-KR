@@ -4,9 +4,9 @@ description: 적응형 양식 제목 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 탭을 사용하여 양식 제목 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 탭은 양식 제목 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 제목
 
