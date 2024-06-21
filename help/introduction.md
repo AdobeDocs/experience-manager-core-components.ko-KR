@@ -4,7 +4,7 @@ description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 39c9dd3374ea7c31b9f03cc02e883ab26f463368
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * [콘텐츠 조각 목록](components/content-fragment-list.md)
 * [임베드](components/embed.md)
 * [소셜 미디어 공유](components/sharing.md) (사용 안 함)
-* [분리자](components/separator.md)
+* [구분자](components/separator.md)
 * [진행률 표시줄](components/progress-bar.md)
 * [PDF 뷰어](components/pdf-viewer.md)
 
