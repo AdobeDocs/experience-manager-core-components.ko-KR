@@ -3,10 +3,10 @@ title: 슬링 컨텍스트 인식 구성 및 핵심 구성 요소
 description: 핵심 구성 요소는 특정 기능에 대한 슬링 컨텍스트 인식 구성을 활용합니다.
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 87%
 
 ---
 
@@ -26,8 +26,9 @@ AEM의 구성에 대한 자세한 내용은 [구성 및 구성 브라우저 설�
 
 * `/conf/<my-site>/sling:configs/<my-configuration>`
 
-개별 구성은 특정 구성 요소나 기능에 따라 다릅니다. 텍스트 인식 구성을 사용하는 핵심 구성 요소의 기능은 다음과 같습니다.
+개별 구성은 특정 구성 요소나 기능에 따라 다릅니다. 컨텍스트 인식 구성을 사용하는 핵심 구성 요소의 기능은 다음과 같습니다.
 
+* [페이지 구성 요소](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) 렌더링 시 컨텍스트 인식 구성에 의존 `link`, `script` 및 `meta` 태그 사이에 코드를 삽입하지 마십시오.
 * [PDF 뷰어 구성 요소](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md#installation-activation)
 * [AMP 지원](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
