@@ -4,7 +4,7 @@ description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1954'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능 | 호환 가능 |
+| v1 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 호환 가능 |
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 

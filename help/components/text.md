@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2180'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능 | 호환 가능 |
+| v2 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](v1/text-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
@@ -133,7 +133,7 @@ ht-degree: 100%
    * 상위 프레임
    * 맨 위 프레임
 
-   확인 표시를 탭하거나 클릭하여 링크를 적용하거나 x를 탭하거나 클릭하여 취소합니다.
+  확인 표시를 탭하거나 클릭하여 링크를 적용하거나 x를 탭하거나 클릭하여 취소합니다.
 
 ### 연결 해제
 

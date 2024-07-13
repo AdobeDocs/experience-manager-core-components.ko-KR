@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -76,11 +76,11 @@ ht-degree: 100%
 ![이메일 티저 구성 요소의 편집 대화 상자 이미지 탭](/help/email/assets/email-teaser-edit-image.png)
 
 * **페이지에서 추천 이미지 상속** - 링크된 페이지의 페이지 속성에 정의된 이미지를 사용하거나 찾을 수 없는 경우 현재 페이지를 사용합니다.
-* **이미지 에셋** - [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+* **이미지 자산** - [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
    * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 * **접근성을 위한 그림 설명** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
-   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 에셋이 없는 경우 현재 페이지의 연결된 에셋 값에 대한 대체 설명을 사용합니다.
+   * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 자산이 없는 경우 현재 페이지의 연결된 자산 값에 대한 대체 설명을 사용합니다.
 * **그림 설명을 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
 
 >[!NOTE]

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '574'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | 호환 가능 <br>[2.17.4](/help/versions.md) 및 이전 릴리스 | 호환 가능 | 호환 가능 |
+| v2 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](/help/components/v1/form-text-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.

@@ -4,7 +4,7 @@ description: 적응형 양식 확인란 그룹 핵심 구성 요소를 사용 �
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 100%
 

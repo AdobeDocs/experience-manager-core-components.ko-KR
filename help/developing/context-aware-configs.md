@@ -4,7 +4,7 @@ description: 핵심 구성 요소는 특정 기능에 대한 슬링 컨텍스트
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

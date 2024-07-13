@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ AEM과 핵심 구성 요소의 현지화 기능 전체는 현지화된 콘텐츠
    * 바닥글을 나타내는 조각 언어를 작성할 때 경험 조각 구성 요소를 조각 경로로 지정합니다.
    * 조각의 경로와, 현지화된 페이지 구조를 미러링하는 경험 조각의 구조를 기반으로 구성 요소는 현지화된 해당 콘텐츠를 자동으로 검색할 수 있습니다.
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## 페이지 {#pages}
 

@@ -4,7 +4,7 @@ description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 100%
 

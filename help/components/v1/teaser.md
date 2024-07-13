@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 핵심 구성 요소의 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 
-## 사용량 {#usage}
+## 사용 {#usage}
 
 콘텐츠 작성자는 티저 구성 요소를 통해 이미지, 제목이나 서식 있는 텍스트와 추가 콘텐트 링크 또는 기타 작업을 통해 티저를 손쉽게 제작할 수 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ### 기술 세부 사항 {#technical-details}
 
-티저 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_teaser_v1_kr).
+티저 구성 요소에 대한 최신 기술 설명서는 [GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_kr)에서 찾아볼 수 있습니다.
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image-v1.md)로 전달합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자](image-v1.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
+티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image-v1.md)로 위임합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자](image-v1.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 

@@ -4,7 +4,7 @@ description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 100%
 

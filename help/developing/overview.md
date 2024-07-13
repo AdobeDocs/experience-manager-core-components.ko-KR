@@ -5,7 +5,7 @@ role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 100%
 새 프로젝트는 항상 핵심 구성 요소 사용을 시도해야 합니다. 프로젝트 요구 사항에 부합하는 핵심 구성 요소를 바로 사용하거나 [확장](customizing.md)할 수 없을 경우 핵심 구성 요소에 명시된 구성 요소 아키텍처에 따라 맞춤형 구성 요소를 만듭니다. 불가능한 경우를 제외하고 [기초 구성 요소](/help/versions.md#foundation-component-support)를 사용하지 마십시오.
 * **기존 프로젝트**
 사이트 또는 구성 요소 리팩터링이 예정되는 경우가 아니라면 [기초 구성 요소](/help/versions.md#foundation-component-support)를 지속적으로 사용하는 것이 좋습니다.\
-   기존 프로젝트에서 널리 사용되기 때문에 기초 구성 요소를 [지속적으로 지원할 수 있습니다](/help/versions.md#foundation-component-support).
+  기존 프로젝트에서 널리 사용되기 때문에 기초 구성 요소를 [지속적으로 지원할 수 있습니다](/help/versions.md#foundation-component-support).
 * **새 맞춤형 구성 요소**
 기존 [핵심 구성 요소를 사용자 정의할 수 있는지 평가합니다.](customizing.md)\
-   그렇지 않으면 [구성 요소 가이드라인](guidelines.md)에 따라 새 맞춤형 구성 요소를 빌드하는 것이 좋습니다.
+  그렇지 않으면 [구성 요소 가이드라인](guidelines.md)에 따라 새 맞춤형 구성 요소를 빌드하는 것이 좋습니다.
 * **기존 맞춤형 구성 요소**
-구성 요소가 정상적으로 작동하면 그대로 유지합니다.
-\
-   그렇지 않으면 상기 “새 맞춤형 구성 요소”를 참조하십시오.
+구성 요소가 정상적으로 작동하면 그대로 유지합니다.\
+  그렇지 않으면 상기 “새 맞춤형 구성 요소”를 참조하십시오.
 
 ## 핵심 구성 요소로 성공하는 방법은? {#how-to-succeed}
 

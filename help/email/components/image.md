@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1621'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 이메일 이미지 구성 요소에는 페이지 방문자의 소극적 로드와 콘텐츠 작성자의 간단한 드래그 앤 드롭 이미지 배치 및 구성 옵션이 있는 적응형 이미지 선택 기능과 반응형 비헤이비어가 포함됩니다.
 
 * 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 이미지 폭 및 추가 설정 옵션을 정의할 수 있습니다.
-* 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 에셋을 업로드하거나 선택할 수 있습니다.
+* 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 자산을 업로드하거나 선택할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이메일 이미지 구성 요소는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이메일 이미지 구성 요소는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 이메일 핵심 구성 요소가 내장된 이메일 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
@@ -144,7 +144,7 @@ ht-degree: 100%
 * **DAM에서 그림 설명 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 그림 설명을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **DAM에서 캡션 다운로드** - 페이지에 이미지 구성 요소를 추가할 때 DAM에서 캡션을 검색하는 옵션이 자동으로 활성화되면 정의합니다.
 * **팝업으로 캡션 표** - 페이지에 이미지 구성 요소를 추가할 때 팝업으로 이미지 캡션을 표시하는 옵션이 자동으로 활성화되면 정의합니다.
-* **폭 조정** - 이 값은 DAM 에셋인 베이스 이미지의 폭을 조정하는 데 사용됩니다.
+* **폭 조정** - 이 값은 DAM 자산인 베이스 이미지의 폭을 조정하는 데 사용됩니다.
    * 이미지의 종횡비가 유지됩니다.
    * 값이 이미지의 실제 폭보다 크면 이 값은 효과가 없습니다.
    * 이 값은 SVG 이미지에 영향을 주지 않습니다.

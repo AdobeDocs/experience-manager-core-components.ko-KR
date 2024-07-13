@@ -4,7 +4,7 @@ description: 적응형 양식 제출 버튼 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 100%
 

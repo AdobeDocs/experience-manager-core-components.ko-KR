@@ -4,8 +4,8 @@ description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '775'
+workflow-type: tm+mt
+source-wordcount: '769'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | 호환 가능 <br>[2.0.4](/help/adaptive-forms/version.md) 및 이후 릴리스 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
+| v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 

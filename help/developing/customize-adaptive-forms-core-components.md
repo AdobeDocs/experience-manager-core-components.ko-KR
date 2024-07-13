@@ -2,13 +2,13 @@
 title: 적응형 양식 핵심 구성 요소 사용자 정의
 description: 조직에 맞는 기능을 구현하기 위해 적응형 양식 핵심 구성 요소를 확장하거나 생성하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: ht
-source-wordcount: '707'
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
-
 
 # 적응형 양식 핵심 구성 요소 사용자 정의
 
@@ -57,4 +57,3 @@ ht-degree: 100%
 1. **프로덕션 환경에 사용자 정의 구성 요소 배포**
 
    로컬 개발 환경에서 구성 요소를 테스트한 후 프로덕션 환경에 구성 요소를 배포합니다.
-
