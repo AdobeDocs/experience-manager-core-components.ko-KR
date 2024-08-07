@@ -3,10 +3,10 @@ title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 100%
+source-wordcount: '2181'
+ht-degree: 99%
 
 ---
 
@@ -302,9 +302,9 @@ ht-degree: 100%
 
 ![인라인 편집 예제](/help/assets/text-edit-inline-example.png)
 
-### 설정 및 ID {#setting-id}
+### ID 설정 {#setting-id}
 
-이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
+이 옵션을 사용하면 HTML 및 [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.](/help/developing/data-layer/overview.md)
 
 * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
 * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
