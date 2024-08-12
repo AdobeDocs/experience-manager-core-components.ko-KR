@@ -4,9 +4,9 @@ description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 �
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 ### 기술 세부 사항 {#technical-details}
 
-텍스트 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_text_v2_kr).
+텍스트 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_text_v2_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -304,7 +304,7 @@ ht-degree: 99%
 
 ### ID 설정 {#setting-id}
 
-이 옵션을 사용하면 HTML 및 [데이터 레이어에서 구성 요소의 고유 식별자를 제어할 수 있습니다.](/help/developing/data-layer/overview.md)
+이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
 * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.
 * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
@@ -372,4 +372,4 @@ ht-degree: 99%
 
 ## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
-텍스트 구성 요소는 [ Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)지원합니다.
+텍스트 구성 요소는 [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)를 지원합니다.
