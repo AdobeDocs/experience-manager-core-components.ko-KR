@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: eafbe18b13830edde3535fbb67d9ef62b7d045f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 | `artifact-rules` | 아티팩트의 알려진 문제를 사전에 방지하기 위해 번들 및 패키지와 같은 종속 항목을 확인합니다.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `aem-env-var` | [변수 이름 지정 가이드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)에 따라 env vars의 사용을 확인합니다.<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | 예 | 예 |
 | `content-package-validation` | FileVault 유효성 검사기를 실행합니다. 기본적으로 jackrabbit-docviewparser가 활성화되며 배포 도중 설치될 내부 패키지의 xml에 대한 올바른 형식의 콘텐츠 구문을 검사합니다.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>이를 해결하려면 분석기에서 지정한 파일에 xml 문제가 있는지 확인하십시오. | 예 | 예 |
-| `aem-provider-type` | 응용 프로그램 코드가 AEM(제품)에서 &quot;ProviderType&quot; 인터페이스/클래스를 구현하거나 확장하는지 여부를 확인합니다. [CQBP-84](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/custom-code-quality-rules.html?lang=en#product-apis-annotated-with-providertype-should-not-be-implemented-or-extended-by-customers)을(를) 참조하십시오. | 예 | 예 |
-| `configurations-basic` | &quot;service.ranking&quot; 속성에 올바른 유형을 지정하지 않는 등의 일반적인 오류에 대해 OSGi 구성을 확인합니다. | 예 | 예 |
+| `aem-provider-type` | 애플리케이션 코드가 AEM(제품)의 “ProviderType” 인터페이스/클래스를 구현하거나 확장하는지 확인하십시오. [CQBP-84](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/custom-code-quality-rules.html?lang=ko#product-apis-annotated-with-providertype-should-not-be-implemented-or-extended-by-customers)를 참조하십시오. | 예 | 예 |
+| `configurations-basic` | “service.ranking” 속성에 대한 올바른 유형을 지정하지 않는 것과 같은 일반적인 실수에 대해 OSGi 구성을 확인합니다. | 예 | 예 |
 
 {style="table-layout:auto"}
 
@@ -49,7 +49,7 @@ AEM Maven 프로젝트에 이 옵션을 포함시키는 방법에 대한 자세�
 
 다음은 Build Analyzer Maven 플러그인 사용 시 잘 알려진 문제의 목록입니다.
 
-### Build Analyzer Maven 플러그인은 로컬 SDK에서 실행되지 않음
+### Build Analyzer Maven 플러그인이 로컬 SDK에서 실행되지 않음
 
 `1.1.2` 미만의 Build Analyzer Maven 플러그인으로 로컬 SDK를 사용하는 경우 플러그인을 실행하면 아래의 오류가 발생할 수 있습니다. 이 경우 프로젝트를 최신 버전의 플러그인으로 업데이트합니다.
 
