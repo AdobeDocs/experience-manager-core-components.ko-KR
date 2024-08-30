@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 100%
+source-wordcount: '2205'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,6 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 적응형 양식 조각 | ✔️ | ✔️ | | 기초 구성 요소의 경우 자산 브라우저에서 [조각을 추가](https://experienceleague.adobe.com/kr/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)할 수 있습니다. |
 | 적응형 양식 reCAPTCHA | ✔️ | ✔️ | ✔️ | 기초 구성 요소의 경우 Captcha 구성 요소를 사용하여 [양식에 Google reCaptcha를 추가](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)합니다. |
 | 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | 기초 구성 요소의 경우 Captcha 구성 요소를 사용하여 [양식에 Google reCaptcha를 추가](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)합니다. |
 | 차트 | ✔️ | | | |
 | 확인란 | ✔️ | ✔️ | | |
 | 확인란 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 기초 구성 요소의 경우 확인란 구성 요소를 사용하여 여러 확인란을 추가합니다. |
@@ -105,12 +104,11 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 패널 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 암호 상자 | ✔️ | | ✔️ | |
 | 전화 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| 이전 버튼 | ✔️ | | | 여러 패널 사이를 이동하려면 다음 및 이전 버튼에 대해 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md)를 사용합니다. |
-| 라디오 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| 라디오 버튼 그룹 | | | ✔️ | |
+| 이전 버튼 | ✔️ | ✔️ | | 여러 패널 사이를 이동하려면 다음 및 이전 버튼에 대해 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md)를 사용합니다. |
+| 라디오 버튼 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | 재설정 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 낙서 서명 | ✔️ | | | |
-| 구분자 | ✔️ | | | |
+| 구분자 | ✔️ | | | WCM [분리자](/help/components/separator.md) 구성 요소 사용 |
 | 제출 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 요약 단계 | ✔️ | | | |
 | 전환 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 약관 | ✔️ | ✔️ | | |
 | 텍스트 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 텍스트 상자 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 제목 | ✔️ | | | 핵심 구성 요소의 경우 [양식 제목](/help/adaptive-forms/components/form-title.md) 구성 요소를 사용합니다. |
 | Turnstile Captcha | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)는 기초 구성 요소에만 사용할 수 있습니다. |
 | 세로 탭 | ✔️ | ✔️ | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [왼쪽 탭(세로 탭) 레이아웃](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 | 마법사 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [마법사 레이아웃](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
