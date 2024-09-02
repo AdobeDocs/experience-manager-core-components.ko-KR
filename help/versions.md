@@ -3,16 +3,16 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 39c9dd3374ea7c31b9f03cc02e883ab26f463368
+source-git-commit: 1df528aec070c21c836f2fd6a92c7c6460f30798
 workflow-type: tm+mt
-source-wordcount: '3079'
-ht-degree: 100%
+source-wordcount: '3087'
+ht-degree: 99%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성의 현재 릴리스는 2.25.4이고 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
+핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온-프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
+| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 이 릴리스는 다양한 버그 수정 사항을 해결합니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 7월 31일 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 10일 |
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 9일 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 이 릴리스에는 Dynamic Media에서 명명된 스마트 자르기에 대한 지원이 추가되었으며 성능 및 접근성 개선 사항과 다양한 버그 수정이 포함되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 2일 |
