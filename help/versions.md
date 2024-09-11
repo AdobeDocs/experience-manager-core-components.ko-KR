@@ -4,15 +4,15 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 1df528aec070c21c836f2fd6a92c7c6460f30798
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko-KR) 및 [온-프레미스 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko-KR) 설치와 호환됩니다.
+핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|
-| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 이 릴리스는 다양한 버그 수정 사항을 해결합니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 7월 31일 |
+| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 7월 31일 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 10일 |
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 9일 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 이 릴리스에는 Dynamic Media에서 명명된 스마트 자르기에 대한 지원이 추가되었으며 성능 및 접근성 개선 사항과 다양한 버그 수정이 포함되었습니다. | - | 6.5.21.0+ | 반복 | 8, 11 | 2024년 5월 2일 |
@@ -183,4 +183,4 @@ ht-degree: 99%
 
 Adobe의 개발 역점이 핵심 구성 요소로 전환되면서 새 기능이 추가될 예정입니다.
 
-[거의 모든 기초 구성 요소가 AEM 6.5에서 사용되지 않으며](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ko-KR) 주요 버그 해결만 향후 기초 구성 요소로 간주됩니다.
+[거의 모든 기초 구성 요소가 AEM 6.5에서 사용되지 않으며](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ko) 주요 버그 해결만 향후 기초 구성 요소로 간주됩니다.
