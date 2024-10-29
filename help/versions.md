@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3103'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
