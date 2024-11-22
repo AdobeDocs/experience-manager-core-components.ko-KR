@@ -5,7 +5,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: 330e07af360377bf85169296647b43ae7023694b
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 100%
@@ -77,13 +77,13 @@ hCaptcha 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/ad
 
 다음과 같은 기타 **Captcha 구성 요소** 및 해당 서비스에 대해 **자세히** 알아보십시오.
 
-- [핵심 구성 요소에 대한 적응형 양식에서의 hCaptcha 사용](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hCaptcha-core-components)
+- [핵심 구성 요소에 대한 적응형 양식에서의 hCaptcha 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [기초 구성 요소에 대한 적응형 양식에서의 hCaptcha 사용](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [기초 구성 요소에 대한 적응형 양식에서의 hCaptcha 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [기초 구성 요소에 대한 적응형 양식에서의 Turnstile CAPTCHA 사용](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [기초 구성 요소에 대한 적응형 양식에서의 Turnstile CAPTCHA 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [기초 구성 요소에 대한 적응형 양식에서의 Google reCAPTCHA 사용](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [기초 구성 요소에 대한 적응형 양식에서의 Google reCAPTCHA 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## 관련 문서 {#related-articles}
 
