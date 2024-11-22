@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 텍스트
 description: 적응형 양식 텍스트 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 아코디언 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 텍스트 핵심 구성 요소는 Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -53,6 +53,8 @@ To experience the Accordion Component as well as see examples of its configurati
 ## 구성 대화 상자 {#configure-dialog}
 
 구성 대화 상자를 사용하여 방문자를 위한 텍스트 경험을 손쉽게 사용자 정의할 수 있습니다. 텍스트 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
+
+### 기본 탭
 
 ![기본 탭](/help/adaptive-forms/assets/text_properties.png)
 

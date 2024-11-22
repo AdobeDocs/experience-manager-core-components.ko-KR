@@ -1,43 +1,48 @@
 ---
-title: 적응형 양식 핵심 구성 요소 - 전화번호 입력, 모바일
-description: 적응형 양식 전화번호 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
+title: 적응형 Forms 핵심 구성 요소 - 암호 상자
+description: 적응형 Forms 암호 상자 핵심 구성 요소 사용 또는 사용자 지정.
 role: Architect, Developer, Admin, User
-exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+hide: true
+hidefromtoc: true
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 98%
+source-wordcount: '1916'
+ht-degree: 90%
 
 ---
 
+# 암호 상자 구성 요소
 
-# 모바일 구성 요소{#telephone-input-adaptive-forms-core-component}
+<span class="preview"> 이는 프리릴리스 기능이고 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해 액세스할 수 있습니다. </span>
 
-적응형 양식 모바일 핵심 구성 요소는 사용자가 전화번호를 입력할 수 있도록 합니다. 전화번호 입력 필드에는 전화번호와 관련된 모바일 디바이스의 키보드가 표시됩니다. 전화번호의 형식과 설명을 지정하기 위해 “패턴” 및 “플레이스홀더”와 같은 추가 속성으로 사용자 정의할 수 있습니다.
+암호 상자 구성 요소를 사용하면 일반적으로 개인 정보에 대해 마스킹되어 있는 중요한 정보를 입력하고 편집할 수 있습니다. 데이터의 정확성을 보장하기 위해 다양한 유효성 검사 규칙으로 암호 구성 요소를 구성할 수 있습니다. 양식에 일반적으로 사용되는 암호 필드는 간단하고 데이터 보안을 향상시킵니다.
 
-전화번호 입력 필드는 일반적으로 연락처 양식, 등록 양식 및 연락 수단으로 전화번호가 필요한 기타 양식에서 사용됩니다. 브라우저가 “패턴” 속성을 기반으로 전화번호의 길이 및 형식과 같은 특정 제한 사항을 적용할 수 있으므로, 전화 입력 필드를 사용하여 사용자가 유효한 전화번호를 입력했는지 확인할 수도 있습니다.
+**예**
 
-![예](/help/adaptive-forms/assets/emailid-example.png)
+![passwordbox의 예](/help/adaptive-forms/assets/password.png)
 
-## 사용 {#reasons-to-use-telephone-input}
+사용자는 눈 모양 아이콘을 클릭하여 입력한 암호 텍스트의 가시성을 전환할 수 있습니다. 사용자가 기밀 정보를 정확하게 입력할 수 있도록 하면서 보안성을 강화한다.
 
-적응형 양식에서 전화번호 입력 필드를 사용하는 일반적인 이유는 다음과 같습니다.
+## 사용
 
-- **연락처 정보**: 전화번호 입력 필드는 일반적으로 연락 수단으로서 사용자의 전화번호를 수집하는 데 사용됩니다.
+적응형 양식에서 암호 상자 구성 요소를 사용해야 하는 몇 가지 이유가 있습니다.
 
-- **데이터 정확도 개선**: 전화번호 입력 필드를 사용하면 양식에서 전화번호 형식에 특정 제한 사항을 적용할 수 있으므로 입력된 데이터가 정확하고 완전하다는 것을 확인할 수 있습니다.
+- **보안 데이터 수집**: 암호 상자 필드는 개인 정보 보호를 위해 마스크된 문자를 표시하는 암호, PIN 및 기타 기밀 항목과 같은 중요한 정보를 수집하는 데 사용됩니다.
 
-- **더 나은 사용자 경험**: 전화번호 입력 필드는 사용자가 자신의 전화번호를 입력할 수 있는 명확하고 직관적인 방법을 제공하며, 사용자가 빠르고 쉽게 연락처 정보를 입력할 수 있도록 하여 사용자 경험을 개선할 수 있습니다.
+- **사용자에게 친숙한**: 암호 상자 필드를 사용하면 정보를 화면에 표시하지 않고 안전하게 입력하고 편집할 수 있습니다.
 
-## 버전 및 호환성 {#version-and-compatibility}
+- **유연성**: 암호 상자 구성 요소는 강력한 데이터 보호와 정확성을 보장하기 위해 최소 문자 길이, 특수 문자 또는 기타 사용자 지정 유효성 검사와 같은 보안 요구 사항을 충족하도록 구성할 수 있습니다.
 
-적응형 Forms Phone 핵심 구성 요소는 Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+<!--
+## Version and Compatibility {#version-and-compatibility}
 
-| 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
+The Adaptive Forms Password box Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-| v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -45,15 +50,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 기술 세부 정보 {#technical-details}
 
-적응형 양식 전화번호 입력 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
+적응형 양식 최상위 탭 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
-구성 대화 상자를 사용하여 방문자를 위한 전화번호 입력 경험을 손쉽게 사용자 정의할 수 있습니다. 전화번호 입력 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
+구성 대화 상자를 사용하여 방문자를 위한 텍스트 입력 경험을 손쉽게 사용자 정의할 수 있습니다. 텍스트 입력 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
 
 ### 기본 탭
 
-![기본 탭](/help/adaptive-forms/assets/telephoneinput_basictab.png)
+![기본 탭](/help/adaptive-forms/assets/password-basic.png)
 
 - **이름** - 양식과 규칙 편집기 모두에서 고유한 이름으로 양식 구성 요소를 쉽게 식별할 수 있습니다. 단, 이름에는 공백이나 특수 문자가 포함되어서는 안 됩니다.
 
@@ -64,8 +69,8 @@ To experience the Accordion Component as well as see examples of its configurati
   ![서식 있는 텍스트 지원](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **제목 숨기기** - 구성 요소의 제목을 숨기려면 이 옵션을 선택합니다.
-- **플레이스홀더 텍스트** - 양식 구성 요소의 플레이스홀더 텍스트는 입력 필드에 입력할 것으로 예상되는 정보 유형에 대한 힌트로 입력 필드 내에 표시되는 간단한 레이블 또는 프롬프트를 나타냅니다. 플레이스홀더 텍스트는 사용자가 필드에 입력을 시작하면 사라지고 필드가 비어 있으면 다시 나타납니다. 사용자에게 시각적인 단서를 제공하지만 필드에 대한 영구적인 레이블 또는 값으로 작동하지는 않습니다.
 
+- **플레이스홀더 텍스트** - 양식 구성 요소의 플레이스홀더 텍스트는 입력 필드에 입력할 것으로 예상되는 정보 유형에 대한 힌트로 입력 필드 내에 표시되는 간단한 레이블 또는 프롬프트를 나타냅니다. 플레이스홀더 텍스트는 사용자가 필드에 입력을 시작하면 사라지고 필드가 비어 있으면 다시 나타납니다. 사용자에게 시각적인 단서를 제공하지만 필드에 대한 영구적인 레이블 또는 값으로 작동하지는 않습니다.
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
 - **언바운드 양식 요소로 표시**: 어떤 스키마에도 연결되지 않은 양식 필드를 구성하려면 이 옵션을 선택합니다. 이 옵션을 사용하면 데이터 소스를 업데이트하지 않고도 데이터를 저장할 수 있습니다. 또한 표준 데이터베이스 통합과 별도로 사용자 정의 방식으로 데이터를 처리할 수 있습니다.
 
@@ -75,13 +80,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 
-- **기본값** - 이 옵션을 사용하면 양식 필드에 기본값을 추가할 수 있습니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택하면 화면에 기본값이 표시됩니다. 사용자가 양식 필드에 값을 입력하지 않으면 이 값이 양식 제출 시 함께 제출됩니다.
-
-- **자동 채우기 속성**: 이 옵션을 사용하면 저장된 정보를 기반으로 양식 필드 내에 자동으로 채워지는 값을 사용자가 입력할 수 있습니다.
-
 ### 유효성 검사 탭 {#validation-tab}
 
-![유효성 검사 탭](/help/adaptive-forms/assets/telephoneinput_validationtab.png)
+![유효성 검사 탭](/help/adaptive-forms/assets/password-validation.png)
 
 - **필수** - 적응형 양식에 구성 요소를 표시하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 양식 제출을 진행하기 전에 값을 입력해야 합니다. 이 옵션이 선택되어 있으면 **기본** 탭에서 **구성 요소 숨기기** 또는 **구성 요소 비활성화**&#x200B;를 선택할 수 없습니다.
 
@@ -97,24 +98,25 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **최소 문자 오류 메시지** - **최소 문자 수** 옵션에 지정된 값보다 작은 문자를 입력한 경우, **최소 문자 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-**유효성 검사 패턴** 옵션을 사용하면 입력한 전화번호의 유효성을 검사하는 패턴을 입력할 수 있습니다. 입력한 전화번호는 **패턴** 옵션에 입력한 값과 비교하여 유효성이 검사됩니다. 전화번호가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패한 경우 화면에 오류 메시지가 표시됩니다.
+**유효성 검사 패턴** 옵션을 사용하면 입력한 텍스트의 유효성을 검사하는 패턴을 입력할 수 있습니다. 텍스트가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패한 경우 화면에 오류 메시지가 표시됩니다.
 
-- **패턴** - 이 옵션을 사용하면 전화번호에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규 표현식도 허용됩니다.
+- **패턴** - 이 옵션을 사용하면 텍스트에 대해 허용된 확인 패턴을 입력할 수 있습니다. 정규 표현식도 허용됩니다.
 
-- **오류 메시지** - 이 옵션을 사용하면 입력한 전화번호가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패할 경우 화면에 표시되는 메시지를 입력할 수 있습니다.
+- **오류 메시지** - 이 옵션을 사용하면 텍스트가 **패턴** 옵션에 입력된 값으로 유효성 검사에 실패할 경우 화면에 표시되는 메시지를 입력할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
-![도움말 콘텐츠 탭](/help/adaptive-forms/assets/telephoneinput_helptab.png)
+![도움말 콘텐츠 탭](/help/adaptive-forms/assets/password-help.png)
 
 - **간단한 설명** - 간단한 설명은 특정 양식 필드의 용도에 대한 추가 정보 또는 설명을 제공하는 간단한 텍스트 설명입니다. 사용자가 필드에 입력해야 하는 데이터 유형을 이해하는 데 도움이 되며 입력된 정보가 유효하고 원하는 기준을 충족하는지 확인하는 데 도움이 되는 지침 또는 예시를 제공할 수 있습니다. 기본적으로 간단한 설명은 숨겨진 상태로 유지됩니다. **간단한 설명 항상 표시** 옵션을 활성화하여 구성 요소 아래에 표시할 수 있습니다.
+
 - **간단한 설명 항상 표시** - 이 옵션을 활성화하여 구성 요소 아래에 간단한 설명을 표시할 수 있습니다.
 
 - **도움말 텍스트** - 도움말 텍스트는 양식 필드를 올바르게 작성하는 데 도움이 되도록 사용자에게 제공되는 추가 정보 또는 지침을 나타냅니다. 구성 요소 옆에 있는 도움말 아이콘(i)을 클릭하면 표시됩니다. 도움말 텍스트는 양식 필드의 레이블이나 플레이스홀더 텍스트보다 더 자세한 정보를 제공하며 사용자가 필드의 요구 사항이나 제한 사항을 이해하는 데 도움이 되도록 설계되었습니다. 또한 양식을 보다 쉽고 정확하게 작성할 수 있도록 제안이나 예시를 제공할 수도 있습니다.
 
 ### 접근성 탭 {#accessibility-tab}
 
-![접근성 탭](/help/adaptive-forms/assets/telephoneinput_accessibilitytab.png)
+![접근성 탭](/help/adaptive-forms/assets/password-accessibilty.png)
 
 - **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
    - **사용자 정의 텍스트**: ARIA 접근성 레이블에 사용자 정의 텍스트를 사용하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 사용자 정의 텍스트 대화 상자가 표시됩니다. 사용자 정의 텍스트 대화 상자에서 관련 정보를 추가할 수 있습니다.
@@ -125,21 +127,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자는 모바일 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
+디자인 대화 상자는 텍스트 상자 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
-탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 모바일 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 텍스트 상자 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
-![디자인 대화 상자](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
+![스타일 탭](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **기본 CSS 클래스**: 적응형 양식 모바일 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 텍스트 상자 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
 ### 사용자 정의 속성
 
-![사용자 정의 속성 대화 상자](/help/adaptive-forms/assets/telephoneinput-customproperties.png)
+![사용자 정의 속성 대화 상자](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 사용자 정의 속성을 사용하면 양식 템플릿을 사용하여 사용자 정의 속성(키-값 쌍)을 적응형 양식 핵심 구성 요소에 연결할 수 있습니다. 사용자 정의 속성은 구성 요소의 Headless 렌디션에서 속성 섹션에 반영됩니다. 사용자 정의 속성 값에 따라 조정되는 동적 양식 동작을 만들 수 있습니다. 예를 들어 개발자는 모바일, 데스크탑 또는 웹 플랫폼을 위한 Headless 양식 구성 요소의 다양한 표현을 디자인하여 다양한 디바이스에서 사용자 경험을 크게 향상시킬 수 있습니다.
 
@@ -151,17 +153,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
-### 형식 탭 {#format-tab}
+### 형식 탭 {#formats-tab}
 
-형식 탭에서는 기본 및 사용자 정의 숫자 형식을 지정할 수 있습니다.
+형식 탭에서는 기본 및 사용자 정의 날짜 형식을 지정할 수 있습니다.
 
-![형식 탭](/help/adaptive-forms/assets/telephoneinput_format.png)
-
-### 유효성 검사 패턴 탭 {#validation-patterns-tab}
-
-유효성 검사 패턴 탭을 사용하면 특정 형식으로 값을 입력하거나 특정 기준을 충족할 수 있습니다. 일부 옵션은 기본적으로 사용 가능하며, 해당 확인란을 선택하여 선택할 수 있습니다. 또한 **추가** 버튼을 클릭하여 맞춤형 형식을 추가할 수 있습니다.
-
-![유효성 검사 탭](/help/adaptive-forms/assets/telephoneinput-validationpatterns.png)
+![형식 탭](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 
@@ -170,7 +166,6 @@ To experience the Accordion Component as well as see examples of its configurati
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
-
 
 ## 관련 문서 {#related-articles}
 

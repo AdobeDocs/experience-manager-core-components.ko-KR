@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 확인란
 description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 100%
 ## 구성 대화 상자 {#configure-dialog}
 
 구성 대화 상자를 사용하여 방문자를 위한 확인란 경험을 손쉽게 사용자 정의할 수 있습니다. 확인란 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
+
+### 기본 탭
 
 ![기본 탭](/help/adaptive-forms/assets/checkbox-basic.png)
 

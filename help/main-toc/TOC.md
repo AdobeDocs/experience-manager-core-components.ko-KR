@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
       + [적응형 양식 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
+      + [적응형 Forms 암호 상자](/help/adaptive-forms/components/password-box.md)
       + [적응형 양식 패널](/help/adaptive-forms/components/panel.md)
       + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)

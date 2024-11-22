@@ -3,10 +3,10 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
-workflow-type: ht
-source-wordcount: '2205'
-ht-degree: 100%
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+workflow-type: tm+mt
+source-wordcount: '2198'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Experience Manager(AEM)에서 구성 요소는 페이지와 양식을 작�
 
 ## 적응형 양식 핵심 구성 요소
 
-적응형 양식 핵심 구성 요소는 Adobe Experience Manager WCM 핵심 구성 요소를 기반으로 구축된 29개의 오픈 소스 BEM 호환 구성 요소 세트입니다. 사용자의 디바이스, 브라우저 및 화면 크기에 맞춰 조정되는 양식인 적응형 양식을 만드는 데 사용하도록 특별히 설계되었습니다.
+적응형 Forms 핵심 구성 요소는 Adobe Experience Manager WCM 핵심 구성 요소 를 기반으로 구축된 30개의 오픈 소스 BEM 호환 구성 요소 세트입니다. 사용자의 디바이스, 브라우저 및 화면 크기에 맞춰 조정되는 양식인 적응형 양식을 만드는 데 사용하도록 특별히 설계되었습니다.
 
 이러한 구성 요소를 사용하면 텍스트 필드, 확인란, 드롭다운 메뉴 등을 포함한 다양한 양식 필드 옵션을 제공하여 탁월한 데이터 캡처 및 등록 경험을 만들 수 있습니다. 또한 여기에는 사용자 친화적이고 사용하기 쉬운 양식을 만드는 데 사용할 수 있는 유효성 검사, 조건부 논리 및 반응형 디자인과 같은 기능이 포함되어 있습니다.
 
@@ -97,12 +97,10 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 헤더 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 가로 탭 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [상단 탭(가로 탭) 레이아웃](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 | 이미지 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
-| 이미지 선택 | ✔️ | | | |
 | 다음 버튼 | ✔️ | ✔️ | | 여러 패널 사이를 이동하려면 다음 및 이전 버튼에 대해 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md)를 사용합니다. |
 | 숫자 상자 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 숫자 스텝퍼 | ✔️ | | | |
 | 패널 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| 암호 상자 | ✔️ | | ✔️ | |
 | 전화 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | 이전 버튼 | ✔️ | ✔️ | | 여러 패널 사이를 이동하려면 다음 및 이전 버튼에 대해 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md)를 사용합니다. |
 | 라디오 버튼 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
@@ -120,7 +118,9 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 세로 탭 | ✔️ | ✔️ | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [왼쪽 탭(세로 탭) 레이아웃](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 | 마법사 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [마법사 레이아웃](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 
-
+<!--| Password Box | ✔️ | ✔️| ✔️ | |
+| Image Choice | ✔️ | | | |
+-->
 
 
 >[!NOTE]
