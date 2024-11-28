@@ -4,15 +4,15 @@ description: 웹 페이지에 적응형 양식을 추가합니다.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 양식 컨테이너 {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에서는 시험판 기능인 **초안** <!--and **Hamburger Menu Support** --> 기능에 대해 설명합니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해서만 액세스할 수 있습니다.</span>
+<span class="preview"> 이 문서에서는 프리릴리스 기능인 **초안** <!--and **Hamburger Menu Support** --> 기능에 대해 설명합니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ko-KR#new-features)을 통해서만 액세스할 수 있습니다.</span>
 
 양식을 사용하면 웹 사이트 방문자가 가치 있는 정보를 제공하여 웹 사이트와 상호 작용할 수 있으므로 참여도와 사용자 만족도를 높일 수 있습니다. AEM(Adobe Experience Manager) Sites의 적응형 양식 컨테이너를 사용하면 웹 사이트 소유자가 자신의 페이지에 간편하게 양식을 추가할 수 있습니다. 이는 방문자가 피드백을 제공하고, 문의하고, 기타 작업을 완료할 수 있는 간소화된 방법을 제공하여 웹 사이트 방문자와 웹 사이트 소유자 또는 조직 간의 커뮤니케이션을 촉진하는 데 도움이 됩니다.
 
@@ -66,10 +66,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **미리 채우기 서비스** - 이 옵션을 사용하여 적응형 양식이 렌더링될 때 미리 채우기 서비스를 선택하여 데이터를 검색할 수 있습니다. [미리 채우기 서비스를 만들고 구성하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ko-KR#aem-forms-custom-prefill-service)에 대해 자세히 알아보십시오.
 
-- **역할**: 역할은 화면 판독기와 같은 보조 기술에 HTML 요소의 목적을 지정하는 데 사용되는 HTML 특성입니다. 역할 속성은 요소에 추가 컨텍스트 및 의미를 제공하는 데 사용되며, 이를 통해 화면 판독기는 콘텐츠를 더 쉽게 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 “레이블”이라는 역할을 가질 수 있으며 해당 입력 필드는 “텍스트 상자”라는 역할을 가질 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알릴 수 있습니다.
+- **역할**: 역할은 화면 판독기와 같은 보조 기술에 대한 HTML 요소의 용도를 지정하는 데 사용되는 HTML 속성입니다. 역할 속성은 요소에 추가 컨텍스트 및 의미를 제공하는 데 사용되며, 이를 통해 화면 판독기는 콘텐츠를 더 쉽게 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 “레이블”이라는 역할을 가질 수 있으며 해당 입력 필드는 “텍스트 상자”라는 역할을 가질 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알릴 수 있습니다.
 
 - **클라이언트 라이브러리 범주** - 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
-**복잡한 유효성 검사 규칙**&#x200B;이 있는 경우에는 정확한 유효성 검사 스크립트는 사용자 정의 함수에 있고 사용자는 필드 유효성 검사 표현식에서 이러한 사용자 정의 함수를 호출합니다. 서버측 유효성 검사를 수행하는 동안 이 사용자 지정 함수 라이브러리를 알고 사용할 수 있도록 하려면 양식 사용자는 적응형 양식 컨테이너 속성의 **[!UICONTROL 기본]** 탭에서 AEM 클라이언트 라이브러리의 이름을 구성할 수 있습니다.
+**복잡한 유효성 검사 규칙**&#x200B;이 있는 경우에는 정확한 유효성 검사 스크립트는 사용자 정의 함수에 있고 사용자는 필드 유효성 검사 표현식에서 이러한 사용자 정의 함수를 호출합니다. 서버측 유효성 검사를 수행하면서 이 사용자 정의 함수 라이브러리를 이해하고 사용할 수 있도록 양식 사용자는 적응형 양식 컨테이너 속성의 **[!UICONTROL 기본]** 탭 아래에서 AEM 클라이언트 라이브러리 이름을 구성할 수 있습니다.
 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지됩니다.
 
 <!--
@@ -88,15 +88,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![제출 탭](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **자동으로 초안 저장**: 양식을 초안으로 저장하려면 **자동으로 초안 저장** 확인란을 선택하십시오.
-- **환경 설정 저장**: **환경 설정 저장**&#x200B;을(를) **일정한 간격으로 초안 저장**(으)로 구성하여 특정 시간 간격 후에 양식을 자동 저장합니다.
-  **저장 간격 빈도(초)**: 정의된 간격에서 양식의 자동 저장을 트리거하는 기간을 설정하려면 시간 간격(초)을 지정하십시오.
+- **자동으로 초안 저장**: **자동으로 초안 저장** 확인란을 선택하면 양식을 초안으로 저장할 수 있습니다.
+- **환경 설정 저장**: **정기적으로 초안 저장**&#x200B;으로 **환경 설정 저장**을 구성하면 일정 시간이 지날 때 양식을 자동으로 저장하게 할 수 있습니다.
+  **간격 빈도(초) 저장**: 정의된 간격으로 양식이 자동 저장되는 기간을 설정할 시간 간격(초)을 지정합니다.
 
 ### 제출 탭 {#submission-tab}
 
 사용자는 적응형 양식 제출에 대해 다양한 작업을 구성할 수 있습니다.
 
-- **리디렉션 URL/경로** - 이 옵션을 사용하면 사용자가 적응형 양식을 제출한 후 양식 사용자가 리디렉션되는 각 양식에 대한 페이지를 구성할 수 있습니다. [리디렉션 페이지 구성 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
+- **리디렉션 URL/경로** - 이 옵션을 사용하면 사용자가 적응형 양식을 제출한 후 양식 사용자가 리디렉션되는 각 양식에 대한 페이지를 구성할 수 있습니다. [리디렉션 페이지 구성 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=ko-KR)에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
 
 ![제출 탭](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
@@ -104,7 +104,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![메시지 표시 탭](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-- **제출 액션** - 사용자가 적응형 양식에서 [제출] 버튼을 클릭하면 제출 액션이 트리거됩니다. 사용자는 기본적으로 지원되는 드롭다운 목록에서 [제출 작업]을 선택할 수 있습니다. [[제출] 탭에서 제출 액션을 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)하는 방법에 대해 알아보십시오.
+- **제출 액션** - 사용자가 적응형 양식에서 [제출] 버튼을 클릭하면 제출 액션이 트리거됩니다. 사용자는 기본적으로 지원되는 드롭다운 목록에서 [제출 작업]을 선택할 수 있습니다. [[제출] 탭에서 제출 액션을 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ko-KR#supporting-custom-functions-in-validation-expressions-br)하는 방법에 대해 알아보십시오.
 
 ## 디자인 대화 상자 {#design-dialog}
 

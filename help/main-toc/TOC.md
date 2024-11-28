@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
       + [적응형 양식 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
-      + [적응형 Forms 암호 상자](/help/adaptive-forms/components/password-box.md)
+      + [적응형 양식 암호 상자](/help/adaptive-forms/components/password-box.md)
       + [적응형 양식 패널](/help/adaptive-forms/components/panel.md)
       + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
@@ -140,8 +140,8 @@ ht-degree: 98%
    + [샘플 테마 및 템플릿](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
-   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko-KR)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko-KR)
    + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
    + [구성 요소 가이드라인](/help/developing/guidelines.md)
    + [AMP 지원](/help/developing/amp.md)

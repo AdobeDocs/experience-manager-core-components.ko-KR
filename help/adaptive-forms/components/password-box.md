@@ -1,37 +1,37 @@
 ---
-title: 적응형 Forms 핵심 구성 요소 - 암호 상자
-description: 적응형 Forms 암호 상자 핵심 구성 요소 사용 또는 사용자 지정.
+title: 적응형 양식 핵심 구성 요소 - 암호 상자
+description: 적응형 양식 암호 상자 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 암호 상자 구성 요소
 
-<span class="preview"> 이는 프리릴리스 기능이고 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해 액세스할 수 있습니다. </span>
+<span class="preview"> 이는 프리릴리스 기능이고 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ko-KR#new-features)을 통해 액세스할 수 있습니다. </span>
 
-암호 상자 구성 요소를 사용하면 일반적으로 개인 정보에 대해 마스킹되어 있는 중요한 정보를 입력하고 편집할 수 있습니다. 데이터의 정확성을 보장하기 위해 다양한 유효성 검사 규칙으로 암호 구성 요소를 구성할 수 있습니다. 양식에 일반적으로 사용되는 암호 필드는 간단하고 데이터 보안을 향상시킵니다.
+암호 상자 구성 요소를 사용하면 일반적으로 개인 정보 보호를 위해 가려진 민감한 정보를 입력하고 편집할 수 있습니다. 암호 구성 요소는 데이터 정확성을 보장하기 위해 다양한 유효성 검사 규칙으로 구성할 수 있습니다. 일반적으로 양식에서 사용되는 암호 필드는 간단하고 데이터 보안을 강화합니다.
 
 **예**
 
-![passwordbox의 예](/help/adaptive-forms/assets/password.png)
+![암호 상자의 예](/help/adaptive-forms/assets/password.png)
 
-사용자는 눈 모양 아이콘을 클릭하여 입력한 암호 텍스트의 가시성을 전환할 수 있습니다. 사용자가 기밀 정보를 정확하게 입력할 수 있도록 하면서 보안성을 강화한다.
+사용자가 눈 모양 아이콘을 클릭하여 입력한 암호 텍스트의 표시 여부를 전환할 수 있습니다. 보안을 강화하는 동시에 사용자가 기밀 정보를 정확하게 입력할 수 있도록 합니다.
 
 ## 사용
 
-적응형 양식에서 암호 상자 구성 요소를 사용해야 하는 몇 가지 이유가 있습니다.
+적응형 양식에서 암호 상자 구성 요소를 사용하는 데에는 다음과 같은 몇 가지 이유가 있습니다.
 
-- **보안 데이터 수집**: 암호 상자 필드는 개인 정보 보호를 위해 마스크된 문자를 표시하는 암호, PIN 및 기타 기밀 항목과 같은 중요한 정보를 수집하는 데 사용됩니다.
+- **안전한 데이터 수집**: 암호 상자 필드는 암호, PIN 및 기타 기밀 항목과 같은 민감한 정보를 수집하여 개인 정보 보호를 위해 가려진 문자를 표시하는 데 사용됩니다.
 
-- **사용자에게 친숙한**: 암호 상자 필드를 사용하면 정보를 화면에 표시하지 않고 안전하게 입력하고 편집할 수 있습니다.
+- **사용자 친화적**: 암호 상자 필드를 사용하면 화면에 정보를 노출하지 않고도 안전하게 정보를 입력하고 편집할 수 있습니다.
 
-- **유연성**: 암호 상자 구성 요소는 강력한 데이터 보호와 정확성을 보장하기 위해 최소 문자 길이, 특수 문자 또는 기타 사용자 지정 유효성 검사와 같은 보안 요구 사항을 충족하도록 구성할 수 있습니다.
+- **유연성**: 암호 상자 구성 요소는 강력한 데이터 보호 및 정확성을 보장하기 위해 최소 문자 길이, 특수 문자 또는 기타 사용자 정의 유효성 검사와 같은 보안 요구 사항을 충족하도록 구성할 수 있습니다.
 
 <!--
 ## Version and Compatibility {#version-and-compatibility}
