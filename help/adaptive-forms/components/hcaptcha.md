@@ -4,8 +4,9 @@ description: hCaptcha&reg; 서비스를 통해 손쉽게 양식 보안을 강화
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: 9a691fc2aa656f5a96d8cd4b6285e6bd473cdaa4
-workflow-type: tm+mt
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: be25eac36cafda0ff0cb745454593640cc54ceea
+workflow-type: ht
 source-wordcount: '583'
 ht-degree: 100%
 
