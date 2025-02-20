@@ -3,16 +3,22 @@ title: 적응형 이미지 서블릿
 description: 핵심 구성 요소가 이미지 제공을 위해 적응형 이미지 서블릿을 사용하는 방법과 해당 사용을 최적화하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
 # 적응형 이미지 서블릿 {#adaptive-image-servlet}
 
 핵심 구성 요소가 이미지 제공을 위해 적응형 이미지 서블릿을 사용하는 방법과 해당 사용을 최적화하는 방법에 대해 알아봅니다.
+
+>[!WARNING]
+>
+>성능상의 이유로 DAM에 이미지를 저장하고 웹에 최적화된 이미지 제공을 사용하는 것이 좋습니다.
+>
+>구성 요소 노드 바로 아래에 이미지를 저장하는 것은 간혹 사용하기 위한 것입니다. DAM 표현물을 활용하여 적응형 이미지 서블릿의 처리를 줄이지 않으며, 웹에 최적화된 이미지 제공의 성능 이점을 허용하지 않으므로 성능 문제가 발생할 수 있습니다.
 
 ## 적응형 이미지 서블릿 또는 웹에 최적화된 이미지 제공 {#options}
 
