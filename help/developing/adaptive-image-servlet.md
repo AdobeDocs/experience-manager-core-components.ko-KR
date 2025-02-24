@@ -3,10 +3,10 @@ title: 적응형 이미지 서블릿
 description: 핵심 구성 요소가 이미지 제공을 위해 적응형 이미지 서블릿을 사용하는 방법과 해당 사용을 최적화하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 85%
 
 >[!WARNING]
 >
->성능상의 이유로 DAM에 이미지를 저장하고 웹에 최적화된 이미지 제공을 사용하는 것이 좋습니다.
+>성능상의 이유로 DAM에 이미지를 저장하고 웹에 최적화된 이미지 게재를 사용할 것이 권장됩니다.
 >
->구성 요소 노드 바로 아래에 이미지를 저장하는 것은 간혹 사용하기 위한 것입니다. DAM 표현물을 활용하여 적응형 이미지 서블릿의 처리를 줄이지 않으며, 웹에 최적화된 이미지 제공의 성능 이점을 허용하지 않으므로 성능 문제가 발생할 수 있습니다.
+>구성 요소 노드 바로 아래에 이미지를 저장하는 이유는 가끔씩 사용하기 위한 것입니다. 이는 적응형 이미지 서블릿의 처리를 줄이기 위해 DAM 렌디션을 활용하지 않으며, 웹에 최적화된 이미지 게재의 성능 이점을 허용하지 않아 성능과 관련된 문제가 발생할 수 있습니다.
 
-## 적응형 이미지 서블릿 또는 웹에 최적화된 이미지 제공 {#options}
+## 적응형 이미지 서블릿 또는 웹에 최적화된 이미지 게재 {#options}
 
 이미지 핵심 구성 요소는 두 가지 방법을 사용하여 이미지를 게재할 수 있습니다.
 
@@ -41,9 +41,9 @@ ht-degree: 85%
 1. 원래 참조된 자산에 대해 MIME/유형이 동일한 자산만 선택합니다.
    * 예를 들어 원래 자산이 PNG 라면 PNG 렌디션만 고려하게 됩니다.
 1. 이들 렌디션 중 차원을 고려하여 이미지가 표시될 컨테이너의 크기와 비교합니다.
-   1. 렌디션이 컨테이너 크기 이상이면 후보 렌디션 목록에 추가됩니다.
-   1. 렌디션이 컨테이너 크기 미만이면 무시됩니다.
-   1. 이러한 기준은 이미지 품질에 영향을 미칠 수 있는 렌디션의 크기가 초과되지 않도록 보장합니다.
+1. 렌디션이 컨테이너 크기 이상이면 후보 렌디션 목록에 추가됩니다.
+1. 렌디션이 컨테이너 크기 미만이면 무시됩니다.
+1. 이러한 기준은 이미지 품질에 영향을 미칠 수 있는 렌디션의 크기가 초과되지 않도록 보장합니다.
 1. 적응형 이미지 서블릿은 이후 후보 목록에서 가장 작은 파일 크기를 갖는 렌디션을 선택합니다.
 
 ## 렌디션 선택 최적화 {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ ht-degree: 85%
 
 적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더의 캐싱은[ 발송자에서 활성화](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko#caching-http-response-headers)해야 합니다.
 
-[AEM Project Archetype](/help/developing/archetype/overview.md)의 샘플 발송자 구성에는 이미 이 구성이 포함됩니다.
+[AEM Project Archetype](/help/developing/archetype/overview.md) 샘플 Dispatcher 구성에 이미 이 구성이 포함되어 있습니다.
