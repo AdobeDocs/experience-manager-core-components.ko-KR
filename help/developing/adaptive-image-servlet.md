@@ -4,9 +4,9 @@ description: 핵심 구성 요소가 이미지 제공을 위해 적응형 이미
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,4 +56,4 @@ ht-degree: 97%
 
 적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더의 캐싱은[ 발송자에서 활성화](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko#caching-http-response-headers)해야 합니다.
 
-[AEM Project Archetype](/help/developing/archetype/overview.md) 샘플 Dispatcher 구성에 이미 이 구성이 포함되어 있습니다.
+[AEM Project Archetype](/help/developing/archetype/overview.md)의 샘플 Dispatcher 구성에 이미 이 구성이 포함됩니다.
