@@ -3,10 +3,10 @@ title: 핵심 구성 요소 소개
 description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
-workflow-type: ht
-source-wordcount: '808'
-ht-degree: 100%
+source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | WebApp 기반 | [간소화된 JSON 출력](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=ko)을 통해 클라이언트측을 렌더링하고 [상황에 맞게 편집](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ko)할 수 있습니다. |
 | AMP 지원 | 구성 요소는 [AMP 표준에 대한 내장된 지원](/help/developing/amp.md)을 제공하고 모바일 경험을 가속화합니다. |
 | 디자인 키트 | 디자이너는 [Adobe XD용 UL 키트](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)를 통해 [필요에 따라 스타일링](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)될 수 있는 와이어프레임을 만들 수 있습니다. |
-| 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
+| 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
 | 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 [간편한 맞춤화](developing/customizing.md)를 구현할 수 있습니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
 | 현지화 가능 | 스마트 참조 해상도를 사용하면 특정 구성 요소에서 [현지화된 해당 콘텐츠를 자동으로 검색하여 렌더링할 수 있습니다](get-started/localization.md). |
@@ -110,7 +110,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 패치 수준 | Java SE 버전 | Maven 버전 |
 |---------|---------|---------|---------|---------|
-| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 반복 | 6.5.21.0+ | 8, 11 | 3.3.9+ |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 반복 | 6.5.21.0+ | 8, 11 | 3.3.9+ |
 
 이전 핵심 구성 요소 릴리스의 요구 사항을 알아보려면 [핵심 구성 요소 버전](versions.md)을 참조하십시오.
 
