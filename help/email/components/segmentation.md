@@ -3,10 +3,10 @@ title: 이메일 세분화 구성 요소
 description: 이메일 세분화 구성 요소
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 100%
 
 현재 버전의 이메일 제목 구성 요소는 2022년 10월 이메일 세분화 구성 요소 릴리스 x과(와) 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
-| 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 호환 가능 | - |
+| 구성 요소 버전 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 호환 가능 | 호환 가능 | - |
 
 ### 기술 세부 사항 {#technical-details}
 
@@ -135,6 +135,6 @@ ht-degree: 100%
 * **세그먼트 조건 이름** - 조건에 대한 설명
 * **세그먼트 조건** - Adobe Campaign 개인화 변수를 기준으로 충족해야 하는 실제 조건
    * [Adobe Campaign Standard 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [Adobe Campaign Classic 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/
+   * [Adobe Campaign Classic 개인화 리소스는 여기를 참조하십시오.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **제거** - 탭하거나 클릭하여 조건 제거
 * **재배열** - 탭하거나 클릭하고 드래그하여 조건의 순서 재배열

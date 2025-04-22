@@ -3,10 +3,10 @@ title: 페이지 구성 요소
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 100%
 
 현재 버전의 페이지 구성 요소는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v3입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | 호환 가능 | 호환 가능 |
-| [v2](v2/page.md) | 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v3 | - | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v2](v2/page.md) | 호환 가능 | 호환 가능 | - | 호환 가능 |
+| [v1](v1/page-v1.md) | 호환 가능 | 호환 가능 | - | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

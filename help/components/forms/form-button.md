@@ -3,10 +3,10 @@ title: 양식 버튼 구성 요소
 description: 핵심 구성 요소의 양식 숨기기 구성 요소를 사용하여 양식에 숨겨진 필드를 포함할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 99%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 현재 버전의 양식 버튼 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 호환 가능 |
-| [v1](/help/components/v1/form-button-v1.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 야영용 | 호환 가능 |
+| [v1](/help/components/v1/form-button-v1.md) | 호환 가능 | 호환 가능 | - | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

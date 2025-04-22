@@ -3,10 +3,10 @@ title: 컨테이너 구성 요소
 description: 핵심 구성 요소의 컨테이너 구성 요소를 통해 페이지에서 다중 구성 요소의 컨테이너를 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 현재 버전의 컨테이너 구성 요소는 2019년 6월 핵심 구성 요소 릴리스 2.5.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v1 | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

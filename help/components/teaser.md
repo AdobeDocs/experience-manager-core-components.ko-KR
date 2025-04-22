@@ -3,10 +3,10 @@ title: 티저 구성 요소
 description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 99%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 현재 버전의 티저 구성 요소는 2022년 2월 핵심 구성 요소 릴리스 2.18.0과 함께 도입된 v2입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
-| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | - | 호환 가능 | 호환 가능 |
-| [v1](v1/teaser.md) | 호환 가능 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | - | 호환 가능 | 호환 가능 | 호환 가능 |
+| [v1](v1/teaser.md) | 호환 가능 | 호환 가능 | - | 호환 가능 |
 
 ## 원격 자산 지원 {#remote-assets}
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image.md)로 위임합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자](image.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
+티저 구성 요소는 이미지 렌더링을 [이미지 구성 요소](image.md)로 위임합니다. 따라서 콘텐츠 작성자는 이미지 구성 요소의 [편집 대화 상자]&#x200B;(image.md#edit-dialog)를 티저 이미지를 조작하는 데 사용할 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 

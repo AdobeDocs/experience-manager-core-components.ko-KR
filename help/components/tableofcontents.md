@@ -3,10 +3,10 @@ title: 목차 구성 요소
 description: 목차 구성 요소는 독자가 페이지를 빠르게 탐색할 수 있도록 페이지 콘텐츠의 제목을 기반으로 목차를 만듭니다.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 99%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 100%
 
 현재 버전의 목차 구성 요소는 2022년 5월 핵심 구성 요소 릴리스 2.20.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
-| 구성 요소 버전 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 호환 가능 | 호환 가능 |
+| 구성 요소 버전 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 호환 가능 | 호환 가능 | 호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

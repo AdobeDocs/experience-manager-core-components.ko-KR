@@ -3,10 +3,10 @@ title: 핵심 구성 요소 소개
 description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구하고 다른 구성 요소가 AEM 내에서 작성되도록 허용합니다.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
-workflow-type: ht
-source-wordcount: '807'
-ht-degree: 100%
+source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -108,9 +108,9 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 시스템 요구 사항 {#system-requirements}
 
-| 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 패치 수준 | Java SE 버전 | Maven 버전 |
-|---------|---------|---------|---------|---------|
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 반복 | 6.5.21.0+ | 8, 11 | 3.3.9+ |
+| 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 버전 | Maven 버전 |
+|---|---|---|---|---|---|
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 반복 | 6.5LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9+ |
 
 이전 핵심 구성 요소 릴리스의 요구 사항을 알아보려면 [핵심 구성 요소 버전](versions.md)을 참조하십시오.
 
