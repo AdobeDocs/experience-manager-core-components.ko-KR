@@ -3,10 +3,10 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 99%
+source-wordcount: '2062'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,14 @@ ht-degree: 99%
 >[!TIP]
 >
 >기본적으로 이미지 구성 요소는 적응형 이미지 서블릿에 의해 제공됩니다. 작동 방식에 대한 자세한 내용은 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)을 참조하십시오.
+
+### v2와의 차이점 {#v2-differences}
+
+이미지 구성 요소 버전 2와 달리 버전 3은 브라우저 기반 응답성을 사용합니다. 즉, 서로 다른 너비에 대한 이미지 소스 세트를 브라우저에 제공하면 브라우저가 가장 적합한 소스를 선택합니다.
+
+대부분의 경우 브라우저에서는 서버에서 더 작은 너비 이미지를 가져오는 대신 더 작은 뷰포트에 맞추기 위해 더 큰 너비를 로컬로 다운사이징하는 것을 선호합니다. 예상된 결과이며 이미지 구성 요소를 아트 방향(다른 뷰포트에 대해 다른 이미지/자르기)에 사용하지 말아야 하는 이유입니다.
+
+[자세한 내용은 이미지 구성 요소의 기술 설명서를 참조하십시오](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings).
 
 ## Dynamic Media 지원 {#dynamic-media}
 
