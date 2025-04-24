@@ -3,7 +3,7 @@ title: 핵심 이메일 구성 요소 버전
 description: 핵심 이메일 구성 요소는 릴리스로 게시됩니다.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 87%
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # 핵심 이메일 구성 요소 버전 {#core-components-versions}
 
-이메일 핵심 구성 요소의 현재 릴리스는 1.3.0이며 AEM 6.5 및 AEM 6.5 LTS와 호환됩니다.
+이메일 핵심 구성 요소의 현재 릴리스는 1.3.0이며 AEM 6.5(온-프레미스 및 AMS)와 호환됩니다.
 
 요구 사항 및 설치에 대한 자세한 내용은 각각 이메일 핵심 구성 요소 소개 문서의 [요구 사항 섹션](/help/email/introduction.md#requirements) 및 이메일 핵심 구성 요소 사용 문서의 [설치 섹션](/help/email/using.md#installing-the-email-core-components)을 참조하십시오.
 
