@@ -3,9 +3,9 @@ title: 이메일 제목 구성 요소
 description: 이메일 제목 구성 요소는 바로 편집 기능이 있는 이메일 섹션 머리말 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 | 구성 요소 버전 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 호환 가능 | 호환 가능 | - |
+| v1 | 호환 가능 | - | - |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [이메일 핵심 이메일 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

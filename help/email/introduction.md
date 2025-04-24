@@ -3,10 +3,10 @@ title: 이메일 핵심 구성 요소 소개
 description: 이메일 핵심 구성 요소의 유연성을 사용하여 매력적인 이메일 콘텐츠를 만들고 Adobe Campaign의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 | AEM | Adobe Campaign | 핵심 구성 요소 |
 |---|---|---|
-| AEM 6.5.14.0+ 또는 AEM 6.5 LTS GA<br>온프레미스 또는 AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [릴리스 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>온-프레미스 또는 AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [릴리스 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
