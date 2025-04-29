@@ -4,9 +4,9 @@ description: PDF 뷰어 구성 요소를 사용하여 PDF 문서를 표시할 �
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ## 사용량 {#usage}
 
-핵심 구성 요소의 PDF 뷰어 구성 요소는 뷰어를 임베드하여 페이지의 에셋으로 저장된 PDF 파일을 표시합니다.
+핵심 구성 요소의 PDF 뷰어 구성 요소는 뷰어를 임베드하여 페이지의 자산으로 저장된 PDF 파일을 표시합니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 
 PDF 뷰어 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_pdfviewer_kr)를 참조하십시오.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 PDF 뷰어 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_kr).
 
@@ -50,7 +50,7 @@ PDF 뷰어 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확�
 
 ### 구성 탭 {#configuration-tab}
 
-작성자는 구성 탭을 사용하여 표시할 PDF를 정의할 수 있습니다. AEM의 에셋이나 다른 리소스에 대한 절대 경로로 경로를 정의할 수 있습니다.
+작성자는 구성 탭을 사용하여 표시할 PDF를 정의할 수 있습니다. AEM의 자산이나 다른 리소스에 대한 절대 경로로 경로를 정의할 수 있습니다.
 
 ![PDF 뷰어 구성 요소의 편집 대화 상자 구성 탭](/help/assets/pdf-viewer-edit-configuration.png)
 

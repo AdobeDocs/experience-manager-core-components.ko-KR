@@ -4,9 +4,9 @@ description: 핵심 구성 요소와 관련된 문제에 대한 해결책을 구
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 리소스 {#resources}
 
-* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library_kr)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
+* **[구성 요소 라이브러리:](https://www.adobe.com/kr/go/aem_cmp_library)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
 * **구성 요소 설명서(본 문서):** 개발자 및 작성자용 (각 구성 요소에 대한 세부 정보 포함)
 * **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)** 개발자용 (각 구성 요소에 대한 세부 정보 및 프로젝트 다운로드 포함)
 * 시작하기:

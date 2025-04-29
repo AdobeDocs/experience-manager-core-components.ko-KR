@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 양식 숨기기 구성 요소를 사용하
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 
 양식 숨김 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_form_hidden_kr)를 참조하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 양식 숨김 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_kr).
 
@@ -56,7 +56,7 @@ ht-degree: 99%
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-일반적으로 양식 숨김 구성 요소에는 속성이 표시되지 않기 때문에, 작성자가 적절한 양식 숨김 구성 요소를 식별할 수 있도록 속성이 할당되면 편집기에 있는 구성 요소의 자리 표시자에는 **이름** 및 **값** 필드 값이 표시됩니다.
+일반적으로 양식 숨김 구성 요소에는 속성이 표시되지 않기 때문에, 작성자가 적절한 양식 숨김 구성 요소를 식별할 수 있도록 속성이 할당되면 편집기에 있는 구성 요소의 플레이스홀더에는 **이름** 및 **값** 필드 값이 표시됩니다.
 
 ![양식 숨김 구성 요소 예제](/help/assets/form-hidden-example.png)
 

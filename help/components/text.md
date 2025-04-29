@@ -4,9 +4,9 @@ description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 �
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2185'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 
 텍스트 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_text_kr)를 참조하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 텍스트 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_text_v2_kr).
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 
 ## 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-핵심 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 매우 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 문서 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 확인할 수 있습니다.
+핵심 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 매우 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 이 문서의 나머지 부분에서 즉시 사용 가능한 RTE 구성과 함께 핵심 구성 요소의 텍스트 구성 요소에 대한 표준 구성을 보여 줍니다.
 
@@ -122,7 +122,7 @@ ht-degree: 99%
 ![하이퍼링크 예](/help/assets/text-hyperlink-example.png)
 
 * 경로 입력
-   * 선택 열기 대화 상자를 통해 AEM의 경로를 선택합니다.
+   * 선택 열기 대화 상자를 통해 AEM의 경로 선택
    * 링크가 AEM 내에 없는 경우 절대 URL을 입력합니다.
       * 절대 경로가 아닌 경로는 AEM의 상대 경로로 해석됩니다.
 * 링크에 대한 대체 설명 텍스트 입력
@@ -352,7 +352,7 @@ ht-degree: 99%
 
 * **추가** 버튼을 탭하거나 클릭하여 새 스타일을 삽입합니다.
 * 편집 대화 상자에 표시할 스타일 및 설명에 대한 코드를 입력합니다.
-* 스타일 제거하려면 **삭제** 버튼을 탭하거나 클릭합니다.
+* 스타일을 제거하려면 **삭제** 버튼을 탭하거나 클릭합니다.
 * 포맷 순서를 재배열하려면 핸들을 탭하거나 클릭하여 드래그합니다.
 
 ### 특수 문자 {#configuring-special-characters}

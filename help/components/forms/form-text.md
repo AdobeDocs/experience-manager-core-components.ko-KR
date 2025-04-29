@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 양식 텍스트 구성 요소를 사용하
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 
 양식 텍스트 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_form_text_kr)를 참조하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 양식 텍스트 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_text_v2_kr).
 
@@ -72,7 +72,7 @@ ht-degree: 99%
 ![탭 정보](/help/assets/form-text-edit-about.png)
 
 * **도움말 메시지** - 필드에 입력할 수 있는 것에 대한 사용자용 힌트
-* **도움말 메시지를 자리 표시자로 표시** - 양식이 비어 있고 포커스를 두지 않았을 때 양식 입력 내부에 도움말 메시지를 표시할지 여부
+* **도움말 메시지를 플레이스홀더로 표시** - 양식이 비어 있고 포커스를 두지 않았을 때 양식 입력 내부에 도움말 메시지를 표시할지 여부
 
 ### 제한 탭 {#constraints-tab}
 

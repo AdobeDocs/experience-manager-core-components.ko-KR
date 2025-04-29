@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 컨테이너 구성 요소를 통해 페이
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 
 컨테이너 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_container_kr)를 참조하십시오.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 컨테이너 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_container_v1_kr).
 
@@ -67,11 +67,11 @@ ht-degree: 99%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 컨테이너 구성 요소에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 허용된 구성 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 
-컨테이너에서 특정 에셋 유형이 삭제되면 기본 구성 요소 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
+컨테이너에서 특정 자산 유형이 삭제되면 기본 구성 요소 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
 
 ### 반응형 설정 탭 {#responsive-settings-tab}
 
