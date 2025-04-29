@@ -6,7 +6,7 @@ exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 99%
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 
-컨테이너에서 특정 에셋 유형이 삭제되면 **기본 구성 요소** 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
+컨테이너에서 특정 자산 유형이 삭제되면 **기본 구성 요소** 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
 
 ### 컨테이너 설정 탭 {#container-settings-tab}
 

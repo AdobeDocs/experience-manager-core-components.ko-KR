@@ -6,7 +6,7 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
 source-wordcount: '2062'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 94%
 
 이미지 구성 요소를 경험하고 구성 옵션의 샘플과 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_image_kr)를 방문하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 이미지 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_image_v3_kr).
 

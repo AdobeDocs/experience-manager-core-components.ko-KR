@@ -6,7 +6,7 @@ exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 |---|---|---|---|
 | v1 | 호환 가능 | - | - |
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 이메일 티저 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_kr)
 
