@@ -68,7 +68,7 @@ ui.frontend 모듈 내 AEM 웹 페이지의 정적 출력 기반으로 Webpack�
 
 ## Clientlib 개요 {#clientlibs}
 
-[AEM clientlib로 프론트엔드 모듈을 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). NPM 빌드 스크립트가 실행되면 앱이 빌드되고, `aem-clientlib-generator` 패키지가 결과 빌드 출력을 요청하면 clientlib로 변환됩니다.
+[AEM clientlib로 프론트엔드 모듈을 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko). NPM 빌드 스크립트가 실행되면 앱이 빌드되고, `aem-clientlib-generator` 패키지가 결과 빌드 출력을 요청하면 clientlib로 변환됩니다.
 
 clientlib는 다음 파일과 디렉터리로 구성됩니다.
 
@@ -80,4 +80,4 @@ clientlib는 다음 파일과 디렉터리로 구성됩니다.
 
 >[!TIP]
 >
->AEM이 [AEM 개발 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)에서 clientlib를 처리하는 방법과 이를 [핵심 구성 요소 설명서](/help/developing/including-clientlibs.md)에 포함하는 방법에 대해 자세히 알아보십시오.
+>AEM이 [AEM 개발 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)에서 clientlib를 처리하는 방법과 이를 [핵심 구성 요소 설명서](/help/developing/including-clientlibs.md)에 포함하는 방법에 대해 자세히 알아보십시오.

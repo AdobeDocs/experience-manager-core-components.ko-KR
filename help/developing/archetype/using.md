@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Project Archetype을 통해 AEM에서 개발 시작하기가 수월해집니다. Archetype을 사용하여 여러 방식으로 첫 단계를 수행할 수 있습니다.
 
-* **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)을 참조하십시오.
+* **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)을 참조하십시오.
 * **WKND 이벤트 튜토리얼** - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 관심이 있다면 전용 [WKND 이벤트 튜토리얼](https://helpx.adobe.com/kr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)에 대해 자세히 알아보십시오.
 * **스스로 시작해 보십시오.** - [GitHub에서 사용 가능한 최신 프로젝트 Archetype](https://github.com/adobe/aem-project-archetype)을 손쉽게 다운로드하고 직접 첫 번째 프로젝트를 만들 수 있습니다.
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 [AEM Java API Jar입니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
+주요 종속성 중 하나는 [AEM Java API Jar입니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ko) AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
 
 >[!NOTE]
 >

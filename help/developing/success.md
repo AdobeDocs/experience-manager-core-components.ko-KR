@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### Adobe XD용 UI 키트 사용 {#ui-kit}
 
-사용자 정의 구성 요소에 대한 필요성이 입증되면 디자이너가 핵심 구성 요소를 빌딩 블록으로서 사용하여 와이어프레임 및 디자인 빌드를 시작할 수 있도록 [여기에서 다운로드할 수 있는](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) Adobe XD용 UI 키트를 활용하십시오.
+사용자 정의 구성 요소에 대한 필요성이 입증되면 디자이너가 핵심 구성 요소를 빌딩 블록으로서 사용하여 와이어프레임 및 디자인 빌드를 시작할 수 있도록 [여기에서 다운로드할 수 있는](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=ko) Adobe XD용 UI 키트를 활용하십시오.
 
 ## 강력한 기능에 주목하십시오. {#powerful-features}
 
@@ -49,13 +49,13 @@ AEM 및 핵심 구성 요소는 매우 강력하고 섬세한 기능을 갖추�
 
 ### 콘텐츠 조각 {#content-fragments}
 
-변형(채널별로 가능)과 함께 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)을 사용하여 채널 중립적인 콘텐츠를 만들 수 있습니다. 그런 다음 콘텐츠 페이지를 작성할 때 이러한 조각과 해당 변형을 사용할 수 있습니다.
+변형(채널별로 가능)과 함께 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=ko)을 사용하여 채널 중립적인 콘텐츠를 만들 수 있습니다. 그런 다음 콘텐츠 페이지를 작성할 때 이러한 조각과 해당 변형을 사용할 수 있습니다.
 
 업데이트된 JSON Exporter와 함께 구조화된 콘텐츠 조각을 사용하여 AEM 페이지 이외의 채널에 콘텐츠 서비스를 통해 AEM 콘텐츠를 제공할 수도 있습니다.
 
 ### 경험 조각 템플릿 {#experience-fragment-templates}
 
-작성자가 페이지의 일부(경험 조각)를 재사용하려는 경우 경험 조각을 사용할 수 있습니다. [경험 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)이 없으면 작성자는 해당 조각을 복사하여 붙여넣어야 합니다. 이러한 복사/붙여넣기 경험을 생성하고 유지 관리하는 데는 시간이 오래 걸리고 사용자 오류가 발생합니다. 경험 조각은 복사/붙여넣기가 필요하지 않습니다.
+작성자가 페이지의 일부(경험 조각)를 재사용하려는 경우 경험 조각을 사용할 수 있습니다. [경험 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=ko)이 없으면 작성자는 해당 조각을 복사하여 붙여넣어야 합니다. 이러한 복사/붙여넣기 경험을 생성하고 유지 관리하는 데는 시간이 오래 걸리고 사용자 오류가 발생합니다. 경험 조각은 복사/붙여넣기가 필요하지 않습니다.
 
 ### 임베디드 구성 요소 {#embed-component}
 

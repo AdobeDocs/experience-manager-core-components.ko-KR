@@ -40,10 +40,10 @@ Adobe Analytics와 Adobe Target가 결합되면 Adobe 클라이언트 데이터 
 
 AEM 핵심 구성 요소로 Adobe 클라이언트 데이터 레이어의 빌트인 기능을 사용하여 Adobe Experience Manager Sites에서 페이지에 대한 데이터를 수집하는 방법에 대해 알아봅니다. Experience Platform Launch 및 Adobe Analytics 확장 기능을 사용하여 Adobe Analytics로 페이지 데이터를 전송할 규칙을 생성합니다.
 
-[여기서 튜토리얼을 조회합니다](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html).
+[여기서 튜토리얼을 조회합니다](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=ko).
 
 ### Adobe Analytics로 구성 요소를 클릭 추적 {#track-clicked-components}
 
 이벤트 중심의 Adobe 클라이언트 데이터 레이어를 AEM 핵심 구성 요소와 함께 사용하여 Adobe Experience Manager Site에서 특정 구성 요소의 클릭 수를 추적합니다. Experience Platform Launch의 규칙을 사용하여 클릭 이벤트를 수신하고, 구성 요소로 필터링하고 추적 링크 비콘으로 데이터를 Adobe Analytics로 전송하는 방법에 대해 알아봅니다.
 
-[여기서 튜토리얼을 조회합니다](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html).
+[여기서 튜토리얼을 조회합니다](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=ko).

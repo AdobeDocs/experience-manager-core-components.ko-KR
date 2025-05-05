@@ -52,7 +52,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 프로덕션 모드(샘플 콘텐츠 없음)에서 시작할 때 핵심 핵심 구성 요소는 빠른 시작의 일부가 아닙니다. 따라서 첫 번째 단계는 [GitHub에서 최신 릴리스된 콘텐츠 패키지를 다운로드](https://github.com/adobe/aem-core-wcm-components/releases/latest)하여 AEM 환경에 설치하는 것입니다.
 
-몇 가지 방법으로 이 프로세스를 자동화할 수 있지만 패키지 관리자를 사용하면 인스턴스에서 콘텐츠 패키지를 빠르게 설치할 수 있습니다. [패키지 설치](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)를 참조하십시오. 또한, 게시 인스턴스가 실행되면 해당 패키지를 복제해야 합니다. [패키지 복제](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)를 참조하십시오.
+몇 가지 방법으로 이 프로세스를 자동화할 수 있지만 패키지 관리자를 사용하면 인스턴스에서 콘텐츠 패키지를 빠르게 설치할 수 있습니다. [패키지 설치](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#installing-packages)를 참조하십시오. 또한, 게시 인스턴스가 실행되면 해당 패키지를 복제해야 합니다. [패키지 복제](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#replicating-packages)를 참조하십시오.
 
 ## 프록시 구성 요소 제작 {#create-proxy-components}
 
@@ -85,7 +85,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 ## 핵심 스타일 로드하기 {#load-the-core-styles}
 
-1. 아직 로드되지 않은 경우 사이트에 필요한 CSS와 JS 파일이 모두 포함된 [클라이언트 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)를 만듭니다.
+1. 아직 로드되지 않은 경우 사이트에 필요한 CSS와 JS 파일이 모두 포함된 [클라이언트 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)를 만듭니다.
 1. 사이트의 클라이언트에서 종속성을 필요한 핵심 구성 요소에 추가합니다. 이는 `embed` 속성 추가를 통해 수행됩니다.
 
    예를 들어 v1 핵심 구성 요소의 클라이언트 라이브러리를 모두 포함하려면 추가할 속성은 다음과 같습니다.
@@ -104,7 +104,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 ## 구성 요소 사용하기 {#allow-the-components}
 
-[템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)에서 다음 단계를 수행합니다.
+[템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)에서 다음 단계를 수행합니다.
 
 1. 템플릿 편집기에서 레이아웃 컨테이너를 선택한 다음 정책을 엽니다.
 1. 허용된 구성 요소 목록에서 이전에 제작된 프록시 구성 요소를 선택합니다. 프록시 구성 요소는 해당 구성 요소에 할당된 구성 요소 그룹에 표시됩니다. 완료되면 변경 사항을 적용합니다.

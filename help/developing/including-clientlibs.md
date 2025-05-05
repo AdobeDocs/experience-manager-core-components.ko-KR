@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 클라이언트 라이브러리 포함 {#including}
 
-사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/front-end.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 다음은 각각 샘플 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)이 포함된 예시입니다.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/front-end.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 다음은 각각 샘플 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko)이 포함된 예시입니다.
 
 ### 권장 기본 사용 {#recommended-default-usage}
 

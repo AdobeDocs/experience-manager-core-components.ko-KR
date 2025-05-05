@@ -40,8 +40,8 @@ ht-degree: 100%
 두 솔루션이 통신하려면 AEM-Adobe Campaign 통합을 설정해야 합니다.
 
 * Adobe Campaign 통합 구성
-   * Adobe Campaign Classic: [Adobe Campaign Classic과 통합](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
-   * Adobe Campaign Standard: [Adobe Campaign Standard와 통합](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
+   * Adobe Campaign Classic: [Adobe Campaign Classic과 통합](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ko)
+   * Adobe Campaign Standard: [Adobe Campaign Standard와 통합](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ko)
 * 이메일 핵심 구성 요소를 사용할 콘텐츠 페이지에 [Adobe Campaign 통합 구성 연결](/help/email/components/page.md#cloud-services-tab)
 
 ### 이메일 구성 요소에 대한 AEM 리소스 유형 필터 추가 {#aem-resource-filter}
@@ -71,12 +71,12 @@ Adobe Campaign에서 이메일 핵심 구성 요소를 기반으로 이메일을
 |---|---|---|
 | 1 | 작성자가 폴더 및 이메일 콘텐츠의 자유 형식 계층 구조를 페이지로 만듭니다. | AEM |
 | 2 | 작성자가 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko-KR)를 사용해 이 페이지 템플릿으로 만드는 모든 이메일 페이지에서 공유할 이메일 머리글 및/또는 바닥글을 구성합니다. | AEM |
-| 3 | 작성자가 [페이지 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)를 사용해 텍스트 편집기를 사용하는 이메일 콘텐츠를 만듭니다. 이때 Adobe Campaign 변수를 선택하고 세분화 구성 요소를 사용해 수신자가 특정 기준을 충족할 경우 조건부로 정보가 표시되도록 할 수 있습니다. | AEM |
-| 4 | 이메일 콘텐츠를 완성했으면 [워크플로를 실행](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html)하여 콘텐츠를 승인하고 Campaign으로 전송합니다. | AEM |
+| 3 | 작성자가 [페이지 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=ko)를 사용해 텍스트 편집기를 사용하는 이메일 콘텐츠를 만듭니다. 이때 Adobe Campaign 변수를 선택하고 세분화 구성 요소를 사용해 수신자가 특정 기준을 충족할 경우 조건부로 정보가 표시되도록 할 수 있습니다. | AEM |
+| 4 | 이메일 콘텐츠를 완성했으면 [워크플로를 실행](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=ko)하여 콘텐츠를 승인하고 Campaign으로 전송합니다. | AEM |
 | 5 | 수신자 목록을 정의하는 전달이 만들어집니다. | 캠페인 |
 | 6 | AEM에서 만든 콘텐츠가 전달의 콘텐츠로 선택됩니다. | 캠페인 |
 | 7 | Adobe Campaign 변수를 수신자의 개인화된 정보로 대체하여 콘텐츠가 수신자에게 전송됩니다. | 캠페인 |
 
 AEM에서 이메일 콘텐츠를 만들고 Adobe Campaign에서 전달하는 예는 다음 리소스를 참조하십시오.
 
-* AEM 6.5: [Adobe Campaign Classic 및 Adobe Campaign Standard 작업](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
+* AEM 6.5: [Adobe Campaign Classic 및 Adobe Campaign Standard 작업](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=ko)
