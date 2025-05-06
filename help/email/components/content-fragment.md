@@ -4,7 +4,7 @@ description: 이메일 콘텐츠 조각 구성 요소를 사용하여 콘텐츠�
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 # 이메일 콘텐츠 조각 구성 요소 {#email-content-fragment-component}
 
-이메일 콘텐츠 조각 구성 요소를 사용하여 콘텐츠에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko)을 표시할 수 있습니다.
+이메일 콘텐츠 조각 구성 요소를 사용하여 콘텐츠에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)을 표시할 수 있습니다.
 
 ## 사용 {#usage}
 
-이메일 콘텐츠 조각 구성 요소를 사용하여 이메일 콘텐츠에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko)을 포함할 수 있습니다. 콘텐츠 조각은 중앙에서 작성하고 쉽게 재사용할 수 있는 멀티채널 구조화 콘텐츠입니다.
+이메일 콘텐츠 조각 구성 요소를 사용하여 이메일 콘텐츠에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)을 포함할 수 있습니다. 콘텐츠 조각은 중앙에서 작성하고 쉽게 재사용할 수 있는 멀티채널 구조화 콘텐츠입니다.
 
 * [구성 대화 상자](#configure-dialog)에서 조각과 조각의 속성을 선택할 수 있습니다.
 * [디자인 대화 상자](#design-dialog)에서 특정 이미지와 그리드를 처리하는 리소스 유형을 정의할 수 있습니다.
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 ![이메일용 콘텐츠 조각 편집기](/help/email/assets/email-content-fragment-editor.png)
 
-콘텐츠 조각 편집 및 작성에 대한 자세한 내용은 문서 [조각 콘텐츠 작성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=ko)을 참조하십시오.
+콘텐츠 조각 편집 및 작성에 대한 자세한 내용은 문서 [조각 콘텐츠 작성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)을 참조하십시오.
 
 ## 디자인 대화 상자 {#design-dialog}
 

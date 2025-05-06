@@ -4,7 +4,7 @@ description: 이메일 컨테이너 구성 요소를 통해 이메일 콘텐츠�
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
@@ -77,11 +77,11 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 이메일 컨테이너 구성 요소에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko) **허용된 구성 요소** 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) **허용된 구성 요소** 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 기본 구성 요소 탭 {#default-components-tab}
 
-컨테이너에서 특정 자산 유형이 삭제되면 **기본 구성 요소** 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)과 매우 유사합니다.
+컨테이너에서 특정 자산 유형이 삭제되면 **기본 구성 요소** 탭을 사용하여 구성 요소에 추가된 구성 요소를 정의할 수 있습니다. 이는 [페이지 템플릿에서 기본 구성 요소를 정의하는 방법](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 매우 유사합니다.
 
 ### 컨테이너 설정 탭 {#container-settings-tab}
 

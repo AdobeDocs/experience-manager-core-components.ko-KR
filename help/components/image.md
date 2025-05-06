@@ -4,9 +4,9 @@ description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2062'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,15 +49,15 @@ ht-degree: 95%
 
 ### v2와의 차이점 {#v2-differences}
 
-이미지 구성 요소 버전 2와 달리 버전 3은 브라우저 기반 응답성을 사용합니다. 즉, 서로 다른 너비에 대한 이미지 소스 세트를 브라우저에 제공하면 브라우저가 가장 적합한 소스를 선택합니다.
+이미지 구성 요소의 버전 2와 달리 버전 3에서는 브라우저 기본 응답성을 사용합니다. 즉, 브라우저에 다양한 너비의 이미지에 대한 소스 세트를 제공하고 브라우저가 가장 적합한 소스를 선택한다는 의미입니다.
 
-대부분의 경우 브라우저에서는 서버에서 더 작은 너비 이미지를 가져오는 대신 더 작은 뷰포트에 맞추기 위해 더 큰 너비를 로컬로 다운사이징하는 것을 선호합니다. 예상된 결과이며 이미지 구성 요소를 아트 방향(다른 뷰포트에 대해 다른 이미지/자르기)에 사용하지 말아야 하는 이유입니다.
+대부분의 경우, 브라우저는 서버에서 작은 너비의 이미지를 가져오는 대신, 더 작은 뷰포트에 맞게 더 큰 너비의 이미지를 로컬에서 줄이는 것을 선호합니다. 이는 예상된 동작이며 이미지 구성 요소를 아트 디렉션(뷰포트에 따라 다른 이미지/자르기)에 사용해서는 안 되는 이유입니다.
 
-[자세한 내용은 이미지 구성 요소의 기술 설명서를 참조하십시오](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings).
+자세한 내용은 [이미지 구성 요소에 대한 기술 설명서](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings)를 참조하십시오.
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=ko) 자산을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 자산을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 핵심 구성 요소가 내장된 웹 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
@@ -157,13 +157,13 @@ ht-degree: 95%
 
 * **이미지 자산** - **페이지에서 추천 이미지 상속**&#x200B;을 선택한 경우 자동으로 채워집니다. 다음 옵션을 설정하여 이미지를 수동으로 정의하려면 선택 해제합니다.
 
-   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 자산을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)에서 자산을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ko)를 열고 이미지를 선택할 수 있습니다.
+   * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택할 수 있습니다.
       * [원격 자산 지원](#remote-assets)이 활성화된 경우 자산 선택을 위한 여러 옵션이 있습니다.
          * **로컬**&#x200B;은 로컬 AEM 자산 라이브러리에서 선택할 수 있습니다.
          * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html).
 
 * **접근성을 위한 그림 설명** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
 
