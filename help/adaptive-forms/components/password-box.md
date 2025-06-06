@@ -4,10 +4,11 @@ description: 적응형 양식 암호 상자 핵심 구성 요소를 사용 또�
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: ht
-source-wordcount: '1916'
-ht-degree: 100%
+exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
+workflow-type: tm+mt
+source-wordcount: '1914'
+ht-degree: 99%
 
 ---
 
@@ -46,11 +47,11 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
-적응형 양식 최상위 탭 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
+[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput)의 기술 설명서에서 적응형 Forms 암호 핵심 구성 요소에 대한 최신 정보를 알아보십시오. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
@@ -163,7 +164,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 + 적응형 양식 {#adaptive-forms}
    + [소개](/help/adaptive-forms/introduction.md)
    + [버전 기록](/help/adaptive-forms/version.md)
-   + 적응형 양식 구성 요소 {#adaptive-forms-components}
+   + 적응형 Forms 구성 요소 {#adaptive-forms-components}
       + [적응형 양식 아코디언](/help/adaptive-forms/components/accordion.md)
       + [적응형 양식 버튼](/help/adaptive-forms/components/button.md)
       + [적응형 양식 확인란](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
+      + [적응형 양식 검토](/help/adaptive-forms/components/review.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
       + [적응형 양식 스위치](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [적응형 양식 모바일](/help/adaptive-forms/components/phone.md)

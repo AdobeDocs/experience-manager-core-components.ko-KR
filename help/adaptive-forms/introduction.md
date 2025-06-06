@@ -3,9 +3,9 @@ title: AEM 적응형 양식 핵심 구성 요소 소개
 description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 매력적인 등록 경험(양식)을 만들고 Adobe Experience Manager의 강력한 기능으로 전달하십시오.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
-workflow-type: ht
-source-wordcount: '2215'
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
+workflow-type: tm+mt
+source-wordcount: '2123'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 각주 플레이스홀더 | ✔️ | | | |
 | 양식 컨테이너 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 기초 구성 요소의 경우 [루트 패널 구성 요소](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel)를 사용합니다. |
 | 양식 제목 | ✔️ | ✔️ | | 기초 구성 요소의 경우 제목 구성 요소를 사용합니다. |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 기초 구성 요소의 경우, 기초 구성 요소 기반 양식에 대해 [적응형 양식을 hCaptcha와 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html?lang=ko)할 수 있습니다. |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 기초 구성 요소의 경우, 기초 구성 요소 기반 양식에 대해 [적응형 양식을 hCaptcha와 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html)할 수 있습니다. |
 | 헤더 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 가로 탭 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [상단 탭(가로 탭) 레이아웃](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 | 이미지 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -105,12 +105,13 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 이전 버튼 | ✔️ | ✔️ | | 여러 패널 사이를 이동하려면 다음 및 이전 버튼에 대해 [마법사 구성 요소](/help/adaptive-forms/components/wizard.md)를 사용합니다. |
 | 라디오 버튼 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | 재설정 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| 검토 |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | 낙서 서명 | ✔️ | | | |
 | 구분자 | ✔️ | | | WCM [구분자](/help/components/separator.md) 구성 요소 사용 |
 | 제출 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 요약 단계 | ✔️ | | | |
 | 전환 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
-| 표 | ✔️ | | | |
+| 테이블 | ✔️ | | | |
 | 약관 | ✔️ | ✔️ | | |
 | 텍스트 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 텍스트 상자 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |

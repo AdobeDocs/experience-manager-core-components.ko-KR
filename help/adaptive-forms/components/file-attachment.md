@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 첨부 파일
 description: 적응형 양식 첨부 파일 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: ht
-source-wordcount: '2043'
-ht-degree: 100%
+source-git-commit: 8a5133d8551f9e35340b40aa00876cfa0231deb5
+workflow-type: tm+mt
+source-wordcount: '2061'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 첨부 파일 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 파일 첨부 핵심 구성 요소는 2023년 2월에 Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -103,6 +103,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **파일 유형 오류 메시지** - 이 옵션을 사용하면 **허용된 파일 유형** 옵션에 나열된 것 이외의 파일 형식을 업로드할 경우 표시되는 오류 메시지를 입력할 수 있습니다.
 
+>
+>
+> 파일 형식을 허용된 파일 형식 형식으로 변경하여 파일을 제출하면 양식을 제출하는 동안 오류가 발생합니다.
+
+
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
 ![도움말 콘텐츠 탭](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
@@ -157,7 +162,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
