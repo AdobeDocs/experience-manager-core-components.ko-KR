@@ -4,9 +4,9 @@ description: 적응형 양식 마법사 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 
 - **모바일 경험**: 마법사 레이아웃을 사용하면 더 빠르게 로드되고 탐색하기 쉬운 더 작은 페이지로 작업할 수 있으므로 모바일 디바이스에서 액세스하는 양식에도 유용할 수 있습니다.
 
-전반적으로 마법사 레이아웃은 사용자의 양식 채우기 프로세스를 보다 관리하기 쉽고 효율적으로 만들 수 있지만, 이러한 유형의 레이아웃을 사용하기로 결정하기 전에 양식의 복잡성과 사용자의 요구 사항을 먼저 고려해 보는 것이 중요합니다.
+전반적으로 마법사 레이아웃은 사용자의 양식 채우기 프로세스를 보다 관리하기 쉽고 효율적으로 만들 수 있지만 이러한 유형의 레이아웃을 사용하기로 결정하기 전에 양식의 복잡성과 사용자의 요구 사항을 먼저 고려해 보는 것이 중요합니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -59,11 +59,11 @@ ht-degree: 99%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
-[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard)의 기술 설명서에서 적응형 Forms 마법사 핵심 구성 요소에 대한 최신 정보를 알아봅니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
+적응형 양식 마법사 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
@@ -124,7 +124,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **최소 반복**: 마법사 패널을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 마법사 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 마법사 패널을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-마법사 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+마법사 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 

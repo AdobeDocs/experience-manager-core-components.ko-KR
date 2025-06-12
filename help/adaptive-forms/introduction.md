@@ -4,7 +4,7 @@ description: 적응형 양식 핵심 구성 요소의 유연성을 사용하여 
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2123'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 각주 플레이스홀더 | ✔️ | | | |
 | 양식 컨테이너 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 기초 구성 요소의 경우 [루트 패널 구성 요소](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel)를 사용합니다. |
 | 양식 제목 | ✔️ | ✔️ | | 기초 구성 요소의 경우 제목 구성 요소를 사용합니다. |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 기초 구성 요소의 경우, 기초 구성 요소 기반 양식에 대해 [적응형 양식을 hCaptcha와 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html?lang=ko)할 수 있습니다. |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 기초 구성 요소의 경우, 기초 구성 요소 기반 양식에 대해 [적응형 양식을 hCaptcha와 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html)할 수 있습니다. |
 | 헤더 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 가로 탭 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 기초 구성 요소의 경우 패널 구성 요소 속성에서 [상단 탭(가로 탭) 레이아웃](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)을 구성할 수 있습니다. |
 | 이미지 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -195,9 +195,9 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 
 * **[양식 데이터 모델](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: 적응형 양식 데이터 모델(FDM)은 적응형 양식과 데이터 소스 간의 브리지 역할을 합니다. 기본적으로 양식이 수집하고 상호 작용하는 데이터의 구조와 구성을 정의합니다. 편집기를 사용하여 양식을 양식 데이터 모델(FDM)과 쉽게 연결할 수 있습니다.
 
-* **[양식 제출](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: 양식 제출은 사용자가 작성한 양식을 완료하고 전송하는 프로세스를 의미합니다. 양식 구성 내에 정의된 일련의 작업을 트리거하여, 궁극적으로 제출된 데이터의 저장 또는 처리로 이어집니다. 적응형 양식 편집기는 양식 제출 구성을 위한 다양한 옵션을 제공합니다. 일반적인 제출 작업으로는 다음이 있습니다.
+* **[양식 제출](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: 양식 제출은 사용자가 작성한 양식을 완료하고 전송하는 프로세스를 의미합니다. 양식 구성 내에 정의된 일련의 작업을 트리거하여, 궁극적으로 제출된 데이터의 저장 또는 처리로 이어집니다. 적응형 양식 편집기는 양식 제출 구성을 위한 다양한 옵션을 제공합니다. 일반적인 제출 작업으로는 다음이 있습니다.
 
-   * [이메일 보내기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   * [이메일 보내기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
    * [Power Automate 플로우 호출](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
    * [SharePoint에 제출](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
    * [Workfront Fusion 호출](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
