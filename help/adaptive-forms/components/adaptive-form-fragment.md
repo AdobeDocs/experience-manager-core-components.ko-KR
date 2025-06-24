@@ -13,18 +13,18 @@ ht-degree: 98%
 
 # 적응형 양식 조각 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
 
-적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)이라고 합니다.
+적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ko)이라고 합니다.
 
-[문서에 조각을 여러 번 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)하고 해당 구성 요소의 데이터 바인딩 속성을 사용하여 조각을 다른 데이터 소스나 스키마에 연결할 수 있습니다. 예를 들어 영구, 통신 및 청구 주소에 동일한 주소 조각을 사용하고 이를 데이터 소스 또는 스키마의 다른 필드에 연결할 수 있습니다.
+[문서에 조각을 여러 번 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ko#insert-a-fragment-in-an-adaptive-form)하고 해당 구성 요소의 데이터 바인딩 속성을 사용하여 조각을 다른 데이터 소스나 스키마에 연결할 수 있습니다. 예를 들어 영구, 통신 및 청구 주소에 동일한 주소 조각을 사용하고 이를 데이터 소스 또는 스키마의 다른 필드에 연결할 수 있습니다.
 
 ![예](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-또한 [반복 옵션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)을 사용하여 양식 조각 구성 요소와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수도 있습니다.
+또한 [반복 옵션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko)을 사용하여 양식 조각 구성 요소와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수도 있습니다.
 
 >[!NOTE]
 >
-> [적응형 양식 조각을 처음부터 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)하거나 기존 적응형 양식의 패널을 조각으로 저장할 수 있습니다.
+> [적응형 양식 조각을 처음부터 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ko#create-a-fragment)하거나 기존 적응형 양식의 패널을 조각으로 저장할 수 있습니다.
 
 {{traditional-aem}}
 

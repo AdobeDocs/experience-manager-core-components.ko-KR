@@ -53,7 +53,7 @@ ht-degree: 0%
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
+1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
 1. 페이지 콘텐츠를 검사하고 패널의 ID를 식별합니다.
    * 예 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID는 해시로 URL에 추가될 수 있는 앵커가 됩니다(`#`).
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 아코디언 구성 요소의 패널에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko#editing-a-template-layout-template-author) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 스타일 탭 {#styles-tab}
 
