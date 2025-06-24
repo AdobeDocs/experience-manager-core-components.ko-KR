@@ -92,7 +92,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![제출 탭](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **자동으로 초안 저장**: **자동으로 초안 저장** 확인란을 선택하면 양식을 초안으로 저장할 수 있습니다.
-- **환경 설정 저장**: **정기적으로 초안 저장**&#x200B;으로 **환경 설정 저장**을 구성하면 일정 시간이 지날 때 양식을 자동으로 저장하게 할 수 있습니다.
+- **환경 설정 저장**: **정기적으로 초안 저장**&#x200B;으로 **환경 설정 저장**&#x200B;을 구성하면 일정 시간이 지날 때 양식을 자동으로 저장하게 할 수 있습니다.
   **간격 빈도(초) 저장**: 정의된 간격으로 양식이 자동 저장되는 기간을 설정할 시간 간격(초)을 지정합니다.
 
 ### 제출 탭 {#submission-tab}
