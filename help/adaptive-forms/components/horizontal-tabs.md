@@ -3,12 +3,13 @@ title: 적응형 양식 핵심 구성 요소 - 가로 탭
 description: 적응형 양식 가로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 100%
 
 ---
+
 
 # 가로 탭 구성 요소(상단 탭) 구성 요소{#horizontal-tabs-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 탭은 일반적으로 일련의 링크 또는 버튼으로 생성되며 각 링크 또는 버튼은 양식의 섹션에 해당합니다. 사용자가 탭을 클릭하면 양식 콘텐츠가 해당 섹션을 표시하도록 동적으로 업데이트됩니다.
 
 ![예](/help/adaptive-forms/assets/horizontal-example-new.png)
+
+{{traditional-aem}}
 
 ## 사용 {#reasons-to-use-horizontal-tabs}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 가로 탭 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 가로 탭 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|
@@ -109,7 +112,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **상단의 탭이 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
 - **최소 반복**: 가로 탭을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 가로 탭이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 가로 탭을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
-가로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+가로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 

@@ -4,12 +4,13 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 98%
 
 ---
+
 
 # 이미지 구성 요소 (v1) {#image-component-v}
 
@@ -25,7 +26,7 @@ ht-degree: 98%
 
 이 문서에서는 AEM 6.3을 포함하는 핵심 구성 요소 릴리스 1.0.0과 함께 최초 도입된 이미지 구성 요소 v1에 대해 설명합니다.
 
-다음 표에서 이미지 구성 요소 v1의 호환성을 확인할 수 있습니다.
+다음 테이블에서 이미지 구성 요소 v1의 호환성을 확인할 수 있습니다.
 
 | AEM 버전 | 이미지 구성 요소 v1 |
 |--- |--- |
@@ -82,7 +83,7 @@ ht-degree: 98%
 ![](/help/assets/chlimage_1-50.png)
 
 * **이미지 에셋**
-   * [에셋 브라우저](https://helpx.adobe.com/kr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [자산 브라우저](https://helpx.adobe.com/kr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
    * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19).
 

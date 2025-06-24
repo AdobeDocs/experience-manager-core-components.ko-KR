@@ -1,16 +1,18 @@
 ---
-title: 임베디드 구성 요소 (v1)
+title: 임베드 구성 요소 (v1)
 description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠 임베드를 활성화합니다.
 role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 100%
 
 ---
 
-# 임베디드 구성 요소 (v1) {#embed-component}
+
+# 임베드 구성 요소 (v1) {#embed-component}
 
 핵심 구성 요소의 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠를 임베드할 수 있습니다.
 
@@ -23,21 +25,21 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-임베디드 구성 요소는 2019년 9월 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
+임베드 구성 요소는 2019년 9월 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
 >[!CAUTION]
 >
->이 문서에서는 임베디드 구성 요소 v1에 대해 설명합니다.
+>이 문서에서는 임베드 구성 요소 v1에 대해 설명합니다.
 >
->현재 버전의 임베디드 구성 요소에 대한 자세한 내용은 [임베디드 구성 요소](/help/components/embed.md) 문서를 참조하십시오.
+>현재 버전의 임베드 구성 요소에 대한 자세한 내용은 [임베드 구성 요소](/help/components/embed.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-임베디드 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_embed_kr)를 참조하십시오.
+임베드 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_embed_kr)를 참조하십시오.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-임베디드 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v1_kr).
+임베드 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v1_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -59,24 +61,24 @@ ht-degree: 100%
 
 가장 단순한 임베드는 URL입니다. 간단히 **URL** 필드에서 임베드하려는 리소스의 URL을 붙여넣습니다. 구성 요소가 리소스 액세스를 시도하고, 프로세서 중 하나에서 구성 요소를 렌더링하는 경우 아래 **URL** 필드에 확인 메시지가 표시됩니다. 그렇지 않으면 필드에 오류가 표시됩니다.
 
-임베디드 구성 요소에는 다음 유형의 리소스를 위한 프로세서가 포함됩니다.
+임베드 구성 요소에는 다음 유형의 리소스를 위한 프로세서가 포함됩니다.
 
 * Facebook Post, Instagram, SoundCloud, Twitter 및 YouTube 등 [표준 임베드](https://oembed.com/)를 준수하는 리소스
 * Pinterest
 
-개발자는 [임베디드 구성 요소 개발자 설명서에 따라](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) URL 프로세서를 추가할 수 있습니다.
+개발자는 [임베드 구성 요소의 개발자 설명서에 따라](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) URL 프로세서를 추가할 수 있습니다.
 
-![URL용 임베디드 구성 요소의 편집 대화 상자](/help/assets/embed-url.png)
+![URL용 임베드 구성 요소의 편집 대화 상자](/help/assets/embed-url.png)
 
 ### 임베드 가능 {#embeddable}
 
-임베디드 기능을 사용하여 임베디드 리소스를 추가로 사용자 정의할 수 있습니다. 해당 리소스는 매개 변수화되고 리소스에 추가 정보가 포함될 수 있습니다. 작성자는 사전 구성된 임베디드 기능 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베디드 기능이 포함됩니다.
+임베드 가능 항목을 사용하여 임베드된 리소스를 추가로 사용자 정의할 수 있습니다. 해당 리소스는 매개 변수화되고 리소스에 추가 정보가 포함될 수 있습니다. 작성자는 사전 구성된 임베드 가능 항목 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베드 가능 항목이 포함됩니다.
 
-**임베디드 기능** 필드는 사용하려는 프로세스 유형을 정의합니다. YouTube 임베디드 기능의 경우 다음 항목을 정의할 수 있습니다.
+**임베드 가능 항목** 필드는 사용하려는 프로세스 유형을 정의합니다. YouTube 임베드 가능 항목의 경우 다음을 정의할 수 있습니다.
 
 * **비디오 ID** - 임베드하려는 리소스의 YouTube 고유 비디오 ID
-* **폭** - 임베디드 비디오 폭
-* **높이** - 임베디드 비디오 높이
+* **폭** - 임베드된 비디오 폭
+* **높이** - 임베드된 비디오 높이
 * **음소거 활성화** - 이 매개 변수는 기본적으로 비디오가 음소거를 재생할지 여부를 지정합니다. 음소거가 활성화되면 최신 브라우저의 자동 재생이 작동할 확률이 높아집니다.
 * **자동 재생 활성화** - 이 매개 변수는 플레이어가 로드될 때 초기 비디오를 자동으로 재생할지 여부를 지정합니다. 게시 인스턴스 또는 작성 인스턴스의 **게시로 보기** 옵션을 사용하는 경우에만 적용됩니다.
 * **루프 활성화** - 단일 비디오의 경우 이 매개 변수는 플레이어가 초기 비디오를 반복적으로 재생할지 여부를 지정합니다. 재생 목록의 경우 플레이어는 전체 재생 목록을 재생한 다음 최초 비디오에서 다시 시작합니다.
@@ -85,18 +87,18 @@ ht-degree: 100%
 
 [디자인 대화 상자](#design-dialog)를 통해 “활성화” 옵션이 활성화되고 기본값으로 설정될 수 있습니다.
 
-다른 임베디드 기능은 유사 필드를 제공하고 [임베디드 구성 요소 개발자 설명서에 따라](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) 개발자에 의해 정의될 수 있습니다.
+다른 임베드 가능 항목도 유사 필드를 제공하고 [임베드 구성 요소 개발자 설명서에 따라](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) 개발자에 의해 정의될 수 있습니다.
 
-![임베디드 기능을 위한 임베디드 구성 요소의 편집 대화 상자](/help/assets/embed-embeddable.png)
+![임베드 가능 항목을 위한 임베드 구성 요소의 편집 대화 상자](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->페이지 작성자가 사용할 수 있는 [디자인 대화 상자](#design-dialog)를 통해 템플릿 수준에서 임베디드 기능을 활성화해야 합니다.
+>페이지 작성자가 사용할 수 있는 [디자인 대화 상자](#design-dialog)를 통해 템플릿 수준에서 임베드 가능 항목을 활성화해야 합니다.
 
 ### HTML {#html}
 
-임베디드 구성 요소를 사용하여 자유 형식의 HTML을 페이지에 추가할 수 있습니다.
+임베드 구성 요소를 사용하여 자유 형식의 HTML을 페이지에 추가할 수 있습니다.
 
-![HTML용 임베디드 구성 요소의 편집 대화 상자](/help/assets/embed-html.png)
+![HTML용 임베드 구성 요소의 편집 대화 상자](/help/assets/embed-html.png)
 
 >[!NOTE]
 >스크립트와 같은 불안전한 태그는 입력한 HTML에서 필터링되고 결과 페이지에서는 렌더링되지 않습니다.
@@ -107,29 +109,29 @@ ht-degree: 100%
 
 *일반적으로* 출력에서 모든 스크립트와 `style` 요소뿐 아니라 모든 `on*` 및 `style` 속성을 제거합니다.
 
-임베디드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
+임베드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
 
-추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=ko) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=ko)용)에서 확인할 수 있습니다.
+추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)용)에서 확인할 수 있습니다.
 
 >[!NOTE]
->`/libs/cq/xssprotection/config.xml` 오버레이를 통해 HTML AntiSamy 정리 프레임워크 규칙을 구성할 수 있지만 해당 변경 사항은 핵심 임베디드 구성 요소뿐 만 아니라 모든 HTL 및 JSP 비헤이비어에 영향을 줄 수 있습니다.
+>`/libs/cq/xssprotection/config.xml` 오버레이를 통해 HTML AntiSamy 정리 프레임워크 규칙을 구성할 수 있지만 해당 변경 사항은 핵심 임베드 구성 요소뿐 만 아니라 모든 HTL 및 JSP 비헤이비어에 영향을 줄 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 통해 임베디드 구성 요소를 사용하는 콘텐츠 작성자에게 제공되는 옵션을 정의할 수 있습니다. 그리고 임베디드 구성 요소가 배치되면 기본값이 설정됩니다.
+템플릿 작성자는 디자인 대화 상자를 통해 임베드 구성 요소를 사용하는 콘텐츠 작성자에게 제공되는 옵션을 정의할 수 있습니다. 그리고 임베드 구성 요소가 배치되면 기본값이 설정됩니다.
 
-### 임베디드 기능 유형 탭 {#embeddable-types-tab}
+### 임베드 가능 항목 유형 탭 {#embeddable-types-tab}
 
-![임베디드 구성 요소의 디자인 대화 상자](/help/assets/embed-design.png)
+![임베드 구성 요소의 디자인 대화 상자](/help/assets/embed-design.png)
 
 * **URL 비활성화** - 선택한 경우 콘텐츠 작성자의 **URL** 옵션을 비활성화합니다.
-* **임베디드 기능 비활성화** - 선택한 경우 허용된 임베디드 프로세서에 상관없이 콘텐츠 작성자의 **임베디드 기능** 옵션을 비활성화합니다.
+* **임베드 가능 항목 비활성화** - 선택한 경우 허용된 임베드 가능 프로세서에 상관없이 콘텐츠 작성자의 **임베드 가능 항목** 옵션을 비활성화합니다.
 * **HTML 비활성화** - 선택한 경우 콘텐츠 작성자의 **HTML** 옵션을 비활성화합니다.
-* **허용된 임베디드 기능** - **임베디드** 옵션이 활성화될 경우 다중 선택으로 콘텐츠 작성자가 사용할 수 있는 임베디드 프로세서를 정의합니다.
+* **허용된 임베드 가능 항목** - **임베드 가능 항목** 옵션이 활성화될 경우 다중 선택으로 콘텐츠 작성자가 사용할 수 있는 임베드 가능 프로세서를 정의합니다.
 
 ### YouTube 탭 {#youtube-tab}
 
-![임베디드 구성 요소 디자인 대화 상자의 YouTube 탭](/help/assets/embed-design-youtube.png)
+![임베드 구성 요소 디자인 대화 상자의 YouTube 탭](/help/assets/embed-design-youtube.png)
 
 * **음소거 비헤이비어 구성 허용** - YouTube 임베드 유형 선택 시 콘텐츠 작성자는 구성 요소에서 **음소거 활성화** 옵션을 구성할 수 있습니다.
    * **음소거의 기본값** - YouTube 임베드 유형 선택 시 **음소거 활성화** 옵션을 자동으로 설정합니다.

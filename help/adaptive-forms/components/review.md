@@ -4,8 +4,9 @@ description: 적응형 양식 검토 핵심 구성 요소를 사용 또는 사�
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # 검토 구성 요소
 
 적응형 양식의 검토 구성 요소를 사용하면 사용자는 양식을 제출하기 전에 입력한 정보를 검토하고 확인할 수 있습니다. 이는 요약 페이지 역할을 하며, 모든 필드와 해당 값을 읽기 전용 형태로 구조화되고 사용자 친화적인 형식으로 제공합니다. 이 기능을 사용하면 사용자는 제출을 완료하기 전에 오류나 누락을 식별하고 수정할 수 있어 전반적인 양식 경험이 향상됩니다. 편집 아이콘을 클릭하면 양식을 제출하기 전에 입력한 정보를 수정할 수 있습니다.
+
+{{traditional-aem}}
 
 **예**
 
@@ -76,4 +79,3 @@ ht-degree: 100%
 ## 추가 참조 {#see-also}
 
 {{see-also}}
-

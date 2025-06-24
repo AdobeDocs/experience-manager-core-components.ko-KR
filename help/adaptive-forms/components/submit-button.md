@@ -3,18 +3,21 @@ title: 적응형 양식 핵심 구성 요소 - 제출 버튼
 description: 적응형 양식 제출 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1510'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 97%
 
 ---
+
 
 # 제출 버튼 구성 요소 {#submit-button}
 
 적응형 양식의 제출 버튼은 사용자가 처리를 위해 양식 데이터를 서버에 제출할 수 있도록 하는 버튼입니다. 제출 버튼을 클릭하면 양식 데이터가 서버로 전송되어 저장되거나, 처리되거나, 이메일 전송 또는 데이터베이스 업데이트와 같은 다양한 용도로 사용될 수 있습니다.
 
 제출 버튼은 일반적으로 양식 작성 프로세스의 마지막 단계이며 양식 데이터를 서버로 전송하는 프로세스를 시작하는 데 사용됩니다.
+
+{{traditional-aem}}
 
 **예**
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 제출 버튼 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 제출 단추 핵심 구성 요소는 2023년 2월에 Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -42,7 +45,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 

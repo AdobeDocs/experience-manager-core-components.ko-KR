@@ -3,12 +3,13 @@ title: 적응형 양식 핵심 구성 요소 - 확인란
 description: 적응형 양식 확인란 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1838'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1837'
+ht-degree: 99%
 
 ---
+
 
 # 확인란 구성 요소{#checkbox-component}
 
@@ -18,7 +19,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)와 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+
+{{traditional-aem}}
 
 **예**
 
@@ -38,7 +41,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 확인란 핵심 구성 요소는 핵심 구성 요소 2.0.52의 일부로 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 확인란 핵심 구성 요소는 핵심 구성 요소 2.0.52의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|

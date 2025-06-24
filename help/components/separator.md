@@ -3,16 +3,19 @@ title: 분리자 구성 요소
 description: 분리자 구성 요소는 페이지에서 구성 요소를 일시 중단할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
 ---
 
+
 # 분리자 구성 요소 {#separator-component}
 
 핵심 구성 요소의 분리자 구성 요소에는 콘텐츠 분리에 대한 가로 규칙이 표시됩니다.
+
+{{traditional-aem}}
 
 ## 사용량 {#usage}
 

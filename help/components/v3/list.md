@@ -3,12 +3,14 @@ title: 목록 구성 요소 (v3)
 description: 핵심 구성 요소의 목록 구성 요소(v3)를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
+
 
 # 목록 구성 요소 (v3) {#list-component}
 
@@ -28,7 +30,7 @@ ht-degree: 100%
 >
 >현재 버전의 목록 구성 요소에 대한 자세한 내용은 [목록 구성 요소](/help/components/list.md) 문서를 참조하십시오.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -56,7 +58,7 @@ ht-degree: 100%
 
 ### 기술 세부 정보 {#technical-details}
 
-목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3_kr).
+목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

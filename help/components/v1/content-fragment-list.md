@@ -3,20 +3,22 @@ title: 콘텐츠 조각 목록 구성 요소 (v1)
 description: 핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 목록을 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 98%
 
 ---
 
+
 # 콘텐츠 조각 목록 구성 요소 (v1) {#content-fragment-list-component}
 
-핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko) 목록을 표시할 수 있습니다.
+핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 표시할 수 있습니다.
 
 ## 사용량 {#usage}
 
-핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 모델에 따라 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko) 목록을 포함할 수 있습니다. 다른 애플리케이션에서 간단히 사용할 수 있는 [헤드리스 콘텐츠](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)를 제작하는 경우 특히 유용합니다.
+핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 모델에 따라 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 포함할 수 있습니다. 다른 애플리케이션에서 간단히 사용할 수 있는 [헤드리스 콘텐츠](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)를 제작하는 경우 특히 유용합니다.
 
 * [구성 대화 상자](#configure-dialog)에서 목록과 목록의 속성을 선택할 수 있습니다.
 * [디자인 대화 상자](#design-dialog)에서 스타일을 구성 요소에 적용할 수 있습니다.
@@ -35,7 +37,7 @@ ht-degree: 98%
 
 콘텐츠 조각 목록 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_cflist_kr)를 참조하십시오.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 콘텐츠 조각 목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_cflist_v1_kr).
 

@@ -4,12 +4,13 @@ description: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레�
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
+
 
 # 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용 {#data-layer-core-components}
 
@@ -24,6 +25,8 @@ Adobe 클라이언트 데이터 레이어는 독립적인 플랫폼이지만 핵
 >Adobe 클라이언트 데이터 레이어에 대한 추가 정보는 [GitHub 저장소의 리소스를 참조하십시오.](https://github.com/adobe/adobe-client-data-layer)
 >
 >Adobe 클라이언트 데이터 레이어와 핵심 구성 요소 통합에 대한 추가 기술 세부 정보는 핵심 구성 요소 저장소의 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 파일을 참조하십시오.
+
+{{traditional-aem}}
 
 ## 설치 및 활성화 {#installation-activation}
 
@@ -261,7 +264,7 @@ id: {
 
 ### 구성 요소에 의해 트리거된 이벤트 {#events-components}
 
-다음 표는 해당 이벤트와 함께 이벤트를 트리거하는 표준 구성 요소를 보여 줍니다.
+다음 테이블은 해당 이벤트와 함께 이벤트를 트리거하는 표준 구성 요소를 보여 줍니다.
 
 | 구성 요소 | 이벤트 |
 |---|---|
@@ -306,7 +309,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 튜토리얼
 
-데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ko)을 살펴보십시오.
+데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을 살펴보십시오.
 
 >[!TIP]
 >

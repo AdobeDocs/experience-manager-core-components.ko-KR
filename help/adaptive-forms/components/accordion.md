@@ -3,18 +3,21 @@ title: 적응형 양식 아코디언
 description: 아코디언을 사용하여 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화합니다.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 100%
 
 ---
 
+
 # 아코디언 구성 요소 {#accordion-component-adaptive-forms-core-component}
 
 아코디언 구성 요소를 사용하면 적응형 양식에서 확장 및 축소 가능한 섹션을 만들 수 있습니다. 아코디언 구성 요소는 길거나 복잡한 양식을 더 작고 관리하기 쉬운 섹션으로 나누어 구성하고 단순화하는 데 사용됩니다. 아코디언의 각 섹션은 일반적으로 헤더로 표시되며 사용자는 헤더를 클릭하여 해당 콘텐츠를 확장하거나 축소할 수 있습니다. 콘텐츠는 모든 핵심 구성 요소가 될 수 있습니다.
 
 ![예](/help/adaptive-forms/assets/example-accordion.png)
+
+{{traditional-aem}}
 
 ## 사용 {#usage}
 
@@ -41,7 +44,7 @@ ht-degree: 100%
 ## 버전 및 호환성 {#version-and-compatibility}
 
 
-적응형 양식 아코디언 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 아코디언 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|
@@ -54,7 +57,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -121,7 +124,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **최소 반복**: 아코디언 패널을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 아코디언 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 아코디언 패널을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-아코디언 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+아코디언 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 

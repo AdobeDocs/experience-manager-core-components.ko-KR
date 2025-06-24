@@ -3,7 +3,7 @@ title: 적응형 양식 핵심 구성 요소 사용자 정의
 description: 조직에 맞는 기능을 구현하기 위해 적응형 양식 핵심 구성 요소를 확장하거나 생성하는 방법에 대해 알아봅니다.
 role: Architect, Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 적응형 양식 핵심 구성 요소를 사용자 정의하면 특정 요구 사항에 맞게 즉시 사용 가능한 기능을 조정할 수 있습니다. 이 안내서는 이러한 구성 요소를 사용자 정의하여 보다 개인화된 경험을 만드는 과정을 안내합니다.
 
+{{traditional-aem}}
+
 ## 전제 조건
 
 적응형 양식 핵심 구성 요소를 사용자 정의하기 전에
@@ -21,7 +23,7 @@ ht-degree: 100%
 * [핵심 구성 요소 아키텍처](customizing.md#customizing-the-markup-customizing-the-markup)에 대해 알아보고 [공식 Adobe Experience Manager 핵심 구성 요소 설명서](customizing.md)를 확인하십시오. 이러한 포괄적인 리소스는 사용자 정의 프로세스 전체에서 안내서 역할을 합니다.
 * 개발 환경을 설정합니다. 이렇게 하면 핵심 구성 요소를 변경하기 위한 워크플로를 원활하게 할 수 있습니다. 개발 환경을 설정하는 동안에는 최신 AEM Archetype 프로젝트를 기반으로 하는 AEM Archetype 프로젝트를 사용합니다. 사용 중인 환경에 따라 다음을 수행할 수 있습니다.
 
-   * [Forms as a Cloud Service용 로컬 개발 환경 설정](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=ko)
+   * [Forms as a Cloud Service용 로컬 개발 환경 설정](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html)
    * [AEM 6.5 Forms용 로컬 개발 환경 설정](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ko-KR)
 
 ## 적응형 양식 핵심 구성 요소 사용자 정의
@@ -52,7 +54,7 @@ ht-degree: 100%
 
 1. **로컬 개발 환경에서 구성 요소 배포 및 테스트**
 
-   [Maven을 사용하여 로컬 개발 환경에서 구성 요소를 빌드하고 배포](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=ko#building-and-installing)합니다. 구성 요소를 배포한 후 적응형 양식을 만들어 사용자 정의 구성 요소를 테스트합니다.
+   [Maven을 사용하여 로컬 개발 환경에서 구성 요소를 빌드하고 배포](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html#building-and-installing)합니다. 구성 요소를 배포한 후 적응형 양식을 만들어 사용자 정의 구성 요소를 테스트합니다.
 
 1. **프로덕션 환경에 사용자 정의 구성 요소 배포**
 

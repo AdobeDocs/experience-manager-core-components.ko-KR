@@ -3,7 +3,8 @@ title: 캠페인 변수
 description: 캠페인 변수를 자리 표시자로 사용하여 개인화된 이메일 콘텐츠를 작성합니다.
 role: Architect, Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 이메일 핵심 구성 요소를 사용하면 공통 텍스트 필드 옆에 있는 개인화 버튼을 통해 캠페인 변수에 쉽게 액세스할 수 있습니다. 누르면 개인화 필드를 선택할 수 있는 대화 상자가 나타납니다.
 
-사용 가능한 개인화 필드 목록은 Adobe Campaign 인스턴스와 동기화됩니다. 필드는 스키마 `nms:seedMember`의 Adobe Campaign에서 관리됩니다. `nms:seedMember`의 모든 필드는 수신자 표에도 표시되어야 합니다.
+사용 가능한 개인화 필드 목록은 Adobe Campaign 인스턴스와 동기화됩니다. 필드는 스키마 `nms:seedMember`의 Adobe Campaign에서 관리됩니다. `nms:seedMember`의 모든 필드는 수신자 테이블에도 표시되어야 합니다.
 
 ## Adobe Campaign 변수 선택 대화 상자 {#dialog}
 

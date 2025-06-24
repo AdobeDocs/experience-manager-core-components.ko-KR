@@ -3,16 +3,19 @@ title: 진행률 표시줄 구성 요소
 description: 진행률 표시줄 구성 요소는 목표에 대한 진행률을 시각적으로 표시합니다.
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
 ---
 
+
 # 진행률 표시줄 구성 요소 {#progress-bar-component}
 
 핵심 구성 요소의 진행률 표시줄 구성 요소는 목표에 대한 진행률을 시각적으로 표시합니다.
+
+{{traditional-aem}}
 
 ## 사용량 {#usage}
 

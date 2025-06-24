@@ -3,12 +3,14 @@ title: 목록 구성 요소 (v2)
 description: 핵심 구성 요소의 목록 구성 요소를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 100%
 
 ---
+
 
 # 목록 구성 요소 (v2) {#list-component}
 

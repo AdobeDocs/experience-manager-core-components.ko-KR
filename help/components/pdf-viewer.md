@@ -3,16 +3,19 @@ title: PDF 뷰어 구성 요소
 description: PDF 뷰어 구성 요소를 사용하여 PDF 문서를 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '685'
-ht-degree: 100%
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # PDF 뷰어 구성 요소 {#pdf-viewer-component}
 
 핵심 구성 요소의 PDF 뷰어 구성 요소를 사용하여 페이지에 PDF 문서를 포함할 수 있습니다.
+
+{{traditional-aem}}
 
 ## 사용량 {#usage}
 

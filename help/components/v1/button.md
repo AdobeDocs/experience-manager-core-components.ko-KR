@@ -3,12 +3,14 @@ title: 버튼 구성 요소 (v1)
 description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 98%
 
 ---
+
 
 # 버튼 구성 요소 (v1) {#button-component}
 
@@ -35,7 +37,7 @@ ht-degree: 98%
 
 버튼 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_button_kr)를 참조하십시오.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 버튼 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_button_v1_kr).
 

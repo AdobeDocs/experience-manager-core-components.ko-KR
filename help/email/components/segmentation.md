@@ -3,8 +3,9 @@ title: 이메일 세분화 구성 요소
 description: 이메일 세분화 구성 요소
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -56,14 +57,14 @@ ht-degree: 100%
    * **기본** - 다른 조건이 충족되지 않았을 때 표시할 기본 세그먼트 정의
    * **사용자 정의** - 작성자가 조건 정의 가능
       * 조건은 Adobe Campaign 개인화 변수에 기반
-      * [Adobe Campaign Standard 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ko&)
-      * [Adobe Campaign Classic 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ko)
+      * [Adobe Campaign Standard 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [Adobe Campaign Classic 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **삭제** - 탭하거나 클릭하여 이메일 세분화 구성 요소에서 세그먼트를 삭제합니다.
 * **재배열** - 탭하거나 클릭하고 드래그하여 세그먼트를 재배열합니다.
 
 >[!TIP]
 >
->콘텐츠 뷰포트가 작아져 편집 대화 상자가 전체 화면이 되면 **추가** 버튼이 표시되지 않습니다. [구성 요소 브라우저에서 드래그하여 콘텐츠 편집기의 이메일 세분화 구성 요소에 드롭하여](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#inserting-a-component) 구성 요소를 이메일 세분화 구성 요소에 추가할 수 있습니다.
+>콘텐츠 뷰포트가 작아져 편집 대화 상자가 전체 화면이 되면 **추가** 버튼이 표시되지 않습니다. [구성 요소 브라우저에서 드래그하여 콘텐츠 편집기의 이메일 세분화 구성 요소에 드롭하여](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component) 구성 요소를 이메일 세분화 구성 요소에 추가할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
@@ -118,7 +119,7 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 세그먼트로 이메일 세분화 구성 요소에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko) **허용된 구성 요소** 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) **허용된 구성 요소** 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 스타일 탭 {#styles-tab}
 
@@ -134,7 +135,7 @@ ht-degree: 100%
 
 * **세그먼트 조건 이름** - 조건에 대한 설명
 * **세그먼트 조건** - Adobe Campaign 개인화 변수를 기준으로 충족해야 하는 실제 조건
-   * [Adobe Campaign Standard 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ko&)
-   * [Adobe Campaign Classic 개인화 리소스는 여기를 참조하십시오.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=ko
+   * [Adobe Campaign Standard 개인화 리소스는 여기를 참조하십시오.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [Adobe Campaign Classic 개인화 리소스는 여기를 참조하십시오.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **제거** - 탭하거나 클릭하여 조건 제거
 * **재배열** - 탭하거나 클릭하고 드래그하여 조건의 순서 재배열

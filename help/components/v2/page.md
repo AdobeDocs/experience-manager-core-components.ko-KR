@@ -3,22 +3,24 @@ title: 페이지 구성 요소 (v2)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 99%
 
 ---
 
+
 # 페이지 구성 요소 (v2) {#page-component}
 
-페이지 구성 요소는 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
+페이지 구성 요소는 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 
 ## 사용량 {#usage}
 
 페이지 구성 요소는 핵심 구성 요소와 편집 가능한 템플릿으로 디자인된 모든 페이지의 기초 구성 요소입니다. 페이지 구성 요소를 사용하여 머리말, 바닥글과 페이지 구조를 다른 핵심 구성 요소를 사용하는 템플릿으로 정의할 수 있습니다.
 
-[디자인 대화 상자](#design-dialog)를 사용하여 페이지에 대한 맞춤형 클라이언트측 라이브러리를 정의할 수 있습니다. 구성 요소에서 바로 편집 대화 상자에 액세스할 수 있는 기타 구성 요소와 다르게, 페이지 구성 요소는 페이지 자체이므로 페이지 구성 요소의 [편집 대화 상자](#edit-dialog)가 페이지 속성 창입니다.
+[디자인 대화 상자](#design-dialog)를 사용하여 페이지에 대한 사용자 정의 클라이언트측 라이브러리를 정의할 수 있습니다. 구성 요소에서 바로 편집 대화 상자에 액세스할 수 있는 기타 구성 요소와 다르게, 페이지 구성 요소는 페이지 자체이므로 페이지 구성 요소의 [편집 대화 상자](#edit-dialog)가 페이지 속성 창입니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -32,9 +34,9 @@ ht-degree: 99%
 
 ## 점진적 웹 앱 지원 {#pwa-support}
 
-핵심 구성 요소의 릴리스 2.15.0에서는 AEM as a Cloud Service 빌트인 [점진적 웹 앱(PWA) 기능에 대한 지원을 도입했습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ko) 사이트 수준의 간단한 구성을 통해 AEM 경험을 PWA로 전환할 수 있습니다.
+핵심 구성 요소의 릴리스 2.15.0에서는 AEM as a Cloud Service의 기본 제공 [점진적 웹 앱(PWA) 기능에 대한 지원을 도입했습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 사이트 수준의 간단한 구성을 통해 AEM 경험을 PWA로 전환할 수 있습니다.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 페이지 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_page_v2_kr).
 
@@ -42,7 +44,7 @@ ht-degree: 99%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ko)에서 찾을 수 있습니다.
+구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서 찾을 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -58,12 +60,12 @@ ht-degree: 99%
 
 페이지 디자인 창을 사용하여 페이지에 로드할 클라이언트 라이브러리와 웹 리소스를 정의할 수 있습니다.
 
-* **클라이언트 라이브러리** - 로드할 클라이언트 라이브러리 범주를 정의합니다. JavaScript는 본문 끝에 추가하고 CSS는 페이지 헤드에 추가합니다.
-* **클라이언트 라이브러리 JavaScript 페이지 헤드** - 페이지 헤드에 로드할 클라이언트 라이브러리 범주를 정의합니다.
-   * 또한 **클라이언트 라이브러리** 필드에 존재하는 범주를 정의하게 되면 본문 끝이 아닌 페이지 헤드에 JavaScript를 로드할 수 있습니다.
-   * 또한 범주가 **클라이언트 라이브러리** 필드에 존재하지 않으면 CSS를 로드할 수 없습니다.
+* **클라이언트 라이브러리** - 로드할 클라이언트 라이브러리 카테고리를 정의합니다. JavaScript는 본문 끝에 추가하고 CSS는 페이지 헤드에 추가합니다.
+* **클라이언트 라이브러리 JavaScript 페이지 헤드** - 페이지 헤드에 로드할 JavaScript 클라이언트 라이브러리 카테고리를 정의합니다.
+   * 또한 **클라이언트 라이브러리** 필드에 존재하는 카테고리를 정의하게 되면 본문 끝이 아닌 페이지 헤드에 JavaScript를 로드할 수 있습니다.
+   * 또한 카테고리가 **클라이언트 라이브러리** 필드에 존재하지 않으면 CSS를 로드할 수 없습니다.
 
-* **웹 리소스 클라이언트 라이브러리** - favicons와 같은 웹 리소스를 제공하는 데 사용되는 클라이언트 라이브러리 범주
+* **웹 리소스 클라이언트 라이브러리** - favicons와 같은 웹 리소스를 제공하는 데 사용되는 클라이언트 라이브러리 카테고리
 
 * **메인 콘텐츠 요소 선택기로 건너뛰기** - 페이지의 메인 콘텐츠로 바로 건너뛸 수 있는 접근성 기능으로 사용
 
@@ -75,7 +77,7 @@ ht-degree: 99%
 * 필드를 제거하려면 필드 옆 휴지통 아이콘을 클릭하거나 탭하여 제거합니다
 * 로드 순서를 재배열하려면 필드 옆 핸들을 클릭하거나 탭하고 드래그하여 이동합니다.
 
-client-side 라이브러리 사용에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/clientlibs.html)을 참조하십시오.
+클라이언트측 라이브러리 사용에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/clientlibs.html)을 참조하십시오.
 
 >[!CAUTION]
 >

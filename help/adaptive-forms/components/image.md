@@ -3,18 +3,21 @@ title: 적응형 양식 핵심 구성 요소 - 이미지
 description: 적응형 양식 이미지 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 96%
 
 ---
+
 
 # 이미지 구성 요소{#image-adaptive-forms-core-component}
 
 적응형 양식의 이미지 구성 요소를 사용하여 양식에 이미지를 포함할 수 있습니다. 이러한 이미지를 사용하여 양식의 전반적인 디자인을 개선하거나, 추가 정보를 제공하거나, 사용자가 양식의 용도를 이해하는 데 도움이 되는 시각 자료로 사용할 수 있습니다. 이미지 구성 요소를 사용하여 양식에 로고, 사진 또는 그래픽을 추가할 수 있습니다.
 
 접근성을 위해 이미지에 대한 **대체 텍스트**&#x200B;를 지정하여 이미지를 볼 수 없는 사용자에게 이미지를 설명하는 간단한 대체 텍스트를 제공하는 것이 중요합니다.
+
+{{traditional-aem}}
 
 **예**
 
@@ -35,7 +38,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 이미지 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 이미지 핵심 구성 요소는 Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -46,7 +49,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 

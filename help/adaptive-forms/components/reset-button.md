@@ -3,18 +3,21 @@ title: 적응형 양식 핵심 구성 요소 - 재설정 버튼
 description: 적응형 양식 재설정 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1551'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1549'
+ht-degree: 97%
 
 ---
+
 
 # 재설정 버튼 구성 요소 {#reset-button}
 
 적응형 양식의 재설정 버튼은 사용자가 모든 양식 필드를 지우거나 기본값으로 재설정할 수 있도록 하는 버튼입니다. 재설정 버튼을 클릭하면 양식 필드에 입력된 모든 데이터가 삭제되고 필드가 원래 상태로 돌아갑니다. 재설정 버튼은 일반적으로 제출 버튼의 대안으로 사용되며 사용자가 양식에 부정확하거나 원치 않는 데이터를 입력한 경우 다시 시작할 수 있는 방법을 제공합니다.
 
 ![예](/help/adaptive-forms/assets/example-reset.png)
+
+{{traditional-aem}}
 
 ## 사용 {#reasons-to-use-reset-button}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 재설정 버튼 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 재설정 버튼 핵심 구성 요소는 2023년 2월 Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -42,7 +45,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 

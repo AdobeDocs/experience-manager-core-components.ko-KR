@@ -3,12 +3,14 @@ title: 티저 구성 요소 (v1)
 description: 티저 구성 요소에 이미지, 제목, 서식 있는 텍스트 및 추가 콘텐츠 링크(선택 사항)가 표시될 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
 ---
+
 
 # 티저 구성 요소 (v1) {#teaser-component}
 
@@ -34,7 +36,7 @@ ht-degree: 100%
 
 티저 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_teaser_kr)를 참조하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 티저 구성 요소에 대한 최신 기술 설명서는 [GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_kr)에서 찾아볼 수 있습니다.
 
@@ -49,9 +51,9 @@ ht-degree: 100%
 ![티저 구성 요소의 편집 대화 상자 이미지 탭](/help/assets/teaser-edit-image.png)
 
 * **이미지 에셋**
-   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 >[!NOTE]
 >

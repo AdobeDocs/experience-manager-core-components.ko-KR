@@ -3,12 +3,14 @@ title: 이동 경로 구성 요소 (v2)
 description: 핵심 구성 요소의 이동 경로 구성 요소는 콘텐츠 계층 구조의 페이지 위치에 따라 링크의 이동 경로를 빌드하는 탐색 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 99%
 
 ---
+
 
 # 이동 경로 구성 요소 (v2) {#breadcrumb-component}
 
@@ -38,7 +40,7 @@ ht-degree: 99%
 >
 >이동 경로 구성 요소 릴리스 2.1.0부터 탐색 구성 요소는 [schema.org microdata](https://schema.org/BreadcrumbList)를 지원합니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 이동 경로 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_kr).
 

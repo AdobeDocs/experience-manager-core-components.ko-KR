@@ -5,12 +5,13 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: be25eac36cafda0ff0cb745454593640cc54ceea
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 100%
 
 ---
+
 
 # hCaptcha 구성 요소{#hCaptcha-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 100%
 hCaptcha® 서비스는 봇, 스팸 및 자동화된 남용으로부터 양식을 보호합니다. 확인란 위젯 챌린지를 제기하고 사용자의 답변을 평가하여 양식과 상호 작용하는 것이 인간인지 또는 봇인지 판단합니다. 테스트가 실패할 경우 사용자가 진행하지 못하도록 차단하고 봇이 스팸을 게시하거나 악의적인 활동으로 상호 작용하는 것을 방지하여 온라인 거래를 안전하게 할 수 있도록 도와줍니다.
 
 ![hCaptcha®](/help/adaptive-forms/assets/hCaptcha-challenge.png)
+
+{{traditional-aem}}
 
 ## 사용 {#usage}
 
@@ -43,7 +46,7 @@ hCaptcha 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/ad
 ## 버전 및 호환성 {#version-and-compatibility}
 
 
-적응형 양식 hCaptcha 구성 요소는 [핵심 구성 요소 3.0.20](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491)의 일부로 2024년 5월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 hCaptcha 구성 요소는 [핵심 구성 요소 3.0.20](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491)의 일부로 2024년 5월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|

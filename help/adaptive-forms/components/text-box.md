@@ -3,16 +3,19 @@ title: 적응형 양식 핵심 구성 요소 - 텍스트 입력 (텍스트 상�
 description: 적응형 양식 텍스트 입력 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '2120'
 ht-degree: 100%
 
 ---
 
+
 # 텍스트 상자 구성 요소{#text-input-adaptive-forms-core-component}
 
 텍스트 입력(텍스트 상자) 구성 요소를 사용하면 입력 요소의 유형 속성에 따라 한 줄 또는 여러 줄의 텍스트를 입력하고 편집할 수 있습니다. 텍스트 입력 구성 요소는 양식 내에 배치할 수 있으며 일반적으로 용도를 쉽게 식별할 수 있는 유용한 텍스트로 레이블이 지정됩니다. 이는 사용자로부터 다양한 유형의 데이터를 수집하는 데 널리 사용되는 모든 형식의 기본 요소로, 간단하고 유연하며 입력 내용의 유효성을 검사하고 데이터 수집의 정확성을 개선하도록 구성할 수 있습니다.
+
+{{traditional-aem}}
 
 **예**
 
@@ -41,7 +44,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -164,7 +167,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

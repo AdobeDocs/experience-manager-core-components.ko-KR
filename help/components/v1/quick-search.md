@@ -3,12 +3,14 @@ title: 빠른 검색 구성 요소 (v1)
 description: 빠른 검색 구성 요소는 웹 사이트에 검색 기능을 제공하고, 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 검색 결과를 제공합니다.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 98%
 
 ---
+
 
 # 빠른 검색 구성 요소 (v1) {#quick-search-component}
 
@@ -24,7 +26,7 @@ ht-degree: 98%
 
 현재 버전의 빠른 검색 구성 요소는 2018년 1월 핵심 구성 요소 릴리스 2.0.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
 
-다음 표에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
+다음 테이블에서 구성 요소의 모든 지원 버전, 구성 요소 버전과 호환되는 AEM 버전 및 이전 버전에 대한 설명서 링크에 대해 자세히 살펴볼 수 있습니다.
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -33,11 +35,11 @@ ht-degree: 98%
 >[!CAUTION]
 >
 >이 문서는 빠른 검색 구성 요소 v1에 대해 설명합니다.
->현재 버전의 빠른 검색 구성 요소에 대한 자세한 내용은 [빠른 검색 구성 요소](/help/components/quick-search.md) 문서를 참조하십시오.
+>>현재 버전의 빠른 검색 구성 요소에 대한 자세한 내용은 [빠른 검색 구성 요소](/help/components/quick-search.md) 문서를 참조하십시오.
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 
-### 기술 세부 사항 {#technical-details}
+### 기술 세부 정보 {#technical-details}
 
 >[!NOTE]
 >

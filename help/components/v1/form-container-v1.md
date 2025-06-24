@@ -4,12 +4,13 @@ description: 핵심 구성 요소의 양식 컨테이너 구성 요소를 사용
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 
 ---
+
 
 # 양식 컨테이너 구성 요소 (v1) {#form-container-component-v1}
 
@@ -25,7 +26,7 @@ ht-degree: 100%
 
 이 문서에서는 AEM 6.3을 포함하는 핵심 구성 요소 릴리스 1.0.0과 함께 최초 도입된 양식 컨테이너 구성 요소 v1에 대해 설명합니다.
 
-다음 표에서 양식 컨테이너 구성 요소 v1의 호환성을 확인할 수 있습니다.
+다음 테이블에서 양식 컨테이너 구성 요소 v1의 호환성을 확인할 수 있습니다.
 
 | AEM 버전 | 양식 컨테이너 구성 요소 v1 |
 |--- |--- |

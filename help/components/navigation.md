@@ -3,16 +3,19 @@ title: 탐색 구성 요소
 description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
 
 ---
 
+
 # 탐색 구성 요소{#navigation-component}
 
 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
+
+{{traditional-aem}}
 
 ## 사용량 {#usage}
 
@@ -74,7 +77,7 @@ ht-degree: 100%
 \-- wknd-shop
 ```
 
-사이트 WKND의 경우 탐색 구성 요소를 머리말의 일부로서 페이지 템플릿에 배치할 수도 있습니다. 템플릿의 일부인 경우 구성 요소의 **탐색 루트**&#x200B;가 해당 사이트 마스터 콘텐츠의 시작점이 되기 때문에 해당 루트를 `/content/wknd/language-masters/en`로 설정할 수 있습니다. 또한 **탐색 구조 깊이**&#x200B;를 `2`로 설정하려는 이유는 전체 콘텐츠 트리가 구성 요소가 아니라 처음 두 레벨에 의해 표시되기 때문입니다.
+사이트 WKND의 경우 탐색 구성 요소를 머리말의 일부로서 페이지 템플릿에 배치할 수도 있습니다. 템플릿의 일부인 경우 구성 요소의 **탐색 루트**&#x200B;가 해당 사이트 마스터 콘텐츠의 시작점이 되기 때문에 해당 루트를 `/content/wknd/language-masters/en`로 설정할 수 있습니다. 또한 **탐색 구조 깊이**&#x200B;를 `2`로 설정하여 구성 요소가 콘텐츠 트리 전체를 표시하지 않고, 개요를 보여주는 용도로 상위 두 레벨만 표시하게 할 수 있습니다.
 
 **탐색 루트** 값을 사용하여 탐색 구성 요소는 `/content/wknd/language-masters/en` 이후 탐색과 동시에 사이트 구조가 반복적으로 2단계 하향 조정되면서(**탐색 구조 깊이**&#x200B;로 정의) 탐색 옵션을 생성할 수 있다고 인식하고 있습니다.
 
@@ -118,7 +121,7 @@ ht-degree: 100%
 
 ## 기술 세부 정보 {#technical-details}
 
-탐색 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_navigation_v2_kr).
+탐색 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_navigation_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

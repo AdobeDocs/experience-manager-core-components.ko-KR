@@ -3,12 +3,13 @@ title: 적응형 양식 핵심 구성 요소 - 전환 구성 요소
 description: 적응형 양식 전환 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 
 ---
+
 
 # 적응형 양식 전환 구성 요소{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 전환 구성 요소는 값을 true 또는 false로 설정하는 부울 제어 요소입니다. 예를 들어 사운드 음소거 또는 음소거 해제, Bluetooth 또는 WiFi 활성화 또는 비활성화와 같은 기능을 켜거나 끄는 데 사용됩니다.
 
 ![전환 구성 요소 예](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## 사용 {#reasons-to-use-switch}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 전환 핵심 구성 요소는 핵심 구성 요소 2.0.64의 일부로 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 전환 핵심 구성 요소는 핵심 구성 요소 2.0.64의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|

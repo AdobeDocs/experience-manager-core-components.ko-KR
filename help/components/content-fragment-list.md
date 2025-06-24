@@ -3,20 +3,23 @@ title: 콘텐츠 조각 목록 구성 요소
 description: 핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 목록을 표시할 수 있습니다.
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
 
 ---
 
+
 # 콘텐츠 조각 목록 구성 요소{#content-fragment-list-component}
 
-핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko) 목록을 표시할 수 있습니다.
+핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 표시할 수 있습니다.
+
+{{traditional-aem}}
 
 ## 사용량 {#usage}
 
-핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 모델에 따라 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko) 목록을 포함할 수 있습니다. 다른 애플리케이션에서 간단히 사용할 수 있는 [헤드리스 콘텐츠](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)를 제작하는 경우 특히 유용합니다.
+핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 모델에 따라 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 포함할 수 있습니다. 다른 애플리케이션에서 간단히 사용할 수 있는 [헤드리스 콘텐츠](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)를 제작하는 경우 특히 유용합니다.
 
 * [구성 대화 상자](#configure-dialog)에서 목록과 목록의 속성을 선택할 수 있습니다.
 * [디자인 대화 상자](#design-dialog)에서 스타일을 구성 요소에 적용할 수 있습니다.

@@ -3,18 +3,21 @@ title: 적응형 양식 핵심 구성 요소 - Google reCAPTCHA
 description: AEM Forms를 사용하면 Google reCAPTCHA 서비스를 통해 양식 보안을 손쉽게 강화할 수 있습니다. 적응형 양식 reCaptcha의 속성 설명
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
 
+
 # 적응형 양식 reCAPTCHA {#google-recaptcha}
 
 CAPTCHA(컴퓨터와 인간을 구분하기 위해 완전히 자동화된 공개 튜링 테스트)는 인간과 자동화된 프로그램 또는 봇을 구별하기 위해 온라인 거래에서 일반적으로 사용되는 프로그램입니다. 문제를 제기하고 사용자 응답을 평가하여 사이트와 상호 작용하는 것이 인간인지 봇인지 판단합니다. 테스트가 실패할 경우 사용자가 진행하지 못하도록 차단하고 봇이 스팸을 게시하거나 악의적인 목적으로 상호 작용하는 것을 방지하여 온라인 거래를 안전하게 할 수 있도록 도와줍니다.
 
 AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 지원합니다. 양식 제출 시 CAPTCHA 문제를 표시하는 데 사용할 수 있습니다.
+
+{{traditional-aem}}
 
 ## 사용 {#reasons-to-use-google-recaptcha}
 
@@ -31,7 +34,7 @@ AEM Forms as a Cloud Service는 적응형 양식에서 Google reCAPTCHA v2를 �
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 Google reCAPTCHA 핵심 구성 요소는 핵심 구성 요소 “버전”의 일부로 2023년 8월에 출시되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 Google reCAPTCHA 핵심 구성 요소는 핵심 구성 요소 “버전”의 일부로 2023년 8월에 출시되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 
 | 구성 요소 버전 | AEM as a Cloud Service |

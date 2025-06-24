@@ -3,12 +3,13 @@ title: 적응형 양식 핵심 구성 요소 - 약관
 description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '3256'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '3253'
+ht-degree: 98%
 
 ---
+
 
 # 약관 구성 요소
 
@@ -18,7 +19,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)와 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+
+{{traditional-aem}}
 
 **예**
 
@@ -40,7 +43,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 약관 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.62 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.28 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 약관 핵심 구성 요소는 Cloud Service용 핵심 구성 요소 2.0.62 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.28의 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|

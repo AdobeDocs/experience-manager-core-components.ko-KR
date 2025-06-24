@@ -3,10 +3,11 @@ title: 이메일 제목 구성 요소
 description: 이메일 제목 구성 요소는 바로 편집 기능이 있는 이메일 섹션 머리말 구성 요소입니다.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

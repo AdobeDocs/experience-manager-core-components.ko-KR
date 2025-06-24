@@ -3,12 +3,13 @@ title: 적응형 양식 핵심 구성 요소 - 버튼
 description: 적응형 양식 버튼 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1660'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # 버튼 구성 요소 {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 100%
 적응형 양식은 [제출 버튼](/help/adaptive-forms/components/submit-button.md)과 [재설정 버튼](/help/adaptive-forms/components/reset-button.md)을 위한 별도의 구성 요소를 갖추고 있어 사용자가 편리하게 양식을 제출하거나 재설정할 수 있습니다. 버튼 구성 요소는 특정 요구 사항에 따라 이러한 작업을 실행하도록 유연하게 구성할 수 있습니다.
 
 사용자는 적응형 양식 규칙 편집기를 사용하여 버튼 구성 요소에 대해 지원되는 전체 작업 목록에 액세스할 수 있습니다. 규칙 편집기를 사용하면 버튼을 클릭할 때, 양식이 로드될 때 또는 필드 값이 변경될 때와 같은 다양한 이벤트에 의해 트리거되는 규칙을 만들 수 있습니다. 그런 다음 이러한 규칙을 사용하여 구성 요소 표시 또는 숨기기, 필드 값 설정 또는 양식 제출과 같은 다양한 작업을 수행할 수 있습니다.
+
+{{traditional-aem}}
 
 **예**
 
@@ -40,7 +43,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 버튼 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 표에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 단추 핵심 구성 요소는 2023년 2월, Cloud Service용 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -51,7 +54,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
