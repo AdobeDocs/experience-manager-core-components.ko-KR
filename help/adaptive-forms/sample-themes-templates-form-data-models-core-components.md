@@ -7,7 +7,7 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 샘플 테마, 템플릿 및 양식 데이터 모델 {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] 핵심 구성 요소는 바로 사용할 수 있는 샘플 테마, 템플릿 및 양식 데이터 모델을 제공하여 다목적 적응형 양식을 빠르게 생성합니다. 또한 양식 작성자가 [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ko)의 확장성, 적응성 및 응답성을 학습하여 데이터베이스와 원활하게 연결하면서 즉시 간단한 양식을 만들고 복잡한 양식을 쉽게 만들 수 있도록 합니다.
+[!DNL AEM Forms] 핵심 구성 요소는 바로 사용할 수 있는 샘플 테마, 템플릿 및 양식 데이터 모델을 제공하여 다목적 적응형 양식을 빠르게 생성합니다. 또한 양식 작성자가 [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)의 확장성, 적응성 및 응답성을 학습하여 데이터베이스와 원활하게 연결하면서 즉시 간단한 양식을 만들고 복잡한 양식을 쉽게 만들 수 있도록 합니다.
 
 참조 콘텐츠 패키지에 포함된 샘플 테마, 템플릿 및 양식 데이터 모델은 다음과 같습니다.
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 **이들 테마를 가져오는 방법은 무엇입니까?**
 **AEM as a Cloud Service** 환경에 대해 아래에 기재된 단계에 따라 이들 테마를 가져올 수 있습니다.
 
-1. [적응형 양식 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ko)
+1. [적응형 양식 핵심 구성 요소 활성화](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
 1. [AEM Archetype 47 이상 버전의 프로젝트를 내 환경에 배포](https://github.com/adobe/aem-project-archetype)
 
 
-AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 있습니다. 요구 조건에 따라 테마를 맞춤화하려면 [프론트엔드 파이프라인을 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ko)하여 테마를 배포하십시오.
+AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 있습니다. 요구 조건에 따라 테마를 맞춤화하려면 [프론트엔드 파이프라인을 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)하여 테마를 배포하십시오.
 
 >[!NOTE]
 >
@@ -57,11 +57,11 @@ AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 �
 
 1. **AEM 6.5**
 
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=ko)
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
     1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=ko) to deploy the themes.
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
 
 -->
 
@@ -74,17 +74,17 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
-1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ko) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ko) to deploy these themes.
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=ko) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=ko) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
 
-[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ko). 
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
-[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=ko).
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
 -->
 
-**즉시 사용 가능한** [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ko) 테마:
+**즉시 사용 가능한** [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 테마:
 
 ![OOTB 테마](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
@@ -96,7 +96,7 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### WKND {#WKND}
 
-WKND 테마는 생동감 있고 창의적이며 매력적인 디자인을 구현하여 양식을 세련되게 만듭니다. 테마는 [Adobe Experience Manager 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ko)를 기반으로 구축된 여행 및 모험 웹 사이트인 [WKND 사이트](https://wknd.site/us/en.html)의 모양과 스타일을 기반으로 합니다.
+WKND 테마는 생동감 있고 창의적이며 매력적인 디자인을 구현하여 양식을 세련되게 만듭니다. 테마는 [Adobe Experience Manager 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)를 기반으로 구축된 여행 및 모험 웹 사이트인 [WKND 사이트](https://wknd.site/us/en.html)의 모양과 스타일을 기반으로 합니다.
 
 ![WKND 테마](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
 
@@ -139,7 +139,7 @@ FSI 테마는 양식에 깔끔하고 실용적인 느낌을 주는 데 중점을
 -->
 
 
-**즉시 사용 가능한** [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ko) 템플릿:
+**즉시 사용 가능한** [적응형 양식 핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 템플릿:
 
 ![참조 템플릿](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
@@ -147,7 +147,7 @@ FSI 테마는 양식에 깔끔하고 실용적인 느낌을 주는 데 중점을
 
 ### Basic {#Basic}
 
-A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ko). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -231,7 +231,7 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ## 참조 양식 데이터 모델 {#reference-models}
 
-[핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ko)를 기반으로 적응형 양식을 만든 후 양식을 데이터베이스 Microsoft® Dynamics 365 및 Salesforce 서버와 연결하여 비즈니스 워크플로를 활성화할 수 있습니다. 예:
+[핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)를 기반으로 적응형 양식을 만든 후 양식을 데이터베이스 Microsoft® Dynamics 365 및 Salesforce 서버와 연결하여 비즈니스 워크플로를 활성화할 수 있습니다. 예:
 
 * 적응형 양식 제출 시 Microsoft® Dynamics 365 및 Salesforce에 데이터를 씁니다.
 * 양식 데이터 모델에 정의된 사용자 정의 엔티티를 통해 Microsoft® Dynamics 365 및 Salesforce에 데이터를 작성하며 그 반대의 경우도 마찬가지입니다.
@@ -243,4 +243,4 @@ A basic template helps you quickly create an enrollment experience form. You can
 * Microsoft® Dynamics 365
 * Salesforce
 
-이러한 모델 사용에 대한 자세한 내용은 [Microsoft® Dynamics 365 및 Salesforce 클라우드 서비스 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html?lang=ko#configure-dynamics-cloud-service)을 참조하십시오.
+이러한 모델 사용에 대한 자세한 내용은 [Microsoft® Dynamics 365 및 Salesforce 클라우드 서비스 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html#configure-dynamics-cloud-service)을 참조하십시오.

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 사용 {#usage}
 
-콘텐츠 작성자는 티저 구성 요소를 통해 이미지, 제목이나 서식 있는 텍스트와 추가 콘텐트 링크 또는 기타 작업을 통해 티저를 손쉽게 제작할 수 있습니다.
+콘텐츠 작성자는 티저 구성 요소를 통해 이미지, 제목이나 서식 있는 텍스트와 추가 콘텐츠 링크 또는 기타 작업을 통해 티저를 손쉽게 제작할 수 있습니다.
 
 템플릿 작성자는 [디자인 대화 상자](#design-dialog)를 통해 콜 투 액션을 만들고 링크를 추가하는 옵션을 사용할 수 있는지, 여러 디스플레이 옵션을 활성화할 수 있는지 정의할 수 있습니다. 콘텐츠 작성자는 [구성 대화 상자](#configure-dialog)를 통해 이미지를 설정하고, CTA를 정의하고, 제목 및 설명을 설정하고 링크를 개별 티저로 구성할 수 있습니다. [이미지 구성 요소](image-v1.md)의 [편집 대화 상자](image-v1.md#edit-dialog)에 액세스하여 티저 이미지를 수정할 수 있습니다.
 
@@ -50,10 +50,10 @@ ht-degree: 100%
 
 ![티저 구성 요소의 편집 대화 상자 이미지 탭](/help/assets/teaser-edit-image.png)
 
-* **이미지 에셋**
-   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+* **이미지 자산**
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 98%
 
 ## 사용량 {#usage}
 
-이미지 구성 요소를 사용하여 이미지 에셋을 간단히 배치하고 바로 편집 기능을 제공합니다. 콘텐츠 작성자의 소극적 로드 및 자르기 옵션이 있는 적응형 이미지 선택 기능이 포함됩니다.
+이미지 구성 요소를 사용하여 이미지 자산을 간단히 배치하고 바로 편집 기능을 제공합니다. 콘텐츠 작성자의 소극적 로드 및 자르기 옵션이 있는 적응형 이미지 선택 기능이 포함됩니다.
 
-템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 허용된 이미지 폭과 자르기 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 에셋을 업로드하거나 선택하고, [편집 대화 상자](#edit-dialog)에서 이미지를 자를 수 있습니다. 편리성을 추가하기 위해 이미지의 간단한 바로 수정 기능을 사용할 수도 있습니다.
+템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 허용된 이미지 폭과 자르기 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 자산을 업로드하거나 선택하고, [편집 대화 상자](#edit-dialog)에서 이미지를 자를 수 있습니다. 편리성을 추가하기 위해 이미지의 간단한 바로 수정 기능을 사용할 수도 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -82,10 +82,10 @@ ht-degree: 98%
 
 ![](/help/assets/chlimage_1-50.png)
 
-* **이미지 에셋**
+* **이미지 자산**
    * [자산 브라우저](https://helpx.adobe.com/kr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19).
 
 * **장식적 이미지** - 이미지가 보조 기술에서 무시되어 대체 텍스트가 필요한지 확인합니다. 이는 장식적 이미지에만 적용됩니다.
 * **대체 텍스트** - 이미지 의미 또는 기능에 대한 시각 장애인 독자용 대체 텍스트입니다.
@@ -110,7 +110,7 @@ ht-degree: 98%
   이 옵션을 선택하면 자르기 비율을 사전 정의하는 드롭다운이 열립니다.
 
    * **프리 핸드** 옵션을 선택하여 자체 자르기를 정의합니다.
-   * **자르기 제거** 옵션을 선택하면 원본 에셋이 표시됩니다.
+   * **자르기 제거** 옵션을 선택하면 원본 자산이 표시됩니다.
 
   자르기 옵션이 선택되면 파란색 핸들이 사용하여 이미지에서 자르기 크기를 조정합니다.
 
@@ -190,28 +190,28 @@ ht-degree: 98%
 
 추가 버튼을 탭하거나 클릭하여 다른 크기를 추가합니다.
 
-* 그랩 드래그 핸들을 사용하여 크기의 순서를 재배열합니다.
+* 그랩 핸들을 사용하여 크기의 순서를 재배열합니다.
 * 삭제 아이콘을 사용하여 폭을 삭제합니다.
 
 기본적으로 이미지가 표시될 때까지 이미지 로드를 연기합니다. **소극적 로드 활성화** 옵션을 사용하여 페이지 로드에서 이미지를 로드합니다.
 
-* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 제공 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+* **웹 최적화 이미지 활성화** - 선택하면 [웹에 최적화된 이미지 게재 서비스](/help/developing/web-optimized-image-delivery.md)는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 게재 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 
 ### 기능 {#features}
 
 **기능** 탭에서 업로드 옵션, 방향 및 자르기 옵션을 사용할 때 콘텐츠 작성자가 사용할 수 있는 옵션을 정의할 수 있습니다.
 
-* **웹 최적화 이미지 활성화** - 선택하면 웹에 최적화된 이미지 제공 서비스는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
+* **웹 최적화 이미지 활성화** - 선택하면 웹에 최적화된 이미지 게재 서비스는 WebP 형식으로 이미지를 전달하여 이미지 크기를 평균 25% 줄일 수 있습니다.
    * 이 옵션은 AEMaaCS에서만 사용할 수 있습니다.
-   * 선택하지 않거나 웹 최적화된 이미지 제공 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
+   * 선택하지 않거나 웹 최적화된 이미지 게재 서비스를 사용할 수 없는 경우 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)이 사용됩니다.
 
 * 소스
 
   ![](/help/assets/chlimage_1-19.png)
 
-  **파일 시스템에서 에셋 업로드 허용** 옵션을 선택하여 콘텐츠 작성자는 자신의 컴퓨터에서 이미지를 업로드할 수 있습니다. 콘텐츠 작성자가 AEM에서 에셋만 강제 선택하려면 이 옵션 선택을 해제합니다.
+  **파일 시스템에서 자산 업로드 허용** 옵션을 선택하여 콘텐츠 작성자는 자신의 컴퓨터에서 이미지를 업로드할 수 있습니다. 콘텐츠 작성자가 AEM에서 자산만 강제 선택하려면 이 옵션 선택을 해제합니다.
 
 * 방향
 
@@ -238,11 +238,11 @@ ht-degree: 98%
 
   >[!CAUTION]
   >
-  >AEM에서 자르기 종횡비는 **높이/폭**&#x200B;으로 정의됩니다. 이는 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 종횡비 이름이 UI에 명확하게 표시되고 종황비 자체가 아니기 때문에 이름이 제공되어도 콘텐츠 작성자는 차이를 알 수 없습니다.
+  >AEM에서 자르기 종횡비는 **높이/폭**&#x200B;으로 정의됩니다. 이는 종래의 폭/높이 정의와 다르며, 레거시 호환성을 위해 수행됩니다. 종횡비 이름이 UI에 명확하게 표시되고 종횡비 자체가 아니기 때문에 이름이 제공되어도 콘텐츠 작성자는 차이를 알 수 없습니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-이미지 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
+이미지 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
 
 GitHub에서 전체 핵심 구성 요소 프로젝트를 다운로드할 수 있습니다.
 

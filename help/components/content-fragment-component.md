@@ -4,7 +4,7 @@ description: 핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 콘텐츠 조각 구성 요소{#content-fragment-component}
 
-핵심 구성 요소의 [콘텐츠 조각 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko)를 사용하여 버튼을 생성하고 표시할 수 있습니다.
+핵심 구성 요소의 [콘텐츠 조각 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 
 >[!NOTE]
 >
@@ -23,11 +23,11 @@ ht-degree: 100%
 
 ## 사용량 {#usage}
 
-핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하여 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko)을 포함할 수 있습니다.
+핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하여 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)을 포함할 수 있습니다.
 
 * [구성 대화 상자](#configure-dialog)에서 조각과 조각의 속성을 선택할 수 있습니다.
 * [디자인 대화 상자](#design-dialog)에서 특정 이미지와 그리드를 처리하는 리소스 유형을 정의할 수 있습니다.
-* 편집 옵션은 [콘텐츠 조각 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=ko) 내에서 선택한 조각을 열 수 있습니다.
+* 편집 옵션은 [콘텐츠 조각 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html) 내에서 선택한 조각을 열 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 

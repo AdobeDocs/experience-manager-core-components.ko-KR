@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1624'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이메일 이미지 구성 요소는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ko#dynamicmedia) 자산을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이메일 이미지 구성 요소는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 자산을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 이메일 핵심 구성 요소가 내장된 이메일 경험에는 Sensei에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
@@ -86,9 +86,9 @@ ht-degree: 0%
    * **페이지에서 그림 설명 상속** 옵션은 DAM에 있는 `dc:description` 메타데이터 또는 연결된 자산이 없는 경우 현재 페이지의 연결된 자산 값에 대한 대체 설명을 사용합니다.
 
 * **이미지 자산**
-   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 * **그림 설명을 제공하지 않음** 옵션은 이미지가 단순히 장식용이거나 페이지에 추가 정보를 전달하지 않는 경우 화면 판독기와 같은 보조 기술에서 무시되도록 이미지를 표시합니다.
 

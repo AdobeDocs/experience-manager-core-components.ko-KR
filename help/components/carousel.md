@@ -4,7 +4,7 @@ description: 콘텐츠 작성자는 회전하는 슬라이드 구성 요소를 �
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
+1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
 1. 페이지 콘텐츠를 검사하고 패널의 ID를 식별합니다.
    * 예 `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
 1. ID는 해시로 URL에 추가될 수 있는 앵커가 됩니다(`#`).
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->페이지 뷰포트가 작아져 편집 대화 상자가 전체 화면이 되면 **추가** 버튼이 표시되지 않습니다. [슬라이드 요소 브라우저를 드래그하여 페이지 편집기의 탭 구성 요소에 드롭하여](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#inserting-a-component-from-the-components-browser) 구성 요소를 슬라이드 구성 요소에 추가할 수 있습니다.
+>페이지 뷰포트가 작아져 편집 대화 상자가 전체 화면이 되면 **추가** 버튼이 표시되지 않습니다. [슬라이드 요소 브라우저를 드래그하여 페이지 편집기의 탭 구성 요소에 드롭하여](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser) 구성 요소를 슬라이드 구성 요소에 추가할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
@@ -101,9 +101,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**편집** 모드에 있는 경우 슬라이드 이동 컨트롤은 활성화되지 않습니다. [**미리보기** 모드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#preview-mode)나 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)** 옵션을 사용하여 게시된 콘텐츠 판독기와 마찬가지로 슬라이드와 상호 작용합니다.
+>**편집** 모드에 있는 경우 슬라이드 이동 컨트롤은 활성화되지 않습니다. [**미리보기** 모드](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)나 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 옵션을 사용하여 게시된 콘텐츠 판독기와 마찬가지로 슬라이드와 상호 작용합니다.
 >
->**편집** 모드에 있는 경우 자동 이동 기능은 활성화되지 않습니다. **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)** 옵션을 사용하여 게시된 콘텐츠 판독기와 마찬가지로 자동 이동 기능을 확인합니다.
+>**편집** 모드에 있는 경우 자동 이동 기능은 활성화되지 않습니다. **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 옵션을 사용하여 게시된 콘텐츠 판독기와 마찬가지로 자동 이동 기능을 확인합니다.
 
 ### 접근성 탭 {#accessibility-tab}
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 슬라이드로 슬라이드 구성 요소에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 스타일 탭 {#styles-tab}
 

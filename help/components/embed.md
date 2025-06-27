@@ -4,7 +4,7 @@ description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 기술 세부 정보 {#technical-details}
 
-임베드 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v2_kr).
+임베드 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 임베드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
 
-추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=ko) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=ko)용)에서 확인할 수 있습니다.
+추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)용)에서 확인할 수 있습니다.
 
 >[!NOTE]
 >

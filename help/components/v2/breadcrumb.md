@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 ## 기술 세부 정보 {#technical-details}
 
-이동 경로 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_kr).
+이동 경로 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -58,8 +58,8 @@ ht-degree: 99%
    * `/content/<yourSite>`에서 1차 시작
    * `/content/<yourSite>/<country>`에서 2차 시작
 
-* **탐색 항목 숨김 표시** - 숨김으로 표시된 이동 경로의 페이지를 표시함(기본적으로 표시되지 않음)
-* **현재 페이지 숨김** - 이동 경로의 현재 페이지를 표시하지 않음(기본적으로 표시됨)
+* **탐색 항목 숨김 표시** - 숨김으로 표시된 이동 경로의 페이지를 표시함 (기본적으로 표시되지 않음)
+* **현재 페이지 숨김** - 이동 경로의 현재 페이지를 표시하지 않음 (기본적으로 표시됨)
 * **섀도잉 비활성화** - 계층 구조 내의 페이지가 리디렉션된 경우 대상이 아닌 리디렉션된 페이지 이름이 표시됩니다. 자세한 내용은 탐색 구성 요소의 [새도 사이트 구조 지원](../v1/navigation.md#shadow-structure)을 참조하십시오.
 * **ID** - 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
    * 비워 두면 고유 ID는 자동으로 생성되고 결과 페이지 검사를 통해 발견될 수 있습니다.

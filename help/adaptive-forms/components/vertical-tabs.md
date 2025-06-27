@@ -4,9 +4,9 @@ description: 적응형 양식 세로 탭 핵심 구성 요소를 사용 또는 �
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2173'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)와 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
 
 ![예](/help/adaptive-forms/assets/horizontal-example.png)
 
@@ -72,7 +72,7 @@ ht-degree: 99%
 
 - **양식 제출 시 하위 구성 요소의 데이터 그룹화(오브젝트에 데이터 래핑)** - 이 옵션을 선택하면 하위 구성 요소의 데이터가 상위 구성 요소의 JSON 오브젝트 내에 중첩됩니다. 그러나 이 옵션을 선택하지 않으면 제출된 JSON 데이터는 상위 구성 요소에 대한 오브젝트가 없는 평면 구조를 갖습니다. 예:
 
-   - 이 옵션을 선택하면 하위 구성 요소(예: 도로 번호, 구/군/시 및 우편 번호)의 데이터가 상위 구성 요소(주소) 내에 JSON 오브젝트로 중첩됩니다. 이렇게 하면 계층 구조가 생성되고 데이터는 상위 구성 요소 아래에 구성됩니다.
+   - 이 옵션을 선택하면 하위 구성 요소(예: 도로 번호, 구/군/시 및 우편번호)의 데이터가 상위 구성 요소(주소) 내에 JSON 오브젝트로 중첩됩니다. 이렇게 하면 계층 구조가 생성되고 데이터는 상위 구성 요소 아래에 구성됩니다.
 
      제출된 데이터의 구조:
 
@@ -109,7 +109,7 @@ ht-degree: 99%
 - **최소 반복**: 세로 탭을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 세로 탭이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 세로 탭을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-세로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+세로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 

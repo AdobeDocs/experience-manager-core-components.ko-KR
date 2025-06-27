@@ -5,7 +5,7 @@ feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
 ht-degree: 100%
 
@@ -309,7 +309,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 튜토리얼
 
-데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ko)을 살펴보십시오.
+데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을 살펴보십시오.
 
 >[!TIP]
 >

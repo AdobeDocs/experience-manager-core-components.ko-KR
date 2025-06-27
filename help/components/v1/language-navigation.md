@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 
 ## 기술 세부 정보 {#technical-details}
 
-언어 탐색 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_langnav_v1_kr).
+언어 탐색 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_langnav_v1_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -95,7 +95,7 @@ ht-degree: 99%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-일반적으로 사이트의 페이지 템플릿에서만 언어 탐색 구성 요소를 추가하고 구성할 수 있습니다. 하지만, 언어 탐색 구성 요소를 개별 페이지에 추가해야 할 경우 콘텐츠 작성자는 [디자인 편집 상자](#design-dialog) 설명에 따라 편집 대화 상자를 통해 동일한 값을 구성할 수 있습니다.
+일반적으로 사이트의 페이지 템플릿에서만 언어 탐색 구성 요소를 추가하고 구성할 수 있습니다. 하지만 언어 탐색 구성 요소를 개별 페이지에 추가해야 할 경우 콘텐츠 작성자는 [디자인 편집 상자](#design-dialog) 설명에 따라 편집 대화 상자를 통해 동일한 값을 구성할 수 있습니다.
 
 또한 **ID**&#x200B;를 설정할 수 있습니다. 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 
@@ -107,4 +107,4 @@ ht-degree: 99%
 
 ## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
-언어 탐색 구성 요소는 [ Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)지원합니다.
+언어 탐색 구성 요소는 [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)를 지원합니다.

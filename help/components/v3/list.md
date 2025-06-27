@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1168'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ### 기술 세부 정보 {#technical-details}
 
-목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3_kr).
+목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

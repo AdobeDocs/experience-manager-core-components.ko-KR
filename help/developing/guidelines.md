@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 기초 구성 요소와 전혀 다른 구�
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 ### 문제 분리 {#separation-of-concerns}
 
-일반적으로 마크업 템플릿(뷰)과 구성 요소의 논리(또는 모델)를 분리하는 것이 좋습니다. 이를 수행하기 위한 몇 가지 방법이 있지만, 핵심 구성 요소와 마찬가지로 논리에는 [슬링 모드](https://sling.apache.org/documentation/bundles/models.html)를, 마크업에는 [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko)를 사용하는 것이 좋습니다.
+일반적으로 마크업 템플릿(뷰)과 구성 요소의 논리(또는 모델)를 분리하는 것이 좋습니다. 이를 수행하기 위한 몇 가지 방법이 있지만 핵심 구성 요소와 마찬가지로 논리에는 [슬링 모드](https://sling.apache.org/documentation/bundles/models.html)를, 마크업에는 [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)를 사용하는 것이 좋습니다.
 
 Java 주석 세트인 슬링 모드를 통해 POJO에서 필요한 변형에 쉽게 액세스할 수 있으므로 간단하고, 강력하고 효율적으로 구성 요소에 대해 Java 논리를 구현할 수 있습니다.
 
@@ -40,17 +40,17 @@ HTL은 AEM에 맞게 설계된 안전하고 간단한 템플릿 언어입니다.
 
 ## 재사용 가능한 구성 요소 패턴 {#reusable-component-patterns}
 
-모든 유형의 구성 요소에 이 섹션의 가이드라인을 사용할 수 있지만, 핵심 구성 요소 등 사이트나 프로젝트에서 재사용이 가능한 구성 요소에 가장 적합합니다. 따라서 구성 요소가 단일 사이트나 프로젝트에서만 사용되는 경우에는 이 가이드라인을 무시할 수 있습니다.
+모든 유형의 구성 요소에 이 섹션의 가이드라인을 사용할 수 있지만 핵심 구성 요소 등 사이트나 프로젝트에서 재사용이 가능한 구성 요소에 가장 적합합니다. 따라서 구성 요소가 단일 사이트나 프로젝트에서만 사용되는 경우에는 이 가이드라인을 무시할 수 있습니다.
 
 ### 사전에 구성 가능한 기능 {#pre-configurable-capabilities}
 
-페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 디자인 대화 상자가 포함되어 템플릿 작성자는 구성 요소를 사전에 구성할 수 있습니다. [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)를 통해 “정책”이라는 사전 구성 항목을 모두 설정할 수 있습니다.
+페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 디자인 대화 상자가 포함되어 템플릿 작성자는 구성 요소를 사전에 구성할 수 있습니다. [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 “정책”이라는 사전 구성 항목을 모두 설정할 수 있습니다.
 
 재사용 가능한 구성 요소를 만들려면 사전 구성할 유의미한 옵션이 제공되어야 합니다. 이로써 각기 다른 사이트의 특정 요구 사항에 일치하는 구성 요소 기능을 활성화하거나 비활성화할 수 있습니다.
 
 ### 프록시 구성 요소 패턴 {#proxy-component-pattern}
 
-각 콘텐츠 리소스에는 구성 요소 렌더링을 참조하는 `sling:resourceType` 속성이 있기 때문에 이러한 속성을 사용하여 여러 사이트에서 공유하는 구성 요소를 지정하는 대신 사이트별 구성 요소를 지정하는 것이 좋습니다. 한 사이트에서 서로 다른 구성 요소 비헤이비어가 필요한 경우 추가 유연성이 제공되고 콘텐츠 리팩터링이 배제되는 이유는 사이트별 구성 요소의 맞춤화가 다른 사이트에 영향을 미치지 않기 때문입니다.
+각 콘텐츠 리소스에는 구성 요소 렌더링을 참조하는 `sling:resourceType` 속성이 있기 때문에 이러한 속성을 사용하여 여러 사이트에서 공유하는 구성 요소를 지정하는 대신 사이트별 구성 요소를 지정하는 것이 좋습니다. 한 사이트에서 서로 다른 구성 요소 비헤이비어가 필요한 경우 추가 유연성이 제공되고 콘텐츠 리팩토링이 배제되는 이유는 사이트별 구성 요소의 맞춤화가 다른 사이트에 영향을 미치지 않기 때문입니다.
 
 단, 프로젝트별 구성 요소가 코드를 복제하지 않으면 `sling:resourceSuperType` 속성이 공유된 상위 구성 요소를 참조하십시오. 주로 상위 구성 요소를 참조하는 이 프로젝트별 구성 요소는 “프록시 구성 요소”라 합니다. 기능이 완전히 상속되면 프록시 구성 요소 전체가 비거나 구성 요소의 일부 측면이 재정의될 수 있습니다.
 
@@ -72,9 +72,9 @@ HTL은 AEM에 맞게 설계된 안전하고 간단한 템플릿 언어입니다.
 
 자세한 내용은 GitHub의 [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) 문서를 참조하십시오.
 
-리팩터링이 언제 수행되는지 명시되기 때문에 구성 요소 버전 관리는 업그레이드에 중요한 계약 양식을 만듭니다. 다양한 맞춤화 양식을 업그레이드하는 데 필요한 고려할 사항에 대해 설명하는 섹션 [맞춤화의 호환성 업그레이드](customizing.md#upgrade-compatibility-of-customizations)를 참조하십시오.
+리팩토링이 언제 수행되는지 명시되기 때문에 구성 요소 버전 관리는 업그레이드에 중요한 계약 양식을 만듭니다. 다양한 맞춤화 양식을 업그레이드하는 데 필요한 고려할 사항에 대해 설명하는 섹션 [맞춤화의 호환성 업그레이드](customizing.md#upgrade-compatibility-of-customizations)를 참조하십시오.
 
-어려운 콘텐츠 마이그레이션을 피하려면 버전 관리된 구성 요소를 콘텐츠 리소스에서 바로 지정하지 않는 것이 좋습니다. 일반적으로 콘텐츠의 `sling:resourceType`에는 버전 번호가 포함되면 안 됩니다. 또는 구성 요소가 업그레이드되면 콘텐츠도 리팩터링될 수 있습니다. 이를 최대한 피하기 위해서 위에서 설명한 [프록시 구성 요소 패턴](#proxy-component-pattern)을 따르십시오.
+어려운 콘텐츠 마이그레이션을 피하려면 버전 관리된 구성 요소를 콘텐츠 리소스에서 바로 지정하지 않는 것이 좋습니다. 일반적으로 콘텐츠의 `sling:resourceType`에는 버전 번호가 포함되면 안 됩니다. 또는 구성 요소가 업그레이드되면 콘텐츠도 리팩토링될 수 있습니다. 이를 최대한 피하기 위해서 위에서 설명한 [프록시 구성 요소 패턴](#proxy-component-pattern)을 따르십시오.
 
 ### 모델 인터페이스 {#model-interfaces}
 
@@ -87,11 +87,11 @@ HTL은 AEM에 맞게 설계된 안전하고 간단한 템플릿 언어입니다.
 
 ## 결합하기 {#putting-it-all-together}
 
-다음은 제목 핵심 구성 요소를 사례로 한 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 콘텐츠 리소스에 버전 번호가 포함되지 않도록, 사이트별 프록시 구성 요소를 통해 구성 요소 버전 관리를 해결하는 방법을 보여 줍니다. 구성 요소의 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko) 파일이 모델 인터페이스에 어떻게 사용되는지 보여 주지만 구현은 [슬링 모델](https://sling.apache.org/documentation/bundles/models.html) 주석을 통해 특정 버전의 구성 요소에 바인딩됩니다.
+다음은 제목 핵심 구성 요소를 사례로 한 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 콘텐츠 리소스에 버전 번호가 포함되지 않도록, 사이트별 프록시 구성 요소를 통해 구성 요소 버전 관리를 해결하는 방법을 보여 줍니다. 구성 요소의 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) 파일이 모델 인터페이스에 어떻게 사용되는지 보여 주지만 구현은 [슬링 모델](https://sling.apache.org/documentation/bundles/models.html) 주석을 통해 특정 버전의 구성 요소에 바인딩됩니다.
 
 ![리소스 바인딩 개요](/help/assets/chlimage_1-32.png)
 
-아래 개요에는 구현 POJO에 대한 세부 정보가 표시되지 않지만 관련 [템플릿 및 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko)을 참조하는 방법은 표시됩니다.
+아래 개요에는 구현 POJO에 대한 세부 정보가 표시되지 않지만 관련 [템플릿 및 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)을 참조하는 방법은 표시됩니다.
 
 `cq:allowedTemplates` 속성을 통해 사이트에 사용되는 템플릿을 알려 주고 `cq:template`를 통해 각 페이지에 관련 템플릿에 대한 정보를 제공할 수 있습니다. 모든 템플릿은 다음 세 가지 부품으로 구성됩니다.
 
