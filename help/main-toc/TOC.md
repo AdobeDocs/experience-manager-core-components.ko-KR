@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 기존 AEM 프로젝트의 경우 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [적응형 양식 확인란](/help/adaptive-forms/components/checkbox.md)
       + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
       + [적응형 양식 컨테이너](/help/adaptive-forms/components/form-container.md)
+      + [적응형 Forms 날짜 및 시간](/help/adaptive-forms/components/date-time-component.md)
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
       + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
       + [적응형 양식 이메일](/help/adaptive-forms/components/email.md)
@@ -127,6 +128,7 @@ ht-degree: 100%
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
       + [적응형 양식 검토](/help/adaptive-forms/components/review.md)
+      + [적응형 Forms 스크리블 서명](/help/adaptive-forms/components/scribble-signature.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
       + [적응형 양식 스위치](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [적응형 양식 모바일](/help/adaptive-forms/components/phone.md)

@@ -1,65 +1,55 @@
 ---
-title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
-description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
+title: 적응형 Forms 핵심 구성 요소 - 날짜 및 시간
+description: 적응형 Forms 날짜 및 시간 핵심 구성 요소 사용 또는 맞춤화
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '1898'
+ht-degree: 74%
 
 ---
 
 
-# 날짜 선택기 구성 요소{#date-picker-adaptive-forms-core-component}
+# 날짜 및 시간 구성 요소
 
-적응형 양식의 날짜 선택기 구성 요소는 사용자가 달력에서 날짜를 선택하거나 특정 형식으로 날짜를 수동으로 입력할 수 있도록 하는 사용자 인터페이스 요소입니다. 다른 형식 지정, 유효성 검사 및 기본값을 갖도록 날짜 선택기 구성 요소를 구성할 수 있습니다.
+적응형 양식의 날짜 및 시간 구성 요소는 사용자가 달력 및 시계 인터페이스를 사용하거나 특정 형식의 값을 수동으로 입력하여 **날짜 및 시간**&#x200B;을 모두 선택할 수 있는 사용자 인터페이스 요소입니다. 날짜 및 시간이 모두 중요한 사용 사례에 대한 정확하고 표준화된 입력을 보장합니다.
 
 **예**
 
-![예](/help/adaptive-forms/assets/date-picker.png)
+![예](/help/adaptive-forms/assets/date-time-picker.png)
 
-## 사용 {#reasons-to-use-drop-date-picker}
+## 사용 {#reasons-to-use-date-time-picker}
 
-적응형 양식에 날짜 선택기를 포함하는 것이 유익한 몇 가지 이유는 다음과 같습니다.
+다음과 같은 여러 가지 이유로 폼에 날짜 및 시간 선택기를 포함하는 것이 좋습니다.
 
-- **편의성**: 날짜 선택기 구성 요소를 사용하면 텍스트 필드에 날짜를 수동으로 입력하지 않고도 달력에서 날짜를 간편하게 선택할 수 있습니다. 이렇게 하면 시간을 절약하고 오류를 줄일 수 있습니다.
-
-- **사용자 경험**: 날짜 선택기 구성 요소를 사용하면 사용자가 명확하고 직관적으로 날짜를 선택할 수 있으므로 양식을 보다 사용자 친화적으로 만들 수 있습니다.
-
-- **데이터 분석**: 날짜 선택기 구성 요소를 사용하여 다양한 소스에서 데이터를 수집하고 분석하거나 추가 처리를 위한 입력으로 사용할 수 있습니다.
-
-- **이벤트 관리**: 이벤트 관리 웹 사이트에서 날짜 선택기 구성 요소를 사용하여 이벤트 날짜를 선택할 수 있습니다.
-
-- **예약**: 예약 웹 사이트에서 날짜 선택기 구성 요소를 사용하여 체크인 및 체크아웃 날짜를 선택할 수 있습니다.
-
-- **날짜 형식**: 날짜 선택기 구성 요소를 사용하여 날짜가 표시되고 입력되는 형식을 수정할 수 있습니다. 일관된 사용자 경험을 위해 양식 전체에서 날짜 형식의 일관성을 유지해야 합니다.
+- **편의**: 사용자가 값을 수동으로 입력할 필요 없이 날짜와 시간을 모두 쉽게 선택할 수 있습니다.
+- **일관성**: 양식에서 날짜 및 시간 입력을 위한 표준 형식을 적용합니다.
+- **향상된 사용자 환경**: 달력 및 시간 선택기를 사용하는 직관적인 UI를 제공합니다.
+- **이벤트 예약**: 약속 예약, 면접 또는 모임 예약 양식에 유용합니다.
+- **여행 및 예약**: 체크인/체크아웃 날짜 및 시간을 선택할 수 있습니다.
+- **데이터 정확도**: 자유 텍스트 항목에 비해 입력 오류를 줄입니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 날짜 선택기 핵심 구성 요소는 Cloud Service의 핵심 구성 요소 2.0.4 및 AEM 6.5.16.0 Forms 이상의 핵심 구성 요소 1.1.12 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 날짜 및 시간 핵심 구성 요소는 Cloud Service 이상을 위한 **핵심 구성 요소 2.24.6**&#x200B;의 일부로 **2025년 8월**&#x200B;에 릴리스되었습니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
-| v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
+| v1 | <br>[릴리스 2.24.6](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+버전에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md)을 참조하십시오.
 
 ## 기술 세부 정보 {#technical-details}
 
-적응형 양식 날짜 선택기 핵심 구성 요소에 대한 최신 정보는 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker)의 기술 설명서에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 확인하십시오.
+[GitHub](https://github.com/adobe/aem-core-forms-components)의 적응형 Forms 날짜 및 시간 핵심 구성 요소에 대한 최신 기술 세부 정보를 알아보십시오. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
-구성 대화 상자를 사용하여 방문자를 위한 날짜 선택기 경험을 손쉽게 사용자 정의할 수 있습니다. 날짜 선택기 옵션을 간편하게 정의하여 원활한 사용자 경험을 제공할 수도 있습니다.
+구성 대화 상자에서 날짜 및 시간을 사용자 정의할 수 있습니다.
 
 ### 기본 탭 {#basic-tab}
 
-![기본 탭](/help/adaptive-forms/assets/datepicker_basictab.png)
+![기본 탭](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **이름** - 이름은 규칙 편집기에서 구성 요소를 고유하게 식별합니다. 이름 문자열에는 특수 문자나 공백이 포함되어서는 안 됩니다.
 
@@ -79,12 +69,11 @@ To experience the Accordion Component as well as see examples of its configurati
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
-- **기본 날짜** - 이 옵션을 사용하면 양식 필드에 날짜를 추가할 수 있습니다. 입력한 날짜는 기본적으로 구성 요소 위치에 나타납니다. 사용자가 날짜를 입력하지 않으면 이 값이 양식 제출 시 함께 제출됩니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택한 경우 기본 날짜가 화면에 표시되며 양식 제출 시 함께 제출됩니다.
-
+- **기본 날짜 및 시간** - 이 옵션을 사용하면 양식 필드에 날짜 및 시간을 추가할 수 있습니다. 입력한 날짜는 기본적으로 구성 요소 위치에 나타납니다. 사용자가 날짜 또는 시간을 입력하지 않으면 양식 제출 시 이 값이 제출됩니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택한 경우 기본 날짜 및 시간이 화면에 표시되고 양식 제출 시 제출됩니다.
 
 ### 유효성 검사 탭 {#validation-tab}
 
-![유효성 검사 탭](/help/adaptive-forms/assets/datepicker_validation.png)
+![유효성 검사 탭](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **필수** - 적응형 양식에 구성 요소를 표시하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 양식 제출을 진행하기 전에 선택을 해야 합니다. 이 옵션이 선택되어 있으면 **기본** 탭에서 **구성 요소 숨기기** 또는 **구성 요소 비활성화**&#x200B;를 선택할 수 없습니다.
 
@@ -92,20 +81,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **스크립트 유효성 검사 메시지** - 이 옵션을 사용하면 스크립트 유효성 검사가 실패할 경우 표시할 메시지를 입력할 수 있습니다.
 
-- **최소 날짜** - 이 옵션을 사용하면 최소 필수 날짜를 입력할 수 있습니다. 최소 날짜에 지정된 날짜 이전의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최소 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
+- **최소 날짜** - 이 옵션을 사용하면 최소 필수 날짜를 입력할 수 있습니다. [최소 날짜 및 시간]에 지정된 날짜 이전의 날짜를 입력하면 화면에 오류 메시지가 나타납니다. **최소 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-- **최소 오류 메시지** - **최소 날짜** 옵션에 지정된 날짜 이전의 날짜를 입력한 경우, **최소 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
-- **최소 날짜 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 집합에서 최소 날짜를 생략할 수 있습니다.
+- **최소 오류 메시지** - **최소 오류 메시지** 대화 상자에서 **최소 날짜** 옵션에 지정된 날짜 또는 시간보다 이전 날짜나 시간을 입력하면 표시되는 사용자 지정 오류 메시지를 추가할 수 있습니다.
 
-- **최대 날짜** - 이 옵션을 사용하면 최대 필수 날짜를 입력할 수 있습니다. 최대 날짜에 지정된 날짜 이후의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최대 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
+- **최대 날짜** - 이 옵션을 사용하면 필요한 최대 날짜와 시간을 입력할 수 있습니다. 최대 날짜에 지정된 날짜 또는 시간보다 늦은 날짜 또는 시간을 입력하면 화면에 오류 메시지가 나타납니다. **최대 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-- **최대 오류 메시지** - **최대 날짜** 옵션에 지정된 날짜 이후의 날짜를 입력한 경우, **최대 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
-
-- **최대 날짜 제외** - 이 옵션을 사용하면 특정 범위 또는 날짜 집합에서 최대 날짜를 생략할 수 있습니다.
+- **최대 오류 메시지** - **최대 날짜** 옵션에 지정된 날짜 또는 시간보다 늦은 날짜 또는 시간을 입력하면 **최대 오류 메시지** 대화 상자에서 표시할 사용자 지정 오류 메시지를 추가할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
-![도움말 콘텐츠 탭](/help/adaptive-forms/assets/datepicker_helptab.png)
+![도움말 콘텐츠 탭](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **간단한 설명** - 간단한 설명은 특정 양식 필드의 용도에 대한 추가 정보 또는 설명을 제공하는 간단한 텍스트 설명입니다. 사용자가 필드에 입력해야 하는 데이터 유형을 이해하는 데 도움이 되며 입력된 정보가 유효하고 원하는 기준을 충족하는지 확인하는 데 도움이 되는 지침 또는 예시를 제공할 수 있습니다. 기본적으로 간단한 설명은 숨겨진 상태로 유지됩니다. **간단한 설명 항상 표시** 옵션을 활성화하여 구성 요소 아래에 표시할 수 있습니다.
 
@@ -116,7 +102,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 접근성 탭 {#accessibility-tab}
 
-![접근성 탭](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![접근성 탭](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **화면 판독기용 텍스트** - 화면 판독기용 텍스트는 시각 장애인이 사용하는 화면 판독기와 같은 보조 기술로 읽을 수 있도록 특별히 고안된 추가 텍스트를 나타냅니다. 이 텍스트는 양식 필드의 용도에 대한 오디오 설명을 제공하며, 여기에는 필드의 제목, 설명, 이름 및 관련 메시지(사용자 정의 텍스트)에 대한 정보가 포함될 수 있습니다. 화면 판독기 텍스트는 시각 장애가 있는 사용자를 포함한 모든 사용자가 양식에 액세스할 수 있도록 돕고 양식 필드 및 해당 요구 사항을 완전히 이해할 수 있도록 합니다.
    - **사용자 정의 텍스트**: ARIA 접근성 레이블에 사용자 정의 텍스트를 사용하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 사용자 정의 텍스트 대화 상자가 표시됩니다. 사용자 정의 텍스트 대화 상자에서 관련 정보를 추가할 수 있습니다.
@@ -125,40 +111,42 @@ To experience the Accordion Component as well as see examples of its configurati
    - **이름**: ARIA 접근성 레이블에 이름을 사용하려면 이 옵션을 선택합니다.
    - **없음**: ARIA 접근성 레이블에 아무 것도 추가하지 않으려면 이 옵션을 선택합니다.
 
-### 형식 탭 {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![형식 탭](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **표시 형식** - 사용자에게 표시되는 날짜 형식을 나타냅니다. **유형** 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **편집 형식** - 사용자가 날짜를 편집할 수 있는 날짜 형식을 나타냅니다. **유형** 옵션을 사용하면 날짜 형식을 선택할 수 있습니다. **유형** 드롭다운 메뉴의 **사용자 정의** 옵션을 사용하여 날짜 형식을 사용자 정의할 수도 있습니다.
-- **포맷 오류 메시지** - 입력한 날짜의 포맷이 올바르지 않을 때 화면에 표시되는 메시지를 입력할 수 있는 옵션입니다.
-- **언어** - 이 기능은 특정 필드의 형식을 지정하는 데 사용됩니다. 사용자가 **유형** 드롭다운 메뉴에서 언어 옵션을 선택하면 패널에 **IETF BCP 47 언어 태그** 옵션이 나타납니다. 적응형 양식을 특정 언어로 번역할 때 필드 서식에 사용할 언어를 선택할 수 있습니다.
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-언어 세트는 기본적으로 표시되지 않지만 사용자는 템플릿 정책을 업데이트하여 사용자 정의 **IETF BCP 47 언어 태그**&#x200B;를 입력할 수 있습니다.
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. 템플릿 편집기에서 적응형 양식과 연결된 해당 템플릿을 엽니다.
-2. 드롭다운 메뉴에서 기존 정책을 `datepicker-default-policy`로 선택합니다.
+  3. Click **Done**.
 
-   ![날짜 선택기 템플릿 정책](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. **완료**&#x200B;를 클릭합니다.
-
-   >[!NOTE]
-   >
-   > 적응형 양식을 특정 로케일로 번역하는 방법에 대한 자세한 내용은 [여기를 클릭하십시오](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자는 날짜 선택기 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
+디자인 대화 상자 를 사용하여 날짜 및 시간 구성 요소의 CSS 스타일을 정의하고 관리합니다.
 
 ### 스타일 탭 {#styles-tab}
 
-탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 날짜 선택기 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
+탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 Forms 날짜 및 시간 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을(를) 지원합니다.
 
 ![스타일 탭](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **기본 CSS 클래스**: 적응형 양식 날짜 선택기 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 Forms 날짜 및 시간 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
@@ -176,13 +164,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
-### 형식 탭 {#formats-tab}
-
-형식 탭에서는 기본 및 사용자 정의 날짜 형식을 지정할 수 있습니다.
-
-![형식 탭](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 
