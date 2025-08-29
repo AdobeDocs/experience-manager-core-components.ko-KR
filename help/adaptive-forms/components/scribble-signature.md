@@ -2,15 +2,17 @@
 title: 적응형 Forms 핵심 구성 요소 - 스크리블 서명
 description: 적응형 Forms 스크리블 서명 핵심 구성 요소 사용 또는 사용자 지정.
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 76%
+source-wordcount: '1761'
+ht-degree: 75%
 
 ---
 
 
 # 스크리블 서명 구성 요소
+
+<span>스크리블 서명 구성 요소가 얼리 어답터 프로그램에 있습니다. 공식 전자 메일 ID로 `aem-forms-ea@adobe.com`에 작성하여 얼리어답터 프로그램에 참여하고 기능에 대한 액세스를 요청할 수 있습니다.</span>
 
 적응형 양식의 스크리블 서명 구성 요소는 사용자가 마우스, 스타일러스 또는 터치스크린을 사용하여 양식 내에서 직접 **서명**&#x200B;을 그릴 수 있는 사용자 인터페이스 요소입니다. 디지털 워크플로우에서 자필 동의, 승인 또는 확인을 정확하게 캡처할 수 있습니다.
 
