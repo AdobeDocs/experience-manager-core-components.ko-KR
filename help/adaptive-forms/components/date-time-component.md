@@ -1,18 +1,18 @@
 ---
-title: 적응형 Forms 핵심 구성 요소 - 날짜 및 시간
-description: 적응형 Forms 날짜 및 시간 핵심 구성 요소 사용 또는 맞춤화
+title: 적응형 양식 핵심 구성 요소 - 날짜 및 시간
+description: 적응형 양식 날짜 및 시간 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # 날짜 및 시간 구성 요소
 
-적응형 양식의 날짜 및 시간 구성 요소는 사용자가 달력 및 시계 인터페이스를 사용하거나 특정 형식의 값을 수동으로 입력하여 **날짜 및 시간**&#x200B;을 모두 선택할 수 있는 사용자 인터페이스 요소입니다. 날짜 및 시간이 모두 중요한 사용 사례에 대한 정확하고 표준화된 입력을 보장합니다.
+적응형 양식의 날짜 및 시간 구성 요소는 사용자가 달력 및 시계 인터페이스를 사용하거나 특정 형식으로 값을 직접 입력하여 **날짜 및 시간**&#x200B;을 모두 선택할 수 있는 사용자 인터페이스 요소입니다. 날짜 및 시간이 모두 필수적인 사용 사례에 대해 정확하고 표준화된 입력을 보장합니다.
 
 **예**
 
@@ -20,18 +20,18 @@ ht-degree: 74%
 
 ## 사용 {#reasons-to-use-date-time-picker}
 
-다음과 같은 여러 가지 이유로 폼에 날짜 및 시간 선택기를 포함하는 것이 좋습니다.
+날짜 및 시간 선택기를 양식에 포함하는 것이 유익한 몇 가지 이유가 있습니다.
 
-- **편의**: 사용자가 값을 수동으로 입력할 필요 없이 날짜와 시간을 모두 쉽게 선택할 수 있습니다.
-- **일관성**: 양식에서 날짜 및 시간 입력을 위한 표준 형식을 적용합니다.
-- **향상된 사용자 환경**: 달력 및 시간 선택기를 사용하는 직관적인 UI를 제공합니다.
-- **이벤트 예약**: 약속 예약, 면접 또는 모임 예약 양식에 유용합니다.
-- **여행 및 예약**: 체크인/체크아웃 날짜 및 시간을 선택할 수 있습니다.
-- **데이터 정확도**: 자유 텍스트 항목에 비해 입력 오류를 줄입니다.
+- **편의성**: 사용자가 값을 직접 입력하지 않고도 날짜 및 시간을 쉽게 선택할 수 있습니다.
+- **일관성**: 양식 전체에서 날짜 및 시간 입력에 대한 표준 형식을 적용합니다.
+- **향상된 사용자 경험**: 달력 및 시간 선택기를 갖춘 직관적인 UI를 제공합니다.
+- **이벤트 일정**: 약속 예약, 인터뷰 또는 회의 일정 양식에 유용합니다.
+- **여행 및 예약**: 사용자가 체크인/체크아웃 날짜와 시간을 선택할 수 있습니다.
+- **데이터 정확도**: 자유 텍스트 입력에 비해 입력 오류가 줄어듭니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 Forms 날짜 및 시간 핵심 구성 요소는 Cloud Service 이상을 위한 **핵심 구성 요소 2.24.6**&#x200B;의 일부로 **2025년 8월**&#x200B;에 릴리스되었습니다.
+적응형 양식 날짜 및 시간 핵심 구성 요소는 **2025년 8월**&#x200B;에 Cloud Service 이상을 위한 **핵심 구성 요소 2.24.6**&#x200B;의 일부로 출시되었습니다.
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
@@ -41,11 +41,11 @@ ht-degree: 74%
 
 ## 기술 세부 정보 {#technical-details}
 
-[GitHub](https://github.com/adobe/aem-core-forms-components)의 적응형 Forms 날짜 및 시간 핵심 구성 요소에 대한 최신 기술 세부 정보를 알아보십시오. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
+적응형 양식 날짜 및 시간 핵심 구성 요소에 대한 최신 기술 세부 정보를 [GitHub](https://github.com/adobe/aem-core-forms-components)에서 확인할 수 있습니다. 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 구성 대화 상자 {#configure-dialog}
 
-구성 대화 상자에서 날짜 및 시간을 사용자 정의할 수 있습니다.
+구성 대화 상자를 사용하면 날짜 및 시간을 사용자 정의할 수 있습니다.
 
 ### 기본 탭 {#basic-tab}
 
@@ -69,7 +69,7 @@ ht-degree: 74%
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
 - **읽기 전용** - 구성 요소를 편집할 수 없도록 만들려면 이 옵션을 선택합니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
-- **기본 날짜 및 시간** - 이 옵션을 사용하면 양식 필드에 날짜 및 시간을 추가할 수 있습니다. 입력한 날짜는 기본적으로 구성 요소 위치에 나타납니다. 사용자가 날짜 또는 시간을 입력하지 않으면 양식 제출 시 이 값이 제출됩니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택한 경우 기본 날짜 및 시간이 화면에 표시되고 양식 제출 시 제출됩니다.
+- **기본 날짜 및 시간** - 이 옵션을 사용하면 양식 필드에 날짜 및 시간을 추가할 수 있습니다. 입력한 날짜는 기본적으로 구성 요소 위치에 나타납니다. 사용자가 날짜 또는 시간을 입력하지 않으면 이 값이 양식 제출 시 함께 제출됩니다. **비활성화된 구성 요소** 또는 **읽기 전용 구성 요소**&#x200B;를 선택한 경우 기본 날짜 및 시간이 화면에 표시되며 양식 제출 시 함께 제출됩니다.
 
 ### 유효성 검사 탭 {#validation-tab}
 
@@ -81,13 +81,13 @@ ht-degree: 74%
 
 - **스크립트 유효성 검사 메시지** - 이 옵션을 사용하면 스크립트 유효성 검사가 실패할 경우 표시할 메시지를 입력할 수 있습니다.
 
-- **최소 날짜** - 이 옵션을 사용하면 최소 필수 날짜를 입력할 수 있습니다. [최소 날짜 및 시간]에 지정된 날짜 이전의 날짜를 입력하면 화면에 오류 메시지가 나타납니다. **최소 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
+- **최소 날짜** - 이 옵션을 사용하면 최소 필수 날짜를 입력할 수 있습니다. 최소 날짜에 지정된 날짜 및 시간 이전의 날짜를 입력하면 화면에 오류 메시지가 표시됩니다. **최소 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-- **최소 오류 메시지** - **최소 오류 메시지** 대화 상자에서 **최소 날짜** 옵션에 지정된 날짜 또는 시간보다 이전 날짜나 시간을 입력하면 표시되는 사용자 지정 오류 메시지를 추가할 수 있습니다.
+- **최소 오류 메시지** - **최소 날짜** 옵션에 지정된 날짜 또는 시간 이전의 날짜 또는 시간을 입력한 경우, **최소 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-- **최대 날짜** - 이 옵션을 사용하면 필요한 최대 날짜와 시간을 입력할 수 있습니다. 최대 날짜에 지정된 날짜 또는 시간보다 늦은 날짜 또는 시간을 입력하면 화면에 오류 메시지가 나타납니다. **최대 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
+- **최대 날짜** - 이 옵션을 사용하면 최대 필수 날짜 및 시간을 입력할 수 있습니다. 최대 날짜에 지정된 날짜 또는 시간 이후의 날짜 또는 시간을 입력하면 화면에 오류 메시지가 표시됩니다. **최대 오류 메시지** 대화 상자에서 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
-- **최대 오류 메시지** - **최대 날짜** 옵션에 지정된 날짜 또는 시간보다 늦은 날짜 또는 시간을 입력하면 **최대 오류 메시지** 대화 상자에서 표시할 사용자 지정 오류 메시지를 추가할 수 있습니다.
+- **최대 오류 메시지** - **최대 날짜** 옵션에 지정된 날짜 및 시간 이후의 날짜 및 시간을 입력한 경우, **최대 오류 메시지** 대화 상자를 사용하면 표시할 사용자 정의 오류 메시지를 추가할 수 있습니다.
 
 ### 도움말 콘텐츠 탭 {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## 디자인 대화 상자 {#design-dialog}
 
-디자인 대화 상자 를 사용하여 날짜 및 시간 구성 요소의 CSS 스타일을 정의하고 관리합니다.
+디자인 대화 상자는 날짜 및 시간 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다.
 
 ### 스타일 탭 {#styles-tab}
 
-탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 Forms 날짜 및 시간 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을(를) 지원합니다.
+탭은 구성 요소의 CSS 스타일을 정의하고 관리하는 데 사용됩니다. 적응형 양식 날짜 및 시간 핵심 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
 
 ![스타일 탭](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **기본 CSS 클래스**: 적응형 Forms 날짜 및 시간 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
+- **기본 CSS 클래스**: 적응형 양식 날짜 및 시간 핵심 구성 요소에 기본 CSS 클래스를 제공할 수 있습니다.
 
 - **허용된 스타일**: 이름과 스타일을 나타내는 CSS 클래스를 제공하여 스타일을 정의할 수 있습니다. 예를 들어 “bold text”라는 스타일을 만들고 “font-weight: bold”라는 CSS 클래스를 제공할 수 있습니다. 적응형 양식 편집기에서 이러한 스타일을 적응형 양식에 사용하거나 적용할 수 있습니다. 스타일을 적용하려면 적응형 양식 편집기에서 스타일을 적용할 구성 요소를 선택하고 속성 대화 상자로 이동한 다음 **스타일** 드롭다운 목록에서 원하는 스타일을 선택합니다. 스타일을 업데이트하거나 수정해야 하는 경우 디자인 대화 상자로 돌아가서 스타일 탭에서 스타일을 업데이트하고 변경 내용을 저장하면 됩니다.
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

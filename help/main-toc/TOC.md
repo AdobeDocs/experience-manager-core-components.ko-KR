@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 기존 AEM 프로젝트의 경우 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [핵심 구성 요소 소개](/help/introduction.md)
 + [반응형 디자인](/help/responsive.md)
 + [성공으로 가는 경로](/help/developing/success.md)
-+ [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_kr)
++ [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library)
 + [버전](/help/versions.md)
 + 시작하기 {#get-started}
    + [핵심 구성 요소로 작성](/help/get-started/authoring.md)
@@ -111,7 +111,7 @@ ht-degree: 97%
       + [적응형 양식 확인란](/help/adaptive-forms/components/checkbox.md)
       + [적응형 양식 확인란 그룹](/help/adaptive-forms/components/checkbox-group.md)
       + [적응형 양식 컨테이너](/help/adaptive-forms/components/form-container.md)
-      + [적응형 Forms 날짜 및 시간](/help/adaptive-forms/components/date-time-component.md)
+      + [적응형 양식 날짜 및 시간](/help/adaptive-forms/components/date-time-component.md)
       + [적응형 양식 날짜 선택기](/help/adaptive-forms/components/date-picker.md)
       + [적응형 양식 드롭다운 목록](/help/adaptive-forms/components/drop-down-list.md)
       + [적응형 양식 이메일](/help/adaptive-forms/components/email.md)
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
       + [적응형 양식 검토](/help/adaptive-forms/components/review.md)
-      + [적응형 Forms 스크리블 서명](/help/adaptive-forms/components/scribble-signature.md)
+      + [적응형 양식 스크리블 서명](/help/adaptive-forms/components/scribble-signature.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
       + [적응형 양식 스위치](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [적응형 양식 모바일](/help/adaptive-forms/components/phone.md)
@@ -143,8 +143,8 @@ ht-degree: 97%
    + [샘플 테마 및 템플릿](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
-   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko-KR)
-   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko-KR)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
    + [구성 요소 가이드라인](/help/developing/guidelines.md)
    + [AMP 지원](/help/developing/amp.md)
