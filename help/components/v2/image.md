@@ -4,8 +4,8 @@ description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 �
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->이미지 구성 요소는 적응형 이미지 서블릿에 의해 제공됩니다. 작동 방식에 대한 자세한 내용은 [적응형 이미지 서블릿](#adaptive-image-servlet) 문서를 참조하십시오.
+>이미지 구성 요소는 적응형 이미지 서블릿에 의해 제공됩니다. 작동 방식에 대한 자세한 내용은 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 문서를 참조하십시오.
 
 ## Dynamic Media 지원 {#dynamic-media}
 
@@ -81,9 +81,9 @@ ht-degree: 100%
 ![이미지 구성 요소의 구성 대화 상자 자산 탭](/help/assets/image-configure-asset.png)
 
 * **이미지 자산**
-   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 ### 메타데이터 탭 {#metadata-tab}
 
@@ -206,7 +206,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->폭을 정의함으로써 렌디션 선택을 최적화하기 위한 팁과 관련된 자세한 내용은 [적응형 이미지 서블릿](#adaptive-image-servlet) 섹션을 참조하십시오.
+>폭을 정의함으로써 렌디션 선택을 최적화하기 위한 팁과 관련된 자세한 내용은 [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md) 섹션을 참조하십시오.
 
 ### 기능 탭 {#features-tab}
 
