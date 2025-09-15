@@ -4,15 +4,15 @@ description: 적응형 양식 스크리블 서명 핵심 구성 요소를 사용
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 스크리블 서명 구성 요소
 
-<span>스크리블 서명 구성 요소가 얼리 어답터 프로그램에 있습니다. 공식 전자 메일 ID로 `aem-forms-ea@adobe.com`에 작성하여 얼리어답터 프로그램에 참여하고 기능에 대한 액세스를 요청할 수 있습니다.</span>
+<span>스크리블 서명 구성 요소는 얼리 어답터 프로그램에 포함되어 있습니다. 공식 이메일 ID에서 “`aem-forms-ea@adobe.com`”으로 이메일을 보내 얼리 어답터 프로그램에 참여하여 기능에 대한 액세스 권한을 요청할 수 있습니다.</span>
 
 적응형 양식의 스크리블 서명 구성 요소는 사용자가 마우스, 스타일러스 또는 터치스크린을 사용하여 양식 내에 직접 **서명**&#x200B;을 그릴 수 있는 사용자 인터페이스 요소입니다. 디지털 워크플로에서 손으로 쓴 동의, 승인 또는 검증 내용을 정확하게 수집할 수 있습니다.
 
