@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
 source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
 ht-degree: 100%
 
@@ -81,9 +81,9 @@ ht-degree: 100%
 ![이미지 구성 요소의 구성 대화 상자 자산 탭](/help/assets/image-configure-asset.png)
 
 * **이미지 자산**
-   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html).
 
 ### 메타데이터 탭 {#metadata-tab}
 
