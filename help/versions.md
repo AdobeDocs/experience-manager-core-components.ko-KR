@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|---|
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 이 릴리스에서는 많은 에셋 및 Dynamic Media 문제가 해결되었으며 LTS 지원을 명확하게 했으며 다양한 버그 수정 사항을 해결했습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 9월 4일 |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 이 릴리스는 여러 자산 및 Dynamic Media 문제를 해결하고 LTS 지원을 명확히 했으며, 수많은 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 9월 4일 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 이번 릴리스에서는 사이트 핵심 구성 요소의 자산에 대한 작성 미리보기 버전에 대한 지원이 추가되었으며, 기타 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 4월 21일 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 3월 17일 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | - | 반복 | 11 | 2024년 9월 10일 |
