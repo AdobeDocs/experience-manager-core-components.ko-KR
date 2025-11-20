@@ -18,7 +18,7 @@ ht-degree: 100%
 + [핵심 구성 요소 소개](/help/introduction.md)
 + [반응형 디자인](/help/responsive.md)
 + [성공으로 가는 경로](/help/developing/success.md)
-+ [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library)
++ [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_kr)
 + [버전](/help/versions.md)
 + 시작하기 {#get-started}
    + [핵심 구성 요소로 작성](/help/get-started/authoring.md)
@@ -143,8 +143,8 @@ ht-degree: 100%
    + [샘플 테마 및 템플릿](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
-   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)
    + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
    + [구성 요소 가이드라인](/help/developing/guidelines.md)
    + [AMP 지원](/help/developing/amp.md)
