@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 날짜 선택기
 description: 적응형 양식 날짜 선택기 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -178,15 +178,31 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 형식 탭 {#formats-tab}
 
-형식 탭에서는 기본 및 사용자 정의 날짜 형식을 지정할 수 있습니다.
+형식 탭에서는 기본 및 사용자 지정 날짜 형식을 지정할 수 있습니다. 또한 **추가** 단추를 사용하여 새 사용자 지정 날짜 형식을 추가할 수도 있습니다.
 
 ![형식 탭](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### 구성 요소의 템플릿 정책에 형식 추가
+
+구성 요소에 사용할 수 있는 형식을 표시하려면 해당 형식을 구성 요소의 템플릿 정책에 추가해야 합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+템플릿 정책에 형식을 추가하려면 다음 작업을 수행하십시오.
+
+1. 템플릿 편집기에서 적응형 양식 또는 Sites와 연결된 해당 템플릿을 엽니다.
+2. **허용된 구성 요소** 섹션에서 **[!UICONTROL 날짜 선택기]** 구성 요소를 선택합니다.
+   ![날짜 선택 템플릿 정책](/help/adaptive-forms/assets/date-picker-policy.png)
+3. 날짜 선택 구성 요소에 대한 새 정책을 만들려면 **[!UICONTROL 추가]** 아이콘을 클릭합니다.
+4. 정책 이름을 입력하고 **형식** 탭에서 필요한 형식을 모두 선택하십시오.
+   ![정책 만들기](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
