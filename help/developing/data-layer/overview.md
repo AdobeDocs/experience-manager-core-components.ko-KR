@@ -4,10 +4,10 @@ description: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레�
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -119,6 +119,10 @@ id: {                   // component ID
     parentId            // parent component ID
 }
 ```
+
+>[!NOTE]
+>
+>이 스키마는 여러 핵심 구성 요소에 대한 기본 패턴으로 사용되는 일반 구성 요소 항목 스키마입니다. 그렇다고 해서 나열된 모든 구성 요소가 모든 항목의 해당 필드를 모두 채우지는 않습니다.
 
 다음 [이벤트](#events)는 구성 요소/컨테이너 항목 스키마와 관련성이 있습니다.
 
@@ -309,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 튜토리얼
 
-데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ko)을 살펴보십시오.
+데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을 살펴보십시오.
 
 >[!TIP]
 >
