@@ -3,17 +3,17 @@ title: AEM 적응형 양식 핵심 구성 요소 버전
 description: AEM 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 92%
 
 ---
 
 
 # 적응형 양식 핵심 구성 요소 릴리스 {#core-components-versions}
 
-사용자 환경에서 최신 적응형 양식 핵심 구성 요소를 활성화하는 데 필요한 양식 핵심 구성 요소와 WCM 핵심 구성 요소 종속성의 정확한 버전을 확인하십시오. 또한 적응형 양식 핵심 구성 요소의 각 릴리스에서 활성화되는 구성 요소와 기능을 숙지하십시오.
+Forms 핵심 구성 요소 및 WCM 핵심 구성 요소 종속 항목의 정확한 버전을 모두 식별합니다. 또한 적응형 양식 핵심 구성 요소의 각 릴리스에서 활성화되는 구성 요소와 기능을 숙지하십시오.
 
 ## AEM Forms as Cloud Service 버전 기록 {#aem-as-cs-version-history}
 

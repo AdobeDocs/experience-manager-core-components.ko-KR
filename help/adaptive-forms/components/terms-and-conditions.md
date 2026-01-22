@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 약관
 description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '3253'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '3233'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
 
 {{traditional-aem}}
 

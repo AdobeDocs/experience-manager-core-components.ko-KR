@@ -3,9 +3,9 @@ title: 적응형 양식 핵심 구성 요소 - 세로 탭
 description: 적응형 양식 세로 탭 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2173'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '2153'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 이 구성 요소를 활성화하려면 양식 핵심 구성 요소와 WCM 핵심 구성 요소의 필수 버전이 모두 설치되어 있는지 확인하십시오. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
+> AEM 6.5 Forms의 경우 이 구성 요소는 AEM 6.5 Forms 서비스 팩 19(6.5.19.0)과 함께 도입되었습니다. 적응형 양식 핵심 구성 요소 릴리스에 대한 자세한 내용은 [적응형 양식 핵심 구성 요소 릴리스](/help/adaptive-forms/version.md)를 참조하십시오.
 
 ![예](/help/adaptive-forms/assets/horizontal-example.png)
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 - **최소 반복**: 세로 탭을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 세로 탭이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 세로 탭을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-세로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+세로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 
