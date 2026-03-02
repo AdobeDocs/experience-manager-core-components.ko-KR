@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 기존 AEM 프로젝트의 경우 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -141,10 +141,11 @@ ht-degree: 100%
       + [바닥글](/help/adaptive-forms/components/footer.md)
    + [적응형 양식 핵심 구성 요소 사용자 정의](/help/developing/customize-adaptive-forms-core-components.md)
    + [샘플 테마 및 템플릿](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [텍스트 입력 유효성 검사 패턴 활성화](/help/adaptive-forms/enable-validation-patterns.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
-   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko)
-   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
    + [구성 요소 가이드라인](/help/developing/guidelines.md)
    + [AMP 지원](/help/developing/amp.md)
