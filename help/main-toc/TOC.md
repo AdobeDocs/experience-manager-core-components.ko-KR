@@ -144,8 +144,8 @@ ht-degree: 98%
    + [텍스트 입력 유효성 검사 패턴 활성화](/help/adaptive-forms/enable-validation-patterns.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
-   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)
    + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
    + [구성 요소 가이드라인](/help/developing/guidelines.md)
    + [AMP 지원](/help/developing/amp.md)
