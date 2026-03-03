@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 패널 컨테이너
 description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2225'
-ht-degree: 100%
+source-git-commit: d1e1a1aea38de931dc3902c43db8c48f4bc7c0cb
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 패널 컨테이너 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 패널 컨테이너 핵심 구성 요소는 2023년 2월 핵심 구성 요소 2.0.4의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -77,7 +77,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **양식 제출 시 하위 구성 요소의 데이터 그룹화(오브젝트에 데이터 래핑)** - 이 옵션을 선택하면 하위 구성 요소의 데이터가 상위 구성 요소의 JSON 오브젝트 내에 중첩됩니다. 그러나 이 옵션을 선택하지 않으면 제출된 JSON 데이터는 상위 구성 요소에 대한 오브젝트가 없는 평면 구조를 갖습니다. 예:
 
-   - 이 옵션을 선택하면 하위 구성 요소(예: 도로 번호, 구/군/시 및 우편 번호)의 데이터가 상위 구성 요소(주소) 내에 JSON 오브젝트로 중첩됩니다. 이렇게 하면 계층 구조가 생성되고 데이터는 상위 구성 요소 아래에 구성됩니다.
+   - 이 옵션을 선택하면 하위 구성 요소(예: 도로 번호, 구/군/시 및 우편번호)의 데이터가 상위 구성 요소(주소) 내에 JSON 오브젝트로 중첩됩니다. 이렇게 하면 계층 구조가 생성되고 데이터는 상위 구성 요소 아래에 구성됩니다.
 
      제출된 데이터의 구조:
 
@@ -98,6 +98,10 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
+- **섹션 머리글 아래의 그룹 필드**: 공통 섹션 머리글 아래에 관련 양식 필드를 구성하려면 이 옵션을 선택하십시오. 이러한 그룹화를 통해 화면 판독기와 같은 보조 기술이 그룹화된 필드를 단일 결합 단위로 식별하고 알려 모든 사용자의 양식 접근성과 탐색을 향상시킬 수 있습니다.
+
+  ![패널 그룹 필드](/help/adaptive-forms/assets/panel-fieldset.png)
+
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
 - **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
@@ -113,7 +117,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **최소 반복**: 패널 컨테이너를 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 마법사 패널이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
 - **최대 반복**: 패널 컨테이너를 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
 
-패널 컨테이너 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+패널 컨테이너 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 문서에 기재되어 있는 단계를 따르십시오.
 
 ### 도움말 콘텐츠 탭 {#help-content}
 
@@ -201,7 +205,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

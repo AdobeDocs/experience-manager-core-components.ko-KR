@@ -3,10 +3,10 @@ title: 적응형 양식 핵심 구성 요소 - 확인란 그룹
 description: 적응형 양식 확인란 그룹 핵심 구성 요소를 사용 또는 사용자 정의합니다.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2101'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2315'
+ht-degree: 91%
 
 ---
 
@@ -53,13 +53,18 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 이상 |
 |---|---|---|
+| v2 | <br>[릴리스 3.0.142](/help/adaptive-forms/version.md) 이상과 호환 | |
 | v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
+>[!NOTE]
+>
+> 확인란 그룹 핵심 구성 요소의 v1 버전은 WCAG 2.1을 지원합니다. WCAG 2.1은 유용성과 가독성을 위한 모범 사례를 따라 콘텐츠에 액세스할 수 있도록 하는 데 중점을 둡니다. v2 버전은 WCAG 2.2를 지원하므로, 관련 필드의 논리적 및 의미론적 그룹화를 통해 명확하고 예측 가능하며 모호하지 않은 접근성을 강조함으로써 한 단계 더 나아가 포괄적인 양식 디자인을 위한 중요한 요구 사항이 됩니다.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -173,9 +178,19 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **재배열**: 사용자 정의 속성 이름과 사용자 정의 속성 값을 탭하거나 클릭하고 드래그하면 순서를 재배열할 수 있습니다.
 
+## 확인란 그룹에 대한 필드 집합 및 범례 지원(v2)
+
+<span class="preview"> 이 기능은 조기 액세스 프로그램을 통해 사용할 수 있습니다. 액세스를 요청하려면 공식 주소에서 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)(으)로 이메일을 보내십시오. </span>
+
+적응형 Forms 핵심 구성 요소는 의미 체계 `<fieldset>` 및 `<legend>` HTML 요소를 사용하여 확인란 그룹의 액세스 가능성을 개선합니다. 이러한 요소를 사용하면 화면 판독기에서 양식 구조를 정확하게 해석하고 그룹 레이블과 해당 옵션 간의 관계를 전달할 수 있습니다.
+
+확인란 그룹(v2) 구성 요소가 `<fieldset>` 요소 내에서 렌더링되며 그룹 레이블은 `<legend>`에 첫 번째 자식으로 래핑됩니다. 이 구조를 사용하면 화면 판독기가 개별 확인란 옵션을 읽기 전에 그룹 레이블을 발표하므로 보조 기술을 보유한 사용자가 각 옵션의 컨텍스트와 목적을 보다 쉽게 이해할 수 있습니다.
+
+![확인란 필드 집합](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## 관련 문서 {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## 추가 참조 {#see-also}
 
