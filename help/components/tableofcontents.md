@@ -3,10 +3,10 @@ title: 목차 구성 요소
 description: 목차 구성 요소는 독자가 페이지를 빠르게 탐색할 수 있도록 페이지 콘텐츠의 제목을 기반으로 목차를 만듭니다.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,3 @@ ht-degree: 100%
 ### 스타일 탭 {#styles-tab}
 
 목차 구성 요소는 AEM [스타일 시스템](/help/get-started/authoring.md#component-styling)을 지원합니다.
-
-## Adobe 클라이언트 데이터 레이어 {#data-layer}
-
-목차 구성 요소는 [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)를 지원합니다.
