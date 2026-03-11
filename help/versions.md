@@ -3,16 +3,16 @@ title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94341eb0f9caf1764aed71f152e75d27ccec0f5a
+source-git-commit: 3e49862f958e50f095c944c33d1983ae46ab8ace
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3887'
 ht-degree: 96%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
+핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -26,12 +26,12 @@ ht-degree: 96%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|---|
-| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 이 릴리스에서는 경로 유효성 검사 문제가 해결되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2026년 1월 30일 |
-| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | 이 릴리스는 제목 구성 요소 정책 대화 상자의 회귀 문제를 해결했습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 12월 5일 |
-| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | 이 릴리스에서는 PDF 뷰어와 관련된 지역화되지 않은 문자열이 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 10월 23일 |
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 이 릴리스는 여러 자산 및 Dynamic Media 문제를 해결하고 LTS 지원을 명확히 했으며, 수많은 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 9월 4일 |
-| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 이번 릴리스에서는 사이트 핵심 구성 요소의 자산에 대한 작성 미리보기 버전에 대한 지원이 추가되었으며, 기타 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 4월 21일 |
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11 | 2025년 3월 17일 |
+| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 이 릴리스에서는 경로 유효성 검사 문제가 해결되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 1월 30일 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | 이 릴리스는 제목 구성 요소 정책 대화 상자의 회귀 문제를 해결했습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2025년 12월 5일 |
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | 이 릴리스에서는 PDF 뷰어와 관련된 지역화되지 않은 문자열이 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2025년 10월 23일 |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 이 릴리스는 여러 자산 및 Dynamic Media 문제를 해결하고 LTS 지원을 명확히 했으며, 수많은 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2025년 9월 4일 |
+| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 이번 릴리스에서는 사이트 핵심 구성 요소의 자산에 대한 작성 미리보기 버전에 대한 지원이 추가되었으며, 기타 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2025년 4월 21일 |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2025년 3월 17일 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | - | 반복 | 11 | 2024년 9월 10일 |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 이번 릴리스에서는 몇 가지 버그가 수정되었습니다. | - | 6.5.21.0+ | - | 반복 | 11 | 2024년 7월 31일 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 일부 IT 오류를 수정하는 부 릴리스입니다. | - | 6.5.21.0+ | - | 반복 | 8, 11 | 2024년 5월 10일 |
