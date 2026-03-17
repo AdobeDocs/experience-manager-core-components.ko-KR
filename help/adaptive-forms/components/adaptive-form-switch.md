@@ -1,12 +1,12 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 전환 구성 요소
 description: 적응형 양식 전환 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1948'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용 {#reasons-to-use-switch}
+## 사용량 {#reasons-to-use-switch}
 
 적응형 양식에서 전환을 사용하는 일반적인 이유는 다음과 같습니다.
 
@@ -35,13 +35,13 @@ ht-degree: 100%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 양식 전환 핵심 구성 요소는 핵심 구성 요소 2.0.64의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 Forms 스위치 핵심 구성 요소는 핵심 구성 요소 2.0.64의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[릴리스 2.0.64](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | 호환 가능 | 호환 가능 |
+| v1 | <br>[릴리스 2.0.64](/help/adaptive-forms/version.md) 이상과 호환\|호환\|호환 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 

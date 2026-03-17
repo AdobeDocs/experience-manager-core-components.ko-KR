@@ -1,11 +1,11 @@
 ---
 title: 버튼 구성 요소
 description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '533'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 기술 세부 정보 {#technical-details}
 
-버튼 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_button_v2_kr).
+버튼 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -69,9 +69,9 @@ ht-degree: 100%
 
 ![버튼 구성 요소의 디자인 대화 상자 접근성 탭](/help/assets/button-edit-accessibility.png)
 
-**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 라벨 값을 설정할 수 있습니다.
+**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 레이블 값을 설정할 수 있습니다.
 
-* **라벨** - 구성 요소에 대한 ARIA 라벨 속성 값
+* **레이블** - 구성 요소에 대한 ARIA 레이블 속성 값
 
 ### 스타일 탭 {#styles-tab-edit}
 

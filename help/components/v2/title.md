@@ -1,12 +1,12 @@
 ---
 title: 제목 구성 요소 (v2)
 description: 핵심 구성 요소의 제목 구성 요소는 바로 편집 기능이 있는 섹션 머리말 구성 요소입니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '521'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '529'
 ht-degree: 100%
 
 ---

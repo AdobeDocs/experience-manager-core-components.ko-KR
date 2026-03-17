@@ -1,12 +1,12 @@
 ---
 title: 핵심 구성 요소 맞춤화
 description: 핵심 구성 요소는 간단한 스타일링부터 고급 기능 재사용까지 간편하게 맞춤화할 수 있는 몇 가지 패턴을 구현합니다.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 각 대화 상장에는 일관된 노드 구조가 있습니다. [슬링 리소스 병합](https://helpx.adobe.com/kr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)과 [조건 숨기기](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/hide-conditions.html)를 통해 원래 대화 상자의 섹션을 숨기고, 대체하고 순서를 변경할 수 있도록 상속 구성 요소에서 이 구조를 복제하는 것이 좋습니다. 복제할 구조를 탭 항목 노드 레벨로 이동하는 구조로 정의합니다.
 
-현재 버전에서 대화 상자의 변경된 사항과 최대한 호환할 수 있도록 탭 항목 레벨 아래 구조는 터치하지 않는 것이 중요합니다(숨김, 추가, 대체, 순서 변경 등). 대신 상위 탭 항목은 `sling:hideResource` 속성([슬링 리소스 병합 속성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) 참조)과 맞춤형 구성 필드에 포함된 새 탭 항목을 통해 숨길 수 있습니다. `sling:orderBefore`를 사용하여 필요한 경우 탭 항목 순서를 변경할 수 있습니다.
+현재 버전에서 대화 상자의 변경된 사항과 최대한 호환할 수 있도록 탭 항목 레벨 아래 구조는 터치하지 않는 것이 중요합니다(숨김, 추가, 대체, 순서 변경 등). 대신 상위 탭 항목은 `sling:hideResource` 속성([Sling 리소스 병합 속성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) 참조)과 맞춤형 구성 필드가 포함된 새 탭 항목을 통해 숨겨야 합니다. `sling:orderBefore` 를 사용하여 필요한 경우 탭 항목의 순서를 변경할 수 있습니다.
 
 아래 대화 상자는 위에서 설명한 권장 대화 상자 구조와 상속된 탭을 숨기고 대체하는 방법을 보여 줍니다.
 
@@ -129,7 +129,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-또한, 각 핵심 구성 요소는 AEM [스타일 시스템 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=ko)을 활용합니다. 그리고 템플릿 작성자는 이 기능을 통해 페이지 작성자가 구성 요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있습니다. 이로써 각 템플릿에서 허용된 구성 요소 스타일 목록을 정의하고, 스타일 중 하나가 기본적으로 해당 구성 요소에 적용되는지 여부를 확인할 수 있습니다.
+또한, 각 핵심 구성 요소는 AEM [스타일 시스템 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)을 활용합니다. 그리고 템플릿 작성자는 이 기능을 통해 페이지 작성자가 구성 요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있습니다. 이로써 각 템플릿에서 허용된 구성 요소 스타일 목록을 정의하고, 스타일 중 하나가 기본적으로 해당 구성 요소에 적용되는지 여부를 확인할 수 있습니다.
 
 ## 맞춤화 호환성 업그레이드 {#upgrade-compatibility-of-customizations}
 
@@ -139,7 +139,7 @@ public class PageHeadline implements Title {
 * 새 보조 버전으로 핵심 구성 요소 업그레이드 중
 * 주요 버전으로 핵심 구성 요소 업그레이드 중
 
-일반적으로, 구성 요소 버전이 마이그레이션 중인 새 AEM 버전을 지원하고 맞춤화 과정에서 [더 이상 사용되지 않거나 제거된](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ko) API를 사용하지 않는 경우 새 버전으로 AEM을 업그레이드하여도 핵심 구성 요소나 맞춤화 수행에는 영향을 미치지 않습니다.
+일반적으로, 구성 요소 버전이 마이그레이션 중인 새 AEM 버전을 지원하고 맞춤화 과정에서 [더 이상 사용되지 않거나 제거된](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) API를 사용하지 않는 경우 새 버전으로 AEM을 업그레이드하여도 핵심 구성 요소나 맞춤화 수행에는 영향을 미치지 않습니다.
 
 이 페이지에 설명된 맞춤화 패턴을 사용하는 경우에 최신 주요 버전으로 전환하지 않고 핵심 구성 요소를 업그레이드하여도 맞춤화에는 영향을 미치지 않습니다.
 
@@ -159,7 +159,7 @@ AEM 구성 요소의 경우와 마찬가지로 맞춤화에 대해 알아야 할
 
 1. **더 이상 사용되지 않거나 제거된 기능을 살펴봅니다.**
 
-   새 AEM 버전으로 업그레이드가 진행 중인 상태에서 [더 이상 사용되지 않거나 제거된 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ko) 페이지를 살펴보면 사용된 모든 API가 주제 항목이 됩니다.
+   새 AEM 버전으로 업그레이드가 진행 중인 상태에서 [더 이상 사용되지 않거나 제거된 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 페이지를 살펴보면 사용된 모든 API가 주제 항목이 됩니다.
 
 [핵심 구성 요소 지원](overview.md#core-component-support) 섹션을 참고하십시오.
 

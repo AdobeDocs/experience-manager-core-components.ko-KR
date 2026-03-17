@@ -1,13 +1,13 @@
 ---
 title: 경험 조각 구성 요소 (v1)
 description: 콘텐츠 작성자는 경험 조각 구성 요소를 통해 경험 조각 변형을 페이지에 추가할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 **선택 열기 대화 상자** 버튼을 통해 구성 요소 선택기를 열고 콘텐츠 페이지에 추가할 경험 조각 구성 요소를 선택합니다.
 
-경험 조각 구성 요소가 템플릿에 추가되어 경험 조각이 현지화되면 경험 조각 구성 요소는 자동으로 현지화됩니다. 이 경우 페이지에 렌더링된 내용은 명시된 구성 요소와 다를 수 있습니다. 자세한 내용은 [위의 예](#example)를 참조하십시오.
+경험 조각 구성 요소가 템플릿에 추가되어 경험 조각이 현지화되면 경험 조각 구성 요소는 자동으로 현지화됩니다. 이 경우 페이지에 렌더링된 내용은 명시된 구성 요소와 다를 수 있습니다. [자세한 내용은 ](#example) 위의 예제를 참조하십시오.
 
 **ID**&#x200B;를 정의할 수도 있습니다. 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 

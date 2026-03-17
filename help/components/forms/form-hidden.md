@@ -1,11 +1,11 @@
 ---
 title: 양식 숨김 구성 요소
 description: 핵심 구성 요소의 양식 숨기기 구성 요소를 사용하여 숨겨진 필드를 표시할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '429'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 양식 숨김 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_form_hidden_kr)를 참조하십시오.
 
-### 기술 세부 정보 {#technical-details}
+### 기술 세부 사항 {#technical-details}
 
 양식 숨김 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_kr).
 

@@ -1,11 +1,11 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 스크리블 서명
 description: 적응형 양식 스크리블 서명 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
-source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: ht
-source-wordcount: '1761'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1771'
 ht-degree: 100%
 
 ---

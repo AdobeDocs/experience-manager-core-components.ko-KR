@@ -1,12 +1,12 @@
 ---
 title: 제목 구성 요소 (v1)
 description: 핵심 구성 요소의 제목 구성 요소는 바로 편집 기능이 있는 섹션 머리말 구성 요소입니다.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '320'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 제목 구성 요소는 콘텐츠 섹션의 제목이나 머리글로 사용하기 위한 목적으로 작성되었습니다.
 
-템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 머리말 수준을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 머리말 수준 중 하나를 선택할 수 있습니다. 편리성을 추가하기 위해 머리글 텍스트의 간단한 바로 편집 기능을 사용할 수도 있습니다.
+템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 제목 수준을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 제목 수준 중 하나를 선택할 수 있습니다. 편리성을 추가하기 위해 머리글 텍스트의 간단한 바로 편집 기능을 사용할 수도 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 머리말 수준을 선택할 수 있습니다.
+콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 제목 수준을 선택할 수 있습니다.
 
 >[!NOTE]
 >
@@ -86,13 +86,13 @@ ht-degree: 100%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 통해 콘텐츠 작성자가 제목 구성 요소를 생성할 때 이에 포함될 기본 머리말 수준을 정의할 수 있습니다.
+템플릿 작성자는 디자인 대화 상자를 통해 콘텐츠 작성자가 제목 구성 요소를 생성할 때 이에 포함될 기본 제목 수준을 정의할 수 있습니다.
 
 ![](/help/assets/chlimage_1-92.png)
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-제목 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+제목 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 GitHub에서 전체 핵심 구성 요소 프로젝트를 다운로드할 수 있습니다.
 

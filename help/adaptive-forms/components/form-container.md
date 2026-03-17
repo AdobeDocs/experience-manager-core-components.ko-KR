@@ -1,11 +1,11 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 양식 컨테이너
 description: 웹 페이지에 적응형 양식을 추가합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1524'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1637'
 ht-degree: 100%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 # 양식 컨테이너 {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> 이 문서에서는 프리릴리스 기능인 **초안** <!--and **Hamburger Menu Support** --> 기능에 대해 설명합니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ko#new-features)을 통해서만 액세스할 수 있습니다.</span>
+<span class="preview"> 이 문서에서는 프리릴리스 기능인 **초안** <!--and **Hamburger Menu Support** --> 기능에 대해 설명합니다. 이 프리릴리스 기능은 [프리릴리스 채널](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)을 통해서만 액세스할 수 있습니다.</span>
 
 양식을 사용하면 웹 사이트 방문자가 가치 있는 정보를 제공하여 웹 사이트와 상호 작용할 수 있으므로 참여도와 사용자 만족도를 높일 수 있습니다. AEM(Adobe Experience Manager) Sites의 적응형 양식 컨테이너를 사용하면 웹 사이트 소유자가 자신의 페이지에 간편하게 양식을 추가할 수 있습니다. 이는 방문자가 피드백을 제공하고, 문의하고, 기타 작업을 완료할 수 있는 간소화된 방법을 제공하여 웹 사이트 방문자와 웹 사이트 소유자 또는 조직 간의 커뮤니케이션을 촉진하는 데 도움이 됩니다.
 
 {{traditional-aem}}
 
-## 사용 {#reasons-to-use-forms-container}
+## 사용량 {#reasons-to-use-forms-container}
 
 웹 사이트에 양식을 추가하는 데에는 다음과 같은 몇 가지 이유가 있습니다.
 - **데이터 수집**: 양식을 사용하여 시장 조사, 사용자 행동 분석 등과 같은 다양한 용도를 위해 웹 사이트 방문자로부터 데이터를 수집할 수 있습니다.
@@ -49,9 +49,11 @@ ht-degree: 100%
 | v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능 | <br>[릴리스 1.1.12](/help/adaptive-forms/version.md) 이상과 호환합니다(2.0.0 이전 버전). |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -76,7 +78,8 @@ To experience the Accordion Component as well as see examples of its configurati
 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지됩니다.
 
 <!--
-- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. -->
+- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
+-->
 
 
 ### 데이터 모델 탭 {#data-model-tab}
@@ -170,7 +173,7 @@ Consider a scenario, where a financial institution offers an online loan applica
 
 ![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
 
-**B. Breadcrumb**: Breadcrumbs indicate the user’s current location within the form. They offer a hierarchical trail that shows the user’s navigation path and helps them understand their position in the form.
+**B. Breadcrumb**: Breadcrumbs indicate the user's current location within the form. They offer a hierarchical trail that shows the user's navigation path and helps them understand their position in the form.
 
 **C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
 

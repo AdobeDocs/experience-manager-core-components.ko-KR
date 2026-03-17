@@ -1,12 +1,12 @@
 ---
 title: 핵심 구성 요소 사용
 description: 나만의 프로젝트에서 핵심 구성 요소를 시작하고 실행하려면 프록시 구성 요소 다운로드 및 설치, 만들기, 핵심 스타일 로드 및 템플릿에서 구성 요소 사용 등 세 가지 단계를 따르십시오.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 96%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >[!TIP]
 >
 >프로젝트 설정, 핵심 구성 요소, 편집 가능한 템플릿, 클라이언트 라이브러리 및 구성 요소 개발 등을 최초 시작하는 방법에 대한 자세한 지침은 다음 멀티 파트 튜토리얼을 참조하십시오.\
->[AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko-KR)
+>[AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -41,10 +41,10 @@ ht-degree: 96%
 AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항.
 
 * `/libs`에는 핵심 구성 요소가 포함됩니다.
-* 프로젝트 빌드 파이프라인에 핵심 구성 요소가 `/apps`의 일부로 포함되고 프로젝트의 일부로 임베디드 버전이 무시되는 경우 로그에 경고 메지지가 발생합니다.
+* 프로젝트 빌드 파이프라인에 핵심 구성 요소가 `/apps`의 일부로 포함되고 프로젝트의 일부로 임베드된 버전이 무시되는 경우 로그에 경고 메지지가 발생합니다.
    * 향후 릴리스에서 핵심 구성 요소가 포함되면 파이프라인 빌드에 오류가 발생합니다.
 * 이전에 `/apps`의 핵심 구성 요소가 프로젝트에 포함되면 [프로젝트를 조정할 수 있습니다.](/help/developing/overview.md#via-aemaacs)
-* 핵심 구성 요소가 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. 구성 요소의 모든 측면을 사용자 정의해야 할 경우 대신 [프록시 구성 요소 패턴](/help/developing/guidelines.md#proxy-component-pattern)을 사용해야 합니다.
+* 핵심 구성 요소가 현재 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. [구성 요소의 모든 측면을 사용자 정의해야 하는 경우 대신 프록시 구성 요소 패턴 ](/help/developing/guidelines.md#proxy-component-pattern)을(를) 사용해야 합니다.
 * [목차 구성 요소](/help/components/tableofcontents.md)가 콘텐츠를 렌더링하려면 OSGi에서 필터를 구성해야 합니다.
    * 자세한 내용은 [구성 요소의 GitHub 설명서를 참조하십시오](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_kr).
 
@@ -52,7 +52,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 프로덕션 모드(샘플 콘텐츠 없음)에서 시작할 때 핵심 핵심 구성 요소는 빠른 시작의 일부가 아닙니다. 따라서 첫 번째 단계는 [GitHub에서 최신 릴리스된 콘텐츠 패키지를 다운로드](https://github.com/adobe/aem-core-wcm-components/releases/latest)하여 AEM 환경에 설치하는 것입니다.
 
-몇 가지 방법으로 이 프로세스를 자동화할 수 있지만 패키지 관리자를 사용하면 인스턴스에서 콘텐츠 패키지를 빠르게 설치할 수 있습니다. [패키지 설치](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#installing-packages)를 참조하십시오. 또한, 게시 인스턴스가 실행되면 해당 패키지를 복제해야 합니다. [패키지 복제](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#replicating-packages)를 참조하십시오.
+몇 가지 방법으로 이 프로세스를 자동화할 수 있지만 패키지 관리자를 사용하면 인스턴스에서 콘텐츠 패키지를 빠르게 설치할 수 있습니다. [패키지 설치](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)를 참조하십시오. 또한, 게시 인스턴스가 실행되면 해당 패키지를 복제해야 합니다. [패키지 복제](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)를 참조하십시오.
 
 ## 프록시 구성 요소 제작 {#create-proxy-components}
 
@@ -85,7 +85,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 ## 핵심 스타일 로드하기 {#load-the-core-styles}
 
-1. 아직 로드되지 않은 경우 사이트에 필요한 CSS와 JS 파일이 모두 포함된 [클라이언트 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)를 만듭니다.
+1. 아직 로드되지 않은 경우 사이트에 필요한 CSS와 JS 파일이 모두 포함된 [클라이언트 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)를 만듭니다.
 1. 사이트의 클라이언트에서 종속성을 필요한 핵심 구성 요소에 추가합니다. 이는 `embed` 속성 추가를 통해 수행됩니다.
 
    예를 들어 v1 핵심 구성 요소의 클라이언트 라이브러리를 모두 포함하려면 추가할 속성은 다음과 같습니다.
@@ -104,7 +104,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 ## 구성 요소 사용하기 {#allow-the-components}
 
-[템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)에서 다음 단계를 수행합니다.
+[템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)에서 다음 단계를 수행합니다.
 
 1. 템플릿 편집기에서 레이아웃 컨테이너를 선택한 다음 정책을 엽니다.
 1. 허용된 구성 요소 목록에서 이전에 제작된 프록시 구성 요소를 선택합니다. 프록시 구성 요소는 해당 구성 요소에 할당된 구성 요소 그룹에 표시됩니다. 완료되면 변경 사항을 적용합니다.

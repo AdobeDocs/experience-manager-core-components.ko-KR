@@ -1,12 +1,12 @@
 ---
 title: 양식 텍스트 구성 요소 (v1)
 description: 핵심 구성 요소의 양식 텍스트 구성 요소를 사용하여 제출용 양식 텍스트를 입력합니다.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '472'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '501'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 양식 텍스트 구성 요소를 사용하여 다양한 유형의 텍스트를 제출하고, [양식 컨테이너 구성 요소](form-container-v1.md)와 함께 이 구성 요소를 사용할 수 있습니다.
 
-콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 텍스트 유효성 검사 유형, 라벨 및 도움말 메시지를 정의할 수 있습니다.
+콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 텍스트 유효성 검사 유형, 레이블 및 도움말 메시지를 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 ## 구성 대화 상자 {#configure-dialog}
 
-콘텐츠 작성자는 구성 대화 상자를 통해 입력할 텍스트 유형뿐만 아니라 기본값 및 라벨을 정의할 수 있습니다.
+콘텐츠 작성자는 구성 대화 상자를 통해 입력할 텍스트 유형뿐만 아니라 기본값 및 레이블을 정의할 수 있습니다.
 
 ### 메인 {#main}
 
@@ -111,8 +111,8 @@ ht-degree: 100%
 
 * **텍스트 라인** - 텍스트 영역에 표시될 라인 수(**제한**&#x200B;이 **텍스트 영역**&#x200B;으로 설정될 경우에만 표시)
 
-* **라벨** - 필드에 표시될 라벨
-* **라벨이 표시되지 않도록 숨기기** - 손쉬운 사용을 위해 라벨이 필요한 경우. 필드에 대해 시각적 정보를 추가로 제공하지 않음
+* **레이블** - 필드에 표시될 레이블
+* **레이블이 표시되지 않도록 숨기기** - 손쉬운 사용을 위해 레이블이 필요한 경우. 필드에 대해 시각적 정보를 추가로 제공하지 않음
 * **요소 이름** - 양식 데이터로 제출된 필드의 이름
 * **값** - 필드에 미리 채워진 기본값
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 ![](/help/assets/chlimage_1-24.png)
 
 * **도움말 메시지** - 필드에 입력할 수 있는 것에 대한 사용자용 힌트
-* **도움말 메시지를 자리 표시자로 표시** - 양식이 비어 있고 포커스를 두지 않았을 때 양식 입력 내부에 도움말 메시지를 표시할지 여부
+* **도움말 메시지를 플레이스홀더로 표시** - 양식이 비어 있고 포커스를 두지 않았을 때 양식 입력 내부에 도움말 메시지를 표시할지 여부
 
 ### 제한 {#constraints}
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 양식 텍스트 구성 요소용 디자인 대화 상자는 없습니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 양식 텍스트 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 

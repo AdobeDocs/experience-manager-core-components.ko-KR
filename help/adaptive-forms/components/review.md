@@ -1,13 +1,13 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 검토 구성 요소
 description: 적응형 양식 검토 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '742'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '765'
 ht-degree: 100%
 
 ---

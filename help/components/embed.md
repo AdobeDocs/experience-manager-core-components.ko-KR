@@ -1,11 +1,11 @@
 ---
 title: 임베드 구성 요소
 description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠 임베드를 활성화합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1343'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 사용량 {#usage}
 
-콘텐츠 작성자는 핵심 구성 요소의 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지 내에 임베드할 외부 콘텐츠를 선택하고 정의할 수 있습니다. 또한, 임베드할 자유 형식의 HTML을 정의하는 옵션이 있습니다.
+콘텐츠 작성자는 핵심 구성 요소의 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지 내에 임베드할 외부 콘텐츠를 선택하고 정의할 수 있습니다. 또한 임베드할 자유 형식의 HTML을 정의하는 옵션이 있습니다.
 
 * [구성 대화 상자](#configure-dialog)에서 구성 요소의 속성을 정의할 수 있습니다.
 * 구성 요소를 페이지에 추가하는 경우 [디자인 대화 상자](#design-dialog)에서 구성 요소의 기본값을 정의할 수 있습니다.
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 기술 세부 정보 {#technical-details}
 
-임베드 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v2_kr).
+임베드 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_embed_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -80,17 +80,17 @@ ht-degree: 100%
 
 #### 임베드 가능 {#embeddable}
 
-임베드 가능 항목을 사용하여 임베드된 리소스를 추가로 사용자 정의할 수 있습니다. 해당 리소스는 매개 변수화되고 리소스에 추가 정보가 포함될 수 있습니다. 작성자는 사전 구성된 임베드 가능 항목 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베드 가능 항목이 포함됩니다.
+임베드 가능 항목을 사용하여 임베드된 리소스를 추가로 사용자 정의할 수 있습니다. 해당 리소스는 매개변수화되고 리소스에 추가 정보가 포함될 수 있습니다. 작성자는 사전 구성된 임베드 가능 항목 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베드 가능 항목이 포함됩니다.
 
 **임베드 가능 항목** 필드는 사용하려는 프로세스 유형을 정의합니다. YouTube 임베드 가능 항목의 경우 다음을 정의할 수 있습니다.
 
 * **비디오 ID** - 임베드하려는 리소스의 YouTube 고유 비디오 ID
 * **폭** - 임베드된 비디오 폭
 * **높이** - 임베드된 비디오 높이
-* **음소거 활성화** - 이 매개 변수는 기본적으로 비디오가 음소거를 재생할지 여부를 지정합니다. 음소거가 활성화되면 최신 브라우저의 자동 재생이 작동할 확률이 높아집니다.
-* **자동 재생 활성화** - 이 매개 변수는 플레이어가 로드될 때 초기 비디오를 자동으로 재생할지 여부를 지정합니다. 게시 인스턴스 또는 작성 인스턴스의 **게시로 보기** 옵션을 사용하는 경우에만 적용됩니다.
-* **루프 활성화** - 단일 비디오의 경우 이 매개 변수는 플레이어가 초기 비디오를 반복적으로 재생할지 여부를 지정합니다. 재생 목록의 경우 플레이어는 전체 재생 목록을 재생한 다음 최초 비디오에서 다시 시작합니다.
-* **인라인 재생(iOS) 활성화** - 이 매개 변수는 iOS의 HTML5 플레이어에서 비디오가 인라인(켜짐) 또는 전체 화면(꺼짐)으로 재생될지를 제어합니다.
+* **음소거 활성화** - 이 매개변수는 기본적으로 비디오가 음소거를 재생할지 여부를 지정합니다. 음소거가 활성화되면 최신 브라우저의 자동 재생이 작동할 확률이 높아집니다.
+* **자동 재생 활성화** - 이 매개변수는 플레이어가 로드될 때 초기 비디오를 자동으로 재생할지 여부를 지정합니다. 게시 인스턴스 또는 작성 인스턴스의 **게시로 보기** 옵션을 사용하는 경우에만 적용됩니다.
+* **루프 활성화** - 단일 비디오의 경우 이 매개변수는 플레이어가 초기 비디오를 반복적으로 재생할지 여부를 지정합니다. 재생 목록의 경우 플레이어는 전체 재생 목록을 재생한 다음 최초 비디오에서 다시 시작합니다.
+* **인라인 재생(iOS) 활성화** - 이 매개변수는 iOS의 HTML5 플레이어에서 비디오가 인라인(켜짐) 또는 전체 화면(꺼짐)으로 재생될지를 제어합니다.
 * **무제한 관련 비디오** - 이 옵션이 비활성화되면 비디오가 바로 재생되기 때문에 관련 비디오는 동일한 채널에서 가져옵니다. 그렇지 않으면 모든 채널에서 가져옵니다.
 
 다른 임베드 가능 항목도 유사 필드를 제공하고 [임베드 구성 요소 개발자 설명서에 따라](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) 개발자에 의해 정의될 수 있습니다.
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 임베드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
 
-추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=ko) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=ko)용)에서 확인할 수 있습니다.
+추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)용)에서 확인할 수 있습니다.
 
 >[!NOTE]
 >

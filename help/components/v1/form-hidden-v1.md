@@ -1,12 +1,12 @@
 ---
 title: 양식 숨김 구성 요소 (v1)
 description: 핵심 구성 요소의 양식 숨기기 구성 요소를 사용하여 숨겨진 필드를 표시할 수 있습니다.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '316'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---

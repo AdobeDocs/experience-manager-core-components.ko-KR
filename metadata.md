@@ -3,13 +3,13 @@ product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Adobe Experience Manager 핵심 구성 요소 설명서
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.ko-KR
-index: y
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+index: true
 recommendations: noDisplay
-source-git-commit: 55e5ef9271b07d8fffc7b396c890af1637309ff3
-workflow-type: ht
-source-wordcount: '101'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 1%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 100%
 GitHub 제작 시스템의 메타데이터는 계층적이며 다음과 같이 증가하는 선례 수준으로 정의됩니다.
 
 1. metadata.md
-1. ToC
+1. 종료 날짜
 1. 문서
 
 metadata.md 파일에 정의된 메타데이터는 전체 리포지토리에 적용되지만 ToC 및 문서 수준에서 재정의될 수 있습니다. 메타데이터 재정의는 가능한 한 낮은 수준에서 수행해야 합니다.
 
-experience-manager-core-components.en 리포지토리의 메타데이터는 요구되는 최소값입니다.
+experience-manager-core-components.en 리포지토리의 메타데이터는 필요한 최소값입니다.
 
 metadata.md
 
 * `product`
 * `git-repo`
-* `index: y`
+* `index: true`
 * `solution-title`
 * `solution-hub-url`
 * `getting-started-title`
@@ -38,7 +38,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-ToCs
+Tocs
 
 * `sub-product`
 * `user-guide-title`
@@ -47,6 +47,6 @@ ToCs
 
 * `title`
 * `description`
-* `index: n` (이전 버전의 구성 요소만 해당)
+* `index: false`(이전 버전의 구성 요소만 해당)
 
-메타데이터에 대한 추가 정보는 [내부 제작 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)에서 확인할 수 있습니다.
+메타데이터에 대한 추가 정보는 [내부 제작 안내서에서 찾을 수 있습니다.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

@@ -1,12 +1,12 @@
 ---
 title: 빠른 검색 구성 요소 (v1)
 description: 빠른 검색 구성 요소는 웹 사이트에 검색 기능을 제공하고, 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 검색 결과를 제공합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '646'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '647'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >이 문서는 빠른 검색 구성 요소 v1에 대해 설명합니다.
->>현재 버전의 빠른 검색 구성 요소에 대한 자세한 내용은 [빠른 검색 구성 요소](/help/components/quick-search.md) 문서를 참조하십시오.
+>현재 버전의 빠른 검색 구성 요소에 대한 자세한 내용은 [빠른 검색 구성 요소](/help/components/quick-search.md) 문서를 참조하십시오.
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
 

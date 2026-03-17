@@ -1,9 +1,9 @@
 ---
 title: 목차 구성 요소
 description: 목차 구성 요소는 독자가 페이지를 빠르게 탐색할 수 있도록 페이지 콘텐츠의 제목을 기반으로 목차를 만듭니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 98%

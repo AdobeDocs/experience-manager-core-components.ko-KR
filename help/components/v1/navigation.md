@@ -1,13 +1,13 @@
 ---
 title: 탐색 구성 요소 (v1)
 description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 구조를 간편하게 탐색할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 사이트 사용자가 사이트 구조를 간편하게 탐색할 수 있도록 탐색 구성 요소는 페이지 트리를 보여 줍니다.
 
-탐색 구성 요소는 전역 사이트 구조를 자동으로 감지하고 [현지화된 페이지에 자동으로 적용될 수 있습니다.](#localized-site-structure)또한 메인 콘텐츠 구조 이외의 다른 구조를 보여 주기 위해 [섀도 리디렉션 페이지](#shadow-structure)를 사용하여 임의의 사이트 구조를 지원할 수 있습니다.
+탐색 구성 요소는 전역 사이트 구조를 자동으로 감지하고 [지역화된 페이지에 자동으로 적용됩니다.](#localized-site-structure) 또한 기본 콘텐츠 구조 이외의 다른 구조를 나타내기 위해 [섀도 리디렉션 페이지](#shadow-structure)를 사용하여 임의의 사이트 구조를 지원할 수 있습니다.
 
 콘텐츠 작성자는 [편집 대화 상자](#edit-dialog)를 통해 탐색의 깊이와 함께 탐색 루트 페이지를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)를 통해 탐색 루트 및 깊이에 대한 기본값을 정의할 수 있습니다.
 
@@ -151,9 +151,9 @@ ht-degree: 100%
 
 ![탐색 구성 요소의 편집 대화 상자 접근성 탭](/help/assets/navigation-edit-accessibility.png)
 
-**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 라벨 값을 설정할 수 있습니다.
+**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 레이블 값을 설정할 수 있습니다.
 
-* **라벨** - 구성 요소에 대한 ARIA 라벨 속성 값
+* **레이블** - 구성 요소에 대한 ARIA 레이블 속성 값
 
 ## 디자인 대화 상자 {#design-dialog}
 

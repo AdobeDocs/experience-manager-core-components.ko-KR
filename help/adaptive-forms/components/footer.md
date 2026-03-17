@@ -1,12 +1,12 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 바닥글
 description: 적응형 양식 바닥글 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 
@@ -45,9 +45,11 @@ ht-degree: 100%
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -63,9 +65,9 @@ To experience the Accordion Component as well as see examples of its configurati
 - **편집 대화 상자**
 편집 대화 상자는 사용자가 바닥글에 대한 텍스트를 만들 수 있는 서식 있는 표준 텍스트 서식 도구를 제공합니다.
 
-- **볼드체** - 이 옵션은 선택한 텍스트에 볼드체 서식 지정을 적용하거나 커서 다음에 입력한 텍스트를 볼드체로 서식 지정하는 데 사용됩니다. 키보드 단축키는 `Ctrl+B`입니다.
+- **굵게** - 이 옵션은 선택한 텍스트에 굵게 서식을 적용하거나 굵게 적용합니다   커서 다음에 입력한 서식 텍스트. `Ctrl+B` 는 키보드 단축키입니다.
 
-- **이탤릭체** - 선택한 텍스트에 이탤릭체 서식 지정을 적용하거나 커서 다음에 입력한 텍스트를 이탤릭체로 서식 지정하는 데 사용됩니다. 키보드 단축키는 `Ctrl+I`입니다.
+- **기울임꼴** - 이 옵션은 기울임꼴 서식을 선택한 텍스트에 적용하거나   커서 다음에 입력한 텍스트를 기울임꼴로 표시합니다. `Ctrl+I` 는 키보드 단축키입니다.
 
 ![글머리 기호 옵션](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -112,7 +114,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ko)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

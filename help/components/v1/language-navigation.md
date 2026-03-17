@@ -1,12 +1,12 @@
 ---
 title: 언어 탐색 구성 요소 (v1)
 description: 방문자가 서로 다른 로케일에서 동일한 페이지로 이동할 수 있도록 언어 탐색 구성 요소는 사이트에 언어/국가/지역 탐색을 제공합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '800'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
 
 ---

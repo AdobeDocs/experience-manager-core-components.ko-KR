@@ -1,11 +1,11 @@
 ---
 title: 원격 자산 지원
 description: OpenAPI가 포함된 Dynamic Media를 사용하여 원격 자산을 지원하도록 핵심 구성 요소 이미지 및 티저 구성 요소를 구성하는 방법에 대해 알아봅니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ OpenAPI가 포함된 Dynamic Media를 사용하여 원격 자산을 지원하려
 
 일반적으로 HTTP를 사용하여 모든 프로덕션 AEM 인스턴스를 실행하는 것이 좋습니다. 단, 로컬 개발 환경은 이와 같이 설정되지 않을 수 있습니다. 그러나 OpenAPI가 포함된 Dynamic Media를 사용하는 원격 자산이 작동하려면 HTTPS가 필요합니다.
 
-개발 환경을 포함하여 원격 자산을 사용하려는 곳에서 [이 안내서를 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=ko)하여 HTTPS를 구성하십시오.
+개발 환경을 포함하여 원격 자산을 사용하려는 곳에서 [이 안내서를 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)하여 HTTPS를 구성하십시오.
 
 ## OSGi 구성 {#osgi}
 
@@ -47,8 +47,8 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 OSGi 구성 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* AEM as a Cloud Service용 [Adobe Experience Manager as a Cloud Service에 대한 OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=ko)
-* AEM 6.5용 [OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=ko)
+* AEM as a Cloud Service용 [Adobe Experience Manager as a Cloud Service에 대한 OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html)
+* AEM 6.5용 [OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html)
 
 ## 구성 확인 {#verify}
 

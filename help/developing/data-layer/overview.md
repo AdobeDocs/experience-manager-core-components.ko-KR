@@ -2,12 +2,12 @@
 title: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용
 description: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe 클라이언트 데이터 레이어는 독립적인 플랫폼이지만 핵
 
 ## 설치 및 활성화 {#installation-activation}
 
-핵심 구성 요소 릴리스 2.9.0부터 데이터 레이어는 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되고 설치할 필요가 없습니다. [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)에서 생성한 모든 프로젝트에는 기본적으로 활성화된 데이터 레이어가 포함됩니다.
+핵심 구성 요소 릴리스 2.9.0부터 데이터 레이어는 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되고 설치할 필요가 없습니다. [AEM Project Archetype v에서 생성된 모든 프로젝트 24+](/help/developing/archetype/overview.md)에는 기본적으로 활성화된 데이터 레이어가 포함됩니다.
 
 데이터 레이어를 수동으로 활성화하려면 해당되는 [컨텍스트 인식 구성](/help/developing/context-aware-configs.md)을 제작해야 합니다.
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 튜토리얼
 
-데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ko)을 살펴보십시오.
+데이터 레이어와 핵심 구성 요소에 대해 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을(를) 확인하십시오.
 
 >[!TIP]
 >

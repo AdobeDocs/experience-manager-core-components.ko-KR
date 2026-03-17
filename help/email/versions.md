@@ -1,13 +1,13 @@
 ---
 title: 핵심 이메일 구성 요소 버전
 description: 핵심 이메일 구성 요소는 릴리스로 게시됩니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '444'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
-이메일 핵심 구성 요소는 유연하고, 지원되는 모든 AEM 버전과 호환할 수 있도록 설계되었습니다. 이메일 핵심 구성 요소의 버전 내역에 대한 자세한 내용은 [GitHub에서 확인할 수 있습니다.](https://github.com/adobe/aem-core-email-components/releases) 단, 다음 테이블에 이메일 핵심 구성 요소 릴리스와 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요가 나와 있습니다.
+이메일 핵심 구성 요소는 유연하고, 지원되는 모든 AEM 버전과 호환할 수 있도록 설계되었습니다. 이메일 핵심 구성 요소 [의 버전 내역에 대한 자세한 내용은 GitHub에서 확인할 수 있습니다.](https://github.com/adobe/aem-core-email-components/releases) 그러나 다음 표에서는 이메일 핵심 구성 요소 릴리스와 AEM 릴리스 및 Java 버전과의 호환성에 대한 개요를 제공합니다.
 
 | 릴리스 | 설명 | AEM 6.5 | AEM 6.5 LTS | 핵심 구성 요소 | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|

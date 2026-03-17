@@ -1,12 +1,12 @@
 ---
 title: 적응형 이미지 서블릿
 description: 핵심 구성 요소가 이미지 제공을 위해 적응형 이미지 서블릿을 사용하는 방법과 해당 사용을 최적화하는 방법에 대해 알아봅니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 개요 {#overview}
 
-기본적으로 이미지 구성 요소는 핵심 구성 요소의 적응형 이미지 서블릿을 사용하여 이미지를 제공합니다. [적응형 이미지 서블릿](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)은 이미지를 처리 및 스트리밍하고, 개발자에 의해 [핵심 구성 요소 맞춤화](/help/developing/customizing.md)에 활용될 수 있습니다.
+기본적으로 이미지 구성 요소는 핵심 구성 요소의 적응형 이미지 서블릿을 사용하여 이미지를 제공합니다. [적응형 이미지 서블릿](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)은(는) 이미지 처리 및 스트리밍을 담당하며 개발자에 의해 핵심 구성 요소의 [사용자 지정](/help/developing/customizing.md)에 활용될 수 있습니다.
 
 ## 렌디션 선택 {#rendition-selection}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. 적응형 이미지 서블릿이 이미지 자산에 대해 사용 가능한 모든 렌디션을 검토합니다.
 1. 원래 참조된 자산에 대해 MIME/유형이 동일한 자산만 선택합니다.
-   * 예를 들어 원래 자산이 PNG 라면 PNG 렌디션만 고려하게 됩니다.
+   * E.g. 원본 에셋이 PNG인 경우 PNG 렌디션만 고려합니다.
 1. 이들 렌디션 중 차원을 고려하여 이미지가 표시될 컨테이너의 크기와 비교합니다.
 1. 렌디션이 컨테이너 크기 이상이면 후보 렌디션 목록에 추가됩니다.
 1. 렌디션이 컨테이너 크기 미만이면 무시됩니다.

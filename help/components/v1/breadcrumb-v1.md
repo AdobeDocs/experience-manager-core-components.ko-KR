@@ -1,12 +1,12 @@
 ---
 title: 이동 경로 구성 요소 (v1)
 description: 핵심 구성 요소의 이동 경로 구성 요소는 콘텐츠 계층 구조의 페이지 위치에 따라 링크의 이동 경로를 빌드하는 탐색 구성 요소입니다.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '530'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >이 문서에서는 이동 경로 구성 요소 v1에 대해 설명합니다.
->>현재 버전의 이동 경로 구성 요소에 대한 자세한 내용은 [이동 경로 구성 요소](/help/components/breadcrumb.md) 문서를 참조하십시오.
+>현재 버전의 이동 경로 구성 요소에 대한 자세한 내용은 [이동 경로 구성 요소](/help/components/breadcrumb.md) 문서를 참조하십시오.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
@@ -116,9 +116,9 @@ ht-degree: 100%
 
    * 이로 인해 작성자의 옵션이 활성화되거나 비활성화되지 않습니다. 기본값만 설정됩니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-이동 경로 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
+이동 경로 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
 
 GitHub에서 전체 핵심 구성 요소 프로젝트를 다운로드할 수 있습니다.
 

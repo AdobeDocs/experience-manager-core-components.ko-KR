@@ -1,12 +1,12 @@
 ---
 title: 임베드 구성 요소 (v1)
 description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠 임베드를 활성화합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1240'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1317'
 ht-degree: 100%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 임베드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
 
-추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=ko) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=ko)용)에서 확인할 수 있습니다.
+추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)용)에서 확인할 수 있습니다.
 
 >[!NOTE]
 >`/libs/cq/xssprotection/config.xml` 오버레이를 통해 HTML AntiSamy 정리 프레임워크 규칙을 구성할 수 있지만 해당 변경 사항은 핵심 임베드 구성 요소뿐 만 아니라 모든 HTL 및 JSP 비헤이비어에 영향을 줄 수 있습니다.

@@ -2,12 +2,12 @@
 title: AEM Project Archetype 사용
 description: AEM Project Archetype을 사용하여 사용자 자신의 AEM 프로젝트의 시작점으로서 모범 사례 기반 Adobe Experience Manager 프로젝트를 생성하는 방법에 대해 알아봅니다.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 92%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 Project Archetype을 통해 AEM에서 개발 시작하기가 수월해집니다. Archetype을 사용하여 여러 방식으로 첫 단계를 수행할 수 있습니다.
 
-* **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)을 참조하십시오.
+* **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)을 참조하십시오.
 * **WKND 이벤트 튜토리얼** - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 관심이 있다면 전용 [WKND 이벤트 튜토리얼](https://helpx.adobe.com/kr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)에 대해 자세히 알아보십시오.
-* **스스로 시작해 보십시오.** - [GitHub에서 사용 가능한 최신 프로젝트 Archetype](https://github.com/adobe/aem-project-archetype)을 손쉽게 다운로드하고 직접 첫 번째 프로젝트를 만들 수 있습니다.
+* **직접 시작!** - GitHub에서 사용할 수 있는 [현재 프로젝트 원형](https://github.com/adobe/aem-project-archetype)을 쉽게 다운로드하고 첫 번째 프로젝트를 직접 만들 수 있습니다.
 
 ## Archetype을 사용하는 방법 {#how-to-use-the-archetype}
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 [AEM Java API Jar입니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ko) AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
+주요 종속성 중 하나는 [AEM Java API Jar입니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 여기에는 AEM 버전에 대한 단일 종속성 항목이 있는 모든 AEM API가 포함됩니다.
 
 >[!NOTE]
 >
@@ -95,9 +95,9 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### 핵심 구성 요소 {#core-components}
 
-Archetype은 [핵심 구성 요소를 활용합니다.](/help/introduction.md) 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 Maven 프로젝트의 일부로 포함시키는 것이 좋습니다.
+Archetype은 [핵심 구성 요소](/help/introduction.md)를 활용합니다. 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 Maven 프로젝트의 일부로 포함시키는 것이 좋습니다.
 
-core.wcm.components.예제는 핵심 구성 요소의 예제를 나타내는 샘플 페이지 세트입니다. 제작용 프로젝트를 배포할 때 이 종속성과 하위 패키지 포함을 제거하는 것이 좋습니다.
+core.wcm.components.예제는 핵심 구성 요소의 예제를 나타내는 샘플 페이지 세트입니다. 프로덕션용 프로젝트를 배포할 때 이 종속성과 하위 패키지 포함을 제거하는 것이 좋습니다.
 
 >[!NOTE]
 >

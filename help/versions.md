@@ -1,9 +1,9 @@
 ---
 title: 핵심 구성 요소 버전
 description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성의 버전이 포함될 수 있는 릴리스로 게시됩니다. 이 문서에서는 릴리스 및 버전의 정의와 핵심 구성 요소 및 AEM의 호환성을 이해하는 방법에 대해 설명합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3e49862f958e50f095c944c33d1983ae46ab8ace
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
+핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -95,10 +95,10 @@ ht-degree: 96%
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 이 릴리스에는 [이미지 구성 요소](/help/components/image.md)에 대한 개선 사항 및 버그 수정과 함께 [티저 구성 요소](/help/components/teaser.md)가 도입되었습니다. | 6.4.2.0+ | -- |  | - | 8 | 2018년 7월 13일 |
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 버그 해결 릴리스입니다. | 6.4.0.0+ | -- |  | - | 8 | 2018년 6월 12일 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 이 릴리스에는 내부 개선 사항, 버그 수정 및 [이미지 구성 요소](/help/components/image.md)의 이미지 플립 지원 등 사소한 개선 사항 등이 추가됩니다. | 6.4.0.0+ | - | - | - | 8 | 2018년 4월 11일 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 이 릴리스는 주로 내부 개선 사항, 버그 수정을 비롯해 [이미지 구성 요소](/help/components/image.md), [페이지 구성 요소](/help/components/page.md) 및 [콘텐츠 조각 구성 요소](/help/components/content-fragment-component.md)에 대한 몇 가지 사소한 개선 사항에 중점을 둡니다. | 6.4.0.0+ | - | - | 8 | 2018년 3월 7일 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 이 릴리스는 주로 내부 개선 사항, 버그 수정을 비롯해 [이미지 구성 요소](/help/components/image.md), [페이지 구성 요소](/help/components/page.md) 및 [콘텐츠 조각 구성 요소](/help/components/content-fragment-component.md)에 대한 몇 가지 사소한 개선 사항에 중점을 둡니다. | 6.4.0.0+ | - | - | 8 | 2018년 3월 7일 | |
 | [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 이 릴리스에는 [탐색 구성 요소](/help/components/navigation.md), [언어 탐색 구성 요소](/help/components/language-navigation.md) 및 [빠른 검색 구성 요소](/help/components/quick-search.md)가 도입되었고, 모든 구성 요소의 [스타일 시스템](/help/get-started/authoring.md#component-styling)이 구현되었습니다. | 6.4.0.0+ | - | - | - | 8 | 2018년 1월 16일 |
 | [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 이 릴리스의 모든 구성 요소에서 JSON 내보내기가 구현되고 [콘텐츠 조각 구성 요소](/help/components/content-fragment-component.md)가 도입됩니다. | 6.4.0.0+ | -- |  | - | 8 | 2017년 10월 10일 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 이 릴리스에는 [이미지 구성 요소](/help/components/image.md)에 대한 몇 가지 버그 수정이 추가됩니다. | 6.4.0.0+ | - | - | 8 | 2017년 8월 4일 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 이 릴리스에는 [이미지 구성 요소](/help/components/image.md)에 대한 몇 가지 버그 수정이 추가됩니다. | 6.4.0.0+ | - | - | 8 | 2017년 8월 4일 | |
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 이 릴리스에는 [페이지 구성 요소](/help/components/page.md) 및 [이미지 구성 요소](/help/components/image.md)에 대한 버그 수정, 여러 전역 버그 수정 및 개선 사항이 추가됩니다. | 6.4.0.0+ | -- |  | - | 8 | 2017년 4월 26일 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 이 릴리스에는 [이미지 구성 요소](/help/components/image.md)의 애니메이션 GIF 이미지에 대한 버그 수정이 추가됩니다. | 6.4.0.0+ | - | - | - | 7 | 2017년 3월 22일 |
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 핵심 구성 요소의 초기 릴리스 | 6.4.0.0+ | - | - | - | 7 | 2017년 3월 20일 |

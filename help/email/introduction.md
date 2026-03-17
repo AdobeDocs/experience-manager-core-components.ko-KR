@@ -1,12 +1,12 @@
 ---
 title: 이메일 핵심 구성 요소 소개
 description: 이메일 핵심 구성 요소의 유연성을 사용하여 매력적인 이메일 콘텐츠를 만들고 Adobe Campaign의 강력한 기능으로 전달하십시오.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '376'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 100%
 
 ## 기능 {#features}
 
-* 핵심 이메일 구성 요소는 [핵심 구성 요소](/help/introduction.md)에 기반하며 따라서 [편집 가능한 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko-kr) 및 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko-kr)도 지원합니다.
-* 이메일 콘텐츠 작성용으로 [이메일에 최적화되고 제작 준비가 완료된 구성 요소 10개](#components)가 있습니다.
+* 핵심 이메일 구성 요소는 [핵심 구성 요소](/help/introduction.md)에 기반하며 따라서 [편집 가능한 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 및 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko-kr)도 지원합니다.
+* 이메일 콘텐츠 작성용으로 [이메일에 최적화되고 프로덕션 준비가 완료된 구성 요소 10개](#components)가 있습니다.
 * 핵심 이메일 구성 요소는 대부분의 대화 상자 필드에서의 [Adobe Campaign 변수](campaign-variables.md) 삽입을 통해 고급 개인화 기능을 제공합니다.
 * 유연한 [세분화 구성 요소](/help/email/components/segmentation.md) 덕분에 콘텐츠의 고급 세분화가 가능합니다.
 * 핵심 이메일 구성 요소는 [CSS 스타일 인라이너,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML 속성 인라이너](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) 및 [HTML 삭제기](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)를 통해 이메일에 최적화된 HTML 출력을 제공합니다.

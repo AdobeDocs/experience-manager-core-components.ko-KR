@@ -1,9 +1,9 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 확인란 그룹
 description: 적응형 양식 확인란 그룹 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2315'
 ht-degree: 91%
@@ -62,9 +62,11 @@ ht-degree: 91%
 >
 > 확인란 그룹 핵심 구성 요소의 v1 버전은 WCAG 2.1을 지원합니다. WCAG 2.1은 유용성과 가독성을 위한 모범 사례를 따라 콘텐츠에 액세스할 수 있도록 하는 데 중점을 둡니다. v2 버전은 WCAG 2.2를 지원하므로, 관련 필드의 논리적 및 의미론적 그룹화를 통해 명확하고 예측 가능하며 모호하지 않은 접근성을 강조함으로써 한 단계 더 나아가 포괄적인 양식 디자인을 위한 중요한 요구 사항이 됩니다.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 기술 세부 정보 {#technical-details}
 

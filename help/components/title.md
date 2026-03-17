@@ -1,11 +1,11 @@
 ---
 title: 제목 구성 요소
 description: 핵심 구성 요소의 제목 구성 요소는 바로 편집 기능이 있는 섹션 머리말 구성 요소입니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '623'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 사용량 {#usage}
 
-제목 구성 요소는 콘텐츠 섹션의 제목이나 머리글로 사용하기 위한 목적으로 작성되었습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 머리말 수준을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 머리말 수준 중 하나를 선택할 수 있습니다. 편리성을 추가하기 위해 머리글 텍스트의 간단한 바로 편집 기능을 사용할 수도 있습니다.
+제목 구성 요소는 콘텐츠 섹션의 제목이나 머리글로 사용하기 위한 목적으로 작성되었습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 제목 수준을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 제목 수준 중 하나를 선택할 수 있습니다. 편리성을 추가하기 위해 머리글 텍스트의 간단한 바로 편집 기능을 사용할 수도 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -41,16 +41,16 @@ ht-degree: 100%
 
 ### 기술 세부 정보 {#technical-details}
 
-제목 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_title_v3_kr).
+제목 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_title_v3).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
 ## 편집 대화 상자 {#edit-dialog}
 
-콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 머리말 수준을 선택할 수 있습니다.
+콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 제목 수준을 선택할 수 있습니다.
 
 * **제목** - 비어 있는 경우 페이지 제목이 사용됩니다.
-* **유형/크기** - 제목의 머리말 수준을 정의합니다.
+* **유형/크기** - 제목의 제목 수준을 정의합니다.
 * **링크** - 제목이 링크할 콘텐츠를 정의합니다. 콘텐츠 페이지, 외부 URL이나 페이지 앵커의 경로일 수 있습니다.
 * **새 탭에서 링크 열기** - 확인 표시가 되어 있으면 링크가 새 브라우저 탭에서 열립니다.
 * **ID** - 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 통해 콘텐츠 작성자가 제목 구성 요소를 생성할 때 이에 포함될 기본 머리말 수준을 정의할 수 있습니다.
+템플릿 작성자는 디자인 대화 상자를 통해 콘텐츠 작성자가 제목 구성 요소를 생성할 때 이에 포함될 기본 제목 수준을 정의할 수 있습니다.
 
 ### 크기 탭 {#sizes-tab}
 
@@ -92,4 +92,4 @@ ht-degree: 100%
 
 ## Adobe 클라이언트 데이터 레이어 {#data-layer}
 
-제목 구성 요소는 [ Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)지원합니다.
+제목 구성 요소는 [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md)를 지원합니다.

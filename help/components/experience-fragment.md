@@ -1,12 +1,12 @@
 ---
 title: 경험 조각 구성 요소
 description: 콘텐츠 작성자는 경험 조각 구성 요소를 통해 경험 조각 변형을 페이지에 추가할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 94%
 
 ---
 
@@ -108,11 +108,11 @@ ht-degree: 100%
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-경험 조각 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_xf)를 참조하십시오.
+경험 조각 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_xf_kr)를 참조하십시오.
 
 ## 기술 세부 정보 {#technical-details}
 
-경험 조각 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_xf_v2_kr).
+경험 조각 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_xf_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 **선택 열기 대화 상자** 버튼을 통해 구성 요소 선택기를 열고 콘텐츠 페이지에 추가할 경험 조각 구성 요소를 선택합니다.
 
-경험 조각 구성 요소가 템플릿에 추가되어 경험 조각이 현지화되면 경험 조각 구성 요소는 자동으로 현지화됩니다. 이 경우 페이지에 렌더링된 내용은 명시된 구성 요소와 다를 수 있습니다. 자세한 내용은 [위의 예](#example)를 참조하십시오.
+경험 조각 구성 요소가 템플릿에 추가되어 경험 조각이 현지화되면 경험 조각 구성 요소는 자동으로 현지화됩니다. 이 경우 페이지에 렌더링된 내용은 명시된 구성 요소와 다를 수 있습니다. [자세한 내용은 ](#example) 위의 예제를 참조하십시오.
 
 **ID**&#x200B;를 정의할 수도 있습니다. 이 옵션을 통해 HTML과 [데이터 레이어](/help/developing/data-layer/overview.md)에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 

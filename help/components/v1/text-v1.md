@@ -1,12 +1,12 @@
 ---
 title: 텍스트 구성 요소 (v1)
 description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1639'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1674'
 ht-degree: 100%
 
 ---
@@ -255,7 +255,7 @@ ht-degree: 100%
 
   ![](/help/assets/chlimage_1-79.png)
 
-   * **열** - 테이블의 열 수(필수)
+   * **열** - 테이블의 열 수 (필수)
    * **행** - 테이블의 행 수 (필수)
    * **폭** - 테이블의 폭
    * **높이** - 테이블의 높이
@@ -365,9 +365,9 @@ ht-degree: 100%
 * 문자를 제거하려면 **삭제** 버튼을 탭하거나 클릭합니다.
 * 문자 순서를 재배열하려면 핸들을 탭하거나 클릭하여 드래그합니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
-텍스트 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
+텍스트 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 GitHub에서 전체 핵심 구성 요소 프로젝트를 다운로드할 수 있습니다.
 

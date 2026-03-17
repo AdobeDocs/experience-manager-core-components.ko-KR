@@ -1,12 +1,12 @@
 ---
 title: 양식 컨테이너 구성 요소 (v1)
 description: 핵심 구성 요소의 양식 컨테이너 구성 요소를 사용하여 간단한 제출용 양식을 작성할 수 있습니다.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 템플릿 작성자는 디자인 대화 상자를 통해 허용된 구성 요소와 컨테이너에 대한 매핑을 정의할 수 있습니다. 이는 [템플릿 편집기의 표준 레이아웃 컨테이너](https://helpx.adobe.com/kr/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)용 디자인 대화 상자와 매우 유사합니다.
 
-## 기술 세부 사항 {#technical-details}
+## 기술 세부 정보 {#technical-details}
 
 양식 컨테이너 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 

@@ -1,11 +1,11 @@
 ---
 title: 목록 구성 요소
 description: 핵심 구성 요소의 목록 구성 요소를 사용하여 동적 목록과 정적 목록을 간단히 만들 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1204'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1214'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용 {#usage}
+## 사용량 {#usage}
 
 목록 구성 요소를 사용하여 하위 페이지에 대한 동적 목록 또는 임의로 정의된 항목에 대한 정적 목록을 만들 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 사용 가능한 목록 유형 및 서식 지정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [편집 대화 상자](#edit-dialog)에서 사용 가능한 목록 유형 및 목록 요소 서식 지정 방법을 선택할 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | - | 호환 가능 | 호환 가능 |
+| v4 | - | 호환 가능 | 호환 가능 | |
 | [v3](/help/components/v3/list.md) | - | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v2](/help/components/v2/list.md) | 호환 가능 | 호환 가능 | - | 호환 가능 |
 | [v1](/help/components/v1/list-v1.md) | 호환 가능 | 호환 가능 | - | 호환 가능 |
@@ -51,9 +51,9 @@ ht-degree: 100%
 
 목록 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_list_kr)를 참조하십시오.
 
-### 기술 세부 정보 {#technical-details}
+### 기술 세부 사항 {#technical-details}
 
-목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3_kr).
+목록 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_list_v3).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

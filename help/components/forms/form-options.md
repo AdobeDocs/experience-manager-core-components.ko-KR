@@ -1,11 +1,11 @@
 ---
 title: 양식 옵션 구성 요소
 description: 핵심 구성 요소의 양식 옵션 구성 요소를 통해 다양한 포맷으로 사전 정의된 옵션을 선택할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '546'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 핵심 구성 요소의 양식 옵션 구성 요소를 사용하여 다양한 방식으로 제공되는 여러 유형의 옵션을 제출하고, [양식 컨테이너 구성 요소](form-container.md)와 함께 이 구성 요소를 사용할 수 있습니다.
 
-콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 옵션, 라벨 및 개별 옵션 제공을 정의할 수 있습니다.
+콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 옵션, 레이블 및 개별 옵션 제공을 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 양식 옵션 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_form_options_kr)를 참조하십시오.
 
-### 기술 세부 정보 {#technical-details}
+### 기술 세부 사항 {#technical-details}
 
 양식 옵션 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_form_options_v2_kr).
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 구성 대화 상자 {#configure-dialog}
 
-콘텐츠 작성자는 구성 대화 상자를 통해 제공할 옵션 유형, 라벨과 사용 가능한 옵션을 정의할 수 있습니다.
+콘텐츠 작성자는 구성 대화 상자를 통해 제공할 옵션 유형, 레이블과 사용 가능한 옵션을 정의할 수 있습니다.
 
 ![양식 옵션 구성 요소의 편집 대화 상자](/help/assets/form-options-edit.png)
 
@@ -54,13 +54,13 @@ ht-degree: 100%
    * **라디오 버튼**
    * **드롭다운**
    * **다중 선택 드롭다운**
-* **제목** - 옵션용 라벨로 표시되는 제목
+* **제목** - 옵션용 레이블로 표시되는 제목
 * **이름** - 양식 데이터로 제출된 필드의 이름
 * **소스** - 옵션을 정의하는 위치
    * **로컬** - 구성 요소 내에서 정의합니다.
       * **추가** 버튼을 탭하거나 클릭하여 값을 추가하고, **삭제**&#x200B;를 탭하거나 클릭하여 값을 삭제합니다.
          * **값** - 양식 제출 시 해당 옵션이 선택되면 저장되는 값
-         * **텍스트** - 양식에 표시되는 옵션용 라벨
+         * **텍스트** - 양식에 표시되는 옵션용 레이블
          * **활성** - 양식 로드 시 옵션이 선택된 상태로 표시됩니다.
          * **비활성** - 옵션은 선택할 수 없지만 계속 표시됩니다.
    * **목록** - AEM의 다른 곳에서 정의된 정적 목록을 옵션용으로 사용합니다.

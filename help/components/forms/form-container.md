@@ -1,12 +1,12 @@
 ---
 title: 양식 컨테이너 구성 요소
 description: 핵심 구성 요소의 양식 컨테이너 구성 요소를 사용하여 간단한 제출용 양식을 작성할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 양식 컨테이너 구성 요소를 통해 간소화된 WCM 양식을 지원하고 추가 양식 구성 요소를 허용하는 중첩된 구조를 사용하여 정보 제출용 양식 및 기능 빌드를 간단하게 활성화합니다.
 
-콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)를 통해 양식 제출로 트리거된 작업, 제출을 처리하는 URL과 워크플로의 트리거 여부를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)를 통해 허용된 구성 요소와 매핑을 정의할 수 있습니다. 이는 [템플릿 편집기의 표준 레이아웃 컨테이너](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)용 디자인 대화 상자와 매우 유사합니다.
+콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)를 통해 양식 제출로 트리거된 작업, 제출을 처리하는 URL과 워크플로의 트리거 여부를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)를 통해 허용된 구성 요소와 매핑을 정의할 수 있습니다. 이는 [템플릿 편집기의 표준 레이아웃 컨테이너](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)용 디자인 대화 상자와 매우 유사합니다.
 
 >[!NOTE]
 >
->핵심 구성 요소의 양식 컨테이너 구성 요소는 핵심 구성 요소의 양식 구성 요소(예: 버튼, 텍스트, 숨김 등) 사용만 지원합니다. 핵심 구성 요소의 양식 컨테이너 구성 요소 내 [기초 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ko)의 양식 구성 요소 사용(그 반대의 경우도 가능)은 지원되지 않습니다.
+>핵심 구성 요소의 양식 컨테이너 구성 요소는 핵심 구성 요소의 양식 구성 요소(예: 버튼, 텍스트, 숨김 등) 사용만 지원합니다. 핵심 구성 요소의 양식 컨테이너 구성 요소 내 [기초 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)의 양식 구성 요소 사용(그 반대의 경우도 가능)은 지원되지 않습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 * **오류 메시지** - 제출 실패 시 표시되는 메시지
 
 >[!TIP]
->전송된 형식 데이터 처리를 위해 시스템 관리자가 조정할 수 있는 추가 제한 시간 옵션이 있습니다. 자세한 내용은 [GitHub에 대한 기술 설명서](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)를 참조하십시오.
+>전달된 양식 데이터 처리를 처리하기 위해 시스템 관리자가 조정할 수 있는 추가 시간 초과 옵션이 있습니다. [자세한 내용은 GitHub에 대한 기술 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### 메일 {#mail}
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 통해 허용된 구성 요소와 컨테이너에 대한 매핑을 정의할 수 있습니다. 이는 [템플릿 편집기의 표준 레이아웃 컨테이너](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)용 디자인 대화 상자와 매우 유사합니다.
+템플릿 작성자는 디자인 대화 상자를 통해 허용된 구성 요소와 컨테이너에 대한 매핑을 정의할 수 있습니다. 이는 [템플릿 편집기의 표준 레이아웃 컨테이너](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)용 디자인 대화 상자와 매우 유사합니다.
 
 ### 스타일 탭 {#styles-tab}
 

@@ -1,12 +1,12 @@
 ---
 title: 이메일 제목 구성 요소
 description: 이메일 제목 구성 요소는 바로 편집 기능이 있는 이메일 섹션 머리말 구성 요소입니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '596'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 100%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 머리말 수준을 선택할 수 있습니다.
+콘텐츠 작성자는 편집 대화 상자를 통해 제목 텍스트를 정의하고 제목 수준을 선택할 수 있습니다.
 
 * **제목** - 비어 있는 경우 페이지 제목이 사용됩니다.
    * Campaign 아이콘을 클릭하여 Adobe Campaign의 다이내믹 콘텐츠를 삽입하기 위한 [Adobe Campaign 변수 선택](/help/email/campaign-variables.md) 대화 상자를 엽니다.
-* **유형/크기** - 제목의 머리말 수준을 정의합니다.
+* **유형/크기** - 제목의 제목 수준을 정의합니다.
 * **링크** - 제목이 링크할 콘텐츠를 정의합니다. 콘텐츠 페이지, 외부 URL이나 페이지 앵커의 경로일 수 있습니다.
    * Campaign 아이콘을 클릭하여 Adobe Campaign의 다이내믹 콘텐츠를 삽입하기 위한 [Adobe Campaign 변수 선택](/help/email/campaign-variables.md) 대화 상자를 엽니다.
 * **ID** - 이 옵션을 통해 HTML에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 통해 콘텐츠 작성자가 제목 구성 요소를 생성할 때 이에 포함될 기본 머리말 수준을 정의할 수 있습니다.
+템플릿 작성자는 디자인 대화 상자를 통해 콘텐츠 작성자가 제목 구성 요소를 생성할 때 이에 포함될 기본 제목 수준을 정의할 수 있습니다.
 
 ### 크기 탭 {#sizes-tab}
 

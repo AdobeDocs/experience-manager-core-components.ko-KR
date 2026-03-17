@@ -1,12 +1,12 @@
 ---
 title: 버튼 구성 요소 (v1)
 description: 핵심 구성 요소의 버튼 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '397'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 100%
 
 ![버튼 구성 요소의 디자인 대화 상자 접근성 탭](/help/assets/button-edit-accessibility.png)
 
-**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 라벨 값을 설정할 수 있습니다.
+**접근성** 탭에서 구성 요소에 대한 [ARIA 접근성](https://www.w3.org/WAI/standards-guidelines/aria/) 레이블 값을 설정할 수 있습니다.
 
-* **라벨** - 구성 요소에 대한 ARIA 라벨 속성 값
+* **레이블** - 구성 요소에 대한 ARIA 레이블 속성 값
 
 ## 디자인 대화 상자 {#design-dialog}
 

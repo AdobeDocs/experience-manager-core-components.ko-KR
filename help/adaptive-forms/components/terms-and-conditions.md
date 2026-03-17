@@ -1,11 +1,11 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 약관
 description: 적응형 양식 약관 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3266'
 ht-degree: 100%
 
 ---

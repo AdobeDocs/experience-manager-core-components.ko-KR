@@ -1,13 +1,13 @@
 ---
 title: 이메일 경험 조각 구성 요소
 description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통해 콘텐츠에 경험 조각 변형을 배치하면서 현지화된 콘텐츠 구조를 지원할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '865'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 100%
 
 이메일 경험 조각 구성 요소는 현지화된 콘텐츠 구조에 적응하고 콘텐츠의 현지화에 따라 해당 경험 조각을 렌더링합니다. 이 작업을 수행하려면 경험 조각은 다음 조건을 충족해야 합니다.
 
-* 이메일 경험 조각 구성 요소를 [페이지 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=ko)에 추가합니다.
+* 이메일 경험 조각 구성 요소를 [페이지 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)에 추가합니다.
 * 해당 템플릿을 사용하여 `/content/<site>` 아래 현지화된 구조의 일부인 새 콘텐츠 페이지를 만듭니다.
 * 콘텐츠 페이지에서 참조한 경험 조각은 동일한 구성 요소 이름을 사용하는 `/content/<site>` 아래 사이트와 동일한 패턴을 따르는 `/content/experience-fragments` 아래에 있는 현지화된 경험 조각 구조의 일부입니다.
 
-이 경우 현지화 기능([언어, 블루프린트 또는 라이브 카피](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=ko))이 현재 페이지와 같은 조각은 템플릿의 일부로 렌더링됩니다.
+이 경우 현지화 기능([언어, 블루프린트 또는 라이브 카피](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html))이 현재 페이지와 같은 조각은 템플릿의 일부로 렌더링됩니다.
 
 이 비헤이비어는 템플릿에 추가된 이메일 경험 조각 구성 요소로 제한됩니다. 개별 콘텐츠 페이지에 추가된 경험 조각 구성 요소를 사용하여 정확한 경험 조각 렌디션을 렌더링하고 구성 요소 내부에 구성합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 **선택 열기 대화 상자** 버튼을 통해 구성 요소 선택기를 열고 콘텐츠 페이지에 추가할 경험 조각 구성 요소를 선택합니다.
 
-이메일 경험 조각 구성 요소가 템플릿에 추가되어 경험 조각이 현지화되면 경험 조각 구성 요소는 자동으로 현지화됩니다. 이 경우 페이지에 렌더링된 내용은 명시된 구성 요소와 다를 수 있습니다. 자세한 내용은 [위의 예](#example)를 참조하십시오.
+이메일 경험 조각 구성 요소가 템플릿에 추가되어 경험 조각이 현지화되면 경험 조각 구성 요소는 자동으로 현지화됩니다. 이 경우 페이지에 렌더링된 내용은 명시된 구성 요소와 다를 수 있습니다. [자세한 내용은 ](#example) 위의 예제를 참조하십시오.
 
 **ID**&#x200B;를 정의할 수도 있습니다. 이 옵션을 통해 HTML에서 구성 요소의 고유 식별자를 제어할 수 있습니다.
 

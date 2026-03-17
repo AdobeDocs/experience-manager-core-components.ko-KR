@@ -1,11 +1,11 @@
 ---
 title: 양식 버튼 구성 요소
 description: 핵심 구성 요소의 양식 숨기기 구성 요소를 사용하여 양식에 숨겨진 필드를 포함할 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '413'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---

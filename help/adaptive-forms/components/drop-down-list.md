@@ -1,11 +1,11 @@
 ---
 title: 적응형 양식 핵심 구성 요소 - 드롭다운 목록
 description: 적응형 양식 드롭다운 핵심 구성 요소를 사용 또는 사용자 정의합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2186'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2234'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,11 @@ ht-degree: 100%
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_kr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 기술 세부 정보 {#technical-details}
 
@@ -95,7 +97,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **플레이스홀더 텍스트** - 양식 구성 요소의 플레이스홀더 텍스트는 입력 필드에 입력할 것으로 예상되는 정보 유형에 대한 힌트로 입력 필드 내에 표시되는 간단한 레이블 또는 프롬프트를 나타냅니다. 플레이스홀더 텍스트는 사용자가 필드에 입력을 시작하면 사라지고 필드가 비어 있으면 다시 나타납니다. 사용자에게 시각적인 단서를 제공하지만 필드에 대한 영구적인 레이블 또는 값으로 작동하지는 않습니다.
 
-- **옵션** - **추가** 버튼을 사용하여 데이터 값을 추가하고 텍스트 쌍을 표시할 수 있습니다. 새 옵션이 추가되고 나면 다음과 같은 작업을 수행할 수 있습니다.
+- **옵션** - **추가** 버튼을 사용하여 데이터 값을 추가하고 텍스트 쌍을 표시할 수 있습니다.  새 옵션이 추가되고 나면 다음과 같은 작업을 수행할 수 있습니다.
    - **데이터 값** - 이 옵션을 선택하면 제출할 콘텐츠를 입력할 수 있습니다.
    - **표시 텍스트** - 이 옵션을 사용하면 적응형 양식에 표시할 콘텐츠를 입력할 수 있습니다.
    - **삭제** - 확인란 옵션을 삭제하려면 탭하거나 클릭합니다.

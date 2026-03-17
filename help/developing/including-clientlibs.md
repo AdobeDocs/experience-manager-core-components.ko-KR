@@ -1,12 +1,12 @@
 ---
 title: 클라이언트 라이브러리 및 핵심 구성 요소
 description: 핵심 구성 요소는 다양한 클라이언트 라이브러리와 함께 제공되며 자체 라이브러리를 포함할 수 있는 기능을 제공합니다.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 클라이언트 라이브러리 포함 {#including}
 
-사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/front-end.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 다음은 각각 샘플 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko)이 포함된 예시입니다.
+사용 사례에 따라 [클라이언트 라이브러리](/help/developing/archetype/front-end.md#clientlibs)를 다양한 방식으로 포함시킬 수 있습니다. 다음은 각각 샘플 [HTL 스니펫](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko-KR)이 포함된 예시입니다.
 
 ### 권장 기본 사용 {#recommended-default-usage}
 
@@ -149,4 +149,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-자세한 내용은 [페이지 구성 요소에 대한 기술 설명서](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)를 참조하십시오.
+[자세한 내용은 페이지 구성 요소에 대한 기술 설명서 를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)

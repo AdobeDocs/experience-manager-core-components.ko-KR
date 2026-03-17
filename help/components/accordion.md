@@ -1,11 +1,11 @@
 ---
 title: 아코디언 구성 요소
 description: 핵심 구성 요소의 아코디언 구성 요소를 통해 페이지에서 아코디언으로 배열되는 패널 컬렉션을 만들 수 있습니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1102'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 100%
 
 ## 패널로 딥 링크하기 {#deep-linking}
 
-아코디언, [캐러셀](carousel.md) 및 [탭 구성 요소](tabs.md)는 구성 요소 내에서 패널로 직접 링크하는 기능을 지원합니다.
+아코디언, [슬라이드](carousel.md) 및 [탭 구성 요소](tabs.md)는 구성 요소 내에서 패널로 직접 링크하는 기능을 지원합니다.
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
+1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
 1. 페이지 콘텐츠를 검사하고 패널의 ID를 식별합니다.
    * 예 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID는 해시로 URL에 추가될 수 있는 앵커가 됩니다(`#`).
@@ -80,7 +80,7 @@ ht-degree: 100%
 * **아이콘** - 목록에서 간단히 식별할 수 있는 패널 구성 요소 유형의 아이콘. 마우스를 가져가 툴팁으로 전체 구성 요소 이름을 조회합니다.
 * **설명** - 패널 텍스트로 사용되는 설명, 패널에 선택된 구성 요소 이름을 기본값으로 설정.
 * **삭제** - 탭하거나 클릭하여 아코디언 구성 요소에서 패널을 삭제합니다.
-* **재배열** - 탭하거나 클릭하고 드래그하여 패널의 순서를 재배열합니다.
+* **재배열** - 패널의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
 
 >[!TIP]
 >
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 아코디언 구성 요소의 패널에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko#editing-a-template-layout-template-author) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 스타일 탭 {#styles-tab}
 

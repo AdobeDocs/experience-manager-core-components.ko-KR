@@ -1,12 +1,12 @@
 ---
 title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 99%
+source-wordcount: '2163'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 {{traditional-aem}}
 
-## 사용 {#usage}
+## 사용량 {#usage}
 
 이미지 구성 요소에는 페이지 방문자의 레이지 로딩과 콘텐츠 작성자의 간단한 이미지 배치 옵션이 있는 적응형 이미지 선택 기능과 반응 동작이 포함됩니다.
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 
 이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 템플릿 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 자산의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 적절한 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
 
-또한, 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 자산 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
+또한 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 자산 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
 
 >[!TIP]
 >
@@ -59,13 +59,13 @@ ht-degree: 99%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=ko) 자산을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 자산 브라우저를 통해 Dynamic Media 이미지 자산을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md) 기준)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 자산을 지원합니다. [활성화되면 ](#design-dialog) 이러한 기능은 다른 이미지에서와 마찬가지로 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있는 기능을 제공합니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
-핵심 구성 요소로 구축된 웹 경험에는 풍부한 Adobe AI 기반의 강력한 고성능 크로스 플랫폼 다이내믹 미디어 이미지 기능이 포함될 수 있습니다.
+핵심 구성 요소로 구축된 웹 경험에는 Adobe AI 기반의 풍부하고 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
 ## 원격 자산 지원 {#remote-assets}
 
-이미지 구성 요소([릴리스 2.23.2](/help/versions.md)부터)는 원격 자산을 지원합니다. [구성한 다음](/help/developing/remote-assets.md) 이미지 구성 요소에 대해 원격 서비스에서 자산을 선택할 수 있습니다.
+이미지 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 원격 자산을 지원합니다. [구성되면 ](/help/developing/remote-assets.md) 이미지 구성 요소에 대해 원격 서비스에서 자산을 선택할 수 있습니다.
 
 ## SVG 지원 {#svg-support}
 
@@ -159,13 +159,13 @@ ht-degree: 99%
 
 * **이미지 자산** - **페이지에서 추천 이미지 상속**&#x200B;을 선택한 경우 자동으로 채워집니다. 다음 옵션을 설정하여 이미지를 수동으로 정의하려면 선택 해제합니다.
 
-   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 자산을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
+   * [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)에서 자산을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ko)를 열고 이미지를 선택할 수 있습니다.
+   * **선택**&#x200B;을 탭하거나 클릭하여 [자산 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택할 수 있습니다.
       * [원격 자산 지원](#remote-assets)이 활성화된 경우 자산 선택을 위한 여러 옵션이 있습니다.
          * **로컬**&#x200B;은 로컬 AEM 자산 라이브러리에서 선택할 수 있습니다.
          * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html).
 
 * **접근성을 위한 그림 설명** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 * **폭** 이미지에 대해 폭 목록을 픽셀 단위로 정의하면 구성 요소는 브라우저 크기에 따라 가장 적절한 폭을 자동으로 로드합니다.
    * **추가** 버튼을 탭하거나 클릭하여 다른 크기를 추가합니다.
       * 그랩 핸들을 사용하여 크기 순서를 재배열합니다.
-      * **삭제** 아이콘을 사용하여 폭을 제거합니다.
+      * **삭제** 아이콘을 사용하여 폭을 삭제합니다.
    * 기본적으로 이미지가 표시될 때까지 이미지 로드를 연기합니다.
       * **레이지 로딩 비활성화** 옵션을 선택하여 페이지 로드에서 이미지를 로드할 수 있습니다.
 * **JPEG 품질** - 변환된(예: 크기 조정된 또는 잘린) JPEG 이미지의 품질 인수(0~100 사이의 백분율)입니다.

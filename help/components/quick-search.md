@@ -1,11 +1,11 @@
 ---
 title: 빠른 검색 구성 요소
 description: 빠른 검색 구성 요소는 웹 사이트에 검색 기능을 제공하고, 방문자가 사이트를 검색하고 결과를 필터링할 수 있도록 검색 결과를 제공합니다.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '625'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >검색 구성 요소나 AEM 기반 애플리케이션을 DOS 공격으로부터 보호하는 경우 발송자의 `mod_security`를 사용하여 상위 수준에서 이를 구현해야 합니다.
 
-빠른 검색 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_search_v2_kr).
+빠른 검색 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_search_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
