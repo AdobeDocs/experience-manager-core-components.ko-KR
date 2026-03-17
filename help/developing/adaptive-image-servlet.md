@@ -54,6 +54,6 @@ ht-degree: 89%
 
 ## 마지막으로 수정된 헤더 사용 {#last-modified}
 
-적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더의 캐싱은[ 발송자에서 활성화](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko#caching-http-response-headers)해야 합니다.
+적응형 이미지 서블릿은 `Last-Modified` 헤더를 통해 조건부 요청을 지원하지만 `Last-Modified` 헤더의 캐싱은[&#x200B; 발송자에서 활성화](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ko#caching-http-response-headers)해야 합니다.
 
 [AEM Project Archetype](/help/developing/archetype/overview.md)의 샘플 Dispatcher 구성에 이미 이 구성이 포함됩니다.

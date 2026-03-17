@@ -50,8 +50,8 @@ Archetype은 모듈로 구성되며, 이 모듈은 모두 Archetype을 사용할
 * **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)**&#x200B;에는 ui.apps 모듈에서 구성 요소를 사용하는 샘플 콘텐츠가 포함됩니다.
 * **[ui.config](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.config)**&#x200B;에는 프로젝트의 실행 모드별 OSGi configs가 포함됩니다.
 * **[ui.frontend.general](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)**&#x200B;에는 일반 Webpack 기반 프론트엔드 빌드 모듈 사용에 필요한 아티팩트가 포함됩니다(선택 사항).
-* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)****(선택 사항)**&#x200B;에는 React에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
-* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)****(선택 사항)**&#x200B;에는 Angular에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
+* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)**&#x200B;**(선택 사항)**&#x200B;에는 React에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
+* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)**&#x200B;**(선택 사항)**&#x200B;에는 Angular에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
 * **[ui.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)**&#x200B;에는 Selenium 기반 UI 테스트가 포함됩니다.
 * **[all](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)**&#x200B;에는 공급업체 종속성 등 컴파일된 모든 모듈(번들 및 콘텐츠 패키지)을 임베드하는 단일 콘텐츠 패키지입니다.
 * **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)**&#x200B;에는 AMS/온프레미스 프로젝트에 대한 기본 Dispatcher 구성이 포함되어 있습니다(선택 사항, 빌드 매개 변수에 따라 다름).

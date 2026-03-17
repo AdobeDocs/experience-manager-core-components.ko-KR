@@ -44,7 +44,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 * 프로젝트 빌드 파이프라인에 핵심 구성 요소가 `/apps`의 일부로 포함되고 프로젝트의 일부로 임베드된 버전이 무시되는 경우 로그에 경고 메지지가 발생합니다.
    * 향후 릴리스에서 핵심 구성 요소가 포함되면 파이프라인 빌드에 오류가 발생합니다.
 * 이전에 `/apps`의 핵심 구성 요소가 프로젝트에 포함되면 [프로젝트를 조정할 수 있습니다.](/help/developing/overview.md#via-aemaacs)
-* 핵심 구성 요소가 현재 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. [구성 요소의 모든 측면을 사용자 정의해야 하는 경우 대신 프록시 구성 요소 패턴 ](/help/developing/guidelines.md#proxy-component-pattern)을(를) 사용해야 합니다.
+* 핵심 구성 요소가 현재 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. [구성 요소의 모든 측면을 사용자 정의해야 하는 경우 대신 프록시 구성 요소 패턴 &#x200B;](/help/developing/guidelines.md#proxy-component-pattern)을(를) 사용해야 합니다.
 * [목차 구성 요소](/help/components/tableofcontents.md)가 콘텐츠를 렌더링하려면 OSGi에서 필터를 구성해야 합니다.
    * 자세한 내용은 [구성 요소의 GitHub 설명서를 참조하십시오](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_kr).
 

@@ -59,13 +59,13 @@ ht-degree: 95%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md) 기준)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 자산을 지원합니다. [활성화되면 ](#design-dialog) 이러한 기능은 다른 이미지에서와 마찬가지로 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있는 기능을 제공합니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md) 기준)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 자산을 지원합니다. [활성화되면 &#x200B;](#design-dialog) 이러한 기능은 다른 이미지에서와 마찬가지로 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있는 기능을 제공합니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 핵심 구성 요소로 구축된 웹 경험에는 Adobe AI 기반의 풍부하고 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
 ## 원격 자산 지원 {#remote-assets}
 
-이미지 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 원격 자산을 지원합니다. [구성되면 ](/help/developing/remote-assets.md) 이미지 구성 요소에 대해 원격 서비스에서 자산을 선택할 수 있습니다.
+이미지 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 원격 자산을 지원합니다. [구성되면 &#x200B;](/help/developing/remote-assets.md) 이미지 구성 요소에 대해 원격 서비스에서 자산을 선택할 수 있습니다.
 
 ## SVG 지원 {#svg-support}
 

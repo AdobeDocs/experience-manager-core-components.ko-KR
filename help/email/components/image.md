@@ -47,7 +47,7 @@ ht-degree: 96%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이메일 이미지 구성 요소는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 자산을 지원합니다. [활성화되면 ](#design-dialog) 이러한 기능은 다른 이미지에서와 마찬가지로 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있는 기능을 제공합니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이메일 이미지 구성 요소는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 자산을 지원합니다. [활성화되면 &#x200B;](#design-dialog) 이러한 기능은 다른 이미지에서와 마찬가지로 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있는 기능을 제공합니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 이메일 핵심 구성 요소로 빌드된 이메일 경험에는 Adobe AI 기반의 풍부하고 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
