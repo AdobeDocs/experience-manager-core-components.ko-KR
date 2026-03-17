@@ -41,7 +41,7 @@ AMP 지원을 통해 다양한 유연성이 제공되지만 지원을 빠르게 
 
 ### 페이지의 AMP 활성화 {#enabling-amp}
 
-페이지의 AMP를 활성화하려면 [페이지 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)에서 **AMP 모드**&#x200B;를 선택해야 합니다.
+페이지의 AMP를 활성화하려면 [페이지 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko#editing-a-template-page-policy-template-author-developer)에서 **AMP 모드**&#x200B;를 선택해야 합니다.
 
 ![AMP 페이지 정책 옵션](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ AMP 지원을 통해 다양한 유연성이 제공되지만 지원을 빠르게 
 * **페어링된 AMP** - 페이지는 AMP와 HTML로 제공됩니다.
 * **AMP만 해당** - 페이지는 AMP로만 제공됩니다.
 
-개별 페이지의 [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서 페이지의 AMP 설정이 재정의될 수도 있습니다.
+개별 페이지의 [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ko)에서 페이지의 AMP 설정이 재정의될 수도 있습니다.
 
 ![AMP 페이지 속성](/help/assets/amp-page-properties.png)
 

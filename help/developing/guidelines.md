@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ### 문제 분리 {#separation-of-concerns}
 
-일반적으로 마크업 템플릿(뷰)과 구성 요소의 논리(또는 모델)를 분리하는 것이 좋습니다. 이를 수행하기 위한 몇 가지 방법이 있지만 핵심 구성 요소와 마찬가지로 논리에는 [슬링 모드](https://sling.apache.org/documentation/bundles/models.html)를, 마크업에는 [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)를 사용하는 것이 좋습니다.
+일반적으로 마크업 템플릿(뷰)과 구성 요소의 논리(또는 모델)를 분리하는 것이 좋습니다. 이를 수행하기 위한 몇 가지 방법이 있지만 핵심 구성 요소와 마찬가지로 논리에는 [슬링 모드](https://sling.apache.org/documentation/bundles/models.html)를, 마크업에는 [HTML 템플릿 언어](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko)를 사용하는 것이 좋습니다.
 
 Java 주석 세트인 슬링 모드를 통해 POJO에서 필요한 변형에 쉽게 액세스할 수 있으므로 간단하고, 강력하고 효율적으로 구성 요소에 대해 Java 논리를 구현할 수 있습니다.
 
@@ -44,7 +44,7 @@ HTL은 AEM에 맞게 설계된 안전하고 간단한 템플릿 언어입니다.
 
 ### 사전에 구성 가능한 기능 {#pre-configurable-capabilities}
 
-페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 디자인 대화 상자가 포함되어 템플릿 작성자는 구성 요소를 사전에 구성할 수 있습니다. [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)를 통해 “정책”이라는 사전 구성 항목을 모두 설정할 수 있습니다.
+페이지 작성자가 사용하는 편집 대화 상자 외에도 구성 요소에는 디자인 대화 상자가 포함되어 템플릿 작성자는 구성 요소를 사전에 구성할 수 있습니다. [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)를 통해 “정책”이라는 사전 구성 항목을 모두 설정할 수 있습니다.
 
 재사용 가능한 구성 요소를 만들려면 사전 구성할 유의미한 옵션이 제공되어야 합니다. 이로써 각기 다른 사이트의 특정 요구 사항에 일치하는 구성 요소 기능을 활성화하거나 비활성화할 수 있습니다.
 
@@ -87,11 +87,11 @@ HTL은 AEM에 맞게 설계된 안전하고 간단한 템플릿 언어입니다.
 
 ## 결합하기 {#putting-it-all-together}
 
-다음은 제목 핵심 구성 요소를 사례로 한 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 콘텐츠 리소스에 버전 번호가 포함되지 않도록, 사이트별 프록시 구성 요소를 통해 구성 요소 버전 관리를 해결하는 방법을 보여 줍니다. 구성 요소의 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) 파일이 모델 인터페이스에 어떻게 사용되는지 보여 주지만 구현은 [슬링 모델](https://sling.apache.org/documentation/bundles/models.html) 주석을 통해 특정 버전의 구성 요소에 바인딩됩니다.
+다음은 제목 핵심 구성 요소를 사례로 한 전체 리소스 유형 바인딩 구조에 대한 개요입니다. 콘텐츠 리소스에 버전 번호가 포함되지 않도록, 사이트별 프록시 구성 요소를 통해 구성 요소 버전 관리를 해결하는 방법을 보여 줍니다. 구성 요소의 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ko) 파일이 모델 인터페이스에 어떻게 사용되는지 보여 주지만 구현은 [슬링 모델](https://sling.apache.org/documentation/bundles/models.html) 주석을 통해 특정 버전의 구성 요소에 바인딩됩니다.
 
 ![리소스 바인딩 개요](/help/assets/chlimage_1-32.png)
 
-아래 개요에는 구현 POJO에 대한 세부 정보가 표시되지 않지만 관련 [템플릿 및 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)을 참조하는 방법은 표시됩니다.
+아래 개요에는 구현 POJO에 대한 세부 정보가 표시되지 않지만 관련 [템플릿 및 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko)을 참조하는 방법은 표시됩니다.
 
 `cq:allowedTemplates` 속성을 통해 사이트에 사용되는 템플릿을 알려 주고 `cq:template`를 통해 각 페이지에 관련 템플릿에 대한 정보를 제공할 수 있습니다. 모든 템플릿은 다음 세 가지 부품으로 구성됩니다.
 
