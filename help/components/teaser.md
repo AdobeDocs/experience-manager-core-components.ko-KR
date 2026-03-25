@@ -36,7 +36,7 @@ ht-degree: 93%
 
 ## 원격 자산 지원 {#remote-assets}
 
-티저 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 원격 자산을 지원합니다. [구성하고 나면 ](/help/developing/remote-assets.md) 티저 구성 요소에 대한 원격 서비스에서 자산을 선택할 수 있습니다.
+티저 구성 요소([릴리스 2.23.2](/help/versions.md) 기준)는 원격 자산을 지원합니다. [구성하고 나면 &#x200B;](/help/developing/remote-assets.md) 티저 구성 요소에 대한 원격 서비스에서 자산을 선택할 수 있습니다.
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
