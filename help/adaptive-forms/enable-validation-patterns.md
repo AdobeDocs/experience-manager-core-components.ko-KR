@@ -2,14 +2,13 @@
 title: Adobe Experience Manager 적응형 Forms에서 텍스트 입력 유효성 검사 패턴 활성화 및 사용
 description: 전화 번호, 주민등록번호 및 우편 번호와 같은 유효성 검사 패턴을 노출한 다음 적응형 Forms에서 사용하도록 템플릿 정책을 구성하는 방법에 대해 알아봅니다.
 hide: true
-hidefromtoc: true
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+exl-id: e4500666-1346-4558-861d-da9541dcef51
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Experience Manager 적응형 Forms에서 텍스트 입력 유효성 검사 패턴 활성화 및 사용
 
