@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 간단한 스타일링부터 고급 기능 
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 
 각 대화 상장에는 일관된 노드 구조가 있습니다. [슬링 리소스 병합](https://helpx.adobe.com/kr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)과 [조건 숨기기](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/hide-conditions.html)를 통해 원래 대화 상자의 섹션을 숨기고, 대체하고 순서를 변경할 수 있도록 상속 구성 요소에서 이 구조를 복제하는 것이 좋습니다. 복제할 구조를 탭 항목 노드 레벨로 이동하는 구조로 정의합니다.
 
-현재 버전에서 대화 상자의 변경된 사항과 최대한 호환할 수 있도록 탭 항목 레벨 아래 구조는 터치하지 않는 것이 중요합니다(숨김, 추가, 대체, 순서 변경 등). 대신 상위 탭 항목은 `sling:hideResource` 속성([Sling 리소스 병합 속성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) 참조)과 맞춤형 구성 필드가 포함된 새 탭 항목을 통해 숨겨야 합니다. `sling:orderBefore` 를 사용하여 필요한 경우 탭 항목의 순서를 변경할 수 있습니다.
+현재 버전에서 대화 상자의 변경된 사항과 최대한 호환할 수 있도록 탭 항목 레벨 아래 구조는 터치하지 않는 것이 중요합니다(숨김, 추가, 대체, 순서 변경 등). 대신 상위 탭 항목은 `sling:hideResource` 속성([슬링 리소스 병합 속성](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) 참조)과 맞춤형 구성 필드에 포함된 새 탭 항목을 통해 숨길 수 있습니다. `sling:orderBefore`를 사용하여 필요한 경우 탭 항목 순서를 변경할 수 있습니다.
 
 아래 대화 상자는 위에서 설명한 권장 대화 상자 구조와 상속된 탭을 숨기고 대체하는 방법을 보여 줍니다.
 

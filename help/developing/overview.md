@@ -4,9 +4,9 @@ description: 핵심 구성 요소는 강력하고 확장 가능한 기본 구성
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1339'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 ## 핵심 구성 요소로 성공하는 방법은? {#how-to-succeed}
 
-핵심 구성 요소는 강력하고 유연하며 사용 및 맞춤화가 간편합니다. [몇 가지 주요 지침을 따라](success.md)을(를) 수행하면 핵심 구성 요소가 포함된 프로젝트가 성공적으로 진행될 수 있습니다.
+핵심 구성 요소는 강력하고 유연하며 사용 및 맞춤화가 매우 간편합니다. [몇 군데 주요 가이드라인에 따라](success.md) 핵심 구성 요소를 사용하면 프로젝트를 성공적으로 완료할 수 있습니다.
 
 ## 핵심 구성 요소로 마이그레이션
 

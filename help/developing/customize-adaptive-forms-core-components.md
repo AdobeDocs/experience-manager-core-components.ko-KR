@@ -4,7 +4,7 @@ description: 조직에 맞는 기능을 구현하기 위해 적응형 양식 핵
 role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
 ht-degree: 100%
 

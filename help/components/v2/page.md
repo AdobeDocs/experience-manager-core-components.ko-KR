@@ -1,18 +1,18 @@
 ---
-title: 페이지 구성 요소 (v2)
+title: 페이지 구성 요소(v2)
 description: 페이지 구성 요소는 템플릿 편집기로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# 페이지 구성 요소 (v2) {#page-component}
+# 페이지 구성 요소(v2) {#page-component}
 
 페이지 구성 요소는 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 
@@ -34,11 +34,11 @@ ht-degree: 94%
 
 ## 점진적 웹 앱 지원 {#pwa-support}
 
-핵심 구성 요소의 릴리스 2.15.0에서는 AEM as a Cloud Service의 기본 제공 [점진적 웹 앱(PWA) 기능에 대한 지원을 도입했습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ko) 사이트 수준의 간단한 구성을 통해 AEM 경험을 PWA으로 전환할 수 있습니다.
+핵심 구성 요소의 릴리스 2.15.0에서는 AEM as a Cloud Service의 기본 제공 [점진적 웹 앱(PWA) 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ko)에 대한 지원을 도입했습니다. 사이트 수준의 간단한 구성을 통해 AEM 경험을 PWA로 전환할 수 있습니다.
 
 ### 기술 세부 사항 {#technical-details}
 
-페이지 구성 요소에 대한 최신 기술 설명서는[&#x200B; GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_page_v2_kr).
+페이지 구성 요소에 대한 최신 기술 설명서는[ GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_page_v2_kr).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

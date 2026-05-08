@@ -1,12 +1,12 @@
 ---
 title: 핵심 구성 요소 사용
-description: 나만의 프로젝트에서 핵심 구성 요소를 시작하고 실행하려면 프록시 구성 요소 다운로드 및 설치, 만들기, 핵심 스타일 로드 및 템플릿에서 구성 요소 사용 등 세 가지 단계를 따르십시오.
+description: 나만의 프로젝트에서 핵심 구성 요소를 시작하고 실행하려면 프록시 구성 요소 다운로드 및 설치 그리고 제작, 핵심 스타일 로드 및 템플릿에서 구성 요소 사용 등 3가지 단계를 따르십시오.
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 * 프로젝트 빌드 파이프라인에 핵심 구성 요소가 `/apps`의 일부로 포함되고 프로젝트의 일부로 임베드된 버전이 무시되는 경우 로그에 경고 메지지가 발생합니다.
    * 향후 릴리스에서 핵심 구성 요소가 포함되면 파이프라인 빌드에 오류가 발생합니다.
 * 이전에 `/apps`의 핵심 구성 요소가 프로젝트에 포함되면 [프로젝트를 조정할 수 있습니다.](/help/developing/overview.md#via-aemaacs)
-* 핵심 구성 요소가 현재 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. [구성 요소의 모든 측면을 사용자 정의해야 하는 경우 대신 프록시 구성 요소 패턴 &#x200B;](/help/developing/guidelines.md#proxy-component-pattern)을(를) 사용해야 합니다.
+* 핵심 구성 요소가 `/libs`에 있어도 `/apps`에서 동일한 경로의 오버레이를 만들지 않는 것이 좋습니다. 구성 요소의 모든 측면을 사용자 정의해야 할 경우 대신 [프록시 구성 요소 패턴](/help/developing/guidelines.md#proxy-component-pattern)을 사용해야 합니다.
 * [목차 구성 요소](/help/components/tableofcontents.md)가 콘텐츠를 렌더링하려면 OSGi에서 필터를 구성해야 합니다.
    * 자세한 내용은 [구성 요소의 GitHub 설명서를 참조하십시오](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_kr).
 
@@ -64,16 +64,19 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 1. 사이트의 구성 요소 폴더에 해당 프록시 구성 요소를 만듭니다.
 
-   **예제**: `/apps/my-site/components`에 유형의 제목 노드 제작 `cq:Component`
+   **예제**
+`/apps/my-site/components`에 `cq:Component` 유형의 제목 노드 제작
 
 1. 슈퍼타입으로 해당 핵심 구성 요소 버전을 지정합니다.
 
-   **예제**: 다음 속성을 추가합니다.\
+   **예제**
+다음 속성을 추가합니다.\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
-1. 구성 요소의 그룹, 제목 및 설명 (선택 사항)을 정의합니다. 해당 값은 프로젝트에 따라 다르고 구성 요소가 작성자에게 어떻게 노출되었는지 보여 줍니다.
+1. 구성 요소의 그룹, 제목 및 설명(선택 사항)을 정의합니다. 해당 값은 프로젝트에 따라 다르고 구성 요소가 작성자에게 어떻게 노출되었는지 보여 줍니다.
 
-   **예제**: 다음 속성을 추가합니다.
+   **예제**
+다음 속성을 추가합니다.
 
    ```shell
    componentGroup="My Site"

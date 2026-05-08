@@ -4,9 +4,9 @@ description: 핵심 구성 요소의 양식 컨테이너 구성 요소를 사용
 role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 * **오류 메시지** - 제출 실패 시 표시되는 메시지
 
 >[!TIP]
->전달된 양식 데이터 처리를 처리하기 위해 시스템 관리자가 조정할 수 있는 추가 시간 초과 옵션이 있습니다. [자세한 내용은 GitHub에 대한 기술 설명서를 참조하십시오.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>전송된 형식 데이터 처리를 위해 시스템 관리자가 조정할 수 있는 추가 제한 시간 옵션이 있습니다. 자세한 내용은 [GitHub에 대한 기술 설명서](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)를 참조하십시오.
 
 ### 메일 {#mail}
 

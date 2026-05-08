@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 96%
 
 참조 샘플 테마는 작성자가 양식에 대한 스타일을 사용하고, 정의하고, 맞춤화하는 데 도움이 되며 CSS에 대해 기본적인 지식만 있는 작성자도 필요에 따라 테마를 맞춤화할 수 있습니다.
 
-**이 테마를 가져오는 방법**
-이러한 테마는 **AEM as a Cloud Service** 환경에 대해 아래에 지정된 다음 단계를 사용하여 가져옵니다.
+**이들 테마를 가져오는 방법은 무엇입니까?**
+**AEM as a Cloud Service** 환경에 대해 아래에 기재된 단계에 따라 이들 테마를 가져올 수 있습니다.
 
 <!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ko) -->
-1. [AEM Archetype 47 이상 프로젝트를 환경에 배포](https://github.com/adobe/aem-project-archetype)
+1. [AEM Archetype 47 이상 버전의 프로젝트를 내 환경에 배포](https://github.com/adobe/aem-project-archetype)
 
 
 AEM Archetype을 배포하는 경우 양식에서 OOTB 테마만 사용할 수 있습니다. 요구 조건에 따라 테마를 맞춤화하려면 [프론트엔드 파이프라인을 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ko)하여 테마를 배포하십시오.
@@ -107,7 +107,7 @@ WKND 테마는 생동감 있고 창의적이며 매력적인 디자인을 구현
 
 ![이젤 테마](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
-### FSI (금융 서비스 및 보험) {#FSI}
+### FSI(금융 서비스 및 보험) {#FSI}
 
 FSI 테마는 양식에 깔끔하고 실용적인 느낌을 주는 데 중점을 둡니다. 이미지에서 볼 수 있듯이 FSI 테마를 적용하면 양식에 부드러운 파란색 색조가 적용됩니다.
 
@@ -200,8 +200,8 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ### 직원 혜택 요약 {#Employee-Benefits-Summary}
 
-직원 혜택 요약 양식 템플릿은 개인 혜택에 대한 필수 세부 정보를 수집하기 위한 양식을 만드는 데 사용됩니다. 효율적인 지원 및 지원을 위한 포괄적인 개요를 제공하여 적용 범위를 빠르고 정확하게 평가하는 데 도움이 됩니다.
-![직원 복리후생 요약](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+직원 혜택 요약 양식 템플릿은 개인 혜택에 대한 필수 세부 정보를 수집하기 위한 양식을 만드는 데 사용됩니다. 이는 보장 범위를 빠르고 정확하게 평가하는 데 도움이 되며 효율적인 지원을 위한 포괄적인 개요를 제공합니다.
+![직원 혜택 요약](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### 계정 명세서 요청 {#Request-for-Account-Statement}

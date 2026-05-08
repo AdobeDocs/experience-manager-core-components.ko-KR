@@ -1,7 +1,7 @@
 ---
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: ht
-source-wordcount: '254'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 - [AEM 적응형 양식에서 reCAPTCHA 사용](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=ko)
 - [AEM 적응형 양식의 PDF 버전(DoR) 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=ko)
 - [AEM 적응형 양식 번역](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=ko)
-- [적응형 양식에 대해 Adobe Analytics를 활성화하여 양식 사용 추적](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=ko)
+- [적응형 양식에 대해 Adobe Analytics를 활성화하여 Forms 사용 추적](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=ko)
 - [Microsoft SharePoint에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ko#create-sharepoint-configuration)
 - [Microsoft Power Automate에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ko#microsoft-power-automate)
 - [Microsoft OneDrive에 적응형 양식 연결](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ko#submit-to-onedrive)
@@ -52,7 +52,7 @@ ht-degree: 100%
 - [적응형 양식 데이터를 데이터베이스로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=ko)
 - [적응형 양식 데이터를 REST 엔드포인트로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ko#submit-to-rest-endpoint)
 - [적응형 양식 데이터를 AEM 워크플로로 보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ko#invoke-an-aem-workflow)
-- [양식 포털을 사용하여 AEM 웹 사이트에 AEM 적응형 양식 나열](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=ko)
+- [Forms 포털을 사용하여 AEM 웹 사이트에 AEM 적응형 양식 나열](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=ko)
 
 ## 다음과 같음 {#more-like-this}
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 - [라디오 버튼](/help/adaptive-forms/components/radio-button.md)
 - [재설정 버튼](/help/adaptive-forms/components/reset-button.md)
 - [검토](/help/adaptive-forms/components/review.md)
-- [스크리블 서명](/help/adaptive-forms/components/scribble-signature.md)
+- [자필 서명](/help/adaptive-forms/components/scribble-signature.md)
 - [제출 버튼](/help/adaptive-forms/components/submit-button.md)
 - [텍스트 상자](/help/adaptive-forms/components/text-box.md)
 - [텍스트](/help/adaptive-forms/components/text.md)

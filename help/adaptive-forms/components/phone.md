@@ -4,9 +4,9 @@ description: 적응형 양식 전화번호 입력 핵심 구성 요소를 사용
 role: Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 형식 탭 {#format-tab}
 
-형식 탭에서는 기본 및 사용자 지정 숫자 형식을 지정할 수 있습니다. 또한 **추가** 단추를 클릭하여 사용자 지정된 숫자 형식을 추가할 수 있습니다.
+형식 탭에서는 기본 숫자 형식과 사용자 정의 숫자 형식을 지정할 수 있습니다. 또한 **추가** 버튼을 클릭하여 사용자 정의된 숫자 형식을 추가할 수 있습니다.
 
 ![형식 탭](/help/adaptive-forms/assets/telephoneinput_format.png)
 

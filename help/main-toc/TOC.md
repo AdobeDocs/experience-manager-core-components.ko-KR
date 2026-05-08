@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 기존 AEM 프로젝트의 경우 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,35 +57,35 @@ ht-degree: 96%
       + [양식 옵션](/help/components/forms/form-options.md)
       + [양식 텍스트](/help/components/forms/form-text.md)
    + v1 구성 요소 {#v1-components}
-      + [이동 경로 (v1)](/help/components/v1/breadcrumb-v1.md)
-      + [버튼 (v1)](/help/components/v1/button.md)
-      + [콘텐츠 조각 목록 (v1)](/help/components/v1/content-fragment-list.md)
-      + [다운로드 (v1)](/help/components/v1/download.md)
-      + [임베드 (v1)](/help/components/v1/embed.md)
-      + [경험 조각 (v1)](/help/components/v1/experience-fragment.md)
-      + [이미지 (v1)](/help/components/v1/image-v1.md)
-      + [언어 탐색 (v1)](/help/components/v1/language-navigation.md)
-      + [목록 (v1)](/help/components/v1/list-v1.md)
-      + [탐색 (v1)](/help/components/v1/navigation.md)
-      + [페이지 (v1)](/help/components/v1/page-v1.md)
-      + [티저 (v1)](/help/components/v1/teaser.md)
-      + [빠른 검색 (v1)](/help/components/v1/quick-search.md)
-      + [텍스트 (v1)](/help/components/v1/text-v1.md)
-      + [제목 (v1)](/help/components/v1/title-v1.md)
+      + [이동 경로(v1)](/help/components/v1/breadcrumb-v1.md)
+      + [버튼(v1)](/help/components/v1/button.md)
+      + [콘텐츠 조각 목록(v1)](/help/components/v1/content-fragment-list.md)
+      + [다운로드(v1)](/help/components/v1/download.md)
+      + [임베드(v1)](/help/components/v1/embed.md)
+      + [경험 조각(v1)](/help/components/v1/experience-fragment.md)
+      + [이미지(v1)](/help/components/v1/image-v1.md)
+      + [언어 탐색(v1)](/help/components/v1/language-navigation.md)
+      + [목록(v1)](/help/components/v1/list-v1.md)
+      + [탐색(v1)](/help/components/v1/navigation.md)
+      + [페이지(v1)](/help/components/v1/page-v1.md)
+      + [티저(v1)](/help/components/v1/teaser.md)
+      + [빠른 검색(v1)](/help/components/v1/quick-search.md)
+      + [텍스트(v1)](/help/components/v1/text-v1.md)
+      + [제목(v1)](/help/components/v1/title-v1.md)
       + v1 양식 구성 요소 {#v1-forms}
-         + [양식 버튼 (v1)](/help/components/v1/form-button-v1.md)
-         + [양식 컨테이너 (v1)](/help/components/v1/form-container-v1.md)
-         + [양식 숨김 (v1)](/help/components/v1/form-hidden-v1.md)
-         + [양식 옵션 (v1)](/help/components/v1/form-options-v1.md)
-         + [양식 텍스트 (v1)](/help/components/v1/form-text-v1.md)
+         + [양식 버튼(v1)](/help/components/v1/form-button-v1.md)
+         + [양식 컨테이너(v1)](/help/components/v1/form-container-v1.md)
+         + [양식 숨김(v1)](/help/components/v1/form-hidden-v1.md)
+         + [양식 옵션(v1)](/help/components/v1/form-options-v1.md)
+         + [양식 텍스트(v1)](/help/components/v1/form-text-v1.md)
    + v2 구성 요소 {#v2-components}
-      + [이동 경로 (v2)](/help/components/v2/breadcrumb.md)
-      + [이미지 (v2)](/help/components/v2/image.md)
-      + [목록 (v2)](/help/components/v2/list.md)
-      + [페이지 (v2)](/help/components/v2/page.md)
-      + [제목 (v2)](/help/components/v2/title.md)
+      + [이동 경로(v2)](/help/components/v2/breadcrumb.md)
+      + [이미지(v2)](/help/components/v2/image.md)
+      + [목록(v2)](/help/components/v2/list.md)
+      + [페이지(v2)](/help/components/v2/page.md)
+      + [제목(v2)](/help/components/v2/title.md)
    + v3 구성 요소 {#v3-components}
-      + [목록 (v3)](/help/components/v3/list.md)
+      + [목록(v3)](/help/components/v3/list.md)
 + 이메일 구성 요소 {#email}
    + [소개](/help/email/introduction.md)
    + [이메일 핵심 구성 요소 사용](/help/email/using.md)
@@ -122,13 +122,13 @@ ht-degree: 96%
       + [적응형 양식 가로 탭](/help/adaptive-forms/components/horizontal-tabs.md)
       + [적응형 양식 이미지](/help/adaptive-forms/components/image.md)
       + [적응형 양식 숫자 상자](/help/adaptive-forms/components/numeric-box.md)
-      + {hide-from-toc}[적응형 Forms 암호 상자](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[적응형 양식 암호 상자](/help/adaptive-forms/components/password-box.md)
       + [적응형 양식 패널](/help/adaptive-forms/components/panel.md)
       + [적응형 양식 CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [적응형 양식 라디오 버튼](/help/adaptive-forms/components/radio-button.md)
       + [적응형 양식 재설정 버튼](/help/adaptive-forms/components/reset-button.md)
       + {hide-from-toc}[적응형 양식 검토](/help/adaptive-forms/components/review.md)
-      + [적응형 양식 스크리블 서명](/help/adaptive-forms/components/scribble-signature.md)
+      + [적응형 양식 자필 서명](/help/adaptive-forms/components/scribble-signature.md)
       + [적응형 양식 제출 버튼](/help/adaptive-forms/components/submit-button.md)
       + [적응형 양식 스위치](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [적응형 양식 모바일](/help/adaptive-forms/components/phone.md)
@@ -141,7 +141,7 @@ ht-degree: 96%
       + [바닥글](/help/adaptive-forms/components/footer.md)
    + [적응형 양식 핵심 구성 요소 사용자 정의](/help/developing/customize-adaptive-forms-core-components.md)
    + [샘플 테마 및 템플릿](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-   + {hide-from-toc}[텍스트 입력 유효성 검사 패턴 사용](/help/adaptive-forms/enable-validation-patterns.md)
+   + {hide-from-toc}[텍스트 입력 유효성 검사 패턴 활성화](/help/adaptive-forms/enable-validation-patterns.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
    + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko)
@@ -153,7 +153,7 @@ ht-degree: 96%
    + [클라이언트 라이브러리 포함](/help/developing/including-clientlibs.md)
    + [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)
    + [웹에 최적화된 이미지 게재](/help/developing/web-optimized-image-delivery.md)
-   + [원격 자산 지원](/help/developing/remote-assets.md)
+   + [원격 에셋 지원](/help/developing/remote-assets.md)
    + Adobe 클라이언트 데이터 레이어 {#data-layer}
       + [데이터 레이어 개요](/help/developing/data-layer/overview.md)
       + [데이터 레이어와 통합](/help/developing/data-layer/integrations.md)

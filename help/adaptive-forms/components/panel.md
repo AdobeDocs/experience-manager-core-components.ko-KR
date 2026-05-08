@@ -4,9 +4,9 @@ description: 적응형 양식 패널 컨테이너 핵심 구성 요소를 사용
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2331'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 96%
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-적응형 Forms 패널 컨테이너 핵심 구성 요소는 2023년 2월 핵심 구성 요소 2.0.4의 일부로 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
+적응형 양식 패널 컨테이너 핵심 구성 요소는 핵심 구성 요소 2.0.4의 일부로 2023년 2월에 릴리스되었습니다. 다음 테이블에서는 지원되는 모든 버전, AEM 호환성 및 해당 문서에 대한 링크를 보여 줍니다.
 
 |  |  |
 |---|---|
 | 구성 요소 버전 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상과 호환\|호환\|호환 |
+| v1 | <br>[릴리스 2.0.4](/help/adaptive-forms/version.md) 이상 버전과 호환 가능\|호환 가능\|호환 가능 |
 
 핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/adaptive-forms/version.md) 문서를 참조하십시오.
 
@@ -100,7 +100,7 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **섹션 머리글 아래의 그룹 필드**: 공통 섹션 머리글 아래에 관련 양식 필드를 구성하려면 이 옵션을 선택하십시오. 이러한 그룹화를 통해 화면 판독기와 같은 보조 기술이 그룹화된 필드를 단일 결합 단위로 식별하고 알려 모든 사용자의 양식 접근성과 탐색을 향상시킬 수 있습니다.
+- **섹션 머리글 아래의 그룹 필드**: 공통 섹션 머리글 아래에 관련 양식 필드를 구성하려면 이 옵션을 선택합니다. 이러한 그룹화는 화면 판독기와 같은 보조 기술이 그룹화된 필드를 단일 결합 단위로 식별하고 알려 줄 수 있도록 하여 모든 사용자의 양식 접근성과 탐색을 향상합니다.
 
   ![패널 그룹 필드](/help/adaptive-forms/assets/panel-fieldset.png)
 

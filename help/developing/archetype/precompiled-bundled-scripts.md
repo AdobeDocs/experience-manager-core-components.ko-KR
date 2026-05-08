@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ AEM as a Cloud Service는 미리 컴파일된 번들형 스크립트로 [`ui.app
 
 OSGi 프레임워크를 통해 여러 구성 요소 간 약정을 표현할 수 있는 [요구 사항 및 기능](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)을 정의하는 강력한 방법이 제공됩니다. 이는 메타데이터를 통해 설명되고 런타임 시 적용됩니다. 번들형 스크립트는 이 메커니즘을 사용하여 상속 관계(`sling:resourceSuperType`)와 전달을 모두 표현합니다(렌더링 프로세스에 기타 리소스 유형 포함됨).
 
-[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 프로젝트의 `bnd` 플러그인을 사용하여 [`ui.apps`에서 제공하는 스크립트에 해당하는 요구 사항 및 기능을 추출할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ko#code-packages-%2F-osgi-bundles) 콘텐츠 패키지
+[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 프로젝트의 `bnd` 플러그인을 사용하여 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ko#code-packages-%2F-osgi-bundles)가 제공하는 스크립트에 해당하는 요구 사항과 기능을 추출할 수 있습니다. 콘텐츠 패키지
 
 ## AEM Project Archetype 지원 {#support}
 
