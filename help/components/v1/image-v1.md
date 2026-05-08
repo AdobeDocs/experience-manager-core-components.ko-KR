@@ -1,26 +1,26 @@
 ---
-title: 이미지 구성 요소 (v1)
+title: 이미지 구성 요소(v1)
 description: 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
 ---
 
 
-# 이미지 구성 요소 (v1) {#image-component-v}
+# 이미지 구성 요소(v1) {#image-component-v}
 
 핵심 구성 요소의 이미지 구성 요소는 바로 편집 기능이 있는 적응형 이미지 구성 요소입니다.
 
 ## 사용량 {#usage}
 
-이미지 구성 요소를 사용하여 이미지 자산을 간단히 배치하고 바로 편집 기능을 제공합니다. 콘텐츠 작성자의 소극적 로드 및 자르기 옵션이 있는 적응형 이미지 선택 기능이 포함됩니다.
+이미지 구성 요소를 사용하여 이미지 에셋을 간단히 배치하고 바로 편집 기능을 제공합니다. 콘텐츠 작성자의 소극적 로드 및 자르기 옵션이 있는 적응형 이미지 선택 기능이 포함됩니다.
 
-템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 허용된 이미지 폭과 자르기 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 자산을 업로드하거나 선택하고, [편집 대화 상자](#edit-dialog)에서 이미지를 자를 수 있습니다. 편리성을 추가하기 위해 이미지의 간단한 바로 수정 기능을 사용할 수도 있습니다.
+템플릿 작성자는 [디자인 대화 상자](#design-dialog)에서 허용된 이미지 폭과 자르기 및 추가 설정 옵션을 정의할 수 있습니다. 콘텐츠 편집기는 [구성 대화 상자](#configure-dialog)에서 에셋을 업로드하거나 선택하고, [편집 대화 상자](#edit-dialog)에서 이미지를 자를 수 있습니다. 편리성을 추가하기 위해 이미지의 간단한 바로 수정 기능을 사용할 수도 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -82,10 +82,10 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1-50.png)
 
-* **이미지 자산**
-   * [자산 브라우저](https://helpx.adobe.com/kr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)에서 자산을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
+* **이미지 에셋**
+   * [에셋 브라우저](https://helpx.adobe.com/kr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 자산 편집기에서 [자산 렌디션을 관리합니다](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19).
+   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19).
 
 * **장식적 이미지** - 이미지가 보조 기술에서 무시되어 대체 텍스트가 필요한지 확인합니다. 이는 장식적 이미지에만 적용됩니다.
 * **대체 텍스트** - 이미지 의미 또는 기능에 대한 시각 장애인 독자용 대체 텍스트입니다.
@@ -110,7 +110,7 @@ ht-degree: 100%
   이 옵션을 선택하면 자르기 비율을 사전 정의하는 드롭다운이 열립니다.
 
    * **프리 핸드** 옵션을 선택하여 자체 자르기를 정의합니다.
-   * **자르기 제거** 옵션을 선택하면 원본 자산이 표시됩니다.
+   * **자르기 제거** 옵션을 선택하면 원본 에셋이 표시됩니다.
 
   자르기 옵션이 선택되면 파란색 핸들이 사용하여 이미지에서 자르기 크기를 조정합니다.
 
@@ -211,7 +211,7 @@ ht-degree: 100%
 
   ![](/help/assets/chlimage_1-19.png)
 
-  **파일 시스템에서 자산 업로드 허용** 옵션을 선택하여 콘텐츠 작성자는 자신의 컴퓨터에서 이미지를 업로드할 수 있습니다. 콘텐츠 작성자가 AEM에서 자산만 강제 선택하려면 이 옵션 선택을 해제합니다.
+  **파일 시스템에서 에셋 업로드 허용** 옵션을 선택하여 콘텐츠 작성자는 자신의 컴퓨터에서 이미지를 업로드할 수 있습니다. 콘텐츠 작성자가 AEM에서 에셋만 강제 선택하려면 이 옵션 선택을 해제합니다.
 
 * 방향
 

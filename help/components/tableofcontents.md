@@ -4,9 +4,9 @@ description: 목차 구성 요소는 독자가 페이지를 빠르게 탐색할 
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

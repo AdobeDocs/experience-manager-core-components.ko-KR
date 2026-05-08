@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe 클라이언트 데이터 레이어는 독립적인 플랫폼이지만 핵
 
 ## 설치 및 활성화 {#installation-activation}
 
-핵심 구성 요소 릴리스 2.9.0부터 데이터 레이어는 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되고 설치할 필요가 없습니다. [AEM Project Archetype v에서 생성된 모든 프로젝트 24+](/help/developing/archetype/overview.md)에는 기본적으로 활성화된 데이터 레이어가 포함됩니다.
+핵심 구성 요소 릴리스 2.9.0부터 데이터 레이어는 핵심 구성 요소와 함께 AEM 클라이언트 라이브러리로 배포되고 설치할 필요가 없습니다. [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)로 생성된 모든 프로젝트에는 기본적으로 활성화된 데이터 레이어가 포함됩니다.
 
 데이터 레이어를 수동으로 활성화하려면 해당되는 [컨텍스트 인식 구성](/help/developing/context-aware-configs.md)을 제작해야 합니다.
 
@@ -122,7 +122,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->이 스키마는 여러 핵심 구성 요소에 대한 기본 패턴으로 사용되는 일반 구성 요소 항목 스키마입니다. 그렇다고 해서 나열된 모든 구성 요소가 모든 항목의 해당 필드를 모두 채우지는 않습니다.
+>이 스키마는 여러 핵심 구성 요소에 대한 기본 패턴으로 사용되는 일반 구성 요소 항목 스키마입니다. 그렇다고 해서 나열된 모든 구성 요소가 모든 항목의 해당 필드를 전부 채우지는 않습니다.
 
 다음 [이벤트](#events)는 구성 요소/컨테이너 항목 스키마와 관련성이 있습니다.
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 튜토리얼
 
-데이터 레이어와 핵심 구성 요소에 대해 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ko)을(를) 확인하십시오.
+데이터 레이어와 핵심 구성 요소에 대해 더 자세히 살펴보시겠습니까? [이 실습형 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)을 살펴보십시오.
 
 >[!TIP]
 >

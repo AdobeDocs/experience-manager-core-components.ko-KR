@@ -4,9 +4,9 @@ description: 사용자는 탐색 구성 요소를 사용하여 전역 사이트 
 role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1556'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 사이트 사용자가 사이트 구조를 간편하게 탐색할 수 있도록 탐색 구성 요소는 페이지 트리를 보여 줍니다.
 
-탐색 구성 요소는 전역 사이트 구조를 자동으로 감지하고 [지역화된 페이지에 자동으로 적용됩니다.](#localized-site-structure) 또한 기본 콘텐츠 구조 이외의 다른 구조를 나타내기 위해 [섀도 리디렉션 페이지](#shadow-structure)를 사용하여 임의의 사이트 구조를 지원할 수 있습니다.
+탐색 구성 요소는 전역 사이트 구조를 자동으로 감지하여 [현지화된 페이지에 맞춰 자동으로 조정됩니다.](#localized-site-structure) 또한 메인 콘텐츠 구조 이외의 다른 구조를 보여 주기 위해 [섀도 리디렉션 페이지](#shadow-structure)를 사용하여 임의의 사이트 구조를 지원할 수 있습니다.
 
 콘텐츠 작성자는 [편집 대화 상자](#edit-dialog)를 통해 탐색의 깊이와 함께 탐색 루트 페이지를 정의할 수 있습니다. 템플릿 작성자는 [디자인 대화 상자](#design-dialog)를 통해 탐색 루트 및 깊이에 대한 기본값을 정의할 수 있습니다.
 
@@ -121,7 +121,7 @@ ht-degree: 97%
 
 ## 기술 세부 정보 {#technical-details}
 
-탐색 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_navigation_v2_kr).
+탐색 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_navigation_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 Project Archetype을 통해 AEM에서 개발 시작하기가 수월해집니다. Archetype을 사용하여 여러 방식으로 첫 단계를 수행할 수 있습니다.
 
-* **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)을 참조하십시오.
+* **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)을 참조하십시오.
 * **WKND 이벤트 튜토리얼** - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 관심이 있다면 전용 [WKND 이벤트 튜토리얼](https://helpx.adobe.com/kr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)에 대해 자세히 알아보십시오.
-* **직접 시작!** - GitHub에서 사용할 수 있는 [현재 프로젝트 원형](https://github.com/adobe/aem-project-archetype)을 쉽게 다운로드하고 첫 번째 프로젝트를 직접 만들 수 있습니다.
+* **스스로 시작해 보십시오.** - [GitHub에서 사용 가능한 최신 프로젝트 Archetype](https://github.com/adobe/aem-project-archetype)을 손쉽게 다운로드하고 직접 첫 번째 프로젝트를 만들 수 있습니다.
 
 ## Archetype을 사용하는 방법 {#how-to-use-the-archetype}
 
@@ -50,8 +50,8 @@ Archetype은 모듈로 구성되며, 이 모듈은 모두 Archetype을 사용할
 * **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)**&#x200B;에는 ui.apps 모듈에서 구성 요소를 사용하는 샘플 콘텐츠가 포함됩니다.
 * **[ui.config](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.config)**&#x200B;에는 프로젝트의 실행 모드별 OSGi configs가 포함됩니다.
 * **[ui.frontend.general](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)**&#x200B;에는 일반 Webpack 기반 프론트엔드 빌드 모듈 사용에 필요한 아티팩트가 포함됩니다(선택 사항).
-* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)**&#x200B;**(선택 사항)**&#x200B;에는 React에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
-* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)**&#x200B;**(선택 사항)**&#x200B;에는 Angular에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
+* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)****(선택 사항)**&#x200B;에는 React에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
+* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)****(선택 사항)**&#x200B;에는 Angular에 따라 Archetype을 사용하여 SPA 프로젝트를 만들 때 필요한 아티팩트가 포함됩니다(선택 사항, 빌드 매개 변수에 따라 다름).
 * **[ui.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)**&#x200B;에는 Selenium 기반 UI 테스트가 포함됩니다.
 * **[all](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)**&#x200B;에는 공급업체 종속성 등 컴파일된 모든 모듈(번들 및 콘텐츠 패키지)을 임베드하는 단일 콘텐츠 패키지입니다.
 * **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)**&#x200B;에는 AMS/온프레미스 프로젝트에 대한 기본 Dispatcher 구성이 포함되어 있습니다(선택 사항, 빌드 매개 변수에 따라 다름).
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 모듈 구조 {#module-structure}
 
-상위 POM의 `<modules>` 섹션은 프로젝트가 빌드할 모듈을 정의합니다. 기본적으로 프로젝트는 [이전에 정의된 표준 모듈을 빌드합니다.](#what-you-get) 프로젝트가 커지면 언제든지 모듈을 추가할 수 있습니다.
+상위 POM의 `<modules>` 섹션은 프로젝트가 빌드할 모듈을 정의합니다. 기본적으로 프로젝트는 [이전에 정의된 표준 모듈](#what-you-get)을 빌드합니다. 프로젝트가 커지면 언제든지 모듈을 추가할 수 있습니다.
 
 ### 종속성 {#dependencies}
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 [AEM Java API Jar입니다.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ko) 여기에는 AEM 버전에 대한 단일 종속성 항목이 있는 모든 AEM API가 포함됩니다.
+주요 종속성 중 하나는 [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)입니다. AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
 
 >[!NOTE]
 >

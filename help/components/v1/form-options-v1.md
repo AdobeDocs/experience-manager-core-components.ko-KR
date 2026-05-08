@@ -1,20 +1,20 @@
 ---
-title: 양식 옵션 구성 요소 (v1)
-description: 핵심 구성 요소의 양식 옵션 구성 요소를 통해 다양한 포맷으로 사전 정의된 옵션을 선택할 수 있습니다.
+title: 양식 옵션 구성 요소(v1)
+description: 핵심 구성 요소의 양식 옵션 구성 요소를 통해 다양한 형식으로 사전 정의된 옵션을 선택할 수 있습니다.
 index: false
 role: Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
 ---
 
 
-# 양식 옵션 구성 요소 (v1) {#form-options-component-v}
+# 양식 옵션 구성 요소(v1) {#form-options-component-v}
 
-핵심 구성 요소의 양식 옵션 구성 요소를 통해 다양한 포맷으로 사전 정의된 옵션을 선택할 수 있습니다.
+핵심 구성 요소의 양식 옵션 구성 요소를 통해 다양한 형식으로 사전 정의된 옵션을 선택할 수 있습니다.
 
 ## 사용량 {#usage}
 
