@@ -96,4 +96,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * HTML에서 웹에 최적화된 이미지를 활성화할 때 마크업은 변경되지 않고 이미지 요소의 `src` 속성 값만 변경됩니다.
 * 새 이미지 서비스를 사용할 수 없거나 원하는 이미지를 처리할 수 없을 때마다, 생성된 URL은 [적응형 이미지 서블릿으로 돌아갑니다](#fallback).
 
-그러나 Dispatcher 규칙에 따라 웹에 최적화된 이미지 게재 서비스가 차단될 수 있습니다. 이미지 게재 서비스의 URL은 `/adobe`로 시작하며, [여기에 설명된](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 것처럼 거부된 요청에 대한 Dispatcher 로그를 검사하면 브라우저에 이미지를 게재할 때 발생하는 오류를 해결하는 데 도움이 됩니다.
+그러나 Dispatcher 규칙에 따라 웹에 최적화된 이미지 게재 서비스가 차단될 수 있습니다. 이미지 게재 서비스의 URL은 `/adobe`로 시작하며, [여기에 설명된](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=ko#filter-rejects) 것처럼 거부된 요청에 대한 Dispatcher 로그를 검사하면 브라우저에 이미지를 게재할 때 발생하는 오류를 해결하는 데 도움이 됩니다.

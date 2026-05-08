@@ -41,11 +41,11 @@ ht-degree: 100%
 
 이메일 경험 조각 구성 요소는 현지화된 콘텐츠 구조에 적응하고 콘텐츠의 현지화에 따라 해당 경험 조각을 렌더링합니다. 이 작업을 수행하려면 경험 조각은 다음 조건을 충족해야 합니다.
 
-* 이메일 경험 조각 구성 요소를 [페이지 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)에 추가합니다.
+* 이메일 경험 조각 구성 요소를 [페이지 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=ko)에 추가합니다.
 * 해당 템플릿을 사용하여 `/content/<site>` 아래 현지화된 구조의 일부인 새 콘텐츠 페이지를 만듭니다.
 * 콘텐츠 페이지에서 참조한 경험 조각은 동일한 구성 요소 이름을 사용하는 `/content/<site>` 아래 사이트와 동일한 패턴을 따르는 `/content/experience-fragments` 아래에 있는 현지화된 경험 조각 구조의 일부입니다.
 
-이 경우 현지화 기능([언어, 블루프린트 또는 라이브 카피](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html))이 현재 페이지와 같은 조각은 템플릿의 일부로 렌더링됩니다.
+이 경우 현지화 기능([언어, 블루프린트 또는 라이브 카피](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=ko))이 현재 페이지와 같은 조각은 템플릿의 일부로 렌더링됩니다.
 
 이 비헤이비어는 템플릿에 추가된 이메일 경험 조각 구성 요소로 제한됩니다. 개별 콘텐츠 페이지에 추가된 경험 조각 구성 요소를 사용하여 정확한 경험 조각 렌디션을 렌더링하고 구성 요소 내부에 구성합니다.
 

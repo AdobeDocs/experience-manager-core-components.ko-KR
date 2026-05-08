@@ -30,7 +30,7 @@ OpenAPI가 포함된 Dynamic Media를 사용하여 원격 자산을 지원하려
 
 일반적으로 HTTP를 사용하여 모든 프로덕션 AEM 인스턴스를 실행하는 것이 좋습니다. 단, 로컬 개발 환경은 이와 같이 설정되지 않을 수 있습니다. 그러나 OpenAPI가 포함된 Dynamic Media를 사용하는 원격 자산이 작동하려면 HTTPS가 필요합니다.
 
-개발 환경을 포함하여 원격 자산을 사용하려는 곳에서 [이 안내서를 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)하여 HTTPS를 구성하십시오.
+개발 환경을 포함하여 원격 자산을 사용하려는 곳에서 [이 안내서를 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=ko)하여 HTTPS를 구성하십시오.
 
 ## OSGi 구성 {#osgi}
 
@@ -47,8 +47,8 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 OSGi 구성 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* AEM as a Cloud Service용 [Adobe Experience Manager as a Cloud Service에 대한 OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html)
-* AEM 6.5용 [OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html)
+* AEM as a Cloud Service용 [Adobe Experience Manager as a Cloud Service에 대한 OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=ko)
+* AEM 6.5용 [OSGi 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=ko)
 
 ## 구성 확인 {#verify}
 
