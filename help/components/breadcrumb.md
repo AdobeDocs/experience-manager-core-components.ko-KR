@@ -3,13 +3,16 @@ title: 이동 경로 구성 요소
 description: 핵심 구성 요소의 이동 경로 구성 요소는 콘텐츠 계층 구조의 페이지 위치에 따라 링크의 이동 경로를 빌드하는 탐색 구성 요소입니다.
 role: Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/GthbKPacpYTy9P6NxOJRIqfLbBD4tSN-QRbEBA75QDI
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '807'
+source-wordcount: 807
 ht-degree: 100%
 
 ---
-
 
 # 이동 경로 구성 요소{#breadcrumb-component}
 
@@ -47,7 +50,7 @@ ht-degree: 100%
 
 ## 기술 세부 정보 {#technical-details}
 
-이동 경로 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_kr).
+이동 경로 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

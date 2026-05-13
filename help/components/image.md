@@ -3,13 +3,17 @@ title: 이미지 구성 요소
 description: 핵심 구성 요소 이미지 구성 요소는 적응형 이미지 구성 요소입니다.
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/MYJ14L6Q1TDwtxhUEBvnOO2ZRMmdkuyYDFflMSOFNmw
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '2163'
+source-wordcount: 2163
 ht-degree: 100%
 
 ---
-
 
 # 이미지 구성 요소 {#image-component}
 
@@ -43,7 +47,7 @@ ht-degree: 100%
 
 이미지 구성 요소에는 즉시 사용 가능한 강력한 반응형 기능이 제공됩니다. 페이지 템플릿 수준에서 [디자인 대화 상자](#design-dialog)를 사용하여 이미지 에셋의 기본 폭을 정의할 수 있습니다. 브라우저 창의 크기에 따라 이미지 구성 요소는 적절한 폭을 자동으로 로드하여 표시합니다. 창의 크기가 조정되면 이미지 구성 요소는 즉시 올바른 이미지 크기를 자동으로 로드합니다. 이미지 구성 요소가 이미 콘텐츠 로드에 최적화되었기 때문에 구성 요소 개발자는 맞춤형 미디어 쿼리를 정의하는 데 걱정할 필요가 없습니다.
 
-또한 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 에셋 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
+또한 이미지 구성 요소는 소극적 로드를 지원하여 브라우저에 표시될 때까지 실제 이미지 자산 로드를 지연합니다. 이로써 페이지의 응답성이 향상될 수 있습니다.
 
 >[!TIP]
 >
@@ -59,7 +63,7 @@ ht-degree: 100%
 
 ## Dynamic Media 지원 {#dynamic-media}
 
-이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=ko) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
+이미지 구성 요소([릴리스 2.13.0](/help/versions.md)부터)는 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 에셋을 지원합니다. [활성화되면](#design-dialog) 다른 이미지에서와 마찬가지로 이 기능의 간단한 드래그 앤 드롭이나 에셋 브라우저를 통해 Dynamic Media 이미지 에셋을 추가할 수 있습니다. 또한 이미지 수정자, 이미지 사전 설정 및 스마트 자르기를 지원합니다.
 
 핵심 구성 요소가 내장된 웹 경험에는 Adobe AI에서 지원하는 강력한 고성능 크로스 플랫폼 Dynamic Media 이미지 기능이 포함될 수 있습니다.
 
@@ -159,13 +163,13 @@ ht-degree: 100%
 
 * **이미지 에셋** - **페이지에서 추천 이미지 상속**&#x200B;을 선택한 경우 자동으로 채워집니다. 다음 옵션을 설정하여 이미지를 수동으로 정의하려면 선택 해제합니다.
 
-   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ko)에서 에셋을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
+   * [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)에서 에셋을 드롭하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 업로드할 수 있습니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
-   * **선택**&#x200B;을 탭하거나 클릭하여 [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ko)를 열고 이미지를 선택할 수 있습니다.
+   * **선택**&#x200B;을 탭하거나 클릭하여 [에셋 브라우저](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)를 열고 이미지를 선택할 수 있습니다.
       * [원격 에셋 지원](#remote-assets)이 활성화된 경우 에셋 선택을 위한 여러 옵션이 있습니다.
          * **로컬**&#x200B;은 로컬 AEM 에셋 라이브러리에서 선택할 수 있습니다.
          * **원격**&#x200B;은 AEM 인스턴스 외부의 Dynamic Media 라이브러리에서 선택할 수 있습니다.
-   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ko).
+   * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html).
 
 * **접근성을 위한 그림 설명** 필드에서는 시각 장애인 독자를 위한 이미지 설명을 정의할 수 있습니다.
 

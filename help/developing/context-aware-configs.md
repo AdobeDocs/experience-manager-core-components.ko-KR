@@ -3,9 +3,12 @@ title: 슬링 컨텍스트 인식 구성 및 핵심 구성 요소
 description: 핵심 구성 요소는 특정 기능에 대한 슬링 컨텍스트 인식 구성을 활용합니다.
 role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/jCBeHjuqLJzIxggeZxpusUkv9ZAyE-Ktr5N-gakWK18
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '257'
+source-wordcount: 257
 ht-degree: 100%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 100%
 
 예를 들어 중첩된 컨텍스트와 전역 대체 값을 상속하는 매개 변수를 공유할 수 있는 사이트 지역별로 사이트를 다양하게 구성할 수 있습니다. AEM은 이 기능을 활성화하는 슬링 컨텍스트 인식 구성을 활용합니다.
 
-AEM의 구성에 대한 자세한 내용은 [구성 및 구성 브라우저 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html?lang=ko).
+AEM의 구성에 대한 자세한 내용은 [구성 및 구성 브라우저 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html).
 
 ## 핵심 구성 요소에서 사용 {#core-components}
 

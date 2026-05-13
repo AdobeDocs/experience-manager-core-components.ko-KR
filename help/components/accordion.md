@@ -3,13 +3,17 @@ title: 아코디언 구성 요소
 description: 핵심 구성 요소의 아코디언 구성 요소를 통해 페이지에서 아코디언으로 배열되는 패널 컬렉션을 만들 수 있습니다.
 role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/EiKmBqJ2O90YFfv4OglBZMvk2qY-sZVNSWsOFFUK9WQ
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '1152'
+source-wordcount: 1152
 ht-degree: 100%
 
 ---
-
 
 # 아코디언 구성 요소{#accordion-component}
 
@@ -53,7 +57,7 @@ ht-degree: 100%
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
+1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
 1. 페이지 콘텐츠를 검사하고 패널의 ID를 식별합니다.
    * 예 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID는 해시로 URL에 추가될 수 있는 앵커가 됩니다(`#`).
@@ -129,7 +133,7 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 아코디언 구성 요소의 패널에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko#editing-a-template-layout-template-author) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 스타일 탭 {#styles-tab}
 

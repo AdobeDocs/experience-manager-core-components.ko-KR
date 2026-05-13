@@ -4,13 +4,17 @@ description: 콘텐츠 작성자는 이메일 경험 조각 구성 요소를 통
 role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/4SS7f6mG-BumhdMeTGkJvu8zRTmGqPqksHt4Y5N1-3Q
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '894'
+source-wordcount: 894
 ht-degree: 100%
 
 ---
-
 
 # 이메일 경험 조각 구성 요소 {#email-experience-fragment-component}
 
@@ -41,11 +45,11 @@ ht-degree: 100%
 
 이메일 경험 조각 구성 요소는 현지화된 콘텐츠 구조에 적응하고 콘텐츠의 현지화에 따라 해당 경험 조각을 렌더링합니다. 이 작업을 수행하려면 경험 조각은 다음 조건을 충족해야 합니다.
 
-* 이메일 경험 조각 구성 요소를 [페이지 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=ko)에 추가합니다.
+* 이메일 경험 조각 구성 요소를 [페이지 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)에 추가합니다.
 * 해당 템플릿을 사용하여 `/content/<site>` 아래 현지화된 구조의 일부인 새 콘텐츠 페이지를 만듭니다.
 * 콘텐츠 페이지에서 참조한 경험 조각은 동일한 구성 요소 이름을 사용하는 `/content/<site>` 아래 사이트와 동일한 패턴을 따르는 `/content/experience-fragments` 아래에 있는 현지화된 경험 조각 구조의 일부입니다.
 
-이 경우 현지화 기능([언어, 블루프린트 또는 라이브 카피](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=ko))이 현재 페이지와 같은 조각은 템플릿의 일부로 렌더링됩니다.
+이 경우 현지화 기능([언어, 블루프린트 또는 라이브 카피](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html))이 현재 페이지와 같은 조각은 템플릿의 일부로 렌더링됩니다.
 
 이 비헤이비어는 템플릿에 추가된 이메일 경험 조각 구성 요소로 제한됩니다. 개별 콘텐츠 페이지에 추가된 경험 조각 구성 요소를 사용하여 정확한 경험 조각 렌디션을 렌더링하고 구성 요소 내부에 구성합니다.
 

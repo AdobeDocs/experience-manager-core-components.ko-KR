@@ -3,13 +3,16 @@ title: 텍스트 구성 요소
 description: 텍스트 구성 요소는 바로 편집 기능이 있는 서식 있는 텍스트 편집 및 작성 구성 요소입니다.
 role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/K--Dbh0QmllM2oy7EBVsQ8f-eMV32-f9bL16tcTyoiU
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '2265'
+source-wordcount: 2265
 ht-degree: 100%
 
 ---
-
 
 # 텍스트 구성 요소{#text-component}
 
@@ -48,13 +51,13 @@ ht-degree: 100%
 
 ## 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-핵심 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 매우 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=ko) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ko) 문서에서 확인할 수 있습니다.
+핵심 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 매우 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 이 문서의 나머지 부분에서 즉시 사용 가능한 RTE 구성과 함께 핵심 구성 요소의 텍스트 구성 요소에 대한 표준 구성을 보여 줍니다.
 
 >[!NOTE]
 >
->[RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ko)에서 활성화되는 옵션만 텍스트 구성 요소에서 사용할 수 있습니다.
+>[RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 활성화되는 옵션만 텍스트 구성 요소에서 사용할 수 있습니다.
 
 ## 편집 대화 상자 {#edit-dialog}
 
@@ -261,7 +264,7 @@ ht-degree: 100%
 
 텍스트 맞춤법을 검사하는 데 사용됩니다. 오자는 빨간색 점선으로 밑줄이 그어져 있습니다.
 
-맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ko) 문서에서 확인할 수 있습니다.
+맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 ### 특수 문자 {#special-characters}
 

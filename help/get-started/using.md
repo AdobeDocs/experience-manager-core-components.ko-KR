@@ -3,9 +3,15 @@ title: 핵심 구성 요소 사용
 description: 나만의 프로젝트에서 핵심 구성 요소를 시작하고 실행하려면 프록시 구성 요소 다운로드 및 설치 그리고 제작, 핵심 스타일 로드 및 템플릿에서 구성 요소 사용 등 3가지 단계를 따르십시오.
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/a6e4uJvZZmYypwhs5IPNMz9flf0FyFrItvT9poO6Ly4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '1043'
+source-wordcount: 1043
 ht-degree: 100%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 100%
 >[!TIP]
 >
 >프로젝트 설정, 핵심 구성 요소, 편집 가능한 템플릿, 클라이언트 라이브러리 및 구성 요소 개발 등을 최초 시작하는 방법에 대한 자세한 지침은 다음 멀티 파트 튜토리얼을 참조하십시오.\
->[AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)
+>[AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -52,7 +58,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 프로덕션 모드(샘플 콘텐츠 없음)에서 시작할 때 핵심 핵심 구성 요소는 빠른 시작의 일부가 아닙니다. 따라서 첫 번째 단계는 [GitHub에서 최신 릴리스된 콘텐츠 패키지를 다운로드](https://github.com/adobe/aem-core-wcm-components/releases/latest)하여 AEM 환경에 설치하는 것입니다.
 
-몇 가지 방법으로 이 프로세스를 자동화할 수 있지만 패키지 관리자를 사용하면 인스턴스에서 콘텐츠 패키지를 빠르게 설치할 수 있습니다. [패키지 설치](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#installing-packages)를 참조하십시오. 또한, 게시 인스턴스가 실행되면 해당 패키지를 복제해야 합니다. [패키지 복제](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#replicating-packages)를 참조하십시오.
+몇 가지 방법으로 이 프로세스를 자동화할 수 있지만 패키지 관리자를 사용하면 인스턴스에서 콘텐츠 패키지를 빠르게 설치할 수 있습니다. [패키지 설치](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)를 참조하십시오. 또한, 게시 인스턴스가 실행되면 해당 패키지를 복제해야 합니다. [패키지 복제](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)를 참조하십시오.
 
 ## 프록시 구성 요소 제작 {#create-proxy-components}
 
@@ -88,7 +94,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 ## 핵심 스타일 로드하기 {#load-the-core-styles}
 
-1. 아직 로드되지 않은 경우 사이트에 필요한 CSS와 JS 파일이 모두 포함된 [클라이언트 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ko)를 만듭니다.
+1. 아직 로드되지 않은 경우 사이트에 필요한 CSS와 JS 파일이 모두 포함된 [클라이언트 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)를 만듭니다.
 1. 사이트의 클라이언트에서 종속성을 필요한 핵심 구성 요소에 추가합니다. 이는 `embed` 속성 추가를 통해 수행됩니다.
 
    예를 들어 v1 핵심 구성 요소의 클라이언트 라이브러리를 모두 포함하려면 추가할 속성은 다음과 같습니다.
@@ -107,7 +113,7 @@ AEMaaCS에서 핵심 구성 요소 사용 시 유의해야 할 몇 가지 사항
 
 ## 구성 요소 사용하기 {#allow-the-components}
 
-[템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)에서 다음 단계를 수행합니다.
+[템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)에서 다음 단계를 수행합니다.
 
 1. 템플릿 편집기에서 레이아웃 컨테이너를 선택한 다음 정책을 엽니다.
 1. 허용된 구성 요소 목록에서 이전에 제작된 프록시 구성 요소를 선택합니다. 프록시 구성 요소는 해당 구성 요소에 할당된 구성 요소 그룹에 표시됩니다. 완료되면 변경 사항을 적용합니다.

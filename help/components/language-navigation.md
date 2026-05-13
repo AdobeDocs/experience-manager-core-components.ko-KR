@@ -3,13 +3,17 @@ title: 언어 탐색 구성 요소
 description: 방문자가 서로 다른 로케일에서 동일한 페이지로 이동할 수 있도록 언어 탐색 구성 요소는 사이트에 언어/국가/지역 탐색을 제공합니다.
 role: Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/pE2ZVtRz9rcadJL7NCo-Az48YJmTtZapOy6u6xqac4o
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '959'
+source-wordcount: 959
 ht-degree: 100%
 
 ---
-
 
 # 언어 탐색 구성 요소{#language-navigation-component}
 
@@ -45,7 +49,7 @@ ht-degree: 100%
 
 ## 기술 세부 정보 {#technical-details}
 
-언어 탐색 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_langnav_v2_kr).
+언어 탐색 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_langnav_v2).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 

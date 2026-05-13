@@ -3,17 +3,19 @@ title: 콘텐츠 조각 구성 요소
 description: 핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/0DtXdVGWrkNjQrgW9Vye-g21IlySz4fjYpZLQ5twQrM
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '693'
+source-wordcount: 693
 ht-degree: 100%
 
 ---
 
-
 # 콘텐츠 조각 구성 요소{#content-fragment-component}
 
-핵심 구성 요소의 [콘텐츠 조각 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko)를 사용하여 버튼을 생성하고 표시할 수 있습니다.
+핵심 구성 요소의 [콘텐츠 조각 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)를 사용하여 버튼을 생성하고 표시할 수 있습니다.
 
 >[!NOTE]
 >
@@ -23,11 +25,11 @@ ht-degree: 100%
 
 ## 사용량 {#usage}
 
-핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하여 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko)을 포함할 수 있습니다.
+핵심 구성 요소의 콘텐츠 조각 구성 요소를 사용하여 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)을 포함할 수 있습니다.
 
 * [구성 대화 상자](#configure-dialog)에서 조각과 조각의 속성을 선택할 수 있습니다.
 * [디자인 대화 상자](#design-dialog)에서 특정 이미지와 그리드를 처리하는 리소스 유형을 정의할 수 있습니다.
-* 편집 옵션은 [콘텐츠 조각 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=ko) 내에서 선택한 조각을 열 수 있습니다.
+* 편집 옵션은 [콘텐츠 조각 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html) 내에서 선택한 조각을 열 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 

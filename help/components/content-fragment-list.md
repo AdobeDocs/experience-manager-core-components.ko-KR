@@ -3,23 +3,26 @@ title: 콘텐츠 조각 목록 구성 요소
 description: 핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 목록을 표시할 수 있습니다.
 role: Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/umkSrmkFlM-GoKOk-JVXrJ3It-mYLW0yUZL9QgaN9-g
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '851'
+source-wordcount: 851
 ht-degree: 100%
 
 ---
 
-
 # 콘텐츠 조각 목록 구성 요소{#content-fragment-list-component}
 
-핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko) 목록을 표시할 수 있습니다.
+핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 표시할 수 있습니다.
 
 {{traditional-aem}}
 
 ## 사용량 {#usage}
 
-핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 모델에 따라 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ko) 목록을 포함할 수 있습니다. 다른 애플리케이션에서 간단히 사용할 수 있는 [헤드리스 콘텐츠](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)를 제작하는 경우 특히 유용합니다.
+핵심 구성 요소의 콘텐츠 조각 목록 구성 요소를 사용하여 콘텐츠 조각 모델에 따라 페이지에 [콘텐츠 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 목록을 포함할 수 있습니다. 다른 애플리케이션에서 간단히 사용할 수 있는 [헤드리스 콘텐츠](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)를 제작하는 경우 특히 유용합니다.
 
 * [구성 대화 상자](#configure-dialog)에서 목록과 목록의 속성을 선택할 수 있습니다.
 * [디자인 대화 상자](#design-dialog)에서 스타일을 구성 요소에 적용할 수 있습니다.

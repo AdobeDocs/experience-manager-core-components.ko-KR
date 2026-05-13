@@ -3,13 +3,18 @@ title: 탭 구성 요소
 description: 탭 구성 요소를 사용하여 페이지에서 콘텐츠를 정렬할 수 있는 여러 탭을 만들 수 있습니다.
 role: Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/HSic2EWxIPIGJVwQt-if0BrfDuS03yjyTJNl-3tg0jQ
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '1128'
+source-wordcount: 1128
 ht-degree: 100%
 
 ---
-
 
 # 탭 구성 요소 {#tabs-component}
 
@@ -27,7 +32,7 @@ ht-degree: 100%
 >
 >중첩된 탭 구성 요소(탭 내부의 탭)를 지원합니다.
 >
->[콘텐츠 트리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ko#content-tree)를 통해 간단한 (중첩되지 않은) 탭 구성 요소를 배치/선택할 수 있지만 중첩된 탭은 그럴 수 없습니다.
+>[콘텐츠 트리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)를 통해 간단한 (중첩되지 않은) 탭 구성 요소를 배치/선택할 수 있지만 중첩된 탭은 그럴 수 없습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -57,7 +62,7 @@ ht-degree: 100%
 
 이를 위해 진행되는 작업:
 
-1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
+1. 페이지 편집기의 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;옵션을 사용하여 구성 요소와 함께 페이지를 조회합니다.
 1. 페이지 콘텐츠를 검사하고 패널의 ID를 식별합니다.
    * 예 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID는 해시로 URL에 추가될 수 있는 앵커가 됩니다(`#`).
@@ -88,7 +93,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->페이지 뷰포트가 작아져 편집 대화 상자가 전체 화면이 되면 **추가** 버튼이 표시되지 않습니다. [구성 요소 브라우저를 드래그하여 페이지 편집기의 탭 구성 요소에 드롭하여](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#inserting-a-component) 구성 요소를 탭 구성 요소에 추가할 수 있습니다.
+>페이지 뷰포트가 작아져 편집 대화 상자가 전체 화면이 되면 **추가** 버튼이 표시되지 않습니다. [구성 요소 브라우저를 드래그하여 페이지 편집기의 탭 구성 요소에 드롭하여](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component) 구성 요소를 탭 구성 요소에 추가할 수 있습니다.
 
 ### 속성 탭 {#properties-tab}
 
@@ -127,7 +132,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**편집** 모드에서 작성자는 탭을 선택할 수 없습니다. **[미리보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#preview-mode)** 모드나 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ko#view-as-published)** 옵션을 사용하여 게시된 콘텐츠 판독기와 마찬가지로 탭과 상호 작용합니다.
+>**편집** 모드에서 작성자는 탭을 선택할 수 없습니다. **[미리보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** 모드나 **[게시로 보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 옵션을 사용하여 게시된 콘텐츠 판독기와 마찬가지로 탭과 상호 작용합니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -137,7 +142,7 @@ ht-degree: 100%
 
 콘텐츠 작성자는 **허용된 구성 요소**&#x200B;를 통해 항목으로 탭 구성 요소에 추가 가능한 구성 요소를 정의할 수 있습니다.
 
-[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
+[템플릿 편집기의 레이아웃 컨테이너 정책 및 속성을 정의하는 경우](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 허용된 구성 요소 탭은 동일한 이름의 탭과 동일한 방식으로 작동합니다.
 
 ### 스타일 탭 {#styles-tab}
 
