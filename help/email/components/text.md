@@ -5,19 +5,13 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 TQID: https://experienceleague.adobe.com/yAFlfJ-7wH6cWELT5fJWq5bFbmVSwPMKsGGlLP3HQfk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2346
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2287
+ht-degree: 99%
 
 ---
 
@@ -52,13 +46,13 @@ ht-degree: 100%
 
 ## 이메일 텍스트 구성 요소 및 리치 텍스트 편집기 {#the-text-component-and-the-rich-text-editor}
 
-이메일 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=ko) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ko) 문서에서 확인할 수 있습니다.
+이메일 텍스트 구성 요소는 AEM 리치 텍스트 편집기(RTE)를 활용합니다. RTE를 통해 텍스트 콘텐츠를 편집할 수 있는 다양한 기능이 콘텐츠 작성자에게 제공됩니다. RET는 유연하게 구성되고 다양한 옵션을 제공합니다. RTE를 구성하는 방법에 대한 자세한 내용은 [리치 텍스트 편집기 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 및 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 이 문서의 나머지 부분에서 즉시 사용 가능한 RTE 구성과 함께 이메일 텍스트 구성 요소에 대한 표준 구성을 보여 줍니다.
 
 >[!NOTE]
 >
->[RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ko)에서 활성화되는 옵션만 이메일 텍스트 구성 요소에서 사용할 수 있습니다.
+>[RTE의 UI 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)에서 활성화되는 옵션만 이메일 텍스트 구성 요소에서 사용할 수 있습니다.
 
 ## 편집 대화 상자 {#edit-dialog}
 
@@ -165,8 +159,8 @@ ht-degree: 100%
 ![찾기 사례](/help/assets/text-find-example.png):
 
 검색할 텍스트를 입력하고 **찾기**를 탭하거나 클릭하여 검색을 시작합니다. x를 탭하거나 클릭하여 취소합니다.
-사례에 따라 정확하게 일치시키려면 **사례 일치** 옵션을 선택한 다음 검색을 시작합니다.
-일치가 발견되면 강조 표시되고 검색 대화 상자가 흐리게 표시됩니다. 흐리게 표시된 대화 상자에서 **찾기** 버튼을 다시 탭하거나 클릭하여 다음 발생 횟수를 검색합니다.
+사례에 따라 정확하게 일치시키려면 **사례 일치** 옵션을 선택한 후 검색을 시작합니다.
+일치하는 항목이 있으면 강조 표시되고 검색 대화 상자가 흐리게 표시됩니다. 흐리게 표시된 대화 상자에서 **찾기** 버튼을 다시 탭하거나 클릭하여 다음 발생 횟수를 검색합니다.
 
 ![찾기 사례 확인](/help/assets/text-find-example-found.png):
 
@@ -290,7 +284,7 @@ ht-degree: 100%
 
 텍스트 맞춤법을 검사하는 데 사용됩니다. 오자는 빨간색 점선으로 밑줄이 그어져 있습니다.
 
-맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ko) 문서에서 확인할 수 있습니다.
+맞춤법 검사와 맞춤법 검사 사전 맞춤화에 대한 자세한 내용은 [리치 텍스트 편집기 플러그인 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 문서에서 확인할 수 있습니다.
 
 #### 특수 문자 {#special-characters}
 

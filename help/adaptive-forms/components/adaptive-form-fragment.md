@@ -4,19 +4,12 @@ description: 양식 조각을 사용하여 양식 세그먼트 또는 필드 그
 role: Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 TQID: https://experienceleague.adobe.com/JAyxaYlTPxzwh03cMwIBL3fRircIQxlNg96tlXyg-t8
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2093
 ht-degree: 100%
 
@@ -24,22 +17,22 @@ ht-degree: 100%
 
 # 적응형 양식 조각 구성 요소 {#form-fragment-component-adaptive-forms-core-component}
 
-적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ko)이라고 합니다.
+적응형 양식은 패널이나 필드 그룹과 같은 양식 세그먼트를 생성하여 다양한 적응형 양식에서 재사용할 수 있는 편리한 방법을 제공합니다. 이러한 재사용 가능한 독립 세그먼트를 [적응형 양식 조각](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)이라고 합니다.
 
-[문서에 조각을 여러 번 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ko#insert-a-fragment-in-an-adaptive-form)하고 해당 구성 요소의 데이터 바인딩 속성을 사용하여 조각을 다른 데이터 소스나 스키마에 연결할 수 있습니다. 예를 들어 영구, 통신 및 청구 주소에 동일한 주소 조각을 사용하고 이를 데이터 소스 또는 스키마의 다른 필드에 연결할 수 있습니다.
+[문서에 조각을 여러 번 추가](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)하고 해당 구성 요소의 데이터 바인딩 속성을 사용하여 조각을 다른 데이터 소스나 스키마에 연결할 수 있습니다. 예를 들어 영구, 통신 및 청구 주소에 동일한 주소 조각을 사용하고 이를 데이터 소스 또는 스키마의 다른 필드에 연결할 수 있습니다.
 
 ![예](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-또한 [반복 옵션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko)을 사용하여 양식 조각 구성 요소와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수도 있습니다.
+또한 [반복 옵션](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)을 사용하여 양식 조각 구성 요소와 해당 하위 구성 요소를 복제하고, 최소 및 최대 반복 횟수를 정의하고, 양식 내에서 유사한 섹션을 손쉽게 복제할 수도 있습니다.
 
 >[!NOTE]
 >
-> [적응형 양식 조각을 처음부터 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ko#create-a-fragment)하거나 기존 적응형 양식의 패널을 조각으로 저장할 수 있습니다.
+> [적응형 양식 조각을 처음부터 생성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)하거나 기존 적응형 양식의 패널을 조각으로 저장할 수 있습니다.
 
 {{traditional-aem}}
 
-## 사용량 {#usage}
+## 사용 {#usage}
 
 - **재사용성**: 여러 적응형 양식 전체에서 양식 조각을 재사용할 수 있다는 점은 양식 조각 사용의 주요 이점입니다. 조각에 대한 변경 사항이 조각이 사용되는 모든 인스턴스에 반영되므로 디자인과 기능의 일관성을 유지할 수 있습니다.
 

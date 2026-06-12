@@ -4,21 +4,13 @@ description: 핵심 구성 요소의 현지화 기능
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 TQID: https://experienceleague.adobe.com/yDCdrkGt6fFEWgIHzF4XSrBapEGGdFku3yY5-RVgJPI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 100%
 
@@ -34,7 +26,7 @@ ht-degree: 100%
 
 마찬가지로 탐색 구성 요소가 페이지 전체에 표시됩니다. 하지만 현지화된 페이지 콘텐츠가 반영되기도 합니다.
 
-[편집 가능한 AEM 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)과 함께 [탐색 핵심 구성 요소](/help/components/navigation.md)와 [경험 조각 핵심 구성 요소](/help/components/experience-fragment.md)의 현지화 기능을 사용하면 작업이 간소화됩니다. 또한 [언어 탐색 구성 요소](/help/components/language-navigation.md)를 사용하는 경우 예제가 추가 확장될 수 있습니다.
+[편집 가능한 AEM 템플릿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)과 함께 [탐색 핵심 구성 요소](/help/components/navigation.md)와 [경험 조각 핵심 구성 요소](/help/components/experience-fragment.md)의 현지화 기능을 사용하면 작업이 간소화됩니다. 또한 [언어 탐색 구성 요소](/help/components/language-navigation.md)를 사용하는 경우 예제가 추가 확장될 수 있습니다.
 
 ## 콘텐츠 구조 {#content-structure}
 
