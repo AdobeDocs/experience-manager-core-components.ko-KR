@@ -6,7 +6,7 @@ feature: Core Components
 user-guide-description: 기존 AEM 프로젝트의 경우 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -144,8 +144,8 @@ ht-degree: 100%
    + {hide-from-toc}[텍스트 입력 유효성 검사 패턴 활성화](/help/adaptive-forms/enable-validation-patterns.md)
 + 개발 {#developing}
    + [핵심 구성 요소 개발](/help/developing/overview.md)
-   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ko)
-   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)
+   + [성공으로 가는 경로](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [WKND 개발자 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [핵심 구성 요소 맞춤화](/help/developing/customizing.md)
    + [구성 요소 가이드라인](/help/developing/guidelines.md)
    + [AMP 지원](/help/developing/amp.md)

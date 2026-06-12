@@ -5,17 +5,11 @@ role: Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
 TQID: https://experienceleague.adobe.com/eE5r-Y0MM2gel5qCp7UBrOMZezT-I3JU7sapzNAGEKM
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 418
 ht-degree: 100%
 
@@ -35,7 +29,7 @@ ht-degree: 100%
 
 소셜 구성 요소는 Facebook 및 Pinterest 공유 링크를 페이지에 추가합니다. 종종 페이지 머리글이나 바닥글에 포함됩니다.
 
-기타 구성 요소와 다르게 소셜 공유 구성 요소는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)을 통해 템플릿 작성자에 의해 설정하고, [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ko)을 통해 콘텐츠 작성자에 의해 설정합니다.
+기타 구성 요소와 다르게 소셜 공유 구성 요소는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 템플릿 작성자에 의해 설정하고, [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 콘텐츠 작성자에 의해 설정합니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
@@ -51,7 +45,7 @@ ht-degree: 100%
 
 ### 기술 세부 정보 {#technical-details}
 
-소셜 공유 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_sharing_v1_kr).
+소셜 공유 구성 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_sharing_v1).
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
@@ -64,8 +58,8 @@ ht-degree: 100%
    * ID가 지정된 경우 작성자는 ID가 고유한지 확인해야 합니다.
    * ID가 변경되면 CSS, JS 및 데이터 레이어 추적에 영향을 미칠 수 있습니다.
 
-공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서 콘텐츠 작성자는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ko)을 통해 공유 구성 요소에 대한 편집 옵션을 추가로 사용할 수 있습니다.
+공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서 콘텐츠 작성자는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)을 통해 공유 구성 요소에 대한 편집 옵션을 추가로 사용할 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
-공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서 템플릿 작성자는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)을 통해 공유 구성 요소에 대한 디자인 옵션을 사용할 수 있습니다.
+공유 시 특수 페이지 머리말이 필요하기 때문에 공유는 페이지 수준에서 활성화되어야 합니다. 따라서 템플릿 작성자는 [초기 페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)을 통해 공유 구성 요소에 대한 디자인 옵션을 사용할 수 있습니다.

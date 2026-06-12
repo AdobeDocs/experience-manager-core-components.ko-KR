@@ -5,21 +5,13 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 TQID: https://experienceleague.adobe.com/p1V-3XLpA6H-rC-zWIYFqbPkd6HW7bBLWFXaj8aeNAs
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 662
 ht-degree: 100%
 
@@ -27,7 +19,7 @@ ht-degree: 100%
 
 # 페이지 구성 요소(v2) {#page-component}
 
-페이지 구성 요소는 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ko)로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
+페이지 구성 요소는 [템플릿 편집기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)로 작업하고, 페이지 머리글과 바닥글 및 구조 구성 요소를 조합할 수 있는 확장 가능한 페이지 구성 요소입니다.
 
 ## 사용량 {#usage}
 
@@ -47,7 +39,7 @@ ht-degree: 100%
 
 ## 점진적 웹 앱 지원 {#pwa-support}
 
-핵심 구성 요소의 릴리스 2.15.0에서는 AEM as a Cloud Service의 기본 제공 [점진적 웹 앱(PWA) 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ko)에 대한 지원을 도입했습니다. 사이트 수준의 간단한 구성을 통해 AEM 경험을 PWA로 전환할 수 있습니다.
+핵심 구성 요소의 릴리스 2.15.0에서는 AEM as a Cloud Service의 기본 제공 [점진적 웹 앱(PWA) 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)에 대한 지원을 도입했습니다. 사이트 수준의 간단한 구성을 통해 AEM 경험을 PWA로 전환할 수 있습니다.
 
 ### 기술 세부 사항 {#technical-details}
 
@@ -57,7 +49,7 @@ ht-degree: 100%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ko)에서 찾을 수 있습니다.
+구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)에서 찾을 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
@@ -90,7 +82,7 @@ ht-degree: 100%
 * 필드를 제거하려면 필드 옆 휴지통 아이콘을 클릭하거나 탭하여 제거합니다
 * 로드 순서를 재배열하려면 필드 옆 핸들을 클릭하거나 탭하고 드래그하여 이동합니다.
 
-client-side 라이브러리 사용에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/clientlibs.html)을 참조하십시오.
+클라이언트측 라이브러리 사용에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/clientlibs.html)을 참조하십시오.
 
 >[!CAUTION]
 >
