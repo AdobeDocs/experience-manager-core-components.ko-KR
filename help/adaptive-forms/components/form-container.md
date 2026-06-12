@@ -17,9 +17,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 1637
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 1529
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용량 {#reasons-to-use-forms-container}
+## 사용 {#reasons-to-use-forms-container}
 
 웹 사이트에 양식을 추가하는 데에는 다음과 같은 몇 가지 이유가 있습니다.
 - **데이터 수집**: 양식을 사용하여 시장 조사, 사용자 행동 분석 등과 같은 다양한 용도를 위해 웹 사이트 방문자로부터 데이터를 수집할 수 있습니다.
@@ -85,9 +85,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **역할**: 역할은 화면 판독기와 같은 보조 기술에 대한 HTML 요소의 용도를 지정하는 데 사용되는 HTML 속성입니다. 역할 속성은 요소에 추가 컨텍스트 및 의미를 제공하는 데 사용되며, 이를 통해 화면 판독기는 콘텐츠를 더 쉽게 해석하고 사용자에게 알릴 수 있습니다. 예를 들어 AEM Forms에서 양식 필드의 레이블은 “레이블”이라는 역할을 가질 수 있으며 해당 입력 필드는 “텍스트 상자”라는 역할을 가질 수 있습니다. 이렇게 하면 화면 판독기가 레이블과 입력 필드 간의 관계를 이해하고 사용자에게 올바르게 알릴 수 있습니다.
 
-- **클라이언트 라이브러리 카테고리** - 사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
-**복잡한 유효성 검사 규칙**&#x200B;이 있는 경우에는 정확한 유효성 검사 스크립트는 사용자 정의 함수에 있고 사용자는 필드 유효성 검사 표현식에서 이러한 사용자 정의 함수를 호출합니다. 서버측 유효성 검사를 수행하면서 이 사용자 정의 함수 라이브러리를 이해하고 사용할 수 있도록 양식 사용자는 적응형 양식 컨테이너 속성의 **[!UICONTROL 기본]** 탭 아래에서 AEM 클라이언트 라이브러리 이름을 구성할 수 있습니다.
-사용자는 적응형 양식별로 사용자 정의 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 서드파티 라이브러리에 종속된 재사용 가능한 함수만 라이브러리에 유지됩니다.
+- **클라이언트 라이브러리 범주** - 사용자는 적응형 양식에 따라 사용자 지정 JavaScript 라이브러리를 구성할 수 있습니다. jquery 및 underscore.js 타사 라이브러리에 종속성이 있는 재사용 가능한 함수만 라이브러리에 유지하는 것이 좋습니다.
+경우에 따라 **복잡한 유효성 검사 규칙**&#x200B;이 있는 경우 정확한 유효성 검사 스크립트는 사용자 지정 함수에 있으며 사용자는 필드 유효성 검사 식에서 이러한 사용자 지정 함수를 호출합니다. 서버측 유효성 검사를 수행하는 동안 이 사용자 지정 함수 라이브러리를 알고 사용할 수 있도록 하려면 양식 사용자는 적응형 양식 컨테이너 속성의 **[!UICONTROL 기본]** 탭에서 AEM 클라이언트 라이브러리의 이름을 구성할 수 있습니다.
+사용자는 적응형 양식에 따라 customJavaScript 라이브러리를 구성할 수 있습니다. 라이브러리에서 jquery 및 underscore.js 타사 라이브러리에 종속성이 있는 재사용 가능한 함수만 유지합니다.
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
@@ -107,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![제출 탭](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **자동으로 초안 저장**: **자동으로 초안 저장** 확인란을 선택하면 양식을 초안으로 저장할 수 있습니다.
-- **환경 설정 저장**: **정기적으로 초안 저장**&#x200B;으로 **환경 설정 저장**을 구성하면 일정 시간이 지날 때 양식을 자동으로 저장하게 할 수 있습니다.
+- **환경 설정 저장**: **정기적으로 초안 저장**&#x200B;으로 **환경 설정 저장**&#x200B;을 구성하면 일정 시간이 지날 때 양식을 자동으로 저장하게 할 수 있습니다.
   **간격 빈도(초) 저장**: 정의된 간격으로 양식이 자동 저장되는 기간을 설정할 시간 간격(초)을 지정합니다.
 
 ### 제출 탭 {#submission-tab}

@@ -19,7 +19,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 3145
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
 | Adobe Sign 차단 | ✔️ | | | [Adobe Sign 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government)은 기초 구성 요소에만 사용할 수 있습니다. |
 | 아코디언 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 기초 구성 요소의 경우 [패널 구성 요소 속성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)에서 아코디언 레이아웃을 구성할 수 있습니다. |
-| 적응형 양식 조각 | ✔️ | ✔️ | | 기초 구성 요소의 경우 에셋 브라우저에서 [조각을 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)할 수 있습니다. |
+| 적응형 양식 조각 | ✔️ | ✔️ | | 기초 구성 요소의 경우 자산 브라우저에서 [조각을 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)할 수 있습니다. |
 | 적응형 양식 reCAPTCHA | ✔️ | ✔️ | ✔️ | 기초 구성 요소의 경우 Captcha 구성 요소를 사용하여 [양식에 Google reCaptcha를 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)합니다. |
 | 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
 | 차트 | ✔️ | | | |
@@ -123,7 +123,7 @@ AEM Forms의 현재 버전에는 다음과 같은 핵심 구성 요소, [기초 
 | 라디오 버튼 그룹 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | 재설정 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 검토 |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
-| 자필 서명 | ✔️ | | | |
+| 낙서 서명 | ✔️ | | | |
 | 구분자 | ✔️ | | | WCM [구분자](/help/components/separator.md) 구성 요소 사용 |
 | 제출 버튼 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 요약 단계 | ✔️ | | | |

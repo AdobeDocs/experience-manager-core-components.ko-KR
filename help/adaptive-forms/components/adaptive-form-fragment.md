@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2093
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용량 {#usage}
+## 사용 {#usage}
 
 - **재사용성**: 여러 적응형 양식 전체에서 양식 조각을 재사용할 수 있다는 점은 양식 조각 사용의 주요 이점입니다. 조각에 대한 변경 사항이 조각이 사용되는 모든 인스턴스에 반영되므로 디자인과 기능의 일관성을 유지할 수 있습니다.
 
