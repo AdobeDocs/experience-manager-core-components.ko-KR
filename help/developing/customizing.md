@@ -4,20 +4,12 @@ description: 핵심 구성 요소는 간단한 스타일링부터 고급 기능 
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 TQID: https://experienceleague.adobe.com/7yF-HbenJw79uzNTMkUuJstaW2-usvusa-EveTJXhNk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
+workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
 
@@ -126,7 +118,7 @@ public class PageHeadline implements Title {
 
 핵심 구성 요소에서 [프록시 구성 요소](guidelines.md#proxy-component-pattern)로 수정할 수 있는 HTL 파일을 복사하여 이 작업을 간편하게 수행할 수 있습니다.
 
-핵심 이동 경로 구성 요소의 예를 다시 사용하여 마크업 출력을 사용자 정의하기 때문에 핵심 이동 경로 구성 요소를 지정하는 `sling:resourceSuperTypes`가 포함된 사이트별 구성 요소에 `breadcrumb.html` 파일을 복사해야 합니다.
+핵심 이동 경로 구성 요소의 예를 다시 사용하여 마크업 출력을 사용자 정의하기 때문에 핵심 이동 경로 구성 요소를 지정하는 `sling:resourceSuperType`가 포함된 사이트별 구성 요소에 `breadcrumb.html` 파일을 복사해야 합니다.
 
 ### 구성 요소 스타일링 {#styling-the-components}
 
@@ -142,7 +134,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-또한, 각 핵심 구성 요소는 AEM [스타일 시스템 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=ko)을 활용합니다. 그리고 템플릿 작성자는 이 기능을 통해 페이지 작성자가 구성 요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있습니다. 이로써 각 템플릿에서 허용된 구성 요소 스타일 목록을 정의하고, 스타일 중 하나가 기본적으로 해당 구성 요소에 적용되는지 여부를 확인할 수 있습니다.
+또한, 각 핵심 구성 요소는 AEM [스타일 시스템 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)을 활용합니다. 그리고 템플릿 작성자는 이 기능을 통해 페이지 작성자가 구성 요소에 적용할 수 있는 추가 CSS 클래스 이름을 정의할 수 있습니다. 이로써 각 템플릿에서 허용된 구성 요소 스타일 목록을 정의하고, 스타일 중 하나가 기본적으로 해당 구성 요소에 적용되는지 여부를 확인할 수 있습니다.
 
 ## 맞춤화 호환성 업그레이드 {#upgrade-compatibility-of-customizations}
 
@@ -152,7 +144,7 @@ public class PageHeadline implements Title {
 * 새 보조 버전으로 핵심 구성 요소 업그레이드 중
 * 주요 버전으로 핵심 구성 요소 업그레이드 중
 
-일반적으로, 구성 요소 버전이 마이그레이션 중인 새 AEM 버전을 지원하고 맞춤화 과정에서 [더 이상 사용되지 않거나 제거된](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ko) API를 사용하지 않는 경우 새 버전으로 AEM을 업그레이드하여도 핵심 구성 요소나 맞춤화 수행에는 영향을 미치지 않습니다.
+일반적으로, 구성 요소 버전이 마이그레이션 중인 새 AEM 버전을 지원하고 맞춤화 과정에서 [더 이상 사용되지 않거나 제거된](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) API를 사용하지 않는 경우 새 버전으로 AEM을 업그레이드하여도 핵심 구성 요소나 맞춤화 수행에는 영향을 미치지 않습니다.
 
 이 페이지에 설명된 맞춤화 패턴을 사용하는 경우에 최신 주요 버전으로 전환하지 않고 핵심 구성 요소를 업그레이드하여도 맞춤화에는 영향을 미치지 않습니다.
 
@@ -172,7 +164,7 @@ AEM 구성 요소의 경우와 마찬가지로 맞춤화에 대해 알아야 할
 
 1. **더 이상 사용되지 않거나 제거된 기능을 살펴봅니다.**
 
-   새 AEM 버전으로 업그레이드가 진행 중인 상태에서 [더 이상 사용되지 않거나 제거된 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ko) 페이지를 살펴보면 사용된 모든 API가 주제 항목이 됩니다.
+   새 AEM 버전으로 업그레이드가 진행 중인 상태에서 [더 이상 사용되지 않거나 제거된 기능](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 페이지를 살펴보면 사용된 모든 API가 주제 항목이 됩니다.
 
 [핵심 구성 요소 지원](overview.md#core-component-support) 섹션을 참고하십시오.
 
