@@ -5,9 +5,15 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 TQID: https://experienceleague.adobe.com/yAFlfJ-7wH6cWELT5fJWq5bFbmVSwPMKsGGlLP3HQfk
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 2287
@@ -158,7 +164,7 @@ ht-degree: 99%
 
 ![찾기 사례](/help/assets/text-find-example.png):
 
-검색할 텍스트를 입력하고 **찾기**를 탭하거나 클릭하여 검색을 시작합니다. x를 탭하거나 클릭하여 취소합니다.
+검색할 텍스트를 입력하고 **찾기**&#x200B;를 탭하거나 클릭하여 검색을 시작합니다. x를 탭하거나 클릭하여 취소합니다.
 사례에 따라 정확하게 일치시키려면 **사례 일치** 옵션을 선택한 후 검색을 시작합니다.
 일치하는 항목이 있으면 강조 표시되고 검색 대화 상자가 흐리게 표시됩니다. 흐리게 표시된 대화 상자에서 **찾기** 버튼을 다시 탭하거나 클릭하여 다음 발생 횟수를 검색합니다.
 
