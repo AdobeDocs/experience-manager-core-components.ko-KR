@@ -16,8 +16,8 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
+workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ public class PageHeadline implements Title {
 
 핵심 구성 요소에서 [프록시 구성 요소](guidelines.md#proxy-component-pattern)로 수정할 수 있는 HTL 파일을 복사하여 이 작업을 간편하게 수행할 수 있습니다.
 
-핵심 이동 경로 구성 요소의 예를 다시 사용하여 마크업 출력을 사용자 정의하기 때문에 핵심 이동 경로 구성 요소를 지정하는 `sling:resourceSuperTypes`가 포함된 사이트별 구성 요소에 `breadcrumb.html` 파일을 복사해야 합니다.
+핵심 이동 경로 구성 요소의 예를 다시 사용하여 마크업 출력을 사용자 정의하기 때문에 핵심 이동 경로 구성 요소를 지정하는 `sling:resourceSuperType`가 포함된 사이트별 구성 요소에 `breadcrumb.html` 파일을 복사해야 합니다.
 
 ### 구성 요소 스타일링 {#styling-the-components}
 
