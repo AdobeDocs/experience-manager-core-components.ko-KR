@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2349
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,8 +103,8 @@ To experience the Accordion Component as well as see examples of its configurati
    - **데이터 값** - 이 옵션을 선택하면 제출할 콘텐츠를 입력할 수 있습니다.
    - **표시 텍스트** - 이 옵션을 사용하면 적응형 양식에 표시할 콘텐츠를 입력할 수 있습니다.
    - **삭제** - 라디오 버튼 옵션을 삭제하려면 탭하거나 클릭합니다.
-   - **재배열** - 옵션의 순서를 재배열하려면 탭하거나 클릭하고 드래그합니다.
-**옵션에 대해 서식 있는 텍스트 허용**&#x200B;을 사용하여 라디오 버튼 그룹에 대한 옵션의 서식을 지정할 수도 있습니다.
+   - **다시 정렬** - 탭하거나 클릭하고 드래그하여 옵션의 순서를 다시 정렬합니다.
+**옵션에 대한 리치 텍스트 허용**&#x200B;을 사용하여 라디오 단추 그룹의 옵션에 서식을 지정할 수도 있습니다.
 
   ![옵션에 대해 서식 있는 텍스트 지원](/help/adaptive-forms/assets/richtext-for-options.png)
 

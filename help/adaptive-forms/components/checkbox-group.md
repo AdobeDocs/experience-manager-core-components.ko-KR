@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2316
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -114,7 +114,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
   ![옵션에 대해 서식 있는 텍스트 지원](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  **옵션에 대해 서식 있는 텍스트 허용** 확인란을 선택하면 구성 요소 옵션의 스타일을 지정할 수 있는 서식 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 `Fullscreen` ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭을 클릭하면 됩니다.
+  **옵션에 서식 있는 텍스트 허용** 확인란을 선택하면 구성 요소 옵션의 스타일을 지정할 수 있는 서식 지정 옵션이 표시됩니다. 사용 가능한 모든 서식 옵션에 액세스하려면 `Fullscreen` ![전체 화면 아이콘](/help/adaptive-forms/assets/fullscreen-icon.png) 탭을 클릭합니다.
   ![옵션에 대해 서식 있는 텍스트 지원](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **바인드 참조** - 바인드 참조는 외부 데이터 소스에 저장되고 양식에서 사용되는 데이터 요소에 대한 참조입니다. 바인드 참조를 사용하면 데이터를 양식 필드에 동적으로 바인딩하여 양식이 데이터 소스의 최신 데이터를 표시하도록 할 수 있습니다. 예를 들어 바인드 참조를 사용하여 양식에 입력된 고객의 ID를 기반으로 고객의 이름과 주소를 양식에 표시할 수 있습니다. 바인드 참조를 사용하여 양식에 입력된 데이터로 데이터 소스를 업데이트할 수도 있습니다. 이러한 방식으로 AEM Forms를 사용하면 외부 데이터 소스와 상호 작용하는 양식을 만들어 데이터 수집 및 관리를 위한 원활한 사용자 경험을 제공할 수 있습니다.

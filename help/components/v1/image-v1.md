@@ -15,7 +15,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1369
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1-50.png)
 
-* **이미지 에셋**
+* **이미지 자산**
    * [에셋 브라우저](https://helpx.adobe.com/kr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)에서 에셋을 삭제하거나 **검색** 옵션을 탭하여 로컬 파일 시스템에서 로드합니다.
    * **지우기**&#x200B;를 탭하거나 클릭하여 현재 선택된 이미지 선택을 해제합니다.
    * **편집**&#x200B;을 탭하거나 클릭하여 에셋 편집기에서 [에셋 렌디션을 관리합니다](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19).
@@ -220,7 +220,7 @@ ht-degree: 100%
 
   ![](/help/assets/chlimage_1-19.png)
 
-  **파일 시스템에서 에셋 업로드 허용** 옵션을 선택하여 콘텐츠 작성자는 자신의 컴퓨터에서 이미지를 업로드할 수 있습니다. 콘텐츠 작성자가 AEM에서 자산만 강제 선택하려면 이 옵션 선택을 해제합니다.
+  **파일 시스템에서 자산 업로드 허용** 옵션을 선택하여 콘텐츠 작성자는 자신의 컴퓨터에서 이미지를 업로드할 수 있습니다. 콘텐츠 작성자가 AEM에서 자산만 강제 선택하려면 이 옵션 선택을 해제합니다.
 
 * 방향
 

@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2089
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **최대 파일 크기(MB)** - 이 옵션을 사용하면 최대 파일 크기를 지정할 수 있습니다. 파일 크기는 MB로 지정되어 있습니다.
+- **최대 파일 크기(MB)** - 이 옵션을 사용하면 최대 파일 크기를 지정할 수 있습니다. 파일 크기는 MB로 지정됩니다.
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **최대 파일 크기 오류 메시지** - **최대 파일 크기(MB)** 옵션에 지정된 파일 크기보다 큰 크기의 파일을 업로드할 경우 표시되는 이 옵션은 오류 메시지를 입력하는 데 사용됩니다.

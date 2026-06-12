@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2232
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용량 {#reasons-to-use-telephone-input}
+## 사용 {#reasons-to-use-telephone-input}
 
 적응형 양식에서 전화번호 입력 필드를 사용하는 일반적인 이유는 다음과 같습니다.
 

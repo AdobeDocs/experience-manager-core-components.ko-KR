@@ -17,9 +17,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 1569
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 1527
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용량 {#reasons-to-use-reset-button}
+## 사용 {#reasons-to-use-reset-button}
 
 적응형 양식에서 재설정 버튼을 사용하는 데에는 다음과 같은 이유가 있습니다.
 
@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **언바운드 양식 요소로 표시**: 어떤 스키마에도 연결되지 않은 양식 필드를 구성하려면 이 옵션을 선택합니다. 이 옵션을 사용하면 데이터 소스를 업데이트하지 않고도 데이터를 저장할 수 있습니다. 또한 표준 데이터베이스 통합과 별도로 사용자 정의 방식으로 데이터를 처리할 수 있습니다.
 
 - **구성 요소 숨기기** - 양식에서 구성 요소를 숨기려면 이 옵션을 선택합니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다. 구성 요소 숨기기는 사용자가 보거나 직접 변경할 필요가 없는 정보를 저장해야 할 때 유용합니다.
-- **구성 요소 비활성화** - 구성 요소를 비활성화하려면 이 옵션을 선택합니다. 비활성화된 구성 요소는 활성 상태가 아니므로 최종 사용자가 편집할 수 없습니다. 사용자는 필드 값을 볼 수 있지만 수정할 수는 없습니다. 구성 요소는 다른 용도로(예: 규칙 편집기에서 계산에 사용) 계속 액세스할 수 있습니다.
+- **구성 요소 사용 안 함** - 구성 요소를 사용하지 않도록 설정하는 옵션을 선택합니다. 비활성화된 구성 요소는 최종 사용자가 활성화하거나 편집할 수 없습니다. 필드의 값이 표시되지만 수정할 수 없습니다. 구성 요소는 규칙 편집기에서 계산에 사용하는 것과 같은 다른 목적으로 계속 액세스할 수 있습니다.
   <!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
 ### 도움말 콘텐츠 탭 {#help-content}

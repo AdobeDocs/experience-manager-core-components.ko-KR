@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2213
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2186
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 {{traditional-aem}}
 
-## 사용량 {#reasons-to-use-horizontal-tabs}
+## 사용 {#reasons-to-use-horizontal-tabs}
 
 적응형 양식에서 가로 탭을 사용하는 일반적인 이유는 다음과 같습니다.
 
@@ -124,8 +124,8 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 - **상단의 탭이 반복 가능하도록 설정**: 사용자가 반복 기능을 활성화 또는 비활성화할 수 있는 토글 기능입니다.
 - **최소 반복**: 가로 탭을 반복할 수 있는 최소 횟수를 설정합니다. 값이 0이면 가로 탭이 반복되지 않음을 나타냅니다. 기본값은 0입니다.
-- **최대 반복**: 가로 탭을 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
-가로 탭 내에서 반복 가능한 섹션을 효율적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 기재되어 있는 단계를 따르십시오.
+- **최대 반복**: 수평 탭 구성 요소를 반복할 수 있는 최대 횟수를 설정합니다. 기본적으로 이 값은 무제한입니다.
+가로 탭 내에서 반복 가능한 섹션을 효과적으로 관리하려면 [반복 가능한 섹션이 있는 양식 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ko) 문서에 제공된 단계를 따르십시오.
 
 ### 항목 탭 {#items-tab}
 
