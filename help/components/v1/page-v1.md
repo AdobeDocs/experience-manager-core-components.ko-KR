@@ -696,7 +696,7 @@ ht-degree: 85%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)에서 찾을 수 있습니다.
+구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)에서 찾을 수 있습니다.
 
 ### 구조화된 데이터 지원 {#structured-data}
 
