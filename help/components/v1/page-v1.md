@@ -5,23 +5,15 @@ index: false
 role: Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 TQID: https://experienceleague.adobe.com/3vhSBWyt0Fn6rqGRdPNW0j-o9rN64h4RKMVoZuaLwww
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 100%
+source-wordcount: 606
+ht-degree: 85%
 
 ---
 
@@ -696,7 +688,14 @@ ht-degree: 100%
 
 ## 편집 대화 상자 {#edit-dialog}
 
-구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://helpx.adobe.com/kr/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)에서 찾을 수 있습니다.
+구성 요소는 전체 이미지를 보여 주기 때문에 일반적으로 편집 대화 상자에 포함된 설정은 [페이지 속성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)에서 찾을 수 있습니다.
+
+### 구조화된 데이터 지원 {#structured-data}
+
+핵심 구성 요소의 [버전 2.31.0](/help/versions.md)에서는 모든 버전의 페이지 구성 요소에 [schema.org](https://schema.org) 형식의 페이지 수준 JSON-LD(구조적 데이터) 지원을 도입했습니다.  AEM은 페이지 헤드에서 이러한 블록을 서버측에서 렌더링합니다.
+
+AEM as a Cloud Service [릴리스 2026.6.0](https://experienceleague.adobe.com/ko/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) 작성자가 페이지 속성 창을 사용하여 **고급** 탭의 **SEO** 섹션에서 페이지에 하나 이상의 JSON-LD 블록을 추가하는 기능을 추가했습니다.
+
 
 ## 디자인 대화 상자 {#design-dialog}
 
