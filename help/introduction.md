@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +39,10 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 * **구성 요소 설명서(본 문서):** 개발자 및 작성자용(각 구성 요소에 대한 세부 정보 포함)
 * **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)** 개발자용(각 구성 요소에 대한 세부 정보 및 프로젝트 다운로드 포함)
 * 시작하기:
-   * **[핵심 구성 요소로 성공하기:](/help/developing/success.md)** 핵심 구성 요소를 사용할 프로젝트를 시작하기 전 충분히 고려해야 할 가이드라인
-   * **[WKND 튜토리얼:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)** 2일간 진행되는 신규 사이트 구축 튜토리얼
-   * **[서밋 튜토리얼:](https://expleague.azureedge.net/labs/L767/index.html)** 2시간 동안 진행되는 신규 사이트 구축 튜토리얼(출처: 2019년 US Summit 랩)
-   * **[Gems 웨비나:](https://helpx.adobe.com/kr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 핵심 구성 요소 둘러보기(2018년 12월 녹화분)
+  * **[핵심 구성 요소로 성공하기:](/help/developing/success.md)** 핵심 구성 요소를 사용할 프로젝트를 시작하기 전 충분히 고려해야 할 가이드라인
+  * **[WKND 튜토리얼:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)** 2일간 진행되는 신규 사이트 구축 튜토리얼
+  * **[서밋 튜토리얼:](https://expleague.azureedge.net/labs/L767/index.html)** 2시간 동안 진행되는 신규 사이트 구축 튜토리얼(출처: 2019년 US Summit 랩)
+  * **[Gems 웨비나:](https://helpx.adobe.com/kr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 핵심 구성 요소 둘러보기(2018년 12월 녹화분)
 
 ## 기능 {#features}
 
@@ -126,7 +126,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 버전 | Maven 버전 |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 지속 | 6.5LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 지속 | 6.5LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 이전 핵심 구성 요소 릴리스의 요구 사항을 알아보려면 [핵심 구성 요소 버전](versions.md)을 참조하십시오.
 

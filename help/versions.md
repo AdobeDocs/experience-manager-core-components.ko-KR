@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: 965111707408c37899fd8a94cd5789b56b38db4a
 workflow-type: tm+mt
-source-wordcount: 3972
-ht-degree: 98%
+source-wordcount: 4174
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 98%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|---|
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 이 릴리스는 버그 수정을 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 15일 |
+| [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | 이 릴리스는 이전 버전의 검색 clientlib에서 버그를 해결했습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 15일 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 이 릴리스는 다른 여러 지역화 버그를 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 14일 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 이 릴리스는 특정 정보가 제대로 지속되지 않는 버그를 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 6월 22일 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 이 릴리스에는 페이지 구성 요소에 대한 JSON-LD 데이터에 대한 지원이 도입되었으며, 다양한 버그 수정 이외에도 여러 다른 구성 요소에 대해 성능이 향상되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 5월 19일 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 이번 릴리스에서는 경로 유효성 검사 문제가 수정되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 1월 30일 |
