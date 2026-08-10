@@ -4,19 +4,10 @@ description: 핵심 구성 요소가 AEM as a Cloud Service의 웹에 최적화�
 role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 TQID: https://experienceleague.adobe.com/fJgZlABQW0no-vH0tOjLy20ykqPhjopcvY7ei-iqi9M
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
-subfeature_v2:
-  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: c124fa01-25c5-42ec-adf6-21d1c114058bid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1130
@@ -110,4 +101,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * HTML에서 웹에 최적화된 이미지를 활성화할 때 마크업은 변경되지 않고 이미지 요소의 `src` 속성 값만 변경됩니다.
 * 새 이미지 서비스를 사용할 수 없거나 원하는 이미지를 처리할 수 없을 때마다, 생성된 URL은 [적응형 이미지 서블릿으로 돌아갑니다](#fallback).
 
-그러나 Dispatcher 규칙에 따라 웹에 최적화된 이미지 게재 서비스가 차단될 수 있습니다. 이미지 게재 서비스의 URL은 `/adobe`로 시작하며, [여기에 설명된](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=ko#filter-rejects) 것처럼 거부된 요청에 대한 Dispatcher 로그를 검사하면 브라우저에 이미지를 게재할 때 발생하는 오류를 해결하는 데 도움이 됩니다.
+그러나 Dispatcher 규칙에 따라 웹에 최적화된 이미지 게재 서비스가 차단될 수 있습니다. 이미지 게재 서비스의 URL은 `/adobe`로 시작하며, [여기에 설명된](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 것처럼 거부된 요청에 대한 Dispatcher 로그를 검사하면 브라우저에 이미지를 게재할 때 발생하는 오류를 해결하는 데 도움이 됩니다.
