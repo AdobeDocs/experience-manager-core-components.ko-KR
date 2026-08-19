@@ -53,7 +53,7 @@ ht-degree: 41%
 
 ## 샘플 구성 요소 출력 {#sample-component-output}
 
-빠른 검색 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_search)를 참조하십시오.
+빠른 검색 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_search_kr)를 참조하십시오.
 
 ## 기술 세부 정보 {#technical-details}
 

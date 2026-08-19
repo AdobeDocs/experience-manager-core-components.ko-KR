@@ -29,7 +29,7 @@ ht-degree: 16%
 
 ## 사용량 {#usage}
 
-콘텐츠 AI 검색 구성 요소를 통해 방문자는 페이지에서 직접 [콘텐츠 Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)을(를) 검색하고 선택적으로 AI가 생성한 결과 요약을 볼 수 있습니다. 표준 전체 텍스트/의미 체계 검색 상자와 AEM Content AI에서 제공하는 전환 가능한 **AI 생성 요약 표시** 패널을 결합합니다.
+콘텐츠 AI 검색 구성 요소를 통해 방문자는 페이지에서 직접 [콘텐츠 Source](https://experienceleague.adobe.com/ko/docs/experience-manager-content-ai/using/contentsources)을(를) 검색하고 선택적으로 AI가 생성한 결과 요약을 볼 수 있습니다. 표준 전체 텍스트/의미 체계 검색 상자와 AEM Content AI에서 제공하는 전환 가능한 **AI 생성 요약 표시** 패널을 결합합니다.
 
 콘텐츠 작성자는 [편집 대화 상자](#edit-dialog)를 통해 검색, 검색 동작 및 생성 설정의 콘텐츠 범위를 정의할 수 있습니다. 템플릿 수준에서 사용할 수 있는 설정이 없으므로 디자인 대화 상자가 없습니다.
 
@@ -78,7 +78,7 @@ ht-degree: 16%
   * **CUSTOM** - AEM 자체 수집 파이프라인 외부에 등록된 소스
 * **콘텐츠 원본** - 이 구성 요소가 검색하는 콘텐츠 Source을 정의합니다.
   * 사용 가능한 항목은 이미 존재하고 **사용 가능**&#x200B;이며 **컨텐츠 Source 유형**&#x200B;에 설정된 유형과 일치하는 컨텐츠 소스와 일치합니다.
-  * 자세한 내용은 [콘텐츠 AI 소스 설정 및 관리](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) 문서를 참조하십시오.
+  * 자세한 내용은 [콘텐츠 AI 소스 설정 및 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-content-ai/using/contentsources) 문서를 참조하십시오.
 
 ### 검색 비헤이비어 탭 {#search-behavior}
 
