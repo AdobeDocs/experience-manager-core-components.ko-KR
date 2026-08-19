@@ -5,10 +5,10 @@ breadcrumb-title: 핵심 구성 요소 안내서
 feature: Core Components
 user-guide-description: 기존 AEM 프로젝트의 경우 확장 가능한 핵심 구성 요소를 사용하여 작성자가 콘텐츠를 쉽게 만들 수 있습니다.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: ccc4eebac29251d3527f34240cb2005b9029cf82
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 99%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 99%
   + [PDF 뷰어](/help/components/pdf-viewer.md)
   + [진행률 표시줄](/help/components/progress-bar.md)
   + [빠른 검색](/help/components/quick-search.md)
+  + [컨텐츠 AI 검색](/help/components/ai-search.md)
   + [구분자](/help/components/separator.md)
   + [소셜 미디어 공유](/help/components/sharing.md)
   + [목차](/help/components/tableofcontents.md)
@@ -156,6 +157,7 @@ ht-degree: 99%
   + [적응형 이미지 서블릿](/help/developing/adaptive-image-servlet.md)
   + [웹에 최적화된 이미지 게재](/help/developing/web-optimized-image-delivery.md)
   + [원격 에셋 지원](/help/developing/remote-assets.md)
+  + [컨텐츠 AI 검색 구성](/help/developing/ai-search.md)
   + Adobe 클라이언트 데이터 레이어 {#data-layer}
     + [데이터 레이어 개요](/help/developing/data-layer/overview.md)
     + [데이터 레이어와 통합](/help/developing/data-layer/integrations.md)
