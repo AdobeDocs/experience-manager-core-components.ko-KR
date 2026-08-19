@@ -4,33 +4,21 @@ description: 핵심 구성 요소는 두 개 이상의 동일한 핵심 구성�
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
+핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -46,6 +34,7 @@ ht-degree: 96%
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 이 릴리스는 버그 수정을 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 15일 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | 이 릴리스는 이전 버전의 검색 clientlib에서 버그를 해결했습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 15일 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 이 릴리스에서는 선택적 AI 검색 토글이 포함된 [콘텐츠 AI 검색 구성 요소,](/help/components/ai-search.md) [빠른 검색 구성 요소](/help/components/quick-search.md)의 새 버전을 도입하고, 여러 가지 지역화 버그를 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 14일 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 이 릴리스에는 선택적 AI 검색 전환이 포함된 [빠른 검색 구성 요소](/help/components/quick-search.md)의 새 버전과 함께 지역화 버그를 해결하는 옵션이 도입되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 14일 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 이 릴리스는 특정 정보가 제대로 지속되지 않는 버그를 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 6월 22일 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 이 릴리스에는 페이지 구성 요소에 대한 JSON-LD 데이터에 대한 지원이 도입되었으며, 다양한 버그 수정 이외에도 여러 다른 구성 요소에 대해 성능이 향상되었습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 5월 19일 |

@@ -4,21 +4,14 @@ description: 빠른 검색 구성 요소는 웹 사이트에 검색 기능을 �
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,19 +36,25 @@ ht-degree: 46%
 
 | 구성 요소 버전 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | 호환 가능 | 호환 가능 | 호환 가능 |
+| v3 | - | 호환 가능* | 호환 가능* | 호환 가능 |
 | [v2](/help/components/v2/quick-search.md) | - | 호환 가능 | 호환 가능 | 호환 가능 |
 | [v1](/help/components/v1/quick-search.md) | <br>[릴리스 2.17.4](/help/versions.md) 및 이전 버전과 호환 가능 | 호환 가능 | - | 호환 가능 |
 
-핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+*시맨틱 검색 토글은 AEM as a Cloud Service에서만 사용할 수 있습니다.
 
-### 기술 세부 정보 {#technical-details}
+핵심 구성 요소 버전 및 릴리스에 대한 자세한 내용은 문서 [핵심 구성 요소 버전](/help/versions.md)을 참조하십시오.
+
+## 샘플 구성 요소 출력 {#sample-component-output}
+
+빠른 검색 구성 요소를 경험하고 구성 옵션의 샘플뿐만 아니라 HTML 및 JSON 출력을 확인하려면 [구성 요소 라이브러리](https://adobe.com/go/aem_cmp_library_search)를 참조하십시오.
+
+## 기술 세부 정보 {#technical-details}
 
 >[!NOTE]
 >
 >검색 구성 요소나 AEM 기반 애플리케이션을 DOS 공격으로부터 보호하는 경우 발송자의 `mod_security`를 사용하여 상위 수준에서 이를 구현해야 합니다.
 
-빠른 검색 요소에 대한 최신 기술 설명서는 [GitHub에서 확인할 수 있습니다](https://adobe.com/go/aem_cmp_tech_search_v2_kr).
+빠른 검색 구성 요소 [에 대한 최신 기술 설명서는 GitHub에서 확인할 수 있습니다.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
 핵심 구성 요소 개발에 대한 자세한 내용은 [핵심 구성 요소 개발자 설명서](/help/developing/overview.md)를 참조하십시오.
 
