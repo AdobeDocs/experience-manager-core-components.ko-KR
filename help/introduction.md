@@ -35,7 +35,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 리소스 {#resources}
 
-* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
+* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library_kr)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
 * **구성 요소 설명서(본 문서):** 개발자 및 작성자용(각 구성 요소에 대한 세부 정보 포함)
 * **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)** 개발자용(각 구성 요소에 대한 세부 정보 및 프로젝트 다운로드 포함)
 * 시작하기:
@@ -51,14 +51,14 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 프로덕션 준비 완료 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 30개의 강력한 WCM 구성 요소입니다. |
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반적인 개념을 나타냅니다. |
-| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
+| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko&#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
 | [반응형](responsive.md) | 모든 핵심 구성 요소는 완벽하게 반응하도록 설계되어 여러 장치에서 원활한 경험을 보장합니다. |
 | 추적 가능 | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md) 통합 기능을 통해 모든 측면의 방문자 경험을 추적할 수 있습니다. |
 | 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고 ARIA 레이블을 제공하며 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO 친화도 | HTML 출력은 의미가 있으며 [schema.org](https://schema.org) 마이크로 데이터 주석을 제공합니다. |
 | WebApp 기반 | [간소화된 JSON 출력](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=ko)을 통해 클라이언트측을 렌더링하고 [상황에 맞게 편집](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ko)할 수 있습니다. |
 | AMP 지원 | 구성 요소는 [AMP 표준에 대한 지원](/help/developing/amp.md)을 기본 제공하고 모바일 경험을 가속화합니다. |
-| 디자인 키트 | 디자이너는 [Adobe XD용 UL 키트](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)를 통해 [필요에 따라 스타일링](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)될 수 있는 와이어프레임을 만들 수 있습니다. |
+| 디자인 키트 | 디자이너는 [Adobe XD용 UL 키트](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=ko)를 통해 [필요에 따라 스타일링](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)될 수 있는 와이어프레임을 만들 수 있습니다. |
 | 테마 적용 가능 | 구성 요소는 [스타일 시스템](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ko)을 구현하고 마크업이 [BEM CSS 명명](https://getbem.com/)을 따릅니다 |
 | 사용자 정의 가능 | 몇 가지 패턴을 사용하여 HTML 조정부터 고급 기능 재사용까지 [간편한 맞춤화](developing/customizing.md)를 구현할 수 있습니다. |
 | 버전 관리 | [버전 관리 정책](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)을 사용하여 몇 가지 개선 사항을 수정하면 사이트는 핵심 구성 요소에 의해 연결이 끊기지 않습니다. |
