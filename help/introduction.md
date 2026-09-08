@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 1f35bcdd9670db47a906bb53b3cb3d76dbf4bb38
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
 source-wordcount: 1080
 ht-degree: 98%
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘텐츠를 구성하는 구조적 요소입니다. 구성 요소는 항상 AEM 경험의 기본 요소로, 이를 통해 작성자는 간단하지만 강력한 페이지를 만들 수 있고 개발자는 유연하고 확장 가능한 구성 요소를 개발할 수 있습니다.
 
-핵심 구성 요소는 AEM에서 개발 시간을 가속화고 웹 사이트의 유지 관리 비용을 절감할 수 있는 표준화된 웹 콘텐츠 관리(WCM) 구성 요소입니다.
+핵심 구성 요소는 AEM에서 개발 시간을 가속화하고 웹 사이트의 유지 관리 비용을 절감할 수 있는 표준화된 웹 콘텐츠 관리(WCM) 구성 요소입니다.
 
 ## 리소스 {#resources}
 
@@ -50,7 +50,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 |---|---|
 | 프로덕션 준비 완료 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 30개의 강력한 WCM 구성 요소입니다. |
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
-| 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반 개념을 보여 줍니다. |
+| 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반적인 개념을 나타냅니다. |
 | 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko&#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
 | [반응형](responsive.md) | 모든 핵심 구성 요소는 완벽하게 반응하도록 설계되어 여러 장치에서 원활한 경험을 보장합니다. |
 | 추적 가능 | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md) 통합 기능을 통해 모든 측면의 방문자 경험을 추적할 수 있습니다. |
@@ -68,7 +68,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## WCM 구성 요소 {#the-wcm-components}
 
-핵심 구성 요소의 현재 버전은 다음 구성 요소 기능이 있습니다.
+핵심 구성 요소의 현재 버전에는 다음 구성 요소가 포함되어 있습니다.
 
 ### 템플릿 구성 요소 {#template-components}
 
@@ -127,7 +127,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 | 핵심 구성 요소 릴리스 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 버전 | Maven 버전 |
 |---|---|---|---|---|---|
-| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 지속 | 6.5LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | 지속 | 6.5LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 이전 핵심 구성 요소 릴리스의 요구 사항을 알아보려면 [핵심 구성 요소 버전](versions.md)을 참조하십시오.
 
@@ -137,13 +137,13 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 >[!TIP]
 >
->핵심 구성 요소는 자동으로 AEM as a Cloud Service의 일부로 적용되고, 핵심 구성 요소 릴리스는 언제나 최신 버전입니다.
+>핵심 구성 요소는 자동으로 AEM as a Cloud Service의 일부이며, 항상 최신 핵심 구성 요소 출시 버전을 사용할 수 있습니다.
 >
 >AEMaaCS와 온프레미스에서 핵심 구성 요소를 시작하는 방법에 대한 자세한 내용은 [핵심 구성 요소 사용](/help/get-started/using.md) 문서를 참조하십시오.
 
 ## 기타 구성 요소 {#other-components}
 
-핵심 구성 요소에 빌드된 AEM 작성자가 사용할 수 있는 추가 구성 요소가 있습니다.
+핵심 구성 요소를 기반으로 빌드된 추가 구성 요소를 AEM 작성자가 사용할 수 있습니다.
 
 * [이메일 핵심 구성 요소](/help/email/introduction.md) - 특히 Adobe Campaign과 함께 사용하기 위해 핵심 구성 요소의 상단에 빌드된 구성 요소를 살펴보십시오.
 * [적응형 양식 핵심 구성 요소](/help/adaptive-forms/introduction.md) - Adobe Experience Manager의 적응형 양식 핵심 구성 요소를 사용하면 매력적인 등록 경험을 만들 수 있습니다.
