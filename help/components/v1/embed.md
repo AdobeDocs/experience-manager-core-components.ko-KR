@@ -1,42 +1,47 @@
 ---
 title: 임베드 구성 요소 (v1)
-description: 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠 임베드를 활성화합니다.
+description: 임베드 구성 요소를 통해 AEM 콘텐츠 페이지에 외부 콘텐츠를 임베드할 수 있습니다.
 role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: false
 TQID: https://experienceleague.adobe.com/YHV-xySiw1BjEKsfT-ALcfEHNDhOtREXJroHUf3p6m4
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 1317
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
+workflow-type: tm+mt
+source-wordcount: '1317'
 ht-degree: 100%
-
 ---
-
 # 임베드 구성 요소 (v1) {#embed-component}
 
-핵심 구성 요소의 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠를 임베드할 수 있습니다.
+핵심 구성 요소의 임베드 구성 요소를 통해 AEM 콘텐츠 페이지에서 외부 콘텐츠를 임베드할 수 있습니다.
 
 ## 사용량 {#usage}
 
-콘텐츠 작성자는 핵심 구성 요소의 임베디드 구성 요소를 통해 AEM 콘텐츠 페이지 내에 임베드할 외부 콘텐츠를 선택하고 정의할 수 있습니다. 또한 임베드할 자유 형식의 HTML을 정의하는 옵션이 있습니다.
+콘텐츠 작성자는 핵심 구성 요소의 임베드 구성 요소를 통해 AEM 콘텐츠 페이지 내에 임베드할 외부 콘텐츠를 선택하고 정의할 수 있습니다. 또한 임베드할 자유 형식의 HTML을 정의하는 옵션이 있습니다.
 
 * [구성 대화 상자](#configure-dialog)에서 구성 요소의 속성을 정의할 수 있습니다.
 * 구성 요소를 페이지에 추가하는 경우 [디자인 대화 상자](#design-dialog)에서 구성 요소의 기본값을 정의할 수 있습니다.
 
 ## 버전 및 호환성 {#version-and-compatibility}
 
-임베드 구성 요소는 2019년 9월 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 v1입니다. 이 문서에서는 해당 구성 요소에 대해 설명합니다.
+이 문서에서는 2019년 9월 핵심 구성 요소 릴리스 2.7.0과 함께 도입된 임베드 구성 요소의 v1에 대해 설명합니다.
 
 >[!CAUTION]
 >
@@ -83,7 +88,7 @@ ht-degree: 100%
 
 ### 임베드 가능 {#embeddable}
 
-임베드 가능 항목을 사용하여 임베드된 리소스를 추가로 사용자 정의할 수 있습니다. 해당 리소스는 매개변수화되고 리소스에 추가 정보가 포함될 수 있습니다. 작성자는 사전 구성된 임베드 가능 항목 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베드 가능 항목이 포함됩니다.
+임베드 가능 항목을 사용하면 임베드된 리소스를 더 많이 사용자 정의할 수 있으며, 해당 리소스는 매개변수화할 수 있고 추가 정보를 포함할 수 있습니다. 작성자는 사전 구성된 임베드 가능 항목 중 하나를 선택할 수 있으며, 구성 요소에는 즉시 사용 가능한 YouTube 임베드 가능 항목이 포함됩니다.
 
 **임베드 가능 항목** 필드는 사용하려는 프로세스 유형을 정의합니다. YouTube 임베드 가능 항목의 경우 다음을 정의할 수 있습니다.
 
@@ -116,20 +121,20 @@ ht-degree: 100%
 
 #### 보안 {#security}
 
-(예로 작성자에게 관리 권한을 부여할 수 있는) 크로스 사이트 스크립팅 공격을 방지하려면 작성자가 보안용으로 입력할 수 있는 HTML 마크업을 필터링합니다.
+예를 들어 작성자가 관리 권한을 획득할 수 있게 하는 크로스 사이트 스크립팅 공격을 방지하기 위해, 작성자가 입력할 수 있는 HTML 마크업은 보안상의 이유로 필터링됩니다.
 
 *일반적으로* 출력에서 모든 스크립트와 `style` 요소뿐 아니라 모든 `on*` 및 `style` 속성을 제거합니다.
 
 임베드 구성 요소는 AEM의 HTML AntiSamy 정리 프레임워크 필터링 규칙 세트를 준수하기 때문에 전역 규칙은 더 복잡합니다. 해당 규칙 세트는 `/libs/cq/xssprotection/config.xml`에서 확인할 수 있습니다. 필요한 경우 개발자에 의해 프로젝트별 구성에 오버레이될 수 있습니다.
 
-추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=ko) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=ko)용)에서 확인할 수 있습니다.
+추가 보안 정보는 [AEM 개발자 설명서(온프레미스 설치](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) 및 [AEM as a Cloud Service 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)용)에서 확인할 수 있습니다.
 
 >[!NOTE]
 >`/libs/cq/xssprotection/config.xml` 오버레이를 통해 HTML AntiSamy 정리 프레임워크 규칙을 구성할 수 있지만 해당 변경 사항은 핵심 임베드 구성 요소뿐 만 아니라 모든 HTL 및 JSP 비헤이비어에 영향을 줄 수 있습니다.
 
 ## 디자인 대화 상자 {#design-dialog}
 
-템플릿 작성자는 디자인 대화 상자를 통해 임베드 구성 요소를 사용하는 콘텐츠 작성자에게 제공되는 옵션을 정의할 수 있습니다. 그리고 임베드 구성 요소가 배치되면 기본값이 설정됩니다.
+템플릿 작성자는 디자인 대화 상자를 통해 임베드 구성 요소를 사용하는 콘텐츠 작성자에게 제공되는 옵션과 임베드 구성 요소를 배치할 때 설정되는 기본값을 정의할 수 있습니다.
 
 ### 임베드 가능 항목 유형 탭 {#embeddable-types-tab}
 
@@ -145,12 +150,12 @@ ht-degree: 100%
 ![임베드 구성 요소 디자인 대화 상자의 YouTube 탭](/help/assets/embed-design-youtube.png)
 
 * **음소거 비헤이비어 구성 허용** - YouTube 임베드 유형 선택 시 콘텐츠 작성자는 구성 요소에서 **음소거 활성화** 옵션을 구성할 수 있습니다.
-   * **음소거의 기본값** - YouTube 임베드 유형 선택 시 **음소거 활성화** 옵션을 자동으로 설정합니다.
+  * **음소거의 기본값** - YouTube 임베드 유형 선택 시 **음소거 활성화** 옵션을 자동으로 설정합니다.
 * **자동 재생 비헤이비어 구성 허용** - YouTube 임베드 유형 선택 시 콘텐츠 작성자는 구성 요소에서 **자동 재생 활성화** 옵션을 구성할 수 있습니다.
-   * **자동 재생의 기본값** - YouTube 임베드 유형 선택 시 **자동 재생 활성화** 옵션을 자동으로 설정합니다.
+  * **자동 재생의 기본값** - YouTube 임베드 유형 선택 시 **자동 재생 활성화** 옵션을 자동으로 설정합니다.
 * **루프 비헤이비어 구성 허용** - YouTube 임베드 유형 선택 시 콘텐츠 작성자는 구성 요소에서 **루프 활성화** 옵션을 구성할 수 있습니다.
-   * **루프의 기본값** - YouTube 임베드 유형 선택 시 **루프 활성화** 옵션을 자동으로 설정합니다.
+  * **루프의 기본값** - YouTube 임베드 유형 선택 시 **루프 활성화** 옵션을 자동으로 설정합니다.
 * **인라인 재생(iOS) 구성 허용** - YouTube 임베드 유형 선택 시 콘텐츠 작성자는 구성 요소에서 **인라인 재생(iOS) 활성화** 옵션을 구성할 수 있습니다.
-   * **인라인 재생(iOS)의 기본값** - YouTube 임베드 유형 선택 시 **인라인 재생(iOS) 활성화** 옵션을 자동으로 설정합니다.
+  * **인라인 재생(iOS)의 기본값** - YouTube 임베드 유형 선택 시 **인라인 재생(iOS) 활성화** 옵션을 자동으로 설정합니다.
 * **인라인 비디오 구성 허용** - YouTube 임베드 유형 선택 시 콘텐츠 작성자는 구성 요소에서 **무제한 관련 비디오** 옵션을 구성할 수 있습니다.
-   * **무제한 관련 비디오의 기본값** - YouTube 임베드 유형 선택 시 **무제한 관련 비디오** 옵션을 자동으로 설정합니다.
+  * **무제한 관련 비디오의 기본값** - YouTube 임베드 유형 선택 시 **무제한 관련 비디오** 옵션을 자동으로 설정합니다.
