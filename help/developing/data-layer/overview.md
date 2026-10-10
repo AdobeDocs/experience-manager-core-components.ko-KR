@@ -1,41 +1,56 @@
 ---
-title: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용
-description: 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용
+title: 핵심 구성 요소와 함께 Adobe 클라이언트 데이터 레이어 사용
+description: 핵심 구성 요소와 함께 Adobe 클라이언트 데이터 레이어 사용
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+    internal-label: Edge Delivery Services
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 1024
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
+workflow-type: tm+mt
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
-
-# 핵심 구성 요소로 함께 Adobe 클라이언트 데이터 레이어 사용 {#data-layer-core-components}
+# 핵심 구성 요소와 함께 Adobe 클라이언트 데이터 레이어 사용 {#data-layer-core-components}
 
 Adobe 클라이언트 데이터 레이어의 목표는 스크립트용 데이터 노출 및 사용을 위한 표준화된 방법을 제공하여 웹 사이트를 측정하는 수고를 줄이는 것입니다.
 
-Adobe 클라이언트 데이터 레이어는 독립적인 플랫폼이지만 핵심 구성 요소에 완전히 통합되어 AEM에 사용됩니다.
+Adobe 클라이언트 데이터 레이어는 플랫폼에 구애받지 않지만, AEM에서 사용할 수 있도록 핵심 구성 요소에 완전히 통합되어 있습니다.
 
-핵심 구성 요소와 마찬가지로 Adobe 클라이언트 데이터 레이어용 코드는 개발자 설명서와 함께 GitHub에서 사용할 수 있습니다. 이 문서는 핵심 구성 요소가 데이터 레이어와 인터렉션하는 방법에 대한 개요를 제공하지만 전체 기술 정보는 GitHub 문서를 기반으로 합니다.
+핵심 구성 요소와 마찬가지로 Adobe 클라이언트 데이터 레이어용 코드는 개발자 설명서와 함께 GitHub에서 사용할 수 있습니다. 이 문서는 핵심 구성 요소가 데이터 레이어와 상호 작용하는 방법에 대한 개요를 제공하지만 전체 기술 세부 사항은 GitHub 문서로 미루어집니다.
 
 >[!TIP]
 >
@@ -78,7 +93,7 @@ Adobe 클라이언트 데이터 레이어는 독립적인 플랫폼이지만 핵
        </script>
    ```
 
-1. 브라우저의 개발자 도구를 열 수도 있고 콘솔에서 `adobeDataLayer` JavaScript 오브젝트를 사용해야 합니다. 현재 페이지의 데이터 레이어 상태를 다운로드하려면 다음 명령을 입력합니다.
+1. 브라우저의 개발자 도구를 열 수도 있고 콘솔에서 `adobeDataLayer` JavaScript 오브젝트를 사용해야 합니다. 현재 페이지의 데이터 레이어 상태를 가져오려면 다음 명령을 입력합니다.
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -275,9 +290,9 @@ id: {
 
 ## 핵심 구성 요소 이벤트 {#events}
 
-데이터 레이어를 통해 핵심 구성 요소가 트리거하는 여러 이벤트가 있습니다. 데이터 래이어와 인터렉션하는 가장 좋은 방법은 [이벤트 리스너를 등록](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)한 *다음* 이벤트 유형 및/또는 이벤트를 트리거하는 구성 요소에 따라 조치를 취하는 것입니다. 이로써 비동기 스크립트로 잠재적 경합 조건을 방지할 수 있습니다.
+데이터 레이어를 통해 핵심 구성 요소가 트리거하는 여러 이벤트가 있습니다. 데이터 래이어와 인터렉션하는 가장 좋은 방법은 [이벤트 리스너를 등록](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)한 *다음* 이벤트 유형 및/또는 이벤트를 트리거하는 구성 요소에 따라 조치를 취하는 것입니다. 이렇게 하면 비동기 스크립트로 인한 잠재적인 경합 조건을 방지할 수 있습니다.
 
-다음은 AEM 핵심 구성 요소에서 제공하는 박스 이벤트의 외부입니다.
+다음은 AEM 핵심 구성 요소에서 기본적으로 제공하는 이벤트입니다.
 
 * **`cmp:click`** - 클릭 가능한 요소(`data-cmp-clickable` 속성을 가진 요소)를 클릭하면 데이터 레이어가 `cmp:click` 이벤트를 트리거할 수 있습니다.
 * **`cmp:show`** 및 **`cmp:hide`** - 아코디언(확장/축소), 슬라이드(다음/이전 버튼)와 탭(탭 선택) 구성 요소를 조작하면 데이터 레이어가 `cmp:show` 및 `cmp:hide` 이벤트를 각각 트리거할 수 있습니다. 또한 페이지 로드에서 `cmp:show` 이벤트를 발송하면 첫 번째 이벤트가 될 수 있습니다.

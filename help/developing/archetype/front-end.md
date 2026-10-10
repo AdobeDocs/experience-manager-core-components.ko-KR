@@ -4,23 +4,35 @@ description: AEM Project Archetype의 Webpack 기반 전용 프론트엔드 빌�
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-TQID: https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4
+TQID: 'https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 710
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
+workflow-type: tm+mt
+source-wordcount: '710'
 ht-degree: 100%
-
 ---
-
 # AEM Project Archetype을 사용한 프론트엔드 개발 {#front-end}
 
-AEM Project Archetype에는 Webpack 기반의 전용 프론트엔드 빌드 메커니즘(선택 사항)이 포함됩니다. 이에 ui.frontend 모듈은 JavaScript 및 CSS가 포함된 모든 프로젝트 프론트엔드 리소스의 중앙 위치가 됩니다. 이 유용하고 유연한 기능을 최대한 활용하려면 프론트엔드 개발이 AEM 프로젝트에 얼마나 적합한지 이해하는 것이 중요합니다.
+AEM Project Archetype에는 Webpack 기반의 전용 프론트엔드 빌드 메커니즘(선택 사항)이 포함됩니다. 이에 ui.frontend 모듈은 JavaScript 및 CSS 파일을 포함하여 프로젝트의 모든 프론트엔드 리소스를 위한 중앙 위치가 됩니다. 이 유용하고 유연한 기능을 최대한 활용하려면 프론트엔드 개발이 AEM 프로젝트에 어떻게 들어맞는지 이해하는 것이 중요합니다.
 
 이 문서에서는 프론트엔드 빌드 모듈의 일반적인 사용 패턴과 그 역할에 중점을 둡니다. 자세한 빌드 옵션 및 기술 지침은 해당 Archetype의 GitHub 저장소에 있는 설명서를 참조하십시오.
 
@@ -32,10 +44,10 @@ AEM Project Archetype에는 Webpack 기반의 전용 프론트엔드 빌드 메�
 
 간단히 정리하면 AEM 프로젝트는 별도로 구성된 2개의 부분이 서로 관련된 것으로 생각할 수 있습니다.
 
-* AEM 논리를 유도하고 Java 라이브러리, OSGi 서비스 등을 생성하는 백엔드 개발
-* 결과 웹 프레젠테이션 및 비헤이비어를 유도하고 JavaScript 및 CSS 라이브러리를 생성하는 프론트엔드 개발
+* AEM의 논리를 구동하고 Java 라이브러리, OSGi 서비스 등을 생성하는 백엔드 개발
+* 결과 웹 사이트의 표현과 동작을 좌우하고 JavaScript 및 CSS 라이브러리를 생성하는 프론트엔드 개발
 
-이 두 가지 개발 프로세스가 프로젝트의 서로 다른 부분에 중점을 두기 때문에 백엔드 및 프론트엔드 개발이 동시에 발생할 수 있습니다.
+이 두 가지 개발 프로세스는 프로젝트의 서로 다른 부분에 중점을 두기 때문에 백엔드 및 프론트엔드 개발을 병행할 수 있습니다.
 
 ![프론트엔드 워크플로 다이어그램](/help/assets/front-end-flow.png)
 
@@ -47,18 +59,18 @@ AEM Project Archetype에는 Webpack 기반의 전용 프론트엔드 빌드 메�
 
 ## 가능한 프론트엔드 개발 워크플로 {#possible-workflows}
 
-프론트엔드 빌드 모듈은 유용하고 매우 유연한 도구이지만 사용 방법에 대해서는 특별한 의견을 제시하지 않습니다. 다음은 사용량에 대한 2가지 *가능한* 사례이지만 개별 프로젝트는 다른 사용 모델을 보여 줄 수 있습니다.
+프론트엔드 빌드 모듈은 유용하고 매우 유연한 도구이지만 사용 방법에 대해 특정한 방식을 강요하지는 않습니다. 다음은 사용량에 대한 2가지 *가능한* 사례이지만 개별 프로젝트는 다른 사용 모델을 보여 줄 수 있습니다.
 
 ### Webpack 정적 개발 서버 사용 {#using-webpack}
 
-ui.frontend 모듈 내 AEM 웹 페이지의 정적 출력 기반으로 Webpack을 사용하여 스타일링하고 개발할 수 있습니다.
+ui.frontend 모듈 내에서 AEM 웹 페이지의 정적 출력을 기반으로 Webpack을 사용하여 스타일링하고 개발할 수 있습니다.
 
 1. 페이지 미리보기 모드를 사용하거나 URL로 `wcmmode=disabled`를 전달하면서 AEM의 페이지 미리보기
 1. 페이지 소스를 보고 ui.frontend 모듈 내 정적 HTML로 저장합니다.
 1. [Webpack 시작](#webpack-dev-server) 후 필수 JavaScript와 CSS 스타일링 및 생성을 시작합니다.
 1. `npm run dev`를 실행하여 clientlib를 생성합니다.
 
-이 흐름에서 AEM 개발자는 단계 1, 2를 수행하고, 정적 HTML을 AEM HTML 출력에 따라 개발한 프론트엔드 개발자에게 전달할 수 있습니다.
+이 흐름에서 AEM 개발자는 단계 1과 2를 수행하고, AEM HTML 출력에 따라 개발하는 프론트엔드 개발자에게 정적 HTML을 전달할 수 있습니다.
 
 >[!TIP]
 >
@@ -82,7 +94,7 @@ clientlib는 다음 파일과 디렉터리로 구성됩니다.
 * `css.txt`: 파일이 병합될 수 있도록 AEM에 지시하고 `css/` 파일 이름을 알려 줍니다.
 * `js/`: HTML로 요청될 수 있는 JavaScript 파일
 * `js.txt` 파일이 병합될 수 있도록 AEM에 지시하고 `js/` 파일 이름을 알려 줍니다.
-* `resources/`: 소스 맵, 비-진입점 코드 청크(코드 분할이 원인), 정적 에셋(예: 아이콘) 등
+* `resources/`: 소스 맵, 비-진입점 코드 청크(코드 분할이 원인), 정적 자산(예: 아이콘) 등
 
 >[!TIP]
 >

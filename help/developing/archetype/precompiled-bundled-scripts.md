@@ -4,24 +4,37 @@ description: OSGi 번들을 통해 구성 요소 스크립트를 Adobe Experienc
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-TQID: https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0
+TQID: 'https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Metadata
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: '416'
 ht-degree: 100%
-
 ---
-
 # 미리 컴파일된 번들형 스크립트 {#precompiled-bundled-scripts}
 
 AEM as a Cloud Service는 미리 컴파일된 번들형 스크립트로 [`ui.apps` 구성 요소 스크립트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ko#code-packages-%2F-osgi-bundles)를 지원합니다. 이렇게 하면 개발자는 작성 시간에 스크립트를 미리 컴파일하고 OSGi 번들로 패키징할 수 있습니다.
@@ -30,7 +43,7 @@ AEM as a Cloud Service는 미리 컴파일된 번들형 스크립트로 [`ui.app
 
 미리 컴파일된 번들형 스크립트로 스크립트를 배포하면 다음과 같은 혜택을 누릴 수 있습니다.
 
-+ 작성 시간에 스크립트를 컴파일하면 개발자는 개발 프로세스에서 오류를 조기에 탐색할 수 있습니다.
++ 빌드 시간에 스크립트를 컴파일하면 개발자는 개발 프로세스 초기에 오류를 발견할 수 있습니다.
 + Java API 스크립트 종속 항목이 `Import-Package` 및 `Export-Package` 번들 헤더를 통해 명시적으로 정의됩니다.
 + 상속(`sling:resourceSuperType`을 통해) 및 기타 리소스 유형(예: HTL의 `data-sly-resource` 블록 요소나 `sling:include` JSP 태그를 통해)으로의 전달이 번들의 메타데이터를 통해 매핑될 수 있습니다.
 + 리소스 유형 버전 관리가 이와 유사한 방식으로 Java API에 적용될 수 있습니다.

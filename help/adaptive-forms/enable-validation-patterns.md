@@ -3,13 +3,16 @@ title: Adobe Experience Manager 적응형 양식에서 텍스트 입력 유효�
 description: 전화번호, 사회 보장 번호, 우편 번호와 같은 유효성 검사 패턴을 노출하도록 템플릿 정책을 구성한 후 해당 패턴을 적응형 양식에 사용하는 방법을 알아봅니다.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # Adobe Experience Manager 적응형 양식에서 텍스트 입력 유효성 검사 패턴 활성화 및 사용
 
 ## 개요
@@ -113,13 +116,13 @@ Adobe Experience Manager Forms에서는 텍스트 입력 구성 요소에 대한
 ## 문제 해결
 
 - **문제:** 유효성 검사 패턴이 양식 구성 요소에 나타나지 않습니다.
-   - **해결 방법:** 템플릿 정책이 올바르게 저장되었으며 양식을 만들 때 올바른 템플릿을 사용하고 있는지 확인하십시오.
+  - **해결 방법:** 템플릿 정책이 올바르게 저장되었으며 양식을 만들 때 올바른 템플릿을 사용하고 있는지 확인하십시오.
 
 - **문제:** 템플릿 편집기에 액세스할 수 없습니다.
-   - **해결 방법:** 템플릿을 편집하는 데 필요한 권한(`template-authors` 그룹의 구성원)이 있는지 확인하십시오.
+  - **해결 방법:** 템플릿을 편집하는 데 필요한 권한(`template-authors` 그룹의 구성원)이 있는지 확인하십시오.
 
 - **문제:** 텍스트 입력 구성 요소가 입력의 유효성을 올바르게 검사하지 않습니다.
-   - **해결 방법:** 구성 요소의 유효성 검사 탭에서 유효성 검사 패턴 설정을 다시 확인하고 올바른 패턴이 선택되어 있는지 확인하십시오.
+  - **해결 방법:** 구성 요소의 유효성 검사 탭에서 유효성 검사 패턴 설정을 다시 확인하고 올바른 패턴이 선택되어 있는지 확인하십시오.
 
 ## 다음 단계
 

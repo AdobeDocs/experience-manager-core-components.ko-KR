@@ -4,36 +4,46 @@ description: Adobe 클라이언트 데이터와 맞춤형 구성 요소를 통�
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-TQID: https://experienceleague.adobe.com/xncfOtz1FNyeH6CjQjg7cSeIonIg2mkBIPUgZvMI7Ww
+TQID: 'https://experienceleague.adobe.com/xncfOtz1FNyeH6CjQjg7cSeIonIg2mkBIPUgZvMI7Ww'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 424
+    internal-label: Insights
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
-
 ---
-
 # Adobe 클라이언트 데이터 레이어와 통합 {#integrations}
 
-Adobe 클라이언트 데이터 레이어는 스크립트용 데이터 노출 및 사용을 위한 표준화된 방법을 제공하여 웹 사이트를 측정하는 수고를 줄여 줍니다.
+Adobe 클라이언트 데이터 레이어는 모든 스크립트에 대해 모든 종류의 데이터를 노출하고 액세스할 수 있는 표준화된 방법을 제공하여 웹 사이트를 측정하는 수고를 줄여 줍니다.
 
 Adobe 클라이언트 데이터와 맞춤형 구성 요소를 통합할 수 있고 Adobe Analytics와 Adobe Target의 통합 기능으로 웹 사이트에 대한 인사이트를 얻을 수 있습니다.
 
 ## 맞춤형 구성 요소에 대한 데이터 레이어를 활성화합니다. {#enabling-custom-components}
 
-맞춤형 구성 요소를 데이터 레이어에 자동 추가하려면
+사용자 정의 구성 요소를 데이터 레이어에 자동 추가하려면
 
 1. 추적할 맞춤형 구성 요소 모델의 속성을 정의합니다.
 1. `data-cmp-data-layer` 속성을 사용자 정의 구성 요소 HTL에 추가합니다. 예: `data-cmp-data-layer="${mycomponent.data.json}"`.
@@ -48,7 +58,7 @@ Adobe 클라이언트 데이터와 맞춤형 구성 요소를 통합할 수 있�
 
 ## Adobe Analytics와 Adobe Target 통합 {#analytics-target}
 
-Adobe Analytics와 Adobe Target가 결합되면 Adobe 클라이언트 데이터 레이어는 디지털 경험에 대한 인사이트를 확보할 수 있는 매우 강력하고 유연한 도구가 됩니다. 다음 튜토리얼은 통합 과정의 예를 보여 줍니다.
+Adobe Analytics와 Adobe Target이 결합되면 Adobe 클라이언트 데이터 레이어는 디지털 경험에 대한 인사이트를 얻기 위한 매우 강력하고 유연한 도구 세트의 기반이 됩니다. 다음 튜토리얼은 통합 과정의 예를 보여 줍니다.
 
 ### Adobe Analytics로 페이지 데이터를 수집합니다. {#collect-page-data}
 
@@ -58,6 +68,6 @@ AEM 핵심 구성 요소로 Adobe 클라이언트 데이터 레이어의 기본 
 
 ### Adobe Analytics로 구성 요소를 클릭 추적 {#track-clicked-components}
 
-이벤트 중심의 Adobe 클라이언트 데이터 레이어를 AEM 핵심 구성 요소와 함께 사용하여 Adobe Experience Manager Site에서 특정 구성 요소의 클릭 수를 추적합니다. Experience Platform Launch의 규칙을 사용하여 클릭 이벤트를 수신하고, 구성 요소로 필터링하고 추적 링크 비콘으로 데이터를 Adobe Analytics로 전송하는 방법에 대해 알아봅니다.
+이벤트 중심의 Adobe 클라이언트 데이터 레이어를 AEM 핵심 구성 요소와 함께 사용하여 Adobe Experience Manager 사이트에서 특정 구성 요소의 클릭 수를 추적합니다. Experience Platform Launch의 규칙을 사용하여 클릭 이벤트를 수신하고, 구성 요소별로 필터링하고 추적 링크 비콘을 사용해 데이터를 Adobe Analytics에 전송하는 방법에 대해 알아봅니다.
 
 [여기서 튜토리얼을 조회합니다.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=ko)

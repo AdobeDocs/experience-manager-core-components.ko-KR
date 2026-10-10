@@ -4,27 +4,39 @@ description: AEM Project Archetype을 사용하여 사용자 자신의 AEM 프�
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
+TQID: 'https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 1326
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
+workflow-type: tm+mt
+source-wordcount: '1326'
 ht-degree: 100%
-
 ---
-
 # AEM Project Archetype 사용 {#using-the-archetype}
 
 이 문서에서는 AEM Project Archetype을 사용하여 사용자 자신의 AEM 프로젝트의 시작점으로서 모범 사례 기반 Adobe Experience Manager 프로젝트를 생성하는 방법에 대해 설명합니다.
 
-여기에서는 일반적인 사용 패턴과 Archetype이 사용자에게 미치는 영향에 중점을 둡니다. 자세한 빌드 옵션 및 기술 지침은 해당 Archetype의 GitHub 저장소에 있는 설명서를 참조하십시오.
+여기에서는 일반적인 사용 패턴과 아키타입이 사용자에게 제공하는 기능에 중점을 둡니다. 자세한 빌드 옵션 및 기술 지침은 해당 Archetype의 GitHub 저장소에 있는 설명서를 참조하십시오.
 
 >[!TIP]
 >
@@ -32,7 +44,7 @@ ht-degree: 100%
 
 ## 시작하기 {#getting-started}
 
-Project Archetype을 통해 AEM에서 개발 시작하기가 수월해집니다. Archetype을 사용하여 여러 방식으로 첫 단계를 수행할 수 있습니다.
+Project Archetype을 통해 AEM에서 개발 시작하기가 수월해집니다. 아키타입을 사용하여 여러 방식으로 시작할 수 있습니다.
 
 * **WKND 튜토리얼** - Archetype을 활용하는 방법 등 도입된 AEM 개발에 대한 실용적인 예제(Archetype 사용을 통한 간단한 프로젝트 구현하기에 대한 안내)를 알아보려면 [AEM Sites 시작하기 - WKND 튜토리얼](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ko)을 참조하십시오.
 * **WKND 이벤트 튜토리얼** - AEM에서 단일 페이지 애플리케이션(SPA) 개발에 관심이 있다면 전용 [WKND 이벤트 튜토리얼](https://helpx.adobe.com/kr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)에 대해 자세히 알아보십시오.
@@ -46,7 +58,7 @@ Archetype을 사용하는 첫 번째 단계는 로컬 파일 구조에 [모듈](
 >
 >Archetype을 빌드할 때마다 [아래에 링크된](#what-you-get) 각 모듈의 기술 세부 사항과 사용법을 제공하는 일련의 추가 정보도 생성됩니다.
 
-Maven과 함께 프로젝트를 빌드하면 AEM으로 배포 가능한 아티팩트(패키지 및 OSGi 번들)를 제작할 수 있습니다. 추가 Maven 명령 및 프로필을 사용하여 프로젝트 아티팩트를 AEM으로 배포할 수 있습니다.
+Maven으로 프로젝트를 빌드하면 AEM에 배포할 수 있는 아티팩트(패키지 및 OSGi 번들)가 생성됩니다. 추가 Maven 명령 및 프로필을 사용하여 프로젝트 아티팩트를 AEM 인스턴스에 배포할 수 있습니다.
 
 ## Archetype을 통해 누릴 수 있는 혜택 {#what-you-get}
 
@@ -67,7 +79,7 @@ Archetype은 모듈로 구성되며, 이 모듈은 모두 Archetype을 사용할
 
 ![콘텐츠 패키지 구성](/help/assets/content-package-organization.png)
 
-애플리케이션, 콘텐츠와 필요한 OSGi 번들을 표시하는 콘텐츠 패키지로서 Maven에 표시된 Archetype의 모듈을 AEM으로 배포합니다.
+Maven에 표시된 아키타입의 모듈은 애플리케이션, 콘텐츠 및 필요한 OSGi 번들을 나타내는 콘텐츠 패키지로 AEM에 배포됩니다.
 
 ## 상위 POM {#parent-pom}
 
@@ -77,7 +89,7 @@ Archetype은 모듈로 구성되며, 이 모듈은 모두 Archetype을 사용할
 
 상위 POM의 `<properties>` 섹션은 AEM 인스턴스에서 프로젝트를 구현하는 데 중요한 몇 가지 전역 속성(예: 사용자 이름/암호, 호스트 이름/포트 등)을 정의합니다.
 
-이 속성을 설정하여 로컬 AEM 인스턴스로 배포합니다. 이는 개발자가 수행할 수 있는 가장 일반적인 빌드입니다. 작성자 인스턴스와 게시 인스턴스에 배포되는 속성이 있습니다. 여기서 자격 증명을 설정하여 AEM 인스턴스를 인증합니다. 기본 `admin:admin` 자격 증명이 사용됩니다.
+이 속성을 설정하여 로컬 AEM 인스턴스로 배포합니다. 이는 개발자가 수행할 수 있는 가장 일반적인 빌드입니다. 작성자 인스턴스와 게시 인스턴스에 배포하기 위한 속성도 있습니다. 여기서 자격 증명을 설정하여 AEM 인스턴스에 인증합니다. 기본 `admin:admin` 자격 증명이 사용됩니다.
 
 상위 수준의 환경에 배포할 때 이러한 속성이 재정의될 수 있도록 설정합니다. 이러한 방식으로 POM 파일은 변경될 수 없지만 `aem.host` 및 `sling.password`와 같은 변수는 다음 명령줄 인수를 통해 재정의될 수 있습니다.
 
@@ -87,7 +99,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 모듈 구조 {#module-structure}
 
-상위 POM의 `<modules>` 섹션은 프로젝트가 빌드할 모듈을 정의합니다. 기본적으로 프로젝트는 [이전에 정의된 표준 모듈](#what-you-get)을 빌드합니다. 프로젝트가 커지면 언제든지 모듈을 추가할 수 있습니다.
+상위 POM의 `<modules>` 섹션은 프로젝트가 빌드할 모듈을 정의합니다. 기본적으로 프로젝트는 [이전에 정의된 표준 모듈](#what-you-get)을 빌드합니다. 프로젝트가 발전함에 따라 언제든지 모듈을 추가할 수 있습니다.
 
 ### 종속성 {#dependencies}
 
@@ -95,15 +107,15 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-주요 종속성 중 하나는 [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ko)입니다. AEM 버전용 단일 종속성 목록이 있는 모든 AEM API가 여기에 포함됩니다.
+주요 종속성 중 하나는 [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ko)입니다. 여기에는 AEM 버전에 대한 단일 종속 항목만으로 모든 AEM API가 포함됩니다.
 
 >[!NOTE]
 >
->AEM의 대상 버전에 일치하는 uber-jar 버전을 업데이트하는 것이 좋습니다. 예를 들어 AEM 6.5에 배포하려는 경우 uber-jar 버전을 6.5.X로 업데이트해야 합니다(`X`는 최신 서비스 팩).
+>모범 사례로, uber-jar 버전을 AEM의 대상 버전에 맞게 업데이트하는 것이 좋습니다. 예를 들어 AEM 6.5에 배포하려는 경우 uber-jar 버전을 6.5.X로 업데이트해야 합니다(`X`는 최신 서비스 팩).
 
 #### 핵심 구성 요소 {#core-components}
 
-Archetype은 [핵심 구성 요소](/help/introduction.md)를 활용합니다. 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 Maven 프로젝트의 일부로 포함시키는 것이 좋습니다.
+Archetype은 [핵심 구성 요소](/help/introduction.md)를 활용합니다. 따라서 모든 배포에서 핵심 구성 요소를 활용하려면 Maven 프로젝트의 일부로 포함시키는 것이 모범 사례입니다.
 
 core.wcm.components.예제는 핵심 구성 요소의 예제를 나타내는 샘플 페이지 세트입니다. 프로덕션용 프로젝트를 배포할 때 이 종속성과 하위 패키지 포함을 제거하는 것이 좋습니다.
 
