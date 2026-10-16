@@ -42,7 +42,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 
 ## 리소스 {#resources}
 
-* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
+* **[구성 요소 라이브러리:](https://www.adobe.com/go/aem_cmp_library_kr)** 다양한 구성으로 구성 요소를 확인할 수 있는 예제 컬렉션
 * **구성 요소 설명서(본 문서):** 개발자 및 작성자용(각 구성 요소에 대한 세부 정보 포함)
 * **[핵심 구성 요소 GitHub 저장소:](https://github.com/adobe/aem-core-wcm-components)** 개발자용(각 구성 요소에 대한 세부 정보 및 프로젝트 다운로드 포함)
 * 시작하기:
@@ -58,7 +58,7 @@ Adobe Experience Manager에서 구성 요소는 작성 중인 페이지의 콘�
 | 프로덕션 준비 완료 | 핵심 구성 요소는 충분한 테스트를 받고, 용도가 다양하고 성능이 탁월한 30개의 강력한 WCM 구성 요소입니다. |
 | 클라우드 기반 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 또는 온프레미스 등 어디에 있든 작동합니다. |
 | 유연성 | 구성 요소는 작성자가 거의 모든 레이아웃을 조합할 수 있는 일반적인 개념을 나타냅니다. |
-| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
+| 구성 가능 | 템플릿 수준의 [콘텐츠 정책](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ko&#content-policies)은 페이지 작성자가 사용하거나 사용할 수 없는 기능을 정의합니다. |
 | [반응형](responsive.md) | 모든 핵심 구성 요소는 완벽하게 반응하도록 설계되어 여러 장치에서 원활한 경험을 보장합니다. |
 | 추적 가능 | [Adobe 클라이언트 데이터 레이어](/help/developing/data-layer/overview.md) 통합 기능을 통해 모든 측면의 방문자 경험을 추적할 수 있습니다. |
 | 액세스 가능 | [WCAG 2.1 표준](https://www.w3.org/TR/WCAG21/)을 준수하고 ARIA 레이블을 제공하며 키보드 탐색을 지원합니다([알려진 문제](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
