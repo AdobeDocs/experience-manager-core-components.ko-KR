@@ -6,31 +6,41 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 4308
-ht-degree: 94%
-
+source-wordcount: '4354'
+ht-degree: 93%
 ---
-
 # 핵심 구성 요소 버전 {#core-components-versions}
 
-핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ko) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
+핵심 구성 요소는 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 및 [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ko) 설치와 호환됩니다.
 
 ## 릴리스 내역 및 호환성 {#release-history-and-compatibility}
 
@@ -44,6 +54,7 @@ ht-degree: 94%
 
 | 릴리스 | 설명 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 릴리스 일자 |
 |---|---|---|---|---|---|---|---|
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | 이 릴리스는 콘텐츠 조각 관련 구성 요소에 대한 여러 개선 사항을 해결하며 [콘텐츠 AI 검색 구성 요소 버전 2를 도입합니다.](/help/components/ai-search.md) | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 10월 5일 |
 | [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | 이 릴리스를 통해 AMS에서 [콘텐츠 AI 검색 구성 요소](/help/components/ai-search.md)를 사용할 수 있습니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 9월 8일 |
 | [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | 이 릴리스는 버그 수정을 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 8월 10일 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 이 릴리스는 버그 수정을 해결합니다. | - | 6.5.21.0+ | 6.5 LTS GA | 반복 | 8, 11, 17, 21 | 2026년 7월 15일 |
